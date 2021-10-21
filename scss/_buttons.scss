@@ -1,0 +1,167 @@
+.btn-link {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  @extend .shadow-none;
+  @extend .bg-transparent;
+  @extend .border-0;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-accent,
+.btn-success,
+.btn-danger,
+.btn-warning,
+.btn-info,
+.btn-ui,
+.btn-ui-priority,
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-accent,
+.btn-outline-success,
+.btn-outline-info,
+.btn-outline-warning,
+.btn-outline-danger,
+.btn-outline-ui,
+.btn-outline-ui-priority {
+  box-shadow: 0 2px 0 0 fade-out($ui, 0.38);
+
+  &:hover,
+  &:active {
+    &:not(.disabled) {
+      box-shadow: 0 4px 0 0 fade-out($ui, 0.62);
+    }
+  }
+}
+
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-accent,
+.btn-outline-success,
+.btn-outline-info,
+.btn-outline-warning,
+.btn-outline-danger,
+.btn-outline-ui,
+.btn-outline-ui-priority {
+  background-color: $white;
+}
+
+.btn-secondary,
+.btn-warning {
+  color: $black;
+}
+
+.btn-container {
+  padding: $spacer * 0.5;
+  margin-top: $spacer;
+  margin-bottom: $spacer;
+  background-color: $white;
+  border: 2px solid $border-color;
+  border-radius: $spacer * 0.5;
+}
+
+.btn-card-corner {
+  @extend .position-absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.btn-card-edit {
+  @extend .position-absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}
+
+.btn-add-this {
+  @extend .btn;
+  @extend .btn-ui;
+  @extend .btn-block;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+  @extend .py-2;
+  @extend .my-2;
+  @extend .mb-0;
+  @extend .shadow-none;
+  background-color: transparent;
+  border: 2px dashed $gray-600;
+
+  div {
+    background-color: $ui;
+    @extend .rounded-lg;
+    @extend .py-2;
+    @extend .px-3;
+  }
+
+  &:hover,
+  &:active {
+    background-color: fade-out($ui, 0.75);
+  }
+}
+
+.share-this {
+  @extend .text-center;
+  @extend .bg-white;
+  @extend .p-4;
+
+  small {
+    @extend .small;
+    @extend .mb-2;
+    @extend .d-block;
+  }
+
+  a {
+    @extend .btn;
+    @extend .btn-link;
+    @extend .btn-lg;
+    @extend .bg-white;
+    @extend .px-2;
+  }
+}
+
+a.btn {
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    text-decoration: inherit;
+  }
+}
+
+// putting focus appearances here because bootstrap defines elements' focus across scss
+// partials, and for brevity, i am putting them here
+// judge me later
+button,
+.btn,
+.btn-link.border-0,
+.form-control,
+.custom-select,
+.custom-control-switch,
+a[role="button"],
+a.nav-link,
+.skip-to-main,
+.page-link,
+.breadcrumb-item a,
+th a,
+summary,
+.brand-link,
+p a {
+  &:focus,
+  &.focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0.25rem;
+  }
+}
+
+#ScrollToTop {
+  @extend .position-fixed;
+  right: $spacer * 2;
+  bottom: $spacer * 5;
+  z-index: $zindex-scroll-to-top;
+
+  @include media-breakpoint-up(md) {
+    bottom: $spacer * 5;
+  }
+}

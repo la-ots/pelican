@@ -1,0 +1,64 @@
+// Animated Loader
+@keyframes loadingAnimation {
+  0% {
+    top: 53.76px;
+    left: 53.76px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 28.16px;
+    left: 28.16px;
+    width: 51.2px;
+    height: 51.2px;
+    opacity: 0;
+  }
+}
+
+.loading-animation-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.loading-animation {
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+}
+
+.loading-animation-content div {
+  position: absolute;
+  box-sizing: content-box;
+  border-style: solid;
+  border-width: 10.24px;
+  border-radius: 50%;
+  opacity: 1;
+  animation: loadingAnimation 1.33s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.loading-animation-content div:nth-child(1) {
+  border-color: $loader-main-color;
+}
+
+.loading-animation-content div:nth-child(2) {
+  border-color: $loader-secondary-color;
+  animation-delay: -0.66s;
+}
+
+.loading-animation-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+
+.text-decoration-underline {
+  text-decoration: underline;
+}

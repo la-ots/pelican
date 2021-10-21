@@ -1,0 +1,38 @@
+.breadcrumb-wrap {
+  display: block;
+  background-color: $white;
+  border-bottom: 1px solid $primary-10;
+}
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: $breadcrumb-padding-y $breadcrumb-padding-x;
+  margin-bottom: $breadcrumb-margin-bottom;
+  @include font-size($breadcrumb-font-size);
+  list-style: none;
+  background-color: $breadcrumb-bg;
+  background-color: $white;
+  @include border-radius($breadcrumb-border-radius);
+  @extend .rounded-0;
+  @extend .border-0;
+}
+
+.breadcrumb-item {
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+
+  &.active {
+    color: $body-color;
+
+    .fas {
+      margin: 3px 0 0 4px;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.toc {
+  ul,
+  ol,
+  li {
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  > ul,
+  > ol {
+    padding-left: 16px;
+    margin-bottom: 0;
+  }
+
+  li {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -20px;
+      width: 16px;
+      content: "↓";
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover,
+      &:active {
+        color: $link-color;
+        text-decoration: none;
+      }
+    }
+  }
+}

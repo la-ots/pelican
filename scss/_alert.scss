@@ -1,0 +1,59 @@
+.alert-warning {
+  color: $warning-90;
+  background-color: $warning-10;
+  border: $warning-90 $border-style $border-width;
+
+  .alert-link {
+    color: $warning-90;
+  }
+
+  .close {
+    color: $warning-90;
+    opacity: 1;
+  }
+}
+
+.alert-danger {
+  color: $danger-90;
+  background-color: $danger-10;
+  border: $danger-90 $border-style $border-width;
+
+  .alert-link {
+    color: $danger-90;
+  }
+
+  .close {
+    color: $danger-90;
+    opacity: 1;
+  }
+}
+
+.alert-success {
+  color: $success-90;
+  background-color: $success-10;
+  border: $success-90 $border-style $border-width;
+
+  .alert-link {
+    color: $success-90;
+  }
+
+  .close {
+    color: $success-90;
+    opacity: 1;
+  }
+}
+
+.alert-info {
+  color: $info-90;
+  background-color: $info-10;
+  border: $info-90 $border-style $border-width;
+
+  .alert-link {
+    color: $info-90;
+  }
+
+  .close {
+    color: $info-90;
+    opacity: 1;
+  }
+}

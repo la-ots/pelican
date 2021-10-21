@@ -1,0 +1,15 @@
+.input-group > .input-group-prepend > .btn {
+  border-top-left-radius: $input-border-radius;
+  border-bottom-left-radius: $input-border-radius;
+}
+
+.input-group > .input-group-append > .btn {
+  border-top-right-radius: $input-border-radius;
+  border-bottom-right-radius: $input-border-radius;
+}
+
+.input-group {
+  .btn {
+    box-shadow: none;
+  }
+}

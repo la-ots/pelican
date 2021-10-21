@@ -1,0 +1,261 @@
+.skip-to-main {
+  position: absolute;
+  top: 0;
+  left: -220px;
+  z-index: $zindex-skip-to-main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 44px;
+  color: $primary;
+  background-color: $white;
+  border-bottom-right-radius: $spacer;
+  transition: $transition-base;
+
+  &:active,
+  &:focus {
+    left: 0;
+  }
+}
+
+.wrapper-main {
+  position: relative;
+  height: 100vh;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.official-banner {
+  @extend .bg-black;
+  @extend .text-white;
+  @extend .border-black;
+  @extend .border-bottom;
+
+  .container-fluid {
+    @extend .py-1;
+  }
+}
+
+::selection,
+::-moz-selection {
+  background-color: lighten($secondary, 35%);
+  border-radius: 16px;
+}
+
+.wrapper-topbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 40px;
+  padding: ($spacer * 0.25) ($spacer * 0.5);
+  color: #fff;
+  background-color: #000;
+
+  @include media-breakpoint-up(lg) {
+    justify-content: flex-start;
+  }
+}
+
+.page-header {
+  background-color: $white;
+  border-bottom: $border-width $border-style $border-color;
+  border-radius: 0;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: $spacer * 2;
+    padding-bottom: $spacer * 2;
+  }
+}
+
+.page-title {
+  border: 0;
+  border-bottom: $border-width $border-style $border-color;
+  @extend .shadow-sm;
+}
+
+.content-container {
+  @extend .bg-white;
+  @extend .shadow-sm;
+  border-radius: 4px;
+}
+
+.form-fieldset,
+.page-area,
+.white-container-box {
+  padding-top: $spacer;
+  padding-bottom: $spacer;
+  margin-top: $spacer;
+  margin-bottom: $spacer;
+  background-color: $card-bg;
+  border-bottom: $border-width $border-style $border-color;
+  border-radius: $border-radius;
+}
+
+.page-area {
+  padding-bottom: 0;
+}
+
+.validation-summary-errors {
+  @extend .alert-danger;
+  margin: ($spacer * 0.5) 0;
+  background-color: fade-out($danger, 0.9);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f6727c' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  border-radius: $spacer * 0.25;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    padding: ($spacer * 0.25) ($spacer * 0.5) ($spacer * 0.25) ($spacer * 1.25);
+
+    &::before {
+      position: absolute;
+      top: $spacer * 0.25;
+      left: $spacer * 0.25;
+      width: $spacer * 1.5;
+      height: $spacer * 1.5;
+      font-family: "Font Awesome 5 Free";
+      color: inherit;
+      content: "\f056";
+    }
+  }
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-62 {
+  opacity: 0.62;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-85 {
+  opacity: 0.85;
+}
+
+.opacity-95 {
+  opacity: 0.95;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.flip-x {
+  transform: scaleX(-1);
+}
+
+.overlay {
+  + * {
+    z-index: 2;
+  }
+}
+
+.overlay-left {
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  left: 0;
+
+  @media screen and (min-width: 992px) {
+    top: 0;
+    right: 50%;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.overlay-right {
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  @media screen and (min-width: 992px) {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+  }
+}
+
+.border-dashed {
+  border: $border-width dashed $border-color;
+}
+
+.cookie-banner {
+  z-index: $zindex-cookie-banner;
+}
+
+.page-link {
+  border: 1px solid $input-border-color;
+}
+
+.white-box {
+  border: 1px solid $gray-300;
+}
+
+.grey-box {
+  padding: $spacer;
+  background-color: $gray-100;
+  border: 2px solid $gray-400;
+  border-radius: $border-radius;
+}
+
+.white-box,
+.form-fieldset {
+  @extend .bg-white;
+  padding: ($spacer * 1.5) $spacer;
+  margin-bottom: $spacer;
+  border-bottom: $border-width $border-style $border-color;
+  border-radius: $border-radius;
+  @extend .shadow-sm;
+
+  @include media-breakpoint-up(xl) {
+    padding-right: ($spacer * 4);
+    padding-left: ($spacer * 4);
+  }
+}
+
+.bg-less-bright {
+  background-color: $less-bright;
+}
+
+iframe {
+  margin: $spacer 0 ($spacer * 2);
+  @extend .position-relative;
+}
+
+.text-wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}

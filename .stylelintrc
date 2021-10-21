@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "extends": [
+    "stylelint-config-twbs-bootstrap/scss"
+  ],
+  "rules": {
+    "prettier/prettier": true,
+    "declaration-property-value-disallowed-list": {
+      "border": "none",
+      "outline": "none"
+    },
+    "number-leading-zero": "always",
+    "scss/dollar-variable-default": [
+      true,
+      {
+        "ignore": "local"
+      }
+    ],
+    "scss/selector-no-union-class-name": true
+  }
+}

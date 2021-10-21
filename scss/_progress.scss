@@ -1,0 +1,64 @@
+.progress-steps {
+  @extend .position-relative;
+  @extend .d-flex;
+  @extend .justify-content-between;
+}
+
+.progress-track {
+  @extend .w-100;
+  top: 50%;
+  height: 8px;
+  @extend .bg-secondary;
+  @extend .position-absolute;
+  transform: translateY(-50%);
+}
+
+.progress-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+
+  .fas {
+    display: none;
+    background-color: $white;
+  }
+
+  &.current {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  &.future {
+    color: $primary-90;
+    background-color: $primary-10;
+    border-color: $primary-10;
+  }
+
+  &.past {
+    color: $success;
+    background-color: $white;
+    border-color: $success;
+
+    .fas {
+      position: absolute;
+      top: 50%;
+      left: -8px;
+      display: block;
+      border: 1px solid $white;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.progress-step-digit {
+  font-size: 24px;
+  text-align: center;
+}
