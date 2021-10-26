@@ -28,7 +28,7 @@
     "postcss-cli": "^9.0.1",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
-    "rollup": "^2.58.0",
+    "rollup": "^2.58.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "sass": "^1.43.3",
     "stylelint": "^13.13.1",
