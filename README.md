@@ -42,7 +42,7 @@ Download the package and extract the contents.  Include the Pelican files and as
 Within the installed package you'll find the following CSS and JS resources:
 
 ```
-ots-design-system/
+pelican
 └── dist/
     ├── css/
     |   ├── pelican.css
