@@ -45,7 +45,7 @@ jobs:
         with:
           name: pelican-release
 
-      - name: Setup Node ${{ env.NODE_VERSION }}
+      - name: Setup Node ${{ env.NODE_VERSION }} for GitHub
         uses: actions/setup-node@v1
         with:
           node-version: ${{ env.NODE_VERSION }}
@@ -55,6 +55,13 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      
+      - name: Setup Node ${{ env.NODE_VERSION }} for NPM
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to NPM
         run: npm publish --access public
