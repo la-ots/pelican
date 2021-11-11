@@ -33,8 +33,32 @@ jobs:
           name: pelican-release
           path: "la-ots-pelican-*.tgz"
 
-  release:
-    name: Release
+  publish-npm:
+    name: Release to NPM
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+
+    steps:
+      - name: Download package
+        uses: actions/download-artifact@v2
+        with:
+          name: pelican-release
+
+      - name: Setup Node ${{ env.NODE_VERSION }} for NPM
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Publish to NPM
+        run: npm publish $(ls *.tgz) --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  publish-gpr:
+    name: Release to GitHub Packages
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -56,15 +80,3 @@ jobs:
         run: npm publish $(ls *.tgz)
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      
-      - name: Setup Node ${{ env.NODE_VERSION }} for NPM
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          registry-url: 'https://registry.npmjs.org'
-
-      - name: Publish to NPM
-        run: npm publish $(ls *.tgz) --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
