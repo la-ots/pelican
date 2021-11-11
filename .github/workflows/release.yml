@@ -25,12 +25,13 @@ jobs:
         run: |
           npm ci
           npm run build-dist
+          npm pack
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
           name: pelican-release
-          path: "dist/"
+          path: "la-ots-pelican-*.tgz"
 
   release:
     name: Release
@@ -52,7 +53,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
         
       - name: Publish to GitHub Packages
-        run: npm publish
+        run: npm publish $(ls *.tgz)
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -64,6 +65,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to NPM
-        run: npm publish --access public
+        run: npm publish $(ls *.tgz) --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
