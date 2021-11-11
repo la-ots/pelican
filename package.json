@@ -1,6 +1,6 @@
 {
   "name": "@la-ots/pelican",
-  "version": "0.0.24",
+  "version": "1.0.0-rc.1",
   "description": "Pelican Design System for Louisiana OTS",
   "repository": "git://github.com/la-ots/pelican.git",
   "license": "CC0-1.0",
