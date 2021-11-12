@@ -7,7 +7,6 @@
   &.disabled,
   &[disabled],
   &[readonly] {
-    border-color: $gray-300;
     box-shadow: none;
   }
 }
