@@ -53,7 +53,14 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to NPM
+        if: "!github.event.release.prerelease"
         run: npm publish $(ls *.tgz) --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          
+      - name: Publish to NPM
+        if: "github.event.release.prerelease"
+        run: npm publish $(ls *.tgz) --access public --tag beta
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
