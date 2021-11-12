@@ -38,7 +38,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: release
+      name: NPM
+      url: https://www.npmjs.com/package/@la-ots/pelican
 
     steps:
       - name: Download package
@@ -69,7 +70,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: release
+      name: GitHub Packages
+      url: https://github.com/la-ots/pelican/packages
 
     steps:
       - name: Download package
