@@ -53,6 +53,7 @@
   },
   "scripts": {
     "build-dist": "npm-run-all clean --parallel --aggregate-output css-dist js-dist",
+    "build-dist-docs": "npm-run-all clean css-dist js-dist docs:build",
     "clean": "rimraf dist",
     "lint": "npm-run-all --parallel --aggregate-output js:lint css:lint",
     "css-dist": "npm-run-all css:compile css:prefix css:minify",
@@ -74,11 +75,11 @@
     "js:minify:standalone-esm": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/pelican.esm.js.map,includeSources,url=pelican.esm.min.js.map\" --output dist/js/pelican.esm.min.js dist/js/pelican.esm.js",
     "js:minify:bundle": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/pelican.bundle.js.map,includeSources,url=pelican.bundle.min.js.map\" --output dist/js/pelican.bundle.min.js dist/js/pelican.bundle.js",
     "js:lint": "eslint js/pelican.js docs/js/*.js",
-    "docs": "npm-run-all clean css-dist js-dist docs:build",
+    "docs:serve": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --config=build/.eleventy.js --serve",
     "docs:build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --config=build/.eleventy.js",
-    "watch": "npm-run-all css-dev js-dev --parallel --continue-on-error watch:*",
+    "watch": "npm-run-all css-dev js-dev --parallel --continue-on-error watch:css watch:js",
     "watch:css": "chokidar \"scss/*.scss\" -c \"npm run css-dev\"",
     "watch:js": "chokidar \"js/*js\" -c \"npm run js-dev\"",
-    "watch:docs": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --config=build/.eleventy.js --serve"
+    "watch:docs": "npm-run-all css-dev js-dev --parallel --continue-on-error watch:css watch:js docs:serve"
   }
 }
