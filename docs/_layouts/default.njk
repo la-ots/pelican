@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+<a id="SkipToMain" class="skip-to-main" href="#main">Skip to Main Content</a>
+
+<div id="page-wrapper" class="page-wrapper agency-theme">
+  {% include "sidebar.njk" %}
+
+  <div id="wrapper-main" class="wrapper-main">
+    <div class="page-content">
+      {% include "header.njk" %}
+      <main id="main" class="main" role="main">          
+        {{ content | safe }}
+      </main>
+
+      {% include "footer.njk" %}
+      
+    </div>
+  </div>
+</div>
+
+<a id="ScrollToTop" href="#main" class="btn btn-accent">
+  <span class="fas fa-arrow-up"></span>
+</a>
