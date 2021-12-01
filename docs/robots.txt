@@ -1,0 +1,4 @@
+Sitemap: http://pelican-test.ots.la.gov.s3-website.us-east-1.amazonaws.com/sitemap.xml
+
+User-agent: *
+Disallow:

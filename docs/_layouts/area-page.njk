@@ -1,0 +1,46 @@
+---
+layout: default.njk
+---
+
+{% include "page-title.njk" %}
+<div class="p-lg-16">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-6 content">
+        {{ content | safe }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-8 col-lg-6">
+        <hr class="minor mt-1 mb-6">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      {%- set navPages = collections.all | eleventyNavigation %}
+      {%- for entry in navPages %}
+        {%- if entry.url in page.url %}
+          {%- for child in entry.children %}
+            <div class="col-12 col-lg-6 col-xl-4 mb-4">
+              <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                  {%- if child.img %}
+                    <img src="{{ child.img }}" class="img-fluid mb-4 gray-hover-color" aria-hidden="true"/>
+                  {%- endif %}
+                  <h3 class="h5 mb-4">{{ child.title }}</h3>
+                  <p class="mb-0">{{ child.excerpt }}</p>
+                  <a href="{{ child.url }}" class="btn btn-outline-ui-priority mt-auto align-self-start">
+                  Read More
+                  <span class="fas fa-arrow-right"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          {%- endfor %}
+        {%- endif %}
+      {%- endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="320" height="120" fill="#C0CEDB"/>
+<g style="mix-blend-mode:color">
+<rect width="320" height="120" fill="#808080"/>
+</g>
+<g style="mix-blend-mode:color">
+<rect width="320" height="120" fill="#00284D"/>
+</g>
+<path d="M32 48C32 39.1634 39.1634 32 48 32H160V88H48C39.1634 88 32 80.8366 32 72V48Z" fill="black"/>
+<path d="M160 32H272C280.837 32 288 39.1634 288 48V72C288 80.8366 280.837 88 272 88H160V32Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M160 88C175.464 88 188 75.464 188 60C188 44.536 175.464 32 160 32V88Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M160 88C144.536 88 132 75.464 132 60C132 44.536 144.536 32 160 32V88Z" fill="white"/>
+</svg>
