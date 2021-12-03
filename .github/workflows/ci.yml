@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  NODE_VERSION: 14
+  NODE_VERSION: 12
 
 jobs:
   build:
@@ -26,6 +26,6 @@ jobs:
       
       - name: Install Dependencies & Build
         run: |
-          npm ci
+          npm install
           npm run build-dist
           npm run build-dist-docs
