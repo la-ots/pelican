@@ -26,6 +26,5 @@ jobs:
       
       - name: Install Dependencies & Build
         run: |
-          npm install
-          npm run build-dist
+          npm ci    
           npm run build-dist-docs
