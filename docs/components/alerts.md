@@ -39,6 +39,7 @@ When writing alert messages, keep the following in mind:
 * Avoid using all uppercase letters unless you are using Acronyms
 * Provide useful information
 
+
 ## Usage
 ### Info Alert
 * **Info** (Blue) communicates informative or helpful information to users
