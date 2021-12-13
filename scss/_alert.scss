@@ -1,7 +1,7 @@
 .alert {
   padding-right : 46px;
   padding-left  : 42px;
-  & > .fas:not(.fas.fa-times){
+  .alert-icon {
     @extend .position-absolute;
     top: 16px; left:16px;
     width: 18px; height: 18px;
