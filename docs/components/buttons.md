@@ -47,7 +47,7 @@ eleventyNavigation:
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary">ButtonText</button>
+            <button type="button" class="btn btn-primary">Button</button>
         </div>
     </div>
 </div>
@@ -56,7 +56,7 @@ eleventyNavigation:
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary">ButtonText</button>
+            <button type="button" class="btn btn-primary">Button</button>
         </div>
     </div>
 </div> 
@@ -64,12 +64,12 @@ eleventyNavigation:
 
 See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
-### Outline Buttons
+### Secondary Buttons
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-secondary">Secondary Outline</button>
+            <button type="button" class="btn btn-secondary">Button</button>
         </div>
     </div>
 </div>
@@ -78,7 +78,87 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-secondary">Secondary Outline</button>
+            <button type="button" class="btn btn-secondary">Button</button>
+        </div>
+    </div>
+</div> 
+```
+
+### Tertiary Buttons
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-outline-ui">Button</button>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-outline-ui">Button</button>
+        </div>
+    </div>
+</div> 
+```
+
+### Link Buttons
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-link">Button</button>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-link">Button</button>
+        </div>
+    </div>
+</div> 
+```
+
+### Danger Buttons
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-danger">Button</button>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-danger">Button</button>
+        </div>
+    </div>
+</div> 
+```
+
+### Warning Buttons
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-warning">Button</button>
+        </div>
+    </div>
+</div>
+
+```html
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-md-4">
+            <button type="button" class="btn btn-warning">Button</button>
         </div>
     </div>
 </div> 

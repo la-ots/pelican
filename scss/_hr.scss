@@ -1,5 +1,7 @@
 hr {
-    background-color: transparent;
+    &.minor, &.major {
+        @extend .bg-ui-light;
+    }
     &.minor {
         height: 1px;
     }

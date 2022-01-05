@@ -21,24 +21,7 @@ eleventyNavigation:
 
 ## Usage
 
-<div class="col-sm-6 col-md-3 border-0">
-	<div class="card shadow-none">	
-		<div class="card-body">
-			<p class="label">Label</p>
-			<hr class="minor minimal">
-			<p class="mb-0">Value</p>
-		</div>
-	</div>
-</div>
-
+{% include markup/data-tile.njk %}
 ```html
-<div class="col-sm-6 col-md-3 border-0">
-	<div class="card shadow-none">	
-		<div class="card-body">
-			<p class="label">Label</p>
-			<hr class="minor minimal">
-			<p class="mb-0">Value</p>
-		</div>
-	</div>
-</div>
+{% include markup/data-tile.njk %}
 ```

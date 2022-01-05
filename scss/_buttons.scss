@@ -1,7 +1,11 @@
 .btn {
-    &:not(:disabled), &:not(.btn-link){
+    &:not(.btn-link){
         box-shadow : 0 2px 0 0 fade-out($ui, .38);
     }
+}
+.btn:disabled, .btn.disabled {
+    opacity: .25;
+    box-shadow: none;
 }
 .btn-outline-ui {
     @extend .shadow-none;
@@ -11,6 +15,9 @@
     @extend .bg-transparent;
     @extend .border-0;
     @extend .text-decoration-none;
+}
+.btn-back-top {
+    @extend .d-inline-block;
 }
 .btn-add-this {
 	@extend           .btn;
@@ -44,13 +51,21 @@
     @extend .bg-white;
     @extend .rounded-3;
     border: 2px solid $border-color;
-    gap: .5rem;
     &-right {
         @extend .ms-auto;
     }
+    .btn {
+        flex: 1 1 100%;
+        @extend .mb-2;
+        @extend .mb-lg-0;
+    }
     @include media-breakpoint-up(md){
         .btn {
-            width: auto;
+            flex: 0 1 auto;
+            &:not(:last-of-type){
+                margin-right: 8px;
+                
+            }
         }
     }
 }

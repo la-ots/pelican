@@ -18,5 +18,8 @@
     &.footer-utility {
         @extend .bg-primary;
         @extend .text-secondary;
+        hr {
+            @extend .bg-primary-90;
+        }
     }
 }

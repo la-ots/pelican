@@ -1,6 +1,5 @@
 .card {
 	@extend .position-relative;
-	@extend .h-100;
 
 	.card-header, .card-footer {
 		@extend .small;

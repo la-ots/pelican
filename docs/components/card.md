@@ -22,101 +22,36 @@ Cards are designed to be flexible enough to accommodate most content types
 {% include cards-tables.njk %}
 
 ## Usage
+
 ### Basic card
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6">
-      <!-- Begin actual card -->
-      <div class="card">
-        <div class="card-body">
-          This is where Card content goes.
-        </div>
-      </div>
-      <!--  End actial card -->
-    </div>
-  </div>
-</div>
-
+{% include markup/card.njk %}
 ```html
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <!-- Begin actual card -->
-        <div class="card">
-          <div class="card-body">
-            This is where Card content goes.
-          </div>
-        </div>
-        <!--  End actial card -->
-      </div>
-    </div>
-  </div>
+  {% include markup/card.njk %}
 ```
 
-### Card without a Shadow
+### Card with a Title
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6">
-      <!-- Begin actual card -->
-      <div class="card shadow-none">
-        <div class="card-body">
-          This is where Card content goes.
-        </div>
-      </div>
-      <!--  End actial card -->
-    </div>
-  </div>
-</div>
-
+{% include markup/card-with-title.njk %}
 ```html
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-6">
-          <!-- Begin actual card -->
-        <div class="card shadow-none">
-          <div class="card-body">
-            This is where Card content goes.
-          </div>
-        </div>
-        <!--  End actial card -->
-      </div>
-    </div>
-  </div>
+  {% include markup/card-with-title.njk %}
 ```
 
-### Card without a Border
+### Card with a Header and Title
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-6">
-      <!-- Begin actual card -->
-      <div class="card border-0">
-        <div class="card-body">
-          This is where Card content goes.
-        </div>
-      </div>
-      <!--  End actial card -->
-    </div>
-  </div>
-</div>
-
+{% include markup/card-with-header.njk %}
 ```html
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-6">
-          <!-- Begin actual card -->
-        <div class="card border-0">
-          <div class="card-body">
-            This is where Card content goes.
-          </div>
-        </div>
-        <!--  End actial card -->
-      </div>
-    </div>
-  </div>
+  {% include markup/card-with-header.njk %}
 ```
+
+### Card with a Header, Title, and Footer
+
+{% include markup/card-with-footer.njk %}
+```html
+  {% include markup/card-with-footer.njk %}
+```
+
+
 
 ## Resources
 
