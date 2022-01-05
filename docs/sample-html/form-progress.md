@@ -2,7 +2,7 @@
 
 {% include markup/official-banner.njk %}
 {% include markup/navbar-basic.njk %}
-{% include markup/component-page-title.njk %}
+{% include markup/page-title.njk %}
 {% include markup/progress-large.njk %}
 {% include markup/form-template-language.njk %}
 {% include markup/form-template-name.njk %}
@@ -12,7 +12,7 @@
 ``` html
 {% include markup/official-banner.njk %}
 {% include markup/navbar-basic.njk %}
-{% include markup/component-page-title.njk %}
+{% include markup/page-title.njk %}
 {% include markup/progress-large.njk %}
 {% include markup/form-template-language.njk %}
 {% include markup/form-template-name.njk %}

@@ -2,7 +2,7 @@
 
 {% include markup/official-banner.njk %}
 {% include markup/navbar-iconic.njk %}
-{% include markup/component-page-title.njk %}
+{% include markup/page-title.njk %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
@@ -17,7 +17,7 @@
 ``` html
 {% include markup/official-banner.njk %}
 {% include markup/navbar-iconic.njk %}
-{% include markup/component-page-title.njk %}
+{% include markup/page-title.njk %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
