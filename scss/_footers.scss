@@ -1,0 +1,22 @@
+.footer {
+    @extend .py-4;
+    @extend .mt-auto;
+    a {
+        @extend .text-decoration-none;
+        &:not(.btn) {
+            color: inherit;
+        }
+    }
+    &.footer-basic {
+        @extend .bg-black;
+        @extend .text-white;
+        @extend .text-center;
+        a {
+            @extend .mx-4;
+        }
+    }
+    &.footer-utility {
+        @extend .bg-primary;
+        @extend .text-secondary;
+    }
+}

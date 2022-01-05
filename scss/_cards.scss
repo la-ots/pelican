@@ -1,0 +1,25 @@
+.card {
+	@extend .position-relative;
+	@extend .h-100;
+
+	.card-header, .card-footer {
+		@extend .small;
+		@extend .text-muted;
+		background-color: $gray-100;
+		border-width: $border-width * .5;
+	}
+	.card-title {
+		@extend .fw-bold;
+	}
+	.btn-card-edit {
+		@extend .position-absolute;
+		right: $spacer*.5; top: $spacer*.5;
+	}
+	.content-container & {
+		background-color: $gray-100;
+		.card-header, .card-footer {
+			// background-color: $gray-200;
+			border-color: $gray-300;
+		}
+	}
+}

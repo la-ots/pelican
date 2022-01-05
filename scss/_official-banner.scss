@@ -1,0 +1,34 @@
+.official-banner {
+	@extend .bg-black;
+	@extend .text-white;
+	@extend .py-2;
+	img {
+		width: 24px;
+		@extend .me-1;
+	}
+	a, button {
+		color: inherit;
+	}
+	.languages {
+		@extend .d-flex;
+		@extend .ms-auto;
+	}
+	.btn-group {
+		@extend .ms-n2;
+		
+	}
+	.btn, .fas {
+		transition: $transition-base;
+	}
+	.btn {
+		&:hover {
+			@extend .bg-ui-priority;
+			@extend .text-white;
+		}
+	}
+	[aria-expanded=true]{
+		.fas {
+			transform: rotate(180deg);
+		}
+	}
+}

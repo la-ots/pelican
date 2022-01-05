@@ -3,37 +3,29 @@
 // background texture
 @import "bg-texture";
 
-// OTS & Agency variables
-@import "variables-agency";
-@import "variables-default";
+/*
 
-// customizations to Bootstrap
-@import "bootstrap/scss/bootstrap";
-@import "reboot";
-@import "type";
-@import "tables";
-@import "forms";
-@import "buttons";
-@import "input-group";
-@import "custom-forms";
-@import "nav";
-@import "card";
-@import "chip";
-@import "alert";
-@import "progress";
-@import "breadcrumb";
-@import "modal";
-@import "tooltip";
-@import "popover";
+@import 'theme-agency';
+@import 'theme-default';
 
-// things we add
-@import "sidebar";
-@import "collapse";
-@import "images";
-@import "cover";
-@import "feature";
-@import "footer";
-@import "hero";
-@import "loader";
-@import "toc";
-@import "custom";
+@import 'z-index';
+@import 'alerts';
+@import 'badges';
+@import 'breadcrumb';
+@import 'buttons';
+@import 'cards';
+@import 'chips';
+@import 'footers';
+@import 'forms';
+@import 'hr';
+@import 'nav';
+@import 'navbars';
+@import 'official-banner';
+@import 'progress';
+@import 'share';
+@import 'tables';
+@import 'toasts';
+@import 'app-frame';
+@import 'custom';
+
+*/

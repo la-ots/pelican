@@ -1,55 +1,7 @@
-caption {
-  caption-side: bottom;
-  border-top: 1px dashed $ui;
-}
-
 .table {
-  width: 100%;
-  margin-bottom: $spacer;
-  font-size: $font-size-base * 0.875;
-  color: $gray-700;
-  background-color: $table-bg; // Reset for nesting within parents with `background-color`.
-
-  th,
-  td {
-    padding: $table-cell-padding;
-    vertical-align: top;
-    border-top: $table-border-width solid $table-border-color;
+	thead {
+		a {
+			@extend .text-decoration-none;
+		}
+	}
   }
-
-  thead th {
-    vertical-align: bottom;
-    border-top: (3 * $table-border-width) solid $table-border-color;
-    border-bottom: (2 * $table-border-width) solid $table-border-color;
-  }
-
-  tbody + tbody {
-    border-top: (2 * $table-border-width) solid $table-border-color;
-  }
-
-  thead {
-    tr {
-      th:first-child {
-        border-top-left-radius: 4px;
-      }
-      th:last-child {
-        border-top-right-radius: 4px;
-      }
-    }
-  }
-
-  tbody {
-    tr:last-child {
-      td:first-child {
-        border-bottom-left-radius: 4px;
-      }
-      td:last-child {
-        border-bottom-right-radius: 4px;
-      }
-    }
-  }
-}
-
-.tr-striped {
-  background-color: $table-accent-bg;
-}

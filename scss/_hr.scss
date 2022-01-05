@@ -1,0 +1,9 @@
+hr {
+    background-color: transparent;
+    &.minor {
+        height: 1px;
+    }
+    &.major {
+        height: 4px;
+    }
+}

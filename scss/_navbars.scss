@@ -1,0 +1,61 @@
+.navbar-minimal {
+    @extend .navbar;
+    @extend .navbar-dark;
+    @extend .bg-primary;
+}
+.navbar-basic, .navbar-icon-links {
+    @extend .navbar-minimal;
+    @extend .navbar-expand-lg;
+    @extend .text-white;
+}
+.navbar-basic, .navbar-icon-links, .navbar-search-basic {
+    .nav-link {
+        transition: 150ms all ease-out;
+        border-bottom: 2px solid transparent;
+        @extend .py-1;
+        @extend .pe-0;
+        @extend .ps-0;
+        @extend .mx-lg-4;
+       
+        &:hover {
+            border-bottom: 2px solid fade-out($primary-10, .5);
+        }
+        &.active {
+            border-bottom: 2px solid $secondary;
+        }
+    }
+}
+.navbar-basic, .navbar-search-basic {
+    .nav-item {
+        &:not(:last-of-type) {
+            @extend .me-4;
+        }
+    }
+}
+.navbar-basic {
+    .nav-link {
+        @extend .mt-lg-1;
+    }
+}
+.navbar-icon-links {
+    span {
+        @extend .d-lg-block;
+    }
+    .nav-item {
+        @extend .text-lg-center;
+    }
+}
+.navbar-search-basic {
+    @extend .py-2;
+    @extend .navbar-expand-lg;
+    @extend .navbar-dark;
+    @extend .bg-primary;
+    @extend .text-white;
+    form {
+        @extend .mt-2;
+        @extend .mt-lg-0;
+    }
+    .navbar-nav {
+        @extend .ms-lg-n3;
+    }
+}

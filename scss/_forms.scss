@@ -1,76 +1,104 @@
-.focus-style {
-  outline: 0.25rem solid $focus-color;
-  outline-offset: 0;
+form {
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		@extend .text-primary;
+		.fas {
+			@extend .text-primary-10;
+		}
+	}
+	.fa-asterisk {
+		@extend .text-danger;
+	}
 }
-
-.form-control {
-  &.disabled,
-  &[disabled],
-  &[readonly] {
-    box-shadow: none;
-  }
+legend, .legend {
+	@extend .d-block;
+	@extend .my-4;
+	@extend .h4;
+	@extend .text-primary;
 }
-
-button,
-.btn,
-.btn-link.border-0,
-.form-control,
-.custom-select,
-.custom-control-switch,
-a[role="button"],
-a.nav-link,
-.skip-to-main,
-.page-link,
-.breadcrumb-item a,
-th a,
-summary,
-.brand-link,
-p a {
-  &:focus,
-  &.focus {
-    @extend .focus-style;
-  }
+.input-group {
+	.btn {
+	  box-shadow: none;
+	}
 }
-.custom-file-label,
-.custom-file-input,
-.custom-file {
-  &:focus,
-  &.focus {
-    @extend .focus-style;
-  }
+.form-group {
+	@extend .mb-4;
 }
-.switch-toggle {
-  .switch-toggle-knob {
-    @extend .focus-style;
-  }
-
-  &:focus,
-  &.focus,
-  &:active {
-    outline: 0;
-    outline-offset: 0;
-
-    .switch-toggle-knob {
-      @extend .focus-style;
-    }
-  }
+.checkbox-tile, .radio-tile {
+	padding-left: 0;
+	margin: 0 0 0 0;
+	&.form-check-inline {
+		vertical-align: top;
+		min-width: 200px;
+		max-width: 400px;
+	}
+	.form-check-input {
+		position: absolute;
+		left: -999em; right: auto;
+	}
+	.form-check-label {
+		position: relative;
+		display: block;
+		background-color: white;
+		color: $gray-700;
+		border: 2px solid $ui-light;
+		border-radius: 8px;
+		margin-top: 8px;
+		padding: 12px 16px 12px 40px;
+		cursor: pointer;
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			margin-top: 2px; left: 12px;
+			width: 1.25rem; height: 1.25rem;
+			border-radius: 2px;
+			box-shadow: 0 0 0 2px $ui;
+		}
+	}
+	.form-check-input:checked + label {
+		background-color: $gray-300;
+		border-color: $ui;
+		&:before {
+			background-color:    $ui;
+			background-image:    url('https://designsystem.digital.gov/assets/img/correct8.svg');
+			background-size:     contain;
+			background-repeat:   no-repeat;
+			background-position: center;
+		}
+	}
+	.form-check-input:focus + label {
+		&:before {
+			outline-style : solid;
+			outline-color : $focus-color;
+			outline-width : 4px;
+			outline-offset: 3px;
+		}
+		
+	}
 }
-button,
-.btn,
-.btn-link.border-0,
-a[role="button"],
-.page-link {
-  &:focus,
-  &.focus {
-    box-shadow: none;
-  }
+.radio-tile {
+	.form-check-label {
+		&:before {
+			border-radius: 50%;
+		}
+	}
+	.form-check-input:checked + label {
+		&:before {
+			background-color: white;
+			background-image: none;
+		}
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 16px; left: 14px;
+			width: 1rem; height: 1rem;
+			border-radius: 50%;
+			background-color: #6c757d;
+		}
+	}
 }
-.form-control,
-.custom-select,
-.custom-control-switch {
-  &:focus,
-  &.focus {
-    border: 1px solid $focus-color;
-    box-shadow: none;
-  }
+.tile-description {
+	display: block;
+	font-size: 12px;
 }
