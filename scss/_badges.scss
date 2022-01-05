@@ -4,27 +4,22 @@
 }
 .badge-primary {    
     @extend .bg-primary;
-    @extend .text-white;
 }
 .badge-secondary {
     @extend .bg-secondary;
-    @extend .text-black;
 }
 .badge-accent {
     @extend .bg-accent;
-    @extend .text-white;
+    @extend .text-black;
 }
 .badge-info {
     @extend .bg-info;
-    @extend .text-white;
 }
 .badge-success {
     @extend .bg-success;
-    @extend .text-white;
 }
 .badge-danger {
     @extend .bg-danger;
-    @extend .text-white;
 }
 .badge-warning {
     @extend .bg-warning;
@@ -32,7 +27,6 @@
 }
 .badge-ui {
     @extend .bg-ui;
-    @extend .text-white;
 }
 .badge-ui-light {
     @extend .bg-ui-light;
@@ -40,5 +34,4 @@
 }
 .badge-ui-priority {
     @extend .bg-ui-priority;
-    @extend .text-white;
 }
