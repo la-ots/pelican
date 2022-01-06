@@ -12,7 +12,9 @@ eleventyNavigation:
 ---
   
 ## Best Practice
+
 We currently present four sharing methods:
+
 - Facebook
 - LinkedIn
 - Twitter

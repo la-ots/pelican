@@ -13,32 +13,63 @@ eleventyNavigation:
 
 ## Best Practices
 
-### Layout
+- Always place the primary action’s button on the left, followed by other buttons.
+- It’s best not to show disabled buttons.
+- If disabled buttons must be shown, be sure to add the `disabled` attribute.
+- Use only one primary button when possible.
+- Multiple gray outline buttons may be used.
+- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`) and not `<button>`.
+- If a button is inside of a table row, give it the `btn-sm` class in addition to other classes.
+- For accessibility reasons, when using a link you must include the `role="button"` attribute on the `<a>`.
 
-- Always place the primary button on the left, followed by other buttons
-- If the primary button has priority over other buttons, use the `$ui-priority` class, other buttons receive the `$ui` class
-- If all buttons have equal priority, all receive the `$ui` class
-- When a button is disabled, it receives the `$ui-light` class
-- If the button has a less dominant position on the page, consider using an outline button
-- Try not to overuse the `secondary` and `accent` classes; too many colors can be disorienting for a user
-- If the button is inside of a table, it receives the `btn-sm` class
-- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`); in all other cases use a `<button>`
+<p class="fw-bold mt-4">Button Hierarchies</p>
 
-### Content
+- For a single action: only include the [Primary button](/components/buttons/#primary-buttons).
+- For two types of actions: use the primary button as the main action and [gray outline buttons](/components/buttons/#tertiary-buttons) as the tertiary action(s).
+- For three types of actions:  use the primary button as the main action, use the [Secondary button](/components/buttons/#secondary-buttons) as the secondary action, and the gray outline buttons as the tertiary action(s).
+- If a fourth or more types of actions are required, use the [Link Buttons](/components/buttons/#link-buttons) for those, in addition to the types above.
+- Any [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons) buttons should be right aligned to the [Button Container](/components/button-container/), separated from the other buttons.
 
-- Button labels must clearly state the action that occurs when the button is pressed
-- When writing buttons, use action verbs and precise language; you can also use a noun after the verb to clarify meaning
-  - **Examples**: "Edit", "Empty Trash", or "Go to File"
-- When including an icon with text, the icon's meaning must match the meaning of the text
-  - **Examples**: A trash can icon with the text "Delete"
-- When using an icon-only button, the icon must clearly indicate the button's purpose
+<p class="fw-bold mt-4">Single Level</p>
 
-### Accessibility
+<div class="d-grid d-md-block">
+<button type="button" class="btn btn-primary">Button</button>
+</div>
 
-- For accessibility reasons, when using a link you must include the `role="button"` attribute on the `<a>`
-- If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below)
+<p class="fw-bold mt-4">Two Levels</p>
 
-<hr>
+<div class="d-grid d-md-block">
+<button type="button" class="btn btn-primary">Button</button>
+<button type="button" class="btn btn-outline-ui">Button</button>
+<button type="button" class="btn btn-outline-ui">Button</button>
+</div>
+
+<p class="fw-bold mt-4">Three Levels</p>
+
+<div class="d-grid d-md-block">
+<button type="button" class="btn btn-primary">Button</button>
+<button type="button" class="btn btn-secondary">Button</button>
+<button type="button" class="btn btn-outline-ui">Button</button>
+<button type="button" class="btn btn-outline-ui">Button</button>
+</div>
+
+<p class="fw-bold mt-4">Four or More Levels</p>
+
+<div class="d-grid d-md-block">
+<button type="button" class="btn btn-primary">Button</button>
+<button type="button" class="btn btn-secondary">Button</button>
+<button type="button" class="btn btn-outline-ui">Button</button>
+<button type="button" class="btn btn-outline-ui">Button</button>
+<button type="button" class="btn btn-link">Button</button>
+<button type="button" class="btn btn-link">Button</button>
+<button type="button" class="btn btn-link">Button</button>
+</div>
+
+<p class="fw-bold mt-4">Writing Buttons</p>
+
+- Button labels must clearly state the action that occurs when the button is pressed.
+- Use action verbs and precise language. Use a noun after the verb to clarify meaning. For example: "Edit", "Empty Trash", or "Go to File".
+- When including an icon with text, the icon's meaning must match the meaning of the text.
 
 ## Usage
 
@@ -49,8 +80,6 @@ eleventyNavigation:
 ```html
 <button type="button" class="btn btn-primary">Button</button>
 ```
-
-See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
 ### Secondary Buttons
 
@@ -92,17 +121,13 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <button type="button" class="btn btn-warning">Button</button>
 ```
 
-See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
-
 ### Icon-only Button
-Assistive technology reads the text of a button to the user to indicate the purpose of the button. Therefore, buttons which do not have text, but only icons, should contain text available to assistive technology.
 
-Icon-only buttons should be used sparingly and only when their meaning is clear to the user. Additionally, status colors should be considered to help reinforce this specific meaning (**Example**: A red warning button with a trash can icon would clearly signal a 'Delete' action).
+- The icon must clearly indicate the button’s purpose.
+- Hide the icon from assistive technology users.
+- Add descriptive text for assisitive technology users. This includes special classes and attributes in the sample code. Your project may need more than what’s included here.
 
-They should not be used as a way to save space in a design.
-
-
-<button type="button" class="btn btn-primary btn-sm">
+<button type="button" class="btn btn-outline-ui">
     <span class="fas fa-check" aria-hidden="true"></span>
     <span class="sr-only" aria-hidden="false">Accept</span>
 </button>
@@ -128,17 +153,6 @@ They should not be used as a way to save space in a design.
 ```html
 <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
 ```
-
-### Specialized Buttons
-Pelican includes a number of pre-made, specialized buttons. Unlike Base buttons, these are constrained to specific usage purposes and only control content near their location.
-
-These include:
-
-- [Back & Forward buttons](/components/back-and-forward-buttons) - Navigate through an application
-- [Back to Top button](/components/back-to-top-button) - Move to top of page
-- [Previous & Next Section buttons](/components/previous-and-next-buttons)  - Navigate through page sections
-- [Add Data buttons](/components/add-data-button) - Add data multiples to an application
-- [Page Action buttons](/components/page-actions-button) - Allow users to print, email, or share
 
 ## Resources
 

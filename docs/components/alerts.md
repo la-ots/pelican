@@ -22,7 +22,7 @@ eleventyNavigation:
 - Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
-When writing alert messages, keep the following in mind:
+When writing Alert messages, keep the following in mind:
 
 - Be clear and specific
 - Use <a href="https://plainlanguage.gov/" target="_blank">Plain Language</a>, not technical jargon

@@ -11,9 +11,14 @@ eleventyNavigation:
   img: /img/illustrations/illus-footers.svg
 ---
 
+## Best Practices
+
+- Use the Basic Footer if the product only needs a few links.
+- Use the Utility Footer is the prodcut needs more advanced features.
+
 ## Usage
+
 ### Basic Footer
-This Footer features a set of textual links. Use this when you don’t want to feature much content.
 
 {% include markup/footer-basic.njk %}
 
@@ -22,13 +27,6 @@ This Footer features a set of textual links. Use this when you don’t want to f
 ```
 
 ### Utility Footer
-This Footer features:
-* Textual links
-* Featured Site or Application Links
-* Contact Buttons
-* Social Media Buttons
-    
-Use this when you want content and links featured in the Footer.
 
 {% include markup/footer-utility.njk %}
 

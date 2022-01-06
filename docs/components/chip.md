@@ -13,9 +13,11 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Chips indicate the presence of a member in a set
-- Chips contain a property to also allow easy removal from a set
-- Chips are extensions of [Badges](/components/badges). You must first enter the Badge markup, then add `class=”chip”`. Create a parent container with a class of `chips` to hold the chips.
+- Chips indicate the presence of a member in a set.
+- They contain a `<a>` with `role="button"` to delete them from a data group.
+- Chips are special [Badges](/components/badges).
+- Create a parent container with a class of `chips` to hold the chips.
+- First use Badge markup, then add `class=”chip”`. 
 
 ## Usage
 

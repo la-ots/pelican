@@ -13,23 +13,11 @@ eleventyNavigation:
 
 ## Best Practices
 
-- We use two types of Progress Indicators:
-  - Large Progress Indicator
-  - Small Progress Indicator
-  - Often used on conjunction with [Back and Forward Buttons](/components/back-and-forward-buttons)
-- Use a Large Progress Indicator when progress has a defined number of steps 
-- The Next/ Previous buttons may not be needed in every implementation
-  - **Example**: You may not want a user to be able to move through the steps independent of a set process
-- Use a Small Progress Indicator is used when the measured progress is less firm
+- Use the Small Progress Indicator when the progress is hard to divide into clean segment.
+- Use the Large Progress Indicator when the progress can be cleanly divided into segments.
+- Use them in conjunction with [Back and Forward Buttons](/components/back-and-forward-buttons) 
 
 ## Usage
-### Large Progress Indicator
-
-{% include markup/progress-large.njk %}
-
-``` html
-{% include markup/progress-large.njk %}
-```
 
 ### Small Progress Indicator
 
@@ -37,4 +25,12 @@ eleventyNavigation:
 
 ``` html
 {% include markup/progress-small.njk %}
+```
+
+### Large Progress Indicator
+
+{% include markup/progress-large.njk %}
+
+``` html
+{% include markup/progress-large.njk %}
 ```

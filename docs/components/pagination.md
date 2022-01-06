@@ -12,10 +12,9 @@ eleventyNavigation:
 ---
 
 ## Best Practices
-- Pagination is used if data, such as on [Tables](/components/table), is split up into several groups
-- Pagination also shows users how many sets of data they want to see at one time
-- Make sure the Pagination clearly shows the current page number
-- Pagination is placed at the bottom of the content which it controls
+- Use Pagination if data, such as on [Tables](/components/table), is long and needs to be split up.
+- Make sure the Pagination clearly shows the current page’s number.
+- Pagination is placed at the bottom of the content which it pages.
 
 ## Usage
 
