@@ -1,15 +1,9 @@
 @charset "UTF-8";
 
-// background texture
-@import "bg-texture";
-
-
-
 @import 'theme-agency';
 @import 'theme-default';
-
 @import "bootstrap/scss/bootstrap";
-
+@import "bg-texture";
 @import 'z-index';
 @import 'alerts';
 @import 'badges';
@@ -29,4 +23,3 @@
 @import 'toasts';
 @import 'app-frame';
 @import 'custom';
-

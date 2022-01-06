@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ '/img/favicon.png' | addHash }}" type="image/png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900" rel="stylesheet">  
@@ -37,7 +37,7 @@
     <meta property="twitter:description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
     <meta property="twitter:image" content="/img/pelican-design-system-illustration.jpg">
   </head>
-  <body>
+  <body class="sb-nav-fixed">
     {{ content | safe }}
     {% if env.production %}
       <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>
@@ -46,5 +46,36 @@
       <script src="/js/pelican.bundle.js"></script>
       <script src="/js/default.js"></script>
     {% endif %}
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl, {
+          trigger: 'focus'
+        })
+      });
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl, {
+          trigger:'focus'
+        })
+      });
+      
+      window.addEventListener('DOMContentLoaded', event => {
+        // Toggle the side navigation
+        const appFrameTrigger = document.body.querySelector('#app-frame-trigger');
+        const appSidebar = document.body.querySelector('#app-sidebar');
+        const appContent = document.body.querySelector('#app-content');
+        if (appFrameTrigger) {
+          appFrameTrigger.addEventListener('click', event => {
+            // console.log('click');
+            event.preventDefault();
+            appSidebar.classList.toggle('app-toggled');
+            appContent.classList.toggle('app-toggled');
+          });
+        }
+      });
+
+    </script>
   </body>
 </html>

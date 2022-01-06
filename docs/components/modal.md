@@ -38,10 +38,36 @@ Touch screens on older mobile devices have difficulty interpreting touch intents
 
 ## Usage
 
-{% include markup/modal.njk %}
+### Default Modal
+
+{% include markup/modal-default.njk %}
 
 ``` html
-{% include markup/modal.njk %}
+{% include markup/modal-default.njk %}
+```
+
+### Small Modal
+
+{% include markup/modal-small.njk %}
+
+``` html
+{% include markup/modal-small.njk %}
+```
+
+### Large Modal
+
+{% include markup/modal-large.njk %}
+
+``` html
+{% include markup/modal-large.njk %}
+```
+
+### Extra Large Modal
+
+{% include markup/modal-xl.njk %}
+
+``` html
+{% include markup/modal-xl.njk %}
 ```
 
 ## Resources

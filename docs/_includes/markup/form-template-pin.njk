@@ -1,41 +1,44 @@
-<div class="container-fluid my-16">
-    <div class="row ">
-        <div class="col-12 col-md-10 col-lg-6">
-            <div class="card">
-                <div class="card-body">
-                    <div class="row ">
-                        <div class="col-12">
-                            <h3 class="h3 mb-6 text-primary">
-                                <span class="fas fa-key fa-fw mr-1 text-primary-10"></span> PIN Number
-                            </h3>
-                        </div>
-                        <div class="col-12">
-                            <p>Choose the six digits for your PIN Number. Be sure to remember them.</p>
-                            <p class="small">If there&rsquo;s an asterisk <span class="font-weight-bold"><span class="fas fa-asterisk text-danger"></span></span> we have to get that information.</p>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-12">
-                            <div class="form-group">
-                                <label for="PinNumber">
-                                    <span class="fas fa-asterisk text-danger"></span> New PIN
-                                </label>
-                                <input type="text" class="form-control" id="PinNumber">
-                            </div>
-                            <div class="form-group">
-                                <label for="PinNumberConfirm">
-                                    <span class="fas fa-asterisk text-danger"></span> Confirm New PIN
-                                </label>
-                                <input type="text" class="form-control" id="PinNumberConfirm">
-                            </div>
-                            <button class="btn btn-ui btn-block btn-shadow">
-                                Update PIN Number
-                                <span class="fas fa-check"></span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="content-container">
+	<form action="">
+	<div class="container">
+		<div class="row ">
+			<div class="col-12 col-md-10 col-lg-4">
+				<h2 class="h2">
+					<span class="fas fa-key"></span> 
+					PIN Number
+				</h2>
+				<p>Choose the six digits for your PIN Number. Be sure to remember them.</p>
+				{% include markup/form-required-message.njk %}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-10 col-lg-4">
+				<div class="mb-4">
+					<label for="PinNumber">
+						<span class="fas fa-asterisk"></span> New PIN
+					</label>
+					<input type="text" class="form-control" id="PinNumber">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-10 col-lg-4">
+				<div class="mb-4">
+					<label for="PinNumberConfirm">
+						<span class="fas fa-asterisk"></span> Confirm New PIN
+					</label>
+					<input type="text" class="form-control" id="PinNumberConfirm">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-10 col-lg-4">
+				<button class="btn btn-primary">
+					<span class="fas fa-check"></span>
+					Update PIN Number
+				</button>
+			</div>
+		</div>
+	</div>
+	</form>
 </div>
