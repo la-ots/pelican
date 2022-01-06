@@ -16,6 +16,11 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.0.0 — 07 January 2022
+
+- Version 2.0 released! See [Get Started](/get-started) to begin using Pelican Design System.
+- Version 2 is based upon Bootstrap 5.
+
 ## 1.0.0 — 16 November 2021
 
 - Version 1.0 released! See [Get Started](/get-started) to begin using Pelican Design System.

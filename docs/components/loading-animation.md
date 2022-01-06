@@ -16,4 +16,8 @@ The Loading Animation is placed into an element wrapping the element requiring t
 
 ## Usage
 
+{% include markup/spinner.njk %}
 
+``` html
+{% include markup/spinner.njk %}
+```

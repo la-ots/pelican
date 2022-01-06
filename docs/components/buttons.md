@@ -44,124 +44,52 @@ eleventyNavigation:
 
 ### Primary Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary">Button</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary">Button</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary">Button</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-primary">Button</button>
 ```
 
 See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
 ### Secondary Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-secondary">Button</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-secondary">Button</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-secondary">Button</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-secondary">Button</button>
 ```
 
 ### Tertiary Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-ui">Button</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-outline-ui">Button</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-ui">Button</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-outline-ui">Button</button>
 ```
 
 ### Link Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-link">Button</button>
-        </div>
-    </div>
-</div>
+ <button type="button" class="btn btn-link">Button</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-link">Button</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-link">Button</button>
 ```
 
 ### Danger Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-danger">Button</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-danger">Button</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-danger">Button</button>
-        </div>
-    </div>
-</div> 
+ <button type="button" class="btn btn-danger">Button</button>
 ```
 
 ### Warning Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-warning">Button</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-warning">Button</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-warning">Button</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-warning">Button</button>
 ```
 
 See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
@@ -173,28 +101,17 @@ Icon-only buttons should be used sparingly and only when their meaning is clear 
 
 They should not be used as a way to save space in a design.
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary btn-sm">
-                <span class="fas fa-check" aria-hidden="true"></span>
-                <span class="sr-only" aria-hidden="false">Accept</span>
-            </button>
-        </div>
-    </div>
-</div>
+
+<button type="button" class="btn btn-primary btn-sm">
+    <span class="fas fa-check" aria-hidden="true"></span>
+    <span class="sr-only" aria-hidden="false">Accept</span>
+</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary btn-sm">
-                <span class="fas fa-check" aria-hidden="true"></span>
-                <span class="sr-only" aria-hidden="false">Accept</span>
-            </button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary btn-sm">
+    <span class="fas fa-check" aria-hidden="true"></span>
+    <span class="sr-only" aria-hidden="false">Accept</span>
+</button>
 ```
 
 ### Disabled Buttons
@@ -206,28 +123,10 @@ They should not be used as a way to save space in a design.
 - Add the class `disabled` to the class list.
 - Be sure to use `tabindex="-1"` to prevent tabbing to that button.
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
 ```
 
 ### Specialized Buttons

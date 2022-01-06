@@ -1,3 +1,9 @@
+.navbar-search-basic {
+	hr {
+		@extend .bg-primary-90;
+	}
+}
+
 .nav-tabs {
 	.nav-item {
 		&:not(:last-of-type) {
@@ -8,3 +14,20 @@
 	  background: $gray-300;
 	}
 }
+
+.nav-pills {
+	li {
+		@extend .me-2;
+	}
+	.nav-link {
+	  background: $white;
+	  border: 2px solid $info;
+	  @include border-radius($nav-pills-border-radius);
+	}
+  
+	.nav-link.active,
+	.show > .nav-link {
+		background: $info;
+	  color: $white;
+	}
+  }

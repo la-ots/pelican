@@ -16,6 +16,11 @@ $app-frame-sizer: 300px;
 	.logo {
 		@extend .ps-2;
 		width: 300px;
+		text-decoration: none;
+		font-weight: 700;
+		color: $white;
+		font-size: 20px;
+		letter-spacing: 1px;;
 		img {
 			height: 40px;
 		}
@@ -51,7 +56,7 @@ $app-frame-sizer: 300px;
 	width: $app-frame-sizer; height: calc(100vh - $topbar-height);
 	z-index: $app-sidebar-z-index;
 	background-color: $primary;
-	overflow-y: scroll;
+	overflow-y: auto;
 	@media screen and (min-width: 992px){
 		left: 0px;
 	}

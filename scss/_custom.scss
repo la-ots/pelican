@@ -3,7 +3,7 @@ body {
 }
 .skip-to-main, .skip-link {
 	// z-index: $zindex-skip-to-main;
-	position: absolute;
+	position: fixed;
 	width: 220px; height: 44px;
 	top: 0; left: -220px;
 	display: flex;

@@ -223,11 +223,6 @@ $nav-tabs-link-active-color:        $gray-700 !default;
 $nav-tabs-link-active-bg:           $white !default;
 $nav-tabs-link-active-border-color: $gray-300 $gray-300 $white !default;
 
-/*
-$nav-pills-border-radius:           $border-radius !default;
-$nav-pills-link-active-color:       $component-active-color !default;
-$nav-pills-link-active-bg:          $component-active-bg !default;
-*/
 
 // Forms and Buttons + Forms
 //
@@ -308,4 +303,25 @@ $sidenav-dark-heading-color		: $primary-10;
 $sidenav-dark-link-color		: $white;
 $sidenav-dark-link-active-color	: $info-10;
 $sidenav-dark-icon-color		: $primary-10;
-$sidenav-dark-footer-bg			: $black;			
+$sidenav-dark-footer-bg			: $black;	
+
+
+
+
+
+
+
+
+
+
+// z-index
+
+$zindex-dropdown:                   1000 !default;
+$zindex-sticky:                     1020 !default;
+$zindex-fixed:                      1030 !default;
+$zindex-offcanvas-backdrop:         1040 !default;
+$zindex-offcanvas:                  1045 !default;
+$zindex-popover:                    1070 !default;
+$zindex-tooltip:                    1080 !default;
+$zindex-modal-backdrop:             2000 !default;
+$zindex-modal:                      3000 !default;

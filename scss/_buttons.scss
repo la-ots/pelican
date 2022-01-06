@@ -17,7 +17,8 @@
     @extend .text-decoration-none;
 }
 .btn-back-top {
-    @extend .d-inline-block;
+    display: fixed;
+    bottom: 100px; right: 100px;
 }
 .btn-add-this {
 	@extend           .btn;
