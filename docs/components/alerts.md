@@ -13,13 +13,12 @@ eleventyNavigation:
 
 ## Best Practices
 
-Alerts are way to inform users of important information. They are usually placed at the top of the page, under the [Page Title](/components/page-title/).
-
-- Alerts use the [Status Colors](/theming/color) and correlate to the same meanings.
-- Status Colors only add visual cues. The content of Alerts must make the meaning of the Alert obvious to assistive technology users.
-- Use **Info** (Blue) to communicate informative or helpful information to users    .
+- Put Alerts at the top of the page, under the [Page Title](/components/page-title/).
+- Alerts use the [Status Colors](/foundation/status-colors/) for their colors and meaning.
+- Status Colors only add visual cues. The content of the Alert must make the meaning obvious to assistive technology users.
+- Use **Info** (Blue) to communicate informative or helpful information to users.
 - Use **Success** (Green) to provide feedback to the user indicating an action is successful.
-- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect .   
+- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.   
 - Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
@@ -27,10 +26,11 @@ When writing alert messages, keep the following in mind:
 
 - Be clear and specific
 - Use <a href="https://plainlanguage.gov/" target="_blank">Plain Language</a>, not technical jargon
-- Do not blame the user
-- Avoid negative language
-- Avoid using all uppercase letters unless you are using Acronyms
-- Provide useful information
+- Do not blame the user.
+- Avoid negative language.
+- Avoid using all uppercase letters unless you are using Acronyms.
+- Provide useful information.
+- See [Voice and Tone](/foundation/voice-and-tone/) for more information.
 
 
 ## Usage
