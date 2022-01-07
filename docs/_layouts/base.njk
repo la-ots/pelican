@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ '/img/favicon.png' | addHash }}" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900" rel="stylesheet">  
+    {% if env.production %}
+      <link href="{{ '/css/pelican.min.css' | addHash }}" rel="stylesheet" media="screen">
+      <link href="{{ '/css/prism-theme.css' | addHash }}" rel="stylesheet">
+      <link href="{{ '/css/site.css' | addHash }}" rel="stylesheet">
+    {% else %}
+      <link href="/css/pelican.css" rel="stylesheet" media="screen">
+      <link href="/css/prism-theme.css" rel="stylesheet">
+      <link href="/css/site.css" rel="stylesheet">
+    {% endif %}
+    <title>{{ title }} | Pelican, Louisiana’s Design System</title>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Pelican, Louisiana’s Design System.">
+    <meta name="description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Pelican, Louisiana’s Design System.">
+    <meta property="og:description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
+    <meta property="og:image" content="/img/pelican-design-system-illustration.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Pelican, Louisiana’s Design System.">
+    <meta property="twitter:description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
+    <meta property="twitter:image" content="/img/pelican-design-system-illustration.jpg">
+  </head>
+  <body>
+    {{ content | safe }}
+    {% if env.production %}
+      <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>
+      <script src="{{ '/js/default.js' | addHash }}"></script>
+    {% else %}
+      <script src="/js/pelican.bundle.js"></script>
+      <script src="/js/default.js"></script>
+    {% endif %}
+  </body>
+</html>

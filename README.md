@@ -72,4 +72,49 @@ For proper font and icon display, you should also use the [Public Sans](https://
 
 ## Documentation
 
+Documentation can be found at the [Pelican Documentation](http://pelican-test.ots.la.gov.s3-website.us-east-1.amazonaws.com/) website.
+
+## Contributing
+
 WIP
+
+## Local Development
+
+First, ensure all dependencies are installed on your local machine:
+
+> $ npm install
+
+Once installed, test building all of the Pelican assets. Assets will build into the `dist` directory of the project's root.
+
+> $ npm run build-dist
+
+To build documentation: (documentation is build into the `dist\docs` directory)
+
+> $ npm run build-dist-docs
+
+### Development Workflow
+
+It is recommended you run the `watch` command which will observe the asset directories and rebuild on any file changes:
+
+> $ npm run watch
+
+There is a comparable script for the documentation development workflow:
+
+> $ npm run watch:docs
+
+Documentation is generated using [Eleventy](https://www.11ty.dev/). Learn more about Eleventy via its [documentation](https://www.11ty.dev/docs/).
+
+### Linting
+
+Linting scripts for both CSS/SASS and Javascript:
+
+> $ npm run lint
+
+This will run linters across the codebase. Scripts to run linters separately are provided as:
+
+> $ npm run css:lint
+>
+> $ npm run js:lint
+
+Note: Linters are not run as part of any `watch` scripts and must be run separately.
+

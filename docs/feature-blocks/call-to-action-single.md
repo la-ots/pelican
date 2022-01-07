@@ -1,0 +1,26 @@
+﻿---
+title: Call to Action, Single
+summary: A simple imperative statement with an action button.
+tags: feature block
+layout: guide
+eleventyNavigation:
+  key: Call to Action, Single
+  parent: Feature Blocks
+  excerpt: A simple imperative statement with an action button.
+  order: 1
+  img: /img/illustrations/illus-cta-1.svg
+---
+
+## About this Feature Block
+
+Use this when you’re ready to direct the reader to take an action, like signing up.
+  - The big text is the action verb for the goal you have for the user. Use this to direct the user an action. This is a decision moment, don’t put a lot of text in here.
+  - A Call-to-Action is not navigation, it is a persuasion with a link to what you want the user to do.
+
+## Usage
+
+{% include markup/call-to-action-single.njk %}
+
+``` html
+{% include markup/call-to-action-single.njk %}
+```
