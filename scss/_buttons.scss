@@ -17,7 +17,7 @@
     @extend .text-decoration-none;
 }
 .btn-back-top {
-    display: fixed;
+    position: fixed;
     bottom: 100px; right: 100px;
 }
 .btn-add-this {

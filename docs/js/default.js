@@ -104,7 +104,7 @@ window.onscroll = () => {
 
 if (scrollToTop) {
   scrollToTop.onclick = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     topFunction();
   };
 }
@@ -119,7 +119,7 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  let pageContent = document.getElementsByClassName("page-content");
+  let pageContent = document.getElementsById("main");
   if (pageContent && pageContent.length > 0) pageContent[0].scrollTop = 0;
 }
 
