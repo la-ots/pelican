@@ -15,15 +15,23 @@ $app-frame-sizer: 300px;
 	@extend .align-items-center;
 	.logo {
 		@extend .ps-2;
-		width: 300px;
-		text-decoration: none;
-		font-weight: 700;
-		color: $white;
-		font-size: 20px;
-		letter-spacing: 1px;;
+		display: flex;
+		width: 280px;
+		a {
+			color: $white;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: 700;
+			display: flex;
+			align-items: center;
+		}
 		img {
 			height: 40px;
+			@extend .me-1;
 		}
+	}
+	.btn {
+		box-shadow: none;
 	}
 	.screen-title {
 		@extend .mb-0;
@@ -32,13 +40,6 @@ $app-frame-sizer: 300px;
 		@extend .d-none;
 		@extend .d-lg-block;
 	}
-	.btn {
-		margin-left: auto;
-		@extend .shadow-none;
-		@media screen and (min-width: 992px){
-			margin-left: unset;
-		}
-	}
 }
 .app-wrapper {
 	position: relative;
@@ -46,7 +47,7 @@ $app-frame-sizer: 300px;
 	z-index: $app-wrapper-z-index;
 }
 .app-sidebar, .app-content {
-	transition: all 150ms ease-in-out;
+	transition: all 25ms ease-in-out;
 }
 .app-sidebar {
 	@extend .position-fixed;
@@ -56,7 +57,7 @@ $app-frame-sizer: 300px;
 	width: $app-frame-sizer; height: calc(100vh - $topbar-height);
 	z-index: $app-sidebar-z-index;
 	background-color: $primary;
-	overflow-y: auto;
+	overflow-y: scroll;
 	@media screen and (min-width: 992px){
 		left: 0px;
 	}
@@ -137,6 +138,12 @@ $app-frame-sizer: 300px;
 		.fas{
 			transform: rotate(180deg);
 			@extend .text-white;
+		}
+		&:hover {
+			.fas {
+				@extend .text-primary-90;
+			}
+			
 		}
 	}
 	&:hover {

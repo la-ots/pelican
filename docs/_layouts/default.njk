@@ -5,14 +5,10 @@ layout: base.njk
 {% include "markup/skip-link-markup.njk" %}
 {% include "markup/back-to-top.njk" %}
 {% include "app-topbar.njk" %}
-<div class="app-wrapper">
-  {% include "sidebar.njk" %}
-  <div class="app-content" id="app-content">
-    {% include "page-title.njk" %}
-    <main id="main">
-      {{ content | safe }}
-    </main>
-    {% include "footer.njk" %}
-  </div>
-</div>
 
+{% include "sidebar.njk" %}
+<main class="app-content" id="main">
+  {% include "page-title.njk" %}
+  {{ content | safe }}
+</main>
+{% include "footer.njk" %}

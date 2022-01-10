@@ -109,15 +109,7 @@ The Topbar goes inside of the `page-content` of the `wrapper-main`. It contains 
 
 ```html
 <!-- topbar -->
-<div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
-    <p class="m-0 font-weight-bold order-lg-2 mr-auto">
-        <span class="d-md-none">Digital Product Name</span>
-        <span class="d-none d-md-inline">Current Page Title</span>
-    </p>
-    <a id="sidebar-button" class="btn btn-sm btn-black mr-2 text-white order-lg-1" href="javascript://" role="button">
-        <span class="fas fa-fw fa-bars"></span>
-    </a>
-</div>
+{% include app-topbar.njk %}
 <!-- / topbar -->
 ```
 

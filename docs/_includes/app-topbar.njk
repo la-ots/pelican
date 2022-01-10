@@ -1,12 +1,13 @@
+<!-- see also markup/app-topbar.njk -->
 <div class="app-topbar">
+	<button type="button" id="app-frame-trigger" class="btn btn-black">
+		<span class="fas fa-bars"></span>
+	</button>
 	<div class="logo">
-		<a href="{{ '/' | url }}" class="logo mr-auto">
+		<a href="{{ '/' | url }}" class="mr-auto">
 			<img src="/img/favicon.png" alt="Logo." class="img-fluid">
 			Pelican
 		</a>
 	</div>
-	<button type="button" id="app-frame-trigger" class="btn btn-black">
-		<span class="fas fa-bars"></span>
-	</button>
-	<p class="screen-title">{{ title }}</p>
+	<p class="screen-title">PageTitle</p>
 </div>
