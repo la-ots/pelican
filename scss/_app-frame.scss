@@ -10,7 +10,7 @@ $app-frame-sizer: 300px;
 	position:fixed;
 	top:0; right:0; height: $topbar-height; width: 100%;
 	@extend .bg-black;
-	z-index: $app-topbar-z-index;
+	z-index: $zindex-app-topbar;
 	@extend .d-flex;
 	@extend .align-items-center;
 	.logo {
@@ -44,7 +44,7 @@ $app-frame-sizer: 300px;
 .app-wrapper {
 	position: relative;
 	overflow-x: hidden;
-	z-index: $app-wrapper-z-index;
+	z-index: $zindex-app-wrapper;
 }
 .app-sidebar, .app-content {
 	transition: all 25ms ease-in-out;
@@ -55,7 +55,7 @@ $app-frame-sizer: 300px;
 	@extend .flex-column;
 	top: $topbar-height; bottom: 0; left: -$app-frame-sizer; 
 	width: $app-frame-sizer; height: calc(100vh - $topbar-height);
-	z-index: $app-sidebar-z-index;
+	z-index: $zindex-app-sidebar;
 	background-color: $primary;
 	overflow-y: scroll;
 	@media screen and (min-width: 992px){

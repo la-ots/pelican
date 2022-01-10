@@ -316,6 +316,9 @@ $sidenav-dark-footer-bg			: $black;
 
 // z-index
 
+$zindex-app-wrapper:				1;
+$zindex-app-sidebar:				100;
+$zindex-app-topbar:					900;
 $zindex-dropdown:                   1000 !default;
 $zindex-sticky:                     1020 !default;
 $zindex-fixed:                      1030 !default;
@@ -323,5 +326,6 @@ $zindex-offcanvas-backdrop:         1040 !default;
 $zindex-offcanvas:                  1045 !default;
 $zindex-popover:                    1070 !default;
 $zindex-tooltip:                    1080 !default;
+$zindex-skip-link:                  1090 !default;
 $zindex-modal-backdrop:             2000 !default;
 $zindex-modal:                      3000 !default;
