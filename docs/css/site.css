@@ -1,0 +1,50 @@
+.sidebar-content {
+  height: 100%;
+  max-height: unset;
+}
+
+h2:not(:nth-child(1)),
+h3 {
+  padding-top: 24px;
+  margin-top: 56px;
+  border-top: 2px dashed #c0cedb;
+}
+.card h3 {
+  padding-top: unset;
+  margin-top: unset;
+  border-top: unset;
+}
+.alert p:last-child {
+  margin-bottom: 0;
+}
+
+.pd-content {
+  margin-bottom: 1.5rem;
+}
+
+.pd-content h1,
+.pd-content h2,
+.pd-content h3,
+.pd-content h4,
+.pd-content h5,
+.pd-content h6 {
+  margin-bottom: 1rem;
+}
+
+.pd-content li > p {
+  margin-bottom: 0;
+}
+
+.loading-animation-wrapper {
+  height: unset;
+}
+
+.brand-link::after {
+  display: none !important;
+}
+
+.text-shadow {
+  text-shadow: 0 4px  3px rgba(0, 0, 0, 0.4),
+               0 8px  13px rgba(0, 0, 0, 0.1),
+               0 18px 23px rgba(0, 0, 0, 0.1);
+}

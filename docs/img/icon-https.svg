@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <circle cx="27" cy="27" r="27" style="fill:white;"/>
+    <path d="M34.72,34.84C34.72,35.548 34.138,36.13 33.43,36.13L20.57,36.13C19.862,36.13 19.28,35.548 19.28,34.84L19.28,27.12C19.28,26.412 19.862,25.83 20.57,25.83L21,25.83L21,23.26C21,19.968 23.708,17.26 27,17.26C30.292,17.26 33,19.968 33,23.26L33,25.83L33.43,25.83C34.138,25.83 34.72,26.412 34.72,27.12L34.72,34.84ZM30.43,25.84L30.43,23.26C30.43,21.378 28.882,19.83 27,19.83C25.118,19.83 23.57,21.378 23.57,23.26L23.57,25.83L30.43,25.83L30.43,25.84Z" style="fill:rgb(84,149,0);fill-rule:nonzero;"/>
+    <circle cx="27" cy="27.12" r="26" style="fill:none;stroke:rgb(69,134,0);stroke-width:1px;"/>
+</svg>

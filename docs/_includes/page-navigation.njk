@@ -1,0 +1,43 @@
+{%- set navPages = collections.all | eleventyNavigation %}
+{%- set nextPage = null %}
+{%- set currentPage = null %}
+{%- set previousPage = null %}
+{%- for entry in navPages %}
+  {%- if entry.url in page.url %}
+    {%- for child in entry.children %}
+      {# Set nextpage if it's empty and currentPage is not #}
+      {%- if nextPage | length == 0 and currentPage | length %}
+        {%- set nextPage = child %}
+      {%- endif %}
+      {%- if child.url == page.url %}        
+        {%- set currentPage = child %}        
+      {%- elseif currentPage | length == 0 %}
+        {%- set previousPage = child %}
+      {%- endif %}    
+    {%- endfor %}
+  {%- endif %}
+{%- endfor %}
+
+{% if previousPage | length or nextPage | length %}
+<hr class="major opacity-50 mb-0"/>
+<div class="container-fluid py-12">
+  <div class="row justify-content-between">
+    <div class="col-6 col-md-3 col-lg-2">
+      {% if previousPage | length %}
+      <a href="{{ previousPage.url | url }}" class="btn btn-primary btn-shadow btn-block" id="btnBack">
+        <span class="fas fa-arrow-left fa-xs"></span>
+        Back
+      </a>
+      {% endif %}
+    </div>
+    <div class="col-6 col-md-3 col-lg-2 text-right">
+      {% if nextPage | length %}
+      <a href="{{ nextPage.url | url }}" class="btn btn-primary btn-shadow btn-block" id="btnForward">
+        Next
+        <span class="fas fa-arrow-right fa-xs"></span>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
