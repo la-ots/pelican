@@ -12,15 +12,20 @@ eleventyNavigation:
 ---
 
 ## Eleventy
-Our site uses <a href="https://www.11ty.dev/" target="_blank">11ty</a> as our static site generator.  
+
+Our site uses <a href="https://www.11ty.dev/" target="_blank">11ty</a> as our static site generator. Thank you, 11ty team.  
 
 ## BootStrap
-One of the most widely-used frontend frameworks available and supported in Microsoft VisualStudio, <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a> provides the frontend foundation upon which we have built our system .
+
+It’s one of the most widely-used frontend frameworks available. It’s Microsoft VisualStudio support makes it easier for our developers to use it too. Thank you <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> team. Currently we’re using Bootstrap 4.
 
 ## FontAwesome
-We use  <a href="https://fontawesome.com/" target="_blank">FontAwesome </a> as our icon source for many internal and public-facing projects.
+
+We use  <a href="https://fontawesome.com/" target="_blank">FontAwesome </a> as our icon source for many internal and public-facing projects. Thank you FontAwesome team.
 
 ## Photography Credits
+
+We use some great photographs from people who have let us them. Their credits are below. Thanks, for your generosity.
 
 - Architectural project <a href="https://www.pexels.com/photo/architecture-blocks-blue-sky-bridge-275030/" target="_blank">photo from Pexels.com</a>
 - Desk with laptop and objects <a href="https://www.pexels.com/photo/macbook-pro-on-brown-wooden-table-2312369/" target="_blank">photo from Pexels.com</a>

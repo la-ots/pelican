@@ -13,18 +13,17 @@ eleventyNavigation:
 
 ## Overview
 
-The Pelican Design System will grow as we discover solutions created by each team to address problems. To share out knowledge and create a common code base, we'll use the following process:
+The Pelican Design System will grow as we discover solutions created by each team to address problems. To share our knowledge and create a common code base, we'll something like the following process.
 
-## Change Process
-
-1. Contacts OTS Design Team
-1. Present use case
-1. Determine abstractions and customizations
-1. Create visual assets in Figma
-1. Create branch
-1. Write code
-1. Pull into protected branch
+1. Contact the OTS Product Delivery Design Team.
+1. Present the use case.
+1. We’ll determine abstractions and customizations so it can be used by other teams too.
+1. The OTS Product Delivery Design Team members will create visual assets in Figma which match code output.
+1. Create branch in Pelican for the change.
+1. Write code.
+1. Pull Reviews and peer review process will occur.
+1. Final merge into the Main branch.
     
 ## Contact Info
 
-The OTS Design Team is your point of contact for specific challenges your team has in using Pelican. 
+The OTS Product Delivery Design Team is your contact for specific challenges your team has in using Pelican.
