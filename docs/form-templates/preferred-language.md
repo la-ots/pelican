@@ -11,7 +11,8 @@ eleventyNavigation:
   img: /img/illustrations/illus-preferred-language.svg
 ---
 
-## About this Form Template
+## Best practices
+
 Place this UI Block at the top of each page or as the first page for a web application.
 
 ## Usage

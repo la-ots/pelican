@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-create-user-id-password.svg
 ---
 
-## About this Form Template
+## Best practices
 
 MyLa should be used to allow users to create their User ID & Password. If not, use this form.
 

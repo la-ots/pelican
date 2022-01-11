@@ -2,39 +2,29 @@
 layout: default.njk
 ---
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12">
-      {% set navPages = collections.all | eleventyNavigation %}
-      {%- for entry in navPages %}
+{% set navPages = collections.all | eleventyNavigation %}
 
-      <div class="row my-4">
-        <div class="col-12">
-          <div class="card shadow-none">
-            <div class="card-body">
-              <h2 class="h4 mb-0">
-                <a class="text-decoration-none stretched-link" href="{{ entry.url | url }}"> {{ entry.title }}</a>
-              </h2>
-            </div>
-          </div>
-        </div>
+<div class="content-container">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <ul>
+          {%- for entry in navPages %}
+            <li>
+              <a class="text-decoration-none stretched-link" href="{{ entry.url | url }}"> {{ entry.title }}</a>
+              {% if entry.children.length > 0 %}
+                <ul>
+                  {% for child in entry.children %}
+                    <li>
+                      <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {%- endfor %}
+        </ul>
       </div>
-
-      {% if entry.children.length > 0 %}
-        <div class="row mt-n4 mb-4">
-          {% for child in entry.children %}
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card shadow-none">
-                <div class="card-body">
-                <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">
-                    {{ child.title }}
-                </a>
-                </div></div>
-            </div>
-          {% endfor %}                
-        </div>
-        {% endif %}
-      {%- endfor %}
     </div>
   </div>
 </div>

@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-email-address.svg
 ---
 
-## About this Form Template
+## Best Practices
 
 MyLa should be used to allow users to manage their email addresses on file. If not, use this form.
 

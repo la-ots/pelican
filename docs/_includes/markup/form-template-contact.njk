@@ -1,10 +1,9 @@
-<div class="content-container">
-	<form action="">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-md-10 col-lg-4">
-				<h2 class="h2">
-					<span class="fas fa-address-book"></span> Contact Info
+<div class="row justify-content-center">
+	<div class="col-12 col-md-10 col-lg-6">
+		<div class="card">
+			<div class="card-body">
+				<h2 class="h2 mb-6 text-primary">
+					<span class="fas fa-address-book text-primary-10"></span> Contact Info
 				</h2>
 				<p>At the bare minimum, we only need your email address. But, it&rsquo;s extra helpful to you and us if we can also get your phone number.</p>
 				{% include markup/form-required-message.njk %}
@@ -15,7 +14,7 @@
 				</div>
 				<div class="mb-4">
 					<label for="EmailAddressMain">
-						<span class="fas fa-asterisk"></span> Email Address
+						<span class="fas fa-asterisk text-danger"></span> Email Address
 					</label>
 					<input type="email" class="form-control" id="EmailAddressMain">
 				</div>
@@ -24,7 +23,6 @@
 					Update Contact Info
 				</button>
 			</div>
-		</div>
+		</div>	
 	</div>
-	</form>
 </div>

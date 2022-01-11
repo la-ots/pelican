@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-pin-numbers.svg
 ---
 
-## About this Form Template
+## Best Practices
 
 MyLa should be used to allow users to manage their PIN number. If not, use this form.
 
