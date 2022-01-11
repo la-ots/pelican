@@ -22,15 +22,7 @@ eleventyNavigation:
 - Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
-When writing Alert messages, keep the following in mind:
-
-- Be clear and specific
-- Use <a href="https://plainlanguage.gov/" target="_blank">Plain Language</a>, not technical jargon
-- Do not blame the user.
-- Avoid negative language.
-- Avoid using all uppercase letters unless you are using Acronyms.
-- Provide useful information.
-- See [Voice and Tone](/foundation/voice-and-tone/) for more information.
+{% include writing-tips.njk %}
 
 
 ## Usage

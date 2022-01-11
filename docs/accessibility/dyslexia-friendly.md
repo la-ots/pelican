@@ -11,9 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-dyslexia-friendly.svg
 ---
 
-## Content for Dyslexic Readers 
-
-Dyslexic readers can more easily consume on-screen content with some easy to follow guidelines.
+## Best Practices 
 
 - Use font sizes of 16 – 19 pixels.
 - Avoid underlines when possible.

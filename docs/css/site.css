@@ -6,8 +6,6 @@
 h2:not(:nth-child(1)),
 h3 {
   padding-top: 24px;
-  margin-top: 56px;
-  border-top: 2px dashed #c0cedb;
 }
 .card h3 {
   padding-top: unset;

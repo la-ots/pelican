@@ -31,7 +31,7 @@ The App Screen is composed of 5 parts. The bottom of this page will display the 
 Everything considered part of the App Screen is placed into this element. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top button goes below it in markup.
 
 ```html
-{% include markup/skip-link-markup.njk %}
+{% include markup/skip-link.njk %}
 <div id="page-wrapper" class="page-wrapper agency-theme">
     ...
 </div>

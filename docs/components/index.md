@@ -9,9 +9,3 @@ eleventyNavigation:
   order: 6
   excerpt: Components are the small piece of a user interface.
 ---
-
-# Overview
-
-Components are the smallest pieces of functionality in Pelican. They can be combined to form larger pieces of functionality. 
-
-{% include themeables.njk %}

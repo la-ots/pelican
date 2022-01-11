@@ -28,34 +28,45 @@ eleventyNavigation:
 - For two types of actions: use the primary button as the main action and [gray outline buttons](/components/buttons/#tertiary-buttons) as the tertiary action(s).
 - For three types of actions:  use the primary button as the main action, use the [Secondary button](/components/buttons/#secondary-buttons) as the secondary action, and the gray outline buttons as the tertiary action(s).
 - If a fourth or more types of actions are required, use the [Link Buttons](/components/buttons/#link-buttons) for those, in addition to the types above.
-- Any [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons) buttons should be right aligned to the [Button Container](/components/button-container/), separated from the other buttons.
+- Any [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons) buttons should be right aligned to the other buttons, separated from the other buttons.
+- Consider a [Button Container](/components/button-container/) to hold all of the buttons.
 
 <p class="fw-bold mt-4">Single Level</p>
 
-<div class="d-grid d-md-block">
+<div class="d-grid gap-2 d-md-flex">
 <button type="button" class="btn btn-primary">Button</button>
+<button type="button" class="btn btn-warning ms-md-auto">Warning</button>
 </div>
+
+{% include markup/divider-minor.njk %}
 
 <p class="fw-bold mt-4">Two Levels</p>
 
-<div class="d-grid d-md-block">
+<div class="d-grid gap-2 d-md-flex">
 <button type="button" class="btn btn-primary">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
+<button type="button" class="btn btn-warning ms-md-auto">Warning</button>
 </div>
+
+{% include markup/divider-minor.njk %}
 
 <p class="fw-bold mt-4">Three Levels</p>
 
-<div class="d-grid d-md-block">
+<div class="d-grid gap-2 d-md-flex">
 <button type="button" class="btn btn-primary">Button</button>
 <button type="button" class="btn btn-secondary">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
+<button type="button" class="btn btn-warning ms-md-auto">Warning</button>
+<button type="button" class="btn btn-danger ">Danger</button>
 </div>
+
+{% include markup/divider-minor.njk %}
 
 <p class="fw-bold mt-4">Four or More Levels</p>
 
-<div class="d-grid d-md-block">
+<div class="d-grid gap-2 d-md-flex">
 <button type="button" class="btn btn-primary">Button</button>
 <button type="button" class="btn btn-secondary">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
@@ -63,13 +74,19 @@ eleventyNavigation:
 <button type="button" class="btn btn-link">Button</button>
 <button type="button" class="btn btn-link">Button</button>
 <button type="button" class="btn btn-link">Button</button>
+<button type="button" class="btn btn-warning ms-md-auto">Warning</button>
+<button type="button" class="btn btn-danger ">Danger</button>
 </div>
+
+{% include markup/divider-minor.njk %}
 
 <p class="fw-bold mt-4">Writing Buttons</p>
 
 - Button labels must clearly state the action that occurs when the button is pressed.
 - Use action verbs and precise language. Use a noun after the verb to clarify meaning. For example: "Edit", "Empty Trash", or "Go to File".
 - When including an icon with text, the icon's meaning must match the meaning of the text.
+
+{% include writing-tips.njk %}
 
 ## Usage
 
@@ -124,18 +141,17 @@ eleventyNavigation:
 ### Icon-only Button
 
 - The icon must clearly indicate the button’s purpose.
-- Hide the icon from assistive technology users.
 - Add descriptive text for assisitive technology users. This includes special classes and attributes in the sample code. Your project may need more than what’s included here.
 
 <button type="button" class="btn btn-outline-ui">
     <span class="fas fa-check" aria-hidden="true"></span>
-    <span class="sr-only" aria-hidden="false">Accept</span>
+    <span class="sr-only" aria-hidden="false">Accept Terms</span>
 </button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
     <span class="fas fa-check" aria-hidden="true"></span>
-    <span class="sr-only" aria-hidden="false">Accept</span>
+    <span class="sr-only" aria-hidden="false">Accept Terms</span>
 </button>
 ```
 
@@ -148,10 +164,10 @@ eleventyNavigation:
 - Add the class `disabled` to the class list.
 - Be sure to use `tabindex="-1"` to prevent tabbing to that button.
 
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>Button</button>
 
 ```html
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>Button</button>
 ```
 
 ## Resources

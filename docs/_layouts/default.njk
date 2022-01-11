@@ -2,8 +2,7 @@
 layout: base.njk
 ---
 
-{% include "markup/skip-link-markup.njk" %}
-{% include "markup/back-to-top.njk" %}
+{% include "markup/skip-link.njk" %}
 {% include "app-topbar.njk" %}
 
 {% include "sidebar.njk" %}
@@ -12,3 +11,4 @@ layout: base.njk
   {{ content | safe }}
 </main>
 {% include "footer.njk" %}
+{% include "markup/back-to-top.njk" %}

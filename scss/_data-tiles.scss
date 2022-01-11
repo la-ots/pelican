@@ -1,0 +1,9 @@
+.data-tile {
+	@extend .card;
+	.content-container & {
+		background-color: $gray-100;
+	}
+}
+.data-tile-body {
+	@extend .card-body;
+}

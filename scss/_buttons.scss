@@ -9,6 +9,7 @@
 }
 .btn-outline-ui {
     @extend .shadow-none;
+    color: $gray-700;
 }
 .btn-link {
     @extend .shadow-none;

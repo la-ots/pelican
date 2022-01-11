@@ -15,11 +15,9 @@ eleventyNavigation:
 
 Badges are used for information such as:
 
-- A piece of data’s related quality
-- An office type
-- A Status Indicator
-- A count of something such as notifications
-- To display secondary information attached to primary information
+- Use them to display a piece of data’s related quality, such as a number of notifications.
+- Badges take their size from the parent element.
+- Keep the text in them short and simple.
 
 ## Usage
 

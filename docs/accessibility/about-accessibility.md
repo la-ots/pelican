@@ -13,15 +13,11 @@ eleventyNavigation:
 
 ## Overview
 
-Accessibility isn’t a line-item that is tacked on at the end of the digital product’s development process. It has to be implemented along with UX, wireframe, design, and development choices. It's a continual part of the development process. 
+Accessibility isn’t a line-item that is tacked on at the end of a digital product’s development process. It has to be implemented along with content development, UX, wireframe, design, and development choices. It's a continual part of the development process. 
 
-When we do it properly, we even consider accessibility when creating and writing the content of the site. It will be wise to consult some <a href="http://www.ada.gov/pcatoolkit/chap5chklist.htm" target="_blank">ADA-recommended policies</a>.
-
-## Accessibility Matters More Than You Think
+## Accessibility, a Human Right
 
 According to a <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p70-152.pdf" target="_blank">2014 Census report on Americans with disabilities</a>, "...27.2 percent, or 85.3 million, of people living in the United States had a disability in 2014." This means that an accessibility-first mindset is the prime factor in developing accessible websites. Further, the United Nations considers the rights of persons with disabilities important enough to <a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" target="_blank">discuss these rights in a convention</a>. 
-
-{% include markup/pull-request.njk %}
 
 ## Benefits
 
@@ -29,13 +25,11 @@ A bonus of ADA compliant accessibility is <a href="https://alistapart.com/articl
 
 Another benefit is that an accessible website is is open to users with any category of use-challenge. This means it will also be easier for people without any use challenges.
 
-## Links
-
-Read [Links in Pelican](/foundation/links/) to learn how links should be written, used, and styled for the best possible user experiences.
-
 ## Markup
 
 Markup and front-end’s roles in Accessibility is a complex concept. For now, we will refer to and follow the advice of <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Digital.gov’s Accessibility for Front-End Developers</a>. Their guidelines in this section will inform and influence our own practice.
+
+{% include markup/pull-request.njk %}
 
 ## Resources
 
