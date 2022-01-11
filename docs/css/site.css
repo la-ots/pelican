@@ -3,9 +3,8 @@
   max-height: unset;
 }
 
-h2:not(:nth-child(1)),
-h3 {
-  padding-top: 24px;
+h2, h3 {
+  margin-top: 24px;
 }
 .card h3 {
   padding-top: unset;

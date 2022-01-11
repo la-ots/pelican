@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Overview
 
-The <a href="https://getbootstrap.com/docs/4.5/layout/overview/" target="_blank">Layout Grid is taken from Bootstrap</a>, upon which Pelican is built, allocates space to items and sizes them. We recommend familiarizing yourself with it.
+The <a href="https://getbootstrap.com/docs/4.5/layout/overview/" target="_blank">Layout Grid is taken from Bootstrap</a>, upon which Pelican is built. It allocates space to items and sizes them. We recommend familiarizing yourself with it.
 
 ## Explanation
 
@@ -39,9 +39,9 @@ These breakpoints allow for items to be predictably sized. Resize this window an
 
 To get the predictable resizing, follow this markup guide.
 
-1. Begin with a `container-fluid`
+1. Begin with a `container-fluid` (or a `.container` if you need to limit the total width).
 1. Insert a `row`
-1. Add the column classed `<div>`s as necessary
+1. Add the column classed `<div>`s as necessary, such as `col-12` or `col-md-6`.
 
 ```html
 <div class="container-fluid">
@@ -53,7 +53,7 @@ To get the predictable resizing, follow this markup guide.
 
 This forms the basis of your layout. 
 
-Content which needs to resize would be placed directly in the `<div>` elements with the columns classes. Cards and Form Groups are easy examples.
+Content which needs to resize would be placed directly in the `<div>` elements with the columns classes. For example, notice how each cards is sized by its parent column class.
 
 {% include markup/cards-layout.njk %}
 
@@ -63,7 +63,7 @@ Content which needs to resize would be placed directly in the `<div>` elements w
 
 ## Special Note
 
-Pelican uses `container-fluid` rather than `container` to better accomodate fluid sizing.
+Pelican defaults tp `container-fluid` rather than `container` to better accomodate fluid sizing. This allows full-width use of the screen.
 
 * `.container-fluid` sets width at 100% on all breakpoints, which allows it to use to maximum screen width available to its parent element
 * `.container` sets a maximum width at preset breakpoints, which makes it less flexible as a child element

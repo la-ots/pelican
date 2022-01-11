@@ -13,36 +13,26 @@ eleventyNavigation:
 
 ## User Interface Colors
 
-Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements. 
+Pelican provides more clarity for the user interface with two additional colors. They are called UI and UI Light. These are used on form controls, priority interface actions, and supporting interface elements. 
 
 <div class="row mb-12">
-    <div class="col-md-6 col-xl-3">
+    <div class="col-md-6 col-xl-4">
         <div class="card border-0 mb-4">
             <div class="py-20 bg-ui rounded-top"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">UI</p>
-                <p class="mb-0"><code>#6c757d</code></p>
-                <p class="mb-0"><code>$ui</code></p>
+                <p class="mb-0 fw-bold">UI</p>
+                <p class="mb-0">Hex Code: <code>#6c757d</code></p>
+                <p class="mb-0">SCSS Var: <code>$ui</code></p>
             </div>
         </div>
     </div>
-    <div class="col-md-6 col-xl-3">
+    <div class="col-md-6 col-xl-4">
         <div class="card border-0 mb-4">
             <div class="py-20 bg-ui-light rounded-top"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">UI Light</p>
-                <p class="mb-0"><code>#dee2e6</code></p>
-                <p class="mb-0"><code>$ui-light</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-ui-priority rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 font-weight-bold">UI Priority</p>
-                <p class="mb-0"><code>#185ae3</code></p>
-                <p class="mb-0"><code>$ui-priority</code></p>
+                <p class="mb-0 fw-bold">UI Light</p>
+                <p class="mb-0">Hex Code: <code>#dee2e6</code></p>
+                <p class="mb-0">SCSS Var: <code>$ui-light</code></p>
             </div>
         </div>
     </div>
@@ -67,78 +57,36 @@ The UI Light color is often used as:
 - The disabled color for [Form Controls](/form-controls/)
 - The background color to UI color uses
 
-**UI Priority**
-
-The UI Priority color is taken from calls to action and link colors around the web. It’s often used as:
-
-- Activated [Form Controls](/form-controls/)
-- Buttons which need to [appear more prominently than other UI buttons](/foundation/ui-colors/#ui-vs-ui-blue)
-- [Links in text](/accessibility/about-accessibility/)
-
-## UI vs UI Priority
-
-Deciding between the use of UI and UI Priority depends on the use case. As an example, consider the user interface below. 
-
-Each item in each list has a button which takes the user to more information about that item. The [UI Priority themed buttons](/components/buttons/#ui-priority-button) are used for the more important, higher visual priority items. The UI themed buttons are used for the lesser importance items.
-
-<div class="px-4 mb-12">
-    <div class="row">
-        <div class="col-lg-6">
-            <ul class="list-group">
-                <li class="list-group-item d-flex align-items-center">New Item
-                    <button type="button" class="btn btn-sm btn-ui-priority ml-auto">View Now</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">New Item
-                    <button type="button" class="btn btn-sm btn-ui-priority ml-auto">View Now</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">New Item
-                    <button type="button" class="btn btn-sm btn-ui-priority ml-auto">View Now</button>
-                </li>
-            </ul>
-        </div>
-        <div class="col-lg-6">
-            <ul class="list-group">
-                <li class="list-group-item d-flex align-items-center">Historical Item
-                    <button type="button" class="btn btn-sm btn-ui ml-auto">More Info</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">Historical Item
-                    <button type="button" class="btn btn-sm btn-ui ml-auto">More Info</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">Historical Item
-                    <button type="button" class="btn btn-sm btn-ui ml-auto">More Info</button>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-For more example and context guidance, read [Consider the Priority](/components/buttons/#consider-the-priority) on the UI Buttons page.
-
 ## UI Color Class List
 
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-    <table class="table table-light mb-8">
+    <table class="table mb-8">
         <thead>
             <tr>
-                <th>Background Colors</th>
-                <th>Text Colors</th>
+                <th id="color-name">Color Name</th>
+                <th id="background-color">Background Color</th>
+                <th id="background-color">Background Color Class</th>
+                <th id="text-color">Text Color</th>
+                <th id="text-color-class">Text Color Class</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui">bg-ui</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
+                <th id="ui">UI</th>
+                <td headers="ui background-color"><span class="badge badge-pill py-2 px-4 bg-ui">bg-ui</span></td>
+                <td headers="ui background-color-class"><code>bg-ui</code></td>
+                <td headers="ui text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
+                <td headers="ui text-color-class"><code>text-ui</code></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui-light">bg-ui-light</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-light">text-ui-light</span></td>
-            </tr> 
-            <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui-priority">bg-ui-priority</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-priority">text-ui-priority</span></td>
-            </tr>                                
+                <th id="ui-light">UI Light</th>
+                <td headers="ui-light background-color"><span class="badge badge-pill py-2 px-4 bg-ui-light text-ui">bg-ui-light</span></td>
+                <td headers="ui-light background-color-class"><code>bg-ui-light</code></td>
+                <td headers="ui-light text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-light">text-ui-light</span></td>
+                <td headers="ui-light text-color-class"><code>text-ui-light</code></td>
+            </tr>                                 
         </tbody>
     </table>
 </div>
