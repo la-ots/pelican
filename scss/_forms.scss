@@ -14,6 +14,9 @@ legend, .legend {
 	@extend .my-4;
 	@extend .h4;
 	@extend .text-primary;
+	& + p {
+		@extend .mt-n4;
+	}
 }
 .input-group {
 	.btn {

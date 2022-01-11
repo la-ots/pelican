@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-using-form-controls.svg
 ---
 
-## About Form Controls
+## Best Practices
 
 Louisiana government agencies will get the best data possible from the user when the forms are planned and implemented from the user’s point of view. The user will not know the legislative or administrative reasoning behind the forms. So let’s arrange the forms for their understanding, not ours.
 
@@ -21,18 +21,16 @@ Here are some general tips to help make the best form for the user’s experienc
 - Labels should be atop the input.
 - Use a single column form if possible. This is the easiest form reading experience for users. If Stakeholders and/or Product Owners indicate their preference against this, then arrange the form to have as few vertical divisions as possible.
 - Clearly label all form controls.  
-- Form Controls in a `.form-group` take their width from their parent element, such as a Bootstrap column, such as `col-12` or `col-md-6`.
 - Consider [Label Guidance](/form-controls/labels-guidance).
 
-## Using the Markup
+## Usage
 
-* Copy the form controls markup you need. Be sure to get the wrapping element with the `.form-group` class.
-* Make sure the label’s `for` attribute’s value matches the `ID` attribute of the control for which it is a label.
-* Verify that the appropriate input type is being used, such as using `<input type=”tel”>` for telephone numbers and not `<input type-”text”>`.
-* Do not omit the `<label>` element as this is important for browser rendering and accessibility.
-* Always use the `<label>` as shown in the Design System.
-* The `placeholder` attribute may cause usability and localization issues, so refrain from using it.
-* Change any IDs for your project’s requirements.
+- Copy the form controls markup you need. Include the wrapping element, often the `mb-3` class.
+- Make `for` and `id` value match.
+- Verify that the appropriate input type is being used, such as using `<input type=”tel”>` for telephone numbers.
+- Do not omit the Labels.
+- Refrain from using the placeholder attribute.
+- Change any IDs for your project’s requirements.
     
 ## Theming Constraints
 

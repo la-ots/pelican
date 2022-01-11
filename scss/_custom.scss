@@ -24,6 +24,8 @@ body {
     @extend .mb-4;
 }
 .page-title {
+    @extend .position-relative;
+    @extend .bg-white;
     @extend .content-container;
     @extend .text-primary;
     
@@ -31,6 +33,12 @@ body {
         @extend .mb-lg-0;
     }
     
+}
+.header-image {
+    @extend .py-8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .media-box {
     // this mimics the media component which was in Bootstrap v4, removed in v5.

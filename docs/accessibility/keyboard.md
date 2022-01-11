@@ -44,7 +44,7 @@ Ensure accessibility, so keep the following in mind:
 * Once focused on an interactive object, users should be able to interact with it using the Enter, Spacebar, or Arrow keys depending on the element.
 * Users should not be able to Tab to non-interactive elements, such as images, text areas, or other static elements 
 
-## Do Certain Interactive Elements have Special Keyboard Use Cases?
+## Special Keyboard Uses
 
 Typeaheads/ Selects / Autocompletes
 

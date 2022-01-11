@@ -1,11 +1,13 @@
 <div class="page-title">
   <div class="container-fluid">
       <div class="row align-items-center">
-          <div class="col-xs-12">
-              <h1>
-                  <span class="fas fa-tachometer-alt text-primary-10"></span>
-                  {{ title }}
-              </h1>
+          {%- if eleventyNavigation.img %}
+          <div class="col-xs-12 col-md-3">
+              <img class="img-fluid rounded" src="{{ eleventyNavigation.img }}" alt="">
+          </div>
+          {%- endif %}
+          <div class="col-xs-12 {%- if eleventyNavigation.img %} col-md-9{%- endif %}">
+              <h1>{{ title }}</h1>
               <p>{{ summary }}</p>
           </div>
       </div>

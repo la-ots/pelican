@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-change-password.svg
 ---
 
-## About this Form Template
+## Best Practices
 
 MyLa should be used to allow users to manage their password. If not, use this form.
 

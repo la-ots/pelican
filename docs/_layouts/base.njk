@@ -28,14 +28,23 @@
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="Pelican, Louisiana’s Design System.">
     <meta property="og:description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
+    {%- if eleventyNavigation.img %} 
+    <meta property="og:image" content="{{ eleventyNavigation.img }}">
+    {%- else %}
     <meta property="og:image" content="/img/pelican-design-system-illustration.jpg">
+    {%- endif %}
+    
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="Pelican, Louisiana’s Design System.">
     <meta property="twitter:description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
-    <meta property="twitter:image" content="/img/pelican-design-system-illustration.jpg">
+    {%- if eleventyNavigation.img %} 
+    <meta property="og:image" content="{{ eleventyNavigation.img }}">
+    {%- else %}
+    <meta property="og:image" content="/img/pelican-design-system-illustration.jpg">
+    {%- endif %}
   </head>
   <body class="sb-nav-fixed">
     {{ content | safe }}

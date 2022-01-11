@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Inputs
   parent: Form Controls
-  order: 5
+  order: 6
   excerpt: The Input element specifies a field for the user to enter information on a page.
   img: /img/illustrations/illus-inputs.svg
 ---
@@ -14,21 +14,21 @@ eleventyNavigation:
 ## Best Practices
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Refrain from using `placeholder` in inputs as it causes usability problems.
+- Refrain from using placeholder attributes in inputs because they causes usability problems.
 - Use the Text Input when you can’t predict a user’s response or when another type of Input would make answering the prompt difficult.
 - If users must choose from a predetermined set of choices, use [Radio Buttons](/form-controls/radios) or [Checkboxes](/form-controls/checkboxes).
 - Use [Textarea](/forms/textarea) if the user needs to enter more than a single line of text.
 - Clearly label all text input fields.
-- Avoid using Placeholder text. It can cause issues, especially if users have visual or cognitive disabilities.
-
-_**Note:** Some Inputs can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
+- Use the appropriate type of input for the data being gathered.
+- Ensure the `for` and `id` attributes have matching values.
 
 We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">22 types of inputs</a>.
 
 ## Usage
-### Input Type: Text
 
-- Accepts text, numbers, and other characters
+**Input Type: Text**
+
+- Accepts text, numbers, and other characters.
 
 {% include markup/input-text.njk %}
 
@@ -36,10 +36,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-text.njk %}
 ```
 
-### Input Type: Date Picker
+**Input Type: Date Picker**
 
 - Accepts dates using the browser’s date picker. 
-- Displays a User Interface (UI) optimized for the entry of dates.
+- Displays a control optimized for date entry.
 
 {% include markup/input-date-picker.njk %}
 
@@ -47,10 +47,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-date-picker.njk %}
 ```
 
-### Input Type: Known Date Entry
+**Input Type: Known Date Entry**
 
 - Accepts dates using three text inputs for Month, Day, Year. 
-- Displays a User Interface (UI) optimized for the entry of dates.
+- Displays a control optimized for date entry.
 - Be sure to include labels, especially if the fields are rearranged.
 
 {% include markup/input-date-multiple-fields.njk %}
@@ -59,10 +59,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-date-multiple-fields.njk %}
 ```
 
-### Input Type: Tel
+**Input Type: Tel**
 
-- Accepts telephone numbers
-- Displays a UI optimized for a phone number
+- Accepts telephone numbers.
+- Displays a UI optimized for phone numbers.
 
 {% include markup/input-tel.njk %}
 
@@ -70,10 +70,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-tel.njk %}
 ```
 
-### Input Type: Email
+**Input Type: Email**
 
-- Accepts email addresses
-- Displays a UI optimized for the email address entry
+- Accepts email addresses.
+- Displays a control optimized for entering email addresses.
 
 {% include markup/input-email.njk %}
 
@@ -81,10 +81,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-email.njk %}
 ```
 
-### Input Type: Search
+**Input Type: Search**
 
-- Accepts search terms
-- Displays a UI optimized for search term entry
+- Accepts search terms.
+- Displays a control optimized for search term entry.
 
 {% include markup/input-search.njk %}
 
@@ -92,10 +92,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-search.njk %}
 ```
 
-### Input Type: URL
+**Input Type: URL**
 
-- Accepts web addresses
-- Displays a UI optimized for the entry of web addresses
+- Accepts web addresses.
+- Displays a control optimized for entering web addresses.
 
 {% include markup/input-url.njk %}
 
@@ -103,10 +103,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-url.njk %}
 ```
 
-### Input Type: Number
+**Input Type: Number**
 
-- Accepts numbers
-- Displays a UI optimized for the entry of numbers
+- Accepts numbers, this includes scientific notation.
+- Displays a control optimized for numeric entry.
 
 {% include markup/input-number.njk %}
 
@@ -114,10 +114,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-number.njk %}
 ```
 
-### Input Type: File
+**Input Type: File**
 
 - Accepts file uploads.
-- Displays a UI optimized for uploading files.
+- Displays a control for uploading files.
 
 {% include markup/input-file.njk %}
 
@@ -125,20 +125,18 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-file.njk %}
 ```
 
-### Readonly
+**Readonly**
 
 - Shows user information that is readonly.
 - User can copy the information but not change it.
 
-Note: This is not the same as a disabled field. A disabled field prevents _user input_. This displays _system provided values_.
-
 {% include markup/input-text-readonly.njk %}
 
 ``` html
 {% include markup/input-text-readonly.njk %}
 ```
 
-### Readonly as Plain Text
+**Readonly as Plain Text**
 
 - Same as Readonly, but removes input styling.
 - Will horizontally align with other, user-editable fields.
