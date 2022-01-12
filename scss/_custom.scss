@@ -103,7 +103,6 @@ body {
     @extend .text-white;
     @extend .py-16;
     .header {
-        @extend .text-secondary;
         @extend .display-5;
         @extend .fw-bold;
     }
@@ -114,7 +113,7 @@ body {
         @extend .shadow-none;
     }
     .btn-link {
-        @extend .text-secondary;
+        @extend .text-accent;
     }
     img {
         @extend .rounded;
