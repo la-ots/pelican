@@ -19,7 +19,10 @@
 }
 .btn-back-top {
     position: fixed;
-    bottom: 100px; right: 100px;
+    bottom: 50px; right: 50px;
+    @include media-breakpoint-up(lg){
+       bottom: 100px; right: 100px; 
+    }
 }
 .btn-add-this {
 	@extend           .btn;

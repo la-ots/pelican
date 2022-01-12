@@ -123,13 +123,28 @@ body {
 }
 .hero-centered {
     @extend .text-center;
+    @extend .px-4;
+    @extend .pb-0;
 }
 .hero-left {
 
 }
 
 
-
+.feature {
+    @extend .bg-white;
+    @extend .py-16;
+}
+.feature-section {
+    @extend .px-4;
+    .h2, .h3, .h4, h2, h3, h4 {
+        @extend .text-primary;
+    }
+    .icon {
+        font-size: smaller;
+        @extend .text-primary-10;
+    }
+}
 .feature-block-call-to-action {
     @extend .py-16;
     @extend .py-lg-32;
@@ -178,7 +193,7 @@ body {
 }
 
 .jumbotron-message {
-    @extend .p-10;
+    @extend .py-26;
     @extend .px-5;
     @extend .bg-primary;
     @extend .text-white;

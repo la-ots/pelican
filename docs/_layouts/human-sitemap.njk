@@ -11,7 +11,7 @@ layout: default.njk
       <div class="col-12">
         <h2 class=""><a class="text-decoration-none " href="{{ entry.url | url }}">{{ entry.title }}</a></h2>
         {% if entry.children.length > 0 %}
-        <ul style="columns: 4 ">
+        <ul class="list-columns">
           {% for child in entry.children %}
           <li>
             <a class="text-decoration-none" href="{{ child.url | url }}">{{ child.title }}</a>

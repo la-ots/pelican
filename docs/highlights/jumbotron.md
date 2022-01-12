@@ -1,0 +1,26 @@
+---
+title: Jumbotron
+summary: Visual introduction to a subsection of a digital product.
+tags: feature block
+layout: guide
+eleventyNavigation:
+  key: Jumbotron
+  parent: Highlights
+  excerpt: Visual introduction to a subsection of a digital product.
+  order: 1
+  img: /img/illustrations/illus-boxed-in-photo.svg
+---
+
+## Best Practices
+
+- Use the Jumbotron as the first, prominent element on the page for a subsection, if prominence is necessary to help communicate information architecture.
+- Only present a button if the user will need guidance to a primary action within the subsection.
+- Don’t use more than one button.
+
+## Usage
+
+{% include markup/highlights-jumbotron.njk %}
+
+```html
+{% include markup/highlights-jumbotron.njk %}
+```
