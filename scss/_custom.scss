@@ -145,51 +145,22 @@ body {
         @extend .text-primary-10;
     }
 }
-.feature-block-call-to-action {
+.languages {
     @extend .py-16;
     @extend .py-lg-32;
-    @extend .bg-white;
-    @extend .text-primary;
-}
-.feature-block-calls-to-action {
-    @extend .py-16;
-    @extend .py-lg-32;
-    @extend .mb-0;
-    @extend .bg-primary;
-    @extend .text-white;
-    .btn {
-        @extend .shadow-none;
-    }
-}
-.feature-block-three-icons {
-    @extend .py-16;
-    @extend .py-lg-32;
-    @extend .mb-0;
-    @extend .bg-secondary;
-    @extend .text-primary-90;
-    @extend .border-0;
-}
-.feature-block-set {
-    @extend .content-container;
-    @extend .py-16;
-    @extend .py-lg-32;
-    h2, .h2 {
-        @extend .text-primary;
-    }
-    .fas:not(.btn .fas) {
-        @extend .text-ui;
-    }
-}
-.feature-block-languages {
-    @extend .py-16;
-    @extend .py-lg-32;
-    @extend .bg-secondary;
-}
-.feature-block-many-icons {
-    @extend .py-16;
-    @extend .py-lg-32;
-    @extend .bg-primary;
-    @extend .text-white;
+    @extend .bg-accent;
+    @extend .text-primary; 
+    .language {
+        @extend .rounded;
+        @extend .py-4;
+        @extend .bg-white;
+        p {
+            @extend .mb-0;
+            @extend .h4;
+            @extend .fw-light;
+            @extend .text-center;
+        }
+    }  
 }
 
 .jumbotron-message {

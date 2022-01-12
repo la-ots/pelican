@@ -1,13 +1,13 @@
 ---
 title: Jumbotron
-summary: Visual introduction to a subsection of a digital product.
+summary: Show a strong introduction to a subsection of a digital product.
 tags: feature block
 layout: guide
 eleventyNavigation:
   key: Jumbotron
   parent: Highlights
-  excerpt: Visual introduction to a subsection of a digital product.
-  order: 1
+  excerpt: Show a strong introduction to a subsection of a digital product.
+  order: 4
   img: /img/illustrations/illus-boxed-in-photo.svg
 ---
 
