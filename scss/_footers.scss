@@ -1,6 +1,5 @@
 .footer {
     @extend .py-4;
-    @extend .mt-auto;
     a {
         @extend .text-decoration-none;
         &:not(.btn) {
