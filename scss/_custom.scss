@@ -2,6 +2,7 @@ body {
     @include bg-texture;
 }
 .skip-to-main, .skip-link {
+    @extend .text-decoration-none;
 	z-index: $zindex-skip-link;
 	position: fixed;
 	width: 220px; height: 44px;
@@ -59,6 +60,9 @@ body {
 }
 .opacity-00 {
     opacity: 0;
+}
+.opacity-20 {
+    opacity: .20;
 }
 .opacity-50 {
     opacity: .50;

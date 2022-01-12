@@ -10,7 +10,7 @@
 		{% if entry.children.length > 0 %}
 		<button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#{{ entry.title | replace(' ', '') }}" aria-controls="{{ entry.title | replace(' ', '') }}" aria-expanded="false">
 		  <span class="fas fa-fw fa-angle-down" aria-hidden="true"></span>
-		  <span class="sr-only">See More</span>
+		  <span class="visually-hidden">See More</span>
 		</button>
 		{% endif %}
 		{% if entry.children.length > 0 %}

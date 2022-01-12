@@ -90,7 +90,7 @@ eleventyNavigation:
 
 ## Usage
 
-### Primary Buttons
+**Primary Buttons**
 
 <button type="button" class="btn btn-primary">Button</button>
 
@@ -98,7 +98,7 @@ eleventyNavigation:
 <button type="button" class="btn btn-primary">Button</button>
 ```
 
-### Secondary Buttons
+**Secondary Buttons**
 
 <button type="button" class="btn btn-secondary">Button</button>
 
@@ -106,7 +106,7 @@ eleventyNavigation:
 <button type="button" class="btn btn-secondary">Button</button>
 ```
 
-### Tertiary Buttons
+**Tertiary Buttons**
 
 <button type="button" class="btn btn-outline-ui">Button</button>
 
@@ -114,7 +114,7 @@ eleventyNavigation:
 <button type="button" class="btn btn-outline-ui">Button</button>
 ```
 
-### Link Buttons
+**Link Buttons**
 
  <button type="button" class="btn btn-link">Button</button>
 
@@ -122,7 +122,7 @@ eleventyNavigation:
 <button type="button" class="btn btn-link">Button</button>
 ```
 
-### Danger Buttons
+**Danger Buttons**
 
 <button type="button" class="btn btn-danger">Button</button>
 
@@ -130,7 +130,7 @@ eleventyNavigation:
  <button type="button" class="btn btn-danger">Button</button>
 ```
 
-### Warning Buttons
+**Warning Buttons**
 
 <button type="button" class="btn btn-warning">Button</button>
 
@@ -138,7 +138,14 @@ eleventyNavigation:
 <button type="button" class="btn btn-warning">Button</button>
 ```
 
-### Icon-only Button
+**Icons in Buttons**
+
+- Review Pelican’s [Icon](/foundation/icons/) guidance
+- Put the icon on the left or the right side.
+- Icons in Button are mostly on the left. Buttons on the right are meant for directional actions such as going to a link, sign in, or sign out actions.
+
+
+**Icon-only Button**
 
 - The icon must clearly indicate the button’s purpose.
 - Add descriptive text for assisitive technology users. This includes special classes and attributes in the sample code. Your project may need more than what’s included here.
@@ -155,7 +162,7 @@ eleventyNavigation:
 </button>
 ```
 
-### Disabled Buttons
+**Disabled Buttons**
 
 - Disabled buttons cannot be clicked and should not appear clickable.
 - Do not use Disabled buttons as a placeholder if a feature isn’t ready yet.

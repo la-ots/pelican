@@ -17,9 +17,9 @@
     }
     &.footer-utility {
         @extend .bg-primary;
-        @extend .text-secondary;
+        @extend .text-primary-10;
         hr {
-            @extend .bg-primary-90;
+            @extend .opacity-20;
         }
     }
 }

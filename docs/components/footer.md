@@ -18,7 +18,7 @@ eleventyNavigation:
 
 ## Usage
 
-### Basic Footer
+**Basic Footer**
 
 {% include markup/footer-basic.njk %}
 
@@ -26,7 +26,7 @@ eleventyNavigation:
 {% include markup/footer-basic.njk %}
 ```
 
-### Utility Footer
+**Utility Footer**
 
 {% include markup/footer-utility.njk %}
 

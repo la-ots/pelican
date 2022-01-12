@@ -38,23 +38,7 @@ When writing Toast messages, keep the following in mind:
 
 ## Usage
 
-### Success Toast
-
-{% include markup/toast-success.njk %}
-
-``` html
-{% include markup/toast-success.njk %}
-```
-
-### Danger Toast
-
-{% include markup/toast-danger.njk %}
-
-``` html
-{% include markup/toast-danger.njk %}
-```
-
-### Info Toast
+**Info Toast**
 
 {% include markup/toast-info.njk %}
 
@@ -62,13 +46,33 @@ When writing Toast messages, keep the following in mind:
 {% include markup/toast-info.njk %}
 ```
 
-### Warning Toast
+**Warning Toast**
 
 {% include markup/toast-warning.njk %}
 
 ``` html
 {% include markup/toast-warning.njk %}
 ```
+
+**Success Toast**
+
+{% include markup/toast-success.njk %}
+
+``` html
+{% include markup/toast-success.njk %}
+```
+
+**Danger Toast**
+
+{% include markup/toast-danger.njk %}
+
+``` html
+{% include markup/toast-danger.njk %}
+```
+
+
+
+
 
 ## Resources
 * <a href="https://getbootstrap.com/docs/4.5/components/toasts/" target="_blank">Bootstrap Documentation - Toasts</a>

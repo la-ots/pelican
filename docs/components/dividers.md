@@ -27,7 +27,7 @@ eleventyNavigation:
 
 ## Usage
 
-### Major Divider
+**Major Divider**
 
 {% include markup/divider-major.njk %}
 
@@ -35,7 +35,7 @@ eleventyNavigation:
 {% include markup/divider-major.njk %}
 ```
 
-### Minor Divider
+**Minor Divider**
 
 {% include markup/divider-minor.njk %}
 

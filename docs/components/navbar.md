@@ -20,28 +20,28 @@ eleventyNavigation:
 
 ## Usage
 
-### Brand Minimal Navigation
+**Minimal Navigation**
 
 {% include markup/navbar-minimal.njk %}
 ``` html
 {% include markup/navbar-minimal.njk %}
 ```
 
-### Basic Navigation
+**Basic Navigation**
 
 {% include markup/navbar-basic.njk %}
 ``` html
 {% include markup/navbar-basic.njk %}
 ```
 
-### Navigation with Search
+**Navigation with Search**
 
 {% include markup/navbar-search.njk %}
 ``` html
 {% include markup/navbar-search.njk %}
 ```
 
-### Iconic Links Navigation
+**Navigation with Icons**
 
 {% include markup/navbar-iconic.njk %}
 ``` html

@@ -14,6 +14,7 @@ eleventyNavigation:
 
 - Insert Button Container as the element in the markup of the page.
 - See [Buttons](/components/buttons) for guidance on styling and writing buttons.
+- Consider buttons’ [action hierarchy](/components/buttons) when assigning button styles.
 
 ## Usage
 
