@@ -68,16 +68,13 @@ The lighter version of Primary, `$primary-10`, is often used as:
 
 The Secondary color supports the Primary color by adding contrast to the Primary color. The Secondary brand color, `$secondary`, is often used in Pelican as:
 
-- Overlay background color for some [Hero Blocks](/hero-blocks/)
-- Background color for some [Feature Blocks](/feature-blocks/)
-- Button background color for a single, alternate  action button in a [Button Container](/components/button-container/)
+- Button background color the alternate  action button in a [Button Container](/components/button-container/)
 
 **Accent**
 
 The Accent color is the smallest supporting color associated with your brand. It’s used as supporting color when either the Primary or Secondary brand need to stand apart from each other but still need a supporting color to them. The Accent brand color, `$accent`, is often used in Pelican as:
 
 - Button background color for the [Back to Top Button](/components/back-to-top-button/)
-- Overlay background color for some [Hero Blocks](/hero-blocks/)
 
 ## Brand Color Variations
 
@@ -170,4 +167,4 @@ You’ll change background and text colors by using the following classes. Consu
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/utilities/colors/" target="_blank">Bootstrap Documentation - Color</a>
+* <a href="https://getbootstrap.com/docs/5.1/customize/color/" target="_blank">Bootstrap Documentation - Color</a>

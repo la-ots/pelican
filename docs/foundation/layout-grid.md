@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Overview
 
-The <a href="https://getbootstrap.com/docs/4.5/layout/overview/" target="_blank">Layout Grid is taken from Bootstrap</a>, upon which Pelican is built. It allocates space to items and sizes them. We recommend familiarizing yourself with it.
+The <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">Layout Grid is taken from Bootstrap</a>, upon which Pelican is built. It allocates space to items and sizes them. We recommend familiarizing yourself with it.
 
 ## Explanation
 
@@ -70,4 +70,4 @@ Pelican defaults tp `container-fluid` rather than `container` to better accomoda
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Bootstrap Documentation - Grid System</a>
+* <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">Bootstrap Documentation - Grid System</a>

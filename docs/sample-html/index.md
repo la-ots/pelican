@@ -827,7 +827,7 @@ Tab 4
 <h2>Using Strong and Emphasis</h2>
 <p>Use <code>strong</code> and <code>em</code> tags for visual and sematic expressivness in text. Using these tags affects the semantics of the text within. They also communicate this expressiveness for assistive technology users. The <code>strong</code> tag makes the text <strong>visually bolder</strong> and screen readers speak it <strong>audibly bolder</strong>. The <code>em</code> tag makes the text <em>italicized</em> and screen readers add <em>audible expressiveness</em> for users. If you want text to only appear <span class="font-weight-bold">bold</span> or <span class="font-italic">itaclized</span>, use <code>span</code> tags with the classes "font-weight-bold" or "font-italic". 
 </p>
-<p>Refer to <a href="https://getbootstrap.com/docs/4.5/content/typography/" target="_blank">Boostrap’s Typography documentation</a> for more information.
+<p>Refer to <a href="https://getbootstrap.com/docs/5.1/content/typography/" target="_blank">Boostrap’s Typography documentation</a> for more information.
 </p>	
 </div>
 </div>

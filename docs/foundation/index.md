@@ -1,6 +1,6 @@
 ---
 title: Foundation
-summary: These pieces create the beginning parts of Pelican Design System. In order to get the most from it, these pieces must be properly understood.
+summary: These pieces create the base of Pelican. These pieces must be properly understood to get the most out of it.
 tags: foundation
 layout: area-page
 index: true
@@ -8,9 +8,5 @@ eleventyNavigation:
   key: Foundation
   title: Foundation
   order: 4
-  excerpt: These pieces create the beginning parts of Pelican Design System. In order to get the most from it, these pieces must be properly understood.
+  excerpt: These pieces create the base of Pelican. These pieces must be properly understood to get the most out of it.
 ---
-
-## Overview
-
-These pieces create the beginning parts of Pelican Design System. In order to get the most from it, these pieces must be properly understood.

@@ -108,7 +108,7 @@ Some strategies to counter this could include:
 
 - Adjust Status Colors to be distinct
 - Use supporting Brand Colors for buttons
-- Only use brand-colored buttons in select regions like the top or bottom of a page. Use [UI-colored buttons](/foundation/ui-colors/#ui-vs-ui-blue) in between the top and bottom of page.
+- Only use brand-colored buttons in select regions like the top or bottom of a page.
 
 To prevent ambiguity in this situation, you could try one of a few strategies:
 

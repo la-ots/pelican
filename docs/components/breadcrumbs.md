@@ -32,4 +32,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/components/breadcrumb/" target="_blank">Bootstrap Documentation - Breadcrumb</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/breadcrumb/" target="_blank">Bootstrap Documentation - Breadcrumb</a>

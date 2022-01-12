@@ -56,4 +56,4 @@ Padding and Margin can be applied to individual sides, to top and bottom at the 
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a>
+* <a href="https://getbootstrap.com/docs/5.1/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a>
