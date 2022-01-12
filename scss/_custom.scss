@@ -34,12 +34,6 @@ body {
     }
     
 }
-.header-image {
-    @extend .py-8;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .media-box {
     // this mimics the media component which was in Bootstrap v4, removed in v5.
     @extend .d-flex;
