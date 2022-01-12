@@ -4,10 +4,10 @@ summary: Help make Pelican better by giving us your feedback.
 tags: features, blocks, block, feature
 layout: guide
 index: true
-eleventyNavigation:
-  key: Feedback
-  order: 12
-  excerpt: Help make Pelican better by giving us your feedback.
+# eleventyNavigation:
+#   key: Feedback
+#   order: 12
+#   excerpt: Help make Pelican better by giving us your feedback.
 ---
 
 ## Make Pelican Better

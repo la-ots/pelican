@@ -73,7 +73,6 @@ $app-frame-sizer: 300px;
 }
 .app-sidebar-footer {
 	@extend .d-flex;
-	@extend .justify-content-around;
 	@extend .align-items-center;
 	@extend .mt-auto;
 	@extend .p-2;

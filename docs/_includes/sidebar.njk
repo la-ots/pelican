@@ -1,48 +1,48 @@
 <div class="app-sidebar" id="app-sidebar">
-	<div class="app-sidebar-body">
-	{% set navPages = collections.all | eleventyNavigation %}
-	<ul class="app-sidebar-nav-list">
-	  {%- for entry in navPages %}
-	  <li class="app-sidebar-nav-item">
-		<a class="app-sidebar-nav-link" href="{{ entry.url | url }}">
-		  {{ entry.title }}
-		</a>
-		{% if entry.children.length > 0 %}
-		<button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#{{ entry.title | replace(' ', '') }}" aria-controls="{{ entry.title | replace(' ', '') }}" aria-expanded="false">
-		  <span class="fas fa-fw fa-angle-down" aria-hidden="true"></span>
-		  <span class="visually-hidden">See More</span>
-		</button>
-		{% endif %}
-		{% if entry.children.length > 0 %}
-		<div class="app-sidebar-subnav {% if entry.url in page.url %}show{% endif %}" id="{{ entry.title | replace(' ', '') }}">
-		  <ul class="app-sidebar-nav-list">
-			{% for child in entry.children %}
-			<li class="app-sidebar-nav-item">
-			  <a class="app-sidebar-nav-link {% if child.url == page.url %} current{% endif %}" href="{{ child.url | url }}">
-				{% if child.url == page.url %}
-				<span class="fas fa-fw fa-eye" aria-hidden="true"></span> 
-				{% else %}
-				<span class="fas fa-fw fa-eye opacity-00" aria-hidden="true"></span>
-				{% endif %}
-				{{ child.title }}
-			  </a>
-			</li>
-			{% endfor %}
-		  </ul>
-		</div>
-		{% endif %}
-	  </li>
-	  {%- endfor %}
-	</ul>
-	</div>
-	<div class="app-sidebar-footer">
-	  <a href="" class="btn btn-link">
-		<span class="fas fa-comment" aria-hidden="true"></span>
-		Link Name
-	  </a>
-	  <a href="" class="btn btn-link">
-		<span class="fas fa-paper-plane" aria-hidden="true"></span>
-		Link Name
-	  </a>
-	</div>
+  <div class="app-sidebar-body">
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul class="app-sidebar-nav-list">
+    {%- for entry in navPages %}
+    <li class="app-sidebar-nav-item">
+    <a class="app-sidebar-nav-link" href="{{ entry.url | url }}">
+      {{ entry.title }}
+    </a>
+    {% if entry.children.length > 0 %}
+    <button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#{{ entry.title | replace(' ', '') }}" aria-controls="{{ entry.title | replace(' ', '') }}" aria-expanded="false">
+      <span class="fas fa-fw fa-angle-down" aria-hidden="true"></span>
+      <span class="visually-hidden">See More</span>
+    </button>
+    {% endif %}
+    {% if entry.children.length > 0 %}
+    <div class="app-sidebar-subnav {% if entry.url in page.url %}show{% endif %}" id="{{ entry.title | replace(' ', '') }}">
+      <ul class="app-sidebar-nav-list">
+      {% for child in entry.children %}
+      <li class="app-sidebar-nav-item">
+        <a class="app-sidebar-nav-link {% if child.url == page.url %} current{% endif %}" href="{{ child.url | url }}">
+        {% if child.url == page.url %}
+        <span class="fas fa-fw fa-eye" aria-hidden="true"></span> 
+        {% else %}
+        <span class="fas fa-fw fa-eye opacity-00" aria-hidden="true"></span>
+        {% endif %}
+        {{ child.title }}
+        </a>
+      </li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+  </div>
+  <div class="app-sidebar-footer">
+    <a href="/sitemap" class="btn btn-link">
+      <span class="fas fa-map-marked-alt" aria-hidden="true"></span>
+      Sitemap
+    </a>
+    <a href="/feedback" class="btn btn-link">
+      <span class="fas fa-comment" aria-hidden="true"></span>
+      Feedback
+    </a>
+  </div>
   </div>
