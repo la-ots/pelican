@@ -28,7 +28,7 @@ eleventyNavigation:
 - For two types of actions: use the primary button as the main action and [gray outline buttons](/components/buttons/#tertiary-buttons) as the tertiary action(s).
 - For three types of actions:  use the primary button as the main action, use the [Secondary button](/components/buttons/#secondary-buttons) as the secondary action, and the gray outline buttons as the tertiary action(s).
 - If a fourth or more types of actions are required, use the [Link Buttons](/components/buttons/#link-buttons) for those, in addition to the types above.
-- Any [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons) buttons should be right aligned to the other buttons, separated from the other buttons.
+- Any cautionary buttons, [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons), should be right aligned tin the button container.
 - Consider a [Button Container](/components/button-container/) to hold all of the buttons.
 
 <p class="fw-bold mt-4">Single Level</p>
