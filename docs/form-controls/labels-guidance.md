@@ -15,8 +15,8 @@ eleventyNavigation:
 
 - Labels are **required** for form controls.
 - Don’t replace Labels with placeholders.
-- Refrain from using placeholder attributes in inputs because they causes usability problems.
-- Ensure the `for` and `id` attributes have matching values.
+- Refrain from using placeholder attributes in inputs because they cause usability problems.
+- Ensure the `for` and `id` attributes have matching values. Note the code below.
 
 ## Usage
 

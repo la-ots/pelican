@@ -61,7 +61,7 @@ The UI Light color is often used as:
 
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
-<div class="table-wrapper">
+<div class="table-responsive">
     <table class="table mb-8">
         <thead>
             <tr>

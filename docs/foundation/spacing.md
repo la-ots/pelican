@@ -13,19 +13,19 @@ eleventyNavigation:
 
 ## Overview
 
-Spacing refers to Padding and Margin in Pelican. Padding is the space inside of something, putting space between its edges and its internal contents. Margin is the space around something, putting space between its outder edges and the outer edges of something else.
+In Pelian, spacing refers to Padding and Margin. Padding is the space inside of something, putting space between its edges and its internal contents. Margin is the space around something, putting space between its outder edges and the outer edges of something else. 
 
-These two boxes have margins around them and padding inside of them.
+These two boxes illustrate margin and padding. The first sentence in the first box uses a larger bottom margin than the first sentence in the second box. The second box has more padding inside of it than the first box.
 
 <div class="row mb-12">
     <div class="col-md-6 mb-6 mb-lg-0">
         <div class="p-8 bg-ui text-white rounded-lg">
-            <p>Padding pushes content away from the edges, towards the inside.</p>
+            <p class="mb-16">Padding pushes content away from the edges, towards the inside.</p>
             <p>Margin pushes things away from other things, towards the outside.</p>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="p-8 bg-ui text-white rounded-lg">
+        <div class="p-16 bg-ui text-white rounded-lg">
             <p>Padding pushes content away from the edges, towards the inside.</p>
             <p>Margin pushes things away from other things, towards the outside.</p>
         </div>

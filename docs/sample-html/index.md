@@ -1,3 +1,4 @@
+
 ---
 title: Quick Start
 summary: Pelican’s building blocks on one all.
@@ -9,6 +10,7 @@ eleventyNavigation:
   title: Quick Start
   order: 11
 ---
+
 <!-- Start Breadcrumb -->
 <nav aria-label="breadcrumbs" id="breadcrumbs" class="breadcrumbs mb-0">
 <ol class="breadcrumb mb-0">

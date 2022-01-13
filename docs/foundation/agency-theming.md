@@ -58,11 +58,9 @@ To change background or text color, change the class name representing the color
 
 ## Brand Colors and Usability
 
-Brand first is not necessarily accessibility or usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with this in mind.
+Brand first is not necessarily accessibility or usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with accessibility in mind.
 
-Let’s examine this by looking at an imaginary color palette in a digital product. We’ll look at the [Brand colors](/foundation/brand-colors) and the [Status colors](/foundation/status-colors). Brand Colors are the colors of the organization, their logo, and other parts of their visual identity. Status Colors are the special colors which communicate situations to the users like success (usually a green) or danger (usually a red).
-
-Suppose the primary Brand Color of this imaginary palette is green. Success color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish a Success cue, such as a SUccess Toast, from a brand color.
+Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
 
 <div class="row mb-12">
     <div class="col-md-6 col-xl-3">
@@ -87,7 +85,7 @@ Suppose the primary Brand Color of this imaginary palette is green. Success colo
     </div>
 </div>
 
-Using Brand green-styled buttons as the go-to buttons will cause ambiguity for the user later in the user interface. The user will see the brand green buttons everywhere. Then a situation arises in which a success green-styled button is necessary.
+In the same way, using brand green-styled buttons as the go-to buttons will also cconfuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be be lost.
 
 <div class="px-4 mb-5">
     <div class="row">
@@ -107,8 +105,8 @@ User confusion is likely, and could lead them to ask:
 Some strategies to counter this could include:
 
 - Adjust Status Colors to be distinct
-- Use supporting Brand Colors for buttons
-- Only use brand-colored buttons in select regions like the top or bottom of a page.
+- Create and use supporting brand colors for important user interface elements.
+- Only use brand-colored buttons in specific, controlled regions, like the top or bottom of a page.
 
 To prevent ambiguity in this situation, you could try one of a few strategies:
 

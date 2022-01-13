@@ -86,7 +86,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 You’ll change background and text colors by using the following classes. Consult [Agency Themes](/foundation/agency-theming/) for more information.
 
-<div class="table-wrapper">
+<div class="table-responsive">
     <table class="table  mb-8">
         <thead>
             <tr>

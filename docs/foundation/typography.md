@@ -28,10 +28,22 @@ The typeface Pelican uses is <a href="https://public-sans.digital.gov/" target="
 ## Headings
 
 <p>
-  <span class="h1">H1</span> <span class="h2">H2</span> <span class="h3">H3</span> <span class="h4">H4</span> <span class="h5">H5</span> <span class="h6">H6</span>
+  <span class="h1"><code>&lt;h1&gt;</code> H1</span> <span class="h2"><code>&lt;h2&gt;</code> H2</span> <span class="h3"><code>&lt;h3&gt;</code> H3</span> <span class="h4"><code>&lt;h4&gt;</code> H4</span> <span class="h5"><code>&lt;h5&gt;</code> H5</span> <span class="h6"><code>&lt;h6&gt;</code> H6</span>
 </p>
 
-Headings semantically express the content structure of a document’s information. Heading tags create an outline of the page’s information. The size of Headings helps to visually reinforce document hierarchy. Using the Header tags correctly also helps search engines index the information.
+```html
+<h1>
+  <h2>
+    <h3>
+  <h2>
+    <h3>
+      <h4>
+        <h5>
+          <h6>
+  <h2>
+```
+
+Headings semantically express the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">content structure of a document</a>. Heading tags create an outline of the page’s information. The size of Headings helps to visually reinforce document hierarchy. Using the Header tags correctly also helps search engines index the information.
 
 To use headings properly
 
@@ -128,4 +140,5 @@ Span tags `<span>` allow local text changes without affecting semantics. We can 
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.1/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>
+- <a href="https://getbootstrap.com/docs/5.1/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">H1 – H6: The HTML Section Heading elements</a>

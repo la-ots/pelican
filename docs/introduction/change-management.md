@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Overview
 
-The Pelican Design System will grow as we discover solutions created by each team to address problems. To share our knowledge and create a common code base, we'll something like the following process.
+The Pelican Design System will grow as we discover solutions created by each team. To share our knowledge and create a common knowledge base, we'll use the following process.
 
 1. Contact the OTS Product Delivery Design Team.
 1. Present the use case.
