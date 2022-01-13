@@ -57,7 +57,7 @@ $app-frame-sizer: 300px;
 	width: $app-frame-sizer; height: calc(100vh - $topbar-height);
 	z-index: $zindex-app-sidebar;
 	background-color: $primary;
-	overflow-y: scroll;
+	overflow-y: auto;
 	@media screen and (min-width: 992px){
 		left: 0px;
 	}
