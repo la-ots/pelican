@@ -115,8 +115,7 @@ $app-frame-sizer: 300px;
 	&.current {
 		@extend .text-white;
 		@extend .fw-bold;
-		border-left-color: fade-out($white, .5);
-		
+		border-left-color: $white;
 	}
 	&.show {
 		@extend .app-sidebar-nav-link-dark-bg;
@@ -169,6 +168,7 @@ $app-frame-sizer: 300px;
 			opacity: 0;
 		}
 		&.current {
+			background-color: $black;
 			border-left-color: transparent;
 			.fas {
 				opacity: 1;
