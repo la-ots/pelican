@@ -1,3 +1,10 @@
+.breadcrumb {
+	@extend .bg-white;
+	@extend .py-2;
+	@extend .px-3;
+	@extend .my-0;
+	border-bottom: 1px solid $primary-10;
+}
 .breadcrumb-item {
 	a {
 		@extend .text-decoration-none;

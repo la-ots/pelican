@@ -1,0 +1,29 @@
+{% set entries = collections.all | eleventyNavigation %}
+<nav aria-label="breadcrumb">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="{{ '/' | url }}">
+				<span class="fas fa-home" aria-hidden="true"></span>
+				<span class="visually-hidden">Home</span>
+			</a>
+		</li>
+		{%- for entry in entries %}
+			{% if entry.url in page.url %}
+				<li class="breadcrumb-item">
+					<a href="{{ entry.url | url }}">
+						{{ entry.title }}
+					</a>
+				</li>
+				{% if entry.children %}
+					{%- for child in entry.children %}
+						{% if child.url == page.url %}
+							<li class="breadcrumb-item active" aria-current="page">
+								{{ child.title }} <span class="fas fa-eye" aria-hidden="true"></span>
+							</li>
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</ol>
+</nav>

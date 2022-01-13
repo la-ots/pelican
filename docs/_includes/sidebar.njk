@@ -5,7 +5,7 @@
     {%- for entry in navPages %}
     <li class="app-sidebar-nav-item">
     <a class="app-sidebar-nav-link {% if entry.url == page.url %} current {% endif %} {{ 'current' if entry.url in page.url }}" href="{{ entry.url | url }}">
-      {{ entry.title }}  {% if entry.child.url == page.url %}yo{% endif %}
+      {{ entry.title }}
     </a>
     {% if entry.children.length > 0 %}
     <button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#{{ entry.title | replace(' ', '') }}" aria-controls="{{ entry.title | replace(' ', '') }}" aria-expanded="false">

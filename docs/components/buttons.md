@@ -20,7 +20,7 @@ eleventyNavigation:
 - Multiple gray outline buttons may be used.
 - If an action moves the user to another place in the same page, or another URL, use a link (`<a>`) and not `<button>`.
 - If a button is inside of a table row, give it the `btn-sm` class in addition to other classes.
-- For accessibility reasons, when using a link you must include the `role="button"` attribute on the `<a>`.
+- For accessibility reasons, when using `<a>` as a `<button>` you must include `role="button"`.
 
 <p class="fw-bold mt-4">Button Hierarchies</p>
 
