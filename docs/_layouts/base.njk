@@ -46,7 +46,7 @@
     <meta property="og:image" content="/img/pelican-design-system-illustration.jpg">
     {%- endif %}
   </head>
-  <body class="sb-nav-fixed">
+  <body>
     {{ content | safe }}
     {% if env.production %}
       <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>

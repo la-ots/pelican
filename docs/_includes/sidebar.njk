@@ -1,11 +1,11 @@
-<div class="app-sidebar" id="app-sidebar">
+<nav class="app-sidebar" id="app-sidebar">
   <div class="app-sidebar-body">
   {% set navPages = collections.all | eleventyNavigation %}
   <ul class="app-sidebar-nav-list">
     {%- for entry in navPages %}
     <li class="app-sidebar-nav-item">
-    <a class="app-sidebar-nav-link" href="{{ entry.url | url }}">
-      {{ entry.title }}
+    <a class="app-sidebar-nav-link {% if entry.url == page.url %} current {% endif %} {{ 'current' if entry.url in page.url }}" href="{{ entry.url | url }}">
+      {{ entry.title }}  {% if entry.child.url == page.url %}yo{% endif %}
     </a>
     {% if entry.children.length > 0 %}
     <button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#{{ entry.title | replace(' ', '') }}" aria-controls="{{ entry.title | replace(' ', '') }}" aria-expanded="false">
@@ -45,4 +45,4 @@
       Feedback
     </a>
   </div>
-  </div>
+  </nav>

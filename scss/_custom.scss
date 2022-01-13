@@ -24,6 +24,33 @@ body {
     box-shadow: 0 4px 2px 0 fade-out($black, .9);
     @extend .mb-4;
 }
+.blockquote, blockquote {
+    @extend .position-relative;
+    @extend .py-4;
+    @extend .px-8;
+    p {
+        @extend .mb-2;
+    }
+    p:last-of-type {
+        @extend .mb-0;
+    }
+    &::before {
+        @extend .text-primary-10;
+        @extend .position-absolute;
+        content: '\f10d';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 700;
+        top: 0; left: 0;
+    }
+    &::after {
+        @extend .position-absolute;
+        background-color: fade-out($primary-10, .5);
+        content: '';
+        top: 24px; left: 0;
+        width: 2px; height: calc(100% - 24px);
+        
+    }
+}
 .page-title {
     @extend .position-relative;
     @extend .bg-white;

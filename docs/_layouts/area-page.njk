@@ -15,7 +15,7 @@ layout: default.njk
   </div> -->
 
 
-  <div class="container-fluid mb-auto">
+  <main class="container-fluid mb-auto" id="main">
     <div class="row">
       {%- set navPages = collections.all | eleventyNavigation %}
       {%- for entry in navPages %}
@@ -27,7 +27,7 @@ layout: default.njk
                   {%- if child.img %}
                     <img src="{{ child.img }}" class="img-fluid mb-4 gray-hover-color" aria-hidden="true"/>
                   {%- endif %}
-                  <h3 class="h5 mb-4">{{ child.title }}</h3>
+                  <h2 class="h4 mb-4">{{ child.title }}</h2>
                   <p class="mb-2">{{ child.excerpt }}</p>
                   <a href="{{ child.url }}" class="btn btn-link ms-n3 mt-auto align-self-start stretched-link">
                   Read More <span class="visually-hidden">about {{ child.title }}</span>
@@ -41,4 +41,4 @@ layout: default.njk
       {%- endfor %}
     </div>
   </div>
-</div>
+</main>

@@ -3,12 +3,12 @@ layout: default.njk
 ---
 
 
-<div class="container-fluid mb-auto">
+<main class="container-fluid mb-auto" id="main">
   <div class="row">
-    <div class="col-12 col-lg-3 order-lg-1" aria-hidden="true">
+    <div class="col-12 col-xl-3 order-xl-1" aria-hidden="true">
       {% include "page-contents.njk" %}
     </div>
-    <div class="col-12 col-lg-9 order-lg-0">
+    <div class="col-12 col-xl-9 order-xl-0">
       <div class="card bg-less-bright">
         <div class="card-body">
           {{ content | safe }}
@@ -16,5 +16,5 @@ layout: default.njk
       </div>        
     </div>
   </div>
-</div>
+</main>
 {% include "page-navigation.njk" %}

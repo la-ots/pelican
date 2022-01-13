@@ -1,4 +1,5 @@
-﻿---
+﻿
+---
 title: Email Address
 summary: The Email Addresses block allows users to manage their on-file email addresses.
 tags: form-templates

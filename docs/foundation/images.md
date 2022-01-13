@@ -11,13 +11,15 @@ eleventyNavigation:
   img: /img/illustrations/illus-images.svg
 ---
 
-## Overview
+## Best Practices
 
-Images which are meaningful include photos or graphics which are part of the presented information. Images which are decorative include decorative or filler images background images. These image do not bring informational value to the content.
+- Use meaningful images to enhance the content.
+- Avoid decorative images.
+- Avoid using images of swamps, alligators, or cultural images unless they are real information.
 
-## Guidance for Content Images
+## Content Images
 
-Avoid using images of swamps, alligators, or cultural images unless they strongly relate to the content. Images should not be used as “filler” on a website or web application. While the Louisiana Office of Tourism or Wildlife & Fisheries could use wildlife photography to promote tourism or ecological wealth to visitors. Such images may not be relevant in other projects.
+Content images are images which have meaningful information in them.
 
 - Content images should contain [Alt Text](/foundation/images/#alt-text). 
 - Apply `img-fluid` to images to make them responsive. This makes the image fit its parent container. Height is automatically adjusted by the browser to preserve the aspect ratio.
@@ -37,7 +39,7 @@ Avoid using images of swamps, alligators, or cultural images unless they strongl
 </div>
 ```
 
-## Guidance for Decorative Images
+## Decorative Images
 
 Non-content images may be requested by the Stakeholders and Project Owners. In this case, consider the following guidelines:
 
