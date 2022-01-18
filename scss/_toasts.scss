@@ -1,26 +1,26 @@
 .toast {
-    &-info {
-        @extend .bg-info;
-        @extend .text-white;
-        box-shadow: 0 0.5rem 1rem fade-out($info, .25);
-    }
-    &-success {
-        @extend .bg-success;
-        @extend .text-white;
-        box-shadow: 0 0.5rem 1rem fade-out($success, .25);
-    }
-    &-danger {
-        @extend .bg-danger;
-        @extend .text-white;
-        box-shadow: 0 0.5rem 1rem fade-out($danger, .25);
-    }
-    &-warning {
-        @extend .bg-warning;
-        @extend .text-black;
-        box-shadow: 0 0.5rem 1rem fade-out($warning, .25);
-    }
+  &-info {
+    @extend .bg-info;
+    @extend .text-white;
+    box-shadow: 0 0.5rem 1rem fade-out($info, .25);
+  }
+  &-success {
+    @extend .bg-success;
+    @extend .text-white;
+    box-shadow: 0 0.5rem 1rem fade-out($success, .25);
+  }
+  &-danger {
+    @extend .bg-danger;
+    @extend .text-white;
+    box-shadow: 0 0.5rem 1rem fade-out($danger, .25);
+  }
+  &-warning {
+    @extend .bg-warning;
+    @extend .text-black;
+    box-shadow: 0 0.5rem 1rem fade-out($warning, .25);
+  }
 }
 .toast-header {
-    background-color: rgba(255,255,255,.1);
-    color: inherit;
+  background-color: rgba(255,255,255,.1);
+  color: inherit;
 }

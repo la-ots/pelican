@@ -1,76 +1,75 @@
 .btn {
-    &:not(.btn-link){
-        box-shadow : 0 2px 0 0 fade-out($ui, .38);
-    }
+  &:not(.btn-link){
+      box-shadow : 0 2px 0 0 fade-out($ui, .38);
+  }
 }
 .btn:disabled, .btn.disabled {
-    opacity: .25;
-    box-shadow: none;
+  opacity: .25;
+  box-shadow: none;
 }
 .btn-outline-ui {
-    @extend .shadow-none;
-    color: $gray-700;
+  @extend .shadow-none;
+  color: $gray-700;
 }
 .btn-link {
-    @extend .shadow-none;
-    @extend .bg-transparent;
-    @extend .border-0;
-    @extend .text-decoration-none;
+  @extend .shadow-none;
+  @extend .bg-transparent;
+  @extend .border-0;
+  @extend .text-decoration-none;
 }
 .btn-back-top {
-    position: fixed;
-    bottom: 50px; right: 50px;
-    @include media-breakpoint-up(lg){
-       bottom: 100px; right: 100px; 
-    }
+  position: fixed;
+  bottom: 50px; right: 50px;
+  @include media-breakpoint-up(lg){
+      bottom: 100px; right: 100px; 
+  }
 }
 .btn-add-this {
-	@extend           .btn;
-	@extend           .btn-outline-ui;
-	@extend           .d-flex;
-	@extend           .justify-content-center;
-	@extend           .align-items-center;
-	@extend           .py-2;
-	@extend           .my-2;
-	@extend           .mb-0;
-	@extend           .shadow-none;
-	border:           2px dashed $gray-600;
-	background-color: transparent;
+@extend           .btn;
+@extend           .btn-outline-ui;
+@extend           .d-flex;
+@extend           .justify-content-center;
+@extend           .align-items-center;
+@extend           .py-2;
+@extend           .my-2;
+@extend           .mb-0;
+@extend           .shadow-none;
+border:           2px dashed $gray-600;
+background-color: transparent;
 
-	&-core {
-        @extend .rounded;
-        @extend .p-2;
-        @extend .px-3;
-        @extend .bg-ui;
-        @extend .text-white;
-    }
-	&:hover, &:active {
-		background-color: fade-out($ui, .75)
-	}
+  &-core {
+    @extend .rounded;
+    @extend .p-2;
+    @extend .px-3;
+    @extend .bg-ui;
+    @extend .text-white;
+  }
+  &:hover, &:active {
+    background-color: fade-out($ui, .75)
+  }
 }
 .btn-container {
-    @extend .d-flex;
-    @extend .flex-wrap;
-    @extend .p-2;
-    @extend .my-4;
-    @extend .bg-white;
-    @extend .rounded-3;
-    border: 2px solid $border-color;
-    &-right {
-        @extend .ms-auto;
-    }
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .p-2;
+  @extend .my-4;
+  @extend .bg-white;
+  @extend .rounded-3;
+  border: 2px solid $border-color;
+  &-right {
+    @extend .ms-auto;
+  }
+  .btn {
+    flex: 1 1 100%;
+    @extend .mb-2;
+    @extend .mb-lg-0;
+  }
+  @include media-breakpoint-up(md){
     .btn {
-        flex: 1 1 100%;
-        @extend .mb-2;
-        @extend .mb-lg-0;
+      flex: 0 1 auto;
+      &:not(:last-of-type){
+        margin-right: 8px;
+      }
     }
-    @include media-breakpoint-up(md){
-        .btn {
-            flex: 0 1 auto;
-            &:not(:last-of-type){
-                margin-right: 8px;
-                
-            }
-        }
-    }
+  }
 }

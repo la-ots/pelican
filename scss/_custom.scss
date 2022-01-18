@@ -3,206 +3,201 @@ body {
 }
 .skip-to-main, .skip-link {
     @extend .text-decoration-none;
-	z-index: $zindex-skip-link;
-	position: fixed;
-	width: 220px; height: 44px;
-	top: 0; left: -220px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: $white;
-	color: $primary;
-	transition: $transition-base;
-	border-bottom-right-radius: $spacer;
-	&:active, &:focus {		
-		left: 0;
-	}
+  z-index: $zindex-skip-link;
+  position: fixed;
+  width: 220px; height: 44px;
+  top: 0; left: -220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  color: $primary;
+  transition: $transition-base;
+  border-bottom-right-radius: $spacer;
+  &:active, &:focus {		
+    left: 0;
+  }
 }
 .content-container {
-    @extend .py-16;
-    @extend .bg-white;
-    box-shadow: 0 4px 2px 0 fade-out($black, .9);
-    @extend .mb-4;
+  @extend .py-16;
+  @extend .bg-white;
+  box-shadow: 0 4px 2px 0 fade-out($black, .9);
+  @extend .mb-4;
 }
 .blockquote, blockquote {
-    @extend .position-relative;
-    @extend .py-4;
-    @extend .px-8;
-    p {
-        @extend .mb-2;
-    }
-    p:last-of-type {
-        @extend .mb-0;
-    }
-    &::before {
-        @extend .text-primary-10;
-        @extend .position-absolute;
-        content: '\f10d';
-        font-family: "Font Awesome 5 Free";
-        font-weight: 700;
-        top: 0; left: 0;
-    }
-    &::after {
-        @extend .position-absolute;
-        background-color: fade-out($primary-10, .5);
-        content: '';
-        top: 24px; left: 0;
-        width: 2px; height: calc(100% - 24px);
-        
-    }
+  @extend .position-relative;
+  @extend .py-4;
+  @extend .px-8;
+  p {
+    @extend .mb-2;
+  }
+  p:last-of-type {
+    @extend .mb-0;
+  }
+  &::before {
+    @extend .text-primary-10;
+    @extend .position-absolute;
+    content: '\f10d';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    top: 0; left: 0;
+  }
+  &::after {
+    @extend .position-absolute;
+    background-color: fade-out($primary-10, .5);
+    content: '';
+    top: 24px; left: 0;
+    width: 2px; height: calc(100% - 24px);
+  }
 }
 .page-title {
-    @extend .position-relative;
-    @extend .bg-white;
-    @extend .content-container;
-    @extend .text-primary;
-    
-    h1, .h1, p, .p {
-        @extend .mb-lg-0;
-    }
-    
+  @extend .position-relative;
+  @extend .bg-white;
+  @extend .content-container;
+  @extend .text-primary;
+  h1, .h1, p, .p {
+    @extend .mb-lg-0;
+  }
 }
 .media-box {
-    // this mimics the media component which was in Bootstrap v4, removed in v5.
-    @extend .d-flex;
-    @extend .align-items-start;
-    @extend .p-2;
+  // this mimics the media component which was in Bootstrap v4, removed in v5.
+  @extend .d-flex;
+  @extend .align-items-start;
+  @extend .p-2;
 }
 .media-body {
-    @extend .mt-n1;
-    @extend .ms-2;
+  @extend .mt-n1;
+  @extend .ms-2;
 }
 .table-contents-page {
-    li {
-        @extend .mb-2;
+  li {
+    @extend .mb-2;
+  }
+  li {
+    a {
+      @extend .text-decoration-none;
+      &:hover {
+        @extend .text-decoration-underline;
+      }
     }
-    li {
-        a {
-            @extend .text-decoration-none;
-            &:hover {
-                @extend .text-decoration-underline;
-            }
-        }
-    }
+  }
 }
 .opacity-00 {
-    opacity: 0;
+  opacity: 0;
 }
 .opacity-20 {
-    opacity: .20;
+  opacity: .20;
 }
 .opacity-50 {
-    opacity: .50;
+  opacity: .50;
 }
 .opacity-85 {
-    opacity: .85;
+  opacity: .85;
 }
 .bg-position-center {
-    background-position: 50%;
+  background-position: 50%;
 }
 .bg-size-cover {
-    background-size: cover;
+  background-size: cover;
 }
 .overlay {
-    @extend .opacity-85;
-    @extend .position-absolute;
-    top:0; right:0; bottom:0; left:0;
-    z-index: 0!important;
-    & + * {
-        z-index: 2;
-        @extend .position-relative;
+  @extend .opacity-85;
+  @extend .position-absolute;
+  top:0; right:0; bottom:0; left:0;
+  z-index: 0!important;
+  & + * {
+    z-index: 2;
+    @extend .position-relative;
+  }
+  &-left {
+    top:0; right:0; bottom:50%; left:0;
+    @media screen and (min-width:1024px) {
+      top:0; right: 50%; bottom:0; left:0;
     }
-    &-left {
-        top:0; right:0; bottom:50%; left:0;
-        @media screen and (min-width:1024px) {
-            top:0; right: 50%; bottom:0; left:0;
-        }
+  }
+  &-right {
+    top:50%; right:0; bottom:0; left:0;
+    @media screen and (min-width:1024px) {
+      top:0; right:0; bottom:0; left: 50%;
     }
-    &-right {
-        top:50%; right:0; bottom:0; left:0;
-        @media screen and (min-width:1024px) {
-            top:0; right:0; bottom:0; left: 50%;
-        }
-    }
+  }
 }
 .hero {
-    @extend .bg-primary;
-    @extend .text-white;
-    @extend .py-16;
-    .header {
-        @extend .display-5;
-        @extend .fw-bold;
-    }
-    .sentence {
-        @extend .lead;
-    }
-    .btn {
-        @extend .shadow-none;
-    }
-    .btn-link {
-        @extend .text-accent;
-    }
-    img {
-        @extend .rounded;
-        @extend .border-0;
-    }
+  @extend .bg-primary;
+  @extend .text-white;
+  @extend .py-16;
+  .header {
+    @extend .display-5;
+    @extend .fw-bold;
+  }
+  .sentence {
+    @extend .lead;
+  }
+  .btn {
+    @extend .shadow-none;
+  }
+  .btn-link {
+    @extend .text-accent;
+  }
+  img {
+    @extend .rounded;
+    @extend .border-0;
+  }
 }
 .hero-centered {
-    @extend .text-center;
-    @extend .px-4;
-    @extend .pb-0;
+  @extend .text-center;
+  @extend .px-4;
+  @extend .pb-0;
 }
 .hero-left {
 
 }
-
-
 .feature {
-    @extend .bg-white;
-    @extend .py-16;
+  @extend .bg-white;
+  @extend .py-16;
 }
 .feature-section {
-    @extend .px-4;
-    .h2, .h3, .h4, h2, h3, h4 {
-        @extend .text-primary;
-    }
-    .icon {
-        font-size: smaller;
-        @extend .text-primary-10;
-    }
+  @extend .px-4;
+  .h2, .h3, .h4, h2, h3, h4 {
+    @extend .text-primary;
+  }
+  .icon {
+    font-size: smaller;
+    @extend .text-primary-10;
+  }
 }
 .languages {
-    @extend .py-16;
-    @extend .py-lg-32;
-    @extend .bg-accent;
-    @extend .text-primary; 
-    .language {
-        @extend .rounded;
-        @extend .py-4;
-        @extend .bg-white;
-        p {
-            @extend .mb-0;
-            @extend .h4;
-            @extend .fw-light;
-            @extend .text-center;
-        }
-    }  
+  @extend .py-16;
+  @extend .py-lg-32;
+  @extend .bg-accent;
+  @extend .text-primary; 
+  .language {
+    @extend .rounded;
+    @extend .py-4;
+    @extend .bg-white;
+    p {
+      @extend .mb-0;
+      @extend .h4;
+      @extend .fw-light;
+      @extend .text-center;
+    }
+  }  
 }
 
 .jumbotron-message {
-    @extend .py-26;
-    @extend .px-5;
-    @extend .bg-primary;
-    @extend .text-white;
-    .heading {
-        @extend .display-5;
-        @extend .fw-bold;
-    }
-    .sentence {
-        @extend .col-md-8;
-        @extend .fs-4;
-    }
-    .btn {
-        @extend .shadow-none;
-    }
+  @extend .py-26;
+  @extend .px-5;
+  @extend .bg-primary;
+  @extend .text-white;
+  .heading {
+    @extend .display-5;
+    @extend .fw-bold;
+  }
+  .sentence {
+    @extend .col-md-8;
+    @extend .fs-4;
+  }
+  .btn {
+    @extend .shadow-none;
+  }
 }

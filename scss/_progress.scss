@@ -1,46 +1,46 @@
 .progress-meter {
-	@extend .progress;
-	height: 24px;
+  @extend .progress;
+  height: 24px;
 }
 .progress-steps {
-	@extend .border-bottom;
-	@extend .border-primary-10;
-	@extend .bg-white;
-	@extend .py-4;
+  @extend .border-bottom;
+  @extend .border-primary-10;
+  @extend .bg-white;
+  @extend .py-4;
 }
 .progress-steps-buttons {
-	.btn:first-of-type {
-		@extend .mb-2;
-		@extend .mb-sm-0;
-	}
+  .btn:first-of-type {
+    @extend .mb-2;
+    @extend .mb-sm-0;
+  }
 }
 .progress-set {
-	@extend .d-flex;
-	@extend .align-items-center;
+  @extend .d-flex;
+  @extend .align-items-center;
 }
 .progress-current {
-	width: 1rem * 4; height: 1rem * 4;
-	border-radius: 1rem * 2;
-	@extend .bg-primary;
-	@extend .text-white;
-	@extend .d-flex;
-	@extend .flex-column;
-	@extend .justify-content-center;
-	@extend .align-items-center;
+  width: 1rem * 4; height: 1rem * 4;
+  border-radius: 1rem * 2;
+  @extend .bg-primary;
+  @extend .text-white;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-center;
+  @extend .align-items-center;
 }
 .progress-current-digit {
-	@extend .h3;
-	@extend .mb-0;
+  @extend .h3;
+  @extend .mb-0;
 }
 .progress-current-text {
-	@extend .mb-0;
-	@extend .px-2;
+  @extend .mb-0;
+  @extend .px-2;
 }
 .progress-current-text-sequence {
-	@extend .text-ui;
+  @extend .text-ui;
 }
 .progress-current-text-description {
-	@extend .text-primary;
-	@extend .fw-bold;
-	@extend .d-block;
+  @extend .text-primary;
+  @extend .fw-bold;
+  @extend .d-block;
 }

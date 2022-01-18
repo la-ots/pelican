@@ -1,107 +1,107 @@
 form {
-	.h1, .h2, .h3, .h4, .h5, .h6 {
-		@extend .text-primary;
-		.fas {
-			@extend .text-primary-10;
-		}
-	}
-	.fa-asterisk {
-		@extend .text-danger;
-	}
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    @extend .text-primary;
+    .fas {
+      @extend .text-primary-10;
+    }
+  }
+  .fa-asterisk {
+    @extend .text-danger;
+  }
 }
 legend, .legend {
-	@extend .d-block;
-	@extend .my-4;
-	@extend .h4;
-	@extend .text-primary;
-	& + p {
-		@extend .mt-n4;
-	}
+  @extend .d-block;
+  @extend .my-4;
+  @extend .h4;
+  @extend .text-primary;
+  & + p {
+    @extend .mt-n4;
+  }
 }
 .input-group {
-	.btn {
-	  box-shadow: none;
-	}
+  .btn {
+    box-shadow: none;
+  }
 }
 .form-group {
-	@extend .mb-4;
+  @extend .mb-4;
 }
 .checkbox-tile, .radio-tile {
-	padding-left: 0;
-	margin: 0 0 0 0;
-	&.form-check-inline {
-		vertical-align: top;
-		min-width: 200px;
-		max-width: 400px;
-	}
-	.form-check-input {
-		position: absolute;
-		left: -999em; right: auto;
-	}
-	.form-check-label {
-		position: relative;
-		display: block;
-		background-color: white;
-		color: $gray-700;
-		border: 2px solid $ui-light;
-		border-radius: 8px;
-		margin-top: 8px;
-		padding: 12px 16px 12px 40px;
-		cursor: pointer;
-		&:before {
-			content: '';
-			display: block;
-			position: absolute;
-			margin-top: 2px; left: 12px;
-			width: 1.25rem; height: 1.25rem;
-			border-radius: 2px;
-			box-shadow: 0 0 0 2px $ui;
-		}
-	}
-	.form-check-input:checked + label {
-		background-color: $gray-300;
-		border-color: $ui;
-		&:before {
-			background-color:    $ui;
-			background-image:    url('https://designsystem.digital.gov/assets/img/correct8.svg');
-			background-size:     contain;
-			background-repeat:   no-repeat;
-			background-position: center;
-		}
-	}
-	.form-check-input:focus + label {
-		&:before {
-			outline-style : solid;
-			outline-color : $focus-color;
-			outline-width : 4px;
-			outline-offset: 3px;
-		}
-		
-	}
+  padding-left: 0;
+  margin: 0 0 0 0;
+  &.form-check-inline {
+    vertical-align: top;
+    min-width: 200px;
+    max-width: 400px;
+  }
+  .form-check-input {
+    position: absolute;
+    left: -999em; right: auto;
+  }
+  .form-check-label {
+    position: relative;
+    display: block;
+    background-color: white;
+    color: $gray-700;
+    border: 2px solid $ui-light;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 12px 16px 12px 40px;
+    cursor: pointer;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      margin-top: 2px; left: 12px;
+      width: 1.25rem; height: 1.25rem;
+      border-radius: 2px;
+      box-shadow: 0 0 0 2px $ui;
+    }
+  }
+  .form-check-input:checked + label {
+    background-color: $gray-300;
+    border-color: $ui;
+    &:before {
+      background-color:    $ui;
+      background-image:    url('https://designsystem.digital.gov/assets/img/correct8.svg');
+      background-size:     contain;
+      background-repeat:   no-repeat;
+      background-position: center;
+    }
+  }
+  .form-check-input:focus + label {
+    &:before {
+      outline-style : solid;
+      outline-color : $focus-color;
+      outline-width : 4px;
+      outline-offset: 3px;
+    }
+    
+  }
 }
 .radio-tile {
-	.form-check-label {
-		&:before {
-			border-radius: 50%;
-		}
-	}
-	.form-check-input:checked + label {
-		&:before {
-			background-color: white;
-			background-image: none;
-		}
-		&:after {
-			content: '';
-			display: block;
-			position: absolute;
-			top: 16px; left: 14px;
-			width: 1rem; height: 1rem;
-			border-radius: 50%;
-			background-color: #6c757d;
-		}
-	}
+  .form-check-label {
+    &:before {
+      border-radius: 50%;
+    }
+  }
+  .form-check-input:checked + label {
+    &:before {
+      background-color: white;
+      background-image: none;
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 16px; left: 14px;
+      width: 1rem; height: 1rem;
+      border-radius: 50%;
+      background-color: #6c757d;
+    }
+  }
 }
 .tile-description {
-	display: block;
-	font-size: 12px;
+  display: block;
+  font-size: 12px;
 }

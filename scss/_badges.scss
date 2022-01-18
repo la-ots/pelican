@@ -1,37 +1,37 @@
 .badge {
-    @extend .rounded-pill;
-    @extend .text-decoration-none;
+  @extend .rounded-pill;
+  @extend .text-decoration-none;
 }
 .badge-primary {    
-    @extend .bg-primary;
+  @extend .bg-primary;
 }
 .badge-secondary {
-    @extend .bg-secondary;
+  @extend .bg-secondary;
 }
 .badge-accent {
-    @extend .bg-accent;
-    @extend .text-black;
+  @extend .bg-accent;
+  @extend .text-black;
 }
 .badge-info {
-    @extend .bg-info;
+  @extend .bg-info;
 }
 .badge-success {
-    @extend .bg-success;
+  @extend .bg-success;
 }
 .badge-danger {
-    @extend .bg-danger;
+  @extend .bg-danger;
 }
 .badge-warning {
-    @extend .bg-warning;
-    @extend .text-black;
+  @extend .bg-warning;
+  @extend .text-black;
 }
 .badge-ui {
-    @extend .bg-ui;
+  @extend .bg-ui;
 }
 .badge-ui-light {
-    @extend .bg-ui-light;
-    @extend .text-black;
+  @extend .bg-ui-light;
+  @extend .text-black;
 }
 .badge-ui-priority {
-    @extend .bg-ui-priority;
+  @extend .bg-ui-priority;
 }

@@ -1,11 +1,11 @@
 hr {
-    &.minor, &.major {
-        @extend .bg-ui-light;
-    }
-    &.minor {
-        height: 1px;
-    }
-    &.major {
-        height: 4px;
-    }
+  &.minor, &.major {
+    @extend .bg-ui-light;
+  }
+  &.minor {
+    height: 1px;
+  }
+  &.major {
+    height: 4px;
+  }
 }

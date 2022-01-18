@@ -1,24 +1,24 @@
 .footer {
     @extend .py-4;
     a {
-        @extend .text-decoration-none;
-        &:not(.btn) {
-            color: inherit;
-        }
+      @extend .text-decoration-none;
+      &:not(.btn) {
+        color: inherit;
+      }
     }
     &.footer-basic {
-        @extend .bg-black;
-        @extend .text-white;
-        @extend .text-center;
-        a {
-            @extend .mx-4;
-        }
+      @extend .bg-black;
+      @extend .text-white;
+      @extend .text-center;
+      a {
+        @extend .mx-4;
+      }
     }
     &.footer-utility {
-        @extend .bg-primary;
-        @extend .text-primary-10;
-        hr {
-            @extend .opacity-20;
-        }
+      @extend .bg-primary;
+      @extend .text-primary-10;
+      hr {
+        @extend .opacity-20;
+      }
     }
 }
