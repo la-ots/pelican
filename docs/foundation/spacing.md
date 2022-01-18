@@ -18,17 +18,17 @@ In Pelian, spacing refers to Padding and Margin. Padding is the space inside of 
 These two boxes illustrate margin and padding. The first sentence in the first box uses a larger bottom margin than the first sentence in the second box. The second box has more padding inside of it than the first box.
 
 <div class="row mb-12">
-    <div class="col-md-6 mb-6 mb-lg-0">
-        <div class="p-8 bg-ui text-white rounded-lg">
-            <p class="mb-16">Margin pushes things away from other things, towards the outside.</p>
-            <p>Margin pushes things away from other things, towards the outside.</p>
-        </div>
+  <div class="col-md-6 mb-6 mb-lg-0">
+    <div class="p-8 bg-ui text-white rounded-lg">
+      <p class="mb-16">Margin pushes things away from other things, towards the outside.</p>
+      <p>Margin pushes things away from other things, towards the outside.</p>
     </div>
-    <div class="col-md-6">
-        <div class="p-16 bg-ui text-white rounded-lg">
-            <p>Padding pushes content away from the edges, towards the inside.</p>
-        </div>
+  </div>
+  <div class="col-md-6">
+    <div class="p-16 bg-ui text-white rounded-lg">
+      <p>Padding pushes content away from the edges, towards the inside.</p>
     </div>
+  </div>
 </div>
 
 ## Using Padding and Margin

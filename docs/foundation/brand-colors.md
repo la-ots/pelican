@@ -15,36 +15,36 @@ eleventyNavigation:
 Brand colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default brand colors. These colors are based upon Louisiana’s official colors.
 
 <div class="row">
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-primary rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Primary</p>
-                <p class="mb-0">Hex Code: <code>#00284d</code></p>
-                <p class="mb-0">SCSS Var: <code>$primary</code></p>
-            </div>
-        </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-primary rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Primary</p>
+        <p class="mb-0">Hex Code: <code>#00284d</code></p>
+        <p class="mb-0">SCSS Var: <code>$primary</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-secondary rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Secondary</p>
-                <p class="mb-0">Hex Code: <code>#14847f</code></p>
-                <p class="mb-0">SCSS Var: <code>$accent</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-secondary rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Secondary</p>
+        <p class="mb-0">Hex Code: <code>#14847f</code></p>
+        <p class="mb-0">SCSS Var: <code>$accent</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-accent rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Accent</p>
-                <p class="mb-0">Hex Code: <code>#fe9903</code></p>
-                <p class="mb-0">SCSS Var: <code>$secondary</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-accent rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Accent</p>
+        <p class="mb-0">Hex Code: <code>#fe9903</code></p>
+        <p class="mb-0">SCSS Var: <code>$secondary</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
 ## Using Brand Colors
@@ -87,82 +87,82 @@ Dark and light variants are available for all three Brand colors. Use them to en
 You’ll change background and text colors by using the following classes. Consult [Agency Themes](/foundation/agency-theming/) for more information.
 
 <div class="table-responsive">
-    <table class="table  mb-8">
-        <thead>
-            <tr>
-                <th scope="col" id="brand-color">Brand Color</th>
-                <th scope="col" id="background-color">Background Color</th>
-                <th scope="col" id="background-color-class">Background Color Class</th></th>
-                <th scope="col" id="text-color">Text Color</th>
-                <th scope="col" id="text-color-class">Text Color Class</th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row" id="Primary">Primary</th>
-                <td headers="primary background-color"><span class="badge badge-pill py-2 px-4 badge-primary">bg-primary</span></td>
-                <td headers="primary background-color-class"><code>bg-primary</code></td>
-                <td headers="primary text-color"><span class="badge badge-pill py-2 px-4 text-primary">text-primary</span></td>
-                <td headers="primary text-color-class"><code>text-primary</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Primary-10">Primary-10</th>
-                <td headers="primary-10 background-color"><span class="badge badge-pill py-2 px-4 bg-primary-10 text-primary">bg-primary-10</span></td>
-                <td headers="primary-10 background-color-class"><code>bg-primary-10</code></td>
-                <td headers="primary-10 text-color"><span class="badge badge-pill py-2 px-4 text-primary-10">text-primary-10</span></td>
-                <td headers="primary-10 text-color-class"><code>text-primary-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Primary-90">Primary-90</th>
-                <td headers="primary-90 background-color"><span class="badge badge-pill py-2 px-4 bg-primary-90">bg-primary-90</span></td>
-                <td headers="primary-90 background-color-class"><code>bg-primary-90</code></td>
-                <td headers="primary-90 text-color"><span class="badge badge-pill py-2 px-4 text-primary-90">text-primary-90</span></td>
-                <td headers="primary-90 text-color-class"><code>text-primary-90</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Secondary">Secondary</th>
-                <td headers="secondary background-color"><span class="badge badge-pill py-2 px-4 bg-secondary">bg-secondary</span></td>
-                <td headers="secondary background-color-class"><code>bg-secondary</code></td>
-                <td headers="secondary text-color"><span class="badge badge-pill py-2 px-4 text-secondary">text-secondary</span></td>
-                <td headers="secondary text-color-class"><code>text-secondary</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Secondary-10">Secondary-10</th>
-                <td headers="secondary-10 background-color"><span class="badge badge-pill py-2 px-4 bg-secondary-10 text-secondary">bg-secondary-10</span></td>
-                <td headers="secondary-10 background-color-class"><code>bg-secondary-10</code></td>
-                <td headers="secondary-10 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-10">text-secondary-10</span></td>
-                <td headers="secondary-10 text-color-class"><code>text-secondary-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Secondary-90">Secondary-90</th>
-                <td headers="secondary-90 background-color"><span class="badge badge-pill py-2 px-4 bg-secondary-90">bg-secondary-90</span></td>
-                <td headers="secondary-90 background-color-class"><code>bg-secondary-90</code></td>
-                <td headers="secondary-90 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-90">text-secondary-90</span></td>
-                <td headers="secondary-90 text-color-class"><code>text-secondary-90</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Accent">Accent</th>
-                <td headers="accent background-color"><span class="badge badge-pill py-2 px-4 bg-accent">bg-accent</span></td>
-                <td headers="accent background-color-class"><code>bg-accent</code></td>
-                <td headers="accent text-color"><span class="badge badge-pill py-2 px-4 text-accent">text-accent</span></td>
-                <td headers="accent text-color-class"><code>text-accent</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Accent-10">Accent-10</th>
-                <td headers="accent-10 background-color"><span class="badge badge-pill py-2 px-4 bg-accent-10 text-accent-90">bg-accent-10</span></td>
-                <td headers="accent-10 background-color-class"><code>bg-accent-10</code></td>
-                <td headers="accent-10 text-color"><span class="badge badge-pill py-2 px-4 text-accent-10">text-accent-10</span></td>
-                <td headers="accent-10 text-color-class"><code>text-accent-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Accent-90">Accent-90</th>
-                <td headers="accent-90 background-color"><span class="badge badge-pill py-2 px-4 bg-accent-90">bg-accent-90</span></td>
-                <td headers="accent-90 background-color-class"><code>bg-accent-90</code></td>
-                <td headers="accent-90 text-color"><span class="badge badge-pill py-2 px-4 text-accent-90">text-accent-90</span></td>
-                <td headers="accent-90 text-color-class"><code>text-accent-90</code></td>
-            </tr>                      
-        </tbody>
-    </table>
+  <table class="table  mb-8">
+    <thead>
+      <tr>
+        <th scope="col" id="brand-color">Brand Color</th>
+        <th scope="col" id="background-color">Background Color</th>
+        <th scope="col" id="background-color-class">Background Color Class</th></th>
+        <th scope="col" id="text-color">Text Color</th>
+        <th scope="col" id="text-color-class">Text Color Class</th></th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr>
+          <th scope="row" id="Primary">Primary</th>
+          <td headers="primary background-color"><span class="badge badge-pill py-2 px-4 badge-primary">bg-primary</span></td>
+          <td headers="primary background-color-class"><code>bg-primary</code></td>
+          <td headers="primary text-color"><span class="badge badge-pill py-2 px-4 text-primary">text-primary</span></td>
+          <td headers="primary text-color-class"><code>text-primary</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Primary-10">Primary-10</th>
+          <td headers="primary-10 background-color"><span class="badge badge-pill py-2 px-4 bg-primary-10 text-primary">bg-primary-10</span></td>
+          <td headers="primary-10 background-color-class"><code>bg-primary-10</code></td>
+          <td headers="primary-10 text-color"><span class="badge badge-pill py-2 px-4 text-primary-10">text-primary-10</span></td>
+          <td headers="primary-10 text-color-class"><code>text-primary-10</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Primary-90">Primary-90</th>
+          <td headers="primary-90 background-color"><span class="badge badge-pill py-2 px-4 bg-primary-90">bg-primary-90</span></td>
+          <td headers="primary-90 background-color-class"><code>bg-primary-90</code></td>
+          <td headers="primary-90 text-color"><span class="badge badge-pill py-2 px-4 text-primary-90">text-primary-90</span></td>
+          <td headers="primary-90 text-color-class"><code>text-primary-90</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Secondary">Secondary</th>
+          <td headers="secondary background-color"><span class="badge badge-pill py-2 px-4 bg-secondary">bg-secondary</span></td>
+          <td headers="secondary background-color-class"><code>bg-secondary</code></td>
+          <td headers="secondary text-color"><span class="badge badge-pill py-2 px-4 text-secondary">text-secondary</span></td>
+          <td headers="secondary text-color-class"><code>text-secondary</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Secondary-10">Secondary-10</th>
+          <td headers="secondary-10 background-color"><span class="badge badge-pill py-2 px-4 bg-secondary-10 text-secondary">bg-secondary-10</span></td>
+          <td headers="secondary-10 background-color-class"><code>bg-secondary-10</code></td>
+          <td headers="secondary-10 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-10">text-secondary-10</span></td>
+          <td headers="secondary-10 text-color-class"><code>text-secondary-10</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Secondary-90">Secondary-90</th>
+          <td headers="secondary-90 background-color"><span class="badge badge-pill py-2 px-4 bg-secondary-90">bg-secondary-90</span></td>
+          <td headers="secondary-90 background-color-class"><code>bg-secondary-90</code></td>
+          <td headers="secondary-90 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-90">text-secondary-90</span></td>
+          <td headers="secondary-90 text-color-class"><code>text-secondary-90</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Accent">Accent</th>
+          <td headers="accent background-color"><span class="badge badge-pill py-2 px-4 bg-accent">bg-accent</span></td>
+          <td headers="accent background-color-class"><code>bg-accent</code></td>
+          <td headers="accent text-color"><span class="badge badge-pill py-2 px-4 text-accent">text-accent</span></td>
+          <td headers="accent text-color-class"><code>text-accent</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Accent-10">Accent-10</th>
+          <td headers="accent-10 background-color"><span class="badge badge-pill py-2 px-4 bg-accent-10 text-accent-90">bg-accent-10</span></td>
+          <td headers="accent-10 background-color-class"><code>bg-accent-10</code></td>
+          <td headers="accent-10 text-color"><span class="badge badge-pill py-2 px-4 text-accent-10">text-accent-10</span></td>
+          <td headers="accent-10 text-color-class"><code>text-accent-10</code></td>
+        </tr>
+        <tr>
+          <th scope="row" id="Accent-90">Accent-90</th>
+          <td headers="accent-90 background-color"><span class="badge badge-pill py-2 px-4 bg-accent-90">bg-accent-90</span></td>
+          <td headers="accent-90 background-color-class"><code>bg-accent-90</code></td>
+          <td headers="accent-90 text-color"><span class="badge badge-pill py-2 px-4 text-accent-90">text-accent-90</span></td>
+          <td headers="accent-90 text-color-class"><code>text-accent-90</code></td>
+        </tr>                      
+      </tbody>
+  </table>
 </div>
 
 ## Resources

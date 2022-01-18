@@ -24,29 +24,29 @@ eleventyNavigation:
 ## Usage
 
 <div class="form-check radio-tile">
-	<input class="form-check-input" id="check-historical-truth-4" type="radio" name="historical-figures" value="sojourner-truth" />
-	<label class="form-check-label" for="check-historical-truth-4">Sojourner Truth</label>
+  <input class="form-check-input" id="check-historical-truth-4" type="radio" name="historical-figures" value="sojourner-truth" />
+  <label class="form-check-label" for="check-historical-truth-4">Sojourner Truth</label>
 </div>
 <div class="form-check radio-tile">
-	<input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
-	<label class="form-check-label" for="check-historical-booker-4">
-		Booker T. Washington
-		<span class="tile-description">This is optional text that can be used to describe the label in more
-			detail.</span>
-	</label>
+  <input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
+  <label class="form-check-label" for="check-historical-booker-4">
+    Booker T. Washington
+    <span class="tile-description">This is optional text that can be used to describe the label in more
+      detail.</span>
+  </label>
 </div>
 
 ```html
 <div class="form-check radio-tile">
-	<input class="form-check-input" id="check-historical-truth-4" type="radio" name="historical-figures" value="sojourner-truth" />
-	<label class="form-check-label" for="check-historical-truth-4">Sojourner Truth</label>
+  <input class="form-check-input" id="check-historical-truth-4" type="radio" name="historical-figures" value="sojourner-truth" />
+  <label class="form-check-label" for="check-historical-truth-4">Sojourner Truth</label>
 </div>
 <div class="form-check radio-tile">
-	<input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
-	<label class="form-check-label" for="check-historical-booker-4">
-		Booker T. Washington
-		<span class="tile-description">This is optional text that can be used to describe the label in more
-			detail.</span>
-	</label>
+  <input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
+  <label class="form-check-label" for="check-historical-booker-4">
+    Booker T. Washington
+    <span class="tile-description">This is optional text that can be used to describe the label in more
+      detail.</span>
+  </label>
 </div>
 ```

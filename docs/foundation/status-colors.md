@@ -20,46 +20,46 @@ Status colors should not be the sole way statuses are communicated to users. How
 Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Content must clearly relate to the chosen Status color.
 
 <div class="row">
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-success rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success</p>
-                <p class="mb-0">Hex Code: <code>#0d6211</code></p>
-                <p class="mb-0">SCSS Var: <code>$success</code></p>
-            </div>
-        </div>
+  <div class="col-md-6 col-xl-3">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-success rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Success</p>
+        <p class="mb-0">Hex Code: <code>#0d6211</code></p>
+        <p class="mb-0">SCSS Var: <code>$success</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-warning rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning</p>
-                <p class="mb-0">Hex Code: <code>#ffc107</code></p>
-                <p class="mb-0">SCSS Var: <code>$warning</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-3">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-warning rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Warning</p>
+        <p class="mb-0">Hex Code: <code>#ffc107</code></p>
+        <p class="mb-0">SCSS Var: <code>$warning</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-danger rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger</p>
-                <p class="mb-0">Hex Code: <code>#b00003</code></p>
-                <p class="mb-0">SCSS Var: <code>$danger</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-3">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-danger rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Danger</p>
+        <p class="mb-0">Hex Code: <code>#b00003</code></p>
+        <p class="mb-0">SCSS Var: <code>$danger</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-info rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info</p>
-                <p class="mb-0">Hex Code: <code>#004ba1</code></p>
-                <p class="mb-0">SCSS Var: <code>$info</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-3">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-info rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Info</p>
+        <p class="mb-0">Hex Code: <code>#004ba1</code></p>
+        <p class="mb-0">SCSS Var: <code>$info</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
 ## Using Status Colors
@@ -108,141 +108,141 @@ The Info color indicates informative or helpful information.
 **Success Status Colors**
 
 <div class="row">
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-success rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success</p>
-                <p class="mb-0">Hex Code: <code>#0d6211</code></p>
-                <p class="mb-0">SCSS Var: <code>$success</code></p>
-            </div>
-        </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-success rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Success</p>
+        <p class="mb-0">Hex Code: <code>#0d6211</code></p>
+        <p class="mb-0">SCSS Var: <code>$success</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-success-10 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success, Lighter</p>
-                <p class="mb-0">Hex Code: <code>#dcf8e2</code></p>
-                <p class="mb-0">SCSS Var: <code>$success-10</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-success-10 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Success, Lighter</p>
+        <p class="mb-0">Hex Code: <code>#dcf8e2</code></p>
+        <p class="mb-0">SCSS Var: <code>$success-10</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-success-90 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success, Darker</p>
-                <p class="mb-0">Hex Code: <code>#003302</code></p>
-                <p class="mb-0">SCSS Var: <code>$success-90</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-success-90 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Success, Darker</p>
+        <p class="mb-0">Hex Code: <code>#003302</code></p>
+        <p class="mb-0">SCSS Var: <code>$success-90</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
 **Warning Status Colors**
 
 <div class="row">
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-warning rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning</p>
-                <p class="mb-0">Hex Code: <code>#ffc107</code></p>
-                <p class="mb-0">SCSS Var: <code>$warning</code></p>
-            </div>
-        </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-warning rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Warning</p>
+        <p class="mb-0">Hex Code: <code>#ffc107</code></p>
+        <p class="mb-0">SCSS Var: <code>$warning</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-warning-10 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning, Lighter</p>
-                <p class="mb-0">Hex Code: <code>#ffecb3</code></p>
-                <p class="mb-0">SCSS Var: <code>$warning-10</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-warning-10 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Warning, Lighter</p>
+        <p class="mb-0">Hex Code: <code>#ffecb3</code></p>
+        <p class="mb-0">SCSS Var: <code>$warning-10</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-warning-90 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning, Darker</p>
-                <p class="mb-0">Hex Code: <code>#5c3400</code></p>
-                <p class="mb-0">SCSS Var: <code>$warning-90</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-warning-90 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Warning, Darker</p>
+        <p class="mb-0">Hex Code: <code>#5c3400</code></p>
+        <p class="mb-0">SCSS Var: <code>$warning-90</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
 **Danger Status Colors**
 
 <div class="row">
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-danger rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger</p>
-                <p class="mb-0">Hex Code: <code>#b00003</code></p>
-                <p class="mb-0">SCSS Var: <code>$danger</code></p>
-            </div>
-        </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-danger rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Danger</p>
+        <p class="mb-0">Hex Code: <code>#b00003</code></p>
+        <p class="mb-0">SCSS Var: <code>$danger</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-danger-10 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger, Lighter</p>
-                <p class="mb-0">Hex Code: <code>#ffe6e8</code></p>
-                <p class="mb-0">SCSS Var: <code>$danger-10</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-danger-10 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Danger, Lighter</p>
+        <p class="mb-0">Hex Code: <code>#ffe6e8</code></p>
+        <p class="mb-0">SCSS Var: <code>$danger-10</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-danger-90 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger, Darker</p>
-                <p class="mb-0">Hex Code: <code>#650002</code></p>
-                <p class="mb-0">SCSS Var: <code>$danger-90</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-danger-90 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Danger, Darker</p>
+        <p class="mb-0">Hex Code: <code>#650002</code></p>
+        <p class="mb-0">SCSS Var: <code>$danger-90</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
 **Info Status Colors**
 
 <div class="row">
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-info rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info</p>
-                <p class="mb-0">Hex Code: <code>#004ba1</code></p>
-                <p class="mb-0">SCSS Var: <code>$info</code></p>
-            </div>
-        </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-info rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Info</p>
+        <p class="mb-0">Hex Code: <code>#004ba1</code></p>
+        <p class="mb-0">SCSS Var: <code>$info</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-info-10 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info, Lighter</p>
-                <p class="mb-0">Hex Code: <code>#d0e6ff</code></p>
-                <p class="mb-0">SCSS Var: <code>$info-10</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-info-10 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Info, Lighter</p>
+        <p class="mb-0">Hex Code: <code>#d0e6ff</code></p>
+        <p class="mb-0">SCSS Var: <code>$info-10</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-4">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-info-90 rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info, Darker</p>
-                <p class="mb-0">Hex Code: <code>#002480</code></p>
-                <p class="mb-0">SCSS Var: <code>$info-90</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6 col-xl-4">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-info-90 rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Info, Darker</p>
+        <p class="mb-0">Hex Code: <code>#002480</code></p>
+        <p class="mb-0">SCSS Var: <code>$info-90</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
 ## Status Color Class List
@@ -250,103 +250,103 @@ The Info color indicates informative or helpful information.
 The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-responsive">
-    <table class="table mb-8">
-        <thead>
-            <tr>
-                <th id="Status Color">Status Color</th>
-                <th id="background-color">Background Color</th>
-                <th id="background-color-class">Background Color Class</th>
-                <th id="text-color">Text Color</th>
-                <th id="text-color-class">Text Color Class</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row" id="Success">Success</th>
-                <td headers="Success background-color"><span class="badge badge-pill py-2 px-4 badge-success">bg-success</span></td>
-                <td headers="Success background-color-class"><code>bg-success</code></td>
-                <td headers="Success text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-success">text-success</span></td>
-                <td headers="Success text-color-class"><code>text-success</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Success-10">Success-10</th>
-                <td headers="Success-10 background-color"><span class="badge badge-pill py-2 px-4 bg-success-10 text-success">bg-success-10</span></td>
-                <td headers="Success-10 background-color-class"><code>bg-success-10</code></td>
-                <td headers="Success-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-success-10">text-success-10</span></td>
-                <td headers="Success-10 text-color-class"><code>text-success-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Success-90">Success-90</th>
-                <td headers="Success-90 background-color"><span class="badge badge-pill py-2 px-4 bg-success-90 ">bg-success-90</span></td>
-                <td headers="Success-90 background-color-class"><code>bg-success-90</code></td>
-                <td headers="Success-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-success-90">text-success-90</span></td>
-                <td headers="Success-90 text-color-class"><code>text-success-90</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Warning">Warning</th>
-                <td headers="Warning background-color"><span class="badge badge-pill py-2 px-4 bg-warning">bg-warning</span></td>
-                <td headers="Warning background-color-class"><code>bg-warning</code></td>
-                <td headers="Warning text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-warning">text-warning</span></td>
-                <td headers="Warning text-color-class"><code>text-warning</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Warning-10">Warning-10</th>
-                <td headers="Warning-10 background-color"><span class="badge badge-pill py-2 px-4 bg-warning-10 text-warning-90">bg-warning-10</span></td>
-                <td headers="Warning-10 background-color-class"><code>bg-warning-10</code></td>
-                <td headers="Warning-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-warning-10">text-warning-10</span></td>
-                <td headers="Warning-10 text-color-class"><code>text-warning-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Warning-90">Warning-90</th>
-                <td headers="Warning-90 background-color"><span class="badge badge-pill py-2 px-4 bg-warning-90 ">bg-warning-90</span></td>
-                <td headers="Warning-90 background-color-class"><code>bg-warning-90</code></td>
-                <td headers="Warning-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-warning-90">text-warning-90</span></td>
-                <td headers="Warning-90 text-color-class"><code>text-warning-90</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Danger">Danger</th>
-                <td headers="Danger background-color"><span class="badge badge-pill py-2 px-4 bg-danger">bg-danger</span></td>
-                <td headers="Danger background-color-class"><code>bg-danger</code></td>
-                <td headers="Danger text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-danger">text-danger</span></td>
-                <td headers="Danger text-color-class"><code>text-danger</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Danger-10">Danger-10</th>
-                <td headers="Danger-10 background-color"><span class="badge badge-pill py-2 px-4 bg-danger-10 ">bg-danger-10</span></td>
-                <td headers="Danger-10 background-color-class"><code>bg-danger-10</code></td>
-                <td headers="Danger-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-danger-10">text-danger-10</span></td>
-                <td headers="Danger-10 text-color-class"><code>text-danger-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Danger-90">Danger-90</th>
-                <td headers="Danger-90 background-color"><span class="badge badge-pill py-2 px-4 bg-danger-90">bg-danger-90</span></td>
-                <td headers="Danger-90 background-color-class"><code>bg-danger-90</code></td>
-                <td headers="Danger-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-danger-90">text-danger-90</span></td>
-                <td headers="Danger-90 text-color-class"><code>text-danger-90</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Info">Info</th>
-                <td headers="Info background-color"><span class="badge badge-pill py-2 px-4 bg-info">bg-info</span></td>
-                <td headers="Info background-color-class"><code>bg-info</code></td>
-                <td headers="Info text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-info">text-info</span></td>
-                <td headers="Info text-color-class"><code>text-info</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Info-10">Info-10</th>
-                <td headers="Info-10 background-color"><span class="badge badge-pill py-2 px-4 bg-info-10 text-info">bg-info-10</span></td>
-                <td headers="Info-10 background-color-class"><code>bg-info-10</code></td>
-                <td headers="Info-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-info-10">text-info-10</span></td>
-                <td headers="Info-10 text-color-class"><code>text-info-10</code></td>
-            </tr>
-            <tr>
-                <th scope="row" id="Info-90">Info-90</th>
-                <td headers="Info-90 background-color"><span class="badge badge-pill py-2 px-4 bg-info-90 ">bg-info-90</span></td>
-                <td headers="Info-90 background-color-class"><code>bg-info-90</code></td>
-                <td headers="Info-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-info-90">text-info-90</span></td>
-                <td headers="Info-90 text-color-class"><code>text-info-90</code></td>
-            </tr>                                 
-        </tbody>
-    </table>
+  <table class="table mb-8">
+    <thead>
+      <tr>
+        <th id="Status Color">Status Color</th>
+        <th id="background-color">Background Color</th>
+        <th id="background-color-class">Background Color Class</th>
+        <th id="text-color">Text Color</th>
+        <th id="text-color-class">Text Color Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" id="Success">Success</th>
+        <td headers="Success background-color"><span class="badge badge-pill py-2 px-4 badge-success">bg-success</span></td>
+        <td headers="Success background-color-class"><code>bg-success</code></td>
+        <td headers="Success text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-success">text-success</span></td>
+        <td headers="Success text-color-class"><code>text-success</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Success-10">Success-10</th>
+        <td headers="Success-10 background-color"><span class="badge badge-pill py-2 px-4 bg-success-10 text-success">bg-success-10</span></td>
+        <td headers="Success-10 background-color-class"><code>bg-success-10</code></td>
+        <td headers="Success-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-success-10">text-success-10</span></td>
+        <td headers="Success-10 text-color-class"><code>text-success-10</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Success-90">Success-90</th>
+        <td headers="Success-90 background-color"><span class="badge badge-pill py-2 px-4 bg-success-90 ">bg-success-90</span></td>
+        <td headers="Success-90 background-color-class"><code>bg-success-90</code></td>
+        <td headers="Success-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-success-90">text-success-90</span></td>
+        <td headers="Success-90 text-color-class"><code>text-success-90</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Warning">Warning</th>
+        <td headers="Warning background-color"><span class="badge badge-pill py-2 px-4 bg-warning">bg-warning</span></td>
+        <td headers="Warning background-color-class"><code>bg-warning</code></td>
+        <td headers="Warning text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-warning">text-warning</span></td>
+        <td headers="Warning text-color-class"><code>text-warning</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Warning-10">Warning-10</th>
+        <td headers="Warning-10 background-color"><span class="badge badge-pill py-2 px-4 bg-warning-10 text-warning-90">bg-warning-10</span></td>
+        <td headers="Warning-10 background-color-class"><code>bg-warning-10</code></td>
+        <td headers="Warning-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-warning-10">text-warning-10</span></td>
+        <td headers="Warning-10 text-color-class"><code>text-warning-10</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Warning-90">Warning-90</th>
+        <td headers="Warning-90 background-color"><span class="badge badge-pill py-2 px-4 bg-warning-90 ">bg-warning-90</span></td>
+        <td headers="Warning-90 background-color-class"><code>bg-warning-90</code></td>
+        <td headers="Warning-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-warning-90">text-warning-90</span></td>
+        <td headers="Warning-90 text-color-class"><code>text-warning-90</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Danger">Danger</th>
+        <td headers="Danger background-color"><span class="badge badge-pill py-2 px-4 bg-danger">bg-danger</span></td>
+        <td headers="Danger background-color-class"><code>bg-danger</code></td>
+        <td headers="Danger text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-danger">text-danger</span></td>
+        <td headers="Danger text-color-class"><code>text-danger</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Danger-10">Danger-10</th>
+        <td headers="Danger-10 background-color"><span class="badge badge-pill py-2 px-4 bg-danger-10 ">bg-danger-10</span></td>
+        <td headers="Danger-10 background-color-class"><code>bg-danger-10</code></td>
+        <td headers="Danger-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-danger-10">text-danger-10</span></td>
+        <td headers="Danger-10 text-color-class"><code>text-danger-10</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Danger-90">Danger-90</th>
+        <td headers="Danger-90 background-color"><span class="badge badge-pill py-2 px-4 bg-danger-90">bg-danger-90</span></td>
+        <td headers="Danger-90 background-color-class"><code>bg-danger-90</code></td>
+        <td headers="Danger-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-danger-90">text-danger-90</span></td>
+        <td headers="Danger-90 text-color-class"><code>text-danger-90</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Info">Info</th>
+        <td headers="Info background-color"><span class="badge badge-pill py-2 px-4 bg-info">bg-info</span></td>
+        <td headers="Info background-color-class"><code>bg-info</code></td>
+        <td headers="Info text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-info">text-info</span></td>
+        <td headers="Info text-color-class"><code>text-info</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Info-10">Info-10</th>
+        <td headers="Info-10 background-color"><span class="badge badge-pill py-2 px-4 bg-info-10 text-info">bg-info-10</span></td>
+        <td headers="Info-10 background-color-class"><code>bg-info-10</code></td>
+        <td headers="Info-10 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-info-10">text-info-10</span></td>
+        <td headers="Info-10 text-color-class"><code>text-info-10</code></td>
+      </tr>
+      <tr>
+        <th scope="row" id="Info-90">Info-90</th>
+        <td headers="Info-90 background-color"><span class="badge badge-pill py-2 px-4 bg-info-90 ">bg-info-90</span></td>
+        <td headers="Info-90 background-color-class"><code>bg-info-90</code></td>
+        <td headers="Info-90 text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-info-90">text-info-90</span></td>
+        <td headers="Info-90 text-color-class"><code>text-info-90</code></td>
+      </tr>                                 
+    </tbody>
+  </table>
 </div>
 
 ## Resources

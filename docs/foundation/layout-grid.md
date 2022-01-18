@@ -22,47 +22,47 @@ The Layout Grid needs to be understood from the point of view of screen or devic
 The browser window has an explicit width whether it’s edge-to-edge of your monitor or resized. The Bootstrap grid divides the element in which its positioned into 12 equally-sized columns with gaps. This could be the root of the document or in a child element. These 12 columns’ individual widths change as the browser window or device width changes. These browser windows or device widths are divided into certain ranges, or Breakpoints. The window size determines the breakpoint, regardless of where the grid is placed.
 
 <div class="table-responsive">
-    <table class="table mb-8">
-        <thead>
-            <tr>
-                <th id="Breakpoint">Breakpoint</th>
-                <th id="Breakpoint-Size">Breakpoint-Size</th>
-                <th id="Breakpoint-Range">Breakpoint-Range</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th id="Extra-Small">Extra-Small</th>
-                <td headers="Extra-Small Breakpoint-Size"><code>-xs</code></td>
-                <td headers="Extra-Small Breakpoint-Range">0 – 576px</td>
-            </tr>
-            <tr>
-                <th id="Small">Small</th>
-                <td headers="Small Breakpoint-Size"><code>-sm</code></td>
-                <td headers="Small Breakpoint-Range">577 – 767px</td>
-            </tr>
-            <tr>
-                <th id="Medium">Medium</th>
-                <td headers="Medium Breakpoint-Size"><code>-md</code></td>
-                <td headers="Medium Breakpoint-Range">768 – 991px</td>
-            </tr>
-            <tr>
-                <th id="Large">Large</th>
-                <td headers="Large Breakpoint-Size"><code>-lg</code></td>
-                <td headers="Large Breakpoint-Range">992 – 1199px</td>
-            </tr>
-            <tr>
-                <th id="Extra-Large">Extra-Large</th>
-                <td headers="Extra-Large Breakpoint-Size"><code>-xl</code></td>
-                <td headers="Extra-Large Breakpoint-Range">1200 – 1399px</td>
-            </tr>
-            <tr>
-                <th id="Extra-Extra-Large">Extra-Extra-Large</th>
-                <td headers="Extra-Extra-Large Breakpoint-Size"><code>-xl</code></td>
-                <td headers="Extra-Extra-Large Breakpoint-Range">≥ 1400px</td>
-            </tr>                                
-        </tbody>
-    </table>
+  <table class="table mb-8">
+    <thead>
+      <tr>
+        <th id="Breakpoint">Breakpoint</th>
+        <th id="Breakpoint-Size">Breakpoint-Size</th>
+        <th id="Breakpoint-Range">Breakpoint-Range</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th id="Extra-Small">Extra-Small</th>
+        <td headers="Extra-Small Breakpoint-Size"><code>-xs</code></td>
+        <td headers="Extra-Small Breakpoint-Range">0 – 576px</td>
+      </tr>
+      <tr>
+        <th id="Small">Small</th>
+        <td headers="Small Breakpoint-Size"><code>-sm</code></td>
+        <td headers="Small Breakpoint-Range">577 – 767px</td>
+      </tr>
+      <tr>
+        <th id="Medium">Medium</th>
+        <td headers="Medium Breakpoint-Size"><code>-md</code></td>
+        <td headers="Medium Breakpoint-Range">768 – 991px</td>
+      </tr>
+      <tr>
+        <th id="Large">Large</th>
+        <td headers="Large Breakpoint-Size"><code>-lg</code></td>
+        <td headers="Large Breakpoint-Range">992 – 1199px</td>
+      </tr>
+      <tr>
+        <th id="Extra-Large">Extra-Large</th>
+        <td headers="Extra-Large Breakpoint-Size"><code>-xl</code></td>
+        <td headers="Extra-Large Breakpoint-Range">1200 – 1399px</td>
+      </tr>
+      <tr>
+        <th id="Extra-Extra-Large">Extra-Extra-Large</th>
+        <td headers="Extra-Extra-Large Breakpoint-Size"><code>-xl</code></td>
+        <td headers="Extra-Extra-Large Breakpoint-Range">≥ 1400px</td>
+      </tr>                                
+    </tbody>
+  </table>
 </div>
 
 These breakpoints allow for items to be predictably sized. Resize this window and observe how the light blue boxes widths change in small increments before changing across larger increments.

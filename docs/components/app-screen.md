@@ -21,32 +21,32 @@ eleventyNavigation:
 App Screen provides the basic user interface frame for all products developed using Pelican. It contains 4 core parts.
 
 <div class="table-responsive">
-    <table class="table mb-8">
-        <thead>
-            <tr>
-                <th id="Element">Element</th>
-                <th id="Element-Identifier">Element-Identifier</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th id="App-Topbar">App-Topbar</th>
-                <td headers="App-Topbar Element-Identifier"><code>&lt;div class="app-topbar"&gt;...&lt;div&gt;</code></td>
-            </tr> 
-            <tr>
-                <th id="App-Sidebar">App-Sidebar</th>
-                <td headers="App-Sidebar Element-Identifier"><code>&lt;nav class="app-sidebar"&gt;...&lt;nav&gt;</code></td>
-            </tr> 
-            <tr>
-                <th id="App-Content">App-Content</th>
-                <td headers="App-Content Element-Identifier"><code>&lt;div class="app-content"&gt;...&lt;div&gt;</code></td>
-            </tr>
-            <tr>
-                <th id="Main-Content">Main-Content</th>
-                <td headers="Main-Content Element-Identifier"><code>&lt;main id="main"&gt;...&lt;main&gt;</code></td>
-            </tr>                         
-        </tbody>
-    </table>
+  <table class="table mb-8">
+    <thead>
+        <tr>
+          <th id="Element">Element</th>
+          <th id="Element-Identifier">Element-Identifier</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th id="App-Topbar">App-Topbar</th>
+        <td headers="App-Topbar Element-Identifier"><code>&lt;div class="app-topbar"&gt;...&lt;div&gt;</code></td>
+      </tr> 
+      <tr>
+        <th id="App-Sidebar">App-Sidebar</th>
+        <td headers="App-Sidebar Element-Identifier"><code>&lt;nav class="app-sidebar"&gt;...&lt;nav&gt;</code></td>
+      </tr> 
+      <tr>
+        <th id="App-Content">App-Content</th>
+        <td headers="App-Content Element-Identifier"><code>&lt;div class="app-content"&gt;...&lt;div&gt;</code></td>
+      </tr>
+      <tr>
+        <th id="Main-Content">Main-Content</th>
+        <td headers="Main-Content Element-Identifier"><code>&lt;main id="main"&gt;...&lt;main&gt;</code></td>
+      </tr>                         
+    </tbody>
+  </table>
 </div>
 
 ## Source Order
@@ -66,8 +66,8 @@ App Screen provides the basic user interface frame for all products developed us
 
 ```html
 <nav class="app-sidebar">
-    <div class="app-sidebar-body">...</div>
-    <div class="app-sidebar-footer">...</div>
+  <div class="app-sidebar-body">...</div>
+  <div class="app-sidebar-footer">...</div>
 </nav>
 ```
 
