@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Dyslexia Friendly
   parent: Accessibility
-  order: 5
+  order: 6
   excerpt: Dyslexic readers benefit from a few easy-to-implement strategies.
   img: /img/illustrations/illus-dyslexia-friendly.svg
 ---

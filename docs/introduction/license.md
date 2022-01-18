@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: License
   parent: Introduction
-  order: 5
+  order: 4
   excerpt: We want anyone who wants to use the Pelican Design System to use it.
   img: /img/illustrations/illus-license.svg
 ---

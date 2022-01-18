@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Credits
   parent: Introduction
-  order: 4
+  order: 5
   excerpt: We used many open-source and freely-available resources to help us deliver this quickly and reliably.
   img: /img/illustrations/illus-credits.svg
 ---

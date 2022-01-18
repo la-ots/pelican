@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Accessible, Equitable
 
-Consider accessible, equitable design in your work. Pelican is built to evolve as we learn more about our users’ needs. This covers accessibility, it cosniders users with diverse backgrounds and challenges to using digital products. 
+Consider accessible, equitable design in your work. Pelican is built to evolve as we learn more about our users’ needs. 
 
 ## Layout
 
@@ -23,6 +23,6 @@ Don’t change the layouts of Pelican’s elements. Louisiana’s residents need
 
 Don’t change in ways other than what’s provided for customization. You may have to remedy any [Accessibility](/accessibility/about-accessibility/) or browser rendering problems on your own. If you need something Pelican doesn’t have, consult the <a href="https://getbootstrap.com" target="_blank">Bootstrap documentation</a> as it’s the underlying framework for Pelican.
 
-If your project requires custom work not found in either Pelican or Bootstrap, consult<a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Digital.gov’s guidelines on Frontend accessibility</a>.
+If your project requires custom work not found in either Pelican or Bootstrap, consult <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Digital.gov’s guidelines on Frontend accessibility</a>.
 
 {% include markup/pull-request.njk %}

@@ -59,3 +59,12 @@ h2, h3 {
 #resources + ul li a {
   text-decoration: none;
 }
+.site-hr {
+  margin-bottom: 0;
+}
+.page-nav {
+  margin-bottom: -48px;
+}
+footer {
+  margin-top: 48px;
+}

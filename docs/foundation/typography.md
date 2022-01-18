@@ -27,51 +27,7 @@ The typeface Pelican uses is <a href="https://public-sans.digital.gov/" target="
 
 ## Headings
 
-<p>
-  <span class="h1"><code>&lt;h1&gt;</code> H1</span> <span class="h2"><code>&lt;h2&gt;</code> H2</span> <span class="h3"><code>&lt;h3&gt;</code> H3</span> <span class="h4"><code>&lt;h4&gt;</code> H4</span> <span class="h5"><code>&lt;h5&gt;</code> H5</span> <span class="h6"><code>&lt;h6&gt;</code> H6</span>
-</p>
-
-```html
-<h1>
-  <h2>
-    <h3>
-  <h2>
-    <h3>
-      <h4>
-        <h5>
-          <h6>
-  <h2>
-```
-
-Headings semantically express the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">content structure of a document</a>. Heading tags create an outline of the page’s information. The size of Headings helps to visually reinforce document hierarchy. Using the Header tags correctly also helps search engines index the information.
-
-To use headings properly
-
-- Start with an H1. Only use one H1 per page.
-- [Page Titles](/components/page-title/) by default are the H1 in Pelican.
-- Follow H1 with as many H2 headers to chunk the content into meaningful sections.
-- Further divisions between H2s, should begin with H3.
-- Use H4, H5, and H6 successively.
-- Don’t skip headings.
-
-**Pelican uses Headings for:**
-
-- Page Titles
-- Page Section Titles
-- Subsection Headers
-
-**Heading Guidelines:**
-
-- Understand and implement Headings to correspond to the document hierarchy.
-- Start with H1. 
-- Use only one H1 per page.
-- You can use as many subsequent headings as you need.
-- Use H2, H3, on to H6 as the subsequent heading levels.
-- Don’t skip headings. Don’t follow a H1 with a H3 by skipping H2.
-- Break the page into major sections, those would use H2s for the headings.
-- Each subsequent heading represents a level inward from the previous heading.
-- Try to keep the page to just three levels as most, if possible.
-- Don’t rely on bolded paragraph tags as headings.
+Headings indicate document content structure and become navigation tools for assisitive technology. See [Headings](/accessibility/headings/) in Accessibility for information.
 
 ## Paragraphs
 

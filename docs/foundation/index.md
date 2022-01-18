@@ -7,6 +7,6 @@ index: true
 eleventyNavigation:
   key: Foundation
   title: Foundation
-  order: 4
+  order: 5
   excerpt: These pieces create the base of Pelican. These pieces must be properly understood to get the most out of it.
 ---

@@ -143,6 +143,19 @@ eleventyNavigation:
 - Review Pelican’s [Icon](/foundation/icons/) guidance
 - Put the icon on the left or the right side.
 - Icons in Button are mostly on the left. Buttons on the right are meant for directional actions such as going to a link, sign in, or sign out actions.
+- Ensure icons have `aria-hidden="true"` to hide them from assistive technology
+
+<button type="button" class="btn btn-primary">
+  <span class="fas fa-check" aria-hidden="true"></span> 
+  Button
+</button>
+
+```html
+<button type="button" class="btn btn-primary">
+  <span class="fas fa-check" aria-hidden="true"></span> 
+  Button
+</button>
+```
 
 
 **Icon-only Button**
