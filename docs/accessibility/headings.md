@@ -6,9 +6,9 @@ layout: guide
 eleventyNavigation:
   key: Headings
   parent: Accessibility
-  order: 5
+  order: 6
   excerpt: Headings are used to indicate information structure. They also enable accessible access.
-  img: /img/illustrations/illus-dyslexia-friendly.svg
+  img: /img/illustrations/illus-HEADINGS.svg
 ---
 
 ## Overview

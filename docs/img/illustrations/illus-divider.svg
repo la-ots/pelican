@@ -8,5 +8,5 @@
 </g>
 <rect opacity="0.5" x="32" y="24.5" width="256" height="4" fill="#00284D"/>
 <rect x="32" y="60.5" width="256" height="1" fill="#00284D"/>
-<line x1="32" y1="94" x2="288" y2="94" stroke="#00284D" stroke-dasharray="16 16"/>
+<line x1="32" y1="93.5" x2="288" y2="93.5" stroke="#00284D" stroke-width="2" stroke-dasharray="16 16"/>
 </svg>

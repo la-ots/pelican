@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Keyboard Navigation
   parent: Accessibility
-  order: 3
+  order: 4
   excerpt: Applications should be accessible to keyboard-only users.
   img: /img/illustrations/illus-keyboard.svg
 ---

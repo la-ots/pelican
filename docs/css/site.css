@@ -68,3 +68,8 @@ h2, h3 {
 footer {
   margin-top: 48px;
 }
+.home-hero {
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/home-hero-textured-dark.jpg');
+}

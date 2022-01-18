@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Components
   order: 152
   excerpt: Content Containers collect content into meaningful groups.
-  img: /img/illustrations/illus-boxes.svg
+  img: /img/illustrations/illus-content-container.svg
 ---
     
 ## Best Practice

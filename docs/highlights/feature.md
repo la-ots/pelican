@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Highlights
   excerpt: Tell users about aspects of what a digital product can do for them.
   order: 1
-  img: /img/illustrations/illus-boxed-in-photo.svg
+  img: /img/illustrations/illus-feature.svg
 ---
 
 ## Best Practices

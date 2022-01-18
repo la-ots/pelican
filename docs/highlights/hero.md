@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Highlights
   excerpt: Heroes bring a visual impact to a visitor’s initial impression of a site.
   order: 3
-  img: /img/illustrations/illus-boxed-in-photo.svg
+  img: /img/illustrations/illus-hero.svg
 ---
 
 ## Best Practices

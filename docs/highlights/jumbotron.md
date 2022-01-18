@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Highlights
   excerpt: Show a strong introduction to a subsection of a digital product.
   order: 4
-  img: /img/illustrations/illus-boxed-in-photo.svg
+  img: /img/illustrations/illus-jumbotron.svg
 ---
 
 ## Best Practices

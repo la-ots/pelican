@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: About Accessibility
   parent: Accessibility
-  order: 1
+  order: 2
   excerpt: Keeping users of all access needs in mind is a high priority.
   img: /img/illustrations/illus-about-accessibility.svg
 ---
