@@ -29,37 +29,3 @@ layout: default.njk
     {% endfor %}
   </div>
 </main>
-
-<!-- 
-<div class="content-container">
-  <div class="container-fluid">         
-    {%- for entry in navPages %}
-    <div class="row">
-      <div class="col-12">
-        <h2><a class="text-decoration-none " href="{{ entry.url | url }}">{{ entry.title }}</a></h2>
-      </div>
-      {% if entry.children.length > 0 %}
-      {% for child in entry.children %}
-      <div class="col-12 col-md-4 col-lg-3">
-        <div class="card border-0 mb-6">
-          <div class="card-body">
-            <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">
-              {{ child.title }}
-            </a>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-      {% endif %}
-    </div>
-    {% if not loop.last %}
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor mt-7">
-      </div>
-    </div>
-    {% endif %}
-    {%- endfor %}
-  </div>
-</div>
--->
