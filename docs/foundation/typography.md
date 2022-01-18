@@ -11,19 +11,9 @@ eleventyNavigation:
   img: /img/illustrations/illus-typography.svg
 ---
 
-## Overview
-
-Typography is not just the font. In Pelican it’s also the textual tags for indicating hierarchy and document structure.
-
 ## Typeface
 
-The typeface Pelican uses is <a href="https://public-sans.digital.gov/" target="_blank">Public Sans</a>, it’s designed by USWDS. It is also a variable font, so the download sizes are smaller. Additionally, as <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is made available by Google Fonts</a>, it is available in Figma automatically.
-
-<div class="row mb-12">
-  <div class="col-12">
-    <img alt="Sample Latin alphabet with Public Sans typeface." class="img-fluid" src="/img/illustrations/typography-typeface.svg">
-  </div>
-</div>
+Pelican’s typeface is <a href="https://public-sans.digital.gov/" target="_blank">Public Sans</a>, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is available from Google Fonts</a>, it’s ready-to-use in Figma.
 
 ## Headings
 
