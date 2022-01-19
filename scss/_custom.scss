@@ -1,5 +1,7 @@
 body {
     @include bg-texture;
+    @include scrollbars(10px, $primary-10, $black);
+    
 }
 .skip-to-main, .skip-link {
     @extend .text-decoration-none;

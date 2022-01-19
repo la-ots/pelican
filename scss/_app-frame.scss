@@ -1,6 +1,27 @@
-$topbar-height  : 48px;
-$app-frame-sizer: 300px;
-$app-sidebar-footer-height: 54px;
+$topbar-height                          : 48px;
+$app-frame-sizer                        : 300px;
+$app-sidebar-footer-height              : 59px;
+$app-sidebar-scrollbar-foreground-color : $primary-10;
+$app-sidebar-scrollbar-background-color : $black;
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width:  $size;
+    height: $size;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+    border-radius: $spacer * .5;
+  }
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
 .muted-top-border {
 	border-top: $border-width $border-style fade-out($black,.5);
 }
@@ -74,6 +95,7 @@ $app-sidebar-footer-height: 54px;
 .app-sidebar-body {
   height: calc(100vh - $app-sidebar-footer-height);
   overflow-y: auto;
+  @include scrollbars(10px, $primary-10, $black);
 }
 .app-sidebar-footer {
 	@extend .d-flex;
