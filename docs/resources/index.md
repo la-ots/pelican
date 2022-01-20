@@ -23,7 +23,7 @@ eleventyNavigation:
 - <a href="https://webaim.org/techniques/alttext/" target="_blank" class="text-decoration-none">WebAIM: Alternate Text</a>
 - <a href="https://www.section508.gov/sell/vpat" target="_blank" class="text-decoration-none">Voluntary Product Accessibility Template (VPAT)</a>
 - <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" class="text-decoration-none">Dyslexia Friendly Style Guide</a>
-- <a href="https://webaim.org/techniques/keyboard/" target="_blank">WebAIM - Keyboard Accessibility</a>
+- <a href="https://webaim.org/techniques/keyboard/" target="_blank" class="text-decoration-none">WebAIM - Keyboard Accessibility</a>
 - <a href="https://webaim.org/" target="_blank" class="text-decoration-none">Web AIM</a>
 - <a href="https://accessibility.oit.ncsu.edu/" target="_blank" class="text-decoration-none">Accessibility at NCSU</a>
 - <a href="https://usability.yale.edu/" target="_blank" class="text-decoration-none">Yale University Useability & Web Accessibility</a>

@@ -22,28 +22,28 @@ eleventyNavigation:
 
 ## Usage
 
-### Basic card
+### Basic
 
 {% include markup/card.njk %}
 ```html
   {% include markup/card.njk %}
 ```
 
-### Card with a Title
+### With a Title
 
 {% include markup/card-with-title.njk %}
 ```html
   {% include markup/card-with-title.njk %}
 ```
 
-### Card with a Header and Title
+### With a Header and Title
 
 {% include markup/card-with-header.njk %}
 ```html
   {% include markup/card-with-header.njk %}
 ```
 
-### Card with a Header, Title, and Footer
+### With a Header, Title, Footer
 
 {% include markup/card-with-footer.njk %}
 ```html

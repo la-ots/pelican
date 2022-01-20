@@ -21,10 +21,16 @@ Badges are used for information such as:
 
 ## Usage
 
-{% include markup/badges.njk %}
+<span class="badge badge-primary">Badge</span> <span class="badge badge-secondary">Badge</span> <span class="badge badge-success">Badge</span> <span class="badge badge-warning">Badge</span> <span class="badge badge-danger">Badge</span> <span class="badge badge-info">Badge</span> <span class="badge badge-ui">Badge</span>
 
 ``` html
-{% include markup/badges.njk %}
+<span class="badge badge-primary">Badge</span>
+<span class="badge badge-secondary">Badge</span>
+<span class="badge badge-success">Badge</span>
+<span class="badge badge-warning">Badge</span>
+<span class="badge badge-danger">Badge</span>
+<span class="badge badge-info">Badge</span>
+<span class="badge badge-ui">Badge</span>
 ```
 
 ## Resources

@@ -149,11 +149,19 @@ eleventyNavigation:
   <span class="fas fa-check" aria-hidden="true"></span> 
   Button
 </button>
+<button type="button" class="btn btn-primary">
+  Button
+  <span class="fas fa-sign-in-alt" aria-hidden="true"></span> 
+</button>
 
 ```html
 <button type="button" class="btn btn-primary">
   <span class="fas fa-check" aria-hidden="true"></span> 
   Button
+</button>
+<button type="button" class="btn btn-primary">
+  Button
+  <span class="fas fa-sign-in-alt" aria-hidden="true"></span> 
 </button>
 ```
 

@@ -22,7 +22,7 @@ Some users, particularly those with visual or motor impairments, will use the ke
 * <kbd>Arrow Keys</kbd> : Moves between options, such as in a Select, Radio, or Checkboxes.
 * <kbd>Enter</kbd> : Activates links and buttons or Submits forms.
 * <kbd>Spacebar</kbd> : Activates Buttons, Switches, Checkboxes, or Radios.
-* <kbd>Esc</kbd> : Closes Modals or other .
+* <kbd>Esc</kbd> : Can close Modals or stop some actions.
 
 ## What is Focus?
 

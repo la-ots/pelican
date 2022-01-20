@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Typeface
 
-Pelican’s typeface is <a href="https://public-sans.digital.gov/" target="_blank">Public Sans</a>, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is available from Google Fonts</a>, it’s ready-to-use in Figma.
+Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is available from Google Fonts</a>, it’s ready-to-use in Figma and easy to deploy to a web product.
 
 ## Headings
 
@@ -81,7 +81,7 @@ Use **Unordered** lists when the order of items does not matter.
 Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics.This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
 
 ```html
-Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics.This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
+Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
 ```
 
 ## Resources

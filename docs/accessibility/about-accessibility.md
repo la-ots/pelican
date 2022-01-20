@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Accessibility isn’t a line-item that is tacked on at the end of a digital product’s development process. It's a continual part of the development process. It has to be implemented along with content development, UX, wireframe, design, and development choices.  
 
-## Accessible Digital Products are a Human Right
+## Accessibility is a Human Right
 
 According to a <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p70-152.pdf" target="_blank">2014 Census report on Americans with disabilities</a>, “...27.2 percent, or 85.3 million, of people living in the United States had a disability in 2014.” This means that an accessibility-first mindset should the prime factor in developing digital products for Louisiana.
 
@@ -25,7 +25,7 @@ Accessible websites <a href="https://alistapart.com/article/accessibilityseo" ta
 
 ## Markup
 
-Markup and front-end’s roles in Accessibility is a complex concept. For now, we will refer to and follow the advice of <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Digital.gov’s Accessibility for Front-End Developers</a>. Their guidelines in this section will inform and influence our own practice.
+We will refer to and follow the advice of <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Digital.gov’s Accessibility for Front-End Developers</a>. Their guidelines in this section will inform and influence our own practice. Some best practices include, but are not limited to:
 
 - Use semantic HTML
 - Prefer native HTML controls over custom controls
