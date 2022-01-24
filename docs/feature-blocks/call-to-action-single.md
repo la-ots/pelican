@@ -19,8 +19,8 @@ Use this when you’re ready to direct the reader to take an action, like signin
 
 ## Usage
 
-{% include 'markup/call-to-action-single.njk' %}
+{% include "markup/call-to-action-single.njk" %}
 
 ``` html
-{% include 'markup/call-to-action-single.njk' %}
+{% include "markup/call-to-action-single.njk" %}
 ```

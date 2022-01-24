@@ -22,10 +22,10 @@ Badges might include:
 
 ## Usage
 
-{% include 'markup/badges.njk' %}
+{% include "markup/badges.njk" %}
 
 ``` html
-{% include 'markup/badges.njk' %}
+{% include "markup/badges.njk" %}
 ```
 
 ## Resources

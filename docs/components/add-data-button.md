@@ -19,10 +19,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-add-data.njk' %}
+{% include "markup/button-add-data.njk" %}
 
 ``` html
-{% include 'markup/button-add-data.njk' %}
+{% include "markup/button-add-data.njk" %}
 ```
 
 ## Resources

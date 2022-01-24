@@ -155,7 +155,9 @@ p a {
   }
 }
 
-#ScrollToTop {
+#ScrollToTop, .btn-back-to-top {
+  @extend .btn;
+  @extend .btn-accent;
   @extend .position-fixed;
   right: $spacer * 2;
   bottom: $spacer * 5;

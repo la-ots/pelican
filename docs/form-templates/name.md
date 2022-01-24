@@ -17,8 +17,8 @@ MyLa should be used to manage users’ names. If not, use this form.
 
 ## Usage
 
-{% include 'markup/form-template-name.njk' %}
+{% include "markup/form-template-name.njk" %}
 
 ``` html
-{% include 'markup/form-template-name.njk' %}
+{% include "markup/form-template-name.njk" %}
 ```

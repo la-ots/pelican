@@ -27,18 +27,18 @@ eleventyNavigation:
 ## Usage
 ### Popover
 
-{% include 'markup/popovers.njk' %}
+{% include "markup/popovers.njk" %}
 
 ``` html
-{% include 'markup/popovers.njk' %}
+{% include "markup/popovers.njk" %}
 ```
 
 ### Tooltips
 
-{% include 'markup/tooltips.njk' %}
+{% include "markup/tooltips.njk" %}
 
 ``` html
-{% include 'markup/tooltips.njk' %}
+{% include "markup/tooltips.njk" %}
 ```
 
 ## Resources

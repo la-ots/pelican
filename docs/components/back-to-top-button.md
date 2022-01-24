@@ -16,10 +16,10 @@ Insert Back-to-Top button as the first element in the markup of the page. It app
 
 ## Usage
 
-{% include 'markup/back-to-top.njk' %}
+{% include "markup/back-to-top.njk" %}
 
 ``` html
-{% include 'markup/back-to-top.njk' %}
+{% include "markup/back-to-top.njk" %}
 ```
 ## Resources
 

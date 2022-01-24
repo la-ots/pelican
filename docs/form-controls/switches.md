@@ -24,20 +24,20 @@ _**Note:** Some Switches can be marked as 'required' (<span class="fas fa-asteri
 * Allow users to enable or disable multiple items
 * Use when users can toggle multiple features on and off
 
-{% include 'markup/switches-little.njk' %}
+{% include "markup/switches-little.njk" %}
 
 ``` html
-{% include 'markup/switches-little.njk' %}
+{% include "markup/switches-little.njk" %}
 ```
 
 ### Big Switches
 * Allow users to enable or disable larger sections of functionality
 * Can be used to disable a group of Little Switches
 
-{% include 'markup/switches-big.njk' %}
+{% include "markup/switches-big.njk" %}
 
 ``` html
-{% include 'markup/switches-big.njk' %}
+{% include "markup/switches-big.njk" %}
 ```
 
 _**Note:** Do not use multiple Big Switches as replacements for multiple Little Switches._

@@ -26,10 +26,10 @@ _**Note:** Some Selects can be marked as 'required' (<span class="fas fa-asteris
 
 ## Markup & Preview
 
-{% include 'markup/select.njk' %}
+{% include "markup/select.njk" %}
 
 ``` html
-{% include 'markup/select.njk' %}
+{% include "markup/select.njk" %}
 ```
 
 ## Resources

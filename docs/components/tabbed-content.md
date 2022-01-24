@@ -19,16 +19,16 @@ eleventyNavigation:
 ## Usage
 ### Rounded Style
 
-{% include 'markup/tabbed-content-rounded.njk' %}
+{% include "markup/tabbed-content-rounded.njk" %}
 
 ``` html
-{% include 'markup/tabbed-content-rounded.njk' %}
+{% include "markup/tabbed-content-rounded.njk" %}
 ```
 
 ### Traditional Style
 
-{% include 'markup/tabbed-content-traditional.njk' %}
+{% include "markup/tabbed-content-traditional.njk" %}
 
 ``` html
-{% include 'markup/tabbed-content-traditional.njk' %}
+{% include "markup/tabbed-content-traditional.njk" %}
 ```

@@ -15,10 +15,10 @@ eleventyNavigation:
 ### Basic Footer
 This Footer features a set of textual links. Use this when you don’t want to feature much content.
 
-{% include 'markup/footer-basic.njk' %}
+{% include "markup/footer-basic.njk" %}
 
 ``` html
-{% include 'markup/footer-basic.njk' %}
+{% include "markup/footer-basic.njk" %}
 ```
 
 ### Utility Footer
@@ -30,8 +30,8 @@ This Footer features:
     
 Use this when you want content and links featured in the Footer.
 
-{% include 'markup/footer-utility.njk' %}
+{% include "markup/footer-utility.njk" %}
 
 ``` html
-{% include 'markup/footer-utility.njk' %}
+{% include "markup/footer-utility.njk" %}
 ```

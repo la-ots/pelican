@@ -18,8 +18,8 @@ Shows the main feature or benefit alongside smaller benefits.
 
 ## Usage
 
-{% include 'markup/many-icons.njk' %}
+{% include "markup/many-icons.njk" %}
 
 ``` html
-{% include 'markup/many-icons.njk' %}
+{% include "markup/many-icons.njk" %}
 ```

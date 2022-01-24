@@ -18,10 +18,10 @@ eleventyNavigation:
 
 _**Note:** This can be extended as we get new use cases._
 
-{% include 'markup/button-page-actions.njk' %}
+{% include "markup/button-page-actions.njk" %}
 
 ``` html
-{% include 'markup/button-page-actions.njk' %}
+{% include "markup/button-page-actions.njk" %}
 ```
 
 ## Resources

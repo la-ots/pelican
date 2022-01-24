@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-skip-link.svg
 ---
 
-{% include 'skip-link.njk' %}
+{% include "skip-link.njk" %}
 
 ## Resources
 * <a href="https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/" target="_blank">Skip Links: Skip to Main Content by NC State University</a>

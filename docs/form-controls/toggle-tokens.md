@@ -24,10 +24,10 @@ _**Note:** Some Toggle Tokens can be marked as 'required' (<span class="fas fa-a
 * [Radios](form-controls/radios) can be presented as Toggle Tokens
 * Use Radio button logic
 
-{% include 'markup/toggle-tokens-exclusive.njk' %}
+{% include "markup/toggle-tokens-exclusive.njk" %}
 
 ``` html
-{% include 'markup/toggle-tokens-exclusive.njk' %}
+{% include "markup/toggle-tokens-exclusive.njk" %}
 ```
 
 _**Note:** Do not use Toggle Tokens when space is limited._
@@ -36,10 +36,10 @@ _**Note:** Do not use Toggle Tokens when space is limited._
 * [Checkboxes](form-controls/checkboxes) can be presented as Toggle Tokens
 * Use Checkbox logic
 
-{% include 'markup/toggle-tokens-inclusive.njk' %}
+{% include "markup/toggle-tokens-inclusive.njk" %}
 
 ``` html
-{% include 'markup/toggle-tokens-inclusive.njk' %}
+{% include "markup/toggle-tokens-inclusive.njk" %}
 ```
 
 _**Note:** Do not use Toggle Tokens when space is limited._

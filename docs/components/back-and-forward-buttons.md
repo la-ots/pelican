@@ -22,10 +22,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-back-forward.njk' %}
+{% include "markup/button-back-forward.njk" %}
 
 ``` html
-{% include 'markup/button-back-forward.njk' %}
+{% include "markup/button-back-forward.njk" %}
 ```
 
 ## Resources

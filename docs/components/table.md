@@ -17,14 +17,14 @@ Tables allow data to be compared along vertical and horizontal lines, providing 
 
 _**Note:** [Pagination](/components/pagination) is optional depending on use in a project or stakeholder requirements._
 
-{% include 'cards-tables.njk' %}
+{% include "cards-tables.njk" %}
 
 ## Usage
 
-{% include 'markup/table.njk' %}
+{% include "markup/table.njk" %}
 
 ``` html
-{% include 'markup/table.njk' %}
+{% include "markup/table.njk" %}
 ```
 
 ## Resources

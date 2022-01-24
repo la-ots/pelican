@@ -16,8 +16,8 @@ Place this UI Block at the top of each page or as the first page for a web appli
 
 ## Usage
 
-{% include 'markup/form-template-language.njk' %}
+{% include "markup/form-template-language.njk" %}
 
 ``` html
-{% include 'markup/form-template-language.njk' %}
+{% include "markup/form-template-language.njk" %}
 ```

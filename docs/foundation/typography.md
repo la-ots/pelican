@@ -129,18 +129,18 @@ When writing lists, try to do the following when possible:
 
 Use **Ordered** lists when the order of items is important.
 
-{% include 'markup/list-ordered.njk' %}
+{% include "markup/list-ordered.njk" %}
 
 ``` html
-{% include 'markup/list-ordered.njk' %}
+{% include "markup/list-ordered.njk" %}
 ```
 
 Use **Unordered** lists when the order of items does not matter.
 
-{% include 'markup/list-unordered.njk' %}
+{% include "markup/list-unordered.njk" %}
 
 ``` html
-{% include 'markup/list-unordered.njk' %}
+{% include "markup/list-unordered.njk" %}
 ```
 
 ## Visual Presentation Allowances

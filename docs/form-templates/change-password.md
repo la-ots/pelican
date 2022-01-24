@@ -17,8 +17,8 @@ MyLa should be used to allow users to manage their password. If not, use this fo
 
 ## Usage
 
-{% include 'markup/form-template-password.njk' %}
+{% include "markup/form-template-password.njk" %}
 
 ``` html
-{% include 'markup/form-template-password.njk' %}
+{% include "markup/form-template-password.njk" %}
 ```

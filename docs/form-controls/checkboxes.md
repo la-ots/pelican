@@ -23,10 +23,10 @@ _**Note:** Some Checkboxes can be marked as 'required' (<span class="fas fa-aste
 
 ## Usage
 
-{% include 'markup/checkboxes.njk' %}
+{% include "markup/checkboxes.njk" %}
 
 ``` html
-{% include 'markup/checkboxes.njk' %}
+{% include "markup/checkboxes.njk" %}
 ```
 
 ## Resources

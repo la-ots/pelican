@@ -17,8 +17,8 @@ MyLa should be used to allow users to manage their phone numbers. If not, use th
 
 ## Usage
 
-{% include 'markup/form-template-phone.njk' %}
+{% include "markup/form-template-phone.njk" %}
 
 ``` html
-{% include 'markup/form-template-phone.njk' %}
+{% include "markup/form-template-phone.njk" %}
 ```
