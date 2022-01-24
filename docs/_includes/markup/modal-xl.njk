@@ -1,6 +1,6 @@
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-backdrop="keyboard"  data-bs-target="#modalXLarge">Launch X-Large Modal</button>
 
-<div class="modal fade" id="modalXLarge" tabindex="-1" aria-labelledby="modalXLargeLabel" aria-hidden="true">
+<div class="modal fade" id="modalXLarge" tabindex="-1" aria-labelledby="modalXLargeLabel" aria-describeby=“modal-description” aria-hidden="true">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
@@ -10,7 +10,10 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="visually-hidden" id="modal-description">
+          Put a description of what this modal does here. It’s hidden from visual users but available to assistive technology users.
+        </div>
+        <!-- put modal content here -->
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-ui" data-bs-dismiss="modal">Choice</button>
