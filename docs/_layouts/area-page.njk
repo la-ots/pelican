@@ -2,20 +2,7 @@
 layout: default.njk
 ---
 
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col-12 col-md-8 col-lg-6 content">
-      {{ content | safe }}
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 col-md-8 col-lg-6">
-      <hr class="minor mt-1 mb-6">
-    </div>
-  </div> -->
-
-
-  <main class="container-fluid mb-auto" id="main">
+  <div class="container-fluid mb-auto" id="main">
     <div class="row">
       {%- set navPages = collections.all | eleventyNavigation %}
       {%- for entry in navPages %}
@@ -41,4 +28,4 @@ layout: default.njk
       {%- endfor %}
     </div>
   </div>
-</main>
+</div>

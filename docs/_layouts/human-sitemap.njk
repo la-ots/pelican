@@ -4,7 +4,7 @@ layout: default.njk
 
 {% set navPages = collections.all | eleventyNavigation %}
 
-<main class="content-container" id="main">
+<div class="content-container" id="main">
   <div class="container-fluid">
     {% for entry in navPages %}
     <div class="row">
@@ -28,4 +28,4 @@ layout: default.njk
     </div>
     {% endfor %}
   </div>
-</main>
+</div>
