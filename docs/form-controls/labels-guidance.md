@@ -25,8 +25,8 @@ The data collected from some fields in the form may be required in the applicati
 <div class="row">
   <div class="col-lg-6">
     <div class="mb-3">
-      <label for="exampleInputText1"><span class="fas fa-asterisk text-danger"></span> This is a Required Field</label>
-      <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder">
+      <label for="exampleInputText1"><span class="fas fa-asterisk text-danger"></span> Label</label>
+      <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder, don’t use.">
     </div>
   </div>
 </div>
@@ -35,8 +35,8 @@ The data collected from some fields in the form may be required in the applicati
 <div class="row">
   <div class="col-lg-6">
     <div class="mb-3">
-      <label for="exampleInputText1"><span class="fas fa-asterisk text-danger"></span> This is a Required Field</label>
-      <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder">
+      <label for="exampleInputText1"><span class="fas fa-asterisk text-danger"></span> Label</label>
+      <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder, don’t use.">
     </div>
   </div>
 </div>

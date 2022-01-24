@@ -11,23 +11,22 @@ eleventyNavigation:
   img: /img/illustrations/illus-about-accessibility.svg
 ---
 
-## Accessibility is a Human Right
+## Best Practices
 
-Accessibility isn’t a line-item that is tacked on at the end of a digital product’s development process. It's a continual part of the development process. It has to be implemented along with content development, UX, wireframe, design, and development choices. According to a <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p70-152.pdf" target="_blank">2014 Census report on Americans with disabilities</a>, “...27.2 percent, or 85.3 million, of people living in the United States had a disability in 2014.” This means that an accessibility-first mindset should the prime factor in developing digital products for Louisiana.
-
-## Benefits
-
-Accessible websites <a href="https://alistapart.com/article/accessibilityseo" target="_blank">conform well with SEO best practices</a>. This means that it’s easier for search engines to present the contents to search users. Google can index anything, but an accessible website is also in closer alignment with Google’s indexing practices.
-
-## Markup
-
-We will refer to and follow the advice of <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Digital.gov’s Accessibility for Front-End Developers</a>. Their guidelines in this section will inform and influence our own practice. Some best practices include, but are not limited to:
-
+- Automated testing is useful, but not a replacement for human testing.
 - Use semantic HTML.
-- Prefer native HTML controls over custom controls.
-- Ensure [keyboard-only access](/accessibility/keyboard/) always works.
-- Use Headings correctly.
-- Apply alt text to images with meaningful content.
+- Prefer native HTML controls over custom controls. If custom controls are used, you must ensure proper ARIA usage.
+- Use a [skip link](/components/skip-link/).
+- Ensure [keyboard access](/accessibility/keyboard/) always works properly.
+- Use [headings](/accessibility/headings/) correctly.
+- Apply [alt text](/foundation/images/) to images with meaningful content.
+- Give users multiple ways to navigate.
+- Ensure compliant [color contrast](/accessibility/color-contrast/).
+- No blinking or flashing items.
+- Follow the guidance for [accessible forms](/form-controls/using-form-controls/).
+- At 200% zoom or higher, the digital product should still function.
+- At 200% zoom or higher, the user should only need to scroll in one direction.
+- At 200% zoom or higher, all content and controls should still be accessed.
 
 {% include markup/pull-request.njk %}
 
