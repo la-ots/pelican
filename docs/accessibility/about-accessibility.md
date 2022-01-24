@@ -13,6 +13,8 @@ eleventyNavigation:
 
 ## Best Practices
 
+Some best practices are included here. This list shouldn’t be assumed as complete. We’re still learning about our users, so our own body of knowledge will continue to grow. The resources below offer more comprehensive knowledge.
+
 - Automated testing is useful, but not a replacement for human testing.
 - Use semantic HTML.
 - Prefer native HTML controls over custom controls. If custom controls are used, you must ensure proper ARIA usage.
