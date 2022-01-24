@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 1.0.0 — 16 November 2021
+## 1.0.0 — 24 January 2022
 
 - Version 1.0 released! See [Get Started](/get-started) to begin using Pelican Design System.
 
