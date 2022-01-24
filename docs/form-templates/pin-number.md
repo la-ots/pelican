@@ -17,8 +17,8 @@ MyLa should be used to allow users to manage their PIN number. If not, use this 
 
 ## Usage
 
-{% include markup/form-template-pin.njk %}
+{% include 'markup/form-template-pin.njk' %}
 
 ``` html
-{% include markup/form-template-pin.njk %}
+{% include 'markup/form-template-pin.njk' %}
 ```

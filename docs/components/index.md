@@ -14,4 +14,4 @@ eleventyNavigation:
 
 Components are the smallest pieces of functionality in Pelican. They can be combined to form larger pieces of functionality. 
 
-{% include themeables.njk %}
+{% include 'themeables.njk' %}

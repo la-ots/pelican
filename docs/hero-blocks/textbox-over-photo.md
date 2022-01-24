@@ -17,12 +17,12 @@ This Hero Block presents a photographic representation of a subject under a desc
 
 ## Best Practices
 
-{% include hero-guidance.njk %}
+{% include 'hero-guidance.njk' %}
 
 ## Usage
 
-{% include markup/hero-textbox-over-photo.njk %}
+{% include 'markup/hero-textbox-over-photo.njk' %}
 
 ``` html
-{% include markup/hero-textbox-over-photo.njk %}
+{% include 'markup/hero-textbox-over-photo.njk' %}
 ```

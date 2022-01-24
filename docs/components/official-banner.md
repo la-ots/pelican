@@ -20,8 +20,8 @@ _**Note**: This doesn’t contain the code for switching language, only the mark
 
 ## Usage
 
-{% include markup/official-banner.njk %}
+{% include 'markup/official-banner.njk' %}
 
 ``` html
-{% include markup/official-banner.njk %}
+{% include 'markup/official-banner.njk' %}
 ```

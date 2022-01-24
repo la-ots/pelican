@@ -29,10 +29,10 @@ The browser window has an explicit width whether it’s edge-to-edge of your mon
 
 These breakpoints allow for items to be predictably sized. Resize this window and observe how the light blue boxes widths change in small increments before changing across larger increments.
 
-{% include markup/layout-grid.njk %}
+{% include 'markup/layout-grid.njk' %}
 
 ``` html
-{% include markup/layout-grid.njk %}
+{% include 'markup/layout-grid.njk' %}
 ``` 
 
 ## Guidance
@@ -55,10 +55,10 @@ This forms the basis of your layout.
 
 Content which needs to resize would be placed directly in the `<div>` elements with the columns classes. Cards and Form Groups are easy examples.
 
-{% include markup/cards-layout.njk %}
+{% include 'markup/cards-layout.njk' %}
 
 ```html
-{% include markup/cards-layout.njk %}
+{% include 'markup/cards-layout.njk' %}
 ```
 
 ## Special Note

@@ -21,7 +21,7 @@ When we do it properly, we even consider accessibility when creating and writing
 
 According to a <a href="https://www.census.gov/content/dam/Census/library/publications/2018/demo/p70-152.pdf" target="_blank">2014 Census report on Americans with disabilities</a>, "...27.2 percent, or 85.3 million, of people living in the United States had a disability in 2014." This means that an accessibility-first mindset is the prime factor in developing accessible websites. Further, the United Nations considers the rights of persons with disabilities important enough to <a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" target="_blank">discuss these rights in a convention</a>. 
 
-{% include markup/pull-request.njk %}
+{% include 'markup/pull-request.njk' %}
 
 ## Benefits
 

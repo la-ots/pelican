@@ -20,10 +20,10 @@ Use content containers to group content together
 - Use [Bootstrap container classes](/components/layout-grid/) as immediate child content
 - Begins with default padding, but this may be adjusted for better fits of content alignments
 
-{% include markup/content-container.njk %}
+{% include 'markup/content-container.njk' %}
 
 ``` html
-{% include markup/content-container.njk %}
+{% include 'markup/content-container.njk' %}
 ```
 
 ## Resources

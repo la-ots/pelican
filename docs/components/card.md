@@ -19,7 +19,7 @@ Cards are designed to be flexible enough to accommodate most content types
 - Rows and columns can be placed inside a card body
 - Cards can be themed using theming classes. Read more in [Agency Themes](/foundation/agency-theming/)
 
-{% include cards-tables.njk %}
+{% include 'cards-tables.njk' %}
 
 ## Usage
 ### Basic card

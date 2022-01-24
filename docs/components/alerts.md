@@ -45,10 +45,10 @@ When writing alert messages, keep the following in mind:
 * **Info** (Blue) communicates informative or helpful information to users
 * Use the <a href="https://fontawesome.com/icons/info-circle?style=solid" target="_blank">info symbol in a circle</a> as the icon
 
-{% include markup/alert-info.njk %}
+{% include 'markup/alert-info.njk' %}
 
 ``` html
-{% include markup/alert-info.njk %}
+{% include 'markup/alert-info.njk' %}
 ```
 
 ### Success Alert
@@ -57,30 +57,30 @@ When writing alert messages, keep the following in mind:
 
 _Note: A successful action can include the successful deletion of an item or file._
 
-{% include markup/alert-success.njk %}
+{% include 'markup/alert-success.njk' %}
 
 ``` html
-{% include markup/alert-success.njk %}
+{% include 'markup/alert-success.njk' %}
 ```
 
 ### Warning Alert
 * **Warning** (Yellow) indicates an unintended, but not dangerous, effect
 * Use the <a href="https://fontawesome.com/icons/exclamation-circle?style=solid" target="_blank">exclamation mark in a circle</a> as the icon
 
-{% include markup/alert-warning.njk %}
+{% include 'markup/alert-warning.njk' %}
 
 ``` html
-{% include markup/alert-warning.njk %}
+{% include 'markup/alert-warning.njk' %}
 ```
 
 ### Danger Alert
 * **Danger** (Red) indicates an action will cause data loss, error, or other hard-to-reverse effects
 * Use the <a href="https://fontawesome.com/icons/exclamation-triangle?style=solid" target="_blank">exclamation mark in a triangle</a> as the icon
 
-{% include markup/alert-danger.njk %}
+{% include 'markup/alert-danger.njk' %}
 
 ``` html
-{% include markup/alert-danger.njk %}
+{% include 'markup/alert-danger.njk' %}
 ```
 
 ## Resources
