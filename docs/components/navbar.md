@@ -22,9 +22,9 @@ eleventyNavigation:
 - Directs users to a single action 
 - This may be used on a landing page or a single-page website
 
-{% include markup/navbar-minimal.njk %}
+{% include 'markup/navbar-minimal.njk' %}
 ``` html
-{% include markup/navbar-minimal.njk %}
+{% include 'markup/navbar-minimal.njk' %}
 ```
 
 ### Basic Navigation
@@ -32,18 +32,18 @@ eleventyNavigation:
 - Contains one visually-emphasized link
 - If you emphasize a link, make sure it is either the first or last link in the list
 
-{% include markup/navbar-basic.njk %}
+{% include 'markup/navbar-basic.njk' %}
 ``` html
-{% include markup/navbar-basic.njk %}
+{% include 'markup/navbar-basic.njk' %}
 ```
 
 ### Navigation with Search
 - Displays an agency logo with a set of textual links underneath 
 - Features a search field positioned to the right of the bar
 
-{% include markup/navbar-search.njk %}
+{% include 'markup/navbar-search.njk' %}
 ``` html
-{% include markup/navbar-search.njk %}
+{% include 'markup/navbar-search.njk' %}
 ```
 
 ### Iconic Links Navigation
@@ -51,9 +51,9 @@ eleventyNavigation:
 * Displays an agency logo
 * Features a set of links composed of an Icon over text
 
-{% include markup/navbar-iconic.njk %}
+{% include 'markup/navbar-iconic.njk' %}
 ``` html
-{% include markup/navbar-iconic.njk %}
+{% include 'markup/navbar-iconic.njk' %}
 ```
 
 ## Resources

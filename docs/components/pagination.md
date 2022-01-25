@@ -19,8 +19,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include markup/pagination.njk %}
+{% include 'markup/pagination.njk' %}
 
 ``` html
-{% include markup/pagination.njk %}
+{% include 'markup/pagination.njk' %}
 ```

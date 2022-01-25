@@ -21,8 +21,8 @@ The Louisiana Census reveals four languages which should be accommodated in its 
 
 ## Usage
 
-{% include markup/languages.njk %}
+{% include 'markup/languages.njk' %}
 
 ``` html
-{% include markup/languages.njk %}
+{% include 'markup/languages.njk' %}
 ```

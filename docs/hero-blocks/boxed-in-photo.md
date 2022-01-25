@@ -17,12 +17,12 @@ This Hero Block presents a photographic representation of a subject next to a de
 
 ## Best Practices
 
-{% include hero-guidance.njk %}
+{% include 'hero-guidance.njk' %}
 
 ## Usage
 
-{% include markup/hero-boxed-in-photo.njk %}
+{% include 'markup/hero-boxed-in-photo.njk' %}
 
 ``` html
-{% include markup/hero-boxed-in-photo.njk %}
+{% include 'markup/hero-boxed-in-photo.njk' %}
 ```

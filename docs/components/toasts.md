@@ -58,7 +58,7 @@ _**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-sta
 </div>
 
 ``` html
-{% include markup/toast-success.njk %}
+{% include 'markup/toast-success.njk' %}
 ```
 
 ### Danger Toast
@@ -80,7 +80,7 @@ _**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-sta
 </div>
 
 ``` html
-{% include markup/toast-danger.njk %}
+{% include 'markup/toast-danger.njk' %}
 ```
 
 ### Info Toast
@@ -102,7 +102,7 @@ _**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-sta
 </div>
 
 ``` html
-{% include markup/toast-info.njk %}
+{% include 'markup/toast-info.njk' %}
 ```
 
 ## Resources

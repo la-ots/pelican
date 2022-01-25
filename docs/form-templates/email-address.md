@@ -17,8 +17,8 @@ MyLa should be used to allow users to manage their email addresses on file. If n
 
 ## Usage
 
-{% include markup/form-template-email.njk %}
+{% include 'markup/form-template-email.njk' %}
 
 ``` html
-{% include markup/form-template-email.njk %}
+{% include 'markup/form-template-email.njk' %}
 ```

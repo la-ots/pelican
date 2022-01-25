@@ -17,10 +17,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include markup/button-previous-next.njk %}
+{% include 'markup/button-previous-next.njk' %}
 
 ``` html
-{% include markup/button-previous-next.njk %}
+{% include 'markup/button-previous-next.njk' %}
 ```
 
 ## Resources

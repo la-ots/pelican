@@ -83,7 +83,7 @@ The Accent color is the smallest supporting color associated with your brand. It
 
 Dark and light variants are available for all three Brand colors. Use them to ensure accessibility by providing better contrast in User Interface (UI) elements or as text and background colors.
 
-{% include cards-brand-colors.njk %}
+{% include 'cards-brand-colors.njk' %}
 
 ## Brand Color Class List
 

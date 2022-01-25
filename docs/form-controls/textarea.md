@@ -21,10 +21,10 @@ _**Note:** Some Text Areas can be marked as 'required' (<span class="fas fa-aste
 
 ## Usage
 
-{% include markup/textarea.njk %}
+{% include 'markup/textarea.njk' %}
 
 ``` html
-{% include markup/textarea.njk %}
+{% include 'markup/textarea.njk' %}
 ```
 
 ## Resources

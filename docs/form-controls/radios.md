@@ -23,10 +23,10 @@ _**Note:** Some Radios can be marked as 'required' (<span class="fas fa-asterisk
 
 ## Usage
 
-{% include markup/radios.njk %}
+{% include 'markup/radios.njk' %}
 
 ``` html
-{% include markup/radios.njk %}
+{% include 'markup/radios.njk' %}
 ```
 
 ## Resources
