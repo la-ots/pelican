@@ -1,13 +1,20 @@
-footer,
-.footer {
+footer, .footer {
   .brand-logo {
     svg {
       width: 100%;
-
       .mark,
       .type {
         fill: $white;
       }
     }
+  }
+  &.footer-basic   {
+    @extend .bg-black;
+    @extend .mt-12;
+  }
+  &.footer-utility {
+    @extend .bg-primary ;
+    @extend .pt-4 ;
+    @extend .mt-auto;
   }
 }

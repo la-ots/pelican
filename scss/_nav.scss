@@ -10,16 +10,13 @@
   margin-bottom: 0;
   list-style: none;
 }
-
 .nav-link {
   display: block;
   padding: $nav-link-padding-y $nav-link-padding-x;
   text-decoration: if($link-decoration == none, null, none);
-
   @include hover-focus() {
     text-decoration: none;
   }
-
   // Disabled state lightens text
   &.disabled {
     color: $nav-link-disabled-color;
@@ -149,7 +146,13 @@
     display: block;
   }
 }
-
+.navbar {
+  @extend .bg-primary;
+  @extend .text-white;
+  &.navbar-search {
+    @extend .d-block;
+  }
+}
 .navbar-icon-links {
   .nav-item {
     @extend .ml-lg-3;

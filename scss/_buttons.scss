@@ -75,7 +75,7 @@
   transform: translateY(-50%);
 }
 
-.btn-add-this {
+.btn-add-this, .btn-add-data {
   @extend .btn;
   @extend .btn-ui;
   @extend .btn-block;

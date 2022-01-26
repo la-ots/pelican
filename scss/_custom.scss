@@ -35,6 +35,7 @@
   @extend .text-white;
   @extend .border-black;
   @extend .border-bottom;
+  @extend .py-2;
 
   .container-fluid {
     @extend .py-1;
@@ -86,6 +87,9 @@
 .content-container {
   @extend .bg-white;
   @extend .shadow-sm;
+  @extend .p-4 ;
+  @extend .p-lg-16 ;
+  @extend .mb-4;
   border-radius: 4px;
 }
 
