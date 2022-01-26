@@ -38,10 +38,10 @@ Touch screens on older mobile devices have difficulty interpreting touch intents
 
 ## Usage
 
-{% include markup/modal.njk %}
+{% include 'markup/modal.njk' %}
 
 ``` html
-{% include markup/modal.njk %}
+{% include 'markup/modal.njk' %}
 ```
 
 ## Resources

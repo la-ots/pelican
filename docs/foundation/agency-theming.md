@@ -19,7 +19,7 @@ Agencies can apply their own brand by changing the SCSS variables and recompilin
 
 Pelican provides 9 Brand color variables you can change. These are listed in the file named `_variables-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
 
-{% include cards-brand-colors.njk %}
+{% include 'cards-brand-colors.njk' %}
 
 ## Themeable Elements
 
@@ -154,7 +154,7 @@ Some strategies to counter this could include:
 
 To prevent ambiguity in this situation, [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
 
-{% include color-warning.njk %}
+{% include 'color-warning.njk' %}
 
 ## Resources
 

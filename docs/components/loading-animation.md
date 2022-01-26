@@ -16,8 +16,8 @@ The Loading Animation is placed into an element wrapping the element requiring t
 
 ## Usage
 
-{% include markup/loading.njk %}
+{% include 'markup/loading.njk' %}
 
 ``` html
-{% include markup/loading.njk %}
+{% include 'markup/loading.njk' %}
 ```

@@ -20,8 +20,8 @@ We currently present four sharing methods:
 
 ## Usage
 
-{% include markup/share-social.njk %}
+{% include 'markup/share-social.njk' %}
 
 ``` html
-{% include markup/share-social.njk %}
+{% include 'markup/share-social.njk' %}
 ```

@@ -31,11 +31,11 @@ The App Screen is composed of 5 parts. The bottom of this page will display the 
 Everything considered part of the App Screen is placed into this element. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top button goes below it in markup.
 
 ```html
-{% include markup/skip-link-markup.njk %}
+{% include 'markup/skip-link-markup.njk' %}
 <div id="page-wrapper" class="page-wrapper agency-theme">
     ...
 </div>
-{% include markup/button-back-to-top.njk %}
+{% include 'markup/button-back-to-top.njk' %}
 ```
 
 ## Sidebar with Navigation
@@ -136,7 +136,7 @@ This `main` is where the screen’s contents and user interface items are placed
 The App Screen markup below is how all the 5 parts are assembled.
 
 ```html
-{% include markup/app-screen.njk %}
+{% include 'markup/app-screen.njk' %}
 ```
 
 

@@ -20,8 +20,8 @@ Allows a Louisiana product to briefly describe a feature with related icons to r
 
 ## Usage
 
-{% include markup/icons-text.njk %}
+{% include 'markup/icons-text.njk' %}
 
 ``` html
-{% include markup/icons-text.njk %}
+{% include 'markup/icons-text.njk' %}
 ```

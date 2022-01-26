@@ -19,10 +19,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include markup/chip.njk %}
+{% include 'markup/chip.njk' %}
 
 ``` html
-{% include markup/chip.njk %}
+{% include 'markup/chip.njk' %}
 ```
 
 ## Resources

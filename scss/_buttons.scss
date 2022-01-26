@@ -29,7 +29,8 @@
 
   &:hover,
   &:active {
-    &:not(.disabled) {
+    &:not(.disabled), 
+    &:not([disabled]) {
       box-shadow: 0 4px 0 0 fade-out($ui, 0.62);
     }
   }

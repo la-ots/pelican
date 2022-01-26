@@ -44,20 +44,20 @@ See [Padding and Margin](/foundation/spacing/) for more information.
 - Creates a strong separation between pieces of information or content
 - **Example**: Use these to separate form or content sections from each other
 
-{% include markup/divider-major.njk %}
+{% include 'markup/divider-major.njk' %}
 
 ``` html
-{% include markup/divider-major.njk %}
+{% include 'markup/divider-major.njk' %}
 ```
 
 ### Minor Divider
 - Create a weak separation between pieces of information or content
 - **Example**: Use these when separating content with nuanced differences
 
-{% include markup/divider-minor.njk %}
+{% include 'markup/divider-minor.njk' %}
 
 ``` html
-{% include markup/divider-minor.njk %}
+{% include 'markup/divider-minor.njk' %}
 ```
 
 ## Resources

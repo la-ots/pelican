@@ -25,16 +25,16 @@ eleventyNavigation:
 ## Usage
 ### Large Progress Indicator
 
-{% include markup/progress-large.njk %}
+{% include 'markup/progress-large.njk' %}
 
 ``` html
-{% include markup/progress-large.njk %}
+{% include 'markup/progress-large.njk' %}
 ```
 
 ### Small Progress Indicator
 
-{% include markup/progress-small.njk %}
+{% include 'markup/progress-small.njk' %}
 
 ``` html
-{% include markup/progress-small.njk %}
+{% include 'markup/progress-small.njk' %}
 ```
