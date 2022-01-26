@@ -183,7 +183,7 @@ $display5-weight: 300 !default;
 $display6-weight: 300 !default;
 $display7-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
-$headings-margin-bottom: $spacer / 2 !default;
+$headings-margin-bottom: $spacer * .5 !default;
 $headings-font-family: "Public Sans" !default;
 $headings-font-weight: 700 !default;
 $headings-line-height: 1.2 !default;
