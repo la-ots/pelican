@@ -4,7 +4,7 @@
 }
 
 h2:not(:nth-child(1)),
-h3 {
+h3:not)(.popover-header) {
   padding-top: 24px;
   margin-top: 56px;
   border-top: 2px dashed #c0cedb;

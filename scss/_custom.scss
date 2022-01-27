@@ -39,13 +39,14 @@
 }
 
 .official-banner {
+  @extend .position-relative;
   @extend .bg-black;
   @extend .text-white;
-  @extend .border-black;
-  @extend .border-bottom;
-
-  .container-fluid {
-    @extend .py-1;
+  @extend .py-2;
+  .expander {
+    @extend .position-relative;
+    @extend .font-weight-bolder;
+    @extend .text-decoration-underline;
   }
 }
 
@@ -215,9 +216,7 @@
 .cookie-banner {
   z-index: $zindex-cookie-banner;
 }
-.page-link {
-  border: 1px solid $input-border-color;
-}
+
 .white-box {
   border: 1px solid $gray-300;
 }

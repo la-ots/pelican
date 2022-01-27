@@ -5,26 +5,15 @@
     box-shadow: none;
   }
 }
-
-.custom-file-label,
-.custom-file-input,
-.custom-file {
-  &:focus,
-  &.focus {
-    @include tab-focus;
-  }
-}
 .switch-toggle {
   .switch-toggle-knob {
     @include tab-focus;
-  }
-
+  } 
   &:focus,
   &.focus,
   &:active {
     outline: 0;
     outline-offset: 0;
-
     .switch-toggle-knob {
       @include tab-focus;
     }
@@ -35,7 +24,6 @@
 .custom-control-switch {
   &:focus,
   &.focus {
-    border: 1px solid $focus-color;
-    box-shadow: none;
+    border: 2px solid $input-border-color;
   }
 }
