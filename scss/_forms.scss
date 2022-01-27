@@ -1,8 +1,3 @@
-.focus-style {
-  outline: 0.25rem solid $focus-color;
-  outline-offset: 0;
-}
-
 .form-control {
   &.disabled,
   &[disabled],
@@ -11,37 +6,17 @@
   }
 }
 
-button,
-.btn,
-.btn-link.border-0,
-.form-control,
-.custom-select,
-.custom-control-switch,
-a[role="button"],
-a.nav-link,
-.skip-to-main,
-.page-link,
-.breadcrumb-item a,
-th a,
-summary,
-.brand-link,
-p a {
-  &:focus,
-  &.focus {
-    @extend .focus-style;
-  }
-}
 .custom-file-label,
 .custom-file-input,
 .custom-file {
   &:focus,
   &.focus {
-    @extend .focus-style;
+    @include tab-focus;
   }
 }
 .switch-toggle {
   .switch-toggle-knob {
-    @extend .focus-style;
+    @include tab-focus;
   }
 
   &:focus,
@@ -51,18 +26,8 @@ p a {
     outline-offset: 0;
 
     .switch-toggle-knob {
-      @extend .focus-style;
+      @include tab-focus;
     }
-  }
-}
-button,
-.btn,
-.btn-link.border-0,
-a[role="button"],
-.page-link {
-  &:focus,
-  &.focus {
-    box-shadow: none;
   }
 }
 .form-control,

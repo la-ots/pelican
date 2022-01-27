@@ -1,0 +1,91 @@
+.skip-to-main, li a, .summary, p a, .nav-link {
+  &:focus {
+   @include tab-focus; 
+  }
+}
+.btn, .badge.chip {
+  &:focus {
+    box-shadow: none;
+    @include tab-focus; 
+  }
+}
+.btn-link {
+  &:focus {
+    color: $ui-priority;
+    @include tab-focus; 
+  }
+}
+.sidebar-wrapper .sidebar-brand > a {
+  &:focus {
+    outline: none;
+    &:after {
+      @include tab-focus-fake;
+      width: unset; height: unset;  
+      top: -8px;
+      right: 0px;
+      bottom: -8px; 
+      left: -20px;
+    }
+  }
+}
+.sidebar-nav-item, 
+.sidebar-dropdown-header-expand,
+.navbar-icon-links .nav-link {
+  &:focus {
+    outline: none;
+    &:after {
+      @include tab-focus-fake;
+    }
+  }
+}
+.sidebar-button {
+  &:focus {
+    outline: none;
+    &:after {
+      @include tab-focus-fake;
+      width: unset; height: unset;
+      top: -6px;
+      right: -10px;
+      bottom: -5px;
+      left: -10px;
+    }
+  }
+}
+.close:not(:disabled):not(.disabled):focus {
+  opacity: 1;
+}
+.alert .close {
+  &:focus {
+    outline: none;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 36px; height: 36px;
+      top: -7px; left: -8px;
+      border: .25rem dashed $focus-color;
+    }
+  }
+}
+.modal-content .close {
+  &:focus {
+    outline: none;
+    &:after {
+      outline: none;
+      content: '';
+      position: absolute;
+      width: 36px; height: 36px;
+      top: 10px; left: 5px;
+      border: .25rem dashed $focus-color;
+    }
+  }
+}
+.brand-link {
+  &:focus {
+    outline: none;
+    .brand-logo {
+      &:after {
+        @include tab-focus-fake;
+      }
+    }
+  }
+}

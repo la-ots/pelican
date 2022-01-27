@@ -48,3 +48,7 @@ h3 {
                0 8px  13px rgba(0, 0, 0, 0.1),
                0 18px 23px rgba(0, 0, 0, 0.1);
 }
+
+h2#resources + ul li a {
+  text-decoration: none;
+} 

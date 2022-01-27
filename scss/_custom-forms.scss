@@ -165,7 +165,6 @@
 .custom-file {
   &:focus,
   &.focus {
-    outline: 0.25rem solid #2491ff;
-    outline-offset: 0.25rem;
+    @include tab-focus;
   }
 }

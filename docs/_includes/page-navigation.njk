@@ -25,8 +25,8 @@
     <div class="col-6 col-md-3 col-lg-2">
       {% if previousPage | length %}
       <a href="{{ previousPage.url | url }}" class="btn btn-primary btn-shadow btn-block" id="btnBack">
-        <span class="fas fa-arrow-left fa-xs"></span>
-        Back
+        <span class="fas fa-arrow-left fa-xs" aria-hidden="true"></span>
+        Previous
       </a>
       {% endif %}
     </div>
@@ -34,7 +34,7 @@
       {% if nextPage | length %}
       <a href="{{ nextPage.url | url }}" class="btn btn-primary btn-shadow btn-block" id="btnForward">
         Next
-        <span class="fas fa-arrow-right fa-xs"></span>
+        <span class="fas fa-arrow-right fa-xs" aria-hidden="true"></span>
       </a>
       {% endif %}
     </div>
