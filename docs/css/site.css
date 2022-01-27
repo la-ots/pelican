@@ -52,3 +52,9 @@ h3:not)(.popover-header) {
 h2#resources + ul li a {
   text-decoration: none;
 } 
+
+.sitemap a:focus {
+  box-shadow: none;
+  outline: 0.25rem solid #2491ff;
+  outline-offset: 0.25rem;
+}
