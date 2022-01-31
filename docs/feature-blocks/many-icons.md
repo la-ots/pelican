@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-many-icons.svg
 ---
 
-## About this Feature Block
+## Best Practices
 
 Shows the main feature or benefit alongside smaller benefits.
   - Use the large icon for the main feature or benefit, and the small icon for additional features or benefits.

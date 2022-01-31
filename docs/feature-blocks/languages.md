@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-languages.svg
 ---
 
-## About this Feature Block
+## Best Practices
 
 The Louisiana Census reveals four languages which should be accommodated in its digital products. 
   - English
