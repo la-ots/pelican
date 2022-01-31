@@ -156,13 +156,28 @@ p a {
   }
 }
 
-#ScrollToTop {
+#ScrollToTop, .scrollToTop {
   @extend .position-fixed;
+  @extend .btn;
+  @extend .btn-accent;
   right: $spacer * 2;
   bottom: $spacer * 5;
   z-index: $zindex-scroll-to-top;
-
   @include media-breakpoint-up(md) {
     bottom: $spacer * 5;
   }
+}
+.btn-back-forward {
+  @extend .btn ;
+  @extend .btn-ui ;
+  @extend .btn-lg ;
+  @extend .btn-block;
+}
+.btn-prev-next {
+  @extend .btn ;
+  @extend .btn-link ;
+  @extend .bg-transparent ;
+  @extend .border-0 ;
+  @extend .shadow-none;
+  @extend .text-decoration-none;
 }

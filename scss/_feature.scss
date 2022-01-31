@@ -46,3 +46,49 @@
 .feature-boxed-in-photo {
   @extend .py-16;
 }
+
+.feature-cta-dual {
+  @extend .bg-primary;
+  @extend .text-white;
+  @extend .py-20;
+  .btn {
+    @extend .btn;
+    @extend .btn-white;
+    @extend .d-block;
+    @extend .d-md-inline;
+    &:nth-of-type(1) {
+      @extend .mb-4;
+      @extend .mb-md-0;
+    }
+  }
+}
+.feature-cta {
+  @extend .bg-white;
+  @extend .py-38;
+  .btn {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+  }
+}
+.feature-set {
+  .row {
+    @extend .justify-content-center;
+    .h1, .h2, .h3, .h4, .h5, .h6, p {
+      @extend .text-primary;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+      @extend .h2;
+    }
+     p {
+       @extend .mb-0;
+       &:nth-of-type(1){
+         @extend .lead;
+       }
+     }
+     a {
+       @extend .btn;
+       @extend .btn-ui-priority;
+     }
+  }
+}
