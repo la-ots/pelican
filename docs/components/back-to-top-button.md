@@ -12,7 +12,9 @@ eleventyNavigation:
 ---
 ## Best Practices
 
-Insert Back-to-Top button as the first element in the markup of the page. It appears after the user has scrolled down.
+- It appears after the user has scrolled down, usually four times the height of the screen’s initially-visible portion.
+- The `HREF` of the button should be the `id` of the `<main>` element.
+- Follow the guidance in the [Icon-Only Button](/components/buttons/#icon-only-button).
 
 ## Usage
 

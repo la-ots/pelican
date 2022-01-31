@@ -12,9 +12,11 @@ eleventyNavigation:
 ---
  
 ## Best Practices
-- Tabbed Content allows users to choose which content they want to see 
-- This is useful for simplifying and decreasing content and information density 
-- Pelican offers two styles, Rounded Style and Traditional Style
+- Tabbed content allows users to choose which content they want to see.
+- Use tabbed content to small bits of content at a time.
+- Rounded style tabs work better on small devices.
+- Tabs are for selective content display, not navigation.
+- You may need to put tabbed content into [Layout Grid](/foundation/layout-grid/) items.
 
 ## Usage
 ### Rounded Style

@@ -12,13 +12,16 @@ eleventyNavigation:
 ---
 
 ## Best Practice
-- Navbars contain links to either another page in the digital product or parts of the current page
-- Navbars can be tailored to your agency’s needs by changing some aspects of their appearance
-- Do not remove the word “Menu” from the button that expands the navigation  
+
+- Navbars contain links to either another page in the digital product or parts of the current page.
+- Tailor them to your agency’s needs by changing some aspects of their appearance.
+- Do not remove the word “Menu” from the button that expands the navigation .
+- If you emphasize a link, make sure it is either the first or last link in the list.
 
 ## Usage
 
 ### Brand Minimal Navigation
+
 - Directs users to a single action 
 - This may be used on a landing page or a single-page website
 
@@ -28,6 +31,7 @@ eleventyNavigation:
 ```
 
 ### Basic Navigation
+
 - Presents 3 - 5 links to the user
 - Contains one visually-emphasized link
 - If you emphasize a link, make sure it is either the first or last link in the list
@@ -38,6 +42,7 @@ eleventyNavigation:
 ```
 
 ### Navigation with Search
+
 - Displays an agency logo with a set of textual links underneath 
 - Features a search field positioned to the right of the bar
 
@@ -47,6 +52,7 @@ eleventyNavigation:
 ```
 
 ### Iconic Links Navigation
+
 * Well-suited for pages behind a login of a web application
 * Displays an agency logo
 * Features a set of links composed of an Icon over text
