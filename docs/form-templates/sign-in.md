@@ -11,7 +11,9 @@ eleventyNavigation:
   img: /img/illustrations/illus-sign-in.svg
 ---
 
-_**Note:** MyLa should be used to sign users into your application. If not, use this form._
+## Best Practices
+
+MyLa should be used to sign users into your application. If not, use this form.
 
 ## Usage
 
