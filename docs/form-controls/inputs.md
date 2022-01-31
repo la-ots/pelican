@@ -14,14 +14,13 @@ eleventyNavigation:
 ## Best Practices
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Refrain from using `placeholder` in inputs as it causes usability problems.
+- Refrain from using placeholder attributes in inputs because they causes usability problems.
 - Use the Text Input when you can’t predict a user’s response or when another type of Input would make answering the prompt difficult.
 - If users must choose from a predetermined set of choices, use [Radio Buttons](/form-controls/radios) or [Checkboxes](/form-controls/checkboxes).
 - Use [Textarea](/forms/textarea) if the user needs to enter more than a single line of text.
 - Clearly label all text input fields.
-- Avoid using Placeholder text. It can cause issues, especially if users have visual or cognitive disabilities.
-
-_**Note:** Some Inputs can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
+- Use the appropriate type of input for the data being gathered.
+- Ensure the `for` and `id` attributes have matching values.
 
 We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">22 types of inputs</a>.
 

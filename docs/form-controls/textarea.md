@@ -17,8 +17,6 @@ eleventyNavigation:
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Textareas do not include formatting controls.
 
-_**Note:** Some Text Areas can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
-
 ## Usage
 
 {% include 'markup/textarea.njk' %}
