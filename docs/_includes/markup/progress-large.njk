@@ -1,30 +1,27 @@
-<div class="border-bottom border-primary-10 bg-white py-4 px-16">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-9 col-md-10">
-                <div class="d-flex">
-                    <div>
-                        <div class="progress-step current">
-                            <span class="fas fa-check-circle"></span>
-                            <div class="progress-step-digit">2</div>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="text-primary mb-0 px-2 font-weight-bold">
-                            <small class="text-primary-30">Step X / X</small>
-                            <span class="d-block">Description of Step</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 col-md-2 text-right">
-                <a href="#" class="btn btn-outline-primary mb-2 mb-sm-0">
-                    <span class="fas fa-arrow-left"></span>
-                </a>
-                <a href="#" class="btn btn-outline-primary">
-                    <span class="fas fa-arrow-right"></span>
-                </a>
-            </div>
+<div class="progress-large">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-9 col-md-10">
+        <div class="progress-info">
+          <div class="progress-step" aria-hidden="true">
+            <div class="progress-step-digit">2</div>
+          </div>
+          <div>
+            <span class="progress-description-counter ">Step X of X</span>
+            <span class="progress-description">Description of Step</span>
+          </div>
         </div>
+      </div>
+      <div class="col-3 col-md-2 text-right">
+        <a href="#" class="btn btn-outline-primary mb-2 mb-sm-0">
+          <span class="fas fa-arrow-left" aria-hidden="true"></span>
+          <span class="sr-only">Go back one step</span>
+        </a>
+        <a href="#" class="btn btn-outline-primary">
+          <span class="fas fa-arrow-right" aria-hidden="true"></span>
+          <span class="sr-only">Go forward one step</span>
+        </a>
+      </div>
     </div>
+  </div>
 </div>

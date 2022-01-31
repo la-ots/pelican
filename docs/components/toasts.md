@@ -43,19 +43,7 @@ _**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-sta
 * **Success** (Green) provides feedback to the user indicating an action is successful
 * Use a <a href="https://fontawesome.com/icons/check-circle?style=solid" target="_blank">check in a circle</a> as the icon
 
-<div class="bd-example bg-light">
-  <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header text-success-90 bg-success-10">
-      <span class="fas fa-check-circle"></span>
-      <strong class="text-success-90 mx-1">Success!</strong> Hey, User, the thing worked.
-    <button type="button" class="ml-auto mb-1 close" data-dismiss="toast" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </div>
-    <div class="toast-body">
-      Some text inside the toast body
-    </div>
-  </div>
-</div>
+{% include 'markup/toast-success.njk' %}
 
 ``` html
 {% include 'markup/toast-success.njk' %}
@@ -65,19 +53,7 @@ _**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-sta
 * **Danger** (Red) indicates an action will cause data loss, error, or other hard-to-reverse effects
 * Use the <a href="https://fontawesome.com/icons/exclamation-triangle?style=solid" target="_blank">exclamation mark in a triangle</a> as the icon
 
-<div class="bd-example bg-light">
-  <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header text-danger-90 bg-danger-10">
-      <span class="fas fa-exclamation-triangle"></span>
-      <strong class="text-danger-90 mx-1">Danger!</strong> Hey, User, the thing broke.
-    <button type="button" class="ml-auto mb-1 close" data-dismiss="toast" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </div>
-    <div class="toast-body">
-      Some text inside the toast body
-    </div>
-  </div>
-</div>
+{% include 'markup/toast-danger.njk' %}
 
 ``` html
 {% include 'markup/toast-danger.njk' %}
@@ -87,19 +63,7 @@ _**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-sta
 * **Info** (Blue) provides user with information that is not critical to the current task, but provides them with related information
 * Use the <a href="https://fontawesome.com/icons/info-circle?style=solid" target="_blank">info symbol in a circle</a> as the icon
 
-<div class="bd-example bg-light">
-  <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header text-info-90 bg-info-10">
-      <span class="fas fa-info-circle"></span>
-      <strong class="text-info-90 mx-1">Hey!</strong> Hey, User, just an FYI.
-    <button type="button" class="ml-auto mb-1 close" data-dismiss="toast" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </div>
-    <div class="toast-body">
-      Some text inside the toast body
-    </div>
-  </div>
-</div>
+{% include 'markup/toast-info.njk' %}
 
 ``` html
 {% include 'markup/toast-info.njk' %}

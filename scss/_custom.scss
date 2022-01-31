@@ -79,9 +79,24 @@
 }
 
 .page-title {
+  @extend .shadow-sm;
+  @extend .bg-white ;
+  @extend .p-4 ;
+  @extend .p-lg-16 ;
+  @extend .mb-4;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
-  @extend .shadow-sm;
+}
+.page-title-text {
+  @extend .h2 ;
+  @extend .mb-0 ;
+  @extend .text-primary;
+  .icon {
+    @extend .text-primary-10;
+  }
+  p {
+    @extend .mb-0;
+  }
 }
 
 .content-container {
@@ -263,4 +278,19 @@ iframe {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+.share-social {
+  @extend .card;
+  .share-social-body {
+    @extend .card-body;
+    @extend .text-center;
+  }
+  small {
+    @extend .d-block;
+    @extend .mb-2;
+  }
+  .btn {
+    @extend .btn-outline-ui-priority;
+    @extend .btn-sm;
+  }
 }
