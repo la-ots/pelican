@@ -24,50 +24,98 @@ Cards are designed to be flexible enough to accommodate most content types
 ## Usage
 ### Basic card
 
-<div class="card">
-  <div class="card-body">
-    This is where Card content goes.
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <!-- Begin actual card -->
+      <div class="card">
+        <div class="card-body">
+          This is where Card content goes.
+        </div>
+      </div>
+      <!--  End actial card -->
+    </div>
   </div>
 </div>
 
 ```html
-<div class="card">
-  <div class="card-body">
-    This is where Card content goes.
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <!-- Begin actual card -->
+        <div class="card">
+          <div class="card-body">
+            This is where Card content goes.
+          </div>
+        </div>
+        <!--  End actial card -->
+      </div>
+    </div>
   </div>
-</div>
 ```
 
 ### Card without a Shadow
 
-<div class="card shadow-none">
-  <div class="card-body">
-    This is where Card content goes.
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <!-- Begin actual card -->
+      <div class="card shadow-none">
+        <div class="card-body">
+          This is where Card content goes.
+        </div>
+      </div>
+      <!--  End actial card -->
+    </div>
   </div>
 </div>
 
 ```html
-<div class="card shadow-none">
-  <div class="card-body">
-    This is where Card content goes.
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6">
+          <!-- Begin actual card -->
+        <div class="card shadow-none">
+          <div class="card-body">
+            This is where Card content goes.
+          </div>
+        </div>
+        <!--  End actial card -->
+      </div>
+    </div>
   </div>
-</div>
 ```
 
 ### Card without a Border
 
-<div class="card border-0">
-  <div class="card-body">
-    This is where Card content goes.
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <!-- Begin actual card -->
+      <div class="card border-0">
+        <div class="card-body">
+          This is where Card content goes.
+        </div>
+      </div>
+      <!--  End actial card -->
+    </div>
   </div>
 </div>
 
 ```html
-<div class="card border-0">
-  <div class="card-body">
-    This is where Card content goes.
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6">
+          <!-- Begin actual card -->
+        <div class="card border-0">
+          <div class="card-body">
+            This is where Card content goes.
+          </div>
+        </div>
+        <!--  End actial card -->
+      </div>
+    </div>
   </div>
-</div>
 ```
 
 ## Resources
