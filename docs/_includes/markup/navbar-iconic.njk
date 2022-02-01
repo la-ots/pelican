@@ -1,28 +1,30 @@
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <a class="brand-link" href="#"><h1 class="brand-logo mb-0 ">{% include 'logo.njk' %}</h1></a>
-        <button class="navbar-toggler text-white ml-auto" type="button" data-toggle="collapse" data-target="#NavigationIcons" aria-controls="NavigationIcons" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fas fa-bars"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="NavigationIcons">
-            <ul class="navbar-nav navbar-icon-links">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><span class="fas fa-fw fa-tachometer-alt"></span><span class="">Dashboard</span></a>
-                    <div class="icon-link-border-bottom bg-secondary"></div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white active" href="#"><span class="fas fa-fw fa-user-circle"></span><span class="">You</span></a>
-                    <div class="icon-link-border-bottom bg-secondary"></div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><span class="fas fa-fw fa-life-ring"></span><span class="">Help</span></a>
-                    <div class="icon-link-border-bottom bg-secondary"></div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><span class="fas fa-fw fa-user-times"></span><span class="">Sign Out</span></a>
-                    <div class="icon-link-border-bottom bg-secondary"></div>
-                </li>
-            </ul>
-        </div>
+<nav class="navbar navbar-iconic">
+  <div class="container-fluid">
+    <a class="brand-link" href="#">
+      <h1 class="brand-logo">{% include 'logo.njk' %}</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavigationIcons" aria-controls="NavigationIcons" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars" aria-hidden="true"></span> Menu
+    </button>
+    <div class="collapse navbar-collapse" id="NavigationIcons">
+      <ul class="navbar-nav navbar-icon-links">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fas fa-fw fa-tachometer-alt" aria-hidden="true"></span><span class="">Dashboard</span></a>
+          <div class="icon-link-border-bottom"></div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><span class="fas fa-fw fa-user-circle" aria-hidden="true"></span><span class="">You</span></a>
+          <div class="icon-link-border-bottom"></div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fas fa-fw fa-life-ring" aria-hidden="true"></span><span class="">Help</span></a>
+          <div class="icon-link-border-bottom"></div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="fas fa-fw fa-user-times" aria-hidden="true"></span><span class="">Sign Out</span></a>
+          <div class="icon-link-border-bottom"></div>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

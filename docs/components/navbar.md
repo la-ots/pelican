@@ -23,6 +23,7 @@ eleventyNavigation:
 - This may be used on a landing page or a single-page website
 
 {% include 'markup/navbar-minimal.njk' %}
+
 ``` html
 {% include 'markup/navbar-minimal.njk' %}
 ```

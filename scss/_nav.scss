@@ -149,47 +149,103 @@
 .navbar {
   @extend .bg-primary;
   @extend .text-white;
+  &.navbar-minimal {}
+  &.navbar-basic {
+    @extend .navbar-expand-lg;
+    .navbar-toggler {
+      @extend .text-white ;
+      @extend .ml-auto;
+    }
+    .navbar-nav {
+      @extend .ml-auto;
+    }
+    .nav-link {
+      @extend .text-white;
+    }
+    .btn {
+      @extend .btn-white;
+      @extend .mt-2 ;
+      @extend .mt-lg-0 ;
+      @extend .ml-lg-2;
+    }
+  }
   &.navbar-search {
     @extend .d-block;
-  }
-}
-.navbar-icon-links {
-  .nav-item {
-    @extend .ml-lg-3;
-    @include media-breakpoint-up(lg) {
-      text-align: center;
+    @extend .navbar-expand-lg;
+    .container, .container-fluid {
+      @extend .py-0;
     }
-  }
-
-  .nav-link {
-    background-color: fade-out($ui, 1);
-    border-radius: 4px 4px 0 0;
-    transition: $transition-base;
-
-    .fas {
-      opacity: 0.62;
-      transition: $transition-base;
+    .navbar-toggler {
+      @extend .text-white ;
+      @extend .ml-auto;
     }
-
-    &:hover,
-    &:active {
-      background-color: fade-out($ui, 0.75);
-
-      .fas {
-        opacity: 1;
-      }
+    hr.minor {
+      @extend .opacity-25;
     }
-  }
-  @include media-breakpoint-up(lg) {
-    margin-left: auto;
+    .navbar-collapse {
+      @extend .ml-lg-n2;
+    }
     .nav-link {
-      span:not(.fas) {
-        display: block;
+      @extend .text-white;
+    }
+    .btn {
+      @extend .mt-2 ;
+      @extend .mt-lg-0 ;
+      @extend .ml-lg-2;
+    }
+  }
+  &.navbar-iconic {
+    @extend .navbar-expand-lg;
+    .brand-logo {
+      @extend .mb-0;
+    }
+    .navbar-toggler {
+      @extend .text-white ;
+      @extend .ml-auto;
+    }
+    .navbar-icon-links {
+      .nav-item {
+        @extend .ml-lg-3;
+        @include media-breakpoint-up(lg) {
+          text-align: center;
+        }
       }
+    
+      .nav-link {
+        background-color: fade-out($ui, 1);
+        border-radius: 4px 4px 0 0;
+        transition: $transition-base;
+        @extend .text-white;
+    
+        .fas {
+          opacity: 0.62;
+          transition: $transition-base;
+        }
+    
+        &:hover,
+        &:active {
+          background-color: fade-out($ui, 0.75);
+    
+          .fas {
+            opacity: 1;
+          }
+        }
+      }
+      @include media-breakpoint-up(lg) {
+        margin-left: auto;
+        .nav-link {
+          span:not(.fas) {
+            display: block;
+          }
+        }
+      }
+    }
+    .icon-link-border-bottom {
+      @extend .bg-secondary;
+      height: 2px;
     }
   }
 }
 
-.icon-link-border-bottom {
-  height: 2px;
-}
+
+
