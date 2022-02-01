@@ -14,6 +14,8 @@ eleventyNavigation:
 
 - Insert Button Container as the element in the markup of the page.
 - See [Buttons](/components/buttons) for guidance on styling and writing buttons.
+- If there is only 1 cautionary button, such as a `.btn-warning` or `btn-danger`, then add the class `ml-auto` to it.
+- If there are 2 or more cautionary buttons, such as a `.btn-warning` or `btn-danger`, then add the class `ml-auto` to the first.
 
 ## Usage
 

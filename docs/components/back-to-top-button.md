@@ -12,18 +12,15 @@ eleventyNavigation:
 ---
 ## Best Practices
 
-Insert Back-to-Top button as the first element in the markup of the page. It appears after the user has scrolled down.
+- Insert it at the bottom of the root element in the page.
+- Don’t remove the hidden text for screen readers.
 
 ## Usage
 
-<a id="ScrollToTop" href="#main" class="btn-scroll-top" role="button">
-  <span class="fas fa-arrow-up"></span>
-</a>
+{% include 'markup/button-back-to-top.njk' %}
 
 ``` html
-<a id="ScrollToTop" href="#main" class="btn-scroll-top" role="button">
-  <span class="fas fa-arrow-up"></span>
-</a>
+{% include 'markup/button-back-to-top.njk' %}
 ```
 ## Resources
 
