@@ -2,3 +2,10 @@
   background-color: $card-bg;
   border: $card-border-width solid $card-border-color;
 }
+.modal-title {
+  @extend .text-primary;
+}
+.modal-footer {
+  @extend .text-center ;
+  @extend .text-lg-left;
+}
