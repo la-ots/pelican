@@ -156,8 +156,10 @@ p a {
   }
 }
 
-#ScrollToTop {
+#ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
+  @extend .btn;
+  @extend .btn-accent;
   right: $spacer * 2;
   bottom: $spacer * 5;
   z-index: $zindex-scroll-to-top;
@@ -165,4 +167,11 @@ p a {
   @include media-breakpoint-up(md) {
     bottom: $spacer * 5;
   }
+}
+
+.btn-prev-next-section {
+  @extend .text-priority ;
+  @extend .bg-transparent ;
+  @extend .border-0 ;
+  @extend .shadow-none;
 }

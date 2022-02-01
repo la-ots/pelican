@@ -21,24 +21,20 @@ eleventyNavigation:
 
 ## Usage
 
-<div class="col-sm-6 col-md-3 border-0">
-	<div class="card shadow-none">	
-		<div class="card-body">
-			<p class="label">Label</p>
-			<hr class="minor minimal">
-			<p class="mb-0">Value</p>
-		</div>
-	</div>
+<div class="data-tile card shadow-none">	
+  <div class="data-tile-body">
+    <p>Label</p>
+    <hr class="minor minimal">
+    <p>Value</p>
+  </div>
 </div>
 
 ```html
-<div class="col-sm-6 col-md-3 border-0">
-	<div class="card shadow-none">	
-		<div class="card-body">
-			<p class="label">Label</p>
-			<hr class="minor minimal">
-			<p class="mb-0">Value</p>
-		</div>
-	</div>
+<div class="data-tile card shadow-none">	
+  <div class="data-tile-body">
+    <p>Label</p>
+    <hr class="minor minimal">
+    <p>Value</p>
+  </div>
 </div>
 ```

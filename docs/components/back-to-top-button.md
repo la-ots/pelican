@@ -16,10 +16,14 @@ Insert Back-to-Top button as the first element in the markup of the page. It app
 
 ## Usage
 
-{% include 'markup/back-to-top.njk' %}
+<a id="ScrollToTop" href="#main" class="btn-scroll-top" role="button">
+  <span class="fas fa-arrow-up"></span>
+</a>
 
 ``` html
-{% include 'markup/back-to-top.njk' %}
+<a id="ScrollToTop" href="#main" class="btn-scroll-top" role="button">
+  <span class="fas fa-arrow-up"></span>
+</a>
 ```
 ## Resources
 
