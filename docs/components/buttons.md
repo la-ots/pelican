@@ -69,7 +69,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-secondary">Secondary Outline</button>
+            <button type="button" class="btn btn-outline-accent">Secondary Outline</button>
         </div>
     </div>
 </div>
@@ -78,7 +78,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <div class="container-fluid">
     <div class="row">
         <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-secondary">Secondary Outline</button>
+            <button type="button" class="btn btn-outline-accent">Secondary Outline</button>
         </div>
     </div>
 </div> 
@@ -87,11 +87,9 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
 ### Icon-only Button
-Assistive technology reads the text of a button to the user to indicate the purpose of the button. Therefore, buttons which do not have text, but only icons, should contain text available to assistive technology.
 
-Icon-only buttons should be used sparingly and only when their meaning is clear to the user. Additionally, status colors should be considered to help reinforce this specific meaning (**Example**: A red warning button with a trash can icon would clearly signal a 'Delete' action).
-
-They should not be used as a way to save space in a design.
+- Add text available to assistive technology.
+- Use sparingly and only when their meaning is clear to the user.
 
 <div class="container-fluid">
     <div class="row">
