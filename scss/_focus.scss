@@ -44,9 +44,9 @@
   &:focus {
     outline: none;
     &:after {
-      top: -2px;
-      width :  calc(100% + 2px);
-      height: calc(100% + 3px);
+      top: -2px; left: -2px;
+      width :  calc(100% + 4px);
+      height:  calc(100% + 4px);
     }
   }
 } 
@@ -66,3 +66,10 @@
     outline-offset: 0;
   }
 }
+.form-check-input {
+  &:focus {
+    box-shadow: 0 0 0 2px $white,
+                0 0 0 5px $focus-color;
+  }
+}
+

@@ -59,14 +59,15 @@ legend, .legend {
     }
   }
   .form-check-input:checked + label {
-    background-color: $gray-300;
+    background-color: $ui-light;
     border-color: $ui;
     &:before {
-      background-color:    $ui;
-      background-image:    url('https://designsystem.digital.gov/assets/img/correct8.svg');
+      background-color:    $info;
+      background-image:    url('../img/check.svg');
       background-size:     contain;
       background-repeat:   no-repeat;
       background-position: center;
+      box-shadow: 0 0 0 2px $info;
     }
   }
   .form-check-input:focus + label {
@@ -74,7 +75,7 @@ legend, .legend {
       outline-style : solid;
       outline-color : $focus-color;
       outline-width : 4px;
-      outline-offset: 3px;
+      outline-offset: 4px;
     }
     
   }
@@ -97,7 +98,7 @@ legend, .legend {
       top: 16px; left: 14px;
       width: 1rem; height: 1rem;
       border-radius: 50%;
-      background-color: #6c757d;
+      background-color: $info;
     }
   }
 }
