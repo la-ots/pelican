@@ -21,4 +21,13 @@
       border-color: $gray-300;
     }
   }
+  .btn-link-card {
+    @extend .btn;
+    @extend .btn-link;
+    @extend .rounded-0;
+    @extend .mt-auto;
+    @extend .align-self-start;
+    @extend .text-info;
+    transition: none;
+  }
 }

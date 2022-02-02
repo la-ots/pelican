@@ -1,5 +1,5 @@
 .skip-to-main, li a, .summary, p a, .btn, .btn-link, .badge.chip, .nav-pills .nav-link
-.nav-link, th a, .form-control, .custom-select {
+.nav-link, th a, .form-control, .custom-select, .footer a, .official-banner a, .logo-link {
   &:focus {
    @include tab-focus; 
   }
@@ -10,136 +10,59 @@
     box-shadow: none;
   }
 }
-.btn-link {
-  &:focus {
-    color: $ui-priority;
-  }
-}
-.sidebar-wrapper .sidebar-brand > a {
+.app-topbar .btn,
+.app-topbar .logo-link,
+.app-sidebar-nav-link,
+.app-sidebar-subnav .app-sidebar-nav-link,  
+.app-sidebar-subnav-revealer {
   &:focus {
     outline: none;
     &:after {
       @include tab-focus-fake;
-      width: unset; height: unset;  
-      top: -8px;
-      right: 0px;
-      bottom: -8px; 
-      left: -20px;
     }
   }
 }
-.sidebar-nav-item, 
-.sidebar-dropdown-header-expand,
-.navbar-icon-links .nav-link, 
-.official-banner summary,
-.page-link {
+.app-topbar .btn {
+  &:focus {
+    &:after {
+      top: -6px; left: -2px;
+      width : calc(100% + 4px);
+      height: calc(100% + 10px);
+    }
+  }
+}
+.app-topbar .logo-link {
+  &:focus {
+    &:after {
+      top: -4px; left: -4px;
+      width : calc(100% + 8px);
+      height: calc(100% + 7px);
+    }
+  }
+}
+.app-sidebar-subnav-revealer {
   &:focus {
     outline: none;
+    &:after {
+      top: -2px;
+      width :  calc(100% + 2px);
+      height: calc(100% + 3px);
+    }
+  }
+} 
+.app-sidebar-subnav .app-sidebar-nav-link {
+  &:focus {
+    &:after {
+      width: calc(100% + 4px);
+      left: -4px;
+    }
+  }
+} 
+.btn-link-card {
+  &:focus {
+    color: $info;
     box-shadow: none;
-    &:after {
-      @include tab-focus-fake;
-    }
+    outline: 0.25rem solid $focus-color;
+    outline-offset: 0;
   }
-}
-.sidebar-button {
-  &:focus {
-    outline: none;
-    &:after {
-      @include tab-focus-fake;
-      width: unset; height: unset;
-      top: -6px;
-      right: -10px;
-      bottom: -5px;
-      left: -10px;
-    }
-  }
-}
-.close:not(:disabled):not(.disabled):focus {
-  opacity: 1;
-}
-.alert .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -7px; left: -8px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.modal-content .close {
-  &:focus {
-    outline: none;
-    &:after {
-      outline: none;
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: 10px; left: 5px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.toast .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -6px; left: -10px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.brand-link {
-  &:focus {
-    outline: none;
-    .brand-logo {
-      &:after {
-        @include tab-focus-fake;
-      }
-    }
-  }
-}
-.custom-file-input:focus {
-  & ~ .custom-file-label {
-    overflow: visible;
-    border-color: $input-border-color;
-    box-shadow: none;
-    &:before {
-      position: absolute;
-      content: '';
-      width: calc(100% + 20px);
-      border-radius: 8px;
-      top: -10px; right: -10px; bottom: -10px; left: -10px;
-      border: .25rem solid $focus-color
-    }
-  }
-}
-.form-control {
-  &[readonly]{
-    &:focus {
-      outline: none;
-    }
-  }
-}
-.custom-control-input:focus:not(:checked) {
-  & ~ .custom-control-label:before {
-    border-color: $input-border-color;
-  }
-}
-.custom-control-input:focus {
-  & ~ .custom-control-label:before {
-    box-shadow: 
-      inset 0 3px 4px rgb(108 117 125 / 25%), 
-      0 0 0 0.2rem $focus-color;
-    
-      
-  }
-}
-.custom-control-input {
-  
 }

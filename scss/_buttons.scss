@@ -1,4 +1,5 @@
 .btn {
+  @extend .position-relative;
   &:not(.btn-link){
       box-shadow : 0 2px 0 0 fade-out($ui, .38);
   }

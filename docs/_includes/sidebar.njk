@@ -10,7 +10,7 @@
     {% if entry.children.length > 0 %}
     <button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#{{ entry.title | replace(' ', '') }}" aria-controls="{{ entry.title | replace(' ', '') }}" aria-expanded="false">
       <span class="fas fa-fw fa-angle-down" aria-hidden="true"></span>
-      <span class="visually-hidden">See More</span>
+      <span class="visually-hidden">See more pages in {{ entry.title }}</span>
     </button>
     {% endif %}
     {% if entry.children.length > 0 %}
@@ -36,11 +36,11 @@
   </ul>
   </div>
   <div class="app-sidebar-footer">
-    <a href="/sitemap" class="btn btn-link">
+    <a href="/sitemap" class="btn">
       <span class="fas fa-map-marked-alt" aria-hidden="true"></span>
       Sitemap
     </a>
-    <a href="/feedback" class="btn btn-link">
+    <a href="/feedback" class="btn">
       <span class="fas fa-comment" aria-hidden="true"></span>
       Feedback
     </a>

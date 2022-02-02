@@ -16,9 +16,9 @@ layout: default.njk
                   {%- endif %}
                   <h2 class="h4 mb-4">{{ child.title }}</h2>
                   <p class="mb-2">{{ child.excerpt }}</p>
-                  <a href="{{ child.url }}" class="btn btn-link ms-n3 mt-auto align-self-start stretched-link">
+                  <a href="{{ child.url }}" class="btn-link-card">
                   Read More <span class="visually-hidden">about {{ child.title }}</span>
-                  <span class="fas fa-arrow-right"></span>
+                  <span class="fas fa-arrow-right" aria-hidden="true"></span>
                   </a>
                 </div>
               </div>

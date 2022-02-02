@@ -1,10 +1,11 @@
 <!-- see also markup/app-topbar.njk -->
 <div class="app-topbar">
-  <button type="button" id="app-frame-trigger" class="btn btn-black">
-    <span class="fas fa-bars"></span>
+  <button type="button" id="app-frame-trigger" class="btn">
+    <span class="fas fa-bars" aria-hidden="true"></span>
+    <span class="visually-hidden">Open and close sidebar</span>
   </button>
   <div class="logo">
-    <a href="{{ '/' | url }}" class="mr-auto">
+    <a href="{{ '/' | url }}" class="logo-link">
       <img src="/img/favicon.png" alt="Logo." class="img-fluid">
       Pelican
     </a>

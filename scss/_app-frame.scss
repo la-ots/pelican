@@ -52,7 +52,13 @@ $app-sidebar-scrollbar-background-color : $black;
 			@extend .me-1;
 		}
 	}
+	.logo-link {
+		@extend .position-relative;
+	}
 	.btn {
+		@extend .rounded-0;
+		@extend .btn-black;
+		@extend .position-relative;
 		box-shadow: none;
 	}
 	.screen-title {
@@ -105,7 +111,11 @@ $app-sidebar-scrollbar-background-color : $black;
 	@extend .muted-top-border;
 	@extend .text-primary-10;
 	.btn {
-		color: inherit
+		@extend .btn-link;
+		@extend .position-relative;
+		@extend .rounded-0;
+		color: inherit;
+
 	}
 }
 .app-sidebar-nav-list {
@@ -128,6 +138,7 @@ $app-sidebar-scrollbar-background-color : $black;
 	@extend .flex-wrap;
 }
 .app-sidebar-nav-link {
+	@extend .position-relative;
 	@extend .flex-grow-1;
 	@extend .p-2;
 	@extend .text-decoration-none;
@@ -148,6 +159,7 @@ $app-sidebar-scrollbar-background-color : $black;
 	}
 }
 .app-sidebar-subnav-revealer {
+	@extend .position-relative;
 	@extend .ms-auto;
 	@extend .btn;
 	@extend .shadow-none;
