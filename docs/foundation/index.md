@@ -1,6 +1,6 @@
 ---
 title: Foundation
-summary: These pieces create the base of Pelican. These pieces must be properly understood to get the most out of it.
+summary: There’s a few things which make Pelican. Get to know how they work together.
 tags: foundation
 layout: area-page
 index: true
@@ -8,5 +8,5 @@ eleventyNavigation:
   key: Foundation
   title: Foundation
   order: 5
-  excerpt: These pieces create the base of Pelican. These pieces must be properly understood to get the most out of it.
+  excerpt: There’s a few things which make Pelican. Get to know how they work together.
 ---

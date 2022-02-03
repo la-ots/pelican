@@ -14,7 +14,7 @@ layout: default.njk
             &thinsp; {{ entry.title }}
           </a>
         </h2>
-        <p class="mb-4">{{ entry.excerpt }}</p>
+        <p class="lead">{{ entry.excerpt }}</p>
       </div>
     </div>
     {% if entry.children.length > 0 %}
@@ -43,4 +43,15 @@ layout: default.njk
   </div>
   {% endif %}
   {% endfor %}
+</div>
+
+<div class="bg-white py-38 mt-12 mb-n12">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="h2 mb-6 text-primary">Start using Pelican.</p>
+        <a href="/get-started" class="btn btn-primary btn-lg">Get started</a>
+      </div>
+    </div>
+  </div>
 </div>

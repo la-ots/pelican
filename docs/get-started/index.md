@@ -1,12 +1,12 @@
 ---
 title: Get Started
-summary: Get a quick start using Pelican.
+summary: Learn how to put Pelican into your code.
 tags: get started
 layout: guide
 eleventyNavigation:
   key: Get Started
   order: 2
-  excerpt: Get a quick start using Pelican.
+  excerpt: Learn how to put Pelican into your code.
 ---
 
 ## Installation

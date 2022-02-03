@@ -1,13 +1,13 @@
 ---
 title: What’s New
-summary: The list of changes which have gone into Pelican.
+summary: Pelican is a living, evolving asset for Louisiana‘s digital products. Learn about the newest changes.
 tags: resources
 layout: guide
 index: true
 eleventyNavigation:
   key: What’s New
   title: What’s New
-  excerpt: The list of changes which have gone into Pelican.
+  excerpt: Pelican is a living, evolving asset for Louisiana‘s digital products. Learn about the newest changes.
   order: 1
 ---
 

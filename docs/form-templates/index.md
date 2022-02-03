@@ -1,13 +1,13 @@
 ---
 title: Form Templates
-summary: Form Templates are common combinations of Components and Forms elements.
+summary: These are forms for a few common purposes.
 tags: form-templates
 layout: area-page
 index: true
 eleventyNavigation:
   key: Form Templates
   order: 8
-  excerpt: Form Templates are common combinations of Components and Forms elements.
+  excerpt: These are forms for a few common purposes.
 ---
 
 ## Overview

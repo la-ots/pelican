@@ -1,13 +1,13 @@
 ---
 title: Form Controls
-summary: The pieces used to create a form should be easy on the user.
+summary: Forms help the user send information. Learn how to build good forms.
 tags: forms
 layout: area-page
 index: true
 eleventyNavigation:
   key: Form Controls
   order: 7
-  excerpt: The pieces used to create a form should be easy on the user.
+  excerpt: Forms help the user send information. Learn how to build good forms.
 ---
 
 ## Overview

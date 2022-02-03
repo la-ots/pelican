@@ -1,12 +1,12 @@
 ---
 title: Resources
-summary: Here are some of the resources to help you create digital products.
+summary: Learn from the same inspirations, research, and industry practices which go into making Pelican.
 tags: resources
 layout: guide
 index: true
 eleventyNavigation:
   key: Resources
-  excerpt: Here are some of the resources to help you create digital products.
+  excerpt: Learn from the same inspirations, research, and industry practices which go into making Pelican.
   title: Resources
   order: 13
 ---
