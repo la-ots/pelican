@@ -3,29 +3,44 @@ layout: default.njk
 ---
 
 {% set navPages = collections.all | eleventyNavigation %}
-
-<div class="content-container" id="main">
-  <div class="container-fluid">
-    {% for entry in navPages %}
+<div id="main">
+  {% for entry in navPages %}
+  <div class="container">
+    <div class="row">
+      <div class="-col-12">
+        <h2 class="h4 mt-10">
+          <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">
+            <span class="badge badge-info">{{ entry.order }}</span>
+            &thinsp; {{ entry.title }}
+          </a>
+        </h2>
+        <p class="mb-4">{{ entry.excerpt }}</p>
+      </div>
+    </div>
+    {% if entry.children.length > 0 %}
+    <div class="row">
+      {% for child in entry.children %}
+      <div class="col-12 col-md-6 col-lg-3 {% if not loop.last %}mb-4{% endif %}">
+        <div class="card">
+          <div class="card-body">
+            <p class="p mb-0">
+              <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">{{ child.title }}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% if not loop.last %}
+  <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class=""><a class="text-decoration-none " href="{{ entry.url | url }}">{{ entry.title }}</a></h2>
-        {% if entry.children.length > 0 %}
-        <ul class="list-columns">
-          {% for child in entry.children %}
-          <li>
-            <a class="text-decoration-none" href="{{ child.url | url }}">{{ child.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
+        <hr class="major mt-12">
       </div>
-      {% if not loop.last %}
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-      {% endif %}
     </div>
-    {% endfor %}
   </div>
+  {% endif %}
+  {% endfor %}
 </div>

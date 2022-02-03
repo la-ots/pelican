@@ -6,6 +6,7 @@ layout: guide
 index: true
 eleventyNavigation:
   key: Resources
+  excerpt: Here are some of the resources to help you create digital products.
   title: Resources
   order: 13
 ---

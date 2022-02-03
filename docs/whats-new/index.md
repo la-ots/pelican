@@ -1,12 +1,13 @@
 ---
 title: What’s New
-summary: Pelican Changelog
+summary: The list of changes which have gone into Pelican.
 tags: resources
 layout: guide
 index: true
 eleventyNavigation:
   key: What’s New
   title: What’s New
+  excerpt: The list of changes which have gone into Pelican.
   order: 1
 ---
 
