@@ -1,5 +1,5 @@
 .skip-to-main, li a, .summary, p a, .btn, .btn-link, .badge.chip, .nav-pills .nav-link
-.nav-link, th a, .form-control, .custom-select, .footer a, .official-banner a, .logo-link {
+.nav-link, th a, .form-control, .custom-select, .footer a, .official-banner a, .logo-link, .form-select {
   &:focus {
    @include tab-focus; 
   }
@@ -14,7 +14,7 @@
 .app-topbar .logo-link,
 .app-sidebar-nav-link,
 .app-sidebar-subnav .app-sidebar-nav-link,  
-.app-sidebar-subnav-revealer {
+.app-sidebar-subnav-revealer, .form-control-plaintext {
   &:focus {
     outline: none;
     &:after {
@@ -72,4 +72,10 @@
                 0 0 0 5px $focus-color;
   }
 }
+.form-control-plaintext {
+  &:focus {
+   &:after {
 
+   } 
+  }
+}

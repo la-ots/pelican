@@ -106,3 +106,6 @@ legend, .legend {
   display: block;
   font-size: 12px;
 }
+.form-control-plaintext {
+  @extend .position-relative;
+}
