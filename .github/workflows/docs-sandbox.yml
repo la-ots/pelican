@@ -3,6 +3,8 @@ name: Deploy Docs to Sandbox
 on:
   pull_request:
     branches: [ main ]
+    branches-ignore:
+      - "dependabot/**"
 
   workflow_dispatch:
 
