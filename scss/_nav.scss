@@ -16,10 +16,6 @@
   padding: $nav-link-padding-y $nav-link-padding-x;
   text-decoration: if($link-decoration == none, null, none);
 
-  @include hover-focus() {
-    text-decoration: none;
-  }
-
   // Disabled state lightens text
   &.disabled {
     color: $nav-link-disabled-color;
@@ -41,15 +37,9 @@
   }
 
   .nav-link {
+    @extend .position-relative;
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
-
-    @include hover-focus() {
-      color: $white;
-      background-color: $ui-priority;
-      border-color: $nav-tabs-link-hover-border-color;
-      border-color: $ui-priority;
-    }
 
     &.disabled {
       color: $ui-light;
@@ -96,7 +86,6 @@
     color: $link-color;
     background-color: $white;
     border: 2px solid $ui;
-    transition: $transition-base;
 
     &:hover,
     &:active {
@@ -159,6 +148,7 @@
   }
 
   .nav-link {
+    @extend .position-relative;
     background-color: fade-out($ui, 1);
     border-radius: 4px 4px 0 0;
     transition: $transition-base;

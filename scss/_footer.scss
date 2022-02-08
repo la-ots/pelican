@@ -1,6 +1,6 @@
-footer,
-.footer {
+footer, .footer {
   .brand-logo {
+    @extend .position-relative;
     svg {
       width: 100%;
 
