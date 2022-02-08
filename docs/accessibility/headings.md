@@ -13,11 +13,11 @@ eleventyNavigation:
 
 ## Overview
 
-Headings semantically express the content structure of a document. For assistive technology, heading tags create a navigable outline of the page’s information.
+Headings semantically express the content structure of a document. For assistive technology, Heading tags create a navigable outline of the page’s information.
 
 ## Best Practices
 
-Indents in the code below help illustrate how heading tags create an information outline.
+Indents in the code below help illustrate how Heading tags create an information outline.
 
 ```html
 <h1></h1>
@@ -32,7 +32,7 @@ Indents in the code below help illustrate how heading tags create an information
   <h2></h2>
 ```
 
-To use headings properly
+To use Headings properly
 
 - Understand and implement Headings to correspond to the document hierarchy.
 - Start with an H1. Only use one H1 per page.
@@ -40,14 +40,14 @@ To use headings properly
 - Follow H1 with as many H2 headers to chunk the content into meaningful sections.
 - Further divisions between H2s, should begin with H3.
 - Use H4, H5, and H6 successively.
-- Don’t skip headings.
+- Don’t skip Headings.
 - Try to keep the page to just three levels at most.
 
 **Pelican uses Headings for:**
 
 - Page Titles
 - Page Section Titles
-- Subsection Headers
+- Subsection Headings
 
 ## Resources
 
