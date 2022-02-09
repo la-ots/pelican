@@ -137,7 +137,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 {% include 'markup/input-text-readonly.njk' %}
 ```
 
-### Readonly as Plain Text
+### Input-Aligned Plain Text
 
 - Same as Readonly, but removes input styling.
 - Will horizontally align with other, user-editable fields.
@@ -146,6 +146,24 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 
 ``` html
 {% include 'markup/input-text-plain.njk' %}
+```
+
+### Input Detail View
+
+- Use for detail views.
+- Decreased vertical space between label and data to improve a detail page of data.
+- Use on detail pages, not edit pages.
+
+<div class="form-group">
+  <p class="label">Label</p>
+  <p>Value</p>
+</div>
+
+``` html
+<div class="form-group">
+  <p class="label">Label</p>
+  <p>Value</p>
+</div>
 ```
 
 ## Resources
