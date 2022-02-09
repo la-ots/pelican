@@ -1,164 +1,87 @@
-<div class="content-container">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="h4 text-primary">Table of Data</h4>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="form-group">
-                            <label for="filterTextbox">Filter by Textbox</label>
-                            <input class="form-control" type="text" id="filterTextbox">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="form-group">
-                            <label for="filterSelect">Filter by Select</label>
-                            <select class="custom-select mb-3" id="filterSelect">
-                                <option selected>&mdash; Select &mdash;</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <table class="table table-striped">
-                    <caption class="d-none">Table caption describes the data presented.</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col" id="user">
-                                <a href="#" class="text-decoration-none" role="button">
-                                    <span class="fas fa-sort"></span> User
-                                </a>
-                            </th>
-                            <th scope="col" id="role">
-                                <a href="#" class="text-decoration-none" role="button">
-                                    <span class="fas fa-sort"></span> Role
-                                </a>
-                            </th>
-                            <th scope="col" id="figma">
-                                Figma Trained
-                            </th>
-                            <th scope="col" id="team">
-                                <a href="#" class="text-decoration-none" role="button">
-                                    <span class="fas fa-sort"></span> Team
-                                </a>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" id="John">John</th>
-                            <td headers="role John">Boss</td>
-                            <td headers="figma John">No</td>
-                            <td headers="team John">OTS</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Susan">Susan</th>
-                            <td headers="role Susan">Developer</td>
-                            <td headers="figma Susan">No</td>
-                            <td headers="team Susan">EA</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Deborah">Deborah</th>
-                            <td headers="role Deborah">Business Analyst</td>
-                            <td headers="figma Deborah">Yes</td>
-                            <td headers="team Deborah">OTS</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Rick">Rick</th>
-                            <td headers="role Rick">Business Analyst</td>
-                            <td headers="figma Rick">Yes</td>
-                            <td headers="team Rick">DOC</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Kevin">Kevin</th>
-                            <td headers="role Kevin">Product Owner</td>
-                            <td headers="figma Kevin">No</td>
-                            <td headers="team Kevin">OJJ</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="José">José</th>
-                            <td headers="role José">Tester</td>
-                            <td headers="figma José">No</td>
-                            <td headers="team José">OMV</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Bob">Bob</th>
-                            <td headers="role Bob">Business Analyst</td>
-                            <td headers="figma Bob">Yes</td>
-                            <td headers="team Bob">OMV</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Jane">Jane</th>
-                            <td headers="role Jane">Database Administrator</td>
-                            <td headers="figma Jane">No</td>
-                            <td headers="team Jane">DOC</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Todd">Todd</th>
-                            <td headers="role Todd">Developer</td>
-                            <td headers="figma Todd">No</td>
-                            <td headers="team Todd">DOC</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" id="Frank">Frank</th>
-                            <td headers="role Frank">Developer</td>
-                            <td headers="figma Frank">No</td>
-                            <td headers="team Frank">OTS</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <hr class="minor">
-                <div class="row justify-content-center align-items-md-end mt-6">
-                    <div class="col-md-3">
-                        <form action="" class="">
-                            <label class="d-none" aria-hidden="false" for="NumberItemsToShow">Show how many?</label>
-                            <select class="custom-select mb-4 mr-md-4 mb-lg-0" id="NumberItemsToShow" style="height:38px;">
-                                <option selected>Show 10 per page</option>
-                                <option value="1">Show 25 per page</option>
-                                <option value="2">Show 50 per page</option>
-                                <option value="3">Show All</option>
-                            </select>
-                        </form>
-                    </div>
-                    <div class="col-md-6">
-                        <nav class="" aria-label="Page navigation example">
-                            <ul class="pagination justify-content-center mr-lg-4 mb-lg-0">
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <span class="fas fa-angle-double-left"></span>
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">1</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">2</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">3</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">4</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">5</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <span class="fas fa-angle-double-right"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-md-3 text-lg-right">
-                        <p class="mb-0 mb-lg-2">Showing<br class="d-none d-md-block d-lg-none"> <strong>X</strong> of <strong>Y</strong>
-                            items.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<table class="table table-striped">
+  <caption class="d-none">Table caption describes the data presented.</caption>
+  <thead>
+    <tr>
+      <th scope="col" id="user">
+        <a href="#" class="text-decoration-none" role="button">
+          <span class="fas fa-sort"></span> User
+        </a>
+      </th>
+      <th scope="col" id="role">
+        <a href="#" class="text-decoration-none" role="button">
+          <span class="fas fa-sort"></span> Role
+        </a>
+      </th>
+      <th scope="col" id="figma">
+        Figma Trained
+      </th>
+      <th scope="col" id="team">
+        <a href="#" class="text-decoration-none" role="button">
+          <span class="fas fa-sort"></span> Team
+        </a>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" id="John">John</th>
+      <td headers="role John">Boss</td>
+      <td headers="figma John">No</td>
+      <td headers="team John">OTS</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Susan">Susan</th>
+      <td headers="role Susan">Developer</td>
+      <td headers="figma Susan">No</td>
+      <td headers="team Susan">EA</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Deborah">Deborah</th>
+      <td headers="role Deborah">Business Analyst</td>
+      <td headers="figma Deborah">Yes</td>
+      <td headers="team Deborah">OTS</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Rick">Rick</th>
+      <td headers="role Rick">Business Analyst</td>
+      <td headers="figma Rick">Yes</td>
+      <td headers="team Rick">DOC</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Kevin">Kevin</th>
+      <td headers="role Kevin">Product Owner</td>
+      <td headers="figma Kevin">No</td>
+      <td headers="team Kevin">OJJ</td>
+    </tr>
+    <tr>
+      <th scope="row" id="José">José</th>
+      <td headers="role José">Tester</td>
+      <td headers="figma José">No</td>
+      <td headers="team José">OMV</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Bob">Bob</th>
+      <td headers="role Bob">Business Analyst</td>
+      <td headers="figma Bob">Yes</td>
+      <td headers="team Bob">OMV</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Jane">Jane</th>
+      <td headers="role Jane">Database Administrator</td>
+      <td headers="figma Jane">No</td>
+      <td headers="team Jane">DOC</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Todd">Todd</th>
+      <td headers="role Todd">Developer</td>
+      <td headers="figma Todd">No</td>
+      <td headers="team Todd">DOC</td>
+    </tr>
+    <tr>
+      <th scope="row" id="Frank">Frank</th>
+      <td headers="role Frank">Developer</td>
+      <td headers="figma Frank">No</td>
+      <td headers="team Frank">OTS</td>
+    </tr>
+  </tbody>
+</table>

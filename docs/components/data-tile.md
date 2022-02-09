@@ -13,11 +13,11 @@ eleventyNavigation:
  
 ## Best Practices
 
-- Data Tiles are [Cards](/components/card) that display a label and related data corresponding to that label. They are useful in clearly displaying lots of text into easy-to-scan holders.
-- Data Tiles feature the same display attributes as [Cards](/components/card).
-- Data Tiles display as grey when inside a [Content Container](/components/boxes/#content-container) or [White Box](/components/boxes/#white-box)
-- Data Tiles display as white when **not** inside a [Content Container](/components/boxes/#content-container) or [White Box](/components/boxes/#white-box)
-- A Data Tile’s width is determined by its parent class; in order to adjust the width, change the `col` sizing on the parent `div` (default is `col-3`).
+- Data Tiles extend [Cards](/components/card) behavior and styles.
+- Data Tiles  simply display a label and related data corresponding to that label. 
+- They are useful in clearly displaying lots of text into easy-to-scan holders.
+- They will be grey when inside a [Content Container](/components/boxes/#content-container) or [White Box](/components/boxes/#white-box).
+- They will be white when **not** inside a [Content Container](/components/boxes/#content-container) or [White Box](/components/boxes/#white-box).
 
 ## Usage
 
@@ -37,4 +37,3 @@ eleventyNavigation:
     <p>Value</p>
   </div>
 </div>
-```

@@ -13,10 +13,10 @@ eleventyNavigation:
 
 ## Best Practice
 
-Tables allow data to be compared along vertical and horizontal lines, providing an accessible way to present data. For more information, see the Mozilla Developer Network’s article on <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced" target="_blank">Table Advanced Features and Accessibility</a>.
-
-_**Note:** [Pagination](/components/pagination) is optional depending on use in a project or stakeholder requirements._
-
+- Tables allows the user to compare data.
+- Use accessible Table markup, like what’s provided.
+- [Pagination](/components/pagination) goes below a table if you need it.
+- Use Tables to display tabular data, not for layout.
 {% include 'cards-tables.njk' %}
 
 ## Usage

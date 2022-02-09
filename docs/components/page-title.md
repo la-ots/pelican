@@ -13,9 +13,11 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Page Titles inform the user of the page they’re currently using
-- Each page of a digital product should contain a Page Title. You may remove any element in the Page Title you don’t need. 
-- Use the button to provide quick access to a common action on the page. Use only one button in the page title. If you need more than one button use a <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/#single-button" target="_blank">Bootstrap Dropdown button</a>.
+- Page Titles tell the user which page they’re on.
+- It’s recommended for every page to have a Page Title. 
+- Use the button to provide quick access to one common action for the page. Use only one.
+- If a page needs more than one button, use a <a href="https://getbootstrap.com/docs/5.1/components/dropdowns/#single-button" target="_blank">Bootstrap Dropdown button</a>.
+- See the [icons we can use](https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free) as the source for the icon.
 
 ## Usage
 

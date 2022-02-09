@@ -12,12 +12,15 @@ eleventyNavigation:
 ---
 
 ## Best Practice
-The Loading Animation is placed into an element wrapping the element requiring the loader.
+
+- Show the Loading Animation while content is being loaded.
+- Put the Loading Animation into the markup which wraps the loaded content.
+- Hide the Loading Animation when the content is finished loading.
 
 ## Usage
 
-{% include 'markup/loading.njk' %}
+{% include 'markup/spinner.njk' %}
 
 ``` html
-{% include 'markup/loading.njk' %}
+{% include 'markup/spinner.njk' %}
 ```

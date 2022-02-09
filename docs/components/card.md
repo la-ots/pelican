@@ -1,4 +1,4 @@
-﻿---
+---
 title: Card
 summary: Cards are containers for related content or information.
 tags: components, card

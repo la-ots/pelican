@@ -13,32 +13,23 @@ eleventyNavigation:
 
 ## Best Practices
 
-Toasts use the [Status Colors](/theming/color) and correlate to the same meanings.
-- **Info** (Blue) provides user with information that is not critical to the current task, but provides them with related information
-- **Success** (Green) provides feedback to the user indicating an action is successful 
-- **Danger** (Red) indicates an action will cause data loss, error, or other hard-to-reverse effects
-
-### Writing Toasts
-When writing Toast messages, keep the following in mind:
-- Toasts should be clear and specific to the user's actions/ goals
-- Use <a href="https://plainlanguage.gov/" target="_blank">Plain Language</a>, not technical jargon
-- Avoid negative language; Do not blame the user
-- Avoid using all uppercase letters unless you are using Acronyms
-- Provide useful information
-
-### Accessibility
-Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. The content of Toast must make the reason for the Toast obvious to the user.
-
-Toasts include the attribute `role="alert"` so they can be read by screen readers.
-
-### When to use
+- Put Toasts at the top right of the screen.
+- Toasts use the same [Status Colors](/theming/color) as Alerts.
+- Status Colors only add visual cues. The content of the Toast must make the meaning obvious to assistive technology users.
 - Toasts are only triggered by user actions such as saving, editing, deleting, or creating a file.
+- Use **Info** (Blue) to communicate informative or helpful information to users.
+- Use **Success** (Green) to provide feedback to the user indicating an action is successful.
+- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.  
+- Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
+- Use the icons provided for each Toast type.
 - Toasts may also be used to notify the user about information related to their current action.
-- Toasts are displayed in the top-right of the screen and are persistent regardless of scrolling. They are dismissable either by clicking the X to close or after a defined time duration (suggestion is 7 seconds).
+- Toasts are persistent regardless of scrolling. 
+- Toasts are dismissable either by clicking the X to close or they automatically close after a defined time duration (suggestion is 7 seconds).
 
-_**Note:** Toasts require <a href="https://getbootstrap.com/docs/4.5/getting-started/javascript/#util" target="_blank">util.js</a>_
+{% include 'writing-tips.njk' %}
 
 ## Usage
+
 ### Success Toast
 * **Success** (Green) provides feedback to the user indicating an action is successful
 * Use a <a href="https://fontawesome.com/icons/check-circle?style=solid" target="_blank">check in a circle</a> as the icon

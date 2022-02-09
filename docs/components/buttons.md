@@ -1,4 +1,4 @@
-﻿---
+---
 title: Buttons
 summary: Buttons are interactive elements that trigger actions.
 tags: components, buttons
