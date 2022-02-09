@@ -29,6 +29,7 @@
 @import "popover";
 
 // things we add
+@import "mixins";
 @import "sidebar";
 @import "collapse";
 @import "images";
@@ -38,5 +39,6 @@
 @import "hero";
 @import "loader";
 @import "toc";
-@import "data-tiles"; 
+@import "data-tiles";
+@import "focus";
 @import "custom";
