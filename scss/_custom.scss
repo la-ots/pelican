@@ -66,6 +66,12 @@
     justify-content: flex-start;
   }
 }
+.sidebar-button {
+  @extend .position-relative;
+  @extend .btn;
+  @extend .btn-link;
+  @extend .text-white;
+}
 
 .page-header {
   background-color: $white;

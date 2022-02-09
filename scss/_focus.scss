@@ -30,7 +30,7 @@
   }
 }
 .sidebar-nav-item, 
-.sidebar-dropdown-header-expand,
+.sidebar-dropdown-header-expand[role="button"],
 .navbar-icon-links .nav-link, 
 .official-banner summary,
 .page-link {
@@ -42,16 +42,16 @@
     }
   }
 }
-.sidebar-button {
+.sidebar-button[role=button] {
   &:focus {
     outline: none;
     &:after {
       @include tab-focus-fake;
-      width: unset; height: unset;
-      top: -6px;
+      width: 100%; height: unset;
+      top: -3px;
       right: -10px;
-      bottom: -5px;
-      left: -10px;
+      bottom: -2px;
+      left: 0px;
     }
   }
 }
