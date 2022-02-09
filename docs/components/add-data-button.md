@@ -20,10 +20,22 @@ eleventyNavigation:
 
 ## Usage
 
-{% include markup/button-add-data.njk %}
+<div class="d-grid">
+  <button type="button" class="btn-add-this">
+    <span class="btn-add-this-core rounded p-2">
+      <span class="fa fa-plus fa-fw"></span>
+    </span>
+  </button>
+</div>
 
 ``` html
-{% include markup/button-add-data.njk %}
+<div class="d-grid">
+  <button type="button" class="btn-add-this">
+    <span class="btn-add-this-core rounded p-2">
+      <span class="fa fa-plus fa-fw"></span>
+    </span>
+  </button>
+</div>
 ```
 
 ## Resources

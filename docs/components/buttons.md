@@ -185,6 +185,7 @@ eleventyNavigation:
 
 **Disabled Buttons**
 
+- It’s best not to show disabled buttons.
 - Disabled buttons cannot be clicked and should not appear clickable.
 - Do not use Disabled buttons as a placeholder if a feature isn’t ready yet.
 - Disabled states can be used for a temporary state change triggered by the user’s actions. Once the action is resolved, the button should return to an enabled state.
