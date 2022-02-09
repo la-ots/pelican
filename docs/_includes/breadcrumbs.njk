@@ -8,13 +8,17 @@
       </a>
     </li>
     {%- for entry in entries %}
-      {% if entry.url in page.url %}
-        <li class="breadcrumb-item">
-          <a href="{{ entry.url | url }}">
-            {{ entry.title }}
-          </a>
+      {% if entry.url == page.url %}
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ entry.title }}
         </li>
-        {% if entry.children %}
+      {% elif entry.url in page.url %}
+        {% if entry.children.length > 0 %}
+          <li class="breadcrumb-item">
+            <a href="{{ entry.url | url }}">
+              {{ entry.title }}
+            </a>
+          </li>
           {%- for child in entry.children %}
             {% if child.url == page.url %}
               <li class="breadcrumb-item active" aria-current="page">
