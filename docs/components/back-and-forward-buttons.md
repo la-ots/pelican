@@ -13,12 +13,12 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Often used on conjunction with [Progress Indicators](/components/progress)
-- Use when users must complete a sequential process
-- Place at the bottom, but above the footer, of each page in the process
-- Buttons should be side by side at small sizes, when the button labels are short
-- Buttons can be centered at small sizes when the buttons labels are too long for side by side arrangement
-- When button labels are long enough to require centering, ensure that Back button is atop the Forward button
+- Often used on conjunction with [Progress Indicators](/components/progress).
+- Use when users must complete a sequential process.
+- Place at the bottom, but above the footer, of each page in the process.
+- Buttons should be side by side at small sizes, when the button labels are short.
+- Buttons can be centered at small sizes when the buttons labels are too long for side by side arrangement.
+- When button labels are long enough to require centering, ensure that Back button is atop the Forward button.
 
 ## Usage
 

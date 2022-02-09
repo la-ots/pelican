@@ -12,11 +12,14 @@ eleventyNavigation:
 ---
   
 ## Best Practice
-We currently present four sharing methods:
-- Facebook
-- LinkedIn
-- Twitter
-- Email
+
+- Links should open in a new window or tab.
+- This markup doesn’t include the code for sharing.
+- We currently present four sharing methods:
+  1. Facebook
+  1. LinkedIn
+  1. Twitter
+  1. Copying a Link for pasting elsewhere
 
 ## Usage
 

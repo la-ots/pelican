@@ -6,14 +6,12 @@ layout: guide
 eleventyNavigation:
   key: Dyslexia Friendly
   parent: Accessibility
-  order: 5
+  order: 7
   excerpt: Dyslexic readers benefit from a few easy-to-implement strategies.
   img: /img/illustrations/illus-dyslexia-friendly.svg
 ---
 
-## Content for Dyslexic Readers 
-
-Dyslexic readers can more easily consume on-screen content with some easy to follow guidelines.
+## Best Practices 
 
 - Use font sizes of 16 – 19 pixels.
 - Avoid underlines when possible.
@@ -23,4 +21,4 @@ Dyslexic readers can more easily consume on-screen content with some easy to fol
 
 ## Resources
 
-* <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" class="text-decoration-none">Dyslexia Friendly Style Guide</a>
+- <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" class="text-decoration-none">Dyslexia Friendly Style Guide</a>
