@@ -19,8 +19,8 @@ Use this when you’re ready to direct the reader to take an action, but that ac
 
 ## Usage
 
-{% include 'markup/call-to-action-dual.njk' %}
+{% include 'markup/feature-cta-double.njk' %}
 
 ``` html
-{% include 'markup/call-to-action-dual.njk' %}
+{% include 'markup/feature-cta-double.njk' %}
 ```

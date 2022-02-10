@@ -29,18 +29,18 @@ eleventyNavigation:
 
 **Major Divider**
 
-{% include 'markup/divider-major.njk' %}
+<hr class="major">
 
 ``` html
-{% include 'markup/divider-major.njk' %}
+<hr class="major">
 ```
 
 **Minor Divider**
 
-{% include 'markup/divider-minor.njk' %}
+<hr class="minor">
 
 ``` html
-{% include 'markup/divider-minor.njk' %}
+<hr class="minor">
 ```
 
 ## Resources

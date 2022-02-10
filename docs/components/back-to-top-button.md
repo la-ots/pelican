@@ -12,16 +12,18 @@ eleventyNavigation:
 ---
 ## Best Practices
 
+- Insert it at the bottom of the root element in the page.
+- Don’t remove the hidden text for screen readers.
 - It appears after the user has scrolled down, usually four times the height of the screen’s initially-visible portion.
 - The `HREF` of the button should be the `id` of the `<main>` element.
 - Follow the guidance in the [Icon-Only Button](/components/buttons/#icon-only-button).
 
 ## Usage
 
-{% include 'markup/back-to-top.njk' %}
+{% include 'markup/button-back-to-top.njk' %}
 
 ``` html
-{% include 'markup/back-to-top.njk' %}
+{% include 'markup/button-back-to-top.njk' %}
 ```
 ## Resources
 

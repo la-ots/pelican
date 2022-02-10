@@ -21,8 +21,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/component-page-title.njk' %}
+{% include 'markup/page-title.njk' %}
 
 ``` html
-{% include 'markup/component-page-title.njk' %}
+{% include 'markup/page-title.njk' %}
 ```

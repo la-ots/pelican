@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Collapses give users control over how much information they see at one time.
-- A common use of Collapses is a “Question and Answer” section on a FAQ. 
+- A common use of Collapses is for a “Question and Answer” item on a FAQ page. 
 - Use the native HTML tag for <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">Details disclosure Element</a> as Collapses whenever possible.
 
 ## Usage

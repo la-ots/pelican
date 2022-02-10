@@ -1,13 +1,13 @@
 ﻿---
-title: Back & Forward Buttons
-summary: Back & Forward buttons allow users to move through a sequential process.
+title: Previous & Forward Buttons
+summary: Previous & Forward buttons allow users to move through a sequential process.
 tags: components, buttons
 layout: guide
 eleventyNavigation:
-  key: Back and Forward Buttons
+  key: Previous and Forward Buttons
   parent: Components
   order: 80
-  excerpt: Back & Forward buttons allow users to move through a sequential process.
+  excerpt: Previous & Forward buttons allow users to move through a sequential process.
   img: /img/illustrations/illus-buttons-back-fwd.svg
 ---
 

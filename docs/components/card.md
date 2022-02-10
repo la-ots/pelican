@@ -1,4 +1,4 @@
-﻿---
+---
 title: Card
 summary: Cards are containers for related content or information.
 tags: components, card
@@ -10,12 +10,11 @@ eleventyNavigation:
   excerpt: Cards are containers for related content or information.
   img: /img/illustrations/illus-cards.svg
 ---
-
 ## Best Practices
-
-- Cards are designed to be flexible enough to accommodate most content types
+Cards are designed to be flexible enough to accommodate most content types
 - If a Card occurs outside of a [Content Container](/components/boxes/#content-container), it will automatically get a white background 
 - If the card occurs inside of a Content Container or [White Box](/components/boxes/#white-box) it will automatically get a gray background
+- Cards can contain various types of information, so their appearance will vary
 - A card’s width is determined by its parent element. In most cases, this is a Bootstrap `<div>` with a column class. Read [Layout Grid](/components/layout-grid/) for more information about columns
 - Rows and columns can be placed inside a card body
 - Cards can be themed using theming classes. Read more in [Agency Themes](/foundation/agency-theming/)
@@ -23,33 +22,52 @@ eleventyNavigation:
 {% include 'cards-tables.njk' %}
 
 ## Usage
+### Basic card
 
-### Basic
+<div class="card">
+  <div class="card-body">
+    This is where Card content goes.
+  </div>
+</div>
 
-{% include 'markup/card.njk' %}
 ```html
-{% include 'markup/card.njk' %}
+<div class="card">
+  <div class="card-body">
+    This is where Card content goes.
+  </div>
+</div>
 ```
 
-### With a Title
+### Card without a Shadow
 
-{% include 'markup/card-with-title.njk' %}
+<div class="card shadow-none">
+  <div class="card-body">
+    This is where Card content goes.
+  </div>
+</div>
+
 ```html
-{% include 'markup/card-with-title.njk' %}
+<div class="card shadow-none">
+  <div class="card-body">
+    This is where Card content goes.
+  </div>
+</div>
 ```
 
-### With a Header and Title
+### Card without a Border
 
-{% include 'markup/card-with-header.njk' %}
+<div class="card border-0">
+  <div class="card-body">
+    This is where Card content goes.
+  </div>
+</div>
+
 ```html
-{% include 'markup/card-with-header.njk' %}
-```
-
-### With a Header, Title, Footer
-
-{% include 'markup/card-with-footer.njk' %}
-```html
-{% include 'markup/card-with-footer.njk' %}
+<div class="card border-0">
+  <div class="card-body">
+    This is where Card content goes.
+  </div>
+</div>
 ```
 
 ## Resources

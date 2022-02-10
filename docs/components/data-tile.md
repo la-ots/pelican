@@ -21,8 +21,19 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/data-tile.njk' %}
+<div class="data-tile card shadow-none">	
+  <div class="data-tile-body">
+    <p>Label</p>
+    <hr class="minor minimal">
+    <p>Value</p>
+  </div>
+</div>
 
 ```html
-{% include 'markup/data-tile.njk' %}
-```
+<div class="data-tile card shadow-none">	
+  <div class="data-tile-body">
+    <p>Label</p>
+    <hr class="minor minimal">
+    <p>Value</p>
+  </div>
+</div>

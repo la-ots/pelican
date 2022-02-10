@@ -25,10 +25,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/components-breadcrumbs.njk' %}
+{% include 'markup/breadcrumbs.njk' %}
 
 ``` html
-{% include 'markup/components-breadcrumbs.njk' %}
+{% include 'markup/breadcrumbs.njk' %}
 ```
 
 ## Resources
