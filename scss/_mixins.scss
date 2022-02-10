@@ -1,0 +1,12 @@
+@mixin tab-focus {
+  box-shadow: none;
+  outline: 0.25rem solid $focus-color;
+  outline-offset: 0.25rem;
+}
+@mixin tab-focus-fake {
+  position: absolute;
+  content: '';
+  width: 100%; height: 100%;
+  border: .25rem solid $focus-color;
+  top: 0; left: 0;
+}

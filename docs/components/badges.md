@@ -12,13 +12,12 @@ eleventyNavigation:
 ---
   
 ## Best Practices
-Badges might include:
-- A piece of data’s related quality
-- An office type
-- A Status Indicator
-- A count of an element
-- Badges visually display secondary information attached to primary information
-- Badge size is inherited from its parent
+
+Badges are used for information such as:
+
+- Use them to display a piece of data’s related quality, such as a number of notifications.
+- Badges take their size from the parent element.
+- Keep the text in them short and simple.
 
 ## Usage
 

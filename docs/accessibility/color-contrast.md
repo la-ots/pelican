@@ -6,18 +6,20 @@ layout: guide
 eleventyNavigation:
   key: Color Contrast
   parent: Accessibility
-  order: 2
+  order: 3
   excerpt: Color Contrast is the contrast ratio between two colors.
   img: /img/illustrations/illus-color-contrast.svg
 ---
 
-## Overview 
+## Best Practices
 
-Include ample color contrast in the user interface so that’s easy to read.
+- Use the recommended color contrast ratios.
+- Normal-sized text is 16 pixels and requires a minimum Contrast Ratio of 4.5:1.
+- Large-sized text is 18 pixels or larger and requires a minimum Contrast Ratio of 3:1.
+- User interface items such as [Form Controls](/form-controls/) require a minimum Contrast Ratio of 3:1. This includes the outlines of Form Controls and the outer edges of Buttons, but is not limited to them.
+- when in doubt use <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM’s Contrast Checker</a>
 
-Color contrast refers to how much visual distinction exists between colors. Contrast Ratio is how Pelican describes the amount of visual distinction between a background color and a text color. It’s important for usability.
-
-## Text Contrast
+**Text Contrast**
 
 A black background (`#FFFFFF`) and white text (`#000000`) has a Contrast Ratio of 21:1. Text requires a minimum Contrast Ratio of 4.5:1. If text is 24 pixels or larger, a minimum Contrast Ratio of 3:1 is required.
 
@@ -176,7 +178,7 @@ A black background (`#FFFFFF`) and white text (`#000000`) has a Contrast Ratio o
   </div>
 </div>
 
-## User Interface Contrast
+**User Interface Contrast**
 
 User interface items such as form controls require a minimum Contrast Ratio of 3:1. This includes the outlines of Form Controls and the outer edges of Buttons, but are not limited to them.
 

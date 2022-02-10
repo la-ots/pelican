@@ -8,27 +8,46 @@
   background-position: 50%;
 }
 
-.hero-two-pane {
-  @extend .d-flex;
-  @extend .flex-column;
-  @extend .flex-lg-row;
+.hero-dual-pane {
+  @extend .py-40 ;
+  @extend .position-relative ;
+  @extend .bg-image-position-center ;
   @extend .bg-image-size-cover;
-  @extend .bg-image-position-center;
-
-  &-section {
-    flex: 1 0 50%;
+  .overlay {
+    @extend .position-absolute;
+    @extend .opacity-75;
+  }
+  .overlay-left {
+    @extend .bg-primary;
+  }
+  .overlay-right {
+    @extend .bg-accent;
+  }
+  .container {
     @extend .position-relative;
-    @extend .d-lg-flex;
-    @extend .flex-lg-column;
-    @extend .justify-content-lg-center;
-    @extend .px-4;
-    @extend .py-10;
-    @extend .py-lg-40;
-    @extend .py-lg-17;
-
-    .btn {
-      @extend .align-self-center;
-    }
+  }
+  .logo {
+    @extend .img-fluid ;
+    @extend .mb-4;
+    width: 128px;
+  }
+  .hero-big-text {
+    @extend .h1 ;
+    @extend .text-white ;
+    @extend .font-weight-bold ;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary!optional;
+  }
+  .hero-lead-text {
+    @extend .h4 ;
+    @extend .text-white ;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary!optional;
+  }
+  .hero-small-text {
+    @extend .text-white ;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary!optional;
   }
 }
 
@@ -36,109 +55,99 @@
   > .row {
     @extend .no-gutters;
   }
-
   .half-left {
     @extend .bg-image-size-cover;
     @extend .bg-image-position-center;
   }
-
   .half-right {
     @extend .py-32;
-
+    @extend .bg-primary ;
+    @extend .text-white;
     .row {
       @extend .justify-content-center;
       @extend .align-items-center;
     }
   }
-}
-
-.hero-channels {
-  @extend .position-relative;
-}
-
-.hero-channels-content {
-  @extend .bg-image-size-cover;
-  @extend .bg-image-position-center;
-  padding-top: 150px;
-  padding-bottom: 200px;
-  color: $white;
-  text-shadow: -1px 3px fade-out($black, 0.5);
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a,
-  .fas {
-    color: inherit;
+  .hero-big-text {
+    @extend .h2 ;
+    @extend .text-white;
   }
-
-  p {
-    @extend .lead;
-    color: inherit;
+  .hero-small-text {
+    @extend .text-white;
   }
-
-  a {
-    @extend .btn;
-    @extend .btn-link;
-    background-color: fade-out($white, 1);
-
-    .fas {
-      color: inherit;
-    }
-
-    &:hover,
-    &:active {
-      text-decoration: none;
-      background-color: fade-out($white, 0);
-    }
-  }
-
-  @include media-breakpoint-up(lg) {
-    padding-top: 200px;
-    padding-bottom: 200px;
+  .img-fluid {
+    @extend .d-lg-none;
   }
 }
 
-.hero-channels-controls {
-  @extend .position-absolute;
-  @extend .w-100;
-  bottom: 0;
-  margin-bottom: 20px;
-  background-color: fade-out($white, 1);
-
-  .nav-link {
-    position: relative;
-    margin: 0 20px 2px !important;
-    color: $white;
-    text-align: center;
-    background-color: transparent;
-    border: 0;
-    border-top: 2px solid fade-out($white, 0.25);
-    border-radius: 0;
-
-    &.active {
-      color: $black;
-      background-color: fade-out($white, 0.1);
-      border-color: fade-out($white, 0.1);
-    }
-
-    &:hover,
-    &:active {
-      color: $black;
-      background-color: fade-out($white, 0);
-    }
-
-    @include media-breakpoint-up(lg) {
-      padding-top: $spacer * 2;
-      padding-bottom: $spacer * 2;
-    }
+.hero-boxed-in-photo {
+  @extend .content-container;
+  @extend .shadow-none;
+  .hero-big-text {
+    @extend .h2 ;
+    @extend .text-primary;
   }
+  .hero-small-text {
+  }
+  img {
+    @extend .img-fluid;
+    @extend .rounded;
+    @extend .shadow-sm;
+  }
+}
 
-  @include media-breakpoint-down(sm) {
-    display: block;
+.hero-text-color-toned-photo {
+  @extend .position-relative ;
+  @extend .bg-image-position-center ;
+  @extend .bg-image-size-cover ;
+  @extend .pt-40 ;
+  @extend .pb-10;
+  .overlay {
+    @extend .bg-accent ;
+    @extend .opacity-85 ;
+    @extend .position-absolute ;
+    top:0; right:0; bottom:0; left:0;
+  }
+  .hero-big-text {
+    @extend .h2 ;
+    @extend .font-weight-bold ;
+    @extend .text-white ;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary !optional;
+  }
+  .hero-small-text {
+    @extend .text-white ;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary !optional;
+  }
+}
+
+.hero-textbox-over-photo {
+  @extend .position-relative ;
+  @extend .d-flex ;
+  @extend .flex-column ;
+  @extend .justify-content-end ;
+  @extend .flex-lg-row ;
+  @extend .bg-image-size-cover ;
+  @extend .position-relative ;
+  @extend .bg-image-position-center ;
+  @extend .py-40;
+  .overlay {
+    @extend .bg-white ;
+    @extend .position-absolute ;
+    @extend .opacity-50 ;
+    top:0; right:0; bottom:0; left: 0;
+  }
+  .hero-textbox {
+    @extend .bg-primary ;
+    @extend .p-10;
+  }
+  .hero-big-text {
+    @extend .h2 ;
+    @extend .font-weight-bold ;
+    @extend .text-white;
+  }
+  .hero-small-text {
+    @extend .text-white;
   }
 }

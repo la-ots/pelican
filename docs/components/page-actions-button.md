@@ -13,10 +13,8 @@ eleventyNavigation:
 
 ## Usage
 
-- Allows the user to print, email, or share the page they are reading
-- Intended to go before and after the main body content of the page
-
-_**Note:** This can be extended as we get new use cases._
+- Page Action Buttons allows the user to print, email, or share the page they are reading.
+- They can go before and after the main body content of the page.
 
 {% include 'markup/button-page-actions.njk' %}
 

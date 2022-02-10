@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-cta-1.svg
 ---
 
-## About this Feature Block
+## Best Practices
 
 Use this when you’re ready to direct the reader to take an action, like signing up.
   - The big text is the action verb for the goal you have for the user. Use this to direct the user an action. This is a decision moment, don’t put a lot of text in here.
@@ -19,8 +19,8 @@ Use this when you’re ready to direct the reader to take an action, like signin
 
 ## Usage
 
-{% include 'markup/call-to-action-single.njk' %}
+{% include 'markup/feature-cta.njk' %}
 
 ``` html
-{% include 'markup/call-to-action-single.njk' %}
+{% include 'markup/feature-cta.njk' %}
 ```

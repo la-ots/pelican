@@ -16,9 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 1.0.0 — 24 January 2022
+## 1.0.0 — 31 January 2022
 
 - Version 1.0 released! See [Get Started](/get-started) to begin using Pelican Design System.
+- Content has been simplified and the guidance is easier to follow.
 
 Pelican Design System is Louisiana’s design system. 
 
