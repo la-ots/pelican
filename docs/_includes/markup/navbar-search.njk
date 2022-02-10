@@ -1,35 +1,37 @@
-<nav class="navbar navbar-expand-lg d-block bg-primary text-white">
-    <div class="container-fluid py-0">
-        <a class="brand-link" href="#"><h1 class="brand-logo mb-0 ">{% include 'logo.njk' %}</h1></a>
-        <button class="navbar-toggler text-white ml-auto" type="button" data-toggle="collapse" data-target="#navigationItemsList" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fas fa-bars"></span> Menu
-        </button>
-        <div class="search-form search-form-nav">
-            <div class="input-group">
-                <input type="search" class="form-control" aria-label="Search" aria-describedby="searchButton">
-                <div class="input-group-append">
-                    <button class="btn btn-ui" type="button" id="searchButton">
-                        <span class="fas fa-search"></span>
-                        <span class="sr-only">Search</span>
-                    </button>
-                </div>
-            </div>
+<nav class="navbar navbar-search">
+  <div class="container-fluid">
+    <a class="brand-link" href="#">
+      <h1 class="brand-logo mb-0 ">{% include 'logo.njk' %}</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationItemsList" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars"></span> Menu
+    </button>
+    <div class="search-form search-form-nav">
+      <div class="input-group">
+        <input type="search" class="form-control" aria-label="Search" aria-describedby="searchButton">
+        <div class="input-group-append">
+          <button class="btn btn-ui" type="button" id="searchButton">
+            <span class="fas fa-search" aria-hidden="true"></span>
+            <span class="sr-only">Search</span>
+          </button>
         </div>
+      </div>
     </div>
-    <div class="hr minor opacity-25"></div>
-    <div class="container-fluid py-0">
-        <div class="collapse navbar-collapse ml-lg-n2" id="navigationItemsList">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Internal</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-white mt-2 mt-lg-0 ml-lg-2" href="#">Login</a>
-                </li>
-            </ul>
-        </div>
+  </div>
+  <hr class="minor">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navigationItemsList">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Internal</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-white" href="#">Login</a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>

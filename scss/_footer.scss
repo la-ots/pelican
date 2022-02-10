@@ -1,13 +1,41 @@
-footer,
-.footer {
+footer, .footer {
   .brand-logo {
+    @extend .position-relative;
     svg {
       width: 100%;
-
       .mark,
       .type {
         fill: $white;
       }
+    }
+  }
+  &.footer-basic   {
+    @extend .bg-black;
+    @extend .mt-12;
+    .links-wrapper {
+      @extend .d-flex ;
+      @extend .flex-wrap ;
+      @extend .justify-content-center ;
+      @extend .py-4;
+      .btn-link {
+        @extend .text-white ;
+        @extend .border-0 ;
+        @extend .rounded-0;
+      }
+    }
+  }
+  &.footer-utility {
+    @extend .bg-primary ;
+    @extend .pt-4 ;
+    @extend .mt-auto;
+    .brand-logo {
+      @extend .mb-0;
+    }
+    hr.major {
+      @extend .bg-primary-90;
+    }
+    .btn-link {
+      @extend .text-secondary;
     }
   }
 }

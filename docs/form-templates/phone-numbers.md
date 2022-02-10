@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-phone-numbers.svg
 ---
 
-## About this Form Template
+## Best Practices
 
 MyLa should be used to allow users to manage their phone numbers. If not, use this form.
 

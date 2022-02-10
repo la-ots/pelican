@@ -1,10 +1,11 @@
 .btn-link {
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
   @extend .shadow-none;
   @extend .bg-transparent;
   @extend .border-0;
+  @extend .text-decoration-none;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 .btn-primary,
@@ -60,6 +61,32 @@
   background-color: $white;
   border: 2px solid $border-color;
   border-radius: $spacer * 0.5;
+  .btn {
+    width: 100%;
+    &:not(:last-of-type) {
+      margin-bottom: .5rem;
+    }
+    &.btn-outline-ui {
+      box-shadow: none;
+    }
+    &.btn-link {
+      @extend .mr-0;
+    }
+    @media screen and (min-width: 1024px){
+      width: unset;
+      &:not(:last-of-type) {
+        margin-right : .5rem;
+        margin-bottom: 0;
+      }
+    }
+    
+  }
+  .col-12 {
+    @media screen and (min-width: 1024px){
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
 }
 
 .btn-card-corner {
@@ -75,7 +102,7 @@
   transform: translateY(-50%);
 }
 
-.btn-add-this {
+.btn-add-this, .btn-add-data {
   @extend .btn;
   @extend .btn-ui;
   @extend .btn-block;
@@ -156,13 +183,32 @@ p a {
   }
 }
 
-#ScrollToTop {
+#ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
+  @extend .btn;
+  @extend .btn-accent;
   right: $spacer * 2;
   bottom: $spacer * 5;
   z-index: $zindex-scroll-to-top;
 
   @include media-breakpoint-up(md) {
     bottom: $spacer * 5;
+  }
+}
+
+.btn-prev-next-section {
+  @extend .text-ui-priority ;
+  @extend .bg-transparent ;
+  @extend .border-0 ;
+  @extend .shadow-none;
+}
+
+.btns-previous-forward {
+  .container-fluid {
+    @extend .py-12;
+  }
+  .btn {
+    @extend .btn-lg;
+    @extend .btn-block;
   }
 }

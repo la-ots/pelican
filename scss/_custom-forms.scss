@@ -12,7 +12,6 @@
       background-color: $white;
       border: 2px solid $ui;
       border-radius: 16px;
-      transition: $transition-base;
 
       .fas {
         position: absolute;
@@ -64,24 +63,20 @@
       &:focus,
       &.focus {
         + .form-check-label {
-          border: 2px solid $input-btn-focus-color;
-          box-shadow: 0 0 0.25rem $input-btn-focus-color;
+          @include tab-focus;
         }
       }
     }
   }
 }
-
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {
   border-color: $danger;
 }
-
 .was-validated .toggle-token .form-check-input:checked:valid ~ .form-check-label {
   color: $white;
   background-color: $success;
   border-color: $success;
 }
-
 // big switch
 .custom-switch.custom-switch-large {
   width: 100%;
@@ -149,9 +144,6 @@
     }
   }
 }
-
-.form-control,
-.custom-select,
 .custom-control-switch {
   &:focus,
   &.focus {
@@ -159,13 +151,12 @@
     box-shadow: none;
   }
 }
-
 .custom-file-label,
 .custom-file-input,
 .custom-file {
   &:focus,
   &.focus {
-    outline: 0.25rem solid #2491ff;
-    outline-offset: 0.25rem;
+    @include tab-focus;
   }
 }
+

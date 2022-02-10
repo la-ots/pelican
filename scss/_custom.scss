@@ -35,6 +35,7 @@
   @extend .text-white;
   @extend .border-black;
   @extend .border-bottom;
+  @extend .py-2;
 
   .container-fluid {
     @extend .py-1;
@@ -65,6 +66,12 @@
     justify-content: flex-start;
   }
 }
+.sidebar-button {
+  @extend .position-relative;
+  @extend .btn;
+  @extend .btn-link;
+  @extend .text-white;
+}
 
 .page-header {
   background-color: $white;
@@ -78,14 +85,32 @@
 }
 
 .page-title {
+  @extend .shadow-sm;
+  @extend .bg-white ;
+  @extend .p-4 ;
+  @extend .p-lg-16 ;
+  @extend .mb-4;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
-  @extend .shadow-sm;
+}
+.page-title-text {
+  @extend .h2 ;
+  @extend .mb-0 ;
+  @extend .text-primary;
+  .icon {
+    @extend .text-primary-10;
+  }
+  p {
+    @extend .mb-0;
+  }
 }
 
 .content-container {
   @extend .bg-white;
   @extend .shadow-sm;
+  @extend .p-4 ;
+  @extend .p-lg-16 ;
+  @extend .mb-4;
   border-radius: 4px;
 }
 
@@ -259,4 +284,19 @@ iframe {
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+.share-social {
+  @extend .card;
+  .share-social-body {
+    @extend .card-body;
+    @extend .text-center;
+  }
+  small {
+    @extend .d-block;
+    @extend .mb-2;
+  }
+  .btn {
+    @extend .btn-outline-ui-priority;
+    @extend .btn-sm;
+  }
 }

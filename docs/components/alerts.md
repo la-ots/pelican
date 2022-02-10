@@ -13,37 +13,21 @@ eleventyNavigation:
 
 ## Best Practices
 
-Alerts are way to inform users of important information. They are usually placed at the top of the page, under the [Page Title](/components/page-title/).
+- Put Alerts at the top of the page, under the [Page Title](/components/page-title/).
+- Alerts use the [Status Colors](/foundation/status-colors/) for their colors and meaning.
+- Status Colors only add visual cues. The content of the Alert must make the meaning obvious to assistive technology users.
+- Use **Info** (Blue) to communicate informative or helpful information to users.
+- Use **Success** (Green) to provide feedback to the user indicating an action is successful.
+- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.   
+- Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
+- Use the icons provided for each Alert type.
 
-## Choosing Alert Style
-
-Alerts use the [Status Colors](/theming/color) and correlate to the same meanings.
-
-Status Colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. The content of Alerts must make the meaning of the Alert obvious to the user.
-
-Alerts types are situational and related to system statuses. We use 4 types:
-
-* **Info** (Blue) communicates informative or helpful information to users    
-* **Success** (Green) provides feedback to the user indicating an action is successful
-* **Warning** (Yellow) indicates an unintended, but not dangerous, effect    
-* **Danger** (Red) indicates an action will cause data loss, error, or other hard-to-reverse effects
-
-## Writing Alerts
-
-When writing alert messages, keep the following in mind:
-
-* Be clear and specific
-* Use <a href="https://plainlanguage.gov/" target="_blank">Plain Language</a>, not technical jargon
-* Do not blame the user
-* Avoid negative language
-* Avoid using all uppercase letters unless you are using Acronyms
-* Provide useful information
+{% include 'writing-tips.njk' %}
 
 
 ## Usage
+
 ### Info Alert
-* **Info** (Blue) communicates informative or helpful information to users
-* Use the <a href="https://fontawesome.com/icons/info-circle?style=solid" target="_blank">info symbol in a circle</a> as the icon
 
 {% include 'markup/alert-info.njk' %}
 
@@ -52,8 +36,6 @@ When writing alert messages, keep the following in mind:
 ```
 
 ### Success Alert
-* **Success** (Green) provides feedback to the user indicating an action is successful
-* Use a <a href="https://fontawesome.com/icons/check-circle?style=solid" target="_blank">check in a circle</a> as the icon
 
 _Note: A successful action can include the successful deletion of an item or file._
 
@@ -64,8 +46,6 @@ _Note: A successful action can include the successful deletion of an item or fil
 ```
 
 ### Warning Alert
-* **Warning** (Yellow) indicates an unintended, but not dangerous, effect
-* Use the <a href="https://fontawesome.com/icons/exclamation-circle?style=solid" target="_blank">exclamation mark in a circle</a> as the icon
 
 {% include 'markup/alert-warning.njk' %}
 
@@ -74,8 +54,6 @@ _Note: A successful action can include the successful deletion of an item or fil
 ```
 
 ### Danger Alert
-* **Danger** (Red) indicates an action will cause data loss, error, or other hard-to-reverse effects
-* Use the <a href="https://fontawesome.com/icons/exclamation-triangle?style=solid" target="_blank">exclamation mark in a triangle</a> as the icon
 
 {% include 'markup/alert-danger.njk' %}
 

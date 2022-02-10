@@ -11,133 +11,85 @@ eleventyNavigation:
   img: /img/illustrations/illus-agency-theme.svg
 ---
 
-## Overview
+## Using Your Agency Colors
 
 Agencies can apply their own brand by changing the SCSS variables and recompiling the CSS. Pelican comes with default theme colors for brand, based upon Louisiana colors, to give you a starting point.
 
-## Applying Agency Brand Theme Colors
-
-Pelican provides 9 Brand color variables you can change. These are listed in the file named `_variables-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
-
-{% include 'cards-brand-colors.njk' %}
+Pelican provides 9 Brand color variables you can change. These are listed in the file named `_theme-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
 
 ## Themeable Elements
 
-Pelican provides a way to change the following theme aspects when appropriate. These items can be identified within markup by the use of theme classes such as `btn-primary`, `bg-secondary`, or `text-accent`, for example.
+Pelican provides a way to change the following theme aspects when appropriate. These items can be identified within markup by the use of theme classes such as `btn-primary`, `bg-secondary`, or `text-accent`, for example, you can change: 
 
-- Background colors, `bg-primary`, `bg-accent`, etc.
-- Text colors, `text-accent`, `text-primary`, etc.
+- Background colors, using classes such as `bg-primary`, `bg-accent`, etc.
+- Text colors, using classes such as `text-accent`, `text-primary`, etc.
 - Images and photographs
-- Icons and their colors, `text-accent`, `text-danger`, etc.
-- Overlay colors, `overlay` + `bg-primary`, etc.
+- Icons and their colors, using classes such as `text-accent`, `text-danger`, etc.
 - Button colors, `btn-primary`, etc.
 
 ## Changing Themeable Elements
 
-To change the default background or text color, change the class name representing the color to want to change.
-
-For example, changing `bg-primary` to `bg-secondary` will switch the first block’s background color. Changing `text-secondary` to `text-primary` will switch the first block’s text color.
+To change background or text color, change the class name representing the color to want to change. Consider [Color Contrast](/accessibility/color-contrast/) when you change these classes. For example, changing `bg-primary` to `bg-secondary` will change the background color from the primary to the secondary color. Changing `text-secondary` to `text-primary` will change the text color. Compare the cards below.
 
 <div class="px-4 mb-5">
-    <div class="row">
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-primary text-secondary">
-                <p class="mb">Background color is <em>bg-primary</em>.</p>
-                <p class="mb-0">Text color is <em>text-secondary</em>.</p>
-            </div>
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <div class="card bg-primary text-primary-10">
+        <div class="card-body">
+          <p class="mb">Background color is <code class="text-primary-10">bg-primary</code>.</p>
+          <p class="mb-0">Text color is <code class="text-primary-10">text-primary-10</code>.</p>
         </div>
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-black text-warning">
-                <p class="mb">Background color is <em>bg-black</em>.</p>
-                <p class="mb-0">Text color is <em>text-warning</em>.</p>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-white text-success">
-                <p class="mb">Background color is <em>bg-white</em>.</p>
-                <p class="mb-0">Text color is <em>text-success</em>.</p>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-info-90 text-info-10">
-                <p class="mb">Background color is <em>bg-info-90</em>.</p>
-                <p class="mb-0">Text color is <em>text-info-10</em>.</p>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
-
-You would change the background and text colors by changing the Theme Classes.
-
-<div class="px-4 mb-4">
-    <div class="row">
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-secondary text-primary">
-                <p class="">Background color is now <em>bg-secondary</em>.</p>
-                <p class="mb-0">Text color is now <em>text-primary</em>.</p>
-            </div>
+    <div class="col-12 col-md-6">
+      <div class="card bg-black text-warning">
+        <div class="card-body">
+          <p class="mb">Background color is <code class="text-warning">bg-black</code>.</p>
+          <p class="mb-0">Text color is <code class="text-warning">text-warning</code>.</p>
         </div>
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-danger text-white">
-                <p class="">Background color is now <em>bg-danger</em>.</p>
-                <p class="mb-0">Text color is now <em>text-white</em>.</p>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-ui-light text-black">
-                <p class="">Background color is now <em>bg-ui-light</em>.</p>
-                <p class="mb-0">Text color is now <em>text-black</em>.</p>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-3">
-            <div class="p-8 rounded-lg bg-info text-info-10">
-                <p class="">Background color is now <em>bg-info</em>.</p>
-                <p class="mb-0">Text color is now <em>text-info-90</em>.</p>
-            </div>
-        </div>
+      </div>            
     </div>
+  </div>
 </div>
 
 ## Brand Colors and Usability
 
-Brand first is not necessarily usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with usability in mind.
+Brand first is not necessarily accessibility or usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with accessibility in mind.
 
-Let’s examine this by looking at the color palette in a digital product. We’ll look at the [Brand colors](/foundation/brand-colors) and the [Status colors](/foundation/status-colors). Brand Colors are the colors of the organization, their logo, and other parts of their visual identity. Status Colors are the special colors which communicate situations to the users like success (usually a green) or danger (usually a red).
-
-Suppose the main Brand Color is green. The success color is also a green. The problem is that these two greens look similar to each other.
+Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
 
 <div class="row mb-12">
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 rounded-top" style="background-color: #198754;"></div>
-            <div class="card-body">
-                <p class="mb-0 font-weight-bold">Example Brand</p>
-                <p class="mb-0"><code>#198754</code></p>
-                <p class="mb-0">&nbsp;</p>
-            </div>
-        </div>
+  <div class="col-md-6">
+    <div class="card border-0 mb-4">
+      <div class="py-20 rounded-top" style="background-color: #198754;"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Example Brand</p>
+        <p class="mb-0">Hex Code: <code>#198754</code></p>
+        <p class="mb-0">SCSS Var: <code>$primary</code></p>
+      </div>
     </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-success rounded-top"></div>
-            <div class="card-body">
-                <p class="mb-0 font-weight-bold">Status Success</p>
-                <p class="mb-0"><code>#0d6211</code></p>
-                <p class="mb-0"><code>$success</code></p>
-            </div>
-        </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card border-0 mb-4">
+      <div class="py-20 bg-success rounded-top"></div>
+      <div class="card-body">
+        <p class="mb-0 fw-bold">Status Success</p>
+        <p class="mb-0">Hex Code: <code>#0d6211</code></p>
+        <p class="mb-0">SCSS Var: <code>$success</code></p>
+      </div>
     </div>
+  </div>
 </div>
 
-Using Brand green-styled buttons as the go-to buttons will cause ambiguity for the user later in the user interface. The user will see the brand green buttons everywhere. Then a situation arises in which a success green-styled button is necessary.
+In the same way, using brand green-styled buttons as the go-to buttons will also cconfuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be be lost.
 
 <div class="px-4 mb-5">
-    <div class="row">
-        <div class="col-12 ">
-            <button type="button" class="btn btn-accent" style="background:#198754">Brand Style Button</button>
-            <button type="button" class="btn btn-success">Good Action Button</button>
-        </div>
+  <div class="row">
+    <div class="col-12 ">
+      <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
+      <button type="button" class="btn btn-success">Good Action Button</button>
     </div>
+  </div>
 </div>
 
 User confusion is likely, and could lead them to ask:
@@ -149,10 +101,14 @@ User confusion is likely, and could lead them to ask:
 Some strategies to counter this could include:
 
 - Adjust Status Colors to be distinct
-- Use supporting Brand Colors for buttons
-- Only use brand-colored buttons in select regions like the top or bottom of a page. Use [UI-colored buttons](/foundation/ui-colors/#ui-vs-ui-blue) in between the top and bottom of page.
+- Create and use supporting brand colors for important user interface elements.
+- Only use brand-colored buttons in specific, controlled regions, like the top or bottom of a page.
 
-To prevent ambiguity in this situation, [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
+To prevent ambiguity in this situation, you could try one of a few strategies:
+
+- Design [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
+- Avoid using Brand Colors in meaningful places in the user interface
+- Design a supporting brand palette for Status colors
 
 {% include 'color-warning.njk' %}
 

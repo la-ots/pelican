@@ -11,11 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-dual-pane.svg
 ---
 
-## About this Hero Block
-
-This Hero Block presents a photographic representation of a subject under a description. This presents an obstructed view of the subject in a diminished manner. This is useful for presenting the digital product as adding value to an exisiting product or service. A call to action accompanies this description.
-
-## Best Practices
+## ## Best Practice
 
 {% include 'hero-guidance.njk' %}
 
