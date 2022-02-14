@@ -4,20 +4,20 @@ layout: default.njk
 
 {% include "page-title.njk" %}
 <div class="p-lg-16">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-8 col-lg-6 content">
+      <div class="col-12 content">
         {{ content | safe }}
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-md-8 col-lg-6">
+      <div class="col-12">
         <hr class="minor mt-1 mb-6">
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       {%- set navPages = collections.all | eleventyNavigation %}
       {%- for entry in navPages %}
