@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-cta-2.svg
 ---
 
-## About this Feature Block
+## Best Practices
 
 Use this when you’re ready to direct the reader to take an action, but that action must be a decision among two presented. 
   - Do not present more than two choices.
@@ -19,8 +19,8 @@ Use this when you’re ready to direct the reader to take an action, but that ac
 
 ## Usage
 
-{% include 'markup/call-to-action-dual.njk' %}
+{% include 'markup/feature-cta-double.njk' %}
 
 ``` html
-{% include 'markup/call-to-action-dual.njk' %}
+{% include 'markup/feature-cta-double.njk' %}
 ```

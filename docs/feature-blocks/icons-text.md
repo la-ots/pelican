@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-icons-text.svg
 ---
 
-## About this Feature Block
+## Best Practices
 
 Allows a Louisiana product to briefly describe a feature with related icons to reinforce the message. In the example below, it’s describing Pelican.
    - The large text is the main benefit or feature, explain in one or two words.
@@ -20,8 +20,8 @@ Allows a Louisiana product to briefly describe a feature with related icons to r
 
 ## Usage
 
-{% include 'markup/icons-text.njk' %}
+{% include 'markup/feature-icons-text.njk' %}
 
 ``` html
-{% include 'markup/icons-text.njk' %}
+{% include 'markup/feature-icons-text.njk' %}
 ```

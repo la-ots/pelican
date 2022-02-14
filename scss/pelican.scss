@@ -6,10 +6,10 @@
 // OTS & Agency variables
 @import "variables-agency";
 @import "variables-default";
-@import "mixins";
 
 // customizations to Bootstrap
 @import "bootstrap/scss/bootstrap";
+@import "mixins";
 @import "reboot";
 @import "type";
 @import "tables";
@@ -23,14 +23,13 @@
 @import "alert";
 @import "progress";
 @import "breadcrumb";
-@import "pagination";
+@import "badges";
 @import "toasts";
 @import "modal";
 @import "tooltip";
 @import "popover";
 
 // things we add
-@import "mixins";
 @import "sidebar";
 @import "collapse";
 @import "images";
@@ -40,5 +39,6 @@
 @import "hero";
 @import "loader";
 @import "toc";
+@import "data-tiles";
 @import "focus";
 @import "custom";

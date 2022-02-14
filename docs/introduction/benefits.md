@@ -14,10 +14,6 @@ eleventyNavigation:
 
 ## Overview
 
-Pelican will enable our planning, design, development, and update efforts to be quicker and easily updated.
+Pelican will make our planning, design, development, and maintenance efforts more thorough and efficient.
 
-By using a shared visual language, common code patterns, and industry best practices, our teams can use familiar visual and code components to solve common problems. As more teams are onboarded, we will be able to reuse our work and even create new reusables for future challenges.
-
-## Solution Planning
-
-During discovery, Pelican will allow stakeholders and product owners to see possible solutions unfold. This is because business analysts and designers will envision solutions for stakeholders using Pelican’s prebuilt [Components](/components).
+Louisiana’s digital teams will use a shared visual language, common code patterns, and industry best practices to solve problems quicker. As more teams are onboarded, we will be able to reuse our work and even create new reusables for future challenges.

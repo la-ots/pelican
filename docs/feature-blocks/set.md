@@ -11,11 +11,11 @@ eleventyNavigation:
   img: /img/illustrations/illus-set.svg
 ---
 
-## About this Feature Block
+## Best Practices
 
 Allows the presentation of two smaller aspects about a larger feature. Change the icons to match the aspects.
 
-## Markup & Preview
+## Usage
 
 {% include 'markup/feature-set.njk' %}
 

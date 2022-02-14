@@ -46,3 +46,107 @@
 .feature-boxed-in-photo {
   @extend .py-16;
 }
+.feature-cta {
+  @extend .bg-white ;
+  @extend .py-38;
+  .feature-big-text {
+    @extend .h2 ;
+    @extend .mb-4 ;
+    @extend .mb-md-0 ;
+    @extend .text-primary;
+  }
+  .feature-small-text {
+    @extend .mb-4 ;
+    @extend .mb-md-0 ;
+    @extend .text-primary;
+  }
+}
+.feature-cta-double {
+  @extend .bg-primary ;
+  @extend .py-20;
+  .feature-big-text {
+    @extend .h2 ;
+    @extend .mb-4 ;
+    @extend .text-white;
+  }
+  .feature-small-text {
+    @extend .text-white ;
+    @extend .mb-4 ;
+    @extend .mb-lg-0;
+  }
+}
+.feature-icons-text {
+  @extend .py-16 ;
+  @extend .bg-accent;
+  .feature-big-text {
+    @extend .h2 ;
+    @extend .text-white ;
+    @extend .font-weight-bold ;
+    @extend .text-center ;
+    @extend .text-lg-left;
+  }
+  .feature-small-text {
+    @extend .mb-8 ;
+    @extend .mb-lg-0 ;
+    @extend .text-white;
+  }
+  .feature-icons {
+    @extend .display-4;
+    @extend .text-white;
+  }
+}
+.feature-languages {
+  @extend .p-lg-16 ;
+  @extend .bg-secondary;
+  .feature-big-text {
+    @extend .h2 ;
+    @extend .font-weight-bold ;
+    @extend .text-primary;
+  }
+  .feature-small-text {
+    @extend .text-primary;
+  }
+  .feature-item {
+    @extend .rounded ;
+    @extend .py-4 ;
+    @extend .bg-white;
+    @extend .mt-4;
+    p {
+      @extend .mb-0 ;
+      @extend .h4 ;
+      @extend .font-weight-light ;
+      @extend .text-center;
+    }
+  }
+}
+.feature-many-icons {
+  @extend .p-4 ;
+  @extend .p-lg-16 ;
+  @extend .bg-primary ;
+  @extend .text-white;
+  .feature-big-text {
+    @extend .h2 ;
+    @extend .mb-8 ;
+    @extend .mb-lg-0 ;
+    @extend .text-white;
+  }
+  .feature-small-text {
+    @extend .mb-0;
+  }
+}
+.feature-set {
+  .feature-big-text {
+    @extend .h2 ;
+    @extend .text-primary;
+  }
+  .feature-lead-text {
+    @extend .mb-0;
+  }
+  .feature-small-text {
+    @extend .mb-2
+  }
+  .feature-lead-icon {
+    @extend .h4;
+    @extend .mb-0;
+  }
+}

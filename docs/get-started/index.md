@@ -19,7 +19,47 @@ Installation instructions for the latest version of the package can be found [on
 
 Included within the package are the following compiled CSS and JS builds:
 
-```
+<div class="sr-only">
+  <ul>
+    <li>pelican
+      <ul>
+        <li>dist /
+          <ul>
+            <li>css /
+              <ul>
+                <li>pelican.css</li>
+                <li>pelican.css.map</li>
+                <li>pelican.min.css</li>
+                <li>pelican.min.css.map</li>
+              </li>
+            </li>
+          </ul>
+          <ul>
+            <li>js /
+              <ul>
+                <li>pelican.bundle.js</li>
+                <li>pelican.bundle.js.map</li>
+                <li>pelican.bundle.min.js</li>
+                <li>pelican.bundle.js.min.map</li>
+                <li>pelican.esm.js</li>
+                <li>pelican.esm.js.map</li>
+                <li>pelican.esm.min.js</li>
+                <li>pelican.esm.min.js.map</li>
+                <li>pelican.js</li>
+                <li>pelican.js.map</li>
+                <li>pelican.min.js</li>
+                <li>pelican.min.js.map</li>
+              </ul>
+            </li>
+          </ul>
+        </li>      
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="" aria-hidden="true">
+<pre>
 pelican
 └── dist/
     ├── css/
@@ -40,7 +80,8 @@ pelican
         ├── pelican.js.map
         ├── pelican.min.js
         └── pelican.min.js.map
-```
+</pre>
+</div>
 
 The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
 
