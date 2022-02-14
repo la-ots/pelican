@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Accessibility
   order: 6
   excerpt: Headings are used to indicate information structure. They also enable accessible access.
-  img: /img/illustrations/illus-HEADINGS.svg
+  img: /img/illustrations/illus-headings.svg
 ---
 
 ## Overview
