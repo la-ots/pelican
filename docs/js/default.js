@@ -110,10 +110,12 @@ if (scrollToTop) {
 }
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    scrollToTop.style.display = "block";
-  } else {
-    scrollToTop.style.display = "none";
+  if (scrollToTop) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTop.style.display = "block";
+    } else {
+      scrollToTop.style.display = "none";
+    }
   }
 }
 
