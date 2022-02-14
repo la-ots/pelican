@@ -65,3 +65,61 @@ h2#resources + ul li a {
 .feature-cta-home .feature-big-text {
   color: white!important;
 }
+.describe {
+  padding-right: 0!important;
+  padding-left:  0!important;
+  margin-bottom: 0!important;
+  color: #00284d;
+}
+.describe p {
+  opacity: .75;
+}
+.describe .card {
+  border: none;
+  color: inherit;
+}
+.describe h3 {
+  font-weight: normal;
+  border: none;
+  margin: 0 0 .5rem 0;
+}
+.describe .fas {
+  opacity: .5;
+}
+.describe .card .btn {
+  box-shadow: none;
+}
+.illus-icon-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+}
+.illus-icon {
+  width: 94px; height: 94px;
+  background-color: #F8F9FA;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.illus-icon .fas {
+  font-size: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .illus-icon-box {
+    flex-direction: row;
+  }
+  .illus-icon {
+    flex: 0 0 auto;
+  }
+  .illus-icon-text {
+    margin: 0 0 0 .5rem;
+  }
+}
+.illus-icon-text h3 {
+  font-size: 1.5rem;
+}
