@@ -9,6 +9,7 @@
 
 // customizations to Bootstrap
 @import "bootstrap/scss/bootstrap";
+@import "mixins";
 @import "reboot";
 @import "type";
 @import "tables";
@@ -22,6 +23,8 @@
 @import "alert";
 @import "progress";
 @import "breadcrumb";
+@import "badges";
+@import "toasts";
 @import "modal";
 @import "tooltip";
 @import "popover";
@@ -36,4 +39,6 @@
 @import "hero";
 @import "loader";
 @import "toc";
+@import "data-tiles";
+@import "focus";
 @import "custom";

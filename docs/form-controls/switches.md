@@ -20,7 +20,7 @@ eleventyNavigation:
 _**Note:** Some Switches can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
 
 ## Usage
-### Little Switches
+
 * Allow users to enable or disable multiple items
 * Use when users can toggle multiple features on and off
 
@@ -29,18 +29,6 @@ _**Note:** Some Switches can be marked as 'required' (<span class="fas fa-asteri
 ``` html
 {% include 'markup/switches-little.njk' %}
 ```
-
-### Big Switches
-* Allow users to enable or disable larger sections of functionality
-* Can be used to disable a group of Little Switches
-
-{% include 'markup/switches-big.njk' %}
-
-``` html
-{% include 'markup/switches-big.njk' %}
-```
-
-_**Note:** Do not use multiple Big Switches as replacements for multiple Little Switches._
 
 ## Resources
 * <a href="https://designsystem.digital.gov/components/form-controls/#checkbox" target="_blank">Design.gov - Checkbox (Best Practices)</a>

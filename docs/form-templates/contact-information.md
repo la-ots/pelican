@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-contact-information.svg
 ---
 
-## About this Form Template
+## Best Practices
 
 MyLa should be used to manage users’ names. If not, use this form.
 

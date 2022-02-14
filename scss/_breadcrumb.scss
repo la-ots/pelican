@@ -1,38 +1,39 @@
-.breadcrumb-wrap {
+.breadcrumb-wrapper {
   display: block;
   background-color: $white;
   border-bottom: 1px solid $primary-10;
 }
-
 .breadcrumb {
-  display: flex;
-  flex-wrap: wrap;
-  padding: $breadcrumb-padding-y $breadcrumb-padding-x;
-  margin-bottom: $breadcrumb-margin-bottom;
-  @include font-size($breadcrumb-font-size);
-  list-style: none;
-  background-color: $breadcrumb-bg;
-  background-color: $white;
-  @include border-radius($breadcrumb-border-radius);
+  @extend .mb-0;
   @extend .rounded-0;
   @extend .border-0;
+  @extend .bg-white;
 }
-
 .breadcrumb-item {
-  a {
-    text-decoration: none;
-
-    &:hover,
-    &:active {
-      text-decoration: underline;
-    }
+  display: none;
+  &:first-child {
+    display: list-item;
   }
-
+  &:nth-last-child(2) {
+    display: list-item;
+  }
+  &:last-child {
+    display: list-item;
+  }
   &.active {
     color: $body-color;
-
     .fas {
       margin: 3px 0 0 4px;
     }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  @media screen and (min-width: 1024px){
+    display: list-item;
   }
 }

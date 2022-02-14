@@ -1,18 +1,30 @@
-.progress-steps {
-  @extend .position-relative;
+.progress-large {
+  @extend .border-bottom ;
+  @extend .border-primary-10 ;
+  @extend .bg-white ;
+  @extend .py-4 ;
+  @extend .px-16;
+}
+.progress-info {
   @extend .d-flex;
-  @extend .justify-content-between;
 }
-
-.progress-track {
-  @extend .w-100;
-  top: 50%;
-  height: 8px;
-  @extend .bg-secondary;
-  @extend .position-absolute;
-  transform: translateY(-50%);
+.progress-description {
+  @extend .text-primary ;
+  @extend .mb-0 ;
+  @extend .font-weight-bold;
+  @extend .mt-1;
+  @extend .pl-1;
 }
-
+.progress-description-counter {
+  @extend .small;
+  color: fade-out($primary, .25);
+  @extend .d-block;
+  @extend .pl-1;
+}
+.progress-description-text {
+  color: $primary;
+  @extend .d-block;
+}
 .progress-step {
   position: relative;
   display: flex;
@@ -24,40 +36,10 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 50%;
-
-  .fas {
-    display: none;
-    background-color: $white;
-  }
-
-  &.current {
-    color: $white;
-    background-color: $primary;
-    border-color: $primary;
-  }
-
-  &.future {
-    color: $primary-90;
-    background-color: $primary-10;
-    border-color: $primary-10;
-  }
-
-  &.past {
-    color: $success;
-    background-color: $white;
-    border-color: $success;
-
-    .fas {
-      position: absolute;
-      top: 50%;
-      left: -8px;
-      display: block;
-      border: 1px solid $white;
-      transform: translateY(-50%);
-    }
-  }
+  color: $white;
+  background-color: $primary;
+  border-color: $primary;
 }
-
 .progress-step-digit {
   font-size: 24px;
   text-align: center;

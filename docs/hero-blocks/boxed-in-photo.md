@@ -11,11 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-boxed-in-photo.svg
 ---
 
-## About this Hero Block
-
-This Hero Block presents a photographic representation of a subject next to a description. This presents an unobstructed view of the subject in a contained manner. This is useful for presenting a digital product with value. A call to action accompanies this description.
-
-## Best Practices
+## Best Practice
 
 {% include 'hero-guidance.njk' %}
 
