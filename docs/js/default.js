@@ -120,9 +120,14 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {
+function topFunction() {    
   let pageContent = document.getElementsByClassName("page-content");
-  if (pageContent && pageContent.length > 0) pageContent[0].scrollTop = 0;
+  if (pageContent && pageContent.length > 0) {
+    pageContent[0].scrollTop = 0;
+  } else {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }
 
 /*global $*/
