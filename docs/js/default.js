@@ -110,17 +110,24 @@ if (scrollToTop) {
 }
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    scrollToTop.style.display = "block";
-  } else {
-    scrollToTop.style.display = "none";
+  if (scrollToTop) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      scrollToTop.style.display = "block";
+    } else {
+      scrollToTop.style.display = "none";
+    }
   }
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   let pageContent = document.getElementsByClassName("page-content");
-  if (pageContent && pageContent.length > 0) pageContent[0].scrollTop = 0;
+  if (pageContent && pageContent.length > 0) {
+    pageContent[0].scrollTop = 0;
+  } else {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
 }
 
 /*global $*/
