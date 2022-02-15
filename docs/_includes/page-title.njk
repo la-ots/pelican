@@ -1,9 +1,17 @@
 <div class="page-title bg-white p-4 mb-2" id="pageTitle">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
-        <h1 class="mb-0 text-primary">{{ title }}</h1>
-        <p class="mb-0">{{ summary }}</p>
+      <div class="col-12 d-lg-flex justify-content-lg-between align-items-center">
+        <div>
+          <h1 class="mb-0 text-primary">{{ title }}</h1>
+          <p class="mb-0">{{ summary }}</p>
+        </div>
+        <div class="mt-8 mt-lg-0">
+          <a href="https://github.com/la-ots/pelican/tree/main/{{ page.inputPath }}" class="btn btn-primary btn-shadow" target="_blank">
+              <span class="fab fa-github" aria-hidden="true"></span>
+              Edit on GitHub
+          </a>
+        </div>
       </div>
     </div>
   </div>
