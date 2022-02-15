@@ -22,18 +22,32 @@ eleventyNavigation:
 
 ### Popover
 
-{% include 'markup/popovers.njk' %}
+<button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle top popover</button> <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="right" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle right popover</button> <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="bottom" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle bottom popover</button> <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="left" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle left popover</button>
 
 ``` html
-{% include 'markup/popovers.njk' %}
+<button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle top popover</button>
+<button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="right" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle right popover</button>
+<button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="bottom" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle bottom popover</button>
+<button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="left" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle left popover</button>
 ```
 
 ### Tooltips
 
-{% include 'markup/tooltips.njk' %}
+<button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><span class="fas fa-question"></span></button> <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><span class="fas fa-question"></span></button> <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"><span class="fas fa-question"></span></button> <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="left" title="Tooltip on left"><span class="fas fa-question"></span></button>
 
 ``` html
-{% include 'markup/tooltips.njk' %}
+<button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  <span class="fas fa-question"></span>
+</button>
+<button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+  <span class="fas fa-question"></span>
+</button>
+<button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+  <span class="fas fa-question"></span>
+</button>
+<button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+  <span class="fas fa-question"></span>
+</button>
 ```
 
 ## Resources

@@ -19,6 +19,8 @@ eleventyNavigation:
 - Buttons should be side by side at small sizes, when the button labels are short.
 - Buttons can be centered at small sizes when the buttons labels are too long for side by side arrangement.
 - When button labels are long enough to require centering, ensure that Back button is atop the Forward button.
+- To assign equal emphasis to Previous and Forward, change `btn-outline-ui` on the Previous button to `btn-primary`.
+- Consider the guidance in [Buttons](/components/buttons/).
 
 ## Usage
 

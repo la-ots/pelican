@@ -21,7 +21,7 @@ eleventyNavigation:
 
 ## Usage
 
-<div class="data-tile card shadow-none">	
+<div class="data-tile shadow-none">	
   <div class="data-tile-body">
     <p>Label</p>
     <hr class="minor minimal">
@@ -30,7 +30,7 @@ eleventyNavigation:
 </div>
 
 ```html
-<div class="data-tile card shadow-none">	
+<div class="data-tile shadow-none">	
   <div class="data-tile-body">
     <p>Label</p>
     <hr class="minor minimal">

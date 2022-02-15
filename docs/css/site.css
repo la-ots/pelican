@@ -5,9 +5,7 @@
 
 h2:not(:nth-child(1)),
 h3:not(.popover-header) {
-  padding-top: 24px;
-  margin-top: 56px;
-  border-top: 2px dashed #c0cedb;
+  margin-top: 0px;
 }
 .card h3 {
   padding-top: unset;
@@ -31,6 +29,11 @@ h3:not(.popover-header) {
   margin-bottom: 1rem;
 }
 
+/* code blocks */
+pre[class*="language-"] {
+  margin: 0.5em 0 2rem;
+}
+
 .pd-content li > p {
   margin-bottom: 0;
 }
@@ -49,9 +52,18 @@ h3:not(.popover-header) {
                0 18px 23px rgba(0, 0, 0, 0.1);
 }
 
+h2#resources {
+  padding-top: 1.25rem;
+  margin-top: 1.5rem;
+  border-top: 1px dashed #c0cedb;
+}
 h2#resources + ul li a {
   text-decoration: none;
-} 
+}
+
+p + ul {
+  margin-top: calc(-1 * .5rem);
+}
 
 .sitemap a:focus {
   box-shadow: none;

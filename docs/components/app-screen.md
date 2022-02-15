@@ -40,7 +40,10 @@ Everything considered part of the App Screen is placed into this element. This i
 
 ## Sidebar with Navigation
 
-The first child element is the Sidebar with Navigation. This is the `nav`. For small devices like smartphones, it makes responsive adjustments.
+The first child element is the Sidebar with Navigation. This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
+
+- Current pages get the class `active` added to the class list of the `li` and `a` which hold the link.
+- Current child pages also get the eye icon, <span class="fas fa-eye" aria-hidden="true"></span>, for the circle icon. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 
 ```html
 <nav id="sidebar" class="sidebar-wrapper d-print-none">
@@ -84,12 +87,6 @@ The first child element is the Sidebar with Navigation. This is the `nav`. For s
     </div>
 </nav>
 ```
-
-Add Top Level and Child Level items as needed. Further guidance follows:
-
-- Child Level items have a circle icon, <span class="fas fa-circle"></span>, to indicate their membership under the Top Level nav item.
-- Current pages get the class `active` added to the classlist of the `li` and `a` which hold the link.
-- Current pages substitute the eye icon, <span class="fas fa-eye"></span>, for the circle icon. The same icon is used in the [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 
 ## Main Wrapper
 

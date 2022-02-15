@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-### Layout
+**Layout**
 
 - Always place the primary button on the left, followed by other buttons
 - If the primary button has priority over other buttons, use the `$ui-priority` class, other buttons receive the `$ui` class
@@ -24,7 +24,7 @@ eleventyNavigation:
 - If the button is inside of a table, it receives the `btn-sm` class
 - If an action moves the user to another place in the same page, or another URL, use a link (`<a>`); in all other cases use a `<button>`
 
-### Content
+**Content**
 
 - Button labels must clearly state the action that occurs when the button is pressed
 - When writing buttons, use action verbs and precise language; you can also use a noun after the verb to clarify meaning
@@ -33,7 +33,7 @@ eleventyNavigation:
   - **Examples**: A trash can icon with the text "Delete"
 - When using an icon-only button, the icon must clearly indicate the button's purpose
 
-### Accessibility
+**Accessibility**
 
 - For accessibility reasons, when using a link you must include the `role="button"` attribute on the `<a>`
 - If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below)
@@ -41,6 +41,8 @@ eleventyNavigation:
 <hr>
 
 ## Usage
+
+See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
 ### Primary Buttons
 
@@ -62,8 +64,6 @@ eleventyNavigation:
 </div> 
 ```
 
-See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
-
 ### Outline Buttons
 
 <div class="container-fluid">
@@ -83,8 +83,6 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
     </div>
 </div> 
 ```
-
-See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
 ### Icon-only Button
 
@@ -149,6 +147,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 ```
 
 ### Specialized Buttons
+
 Pelican includes a number of pre-made, specialized buttons. Unlike Base buttons, these are constrained to specific usage purposes and only control content near their location.
 
 These include:

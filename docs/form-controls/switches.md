@@ -15,14 +15,10 @@ eleventyNavigation:
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Use this when users can toggle a feature on or off.
-- Switches are custom-styled [Checkboxes](/forms/checkboxes). 
-
-_**Note:** Some Switches can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
+- Users epxect Switches to take immediate effect.
+- Switches are custom-styled [Checkboxes](/forms/checkboxes).
 
 ## Usage
-
-* Allow users to enable or disable multiple items
-* Use when users can toggle multiple features on and off
 
 {% include 'markup/switches-little.njk' %}
 
