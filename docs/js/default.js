@@ -120,7 +120,7 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {    
+function topFunction() {
   let pageContent = document.getElementsByClassName("page-content");
   if (pageContent && pageContent.length > 0) {
     pageContent[0].scrollTop = 0;
