@@ -15,28 +15,28 @@ eleventyNavigation:
 
 **Layout**
 
-- Always place the primary button on the left, followed by other buttons
-- If the primary button has priority over other buttons, use the `$ui-priority` class, other buttons receive the `$ui` class
-- If all buttons have equal priority, all receive the `$ui` class
-- When a button is disabled, it receives the `$ui-light` class
-- If the button has a less dominant position on the page, consider using an outline button
-- Try not to overuse the `secondary` and `accent` classes; too many colors can be disorienting for a user
-- If the button is inside of a table, it receives the `btn-sm` class
-- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`); in all other cases use a `<button>`
+- Always place the primary button on the left, followed by other buttons.
+- If the primary button has priority over other buttons, use the `$ui-priority` class, other buttons receive the `$ui` class.
+- If all buttons have equal priority, all receive the `$ui` class.
+- When a button is disabled, it receives the `$ui-light` class.
+- If the button has a less dominant position on the page, consider using an outline button.
+- Try not to overuse the `secondary` and `accent` classes; too many colors can be disorienting for a user.
+- If the button is inside of a table, it receives the `btn-sm` class.
+- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`); in all other cases use a `<button>`.
 
 **Content**
 
-- Button labels must clearly state the action that occurs when the button is pressed
-- When writing buttons, use action verbs and precise language; you can also use a noun after the verb to clarify meaning
-  - **Examples**: "Edit", "Empty Trash", or "Go to File"
-- When including an icon with text, the icon's meaning must match the meaning of the text
-  - **Examples**: A trash can icon with the text "Delete"
-- When using an icon-only button, the icon must clearly indicate the button's purpose
+- Button labels must clearly state the action that occurs when the button is pressed.
+- When writing buttons, use action verbs and precise language; you can also use a noun after the verb to clarify meaning.
+  - **Examples**: "Edit", "Empty Trash", or "Go to File".
+- When including an icon with text, the icon's meaning must match the meaning of the text.
+  - **Examples**: A trash can icon with the text "Delete".
+- When using an icon-only button, the icon must clearly indicate the button's purpose.
 
 **Accessibility**
 
-- For accessibility reasons, when using a link you must include the `role="button"` attribute on the `<a>`
-- If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below)
+- For accessibility reasons, when using `<a>` to perform a data action, you must include the `role="button"` attribute on the `<a>`.
+- If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below).
 
 <hr>
 
@@ -46,42 +46,18 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ### Primary Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary">ButtonText</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary">ButtonText</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary">ButtonText</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-primary">ButtonText</button>
 ```
 
 ### Outline Buttons
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-accent">Secondary Outline</button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-outline-ui">UI Outline</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-outline-accent">Secondary Outline</button>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-outline-ui">UI Outline</button>
 ```
 
 ### Icon-only Button
@@ -89,28 +65,16 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Add text available to assistive technology.
 - Use sparingly and only when their meaning is clear to the user.
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary btn-sm">
-                <span class="fas fa-check" aria-hidden="true"></span>
-                <span class="sr-only" aria-hidden="false">Accept</span>
-            </button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary btn-sm">
+  <span class="fas fa-check" aria-hidden="true"></span>
+  <span class="sr-only" aria-hidden="false">Accept</span>
+</button>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary btn-sm">
-                <span class="fas fa-check" aria-hidden="true"></span>
-                <span class="sr-only" aria-hidden="false">Accept</span>
-            </button>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary btn-sm">
+  <span class="fas fa-check" aria-hidden="true"></span>
+  <span class="sr-only" aria-hidden="false">Accept</span>
+</button>
 ```
 
 ### Disabled Buttons
@@ -122,28 +86,11 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Add the class `disabled` to the class list.
 - Be sure to use `tabindex="-1"` to prevent tabbing to that button.
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a>
-        </div>
-    </div>
-</div>
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a>
 
 ```html
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-6 col-md-4">
-            <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
-        </div>
-        <div class="col-6 col-md-4">
-            <a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a>
-        </div>
-    </div>
-</div> 
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
+<a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a> 
 ```
 
 ### Specialized Buttons
