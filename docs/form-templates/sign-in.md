@@ -13,7 +13,8 @@ eleventyNavigation:
 
 ## Best Practices
 
-MyLa should be used to sign users into your application. If not, use this form.
+- MyLa should be used to sign users into your application. If not, use this form.
+- Put the form into a column to size as necessary.
 
 ## Usage
 
