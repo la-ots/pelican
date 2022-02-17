@@ -1,113 +1,107 @@
-<div class="container-fluid my-16">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-10 col-lg-6">
-      <div class="card">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="h3 mb-6 text-primary">
-                <span class="fas fa-user-shield text-primary-10"></span> Create User ID &amp; Password
-              </h3>
-            </div>
-            <div class="col-12">
-              <p>We need to get some information to start. We&rsquo;ll ask you to create a User ID, and a Password.</p>
-              <p class="small">If there&rsquo;s an asterisk <span class="fas fa-asterisk text-danger"></span> we have to get that information.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="form-group">
-                <label for="UserID">
-                  <span class="fas fa-asterisk text-danger"></span> User ID
-                </label>
-                <input type="text" class="form-control" id="UserID">
-                <p class="mt-1">
-                  <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseUserIDTips" aria-expanded="false" aria-controls="collapseUserIDTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a User ID?</button>
-                </p>
-                <div class="collapse" id="collapseUserIDTips">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-times-circle text-danger"></span>
-                        <div class="media-body ml-2">Don&rsquo;t use any special character twice in a row.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">You can use one of these symbols: <br class="d-block "> <kbd> - @ _</kbd> , but not twice in a row.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">You must use at least one English letter, A–Z or a–z.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">You can use numbers too.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">You must use least 8 characters but fewer than 64.</div>
-                      </div>
-                    </li>
-                  </ul>
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="h3 mb-6 text-primary">
+          <span class="fas fa-user-shield text-primary-10"></span> Create User ID &amp; Password
+        </h3>
+      </div>
+      <div class="col-12">
+        <p>We need to get some information to start. We&rsquo;ll ask you to create a User ID, and a Password.</p>
+        <p class="small">If there&rsquo;s an asterisk <span class="fas fa-asterisk text-danger"></span> we have to get that information.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="form-group">
+          <label for="UserID">
+            <span class="fas fa-asterisk text-danger"></span> User ID
+          </label>
+          <input type="text" class="form-control" id="UserID">
+          <p class="mt-1">
+            <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseUserIDTips" aria-expanded="false" aria-controls="collapseUserIDTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a User ID?</button>
+          </p>
+          <div class="collapse" id="collapseUserIDTips">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-times-circle text-danger"></span>
+                  <div class="media-body ml-2">Don&rsquo;t use any special character twice in a row.</div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="Password">
-                  <span class="fas fa-asterisk text-danger"></span> Password
-                </label>
-                <input type="password" class="form-control" id="Password">
-                <p class="mt-1">
-                  <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapsePasswordTips" aria-expanded="false" aria-controls="collapsePasswordTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a Password?</button>
-                </p>
-                <div class="collapse" id="collapsePasswordTips">
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-times-circle text-danger"></span>
-                        <div class="media-body ml-2">Don&rsquo;t use a password from any of your other accounts.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">You must use letters and numbers.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">Make some letters uppercase, make letters some lowercase.</div>
-                      </div>
-                    </li>
-                    <li class="list-group-item">
-                      <div class="media">
-                        <span class="fas fa-check-circle text-success"></span>
-                        <div class="media-body ml-2">Use some of these symbols too: <br><kbd> { [ ( < ! # , $ % ^ @ : \ | / & * - _ +=;> ) ] } </kbd></div>
-                      </div>
-                    </li>
-                  </ul>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">You can use one of these symbols: <br class="d-block "> <kbd> - @ _</kbd> , but not twice in a row.</div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="PasswordConfirm">
-                  <span class="fas fa-asterisk text-danger"></span> Confirm Password
-                </label>
-                <input type="password" class="form-control" id="PasswordConfirm">
-              </div>
-              <button class="btn btn-ui btn-block btn-shadow">
-                Create Password <span class="fas fa-check-circle"></span>
-              </button>
-            </div>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">You must use at least one English letter, A–Z or a–z.</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">You can use numbers too.</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">You must use least 8 characters but fewer than 64.</div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
+        <div class="form-group">
+          <label for="Password">
+            <span class="fas fa-asterisk text-danger"></span> Password
+          </label>
+          <input type="password" class="form-control" id="Password">
+          <p class="mt-1">
+            <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapsePasswordTips" aria-expanded="false" aria-controls="collapsePasswordTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a Password?</button>
+          </p>
+          <div class="collapse" id="collapsePasswordTips">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-times-circle text-danger"></span>
+                  <div class="media-body ml-2">Don&rsquo;t use a password from any of your other accounts.</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">You must use letters and numbers.</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">Make some letters uppercase, make letters some lowercase.</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="media">
+                  <span class="fas fa-check-circle text-success"></span>
+                  <div class="media-body ml-2">Use some of these symbols too: <br><kbd> { [ ( < ! # , $ % ^ @ : \ | / & * - _ +=;> ) ] } </kbd></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="PasswordConfirm">
+            <span class="fas fa-asterisk text-danger"></span> Confirm Password
+          </label>
+          <input type="password" class="form-control" id="PasswordConfirm">
+        </div>
+        <button class="btn btn-ui btn-shadow">
+          Create Password <span class="fas fa-check-circle"></span>
+        </button>
       </div>
     </div>
   </div>
