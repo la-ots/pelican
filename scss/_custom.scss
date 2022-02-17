@@ -108,8 +108,8 @@
 .content-container {
   @extend .bg-white;
   @extend .shadow-sm;
-  @extend .p-4 ;
-  @extend .p-lg-16 ;
+  @extend .py-4 ;
+  @extend .py-lg-16 ;
   @extend .mb-4;
   border-radius: 4px;
 }
