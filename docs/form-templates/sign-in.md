@@ -1,10 +1,10 @@
 ﻿---
-title: Sign In
+title: Sign-in
 summary: The Sign-in form allows the user to sign into an application.
 tags: form-templates
 layout: guide
 eleventyNavigation:
-  key: Sign In
+  key: Sign-in
   parent: Form Templates
   order: 6
   excerpt: The Sign-in form allows the user to sign into an application.
