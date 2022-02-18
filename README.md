@@ -72,7 +72,7 @@ For proper font and icon display, you should also use the [Public Sans](https://
 
 ## Documentation
 
-Documentation can be found at the [Pelican Documentation](http://pelican-test.ots.la.gov.s3-website.us-east-1.amazonaws.com/) website.
+Documentation can be found at the [Pelican Documentation](https://pelican.ots.la.gov) website.
 
 ## Contributing
 
