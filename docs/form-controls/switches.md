@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Use this when users can toggle a feature on or off.
-- Users epxect Switches to take immediate effect.
+- Users expect Switches to take immediate effect.
 - Switches are custom-styled [Checkboxes](/forms/checkboxes).
 
 ## Usage
