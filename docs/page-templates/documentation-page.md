@@ -17,7 +17,7 @@ eleventyNavigation:
 
 ## Usage
 
-<a class="btn btn-primary" href="" target="_blank">See Preview</a>
+<a class="btn btn-primary" href="/page-templates/documentation-page-internal/" target="_blank">See Preview</a>
 
 ``` html
 {% include 'markup/404.njk' %}
