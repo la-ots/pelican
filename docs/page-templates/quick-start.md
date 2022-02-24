@@ -3,11 +3,11 @@ title: Quick Start
 summary: Pelican’s building blocks on one all.
 tags: quick start
 layout: default
-index: true
 eleventyNavigation:
   key: Quick Start
+  parent: Page Templates
   title: Quick Start
-  order: 11
+  order: 1
 ---
 
 <!-- Start Page Title -->
