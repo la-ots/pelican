@@ -17,10 +17,10 @@ eleventyNavigation:
 
 ## Usage
 
-<a class="btn btn-primary" href="" target="_blank">See Preview</a>
+<a class="btn btn-primary" href="/page-templates/item-details-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include 'markup/404.njk' %}
+{% include 'markup/item-details.njk' %}
 ```
 
 ## Resources
