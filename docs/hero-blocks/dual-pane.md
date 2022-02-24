@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-dual-pane.svg
 ---
 
-## ## Best Practice
+## Best Practice
 
 {% include 'hero-guidance.njk' %}
 
