@@ -1,6 +1,6 @@
 ---
 title: Quick Start
-summary: Pelican’s building blocks on one all.
+summary: A sampling of Pelican’s components together on a single page.
 tags: quick start
 layout: default
 eleventyNavigation:
@@ -8,6 +8,8 @@ eleventyNavigation:
   parent: Page Templates
   title: Quick Start
   order: 1
+  excerpt: A sampling of Pelican’s components together on a single page.
+  img: /img/illustrations/illus-quick-start.svg
 ---
 
 <!-- Start Page Title -->

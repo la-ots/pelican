@@ -9,5 +9,4 @@ eleventyNavigation:
   title: Page Templates
   order: 11
   excerpt: Hero Blocks are used to create visually-engaging introductions to a site.
-  img: /img/illustrations/illus-cta-2.svg
 ---
