@@ -2,7 +2,7 @@
 title: Quick Start
 summary: A sampling of Pelican’s components together on a single page.
 tags: quick start
-layout: default
+layout: page-sample
 eleventyNavigation:
   key: Quick Start
   parent: Page Templates
@@ -314,3 +314,5 @@ eleventyNavigation:
 
 <!-- Start Buttons -->
 {% include 'markup/button-container.njk' %}
+
+
