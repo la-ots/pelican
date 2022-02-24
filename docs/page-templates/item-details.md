@@ -1,15 +1,15 @@
 ---
-title: 404 Page
+title: Item Details
 summary: 
 tags: page templates
 layout: guide
 eleventyNavigation:
-  key: 404 Page
+  key: Item Details
   parent: Page Templates
-  title: 404 Page
-  order: 4
+  title: Item Details
+  order: 2
   excerpt:
-  img: /img/illustrations/illus-404-page.svg
+  img: /img/illustrations/illus-item-details.svg
 ---
 
 ## Best Practices
@@ -17,7 +17,7 @@ eleventyNavigation:
 
 ## Usage
 
-<a class="btn btn-primary" href="/page-templates/404-page-internal/" target="_blank">See Preview</a>
+<a class="btn btn-primary" href="" target="_blank">See Preview</a>
 
 ``` html
 {% include 'markup/404.njk' %}
