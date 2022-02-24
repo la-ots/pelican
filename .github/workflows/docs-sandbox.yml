@@ -1,10 +1,10 @@
 name: Deploy Docs to Sandbox
 
 on:
+  push:
+    branches-ignore: "dependabot/**"
   pull_request:
-    branches-ignore:
-      - "dependabot/**"
-
+    
   workflow_dispatch:
 
 jobs:
