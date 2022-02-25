@@ -5,5 +5,5 @@ tags:
 layout: default-public
 ---
 
-{% include 'markup/404.njk' %}
+{% include 'markup/404-public.njk' %}
 

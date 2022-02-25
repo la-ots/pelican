@@ -17,10 +17,16 @@ eleventyNavigation:
 
 ## Usage
 
-<a class="btn btn-primary" href="" target="_blank">See Preview</a>
+<a class="btn btn-primary" href="/page-templates/error-page-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include 'markup/404.njk' %}
+{% include 'markup/error-internal.njk' %}
+```
+
+<a class="btn btn-primary" href="/page-templates/error-page-public/" target="_blank">See Public Preview</a>
+
+``` html
+{% include 'markup/error-public.njk' %}
 ```
 
 ## Resources

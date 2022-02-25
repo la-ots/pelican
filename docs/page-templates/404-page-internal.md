@@ -5,5 +5,5 @@ tags:
 layout: default-internal
 ---
 
-{% include 'markup/404.njk' %}
+{% include 'markup/404-internal.njk' %}
 
