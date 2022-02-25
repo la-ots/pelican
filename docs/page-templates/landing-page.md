@@ -20,7 +20,7 @@ eleventyNavigation:
 <a class="btn btn-primary" href="/page-templates/landing-page-public/" target="_blank">See Public Preview</a>
 
 ``` html
-{% include 'markup/landing-page.njk' %}
+{% include 'markup/landing-public.njk' %}
 ```
 
 ## Resources
