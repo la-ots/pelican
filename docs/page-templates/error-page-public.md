@@ -1,7 +1,5 @@
 ---
-title: Error Page
-summary: 
-tags:
+title: Error Page Public
 layout: default-public
 ---
 

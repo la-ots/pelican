@@ -1,7 +1,5 @@
 ---
-title: Page not found
-summary: 
-tags:
+title: 404 Page Internal
 layout: default-internal
 ---
 

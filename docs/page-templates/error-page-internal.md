@@ -1,7 +1,5 @@
 ---
-title: Error Page
-summary: 
-tags:
+title: Error Page Internal
 layout: default-internal
 ---
 

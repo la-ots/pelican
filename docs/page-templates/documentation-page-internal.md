@@ -1,13 +1,11 @@
 ---
-title: Document Page
-summary: 
-tags:
+title: Document Page Internal
 layout: default-internal
 ---
 
 {% include 'markup/breadcrumbs.njk' %}
 {% include 'markup/page-title.njk' %}
 
-{% include 'markup/documentation-page-internal.njk' %}
+{% include 'markup/documentation-internal.njk' %}
 
 {% include 'markup/button-back-forward.njk' %}

@@ -1,7 +1,5 @@
 ---
-title: Page not found
-summary: 
-tags:
+title: 404 Page Public
 layout: default-public
 ---
 
