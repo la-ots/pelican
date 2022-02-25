@@ -23,6 +23,12 @@ eleventyNavigation:
 {% include 'markup/documentation-page-internal.njk' %}
 ```
 
+<a class="btn btn-primary" href="/page-templates/documentation-page-public/" target="_blank">See Public Preview</a>
+
+``` html
+{% include 'markup/documentation-page-public.njk' %}
+```
+
 ## Resources
 
 
