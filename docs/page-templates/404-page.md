@@ -1,6 +1,6 @@
 ---
 title: 404 Page
-summary: 
+summary: A prompt to redirect the user from an invalid url.
 tags: page templates
 layout: guide
 eleventyNavigation:
@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Page Templates
   title: 404 Page
   order: 4
-  excerpt:
+  excerpt: A prompt to redirect the user from an invalid url.
   img: /img/illustrations/illus-404-page.svg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Documentation Page
-summary: 
+summary: A layout that provides links to jump to content section headers.
 tags: page templates
 layout: guide
 eleventyNavigation:
@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Page Templates
   title: Documentation Page
   order: 5
-  excerpt:
+  excerpt: A layout that provides links to jump to content section headers.
   img: /img/illustrations/illus-doc-page.svg
 ---
 

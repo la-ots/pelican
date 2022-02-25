@@ -1,6 +1,6 @@
 ---
 title: Landing Page
-summary: 
+summary: An example of custom block elements put together.
 tags: page templates
 layout: guide
 eleventyNavigation:
@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Page Templates
   title: Landing Page
   order: 6
-  excerpt:
+  excerpt: An example of custom block elements put together.
   img: /img/illustrations/illus-landing-page.svg
 ---
 

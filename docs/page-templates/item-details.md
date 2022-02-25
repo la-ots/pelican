@@ -1,6 +1,6 @@
 ---
 title: Item Details
-summary: 
+summary: A showcase of different displays to view extended information.
 tags: page templates
 layout: guide
 eleventyNavigation:
@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Page Templates
   title: Item Details
   order: 2
-  excerpt:
+  excerpt: A showcase of different displays to view extended information.
   img: /img/illustrations/illus-item-details.svg
 ---
 

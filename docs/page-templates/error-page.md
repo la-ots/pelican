@@ -1,6 +1,6 @@
 ---
 title: Error Page
-summary: 
+summary: A prompt to notify the user of an issue on the site.
 tags: page templates
 layout: guide
 eleventyNavigation:
@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Page Templates
   title: Error Page
   order: 3
-  excerpt:
+  excerpt: A prompt to notify the user of an issue on the site.
   img: /img/illustrations/illus-error-page.svg
 ---
 
