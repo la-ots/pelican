@@ -2,7 +2,7 @@
 title: Landing Page
 summary: 
 tags:
-layout: default-public
+layout: default-public-banner
 ---
 
 {% include 'markup/landing-page.njk' %}
