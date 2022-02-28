@@ -1,8 +1,9 @@
 .btn-link {
-  @extend .shadow-none;
-  @extend .bg-transparent;
-  @extend .border-0;
   @extend .text-decoration-none;
+
+  @extend .shadow-none;
+  @extend .border-0;
+  @extend .bg-transparent;
   background-color: transparent;
   border: 0;
   box-shadow: none;
@@ -112,6 +113,7 @@
   @extend .py-2;
   @extend .my-2;
   @extend .mb-0;
+
   @extend .shadow-none;
   background-color: transparent;
   border: 2px dashed $gray-600;
@@ -197,9 +199,10 @@ p a {
 }
 
 .btn-prev-next-section {
-  @extend .text-ui-priority ;
-  @extend .bg-transparent ;
-  @extend .border-0 ;
+  @extend .text-ui-priority;
+
+  @extend .bg-transparent;
+  @extend .border-0;
   @extend .shadow-none;
 }
 

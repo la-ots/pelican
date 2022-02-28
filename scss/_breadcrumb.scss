@@ -7,7 +7,7 @@
   @extend .mb-0;
   @extend .rounded-0;
   @extend .border-0;
-  @extend .bg-white;
+  background-color: $white;
 }
 .breadcrumb-item {
   display: none;

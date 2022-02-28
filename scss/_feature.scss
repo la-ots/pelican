@@ -47,7 +47,7 @@
   @extend .py-16;
 }
 .feature-cta {
-  @extend .bg-white ;
+  background-color: $white;
   @extend .py-38;
   .feature-big-text {
     @extend .h2 ;
@@ -67,20 +67,20 @@
   .feature-big-text {
     @extend .h2 ;
     @extend .mb-4 ;
-    @extend .text-white;
+    color: $white;
   }
   .feature-small-text {
-    @extend .text-white ;
+    color: $white;
     @extend .mb-4 ;
     @extend .mb-lg-0;
   }
 }
 .feature-icons-text {
   @extend .py-16 ;
-  @extend .bg-accent;
+  background-color: $accent;
   .feature-big-text {
     @extend .h2 ;
-    @extend .text-white ;
+    color: $white;
     @extend .font-weight-bold ;
     @extend .text-center ;
     @extend .text-lg-left;
@@ -89,27 +89,28 @@
     @extend .mb-8 ;
     @extend .mb-lg-0 ;
     @extend .text-white;
+    color: $white;
   }
   .feature-icons {
     @extend .display-4;
-    @extend .text-white;
+    color: $white;
   }
 }
 .feature-languages {
   @extend .p-lg-16 ;
-  @extend .bg-secondary;
+  background-color: $secondary;
   .feature-big-text {
     @extend .h2 ;
     @extend .font-weight-bold ;
-    @extend .text-primary;
+    color: $primary;
   }
   .feature-small-text {
-    @extend .text-primary;
+    color: $primary;
   }
   .feature-item {
     @extend .rounded ;
     @extend .py-4 ;
-    @extend .bg-white;
+    background-color: $white;
     @extend .mt-4;
     p {
       @extend .mb-0 ;
@@ -122,13 +123,13 @@
 .feature-many-icons {
   @extend .p-4 ;
   @extend .p-lg-16 ;
-  @extend .bg-primary ;
-  @extend .text-white;
+  background-color: $primary;
+  color: $white;
   .feature-big-text {
     @extend .h2 ;
     @extend .mb-8 ;
     @extend .mb-lg-0 ;
-    @extend .text-white;
+    color: $white;
   }
   .feature-small-text {
     @extend .mb-0;
@@ -137,7 +138,7 @@
 .feature-set {
   .feature-big-text {
     @extend .h2 ;
-    @extend .text-primary;
+    color: $primary;
   }
   .feature-lead-text {
     @extend .mb-0;

@@ -31,11 +31,13 @@
 }
 
 .official-banner {
-  @extend .bg-black;
-  @extend .text-white;
-  @extend .border-black;
-  @extend .border-bottom;
   @extend .py-2;
+
+  @extend .border-bottom;
+
+  background-color: $black;
+  color: $white;
+  border-color: $black;
 
   .container-fluid {
     @extend .py-1;
@@ -70,7 +72,8 @@
   @extend .position-relative;
   @extend .btn;
   @extend .btn-link;
-  @extend .text-white;
+
+  color: $white;
 }
 
 .page-header {
@@ -86,7 +89,7 @@
 
 .page-title {
   @extend .shadow-sm;
-  @extend .bg-white ;
+  background-color: $white;
   @extend .p-4 ;
   @extend .p-lg-16 ;
   @extend .mb-4;
@@ -106,7 +109,7 @@
 }
 
 .content-container {
-  @extend .bg-white;
+  background-color: $white;
   @extend .shadow-sm;
   @extend .p-4 ;
   @extend .p-lg-16 ;
@@ -252,7 +255,7 @@
 
 .white-box,
 .form-fieldset {
-  @extend .bg-white;
+  background-color: $white;
   padding: ($spacer * 1.5) $spacer;
   margin-bottom: $spacer;
   border-bottom: $border-width $border-style $border-color;
