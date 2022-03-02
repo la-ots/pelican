@@ -1,6 +1,6 @@
 ---
 title: 404 Page
-summary: A prompt to redirect the user from an invalid url.
+summary: 404 Pages tell the user a page doesn’t exist and helps them recover.
 tags: page templates
 layout: guide
 eleventyNavigation:
@@ -8,12 +8,15 @@ eleventyNavigation:
   parent: Page Templates
   title: 404 Page
   order: 4
-  excerpt: A prompt to redirect the user from an invalid url.
+  excerpt: 404 Pages tell the user a page doesn’t exist and helps them recover.
   img: /img/illustrations/illus-404-page.svg
 ---
 
 ## Best Practices
 
+404 pages are pages which users will see if they click an invalid URL. An invalid URL could be caused by a developer error, a copy and paste error, or other error. They are not the user’s fault.
+
+{% include 'writing-tips.njk' %}
 
 ## Usage
 
@@ -28,13 +31,3 @@ eleventyNavigation:
 ``` html
 {% include 'markup/404-public.njk' %}
 ```
-
-## Resources
-
-
-
-
-
-
-
-

@@ -14,6 +14,7 @@ eleventyNavigation:
 
 ## Best Practices
 
+{% include 'writing-tips.njk' %}
 
 ## Usage
 
@@ -28,13 +29,3 @@ eleventyNavigation:
 ``` html
 {% include 'markup/error-public.njk' %}
 ```
-
-## Resources
-
-
-
-
-
-
-
-
