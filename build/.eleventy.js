@@ -10,6 +10,30 @@ const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 
+
+exports.data = {
+  pagination: {
+    data: "testdata",
+    size: 2
+  },
+  testdata: [
+    "item1",
+    "item2",
+    "item3",
+    "item4"
+  ]
+};
+
+exports.render = function(data) {
+  return `<ol>
+    ${data.pagination.items.map(function(item) {
+        return `<li>${item}</li>`;
+      }).join("")
+    }
+  </ol>`;
+};
+
+
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
 
