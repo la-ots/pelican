@@ -50,28 +50,28 @@
   background-color: $white;
   @extend .py-38;
   .feature-big-text {
-    @extend .h2 ;
-    @extend .mb-4 ;
-    @extend .mb-md-0 ;
-    @extend .text-primary;
+    @extend .h2;
+    @extend .mb-4;
+    @extend .mb-md-0;
+    color: $primary;
   }
   .feature-small-text {
-    @extend .mb-4 ;
-    @extend .mb-md-0 ;
-    @extend .text-primary;
+    @extend .mb-4;
+    @extend .mb-md-0;
+    color: $primary;
   }
 }
 .feature-cta-double {
-  @extend .bg-primary ;
+  background-color: $primary ;
   @extend .py-20;
   .feature-big-text {
-    @extend .h2 ;
-    @extend .mb-4 ;
+    @extend .h2;
+    @extend .mb-4;
     color: $white;
   }
   .feature-small-text {
     color: $white;
-    @extend .mb-4 ;
+    @extend .mb-4;
     @extend .mb-lg-0;
   }
 }
@@ -88,7 +88,6 @@
   .feature-small-text {
     @extend .mb-8 ;
     @extend .mb-lg-0 ;
-    @extend .text-white;
     color: $white;
   }
   .feature-icons {
@@ -97,25 +96,24 @@
   }
 }
 .feature-languages {
-  @extend .p-lg-16 ;
+  @extend .p-lg-16;
   background-color: $secondary;
   .feature-big-text {
-    @extend .h2 ;
-    @extend .font-weight-bold ;
+    @extend .h2;
     color: $primary;
   }
   .feature-small-text {
     color: $primary;
   }
   .feature-item {
-    @extend .rounded ;
-    @extend .py-4 ;
+    @extend .rounded;
+    @extend .py-4;
     background-color: $white;
     @extend .mt-4;
     p {
-      @extend .mb-0 ;
-      @extend .h4 ;
-      @extend .font-weight-light ;
+      @extend .mb-0;
+      @extend .h4;
+      font-weight: 300 !important;
       @extend .text-center;
     }
   }
@@ -126,9 +124,9 @@
   background-color: $primary;
   color: $white;
   .feature-big-text {
-    @extend .h2 ;
-    @extend .mb-8 ;
-    @extend .mb-lg-0 ;
+    @extend .h2;
+    @extend .mb-8;
+    @extend .mb-lg-0;
     color: $white;
   }
   .feature-small-text {
@@ -137,14 +135,14 @@
 }
 .feature-set {
   .feature-big-text {
-    @extend .h2 ;
+    @extend .h2;
     color: $primary;
   }
   .feature-lead-text {
     @extend .mb-0;
   }
   .feature-small-text {
-    @extend .mb-2
+    @extend .mb-2;
   }
   .feature-lead-icon {
     @extend .h4;
