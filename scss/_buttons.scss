@@ -1,8 +1,8 @@
 .btn-link {
-  text-decoration: none !important;
+  @extend .shadow-none;
+  @extend .border-0;
+  @extend .text-decoration-none;
   background-color: transparent !important;
-  border: 0;
-  box-shadow: none;
 }
 
 .btn-primary,
@@ -67,7 +67,7 @@
       box-shadow: none;
     }
     &.btn-link {
-      margin-right: 0 !important;
+      @extend .mr-0;
     }
     @media screen and (min-width: 1024px){
       width: unset;
@@ -109,8 +109,8 @@
   @extend .py-2;
   @extend .my-2;
   @extend .mb-0;
+  @extend .shadow-none;
 
-  box-shadow: none;
   background-color: transparent;
   border: 2px dashed $gray-600;
 
@@ -182,7 +182,7 @@ p a {
 }
 
 #ScrollToTop, .btn-scroll-top {
-  position: fixed;
+  @extend .position-fixed;
   @extend .btn;
   @extend .btn-accent;
   right: $spacer * 2;
@@ -198,8 +198,8 @@ p a {
 .btn-prev-next-section {
   color: $ui-priority;
   background-color: transparent !important;
-  border: 0;
-  box-shadow: none;
+  @extend .border-0 ;
+  @extend .shadow-none;
 }
 
 .btns-previous-forward {

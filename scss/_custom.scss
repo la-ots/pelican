@@ -31,9 +31,8 @@
 }
 
 .official-banner {
-  @extend .py-2;
-
   @extend .border-bottom;
+  @extend .py-2;
 
   background-color: $black;
   color: $white;
@@ -69,10 +68,9 @@
   }
 }
 .sidebar-button {
-  position: relative;
+  @extend .position-relative;
   @extend .btn;
   @extend .btn-link;
-
   color: $white;
 }
 
@@ -88,29 +86,28 @@
 }
 
 .page-title {
-  box-shadow: 0 0.25rem 2px rgb(0 0 0 / 10%);
+  @extend .shadow-sm;
   background-color: $white;
   @extend .py-4;
   @extend .py-lg-16;
-  margin-bottom: 1rem;
+  @extend .mb-4;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
 }
 .page-title-text {
   @extend .h2 ;
-  margin-bottom: 0;
+  @extend .mb-0;
   color: $primary;
   .icon {
     color: $primary-10;
   }
   p {
-    margin-bottom: 0;
+    @extend .mb-0;
   }
 }
 
 .content-container {
   background-color: $white;
-  box-shadow: 0 0.25rem 2px rgb(0 0 0 / 10%);
   @extend .py-4;
   @extend .py-lg-16;
   @extend .mb-4;

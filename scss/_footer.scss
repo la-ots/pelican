@@ -1,6 +1,6 @@
 footer, .footer {
   .brand-logo {
-    position: relative;
+    @extend .position-relative;
     svg {
       width: 100%;
       .mark,
@@ -29,7 +29,7 @@ footer, .footer {
     @extend .pt-4 ;
     @extend .mt-auto;
     .brand-logo {
-      margin-bottom: 0;
+      @extend .mb-0;
     }
     hr.major {
       background-color: $primary-90;
