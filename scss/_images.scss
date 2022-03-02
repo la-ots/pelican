@@ -50,7 +50,6 @@
   @extend .small;
   @extend .mt-2;
   @extend .opacity-75;
-  @extend .text-ui;
 
   @include media-breakpoint-up(lg) {
     position: absolute;
