@@ -69,7 +69,7 @@
   }
 }
 .sidebar-button {
-  @extend .position-relative;
+  position: relative;
   @extend .btn;
   @extend .btn-link;
 
@@ -88,29 +88,29 @@
 }
 
 .page-title {
-  @extend .shadow-sm;
+  box-shadow: 0 0.25rem 2px rgb(0 0 0 / 10%);
   background-color: $white;
   @extend .p-4 ;
   @extend .p-lg-16 ;
-  @extend .mb-4;
+  margin-bottom: 1rem;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
 }
 .page-title-text {
   @extend .h2 ;
-  @extend .mb-0 ;
-  @extend .text-primary;
+  margin-bottom: 0;
+  color: $primary;
   .icon {
-    @extend .text-primary-10;
+    color: $primary-10;
   }
   p {
-    @extend .mb-0;
+    margin-bottom: 0;
   }
 }
 
 .content-container {
   background-color: $white;
-  @extend .shadow-sm;
+  box-shadow: 0 0.25rem 2px rgb(0 0 0 / 10%);
   @extend .p-4 ;
   @extend .p-lg-16 ;
   @extend .mb-4;
@@ -242,6 +242,7 @@
   border: 1px solid $input-border-color;
 }
 
+//this item (as well as its associated page) are no longer used/shown in this project
 .white-box {
   border: 1px solid $gray-300;
 }
@@ -253,6 +254,7 @@
   border-radius: $border-radius;
 }
 
+//this combination does not appear to be in use
 .white-box,
 .form-fieldset {
   background-color: $white;

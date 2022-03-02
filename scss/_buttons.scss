@@ -1,10 +1,6 @@
 .btn-link {
-  @extend .text-decoration-none;
-
-  @extend .shadow-none;
-  @extend .border-0;
-  @extend .bg-transparent;
-  background-color: transparent;
+  text-decoration: none !important;
+  background-color: transparent !important;
   border: 0;
   box-shadow: none;
 }
@@ -71,7 +67,7 @@
       box-shadow: none;
     }
     &.btn-link {
-      @extend .mr-0;
+      margin-right: 0 !important;
     }
     @media screen and (min-width: 1024px){
       width: unset;
@@ -114,7 +110,7 @@
   @extend .my-2;
   @extend .mb-0;
 
-  @extend .shadow-none;
+  box-shadow: none;
   background-color: transparent;
   border: 2px dashed $gray-600;
 
@@ -133,7 +129,7 @@
 
 .share-this {
   @extend .text-center;
-  @extend .bg-white;
+  background-color: $white;
   @extend .p-4;
 
   small {
@@ -146,7 +142,7 @@
     @extend .btn;
     @extend .btn-link;
     @extend .btn-lg;
-    @extend .bg-white;
+    background-color: $white;
     @extend .px-2;
   }
 }
@@ -186,7 +182,7 @@ p a {
 }
 
 #ScrollToTop, .btn-scroll-top {
-  @extend .position-fixed;
+  position: fixed;
   @extend .btn;
   @extend .btn-accent;
   right: $spacer * 2;
@@ -198,12 +194,12 @@ p a {
   }
 }
 
+//this class has similar attributes to btn-link
 .btn-prev-next-section {
-  @extend .text-ui-priority;
-
-  @extend .bg-transparent;
-  @extend .border-0;
-  @extend .shadow-none;
+  color: $ui-priority;
+  background-color: transparent !important;
+  border: 0;
+  box-shadow: none;
 }
 
 .btns-previous-forward {
