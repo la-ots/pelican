@@ -12,7 +12,7 @@ pagination:
   data: collections.blog
   size: 10
   alias: blogs
-permalink: "whats-new/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
+permalink: "whats-new/page-{{ pagination.pageNumber + 1 }}/"
 ---
 
 ## Make Pelican Better
