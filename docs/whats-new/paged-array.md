@@ -1,0 +1,15 @@
+---
+pagination:
+  data: testdata
+  size: 2
+testdata:
+ - item1
+ - item2
+ - item3
+ - item4
+---
+<ol>
+{%- for item in pagination.items %}
+  <li>{{ item }}</li>
+{% endfor -%}
+</ol>
