@@ -24,9 +24,11 @@ layout: default.njk
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card shadow-none border-0">
               <div class="card-body">
-              <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">
-                  {{ child.title }}
-              </a>
+                <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">
+                    {{ child.title }}
+                </a>
+              </div>
+            </div>
           </div>
         {% endfor %}                
       </div>
