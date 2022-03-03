@@ -8,6 +8,10 @@ eleventyNavigation:
   key: What’s New
   title: What’s New
   order: 1
+pagination:
+  data: collections.blog
+  size: 10
+  alias: blogs
 ---
 
 ## Make Pelican Better
@@ -63,3 +67,13 @@ Pelican’s purpose is to bring consistency, user friendliness, and to modernize
 ## 0.1.01 — 28 December 2020
 
 - There’s too much to cover in here as it’s the first release of Pelican. We aren’t going to stop, but we’re going to continually improve Pelican and fix bugs.
+
+
+<ul>
+{% for blog in blogs %}
+  <li><a href="{{ blog.url | url }}">{{ blog.data.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% endif %}
+{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% endif %}
