@@ -9,7 +9,7 @@ h3:not(.popover-header) {
   margin-top: 56px;
   border-top: 2px dashed #c0cedb;
 }
-.card h3 {
+.card h2, .card h3 {
   padding-top: unset;
   margin-top: unset;
   border-top: unset;
