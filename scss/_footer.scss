@@ -10,7 +10,7 @@ footer, .footer {
     }
   }
   &.footer-basic   {
-    @extend .bg-black;
+    background-color: $black;
     @extend .mt-12;
     .links-wrapper {
       @extend .d-flex ;
@@ -18,24 +18,24 @@ footer, .footer {
       @extend .justify-content-center ;
       @extend .py-4;
       .btn-link {
-        @extend .text-white ;
+        color: $white;
         @extend .border-0 ;
         @extend .rounded-0;
       }
     }
   }
   &.footer-utility {
-    @extend .bg-primary ;
+    background-color: $primary;
     @extend .pt-4 ;
     @extend .mt-auto;
     .brand-logo {
       @extend .mb-0;
     }
     hr.major {
-      @extend .bg-primary-90;
+      background-color: $primary-90;
     }
     .btn-link {
-      @extend .text-secondary;
+      color: $secondary;
     }
   }
 }

@@ -18,10 +18,10 @@
     @extend .opacity-75;
   }
   .overlay-left {
-    @extend .bg-primary;
+    background-color: $primary;
   }
   .overlay-right {
-    @extend .bg-accent;
+    background-color: $accent;
   }
   .container {
     @extend .position-relative;
@@ -33,19 +33,19 @@
   }
   .hero-big-text {
     @extend .h1 ;
-    @extend .text-white ;
+    color: $white;
     @extend .font-weight-bold ;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
   }
   .hero-lead-text {
     @extend .h4 ;
-    @extend .text-white ;
+    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
   }
   .hero-small-text {
-    @extend .text-white ;
+    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
   }
@@ -61,8 +61,8 @@
   }
   .half-right {
     @extend .py-32;
-    @extend .bg-primary ;
-    @extend .text-white;
+    background-color: $primary;
+    color: $white;
     .row {
       @extend .justify-content-center;
       @extend .align-items-center;
@@ -70,10 +70,10 @@
   }
   .hero-big-text {
     @extend .h2 ;
-    @extend .text-white;
+    color: $white;
   }
   .hero-small-text {
-    @extend .text-white;
+    color: $white;
   }
   .img-fluid {
     @extend .d-lg-none;
@@ -85,7 +85,7 @@
   @extend .shadow-none;
   .hero-big-text {
     @extend .h2 ;
-    @extend .text-primary;
+    color: $primary;
   }
   .hero-small-text {
   }
@@ -103,20 +103,20 @@
   @extend .pt-40 ;
   @extend .pb-10;
   .overlay {
-    @extend .bg-accent ;
+    background-color: $accent;
     @extend .opacity-85 ;
     @extend .position-absolute ;
     top:0; right:0; bottom:0; left:0;
   }
   .hero-big-text {
-    @extend .h2 ;
-    @extend .font-weight-bold ;
-    @extend .text-white ;
+    @extend .h2;
+    @extend .font-weight-bold;
+    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
   }
   .hero-small-text {
-    @extend .text-white ;
+    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
   }
@@ -133,21 +133,21 @@
   @extend .bg-image-position-center ;
   @extend .py-40;
   .overlay {
-    @extend .bg-white ;
+    background-color: $white;
     @extend .position-absolute ;
     @extend .opacity-50 ;
     top:0; right:0; bottom:0; left: 0;
   }
   .hero-textbox {
-    @extend .bg-primary ;
+    background-color: $primary;
     @extend .p-10;
   }
   .hero-big-text {
     @extend .h2 ;
     @extend .font-weight-bold ;
-    @extend .text-white;
+    color: $white;
   }
   .hero-small-text {
-    @extend .text-white;
+    color: $white;
   }
 }
