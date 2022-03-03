@@ -1,11 +1,8 @@
 .btn-link {
   @extend .shadow-none;
-  @extend .bg-transparent;
   @extend .border-0;
   @extend .text-decoration-none;
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
+  background-color: transparent !important;
 }
 
 .btn-primary,
@@ -113,6 +110,7 @@
   @extend .my-2;
   @extend .mb-0;
   @extend .shadow-none;
+
   background-color: transparent;
   border: 2px dashed $gray-600;
 
@@ -131,7 +129,7 @@
 
 .share-this {
   @extend .text-center;
-  @extend .bg-white;
+  background-color: $white;
   @extend .p-4;
 
   small {
@@ -144,7 +142,7 @@
     @extend .btn;
     @extend .btn-link;
     @extend .btn-lg;
-    @extend .bg-white;
+    background-color: $white;
     @extend .px-2;
   }
 }
@@ -196,9 +194,10 @@ p a {
   }
 }
 
+//this class has similar attributes to btn-link
 .btn-prev-next-section {
-  @extend .text-ui-priority ;
-  @extend .bg-transparent ;
+  color: $ui-priority;
+  background-color: transparent !important;
   @extend .border-0 ;
   @extend .shadow-none;
 }

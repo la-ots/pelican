@@ -1,26 +1,26 @@
 .toast {
   &.toast-success {
     .toast-header {
-      @extend .bg-success-10;
-      @extend .text-success-90;
+      background-color: $success-10;
+      color: $success-90;
     }
   }
   &.toast-danger  {
     .toast-header {
-      @extend .bg-danger-10;
-      @extend .text-danger-90;
+      background-color: $danger-10;
+      color: $danger-90;
     }
   }
   &.toast-info    {
     .toast-header {
-      @extend .bg-info-10;
-      @extend .text-info-90;
+      background-color: $info-10;
+      color: $info-90;
     }
   }
   &.toast-warning {
     .toast-header {
-      @extend .bg-warning-10;
-      @extend .text-warning-90;
+      background-color: $warning-10;
+      color: $warning-90;
     }
   }
 }

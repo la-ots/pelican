@@ -41,16 +41,15 @@
 }
 
 .cover-image-pull-quote {
-  @extend .text-primary;
+  color: $primary;
   @extend .lead;
 }
 
 .cover-image-credit {
-  @extend .text-ui;
+  color: $ui;
   @extend .small;
   @extend .mt-2;
   @extend .opacity-75;
-  @extend .text-ui;
 
   @include media-breakpoint-up(lg) {
     position: absolute;
