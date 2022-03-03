@@ -36,7 +36,7 @@
 
   background-color: $black;
   color: $white;
-  border-color: $black;
+  border-color: $black !important;
 
   .container-fluid {
     @extend .py-1;
@@ -66,12 +66,6 @@
   @include media-breakpoint-up(lg) {
     justify-content: flex-start;
   }
-}
-.sidebar-button {
-  @extend .position-relative;
-  @extend .btn;
-  @extend .btn-link;
-  color: $white;
 }
 
 .page-header {
