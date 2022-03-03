@@ -13,7 +13,6 @@
           {{ entry.title }} <span class="fas fa-eye" aria-hidden="true"></span>
         </li>
       {% elif entry.url in page.url %}
-        {% if entry.children.length > 0 %}
           <li class="breadcrumb-item">
             <a href="{{ entry.url | url }}">
               {{ entry.title }}
@@ -26,7 +25,6 @@
               </li>
             {% endif %}
           {% endfor %}
-        {% endif %}
       {% endif %}
     {% endfor %}
   </ol>
