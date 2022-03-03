@@ -2,7 +2,7 @@
 title: What’s New
 summary: Pelican Changelog
 tags: resources
-layout: guide
+layout: page
 index: true
 eleventyNavigation:
   key: What’s New
@@ -33,5 +33,24 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 {% endfor %}
 
-{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% endif %}
-{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% endif %}
+<hr class="major opacity-50 mb-0"/>
+<div class="container-fluid py-12">
+  <div class="row justify-content-between">
+    <div class="col-6 col-md-3 col-lg-2">
+      {%- if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}" class="btn btn-primary btn-shadow btn-block" id="btnBack">
+        <span class="fas fa-arrow-left fa-xs" aria-hidden="true"></span>
+        Previous
+      </a>
+      {%- endif %}
+    </div>
+    <div class="col-6 col-md-3 col-lg-2 text-right">
+      {%- if pagination.href.next %}
+      <a href="{{ pagination.href.next }}" class="btn btn-primary btn-shadow btn-block" id="btnForward">
+        Next
+        <span class="fas fa-arrow-right fa-xs" aria-hidden="true"></span>
+      </a>
+      {%- endif %}
+    </div>
+  </div>
+</div>
