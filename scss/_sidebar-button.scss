@@ -1,0 +1,6 @@
+.sidebar-button {
+  @extend .position-relative;
+  @extend .btn;
+  @extend .btn-link;
+  color: $white;
+}
