@@ -1,14 +1,14 @@
 .progress-large {
   @extend .border-bottom ;
   @extend .border-primary-10 ;
-  @extend .bg-white ;
+  background-color: $white;
   @extend .py-4 ;
 }
 .progress-info {
   @extend .d-flex;
 }
 .progress-description {
-  @extend .text-primary ;
+  color: $primary;
   @extend .mb-0 ;
   @extend .font-weight-bold;
   @extend .mt-1;
