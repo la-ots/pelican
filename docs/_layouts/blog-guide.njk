@@ -1,0 +1,23 @@
+---
+layout: default.njk
+---
+{% include "page-title.njk" %}
+<div class="p-lg-16">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        {% include "page-contents.njk" %}
+      </div>
+      <div class="col-12">
+        <div class="card bg-less-bright">
+          <div class="card-body">
+            {{ content | safe }}
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+{% include "blog-navigation.njk" %}
