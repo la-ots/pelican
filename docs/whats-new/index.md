@@ -2,12 +2,13 @@
 title: What’s New
 summary: Pelican Changelog
 tags: resources
-layout: page
+layout: default-pagination
 index: true
 eleventyNavigation:
   key: What’s New
   title: What’s New
   order: 1
+  excerpt: Pelican Changelog
 pagination:
   data: collections.blog
   size: 10
