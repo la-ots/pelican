@@ -5,10 +5,11 @@ tags: resources
 layout: default-pagination
 index: true
 eleventyNavigation:
-  key: What’s New
+  key: NewsBlog
   title: What’s New
   order: 1
   excerpt: Pelican Changelog
+  hideChild: true
 pagination:
   data: collections.blog
   size: 10
