@@ -13,6 +13,7 @@ pagination:
   data: collections.blog
   size: 10
   alias: blogs
+  reverse: true
 permalink: "whats-new/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
 ---
 
