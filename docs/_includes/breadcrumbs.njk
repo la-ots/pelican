@@ -1,4 +1,4 @@
-{% set entries = collections.all | eleventyNavigation %}
+{% set crumbs = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
 <nav class="breadcrumb-wrapper" aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
@@ -7,30 +7,17 @@
         <span class="sr-only">Home</span>
       </a>
     </li>
-    {%- for entry in entries %}
-      {% if entry.url == page.url %}
+    {%- for crumb in crumbs %}
+      {% if crumb.key == eleventyNavigation.key %}
         <li class="breadcrumb-item active" aria-current="page">
-          {{ entry.title }} <span class="fas fa-eye" aria-hidden="true"></span>
+          {{ crumb.title }} <span class="fas fa-eye" aria-hidden="true"></span>
         </li>
-      {% elif entry.url in page.url %}
-        {% if entry.hideChild %}
-          <li class="breadcrumb-item active" aria-current="page">
-            {{ entry.title }} <span class="fas fa-eye" aria-hidden="true"></span>
-          </li>
-        {% else %}
+      {% else %}
           <li class="breadcrumb-item">
-            <a href="{{ entry.url | url }}">
-              {{ entry.title }}
+            <a href="{{ crumb.url | url }}">
+              {{ crumb.title }}
             </a>
           </li>
-          {%- for child in entry.children %}
-            {% if child.url == page.url %}
-              <li class="breadcrumb-item active" aria-current="page">
-                {{ child.title }} <span class="fas fa-eye" aria-hidden="true"></span>
-              </li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
       {% endif %}
     {% endfor %}
   </ol>
