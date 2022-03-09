@@ -1,7 +1,7 @@
 ---
 title: Accessibility Checklist
 summary: A few things you can check to ensure you have basic accessibility covered.
-tags: 
+tags: accessibility
 layout: guide
 eleventyNavigation:
   key: Accessibility Checklist
