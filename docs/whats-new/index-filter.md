@@ -2,7 +2,7 @@
 title: What’s New
 summary: Pelican Changelog
 tags: resources
-layout: default-pagination
+layout: title
 index: true
 eleventyNavigation:
   key: Tags
@@ -16,9 +16,6 @@ pagination:
   alias: tag
 permalink: "whats-new/tagged/{{tag | slug}}/"
 ---
-
-<h1>Tagged “{{ tag }}”</h1>
-
 ## Make Pelican Better
 
 You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how to become involved.
@@ -27,6 +24,10 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 {% for blog in collections[tag] %}
 ## <a href="{{ blog.url | url }}">{{ blog.data.title }}</a>
+
+{% for blogTag in blog.data.tags %}
+<a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
+{%- endfor %}
 
 {%- for checkitem in blog.data.checklist %}
 - {{checkitem}}

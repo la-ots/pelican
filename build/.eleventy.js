@@ -69,6 +69,7 @@ module.exports = (eleventyConfig) => {
       .filter(item => (item.data || {}).excludeFromSidebar !== true)
   })
 
+  /*
   eleventyConfig.addCollection("tagList", (collection) => {
     let tagSet = new Set()
     collection.getAll().forEach((item) => {
@@ -99,6 +100,23 @@ module.exports = (eleventyConfig) => {
 
     return [...tagSet].sort()
   })
+  */
+
+  function blogTagList(tags) {
+    return (tags || []).filter(tag => tag.startsWith("blog"));
+  }
+
+  eleventyConfig.addFilter("blogTagList", blogTagList)
+
+  // Create an array of all tags
+  eleventyConfig.addCollection("tagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return blogTagList([...tagSet]);
+  });
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({

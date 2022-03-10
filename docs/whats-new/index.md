@@ -27,6 +27,10 @@ We’re continually improving Pelican. The following changes are listed by the d
 {% for blog in blogs %}
 ## <a href="{{ blog.url | url }}">{{ blog.data.title }}</a>
 
+{% for blogTag in blog.data.tags %}
+<a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
+{%- endfor %}
+
 {%- for checkitem in blog.data.checklist %}
 - {{checkitem}}
 {%- endfor %}
