@@ -8,16 +8,15 @@
         </a>
       </div>
       <div class="sidebar-menu text-white">
-        {% set navPages = collections.all | eleventyNavigation %}
+        {% set navPages = collections.sidebarNav | eleventyNavigation %}
         <ul>
         {%- for entry in navPages %}
           <li class="sidebar-item">
             <div class="sidebar-dropdown-header">
               <a class="sidebar-nav-item" href="{{ entry.url | url }}">
                 <span>{{ entry.title }}</span>
-              </a>   
-              {% if entry.hideChild %}           
-              {% elif entry.children.length > 0 %}
+              </a>            
+              {% if entry.children.length > 0 %}
                 <a class="sidebar-dropdown-header-expand{% if entry.url in page.url %} active {% endif %}" href="javascript://" role="button">
                   <span class="sr-only">
                     See guidance for items in {{ entry.title }}

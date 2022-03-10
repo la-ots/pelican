@@ -4,12 +4,12 @@ summary: Pelican Changelog
 tags: resources
 layout: title
 index: true
+excludeFromSidebar: true
 eleventyNavigation:
   key: Tags
   title: Tags
   order: 1
   excerpt: Pelican Changelog
-  hideChild: true
 pagination:
   data: collections
   size: 1
