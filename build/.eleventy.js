@@ -10,7 +10,6 @@ const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 
-
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
 
