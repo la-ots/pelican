@@ -38,6 +38,7 @@ eleventyNavigation:
 - If you emphasize a link, make sure it is either the first or last link in the list
 
 {% include 'markup/navbar-basic.njk' %}
+
 ``` html
 {% include 'markup/navbar-basic.njk' %}
 ```

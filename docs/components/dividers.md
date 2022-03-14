@@ -15,6 +15,8 @@ eleventyNavigation:
 
 - Use Dividers to separate content.
 - Use Dividers sparingly and only when separating content.
+- Major Dividers create strong separation between content. This could be between Form or content sections.
+- Minor Dividers create weak separation between content. This could be between Form or content section with minor differences.
 - If the divider is outside a white or gray box, but atop the background of the page, it goes edge-to-edge.
 - If the divider is inside a white or gray box, it stays within the padding of the white or gray box.
 - Top borders on [Back and Forward Buttons](/components/back-and-forward-buttons/) go edge-to-edge.
@@ -22,8 +24,6 @@ eleventyNavigation:
 - Add any `my-x` class to change top and bottom margin at the same time.
 - Add any `mt-x` class to change top margin.
 - Add any `mb-x` class to change bottom margin.
-- Major Dividers create strong separation between content. This could be between Form or content sections.
-- Minor Dividers create weak separation between content. This could be between Form or content section with minor differences.
 
 ## Usage
 
