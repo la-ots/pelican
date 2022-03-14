@@ -202,7 +202,7 @@ p a {
   @extend .shadow-none;
 }
 
-.btns-previous-forward {
+.btns-previous-next, .btns-previous-forward {
   .container-fluid {
     @extend .py-12;
   }
