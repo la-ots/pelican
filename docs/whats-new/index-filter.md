@@ -35,7 +35,7 @@ We’re continually improving Pelican. The following changes are listed by the d
           <div class="col-6">
             <h2><a href="{{ blog.url | url }}">{{ blog.data.title }}</a></h2> 
           </div>
-          <div class="col-6">
+          <div class="col-3">
             {%- for blogTag in blog.data.tags %}
             {%- if blogTag == blog.data.tags[0] %}
             <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
@@ -43,6 +43,9 @@ We’re continually improving Pelican. The following changes are listed by the d
             , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
             {%- endif %}
             {%- endfor %}
+          </div>
+          <div class="col-3">
+            <p>{{blog.data.date | htmlDateString}}</p>
           </div>
           <div class="col">
             <ul>
