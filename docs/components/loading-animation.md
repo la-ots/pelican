@@ -19,8 +19,18 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/spinner.njk' %}
+<div class="spinner-border text-info" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-ui" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
 
 ``` html
-{% include 'markup/spinner.njk' %}
+<div class="spinner-border text-info" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-border text-ui" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
 ```

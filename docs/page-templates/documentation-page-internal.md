@@ -8,4 +8,4 @@ layout: default-internal
 
 {% include 'markup/documentation-internal.njk' %}
 
-{% include 'markup/button-back-forward.njk' %}
+{% include 'markup/buttons-previous-next-page.njk' %}

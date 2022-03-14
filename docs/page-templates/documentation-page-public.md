@@ -8,4 +8,4 @@ layout: default-public
 
 {% include 'markup/documentation-public.njk' %}
 
-{% include 'markup/button-back-forward.njk' %}
+{% include 'markup/buttons-previous-next-page.njk' %}
