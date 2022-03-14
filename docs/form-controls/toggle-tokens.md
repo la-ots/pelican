@@ -23,7 +23,7 @@ eleventyNavigation:
 * [Radios](form-controls/radios) can be presented as Toggle Tokens
 * Use Radio button logic
 
-	@@ -30,9 +30,8 @@ _**Note:** Some Toggle Tokens can be marked as 'required' (<span class="fas fa-a
+```html
 {% include 'markup/toggle-tokens-exclusive.njk' %}
 ```
 
@@ -32,7 +32,7 @@ eleventyNavigation:
 * [Checkboxes](form-controls/checkboxes) can be presented as Toggle Tokens
 * Use Checkbox logic
 
-	@@ -42,8 +41,6 @@ _**Note:** Do not use Toggle Tokens when space is limited._
+```html
 {% include 'markup/toggle-tokens-inclusive.njk' %}
 ```
 
