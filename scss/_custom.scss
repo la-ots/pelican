@@ -31,11 +31,12 @@
 }
 
 .official-banner {
-  @extend .bg-black;
-  @extend .text-white;
-  @extend .border-black;
   @extend .border-bottom;
   @extend .py-2;
+
+  background-color: $black;
+  color: $white;
+  border-color: $black !important;
 
   .container-fluid {
     @extend .py-1;
@@ -66,12 +67,6 @@
     justify-content: flex-start;
   }
 }
-.sidebar-button {
-  @extend .position-relative;
-  @extend .btn;
-  @extend .btn-link;
-  @extend .text-white;
-}
 
 .page-header {
   background-color: $white;
@@ -86,19 +81,19 @@
 
 .page-title {
   @extend .shadow-sm;
-  @extend .bg-white ;
-  @extend .py-4 ;
-  @extend .py-lg-16 ;
+  background-color: $white;
+  @extend .py-4;
+  @extend .py-lg-16;
   @extend .mb-4;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
 }
 .page-title-text {
   @extend .h2 ;
-  @extend .mb-0 ;
-  @extend .text-primary;
+  @extend .mb-0;
+  color: $primary;
   .icon {
-    @extend .text-primary-10;
+    color: $primary-10;
   }
   p {
     @extend .mb-0;
@@ -106,8 +101,8 @@
 }
 
 .content-container {
-  @extend .bg-white;
-  @extend .py-4 ;
+  background-color: $white;
+  @extend .py-4;
   @extend .py-lg-16;
   @extend .mb-4;
   box-shadow: 0 1px 1px 0 fade-out($black, .85);
@@ -238,6 +233,7 @@
   border: 1px solid $input-border-color;
 }
 
+//this item (as well as its associated page) are no longer used/shown in this project
 .white-box {
   border: 1px solid $gray-300;
 }
@@ -249,9 +245,10 @@
   border-radius: $border-radius;
 }
 
+//this combination does not appear to be in use
 .white-box,
 .form-fieldset {
-  @extend .bg-white;
+  background-color: $white;
   padding: ($spacer * 1.5) $spacer;
   margin-bottom: $spacer;
   border-bottom: $border-width $border-style $border-color;

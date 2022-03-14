@@ -29,11 +29,12 @@ eleventyNavigation:
 * <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" class="text-decoration-none">Dyslexia Friendly Style Guide</a>
 
 ## Design Resources
-* <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank" class="text-decoration-none">Public Sans Typeface</a>
-* <a href="https://www.figma.com/" target="_blank" class="text-decoration-none">Figma.com</a>
-* <a href="https://www.pexels.com" target="_blank" class="text-decoration-none">Pexels.com</a>
-* <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank" class="text-decoration-none">FontAwesome Icon List</a>
-* <a href="https://accessibility.digital.gov/visual-design/getting-started/" target="_blank" class="text-decoration-none">Visual Design Guidance by Digital.gov</a>
+- <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank" class="text-decoration-none">Public Sans Typeface</a>
+- <a href="https://www.figma.com/" target="_blank" class="text-decoration-none">Figma.com</a>
+- <a href="https://www.figma.com/@LAGov" target="_blank" class="text-decoration-none">Pelican Wireframe and Mockup Files at Figma Community</a>
+- <a href="https://www.pexels.com" target="_blank" class="text-decoration-none">Pexels.com</a>
+- <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank" class="text-decoration-none">FontAwesome Icon List</a>
+- <a href="https://accessibility.digital.gov/visual-design/getting-started/" target="_blank" class="text-decoration-none">Visual Design Guidance by Digital.gov</a>
 
 ## Development Resources
 * <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank" class="text-decoration-none">Accessibility for Front-End Developers</a>
