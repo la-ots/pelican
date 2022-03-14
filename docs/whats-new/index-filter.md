@@ -22,7 +22,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-{% for blog in collections[tag] %}
+{% for blog in collections[tag] reversed %}
 
 <div class="card shadow-none">
   <div class="card-body">
