@@ -34,9 +34,9 @@ permalink: "whats-new/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageN
           <div class="col-6">
             {%- for blogTag in blog.data.tags %}
             {%- if blogTag == blog.data.tags[0] %}
-            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
+            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
             {%- else -%}
-            , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
+            , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
             {%- endif %}
             {%- endfor %}
           </div>

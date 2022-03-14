@@ -11,8 +11,12 @@ layout: default.njk
       <div class="col-12">
         <div class="card bg-less-bright">
           <div class="card-body">
-            {% for blogTag in tags %}
-            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
+            {%- for blogTag in tags %}
+            {%- if blogTag == tags[0] %}
+            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
+            {%- else -%}
+            , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
+            {%- endif %}
             {%- endfor %}
 
             {{ content | safe }}
