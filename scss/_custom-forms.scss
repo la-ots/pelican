@@ -68,6 +68,22 @@
       }
     }
   }
+  .form-check-input[disabled] ~ .form-check-label {
+		border-color: fade-out($ui, .5);
+		color: &ui;
+		.fas {
+			&:first-of-type {
+				opacity: .5;
+			}
+		}
+		&:hover, &:active {
+			cursor: default;
+		}
+	}
+	.form-check-input[checked][disabled] ~ .form-check-label {
+		border-color: transparent!important;
+		background-color: fade-out($ui-priority, .5)!important;
+	}
 }
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {
   border-color: $danger;
