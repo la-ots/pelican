@@ -2,7 +2,7 @@
 *   @la-ots/product-delivery-admins
 
 # Docs Owners
-/docs/  @la-ots/docs-maintainers
+/docs/  @la-ots/design/docs-maintainers
 
 # Design Owners
-/scss/  @la-ots/css-maintainers
+/scss/  @la-ots/design/css-maintainers
