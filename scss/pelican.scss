@@ -4,26 +4,36 @@
 @import 'theme-agency';
 @import 'theme-default';
 @import "bootstrap/scss/bootstrap";
+
+@import "bg-texture";
+@import 'chips';
+@import 'data-tiles';
+@import "mixins";
+
+//styles with mixed resources
 @import 'mix/alerts';
 @import 'mix/app-frame';
-@import 'bs/badges';
+@import 'mix/custom';
 
-@import "mixins";
-@import "bg-texture";
-@import 'breadcrumb';
-@import 'buttons';
-@import 'cards';
-@import 'data-tiles';
-@import 'chips';
-@import 'footers';
-@import 'forms';
-@import 'hr';
-@import 'nav';
-@import 'navbars';
-@import 'official-banner';
-@import 'progress';
-@import 'share';
-@import 'tables';
-@import 'toasts';
-@import 'focus';
-@import 'custom';
+//styles with mainly bootstrap
+@import 'bs/badges';
+@import 'bs/breadcrumb';
+@import 'bs/buttons';
+@import 'bs/cards';
+@import 'bs/focus';
+@import 'bs/footers';
+@import 'bs/forms';
+@import 'bs/hr';
+@import 'bs/nav';
+@import 'bs/navbars';
+@import 'bs/official-banner';
+@import 'bs/progress';
+@import 'bs/share';
+@import 'bs/tables';
+@import 'bs/toasts';
+
+
+
+
+
+
