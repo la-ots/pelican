@@ -4,10 +4,12 @@
 @import 'theme-agency';
 @import 'theme-default';
 @import "bootstrap/scss/bootstrap";
+@import 'mix/alerts';
+@import 'mix/app-frame';
+@import 'bs/badges';
+
 @import "mixins";
 @import "bg-texture";
-@import 'alerts';
-@import 'badges';
 @import 'breadcrumb';
 @import 'buttons';
 @import 'cards';
@@ -23,6 +25,5 @@
 @import 'share';
 @import 'tables';
 @import 'toasts';
-@import 'app-frame';
 @import 'focus';
 @import 'custom';
