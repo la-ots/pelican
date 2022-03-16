@@ -6,53 +6,53 @@
   }
 }
 .alert-warning {
-  color: $warning-90;
-  background-color: $warning-10;
-  border: $warning-90 $border-style $border-width; 
+  color: $warning-900;
+  background-color: $warning-100;
+  border: $warning-900 $border-style $border-width; 
     & .alert-link {
-        color: $warning-90;
+        color: $warning-900;
     }
     & .close {
-        color: $warning-90;
+        color: $warning-900;
         opacity: 1; 
     }
 }
 
 .alert-danger {
-  color: $danger-90;
-  background-color: $danger-10;
-  border: $danger-90 $border-style $border-width; 
+  color: $danger-900;
+  background-color: $danger-100;
+  border: $danger-900 $border-style $border-width; 
     & .alert-link {
-        color: $danger-90;
+        color: $danger-900;
     }
     & .close {
-      color: $danger-90;
+      color: $danger-900;
       opacity: 1; 
   }
 }
 
 .alert-success {
-  color: $success-90;
-  background-color: $success-10;
-  border: $success-90 $border-style $border-width; 
+  color: $success-900;
+  background-color: $success-100;
+  border: $success-900 $border-style $border-width; 
     & .alert-link {
-        color: $success-90;
+        color: $success-900;
     }
     & .close {
-      color: $success-90;
+      color: $success-900;
       opacity: 1; 
   }
 }
 
 .alert-info {
-  color: $info-90;
-  background-color: $info-10;
-  border: $info-90 $border-style $border-width; 
+  color: $info-900;
+  background-color: $info-100;
+  border: $info-900 $border-style $border-width; 
     & .alert-link {
-        color: $info-90;
+        color: $info-900;
     }
     & .close {
-      color: $info-90;
+      color: $info-900;
       opacity: 1; 
   }
 }

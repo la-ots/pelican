@@ -18,7 +18,7 @@
     @extend .mx-lg-4;
     
     &:hover {
-      border-bottom: 2px solid fade-out($primary-10, .5);
+      border-bottom: 2px solid fade-out($primary-100, .5);
     }
     &.active {
       border-bottom: 2px solid $secondary;

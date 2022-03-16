@@ -1,6 +1,6 @@
 .navbar-search-basic {
   hr {
-    @extend .bg-primary-90;
+    background-color: $primary-800;
   }
 }
 
@@ -11,7 +11,7 @@
     }
   }
   .nav-link {
-    background: $gray-300;
+    background: $ui-light;
   }
 }
 

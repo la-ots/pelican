@@ -4,9 +4,9 @@
 }
 .progress-steps {
   @extend .border-bottom;
-  @extend .border-primary-10;
   @extend .bg-white;
   @extend .py-4;
+  border-color: $primary-100;
 }
 .progress-steps-buttons {
   .btn:first-of-type {
@@ -21,7 +21,7 @@
 .progress-current {
   width: 1rem * 4; height: 1rem * 4;
   border-radius: 1rem * 2;
-  @extend .bg-primary;
+  background-color: $primary-800;
   @extend .text-white;
   @extend .d-flex;
   @extend .flex-column;
@@ -37,10 +37,10 @@
   @extend .px-2;
 }
 .progress-current-text-sequence {
-  @extend .text-ui;
+  color: $ui;
 }
 .progress-current-text-description {
-  @extend .text-primary;
+  color: $primary-800;
   @extend .fw-bold;
   @extend .d-block;
 }

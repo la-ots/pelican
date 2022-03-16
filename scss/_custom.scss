@@ -1,6 +1,6 @@
 body {
     @include bg-texture;
-    @include scrollbars(10px, $primary-10, $black);
+    @include scrollbars(10px, $primary-100, $black);
     
 }
 .skip-to-main, .skip-link {
@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: $white;
-  color: $primary;
+  color: $primary-800;
   transition: $transition-base;
   border-bottom-right-radius: $spacer;
   &:active, &:focus {		
@@ -37,7 +37,7 @@ body {
     @extend .mb-0;
   }
   &::before {
-    @extend .text-primary-10;
+    color: $primary-100;;
     @extend .position-absolute;
     content: '\f10d';
     font-family: "Font Awesome 5 Free";
@@ -46,7 +46,7 @@ body {
   }
   &::after {
     @extend .position-absolute;
-    background-color: fade-out($primary-10, .5);
+    background-color: fade-out($primary-100, .5);
     content: '';
     top: 24px; left: 0;
     width: 2px; height: calc(100% - 24px);
@@ -54,9 +54,9 @@ body {
 }
 .page-title {
   @extend .position-relative;
-  @extend .bg-white;
   @extend .content-container;
-  @extend .text-primary;
+  background-color: $white;
+  color: $primary-800;
   h1, .h1, p, .p {
     @extend .mb-lg-0;
   }
@@ -125,9 +125,9 @@ body {
   }
 }
 .hero {
-  @extend .bg-primary;
-  @extend .text-white;
   @extend .py-16;
+  background-color: $primary-800;
+  color: $white;
   .header {
     @extend .display-5;
     @extend .fw-bold;
@@ -139,7 +139,7 @@ body {
     @extend .shadow-none;
   }
   .btn-link {
-    @extend .text-accent;
+    color: $accent-700;
   }
   img {
     @extend .rounded;
@@ -155,28 +155,28 @@ body {
 
 }
 .feature {
-  @extend .bg-white;
   @extend .py-16;
+  background-color: $white;
 }
 .feature-section {
   @extend .px-4;
   .h2, .h3, .h4, h2, h3, h4 {
-    @extend .text-primary;
+    color: $primary-800;
   }
   .icon {
     font-size: smaller;
-    @extend .text-primary-10;
+    color: $primary-500;
   }
 }
 .languages {
   @extend .py-16;
   @extend .py-lg-32;
-  @extend .bg-accent;
-  @extend .text-primary; 
+  background-color: $accent-500;
+  color: $black;
   .language {
     @extend .rounded;
     @extend .py-4;
-    @extend .bg-white;
+    background-color: $white;
     p {
       @extend .mb-0;
       @extend .h4;
@@ -189,8 +189,8 @@ body {
 .jumbotron-message {
   @extend .py-26;
   @extend .px-5;
-  @extend .bg-primary;
-  @extend .text-white;
+  background-color: $primary-800;
+  color: $white;
   .heading {
     @extend .display-5;
     @extend .fw-bold;

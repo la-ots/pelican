@@ -3,35 +3,35 @@
   @extend .text-decoration-none;
 }
 .badge-primary {    
-  @extend .bg-primary;
+  background-color: $primary-800;
 }
 .badge-secondary {
-  @extend .bg-secondary;
+  background-color: $secondary-700;
 }
 .badge-accent {
-  @extend .bg-accent;
-  @extend .text-black;
+  background-color: $accent-500;
+  color: $black;
 }
 .badge-info {
-  @extend .bg-info;
+  background-color: $info-900;
 }
 .badge-success {
-  @extend .bg-success;
+  background-color: $success-800;
 }
 .badge-danger {
-  @extend .bg-danger;
+  background-color: $danger-800;
 }
 .badge-warning {
-  @extend .bg-warning;
-  @extend .text-black;
+  background-color: $warning-500;
+  color: $black;
 }
 .badge-ui {
-  @extend .bg-ui;
+  background-color: $ui;
 }
 .badge-ui-light {
-  @extend .bg-ui-light;
-  @extend .text-black;
+  background-color: $ui-light;
+  color: $black;
 }
 .badge-ui-priority {
-  @extend .bg-ui-priority;
+  background-color: $link-color;
 }

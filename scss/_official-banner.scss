@@ -21,9 +21,9 @@
     transition: $transition-base;
   }
   .btn {
-    &:hover {
-      @extend .bg-ui-priority;
+    &:hover {;
       @extend .text-white;
+      background-color: $ui-priority;
     }
   }
   [aria-expanded=true]{

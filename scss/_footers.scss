@@ -7,16 +7,16 @@
       }
     }
     &.footer-basic {
-      @extend .bg-black;
-      @extend .text-white;
+      background-color: $black;
+      color: $white;
       @extend .text-center;
       a {
         @extend .mx-4;
       }
     }
     &.footer-utility {
-      @extend .bg-primary;
-      @extend .text-primary-10;
+      background-color: $primary-800;
+      color: $primary-100;
       hr {
         @extend .opacity-20;
       }
