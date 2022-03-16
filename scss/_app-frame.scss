@@ -1,7 +1,7 @@
 $topbar-height                          : 48px;
 $app-frame-sizer                        : 300px;
 $app-sidebar-footer-height              : 59px;
-$app-sidebar-scrollbar-foreground-color : $primary-100;
+$app-sidebar-scrollbar-foreground-color : $primary-500;
 $app-sidebar-scrollbar-background-color : $black;
 @mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
   // For Google Chrome
@@ -153,6 +153,9 @@ $app-sidebar-scrollbar-background-color : $black;
 		@extend .fw-bold;
 		color: $white;
 		border-left-color: $white;
+		&:hover, &:active {
+			background-color: $primary-700;
+		}
 	}
 	&.show {
 		@extend .app-sidebar-nav-link-dark-bg;
@@ -210,6 +213,9 @@ $app-sidebar-scrollbar-background-color : $black;
 			border-left-color: transparent;
 			.fas {
 				opacity: 1;
+			}
+			&:hover, &:active {
+				background-color: $primary-700;
 			}
 		}
 	}
