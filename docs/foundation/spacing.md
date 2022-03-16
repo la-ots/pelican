@@ -37,21 +37,81 @@ Padding and Margin can be applied to individual sides, to top and bottom at the 
 
 **Padding Classes**
 
-- Top: `pt-D`
-- Right: `pe-D` 
-- Bottom: `pb-D`
-- Left: `ps-D` 
-- Top and Bottom: `py-D`
-- Right and Left: `px-D`
+<div class="table-responsive">
+  <table class="table mb-8">
+    <thead>
+      <tr>
+        <th id="Direction">Direction</th>
+        <th id="Class">Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="Top">Top</td>
+        <td headers="Top Class"><code>pt-D</code></td>
+      </tr>
+      <tr>
+        <td id="Right">Right</td>
+        <td headers="Right Class"><code>pe-D</code></td>
+      </tr>
+      <tr>
+        <td id="Bottom">Bottom</td>
+        <td headers="Bottom Class"><code>pb-D</code></td>
+      </tr>
+      <tr>
+        <td id="Left">Left</td>
+        <td headers="Left Class"><code>ps-D</code></td>
+      </tr>
+      <tr>
+        <td id="Top-Bottom">Top and Bottom</td>
+        <td headers="Top-Bottom Class"><code>py-D</code></td>
+      </tr>
+      <tr>
+        <td id="Left-Right">Left and Right </td>
+        <td headers="Left-Right Class"><code>px-D</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 **Margin Classes**
 
-- Top: `mt-D`
-- Right: `me-D`
-- Bottom: `mb-D`
-- Left: `me-D`
-- Top and Bottom: `my-D`
-- Right and Left: `mx-D`
+<div class="table-responsive">
+  <table class="table mb-8">
+    <thead>
+      <tr>
+        <th id="Direction">Direction</th>
+        <th id="Class">Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="Top">Top</td>
+        <td headers="Top Class"><code>mt-D</code></td>
+      </tr>
+      <tr>
+        <td id="Right">Right</td>
+        <td headers="Right Class"><code>me-D</code></td>
+      </tr>
+      <tr>
+        <td id="Bottom">Bottom</td>
+        <td headers="Bottom Class"><code>mb-D</code></td>
+      </tr>
+      <tr>
+        <td id="Left">Left</td>
+        <td headers="Left Class"><code>me-D</code></td>
+      </tr>
+      <tr>
+        <td id="Top-Bottom">Top and Bottom</td>
+        <td headers="Top-Bottom Class"><code>my-D</code></td>
+      </tr>
+      <tr>
+        <td id="Left-Right ">Left and Right </td>
+        <td headers="Left-Right Class"><code>mx-D</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Resources
 

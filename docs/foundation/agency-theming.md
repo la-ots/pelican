@@ -15,11 +15,16 @@ eleventyNavigation:
 
 Agencies can apply their own brand by changing the SCSS variables and recompiling the CSS. Pelican comes with default theme colors for brand, based upon Louisiana colors, to give you a starting point.
 
-Pelican provides 9 Brand color variables you can change. These are listed in the file named `_theme-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
+Pelican 2 provides 80 Brand color variables you can change. These are listed in the file named `_theme-agency.scss` inside the `/_scss/` folder. They are categorized into Primary, Secondary, Accent, Info, Success, Warning, Danger, and UI palettes. 
 
-<!-- 
-{% include cards-brand-colors.njk %}
--->
+To use your own agency colors:
+
+ - Download the repo for Pelican.
+ - Update the hex values in `_theme-agency.scss`.
+ - Choose a hex value within each palette as the agency’s designated color for that category.
+ - Change the variables for `$primary`, `$secondary`, `$accent`, `$info`, `$success`, `$warning`, `$danger`, `$ui` in `_theme-default.scss` to reflect the color.
+ 
+Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
 
 ## Themeable Elements
 
@@ -37,7 +42,7 @@ To change background or text color, change the class name representing the color
 
 <div class="px-4 mb-5">
   <div class="row">
-    <div class="col-12 col-md-6 col-xl-3">
+    <div class="col-12 col-md-6">
       <div class="card bg-primary text-accent">
         <div class="card-body">
           <p class="mb">Background color is <code class="text-accent">bg-primary</code>.</p>
@@ -45,11 +50,11 @@ To change background or text color, change the class name representing the color
         </div>
       </div>
     </div>
-    <div class="col-12 col-md-6 col-xl-3">
-      <div class="card bg-black text-secondary-10">
+    <div class="col-12 col-md-6">
+      <div class="card bg-black text-accent">
         <div class="card-body">
-          <p class="mb">Background color is <code class="text-secondary-10">bg-black</code>.</p>
-          <p class="mb-0">Text color is <code class="text-secondary-10">text-secondary-10</code>.</p>
+          <p class="mb">Background color is <code class="text-accent">bg-black</code>.</p>
+          <p class="mb-0">Text color is <code class="text-accent">text-accent</code>.</p>
         </div>
       </div>            
     </div>
@@ -63,7 +68,7 @@ Brand first is not necessarily accessibility or usability first. Designing with 
 Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
 
 <div class="row mb-12">
-  <div class="col-md-6 col-xl-3">
+  <div class="col-md-6">
     <div class="card border-0 mb-4">
       <div class="py-20 rounded-top" style="background-color: #198754;"></div>
       <div class="card-body">
@@ -73,7 +78,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-xl-3">
+  <div class="col-md-6">
     <div class="card border-0 mb-4">
       <div class="py-20 bg-success rounded-top"></div>
       <div class="card-body">

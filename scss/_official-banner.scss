@@ -21,6 +21,7 @@
     transition: $transition-base;
   }
   .btn {
+    @extend .text-white;
     &:hover {;
       @extend .text-white;
       background-color: $ui-priority;

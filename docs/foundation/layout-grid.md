@@ -29,8 +29,8 @@ The browser window has an explicit width whether it’s edge-to-edge of your mon
         <th id="Breakpoint-Size">Breakpoint-Size</th>
         <th id="Breakpoint-Range">Breakpoint-Range</th>
       </tr>
-  </thead>
-  <tbody>
+    </thead>
+    <tbody>
       <tr>
         <th id="Extra-Small">Extra-Small</th>
         <td headers="Extra-Small Breakpoint-Size"><code>-xs</code></td>
@@ -58,7 +58,7 @@ The browser window has an explicit width whether it’s edge-to-edge of your mon
       </tr>
       <tr>
         <th id="Extra-Extra-Large">Extra-Extra-Large</th>
-        <td headers="Extra-Extra-Large Breakpoint-Size"><code>-xl</code></td>
+        <td headers="Extra-Extra-Large Breakpoint-Size"><code>-xxl</code></td>
         <td headers="Extra-Extra-Large Breakpoint-Range">≥ 1400px</td>
       </tr>                                
     </tbody>

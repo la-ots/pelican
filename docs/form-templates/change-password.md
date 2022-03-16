@@ -1,6 +1,6 @@
 ﻿---
 title: Change Password
-summary: The Change Password block allows the user to manage their password.
+summary: The Change Password form allows the user to manage their password.
 tags: form-templates
 layout: guide
 eleventyNavigation:
@@ -13,12 +13,13 @@ eleventyNavigation:
 
 ## Best Practices
 
-MyLa should be used to allow users to manage their password. If not, use this form.
+- MyLa should be used to allow users to manage their password. If not, use this form.
+- Put the form into a column to size as necessary.
 
 ## Usage
 
-{% include markup/form-template-password.njk %}
+{% include 'markup/form-template-password.njk' %}
 
-``` html
-{% include markup/form-template-password.njk %}
+```html
+{% include 'markup/form-template-password.njk' %}
 ```

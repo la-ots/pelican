@@ -15,22 +15,16 @@ eleventyNavigation:
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Use this when users can toggle a feature on or off.
+- Users expect Switches to take immediate effect.
 - Switches are custom-styled [Checkboxes](/forms/checkboxes). 
 
-_**Note:** Some Switches can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
-
 ## Usage
-
-* Allow users to enable or disable multiple items
-* Use when users can toggle multiple features on and off
 
 {% include markup/switches-little.njk %}
 
 ``` html
 {% include markup/switches-little.njk %}
 ```
-
-_**Note:** Do not use multiple Big Switches as replacements for multiple Little Switches._
 
 ## Resources
 * <a href="https://designsystem.digital.gov/components/form-controls/#checkbox" target="_blank">Design.gov - Checkbox (Best Practices)</a>

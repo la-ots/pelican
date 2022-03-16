@@ -19,7 +19,7 @@
   @extend .align-items-center;
 }
 .progress-current {
-  width: 1rem * 4; height: 1rem * 4;
+  width: 1rem * 3; height: 1rem * 3;
   border-radius: 1rem * 2;
   background-color: $primary-800;
   @extend .text-white;
@@ -29,7 +29,7 @@
   @extend .align-items-center;
 }
 .progress-current-digit {
-  @extend .h3;
+  @extend .h4;
   @extend .mb-0;
 }
 .progress-current-text {

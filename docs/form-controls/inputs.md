@@ -147,6 +147,23 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include markup/input-text-plain.njk %}
 ```
 
+**Input Detail View**
+
+- Use for detail views.
+- Decreased vertical space between label and data to improve a detail page of data.
+- Use on detail pages, not edit pages.
+
+<div class="mb-3">
+  <p class="label">Label</p>
+  <p>Value</p>
+</div>
+
+``` html
+<div class="mb-3">
+  <p class="label">Label</p>
+  <p>Value</p>
+</di
+
 ## Resources
 
 * <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">W3Schools.com - 22 Types of Inputs</a>

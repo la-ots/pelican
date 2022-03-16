@@ -17,7 +17,7 @@ eleventyNavigation:
 - Normal-sized text is 16 pixels and requires a minimum Contrast Ratio of 4.5:1.
 - Large-sized text is 18 pixels or larger and requires a minimum Contrast Ratio of 3:1.
 - User interface items such as [Form Controls](/form-controls/) require a minimum Contrast Ratio of 3:1. This includes the outlines of Form Controls and the outer edges of Buttons, but is not limited to them.
-- when in doubt use <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM’s Contrast Checker</a>
+- When in doubt use <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM’s Contrast Checker</a>
 
 **Text Contrast**
 
@@ -48,7 +48,7 @@ eleventyNavigation:
       </div>
       <div class="card-body p-0">
         <div class="d-flex flex-column justify-content-center align-items-center  px-4 bg-secondary text-white" style="height: 100px; ">
-          <p class="mb-0 text-center text-secondary-90" style="font-size: 24px; color: #734500!important;">Text</p>
+          <p class="mb-0 text-center text-secondary-90" style="font-size: 24px; color: #021d14!important;">Text</p>
         </div>
         <div class="p-4">
           <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success"></span> 3.79:1 Contrast ratio</p>

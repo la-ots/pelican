@@ -22,23 +22,21 @@ eleventyNavigation:
 
 The data collected from some fields in the form may be required in the application. In this case, use a red asterisk (<span class="fas fa-asterisk text-danger"></span>) to denote required fields. Product Owners and BAs will determine which fields are required. Refer to wireframes and/or mock-ups for guidance on when to use asterisks.
 
-<div class="row">
-  <div class="col-lg-6">
-    <div class="mb-3">
-      <label for="exampleInputText1"><span class="fas fa-asterisk text-danger"></span> Label</label>
-      <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder, don’t use.">
-    </div>
-  </div>
+<div class="mb-3">
+  <label for="exampleInputText1">
+  <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Label
+</label>
+  <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder, don’t use.">
+  <small>On mobile browsers this presents an email-optimized UI.</small>
 </div>
 
 ```html
-<div class="row">
-  <div class="col-lg-6">
-    <div class="mb-3">
-      <label for="exampleInputText1"><span class="fas fa-asterisk text-danger"></span> Label</label>
-      <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder, don’t use.">
-    </div>
-  </div>
+<div class="mb-3">
+  <label for="exampleInputText1">
+    <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Label
+  </label>
+  <input type="email" class="form-control" id="exampleInputText1" placeholder="This is a placeholder, don’t use.">
+  <small>On mobile browsers this presents an email-optimized UI.</small>
 </div>
 ```
 
