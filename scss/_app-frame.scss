@@ -115,7 +115,9 @@ $app-sidebar-scrollbar-background-color : $black;
 		@extend .position-relative;
 		@extend .rounded-0;
 		color: inherit;
-
+		&:hover, &:active {
+			color: $white;
+		}
 	}
 }
 .app-sidebar-nav-list {
