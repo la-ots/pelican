@@ -8,4 +8,6 @@ layout: default-public
 
 {% include markup/documentation-public.njk %}
 
-{% include markup/buttons-previous-next-page.njk %}
+<div class="container-fluid">
+  {%- include markup/button-back-forward.njk -%}
+</div>
