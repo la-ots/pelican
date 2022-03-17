@@ -5,9 +5,9 @@ layout: base.njk
 {% include "markup/skip-link.njk" %}
 {% include "app-topbar.njk" %}
 {% include "sidebar-internal.njk" %}
-<div class="d-flex flex-column">
-  <main class="app-content flex-fill" id="app-content">
+<main class="app-content d-flex flex-column" id="app-content">
+  <div class="flex-fill">
     {{ content | safe }}
-    {% include "markup/footer-basic.njk" %}
-  </main>
-</div>
+  </div>
+  {% include "markup/footer-basic.njk" %}
+</main>
