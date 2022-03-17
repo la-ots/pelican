@@ -1,9 +1,108 @@
-$primary     : #00284d;
-$secondary   : #14847F;
-$accent      : #fe9903;
-$primary-10  : #B3BFCA;
-$primary-90  : #00203E;
-$secondary-10: #A8EAE7;
-$secondary-90: #105A57;
-$accent-10   : #FFE0B3;
-$accent-90   : #BF5102;
+// https://uicolors.app/edit?sv1=ironside-gray:50-fcfdfc/100-f7f8f7/200-e6e6e5/300-d5d5d2/400-a6a5a0/500-6c6c65/600-545550/700-43433d/800-282825/900-1b1b18;bright-red:50-ffefef/100-ffdcdd/200-ffbfc0/300-ff9294/400-ff5457/500-ff1f23/600-ff0004/700-db0004/800-b00003/900-94080a;amber:50-ffffea/100-fffbc5/200-fff885/300-ffee46/400-ffdf1b/500-ffc107/600-e29400/700-bb6902/800-985108/900-7c420b;cobalt:50-ebf9ff/100-d1f3ff/200-aeeaff/300-76dfff/400-35cbff/500-07a8ff/600-0083ff/700-006aff/800-0057d7/900-004ba1;dark-fern:50-e8ffe6/100-cbffc8/200-9dfe98/300-60fa5c/400-2df02b/500-0cd60d/600-05ab09/700-09820e/800-0d6211/900-115616;california:50-fffaea/100-fff2c5/200-ffe586/300-ffd146/400-ffbc1c/500-fe9903/600-e17100/700-bb4c02/800-973b09/900-7c310b;teal:50-eefffc/100-c5fffa/200-8bfff5/300-4afef0/400-15ece2/500-00d0c9/600-00a8a5/700-008282/800-066769/900-0a5757;prussian-blue:50-f4fcff/100-e9f8ff/200-d4ecfe/300-b4ddf8/400-6facdd/500-3c7eb3/600-245e8c/700-104a78/800-00284d/900-001646
+
+// primary palette
+
+$primary-50    : #f4fcff;
+$primary-100   : #e9f8ff;
+$primary-200   : #d4ecfe;
+$primary-300   : #b4ddf8;
+$primary-400   : #6facdd;
+$primary-500   : #3c7eb3;
+$primary-600   : #245e8c;
+$primary-700   : #104a78;
+$primary-800   : #00284d;
+$primary-900   : #001646;
+
+// secondary palette
+
+$secondary-50  : #eefffc;
+$secondary-100 : #c5fffa;
+$secondary-200 : #8bfff5;
+$secondary-300 : #4afef0;
+$secondary-400 : #15ece2;
+$secondary-500 : #00d0c9;
+$secondary-600 : #00a8a5;
+$secondary-700 : #008282;
+$secondary-800 : #066769;
+$secondary-900 : #0a5757;
+
+// accent palette
+
+$accent-50     : #fffaea;
+$accent-100    : #fff2c5;
+$accent-200    : #ffe586;
+$accent-300    : #ffd146;
+$accent-400    : #ffbc1c;
+$accent-500    : #fe9903;
+$accent-600    : #e17100;
+$accent-700    : #bb4c02;
+$accent-800    : #973b09;
+$accent-900    : #7c310b;
+
+// success palette
+
+$success-50    : #e8ffe6;
+$success-100   : #cbffc8;
+$success-200   : #9dfe98;
+$success-300   : #60fa5c;
+$success-400   : #2df02b;
+$success-500   : #0cd60d;
+$success-600   : #05ab09;
+$success-700   : #09820e;
+$success-800   : #0d6211;
+$success-900   : #115616;
+
+
+// info palette
+
+$info-50       : #ebf9ff;
+$info-100      : #d1f3ff;
+$info-200      : #aeeaff;
+$info-300      : #76dfff;
+$info-400      : #35cbff;
+$info-500      : #07a8ff;
+$info-600      : #0083ff;
+$info-700      : #006aff;
+$info-800      : #0057d7;
+$info-900      : #004ba1;
+
+// warning palette
+
+$warning-50    : #ffffea;
+$warning-100   : #fffbc5;
+$warning-200   : #fff885;
+$warning-300   : #ffee46;
+$warning-400   : #ffdf1b;
+$warning-500   : #ffc107;
+$warning-600   : #e29400;
+$warning-700   : #bb6902;
+$warning-800   : #985108;
+$warning-900   : #7c420b;
+
+// danger palette
+
+$danger-50     : #ffefef;
+$danger-100    : #ffdcdd;
+$danger-200    : #ffbfc0;
+$danger-300    : #ff9294;
+$danger-400    : #ff5457;
+$danger-500    : #ff1f23;
+$danger-600    : #ff0004;
+$danger-700    : #db0004;
+$danger-800    : #b00003;
+$danger-900    : #94080a;
+
+// gray palette
+
+$white         : #ffffff !default;
+$gray-50       : #fcfdfc;
+$gray-100      : #f7f8f7;
+$gray-200      : #e6e6e5;
+$gray-300      : #d5d5d2;
+$gray-400      : #a6a5a0;
+$gray-500      : #6c6c65;
+$gray-600      : #545550;
+$gray-700      : #43433d;
+$gray-800      : #282825;
+$gray-900      : #1b1b18;
+$black         : #1a1a1a !default;

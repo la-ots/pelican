@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Languages
   parent: Highlights
   excerpt: Show the Louisiana user all of the languages we support.
-  order: 2
+  order: 3
   img: /img/illustrations/illus-languages.svg
 ---
 

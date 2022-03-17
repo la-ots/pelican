@@ -1,0 +1,11 @@
+// Forms
+//
+// 1. Allow labels to use `margin` for spacing.
+
+label, .label {
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+p.label {
+  margin-bottom: .25rem;
+}

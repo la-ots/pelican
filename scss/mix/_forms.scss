@@ -1,19 +1,20 @@
 form {
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: $primary;
+    color: $primary-800;
     .fas {
-      color: $primary-10;
+      color: $primary-100;
     }
   }
   .fa-asterisk {
-    color: $danger;
+    color: $danger-700;
   }
 }
 legend, .legend {
   @extend .d-block;
   @extend .my-4;
   @extend .h4;
-  color: $primary;
+
+  color: $primary-800;
   & + p {
     @extend .mt-n4;
   }
@@ -41,7 +42,7 @@ legend, .legend {
   .form-check-label {
     position: relative;
     display: block;
-    background-color: white;
+    background-color: $white;
     color: $gray-700;
     border: 2px solid $ui-light;
     border-radius: 8px;
@@ -62,7 +63,7 @@ legend, .legend {
     background-color: $ui-light;
     border-color: $ui;
     &:before {
-      background-color:    $info;
+      background-color:    $info-900;
       background-image:    url('../img/check.svg');
       background-size:     contain;
       background-repeat:   no-repeat;
@@ -88,7 +89,7 @@ legend, .legend {
   }
   .form-check-input:checked + label {
     &:before {
-      background-color: white;
+      background-color: $white;
       background-image: none;
     }
     &:after {

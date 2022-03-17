@@ -21,16 +21,48 @@ Badges are used for information such as:
 
 ## Usage
 
-<span class="badge badge-primary">Badge</span> <span class="badge badge-secondary">Badge</span> <span class="badge badge-success">Badge</span> <span class="badge badge-warning">Badge</span> <span class="badge badge-danger">Badge</span> <span class="badge badge-info">Badge</span> <span class="badge badge-ui">Badge</span>
+<p class="h4">
+  <span class="badge badge-primary">PTA</span>
+  <span class="badge badge-secondary">OMV</span>
+  <span class="badge badge-accent">Habitual</span>
+  <span class="badge badge-ui">Text</span>
+  <span class="badge badge-success">Running</span>
+  <span class="badge badge-warning">Almost Full</span>
+  <span class="badge badge-danger">5</span>
+  <span class="badge badge-info">4 Messages</span>
+</p>
+<p>
+  <span class="badge badge-primary">PTA</span>
+  <span class="badge badge-secondary">OMV</span>
+  <span class="badge badge-accent">Habitual</span>
+  <span class="badge badge-ui">Text</span>
+  <span class="badge badge-success">Running</span>
+  <span class="badge badge-warning">Almost Full</span>
+  <span class="badge badge-danger">5</span>
+  <span class="badge badge-info">4 Messages</span>
+</p>
 
 ``` html
-<span class="badge badge-primary">Badge</span>
-<span class="badge badge-secondary">Badge</span>
-<span class="badge badge-success">Badge</span>
-<span class="badge badge-warning">Badge</span>
-<span class="badge badge-danger">Badge</span>
-<span class="badge badge-info">Badge</span>
-<span class="badge badge-ui">Badge</span>
+<p class="h4">
+  <span class="badge badge-primary">PTA</span>
+  <span class="badge badge-secondary">OMV</span>
+  <span class="badge badge-accent">Habitual</span>
+  <span class="badge badge-ui">Text</span>
+  <span class="badge badge-success">Running</span>
+  <span class="badge badge-warning">Almost Full</span>
+  <span class="badge badge-danger">5</span>
+  <span class="badge badge-info">4 Messages</span>
+</p>
+<p>
+  <span class="badge badge-primary">PTA</span>
+  <span class="badge badge-secondary">OMV</span>
+  <span class="badge badge-accent">Habitual</span>
+  <span class="badge badge-ui">Text</span>
+  <span class="badge badge-success">Running</span>
+  <span class="badge badge-warning">Almost Full</span>
+  <span class="badge badge-danger">5</span>
+  <span class="badge badge-info">4 Messages</span>
+</p>
 ```
 
 ## Resources

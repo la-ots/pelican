@@ -18,8 +18,6 @@ eleventyNavigation:
 
 ## Usage
 
-{% include markup/back-to-top.njk %}
-
 ``` html
 {% include markup/back-to-top.njk %}
 ```

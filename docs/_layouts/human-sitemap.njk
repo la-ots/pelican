@@ -3,16 +3,13 @@ layout: default.njk
 ---
 
 {% set navPages = collections.all | eleventyNavigation %}
-<div id="main">
+<div class="content-container" id="main">
   {% for entry in navPages %}
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="-col-12">
+      <div class="col-12">
         <h2 class="h4 mt-10">
-          <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">
-            <span class="badge badge-info">{{ entry.order }}</span>
-            &thinsp; {{ entry.title }}
-          </a>
+          <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">{{ entry.title }}</a>
         </h2>
         <p class="lead">{{ entry.excerpt }}</p>
       </div>
@@ -20,8 +17,8 @@ layout: default.njk
     {% if entry.children.length > 0 %}
     <div class="row">
       {% for child in entry.children %}
-      <div class="col-12 col-md-6 col-lg-3 {% if not loop.last %}mb-4{% endif %}">
-        <div class="card">
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+        <div class="card shadow-none border-0">
           <div class="card-body">
             <p class="p mb-0">
               <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">{{ child.title }}</a>
@@ -34,18 +31,12 @@ layout: default.njk
     {% endif %}
   </div>
   {% if not loop.last %}
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <hr class="major mt-12">
-      </div>
-    </div>
-  </div>
+  <hr class="minor mt-8 mb-4">
   {% endif %}
   {% endfor %}
 </div>
 
-<div class="bg-accent py-38 mt-12 mb-n12">
+<div class="bg-accent py-38 mt-n4 mb-n12">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">

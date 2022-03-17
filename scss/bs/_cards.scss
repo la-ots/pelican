@@ -23,12 +23,12 @@
       border-color: $gray-300;
     }
   }
-  .btn-link-card {
+  .btn-link {
     color: $info;
     transition: none;
 
-    @extend .btn-link-card-boxModel;
-    @extend .btn-link-card-layout;
+    @extend .btn-link-boxModel;
+    @extend .btn-link-layout;
 
     @extend .btn;
     @extend .btn-link;

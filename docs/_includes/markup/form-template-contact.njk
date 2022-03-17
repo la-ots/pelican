@@ -1,28 +1,31 @@
-<div class="row justify-content-center">
-  <div class="col-12 col-md-10 col-lg-6">
-    <div class="card">
-      <div class="card-body">
-        <h2 class="h2 mb-6 text-primary">
-          <span class="fas fa-address-book text-primary-10"></span> Contact Info
-        </h2>
-        <p>At the bare minimum, we only need your email address. But, it&rsquo;s extra helpful to you and us if we can also get your phone number.</p>
-        {% include markup/form-required-message.njk %}
-        <div class="mb-4">
-          <label for="TelephoneMain">Telephone</label>
+<div class="card">
+  <div class="card-body">
+    <h3 class="h3 mb-6 text-primary">
+      <span class="fas fa-address-book" aria-hidden="true"></span> Contact Info
+    </h3>
+    <p>At the bare minimum, we only need your email address. But, it&rsquo;s extra helpful to you and us if we can also
+      get your phone number.</p>
+    <p class="small">If there&rsquo;s an asterisk <span class="font-weight-bold"><span class="fas fa-asterisk text-danger" aria-hidden="true"></span></span> we have to get that information.</p>
+    <div class="row">
+      <div class="col-12">
+        <div class="form-group">
+          <label for="TelephoneMain">
+            Telephone
+          </label>
           <input type="tel" class="form-control" id="TelephoneMain">
-          <small>If you give us your number, please give us a number where you can get texts.</small>
+          <small>If you decide to give us your number, give us a number where you can get texts.</small>
         </div>
-        <div class="mb-4">
+        <div class="form-group">
           <label for="EmailAddressMain">
-            <span class="fas fa-asterisk text-danger"></span> Email Address
+            <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Email Address
           </label>
           <input type="email" class="form-control" id="EmailAddressMain">
         </div>
-        <button type="submit" class="btn btn-primary">
-          <span class="fas fa-check"></span>
+        <button class="btn btn-primary">
           Update Contact Info
+          <span class="fas fa-check"></span>
         </button>
       </div>
-    </div>	
+    </div>
   </div>
 </div>

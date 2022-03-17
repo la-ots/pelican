@@ -3,26 +3,26 @@
   @extend .container-round;
 }
 .badge-primary {    
-  background-color: $primary;
+  background-color: $primary-800;
 }
 .badge-secondary {
-  background-color: $secondary;
+  background-color: $secondary-700;
 }
 .badge-accent {
-  background-color: $accent;
+  background-color: $accent-500;
   color: $black;
 }
 .badge-info {
-  background-color: $info;
+  background-color: $info-900;
 }
 .badge-success {
-  background-color: $success;
+  background-color: $success-800;
 }
 .badge-danger {
-  background-color: $danger;
+  background-color: $danger-800;
 }
 .badge-warning {
-  background-color: $warning;
+  background-color: $warning-500;
   color: $black;
 }
 .badge-ui {
@@ -33,5 +33,5 @@
   color: $black;
 }
 .badge-ui-priority {
-  background-color: $ui-priority;
+  background-color: $link-color;
 }

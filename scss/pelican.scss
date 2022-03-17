@@ -7,15 +7,19 @@
 @import "variables";
 
 @import "mixins";
+@import "reboot";
 @import "bg-texture";
 @import 'chips';
 @import 'data-tiles';
 @import 'focus';
 
+// things we add
+@import 'hero';
+@import 'mix/custom';
+
 //styles with mixed resources
 @import 'mix/alerts';
 @import 'mix/app-frame';
-@import 'mix/custom';
 @import 'mix/forms';
 
 //styles with mainly bootstrap
@@ -32,9 +36,3 @@
 @import 'bs/share';
 @import 'bs/tables';
 @import 'bs/toasts';
-
-
-
-
-
-

@@ -57,40 +57,6 @@ The UI Light color is often used as:
 - The disabled color for [Form Controls](/form-controls/)
 - The background color to UI color uses
 
-## UI Color Class List
-
-The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
-
-<div class="table-responsive">
-  <table class="table mb-8">
-    <thead>
-      <tr>
-        <th id="color-name">Color Name</th>
-        <th id="background-color">Background Color</th>
-        <th id="background-color">Background Color Class</th>
-        <th id="text-color">Text Color</th>
-        <th id="text-color-class">Text Color Class</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th id="ui">UI</th>
-        <td headers="ui background-color"><span class="badge badge-pill py-2 px-4 bg-ui">bg-ui</span></td>
-        <td headers="ui background-color-class"><code>bg-ui</code></td>
-        <td headers="ui text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
-        <td headers="ui text-color-class"><code>text-ui</code></td>
-      </tr> 
-      <tr>
-        <th id="ui-light">UI Light</th>
-        <td headers="ui-light background-color"><span class="badge badge-pill py-2 px-4 bg-ui-light text-ui">bg-ui-light</span></td>
-        <td headers="ui-light background-color-class"><code>bg-ui-light</code></td>
-        <td headers="ui-light text-color"><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-light">text-ui-light</span></td>
-        <td headers="ui-light text-color-class"><code>text-ui-light</code></td>
-      </tr>                                 
-    </tbody>
-  </table>
-</div>
-
 ## Resources
 
 * <a href="https://getbootstrap.com/docs/5.1/customize/color/" target="_blank">Bootstrap Documentation - Color</a>

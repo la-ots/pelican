@@ -1,20 +1,6 @@
 $font-family-sans-serif:      "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 // color system
-
-$white            : #ffffff !default;
-$gray-100         : #f8f9fa !default;
-$gray-200         : #F5F5F5 !default;
-$gray-300         : #dee2e6 !default;
-$gray-400         : #ced4da !default;
-$gray-500         : #808080 !default;
-$gray-600         : #6c757d !default;
-$gray-700         : #495057 !default;
-$gray-800         : #343a40 !default;
-$gray-900         : #2b2b2b !default;
-$black            : #000000 !default;
-
-
     
 $blue             : #004BA1 !default;
 $indigo           : #6610f2 !default;
@@ -26,28 +12,21 @@ $yellow           : #ffc107 !default;
 $green            : #0D6211 !default;
 $teal             : #20c997 !default;
 $cyan             : #9c27b0 !default;
-$link-color       : #004BA1;
-$ui               : $gray-600;
+$link-color       : $info-800;
+$ui               : $gray-500;
 $ui-light         : $gray-300;
 $ui-priority      : $link-color;
-$body-bg          : #f7f7f7;
-// $light        : $body-bg;
+$body-bg          : $gray-50;
 $body-color       : $gray-700;
 $focus-color      : #2491ff;
 $less-bright      : #fbf9f9;
-
-$success          : $green;
-$warning          : $yellow;
-$danger           : $red;
-$info             : $link-color;
-$success-10       : #DCF8E2;
-$success-90       : #003302;
-$warning-10       : #FFECB3;
-$warning-90       : #5C3400;
-$danger-10        : #FFE6E8;
-$danger-90        : #650002;
-$info-10          : #D0E6FF;
-$info-90          : #002480;
+$success          : $success-700;
+$warning          : $warning-500;
+$danger           : $danger-700;
+$info             : $info-800;
+$primary					: $primary-800;
+$secondary				: $secondary-700;
+$accent						: $accent-500;
 
 $theme-colors     : () !default;
 $theme-colors     : map-merge( (
@@ -56,30 +35,15 @@ $theme-colors     : map-merge( (
 	"accent"         : $accent,
 	"success"        : $success,
 	"info"           : $info,
-	"warning"        : $yellow,
+	"warning"        : $warning,
 	"danger"         : $danger,
 	"light"          : $gray-200,
 	"dark"           : $gray-700,
 	"link"           : $link-color,
 	"ui"             : $ui,
-	"ui-light"       : $gray-300,
-	"ui-priority"    : $ui-priority,
+	"ui-light"       : $ui-light,
 	"black"          : $black,
-	"white"          : $white,
-	"primary-10"     : $primary-10,
-	"primary-90"     : $primary-90,
-	"secondary-10"   : $secondary-10,
-	"secondary-90"   : $secondary-90,
-	"accent-10"      : $accent-10,
-	"accent-90"      : $accent-90,
-	"success-10"     : $success-10,
-	"success-90"     : $success-90,
-	"warning-10"     : $warning-10,
-	"warning-90"     : $warning-90,
-	"danger-10"      : $danger-10,
-	"danger-90"      : $danger-90,
-	"info-10"        : $info-10,
-    "info-90"        : $info-90
+	"white"          : $white
 ), $theme-colors );
 
 
@@ -136,16 +100,16 @@ $spacers: (
 $sizes: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $sizes: map-merge( ( 
-	10: 10%,
-	20: 20%,
-	25: 25%, 
-	33: 33%,
-	40: 40%, 
-	50: 50%,
-	60:60%, 
-	66: 66%, 
-	75: 75%,
-	80:80%, 
+	10:  10%,
+	20:  20%,
+	25:  25%, 
+	33:  33%,
+	40:  40%, 
+	50:  50%,
+	60:  60%, 
+	66:  66%, 
+	75:  75%,
+	80:  80%, 
 	100: 100%, 
 	auto: auto 
 ), $sizes );
@@ -299,13 +263,13 @@ $card-cap-bg:                       $gray-200;
 
 // sidebar 
     
-$sidenav-dark-bg				: $primary;
-$sidenav-dark-color				: $primary-10;
-$sidenav-dark-heading-color		: $primary-10;
-$sidenav-dark-link-color		: $white;
-$sidenav-dark-link-active-color	: $info-10;
-$sidenav-dark-icon-color		: $primary-10;
-$sidenav-dark-footer-bg			: $black;	
+$sidenav-dark-bg								: $primary-800;
+$sidenav-dark-color							: $primary-100;
+$sidenav-dark-heading-color	   	: $primary-100;
+$sidenav-dark-link-color		    : $white;
+$sidenav-dark-link-active-color	: $info-100;
+$sidenav-dark-icon-color		    : $primary-100;
+$sidenav-dark-footer-bg			    : $black;	
 
 
 
@@ -318,9 +282,9 @@ $sidenav-dark-footer-bg			: $black;
 
 // z-index
 
-$zindex-app-wrapper:				1;
-$zindex-app-sidebar:				100;
-$zindex-app-topbar:					900;
+$zindex-app-wrapper:				           1         ;
+$zindex-app-sidebar:				         100         ;
+$zindex-app-topbar:					         900         ;
 $zindex-dropdown:                   1000 !default;
 $zindex-sticky:                     1020 !default;
 $zindex-fixed:                      1030 !default;

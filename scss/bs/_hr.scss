@@ -1,6 +1,6 @@
-hr {
+hr, .hr {
   &.minor, &.major {
-    @extend .bg-ui-light;
+    background-color: $primary-300;
   }
   &.minor {
     height: 1px;

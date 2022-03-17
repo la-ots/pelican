@@ -1,7 +1,7 @@
 $topbar-height                          : 48px;
 $app-frame-sizer                        : 300px;
 $app-sidebar-footer-height              : 59px;
-$app-sidebar-scrollbar-foreground-color : $primary-10;
+$app-sidebar-scrollbar-foreground-color : $primary-500;
 $app-sidebar-scrollbar-background-color : $black;
 @mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
   // For Google Chrome
@@ -84,7 +84,7 @@ $app-sidebar-scrollbar-background-color : $black;
 	top: $topbar-height; bottom: 0; left: -$app-frame-sizer; 
 	width: $app-frame-sizer; height: calc(100vh - $topbar-height);
 	z-index: $zindex-app-sidebar;
-	background-color: $primary;
+	background-color: $primary-800;
 	@media screen and (min-width: 992px){
 		left: 0px;
 	}
@@ -101,7 +101,7 @@ $app-sidebar-scrollbar-background-color : $black;
 .app-sidebar-body {
   height: calc(100vh - $app-sidebar-footer-height);
   overflow-y: auto;
-  @include scrollbars(10px, $primary-10, $black);
+  @include scrollbars(10px, $primary-100, $black);
 }
 .app-sidebar-footer {
 	@extend .d-flex;
@@ -109,13 +109,15 @@ $app-sidebar-scrollbar-background-color : $black;
 	@extend .mt-auto;
 	@extend .p-2;
 	@extend .muted-top-border;
-	@extend .text-primary-10;
+	color: $primary-100;
 	.btn {
 		@extend .btn-link;
 		@extend .position-relative;
 		@extend .rounded-0;
 		color: inherit;
-
+		&:hover, &:active {
+			color: $white;
+		}
 	}
 }
 .app-sidebar-nav-list {
@@ -128,7 +130,7 @@ $app-sidebar-scrollbar-background-color : $black;
 	@extend .pb-0;
 	@extend .small;
 	@extend .fw-bold;
-	@extend .text-primary-10;
+	color: $primary-100;
 	letter-spacing: .5px;
 	@extend .opacity-75;
 }
@@ -142,17 +144,20 @@ $app-sidebar-scrollbar-background-color : $black;
 	@extend .flex-grow-1;
 	@extend .p-2;
 	@extend .text-decoration-none;
-	@extend .text-primary-10;
+	color: $primary-100;
 	border-left: $border-width*2 $border-style transparent;
 	transition: $transition-base;
 	&:hover {
-		@extend .bg-white;
-		@extend .text-primary-90;
+		background-color: $white;
+		color: $primary-900;
 	}
 	&.current {
-		@extend .text-white;
 		@extend .fw-bold;
+		color: $white;
 		border-left-color: $white;
+		&:hover, &:active {
+			background-color: $primary-700;
+		}
 	}
 	&.show {
 		@extend .app-sidebar-nav-link-dark-bg;
@@ -163,8 +168,8 @@ $app-sidebar-scrollbar-background-color : $black;
 	@extend .ms-auto;
 	@extend .btn;
 	@extend .shadow-none;
-	@extend .text-primary-10;
 	@extend .rounded-0;
+	color: $primary-100;
 	transition: $transition-base;
 	.fas {
 		transition: $transition-base;
@@ -173,21 +178,21 @@ $app-sidebar-scrollbar-background-color : $black;
 		@extend .app-sidebar-nav-link-dark-bg;
 		.fas{
 			transform: rotate(180deg);
-			@extend .text-white;
+			color: $white;
 		}
 		&:hover {
 			.fas {
-				@extend .text-primary-90;
+				color: $primary-900;
 			}
 			
 		}
 	}
 	&:hover {
-		@extend .bg-white;
-		@extend .text-primary-90;
+		background-color: $white;
+		color: $primary-900;
 	}
 	.show.current ~ & {
-		@extend .text-white;
+		color: $white;
 	}
 }
 .app-sidebar-subnav {
@@ -210,6 +215,9 @@ $app-sidebar-scrollbar-background-color : $black;
 			border-left-color: transparent;
 			.fas {
 				opacity: 1;
+			}
+			&:hover, &:active {
+				background-color: $primary-700;
 			}
 		}
 	}

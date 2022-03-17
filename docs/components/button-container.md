@@ -16,6 +16,7 @@ eleventyNavigation:
 - See [Buttons](/components/buttons) for guidance on styling and writing buttons.
 - Consider buttons’ [action hierarchy](/components/buttons) when assigning button styles.
 - Put Warning and Danger buttons to the right of the Button Bar by adding the class `ms-md-auto` added to the first of those buttons.
+- It’s best not to show disabled buttons.
 
 ## Usage
 

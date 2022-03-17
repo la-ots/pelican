@@ -101,45 +101,45 @@ The source below shows the source order and structure of the page in a little mo
   <div class="app-topbar">...</div>
   <!-- app-sidebar is second -->
   <nav class="app-sidebar">
-      <!-- app-sidebar-body goes in app-sidebar -->
-      <div clas="app-sidebar-body">
-        <!-- app-sidebar-nav-list goes into app-sidebar-body -->
-        <ul class="app-sidebar-nav-list">
-          <!-- the next two LI tags show how to make the navigation items -->
-          <!-- this navigation item doesn’t have any children -->
-          <li class="app-sidebar-nav-item">
-            <a class="app-sidebar-nav-link" href="/whats-new/">What’s New</a>
-          </li>
-          <!-- this navigation item does have children -->
-          <li class="app-sidebar-nav-item">
-            <a class="app-sidebar-nav-link" href="/introduction/">Introduction</a>
-            <!-- this button expands the list of children -->
-            <button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#Introduction" aria-controls="Introduction" aria-expanded="false">
-              <span class="fas fa-fw fa-angle-down" aria-hidden="true"></span>
-              <span class="visually-hidden">See More</span>
-            </button>
-            <!-- app-sidebar-subnav holds all of the child navigation items -->
-            <div class="app-sidebar-subnav">
-              <ul class="app-sidebar-nav-list">
-                <li class="app-sidebar-nav-item">
-                  <a class="app-sidebar-nav-link " href="/introduction/considerations/">
-                    <span class="fas fa-fw fa-eye opacity-00" aria-hidden="true"></span> Important Considerations
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <!-- app-sidebar-footer follows app-sidebar-body -->
-      <div class="app-sidebar-footer">
-        <a href="/sitemap" class="btn btn-link">
-          <span class="fas fa-map-marked-alt" aria-hidden="true"></span> Sitemap
-        </a>
-        <a href="/feedback" class="btn btn-link">
-          <span class="fas fa-comment" aria-hidden="true"></span> Feedback
-        </a>
-      </div>
+    <!-- app-sidebar-body goes in app-sidebar -->
+    <div clas="app-sidebar-body">
+      <!-- app-sidebar-nav-list goes into app-sidebar-body -->
+      <ul class="app-sidebar-nav-list">
+        <!-- the next two LI tags show how to make the navigation items -->
+        <!-- this navigation item doesn’t have any children -->
+        <li class="app-sidebar-nav-item">
+          <a class="app-sidebar-nav-link" href="/whats-new/">What’s New</a>
+        </li>
+        <!-- this navigation item does have children -->
+        <li class="app-sidebar-nav-item">
+          <a class="app-sidebar-nav-link" href="/introduction/">Introduction</a>
+          <!-- this button expands the list of children -->
+          <button class="app-sidebar-subnav-revealer" type="button" data-bs-toggle="collapse" data-bs-target="#Introduction" aria-controls="Introduction" aria-expanded="false">
+            <span class="fas fa-fw fa-angle-down" aria-hidden="true"></span>
+            <span class="visually-hidden">See More</span>
+          </button>
+          <!-- app-sidebar-subnav holds all of the child navigation items -->
+          <div class="app-sidebar-subnav">
+            <ul class="app-sidebar-nav-list">
+              <li class="app-sidebar-nav-item">
+                <a class="app-sidebar-nav-link " href="/introduction/considerations/">
+                  <span class="fas fa-fw fa-eye opacity-00" aria-hidden="true"></span> Important Considerations
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- app-sidebar-footer follows app-sidebar-body -->
+    <div class="app-sidebar-footer">
+      <a href="/sitemap" class="btn btn-link">
+        <span class="fas fa-map-marked-alt" aria-hidden="true"></span> Sitemap
+      </a>
+      <a href="/feedback" class="btn btn-link">
+        <span class="fas fa-comment" aria-hidden="true"></span> Feedback
+      </a>
+    </div>
   </nav>
   <!-- app-content follows app-sidebar -->
   <div class="app-content">
