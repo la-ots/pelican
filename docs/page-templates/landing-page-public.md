@@ -1,6 +1,6 @@
 ---
 title: Landing Page Public
-layout: default-public
+layout: default-public-banner
 ---
 
-{% include markup/landing-public.njk %}
+{% include markup/landing-page.njk %}
