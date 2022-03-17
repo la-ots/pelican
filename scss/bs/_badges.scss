@@ -1,37 +1,37 @@
 .badge {
-  @extend .rounded-pill;
-  @extend .text-decoration-none;
+  @extend .plain-text;
+  @extend .container-round;
 }
 .badge-primary {    
-  @extend .bg-primary;
+  background-color: $primary;
 }
 .badge-secondary {
-  @extend .bg-secondary;
+  background-color: $secondary;
 }
 .badge-accent {
-  @extend .bg-accent;
-  @extend .text-black;
+  background-color: $accent;
+  color: $black;
 }
 .badge-info {
-  @extend .bg-info;
+  background-color: $info;
 }
 .badge-success {
-  @extend .bg-success;
+  background-color: $success;
 }
 .badge-danger {
-  @extend .bg-danger;
+  background-color: $danger;
 }
 .badge-warning {
-  @extend .bg-warning;
-  @extend .text-black;
+  background-color: $warning;
+  color: $black;
 }
 .badge-ui {
-  @extend .bg-ui;
+  background-color: $ui;
 }
 .badge-ui-light {
-  @extend .bg-ui-light;
-  @extend .text-black;
+  background-color: $ui-light;
+  color: $black;
 }
 .badge-ui-priority {
-  @extend .bg-ui-priority;
+  background-color: $ui-priority;
 }

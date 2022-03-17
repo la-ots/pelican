@@ -4,25 +4,26 @@
 @import 'theme-agency';
 @import 'theme-default';
 @import "bootstrap/scss/bootstrap";
+@import "variables";
 
+@import "mixins";
 @import "bg-texture";
 @import 'chips';
 @import 'data-tiles';
-@import "mixins";
+@import 'focus';
 
 //styles with mixed resources
 @import 'mix/alerts';
 @import 'mix/app-frame';
 @import 'mix/custom';
+@import 'mix/forms';
 
 //styles with mainly bootstrap
 @import 'bs/badges';
 @import 'bs/breadcrumb';
 @import 'bs/buttons';
 @import 'bs/cards';
-@import 'bs/focus';
 @import 'bs/footers';
-@import 'bs/forms';
 @import 'bs/hr';
 @import 'bs/nav';
 @import 'bs/navbars';

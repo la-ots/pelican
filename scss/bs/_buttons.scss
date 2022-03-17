@@ -1,5 +1,5 @@
 .btn {
-  @extend .position-relative;
+  @extend .place-relative;
   &:not(.btn-link){
       box-shadow : 0 2px 0 0 fade-out($ui, .38);
   }
@@ -26,37 +26,31 @@
   }
 }
 .btn-add-this {
-@extend           .btn;
-@extend           .btn-outline-ui;
-@extend           .d-flex;
-@extend           .justify-content-center;
-@extend           .align-items-center;
-@extend           .py-2;
-@extend           .my-2;
-@extend           .mb-0;
-@extend           .shadow-none;
-border:           2px dashed $gray-600;
-background-color: transparent;
+  border:           2px dashed $gray-600;
+  background-color: transparent;
+  @extend           .btn-add-this-boxModel;
+  @extend           .btn-add-this-layout;
 
+  @extend           .btn;
+  @extend           .btn-outline-ui;
+  
   &-core {
-    @extend .rounded;
-    @extend .p-2;
-    @extend .px-3;
-    @extend .bg-ui;
-    @extend .text-white;
+    @extend .btn-add-this-core-boxModel;
+
+    background-color: $ui;
+    color: $white;
   }
   &:hover, &:active {
     background-color: fade-out($ui, .75)
   }
 }
 .btn-container {
-  @extend .d-flex;
-  @extend .flex-wrap;
-  @extend .p-2;
-  @extend .my-4;
-  @extend .bg-white;
-  @extend .rounded-3;
+  background-color: $white;
   border: 2px solid $border-color;
+
+  @extend .btn-container-boxModel;
+  @extend .btn-container-layout;
+
   &-right {
     @extend .ms-auto;
   }

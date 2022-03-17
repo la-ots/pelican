@@ -1,19 +1,19 @@
 form {
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    @extend .text-primary;
+    color: $primary;
     .fas {
-      @extend .text-primary-10;
+      color: $primary-10;
     }
   }
   .fa-asterisk {
-    @extend .text-danger;
+    color: $danger;
   }
 }
 legend, .legend {
   @extend .d-block;
   @extend .my-4;
   @extend .h4;
-  @extend .text-primary;
+  color: $primary;
   & + p {
     @extend .mt-n4;
   }
@@ -107,5 +107,5 @@ legend, .legend {
   font-size: 12px;
 }
 .form-control-plaintext {
-  @extend .position-relative;
+  @extend .place-relative;
 }

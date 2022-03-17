@@ -1,12 +1,11 @@
 .breadcrumb {
-  @extend .bg-white;
-  @extend .py-2;
-  @extend .px-3;
-  @extend .my-0;
+  background-color: $white;
   border-bottom: 1px solid $primary-10;
+
+  @extend .breadcrumb-boxModel;
 }
 .breadcrumb-item {
   a {
-    @extend .text-decoration-none;
+    @extend .plain-text;
   }
 }

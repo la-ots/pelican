@@ -1,18 +1,20 @@
 .card {
-  @extend .position-relative;
+  @extend .place-relative;
 
   .card-header, .card-footer {
-    @extend .small;
-    @extend .text-muted;
     background-color: $gray-100;
     border-width: $border-width * .5;
+
+    @extend .small;
+    @extend .text-muted;
   }
   .card-title {
     @extend .fw-bold;
   }
   .btn-card-edit {
-    @extend .position-absolute;
     right: $spacer*.5; top: $spacer*.5;
+
+    @extend .place-relative;
   }
   .content-container & {
     background-color: $gray-100;
@@ -22,12 +24,13 @@
     }
   }
   .btn-link-card {
+    color: $info;
+    transition: none;
+
+    @extend .btn-link-card-boxModel;
+    @extend .btn-link-card-layout;
+
     @extend .btn;
     @extend .btn-link;
-    @extend .rounded-0;
-    @extend .mt-auto;
-    @extend .align-self-start;
-    @extend .text-info;
-    transition: none;
   }
 }

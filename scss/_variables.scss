@@ -1,0 +1,66 @@
+.plain-text {
+  @extend .text-decoration-none;
+}
+
+.container-round{
+  @extend .rounded-pill;
+}
+
+.place-relative{
+  @extend .position-relative;
+}
+
+.lid-boxModel-4{
+  @extend .py-4;
+}
+
+.fence-boxModel-4{
+  @extend .mx-4;
+}
+
+.content-center-layout{
+  @extend .text-center;
+}
+
+
+
+.breadcrumb-boxModel{
+  @extend .py-2;
+  @extend .px-3;
+  @extend .my-0;
+}
+
+.btn-add-this-boxModel{
+  @extend .py-2;
+  @extend .my-2;
+  @extend .mb-0;
+  @extend .shadow-none;
+}
+.btn-add-this-layout{
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+}
+.btn-add-this-core-boxModel{
+  @extend .rounded;
+  @extend .p-2;
+  @extend .px-3;
+}
+
+.btn-container-boxModel{
+  @extend .rounded-3;
+  @extend .p-2;
+  @extend .my-4;
+}
+.btn-container-layout{
+  @extend .d-flex;
+  @extend .flex-wrap;
+}
+
+.btn-link-card-boxModel{
+  @extend .rounded-0;
+  @extend .mt-auto;
+}
+.btn-link-card-layout{
+  @extend .align-self-start;
+}
