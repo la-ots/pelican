@@ -11,6 +11,7 @@
 .btn-outline-ui {
   @extend .shadow-none;
   color: $gray-700;
+  background-color: $white;
 }
 .btn-link {
   @extend .shadow-none;
