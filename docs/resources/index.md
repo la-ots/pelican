@@ -8,7 +8,7 @@ eleventyNavigation:
   key: Resources
   excerpt: Learn from the same inspirations, research, and industry practices which go into making Pelican.
   title: Resources
-  order: 13
+  order: 11
 ---
 
 ## Accessibility Guides
