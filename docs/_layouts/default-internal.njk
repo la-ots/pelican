@@ -7,9 +7,7 @@ layout: base.njk
 {% include "sidebar-internal.njk" %}
 <div class="d-flex flex-column">
   <main class="app-content flex-fill" id="app-content">
-    <div class="">
-      {{ content | safe }}
-      {% include "markup/footer-basic.njk" %}
-    </div>
+    {{ content | safe }}
+    {% include "markup/footer-basic.njk" %}
   </main>
 </div>
