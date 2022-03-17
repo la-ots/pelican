@@ -94,6 +94,7 @@ footer {
   font-weight: normal;
   border: none;
   margin: 0 0 .5rem 0;
+  text-align: center;
 }
 .describe .fas {
   opacity: .5;
@@ -116,10 +117,13 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 16px;
 }
 .illus-icon .fas {
   font-size: 32px;
+}
+.illus-icon-text h3 {
+  font-size: 1.5rem;
 }
 @media screen and (min-width: 1024px) {
   .illus-icon-box {
@@ -131,7 +135,7 @@ footer {
   .illus-icon-text {
     margin: 0 0 0 .5rem;
   }
-}
-.illus-icon-text h3 {
-  font-size: 1.5rem;
+  .describe .h3 {
+    text-decoration: left;
+  }
 }
