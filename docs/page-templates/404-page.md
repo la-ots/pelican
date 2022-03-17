@@ -16,18 +16,18 @@ eleventyNavigation:
 
 404 pages are pages which users will see if they click an invalid URL. An invalid URL could be caused by a developer error, a copy and paste error, or other error. They are not the user’s fault.
 
-{% include writing-tips.njk %}
+{% include "writing-tips.njk" %}
 
 ## Usage
 
 <a class="btn btn-primary" href="/page-templates/404-page-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include markup/404-internal.njk %}
+{% include "markup/404-internal.njk" %}
 ```
 
 <a class="btn btn-primary" href="/page-templates/404-page-public/" target="_blank">See Public Preview</a>
 
 ``` html
-{% include markup/404-public.njk %}
+{% include "markup/404-public.njk" %}
 ```

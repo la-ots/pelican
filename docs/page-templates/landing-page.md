@@ -24,5 +24,5 @@ eleventyNavigation:
 <a class="btn btn-primary" href="/page-templates/landing-page-public/" target="_blank">See Preview</a>
 
 ``` html
-{% include markup/landing-page.njk %}
+{% include "markup/landing-page.njk" %}
 ```

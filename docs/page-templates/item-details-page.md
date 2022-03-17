@@ -25,5 +25,5 @@ eleventyNavigation:
 <a class="btn btn-primary" href="/page-templates/item-details-page-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include markup/item-details-internal.njk %}
+{% include "markup/item-details-internal.njk" %}
 ```
