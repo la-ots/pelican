@@ -211,3 +211,18 @@ body {
     @extend .shadow-none;
   }
 }
+.highlight-cta {
+  background-color: $white;
+  @extend .py-38;
+  .highlight-big-text {
+    @extend .h2;
+    @extend .mb-4;
+    @extend .mb-md-0;
+    color: $primary;
+  }
+  .highlight-small-text {
+    @extend .mb-4;
+    @extend .mb-md-0;
+    color: $primary;
+  }
+}

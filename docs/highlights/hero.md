@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Hero
   parent: Highlights
   excerpt: Heroes bring a visual impact to a visitor’s initial impression of a site.
-  order: 3
+  order: 4
   img: /img/illustrations/illus-hero.svg
 ---
 

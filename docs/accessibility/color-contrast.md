@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Color Contrast
   parent: Accessibility
-  order: 3
+  order: 2
   excerpt: Color Contrast is the contrast ratio between two colors.
   img: /img/illustrations/illus-color-contrast.svg
 ---

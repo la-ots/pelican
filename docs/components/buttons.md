@@ -21,6 +21,7 @@ eleventyNavigation:
 - If an action moves the user to another place in the same page, or another URL, use a link (`<a>`) and not `<button>`.
 - If a button is inside of a table row, give it the `btn-sm` class in addition to other classes.
 - For accessibility reasons, when using `<a>` as a `<button>` you must include `role="button"`.
+- If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below).
 
 <p class="fw-bold mt-4">Button Hierarchies</p>
 
@@ -28,8 +29,8 @@ eleventyNavigation:
 - For two types of actions: use the primary button as the main action and [gray outline buttons](/components/buttons/#tertiary-buttons) as the tertiary action(s).
 - For three types of actions:  use the primary button as the main action, use the [Secondary button](/components/buttons/#secondary-buttons) as the secondary action, and the gray outline buttons as the tertiary action(s).
 - If a fourth or more types of actions are required, use the [Link Buttons](/components/buttons/#link-buttons) for those, in addition to the types above.
-- Any cautionary buttons, [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons), should be right aligned tin the button container.
-- Consider a [Button Container](/components/button-container/) to hold all of the buttons.
+- Any cautionary buttons, [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons), should be right aligned in the button container.
+- Use a [Button Container](/components/button-container/) to hold all of the buttons at the end of a form or page.
 
 <p class="fw-bold mt-4">Single Level</p>
 
@@ -45,7 +46,6 @@ eleventyNavigation:
 <div class="d-grid gap-2 d-md-flex">
 <button type="button" class="btn btn-primary">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
-<button type="button" class="btn btn-outline-ui">Button</button>
 <button type="button" class="btn btn-warning ms-md-auto">Warning</button>
 </div>
 
@@ -56,7 +56,6 @@ eleventyNavigation:
 <div class="d-grid gap-2 d-md-flex">
 <button type="button" class="btn btn-primary">Button</button>
 <button type="button" class="btn btn-secondary">Button</button>
-<button type="button" class="btn btn-outline-ui">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
 <button type="button" class="btn btn-warning ms-md-auto">Warning</button>
 <button type="button" class="btn btn-danger ">Danger</button>
@@ -70,9 +69,6 @@ eleventyNavigation:
 <button type="button" class="btn btn-primary">Button</button>
 <button type="button" class="btn btn-secondary">Button</button>
 <button type="button" class="btn btn-outline-ui">Button</button>
-<button type="button" class="btn btn-outline-ui">Button</button>
-<button type="button" class="btn btn-link">Button</button>
-<button type="button" class="btn btn-link">Button</button>
 <button type="button" class="btn btn-link">Button</button>
 <button type="button" class="btn btn-warning ms-md-auto">Warning</button>
 <button type="button" class="btn btn-danger ">Danger</button>

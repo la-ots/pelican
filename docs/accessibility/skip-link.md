@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Skip Link
   parent: Accessibility
-  order: 5
+  order: 4
   excerpt: Skip Links allow users to skip navigation elements and go straight to content.
   img: /img/illustrations/illus-skip-link.svg
 ---

@@ -7,7 +7,7 @@ eleventyNavigation:
   key: Feature
   parent: Highlights
   excerpt: Tell users about aspects of what a digital product can do for them.
-  order: 1
+  order: 2
   img: /img/illustrations/illus-feature.svg
 ---
 
