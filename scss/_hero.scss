@@ -1,0 +1,50 @@
+.bg-image-size-cover {
+  background-size: cover;
+}
+
+.bg-image-position-center {
+  background-position: 50%;
+}
+
+.hero-dual-pane {
+  @extend .py-40 ;
+  @extend .position-relative ;
+  @extend .bg-image-position-center ;
+  @extend .bg-image-size-cover;
+  .overlay {
+    @extend .position-absolute;
+    @extend .opacity-75;
+  }
+  .overlay-left {
+    background-color: $primary;
+  }
+  .overlay-right {
+    background-color: $secondary;
+  }
+  .container {
+    @extend .position-relative;
+  }
+  .logo {
+    @extend .img-fluid ;
+    @extend .mb-4;
+    width: 128px;
+  }
+  .hero-big-text {
+    @extend .h1 ;
+    color: $white;
+    @extend .fw-bold ;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary!optional;
+  }
+  .hero-lead-text {
+    @extend .h4 ;
+    color: $white;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary!optional;
+  }
+  .hero-small-text {
+    color: $white;
+    @extend .text-shadow !optional;
+    @extend .shadow-primary!optional;
+  }
+}

@@ -225,4 +225,7 @@ body {
     @extend .mb-md-0;
     color: $primary;
   }
+  .btn {
+    box-shadow: none;
+  }
 }
