@@ -9,25 +9,16 @@
 @import "mixins";
 @import "reboot";
 @import "bg-texture";
-@import 'chips';
-@import 'data-tiles';
-@import 'focus';
 
-// things we add
-@import 'hero';
-@import 'mix/custom';
-
-//styles with mixed resources
 @import 'mix/alerts';
-@import 'mix/app-frame';
-@import 'mix/forms';
-
-//styles with mainly bootstrap
 @import 'bs/badges';
 @import 'bs/breadcrumb';
 @import 'bs/buttons';
 @import 'bs/cards';
+@import 'data-tiles';
+@import 'chips';
 @import 'bs/footers';
+@import 'mix/forms';
 @import 'bs/hr';
 @import 'bs/nav';
 @import 'bs/navbars';
@@ -36,3 +27,9 @@
 @import 'bs/share';
 @import 'bs/tables';
 @import 'bs/toasts';
+@import 'mix/app-frame';
+@import 'focus';
+
+// things we add
+@import 'hero';
+@import 'mix/custom';
