@@ -26,12 +26,12 @@
   &-section {
     @extend .p-5;
     @extend .mt-4;
-    @extend .mr-0;
+    @extend .me-0;
     @extend .mb-4;
-    @extend .ml-38;
+    @extend .ms-38;
     @extend .my-md-40;
-    @extend .mr-lg-0;
-    @extend .ml-lg-auto;
+    @extend .me-lg-0;
+    @extend .ms-lg-auto;
 
     @include media-breakpoint-up(lg) {
       flex: 0 1 50%;
@@ -81,9 +81,9 @@
   .feature-big-text {
     @extend .h2 ;
     color: $white;
-    @extend .font-weight-bold ;
+    @extend .fw-bold ;
     @extend .text-center ;
-    @extend .text-lg-left;
+    @extend .text-lg-start;
   }
   .feature-small-text {
     @extend .mb-8 ;
@@ -101,7 +101,7 @@
   .feature-big-text {
     @extend .h2;
     //this is redundant from the h2 inheritance above
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     color: $primary;
   }
   .feature-small-text {
@@ -115,7 +115,7 @@
     p {
       @extend .mb-0;
       @extend .h4;
-      @extend .font-weight-light;
+      @extend .fw-light;
       @extend .text-center;
     }
   }

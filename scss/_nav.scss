@@ -14,9 +14,6 @@
   display: block;
   padding: $nav-link-padding-y $nav-link-padding-x;
   text-decoration: if($link-decoration == none, null, none);
-  @include hover-focus() {
-    text-decoration: none;
-  }
   // Disabled state lightens text
   &.disabled {
     color: $nav-link-disabled-color;
@@ -40,13 +37,6 @@
   .nav-link {
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
-
-    @include hover-focus() {
-      color: $white;
-      background-color: $ui-priority;
-      border-color: $nav-tabs-link-hover-border-color;
-      border-color: $ui-priority;
-    }
 
     &.disabled {
       color: $ui-light;
@@ -154,10 +144,10 @@
     @extend .navbar-expand-lg;
     .navbar-toggler {
       color: $white;
-      @extend .ml-auto;
+      @extend .ms-auto;
     }
     .navbar-nav {
-      @extend .ml-auto;
+      @extend .ms-auto;
     }
     .nav-link {
       color: $white;
@@ -166,7 +156,7 @@
       @extend .btn-white;
       @extend .mt-2 ;
       @extend .mt-lg-0 ;
-      @extend .ml-lg-2;
+      @extend .ms-lg-2;
     }
   }
   &.navbar-search {
@@ -177,13 +167,13 @@
     }
     .navbar-toggler {
       color: $white;
-      @extend .ml-auto;
+      @extend .ms-auto;
     }
     hr.minor {
       @extend .opacity-25;
     }
     .navbar-collapse {
-      @extend .ml-lg-n2;
+      
     }
     .nav-link {
       color: $white;
@@ -191,7 +181,7 @@
     .btn {
       @extend .mt-2 ;
       @extend .mt-lg-0 ;
-      @extend .ml-lg-2;
+      @extend .ms-lg-2;
     }
   }
   &.navbar-iconic {
@@ -201,11 +191,11 @@
     }
     .navbar-toggler {
       color: $white;
-      @extend .ml-auto;
+      @extend .ms-auto;
     }
     .navbar-icon-links {
       .nav-item {
-        @extend .ml-lg-3;
+        @extend .ms-lg-3;
         @include media-breakpoint-up(lg) {
           text-align: center;
         }

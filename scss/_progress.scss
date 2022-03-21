@@ -12,13 +12,13 @@
   @extend .mb-0 ;
   @extend .font-weight-bold;
   @extend .mt-1;
-  @extend .pl-1;
+  @extend .ps-1;
 }
 .progress-description-counter {
   @extend .small;
   color: fade-out($primary, .25);
   @extend .d-block;
-  @extend .pl-1;
+  @extend .ps-1;
 }
 .progress-description-text {
   color: $primary;

@@ -67,7 +67,7 @@
       box-shadow: none;
     }
     &.btn-link {
-      @extend .mr-0;
+      @extend .me-0;
     }
     @media screen and (min-width: 1024px){
       width: unset;
@@ -102,7 +102,6 @@
 .btn-add-this, .btn-add-data {
   @extend .btn;
   @extend .btn-ui;
-  @extend .btn-block;
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
@@ -116,7 +115,6 @@
 
   div {
     background-color: $ui;
-    @extend .rounded-lg;
     @extend .py-2;
     @extend .px-3;
   }
@@ -208,7 +206,6 @@ p a {
   }
   .btn {
     @extend .btn-lg;
-    @extend .btn-block;
   }
 }
 

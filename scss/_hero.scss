@@ -34,7 +34,7 @@
   .hero-big-text {
     @extend .h1 ;
     color: $white;
-    @extend .font-weight-bold ;
+    @extend .fw-bold ;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
   }
@@ -53,7 +53,7 @@
 
 .hero-solo-pane {
   > .row {
-    @extend .no-gutters;
+    @extend .g-0;
   }
   .half-left {
     @extend .bg-image-size-cover;
