@@ -1,4 +1,4 @@
-﻿---
+﻿\---
 title: UI Colors
 summary: Pelican uses UI colors to help define important interface cues.
 tags: color

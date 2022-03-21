@@ -25,7 +25,7 @@ eleventyNavigation:
 We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">22 types of inputs</a>.
 
 ## Usage
-### Input Type: Text
+**Input Type: Text**
 
 - Accepts text, numbers, and other characters
 
@@ -35,7 +35,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-text.njk' %}
 ```
 
-### Input Type: Date Picker
+**Input Type: Date Picker**
 
 - Accepts dates using the browser’s date picker. 
 - Displays a User Interface (UI) optimized for the entry of dates.
@@ -46,7 +46,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-date-picker.njk' %}
 ```
 
-### Input Type: Known Date Entry
+**Input Type: Known Date Entry**
 
 - Accepts dates using three text inputs for Month, Day, Year. 
 - Displays a User Interface (UI) optimized for the entry of dates.
@@ -58,7 +58,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-date-multiple-fields.njk' %}
 ```
 
-### Input Type: Tel
+**Input Type: Tel**
 
 - Accepts telephone numbers
 - Displays a UI optimized for a phone number
@@ -69,7 +69,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-tel.njk' %}
 ```
 
-### Input Type: Email
+**Input Type: Email**
 
 - Accepts email addresses
 - Displays a UI optimized for the email address entry
@@ -80,7 +80,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-email.njk' %}
 ```
 
-### Input Type: Search
+**Input Type: Search**
 
 - Accepts search terms
 - Displays a UI optimized for search term entry
@@ -91,7 +91,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-search.njk' %}
 ```
 
-### Input Type: URL
+**Input Type: URL**
 
 - Accepts web addresses
 - Displays a UI optimized for the entry of web addresses
@@ -102,7 +102,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-url.njk' %}
 ```
 
-### Input Type: Number
+**Input Type: Number**
 
 - Accepts numbers
 - Displays a UI optimized for the entry of numbers
@@ -113,7 +113,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 {% include 'markup/input-number.njk' %}
 ```
 
-### Input Type: File
+**Input Type: File**
 
 - Accepts file uploads.
 - Displays a UI optimized for uploading files.
@@ -137,7 +137,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 {% include 'markup/input-text-readonly.njk' %}
 ```
 
-### Input-Aligned Plain Text
+**Input-Aligned Plain Text**
 
 - Same as Readonly, but removes input styling.
 - Will horizontally align with other, user-editable fields.
@@ -148,7 +148,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 {% include 'markup/input-text-plain.njk' %}
 ```
 
-### Input Detail View
+**Input Detail View**
 
 - Use for detail views.
 - Decreased vertical space between label and data to improve a detail page of data.

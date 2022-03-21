@@ -15,7 +15,14 @@ eleventyNavigation:
 
 Agencies can apply their own brand by changing the SCSS variables and recompiling the CSS. Pelican comes with default theme colors for brand, based upon Louisiana colors, to give you a starting point.
 
-Pelican provides 9 Brand color variables you can change. These are listed in the file named `_theme-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
+Pelican provides 9 Brand color variables you can change. These are listed in the file named `_variables-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
+
+To use your own agency colors:
+
+ - Download the repo for Pelican.
+ - Update the hex values in `_variables-agency.scss`. 
+
+Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
 
 ## Themeable Elements
 

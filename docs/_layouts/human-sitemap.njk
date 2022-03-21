@@ -4,35 +4,46 @@ layout: default.njk
 {% set navPages = collections.all | eleventyNavigation %}
 {% include "page-title.njk" %}
 
-<div class="content-container">
+<div class="content-container" id="main">
+  {% for entry in navPages %}
   <div class="container-fluid">
-    {%- for entry in navPages %}
-    <div class="row my-4">
+    <div class="row">
       <div class="col-12">
-        <div class="card shadow-none">
-          <div class="card-body">
-            <h2 class="h4 mb-0">
-              <a class="text-decoration-none stretched-link" href="{{ entry.url | url }}"> {{ entry.title }}</a>
-            </h2>
-          </div>
-        </div>
+        <h2 class="h4 mt-10">
+          <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </h2>
+        <p class="lead">{{ entry.excerpt }}</p>
       </div>
     </div>
     {% if entry.children.length > 0 %}
-      <div class="row mt-n4 mb-4">
-        {% for child in entry.children %}
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card shadow-none border-0">
-              <div class="card-body">
-                <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">
-                    {{ child.title }}
-                </a>
-              </div>
-            </div>
+    <div class="row">
+      {% for child in entry.children %}
+      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+        <div class="card shadow-none border-0">
+          <div class="card-body">
+            <p class="p mb-0">
+              <a class="text-decoration-none stretched-link" href="{{ child.url | url }}">{{ child.title }}</a>
+            </p>
           </div>
-        {% endfor %}                
+        </div>
       </div>
-      {% endif %}
-    {%- endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% if not loop.last %}
+  <hr class="minor mt-8 mb-4">
+  {% endif %}
+  {% endfor %}
+</div>
+
+<div class="bg-secondary py-38 mt-n4 mb-n12">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="h2 mb-6 text-primary">Start using Pelican.</p>
+        <a href="/get-started" class="btn btn-primary btn-lg">Get started</a>
+      </div>
+    </div>
   </div>
 </div>

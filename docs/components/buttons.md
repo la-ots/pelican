@@ -15,14 +15,14 @@ eleventyNavigation:
 
 **Layout**
 
-- Always place the primary button on the left, followed by other buttons.
-- If the primary button has priority over other buttons, use the `$ui-priority` class, other buttons receive the `$ui` class.
-- If all buttons have equal priority, all receive the `$ui` class.
-- When a button is disabled, it receives the `$ui-light` class.
-- If the button has a less dominant position on the page, consider using an outline button.
-- Try not to overuse the `secondary` and `accent` classes; too many colors can be disorienting for a user.
-- If the button is inside of a table, it receives the `btn-sm` class.
-- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`); in all other cases use a `<button>`.
+- Always place the primary action’s button on the left, followed by other buttons.
+- It’s best not to show disabled buttons.
+- If disabled buttons must be shown, be sure to add the `disabled` attribute.
+- Use only one primary button when possible.
+- Multiple gray outline buttons may be used.
+- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`) and not `<button>`.
+- If a button is inside of a table row, give it the `btn-sm` class in addition to other classes.
+- For accessibility reasons, when using `<a>` as a `<button>` you must include `role="button"`.
 
 **Content**
 
