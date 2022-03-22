@@ -80,7 +80,7 @@
 			cursor: default;
 		}
 	}
-	.form-check-input[checked][disabled] ~ .form-check-label {
+	.form-check-input:checked[disabled] ~ .form-check-label {
 		border-color: transparent!important;
 		background-color: fade-out($ui-priority, .5)!important;
 	}
