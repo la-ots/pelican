@@ -232,13 +232,6 @@ $border-radius-lg: 0.3rem !default;
 $border-radius-sm: 0.2rem !default;
 
 // ---
-// buttons
-// Allows for customizing button radius independently from global border radius
-$btn-border-radius: 8px;
-$btn-border-radius-lg: $btn-border-radius !default;
-$btn-border-radius-sm: $btn-border-radius !default;
-
-// ---
 // navbar
 $navbar-dark-color: rgba($white, 0.9) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
@@ -249,7 +242,6 @@ $navbar-dark-active-color: $white !default;
 $nav-tabs-link-active-bg     : $white !default;
 $nav-pills-link-active-color : $white;
 $nav-pills-link-active-bg    : $ui-priority;
-$nav-pills-border-radius     : $btn-border-radius;
 
 // ---
 // Cards
