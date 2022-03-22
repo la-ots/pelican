@@ -266,9 +266,8 @@ $tooltip-max-width: 300px !default;
 // tables
 $table-border-width: 1px;
 $table-border-color: fade-out($gray-600, 0.8);
-$table-accent-bg: fade-out($gray-600, 0.95);
 $table-bg: $white;
-$table-cell-padding: $spacer * .5; //TODO Fix or Replace
+$table-cell-padding-y:        .7rem;
 
 // ---
 // pagination
