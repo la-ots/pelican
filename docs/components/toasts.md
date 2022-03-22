@@ -30,9 +30,7 @@ eleventyNavigation:
 
 ## Usage
 
-### Success Toast
-* **Success** (Green) provides feedback to the user indicating an action is successful
-* Use a <a href="https://fontawesome.com/icons/check-circle?style=solid" target="_blank">check in a circle</a> as the icon
+**Success Toast**
 
 {% include 'markup/toast-success.njk' %}
 
@@ -40,9 +38,7 @@ eleventyNavigation:
 {% include 'markup/toast-success.njk' %}
 ```
 
-### Danger Toast
-* **Danger** (Red) indicates an action will cause data loss, error, or other hard-to-reverse effects
-* Use the <a href="https://fontawesome.com/icons/exclamation-triangle?style=solid" target="_blank">exclamation mark in a triangle</a> as the icon
+**Danger Toast**
 
 {% include 'markup/toast-danger.njk' %}
 
@@ -50,9 +46,7 @@ eleventyNavigation:
 {% include 'markup/toast-danger.njk' %}
 ```
 
-### Info Toast
-* **Info** (Blue) provides user with information that is not critical to the current task, but provides them with related information
-* Use the <a href="https://fontawesome.com/icons/info-circle?style=solid" target="_blank">info symbol in a circle</a> as the icon
+**Info Toast**
 
 {% include 'markup/toast-info.njk' %}
 

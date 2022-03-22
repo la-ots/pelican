@@ -208,7 +208,6 @@ p a {
   }
   .btn {
     @extend .btn-lg;
-    @extend .btn-block;
   }
 }
 
@@ -220,4 +219,8 @@ p a {
   &:hover {
     color: $white;
   }
+}
+
+.btn-outline-ui, .btn-outline-ui-priority {
+  @extend .shadow-none;
 }

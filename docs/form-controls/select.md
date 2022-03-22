@@ -22,8 +22,6 @@ eleventyNavigation:
 - Do not use this for navigation.
 - Use the first `option` to help inform the user of what they should do.
 
-_**Note:** Some Selects can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
-
 ## Usage
 
 {% include 'markup/select.njk' %}
