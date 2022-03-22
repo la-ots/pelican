@@ -3,12 +3,12 @@
   padding-left  : 42px;
   .alert-icon {
     @extend .position-absolute;
-    top: 16px; left:16px;
+    top: 22px; left:16px;
     width: 18px; height: 18px;
   }
-  .close {
+  .btn-close {
     @extend .position-absolute;
-    top: 13px; right: 16px;
+    top: 14px; right: 16px;
     width: 21px; height: 21px;
   }
 }
