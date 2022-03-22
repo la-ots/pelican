@@ -218,3 +218,7 @@ p a {
     color: $white;
   }
 }
+
+.btn-outline-ui, .btn-outline-ui-priority {
+  @extend .shadow-none;
+}

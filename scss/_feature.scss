@@ -136,6 +136,7 @@
   }
 }
 .feature-set {
+  @extend .p-6;
   .feature-big-text {
     @extend .h2;
     color: $primary;
@@ -148,6 +149,6 @@
   }
   .feature-lead-icon {
     @extend .h4;
-    @extend .mb-0;
+    @extend .mb-2;
   }
 }
