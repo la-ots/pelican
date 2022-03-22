@@ -114,9 +114,10 @@
   border: 2px dashed $gray-600;
 
   div {
-    background-color: $ui;
     @extend .py-2;
     @extend .px-3;
+    border-radius: $border-radius;
+    background-color: $ui;
   }
 
   &:hover,

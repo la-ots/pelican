@@ -8,6 +8,9 @@
 }
 .modal-title {
   color: $primary;
+  .fas {
+    color: $primary-10;
+  }
 }
 .modal-footer {
   @extend .text-center ;
