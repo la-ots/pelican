@@ -35,7 +35,7 @@
     }
 
     .form-check-input {
-      @extend .sr-only !optional;
+      @extend .visually-hidden !optional;
 
       &:checked {
         + .form-check-label {

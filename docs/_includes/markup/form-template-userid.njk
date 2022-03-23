@@ -20,7 +20,7 @@
           </label>
           <input type="text" class="form-control" id="UserID">
           <p class="mt-1">
-            <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseUserIDTips" aria-expanded="false" aria-controls="collapseUserIDTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a User ID?</button>
+            <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUserIDTips" aria-expanded="false" aria-controls="collapseUserIDTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a User ID?</button>
           </p>
           <div class="collapse" id="collapseUserIDTips">
             <ul class="list-group">
@@ -63,37 +63,7 @@
             <span class="fas fa-asterisk text-danger"></span> Password
           </label>
           <input type="password" class="form-control" id="Password">
-          <p class="mt-1">
-            <button class="btn btn-link btn-sm bg-transparent shadow-none border-0 text-decoration-none" type="button" data-toggle="collapse" data-target="#collapsePasswordTips" aria-expanded="false" aria-controls="collapsePasswordTips" aria-haspopup="true"><span class="fas fa-lightbulb"></span> Want help making a Password?</button>
-          </p>
-          <div class="collapse" id="collapsePasswordTips">
-            <ul class="list-group">
-              <li class="list-group-item">
-                <div class="media">
-                  <span class="fas fa-times-circle text-danger"></span>
-                  <div class="media-body ml-2">Don&rsquo;t use a password from any of your other accounts.</div>
-                </div>
-              </li>
-              <li class="list-group-item">
-                <div class="media">
-                  <span class="fas fa-check-circle text-success"></span>
-                  <div class="media-body ml-2">You must use letters and numbers.</div>
-                </div>
-              </li>
-              <li class="list-group-item">
-                <div class="media">
-                  <span class="fas fa-check-circle text-success"></span>
-                  <div class="media-body ml-2">Make some letters uppercase, make letters some lowercase.</div>
-                </div>
-              </li>
-              <li class="list-group-item">
-                <div class="media">
-                  <span class="fas fa-check-circle text-success"></span>
-                  <div class="media-body ml-2">Use some of these symbols too: <br><kbd> { [ ( < ! # , $ % ^ @ : \ | / & * - _ +=;> ) ] } </kbd></div>
-                </div>
-              </li>
-            </ul>
-          </div>
+          {%- include 'markup/form-password-help.njk' -%}
         </div>
         <div class="form-group">
           <label for="PasswordConfirm">
