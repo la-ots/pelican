@@ -41,8 +41,8 @@ label,
 .label {
   // Allow labels to use `margin` for spacing.
   display: block;
-  margin-bottom: $label-margin-bottom;
   font-weight: 600;
+  margin-bottom: $spacer * .5;
 }
 
 small,
