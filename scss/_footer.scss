@@ -26,7 +26,7 @@ footer, .footer {
   }
   &.footer-utility {
     background-color: $primary;
-    @extend .pt-4 ;
+    @extend .py-4 ;
     @extend .mt-auto;
     .brand-logo {
       @extend .mb-0;
