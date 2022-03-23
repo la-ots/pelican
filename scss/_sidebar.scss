@@ -58,10 +58,11 @@
 }
 
 .page-wrapper {
-  height: 100vh;
+  height: 100%;
 }
 .wrapper-main {
   position: relative;
+  height: 100vh;
 }
 .page-content {
   display: flex;

@@ -39,7 +39,7 @@
 }
 
 .wrapper-topbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 900;
@@ -54,7 +54,6 @@
 
   @include media-breakpoint-up(lg) {
     justify-content: flex-start;
-    padding-left: 260px;
   }
 }
 
