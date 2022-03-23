@@ -2,6 +2,7 @@ let pageWrapper = document.getElementById("page-wrapper");
 let sidebarButton = document.getElementById("sidebar-button");
 let sidebarDropdownLink = document.querySelectorAll(".sidebar-dropdown-header-expand");
 let scrollToTop = document.getElementById("ScrollToTop");
+let wrapperTopbar = document.getElementById("wrapper-topbar");
 
 let slideUp = (target, duration = 500) => {
   target.style.transitionProperty = "height, margin, padding";
@@ -60,6 +61,7 @@ let slideDown = (target, duration = 500) => {
 if (sidebarButton) {
   sidebarButton.onclick = () => {
     pageWrapper.classList.toggle("toggled");
+    wrapperTopbar.classList.toggle("toggled");
   };
 }
 
