@@ -33,7 +33,7 @@ p {
   .font-weight-bold,
   strong,
   .strong {
-    @extend .text-black;
+    color: $black;
   }
 }
 

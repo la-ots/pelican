@@ -13,8 +13,8 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Use the Small Progress Indicator when the progress is hard to divide into clean segment.
 - Use the Large Progress Indicator when the progress can be easily divided into segments.
+- Use the Small Progress Indicator when the progress is hard to divide into clean segment.
 - Use them in conjunction with [Back and Forward Buttons](/components/back-and-forward-buttons).
 - Put the current step’s info into the `<title>` within the `<head>`.
 

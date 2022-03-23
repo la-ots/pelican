@@ -3,13 +3,19 @@
   max-height: unset;
 }
 
+.main .content-container.bg-less-bright .container-fluid .row .col-12 > h3 {
+  font-size: 1.5rem;
+}
+.main .content-container.bg-less-bright .container-fluid .row .col-12 > h4 {
+  font-size: 1.25rem;
+}
+
 h2:not(:nth-child(1)),
 h3:not(.popover-header) {
-  padding-top: 24px;
-  margin-top: 56px;
-  border-top: 2px dashed #c0cedb;
+  padding-top: 16px;
+  margin-top: 16px;
 }
-.card h3 {
+.card h2, .card h3 {
   padding-top: unset;
   margin-top: unset;
   border-top: unset;
@@ -122,4 +128,9 @@ h2#resources + ul li a {
 }
 .illus-icon-text h3 {
   font-size: 1.5rem;
+}
+
+.content-area p,
+.content-area li {
+  max-width: 72ex;
 }

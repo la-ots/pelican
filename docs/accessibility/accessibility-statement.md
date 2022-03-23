@@ -28,3 +28,7 @@ This site has been built using code compliant with W3C standards for HTML and CS
 Our ongoing accessibility efforts work toward making Pelican as accessible as possible. [Pelican welcomes comments](/feedback) on how to improve the its accessibility for users with disabilities.
 
 {% include 'markup/pull-request.njk' %}
+
+## Resources
+
+- <a href="https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html" target="_blank">Census.gov 2012 </a>

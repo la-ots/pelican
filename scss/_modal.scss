@@ -7,7 +7,7 @@
   }
 }
 .modal-title {
-  @extend .text-primary;
+  color: $primary;
 }
 .modal-footer {
   @extend .text-center ;

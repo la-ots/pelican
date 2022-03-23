@@ -147,20 +147,20 @@
   }
 }
 .navbar {
-  @extend .bg-primary;
-  @extend .text-white;
+  background-color: $primary;
+  color: $white;
   &.navbar-minimal {}
   &.navbar-basic {
     @extend .navbar-expand-lg;
     .navbar-toggler {
-      @extend .text-white ;
+      color: $white;
       @extend .ml-auto;
     }
     .navbar-nav {
       @extend .ml-auto;
     }
     .nav-link {
-      @extend .text-white;
+      color: $white;
     }
     .btn {
       @extend .btn-white;
@@ -176,7 +176,7 @@
       @extend .py-0;
     }
     .navbar-toggler {
-      @extend .text-white ;
+      color: $white;
       @extend .ml-auto;
     }
     hr.minor {
@@ -186,7 +186,7 @@
       @extend .ml-lg-n2;
     }
     .nav-link {
-      @extend .text-white;
+      color: $white;
     }
     .btn {
       @extend .mt-2 ;
@@ -200,7 +200,7 @@
       @extend .mb-0;
     }
     .navbar-toggler {
-      @extend .text-white ;
+      color: $white;
       @extend .ml-auto;
     }
     .navbar-icon-links {
@@ -215,7 +215,7 @@
         background-color: fade-out($ui, 1);
         border-radius: 4px 4px 0 0;
         transition: $transition-base;
-        @extend .text-white;
+        color: $white;
     
         .fas {
           opacity: 0.62;
@@ -241,7 +241,7 @@
       }
     }
     .icon-link-border-bottom {
-      @extend .bg-secondary;
+      background-color: $secondary;
       height: 2px;
     }
   }

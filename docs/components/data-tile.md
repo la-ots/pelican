@@ -21,19 +21,21 @@ eleventyNavigation:
 
 ## Usage
 
-<div class="data-tile card shadow-none">	
+<div class="data-tile">
   <div class="data-tile-body">
-    <p>Label</p>
-    <hr class="minor minimal">
-    <p>Value</p>
+    <p class="fw-bold text-black mb-0">Label</p>
+    <hr class="minor my-2">
+    <p class="mb-0">Value</p>
   </div>
 </div>
 
+
 ```html
-<div class="data-tile card shadow-none">	
+<div class="data-tile">
   <div class="data-tile-body">
-    <p>Label</p>
-    <hr class="minor minimal">
-    <p>Value</p>
+    <p class="fw-bold text-black mb-0">Label</p>
+    <hr class="minor my-2">
+    <p class="mb-0">Value</p>
   </div>
 </div>
+```
