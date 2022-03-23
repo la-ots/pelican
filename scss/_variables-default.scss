@@ -90,10 +90,6 @@ $theme-colors: map-merge(
 );
 
 // ---
-// options
-$enable-responsive-font-sizes: true;
-
-// ---
 // spacers
 $spacer: 1rem !default;
 $spacers: () !default;
@@ -297,9 +293,11 @@ $loader-main-color: $primary;
 $loader-secondary-color: $secondary;
 
 // ---
-// enables
-$enable-gradients: false;
-$enable-shadows: true;
+// options
+$enable-gradients:             false;
+$enable-shadows:               true;
+$enable-responsive-font-sizes: true;
+$enable-negative-margins:      true !default;
 
 // ---
 // z-index values

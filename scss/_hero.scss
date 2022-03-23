@@ -33,10 +33,12 @@
   }
   .hero-big-text {
     @extend .h1 ;
-    color: $white;
+    @extend .mb-32;
+    @extend .mb-lg-0;
     @extend .fw-bold ;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
+    color: $white;
   }
   .hero-lead-text {
     @extend .h4 ;
@@ -93,6 +95,8 @@
     @extend .img-fluid;
     @extend .rounded;
     @extend .shadow-sm;
+    @extend .mt-4;
+    @extend .mt-lg-0;
   }
 }
 
@@ -103,10 +107,17 @@
   @extend .pt-40 ;
   @extend .pb-10;
   .overlay {
-    background-color: $accent;
     @extend .opacity-85 ;
     @extend .position-absolute ;
     top:0; right:0; bottom:0; left:0;
+    background-color: $accent;
+    z-index: 0;
+
+      & + * {
+        @extend .position-relative;
+        z-index: 2;
+      }
+
   }
   .hero-big-text {
     @extend .h2;
