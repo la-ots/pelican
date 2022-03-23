@@ -59,6 +59,16 @@
 
 .page-wrapper {
   height: 100vh;
+  
+}
+.wrapper-main {
+  position: relative;
+  
+}
+.page-content {
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .page-wrapper .theme {
