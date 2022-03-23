@@ -30,7 +30,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
       <div class="py-20 bg-secondary rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary</p>
-        <p class="mb-0">Hex Code: <code>#fe9903</code></p>
+        <p class="mb-0">Hex Code: <code>#008282</code></p>
         <p class="mb-0">SCSS Var: <code>$secondary</code></p>
       </div>
     </div>
@@ -40,7 +40,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
       <div class="py-20 bg-accent rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Accent</p>
-        <p class="mb-0">Hex Code: <code>#008282</code></p>
+        <p class="mb-0">Hex Code: <code>#fe9903</code></p>
         <p class="mb-0">SCSS Var: <code>$accent</code></p>
       </div>
     </div>
@@ -125,7 +125,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
         <div class="card-body">
           <p class="mb-0 fw-bold">secondary</p>
           <p class="mb-0">
-            Hex Code: <code>#fe9903</code>
+            Hex Code: <code>#008282</code>
           </p>
           <p class="mb-0">
             SCSS Var: <code>$secondary</code>
@@ -139,7 +139,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
       <div class="card-body">
         <p class="mb-0 fw-bold">secondary, Lighter</p>
         <p class="mb-0">
-          Hex Code: <code>#fff1d6</code>
+          Hex Code: <code>#a8eae7</code>
         </p>
         <p class="mb-0">
           SCSS Var: <code>$secondary-10</code>
@@ -153,7 +153,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
       <div class="card-body">
         <p class="mb-0 fw-bold">secondary, Darker</p>
         <p class="mb-0">
-          Hex Code: <code>#4c2e01</code>
+          Hex Code: <code>#105a57</code>
         </p>
         <p class="mb-0">
           SCSS Var: <code>$secondary-90</code>
@@ -172,7 +172,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
       <div class="card-body">
         <p class="mb-0 fw-bold">accent</p>
         <p class="mb-0">
-          Hex Code: <code>#008282</code>
+          Hex Code: <code>#f9903</code>
         </p>
         <p class="mb-0">
           SCSS Var: <code>$accent</code>
@@ -186,7 +186,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
         <div class="card-body">
             <p class="mb-0 fw-bold">accent, Lighter</p>
             <p class="mb-0">
-              Hex Code: <code>#ccdcff</code>
+              Hex Code: <code>#ffe0b3</code>
             </p>
             <p class="mb-0">
               SCSS Var: <code>$accent-10</code>
@@ -200,7 +200,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
       <div class="card-body">
         <p class="mb-0 fw-bold">accent, Darker</p>
         <p class="mb-0">
-          Hex Code: <code>#005459</code>
+          Hex Code: <code>#bf5102</code>
         </p>
         <p class="mb-0">
           SCSS Var: <code>$accent-90</code>
@@ -234,20 +234,6 @@ You’ll change background and text colors by using the following classes. Consu
           <td headers="primary text-color-class"><code>text-primary</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Primary-10">Primary-10</th>
-          <td headers="primary-10 background-color"><span class="badge badge-pill py-2 px-4 badge-primary-10 text-primary">bg-primary-10</span></td>
-          <td headers="primary-10 background-color-class"><code>bg-primary-10</code></td>
-          <td headers="primary-10 text-color"><span class="badge badge-pill py-2 px-4 text-primary-10">text-primary-10</span></td>
-          <td headers="primary-10 text-color-class"><code>text-primary-10</code></td>
-        </tr>
-        <tr>
-          <th scope="row" id="Primary-90">Primary-90</th>
-          <td headers="primary-90 background-color"><span class="badge badge-pill py-2 px-4 badge-primary-90">bg-primary-90</span></td>
-          <td headers="primary-90 background-color-class"><code>bg-primary-90</code></td>
-          <td headers="primary-90 text-color"><span class="badge badge-pill py-2 px-4 text-primary-90">text-primary-90</span></td>
-          <td headers="primary-90 text-color-class"><code>text-primary-90</code></td>
-        </tr>
-        <tr>
           <th scope="row" id="Secondary">Secondary</th>
           <td headers="secondary background-color"><span class="badge badge-pill py-2 px-4 badge-secondary">bg-secondary</span></td>
           <td headers="secondary background-color-class"><code>bg-secondary</code></td>
@@ -255,40 +241,12 @@ You’ll change background and text colors by using the following classes. Consu
           <td headers="secondary text-color-class"><code>text-secondary</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Secondary-10">Secondary-10</th>
-          <td headers="secondary-10 background-color"><span class="badge badge-pill py-2 px-4 badge-secondary-10 text-secondary">bg-secondary-10</span></td>
-          <td headers="secondary-10 background-color-class"><code>bg-secondary-10</code></td>
-          <td headers="secondary-10 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-10">text-secondary-10</span></td>
-          <td headers="secondary-10 text-color-class"><code>text-secondary-10</code></td>
-        </tr>
-        <tr>
-          <th scope="row" id="Secondary-90">Secondary-90</th>
-          <td headers="secondary-90 background-color"><span class="badge badge-pill py-2 px-4 badge-secondary-90">bg-secondary-90</span></td>
-          <td headers="secondary-90 background-color-class"><code>bg-secondary-90</code></td>
-          <td headers="secondary-90 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-90">text-secondary-90</span></td>
-          <td headers="secondary-90 text-color-class"><code>text-secondary-90</code></td>
-        </tr>
-        <tr>
           <th scope="row" id="Accent">Accent</th>
           <td headers="accent background-color"><span class="badge badge-pill py-2 px-4 badge-accent">bg-accent</span></td>
           <td headers="accent background-color-class"><code>bg-accent</code></td>
           <td headers="accent text-color"><span class="badge badge-pill py-2 px-4 text-accent">text-accent</span></td>
           <td headers="accent text-color-class"><code>text-accent</code></td>
-        </tr>
-        <tr>
-          <th scope="row" id="Accent-10">Accent-10</th>
-          <td headers="accent-10 background-color"><span class="badge badge-pill py-2 px-4 badge-accent-10 text-accent-90">bg-accent-10</span></td>
-          <td headers="accent-10 background-color-class"><code>bg-accent-10</code></td>
-          <td headers="accent-10 text-color"><span class="badge badge-pill py-2 px-4 text-accent-10">text-accent-10</span></td>
-          <td headers="accent-10 text-color-class"><code>text-accent-10</code></td>
-        </tr>
-        <tr>
-          <th scope="row" id="Accent-90">Accent-90</th>
-          <td headers="accent-90 background-color"><span class="badge badge-pill py-2 px-4 badge-accent-90">bg-accent-90</span></td>
-          <td headers="accent-90 background-color-class"><code>bg-accent-90</code></td>
-          <td headers="accent-90 text-color"><span class="badge badge-pill py-2 px-4 text-accent-90">text-accent-90</span></td>
-          <td headers="accent-90 text-color-class"><code>text-accent-90</code></td>
-        </tr>                      
+        </tr>                   
       </tbody>
   </table>
 </div>
