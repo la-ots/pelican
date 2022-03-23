@@ -59,16 +59,15 @@
 
 .page-wrapper {
   height: 100vh;
-  
 }
 .wrapper-main {
   position: relative;
-  
+  height: 100%;
 }
 .page-content {
   display: flex;
   flex-direction: column;
-  
+  height: 100%;
 }
 
 .page-wrapper .theme {
@@ -248,29 +247,6 @@
 .sidebar-footer > a .notification {
   position: absolute;
   top: 0;
-}
-
-.badge-sonar {
-  position: absolute;
-  top: 0;
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background: #980303;
-  border-radius: 50%;
-}
-
-.badge-sonar::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  border: 2px solid #980303;
-  border-radius: 50%;
-  opacity: 0;
-  animation: sonar 1.5s infinite;
 }
 
 .page-wrapper .page-content {
