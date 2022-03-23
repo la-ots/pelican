@@ -187,12 +187,6 @@
   transform: scaleX(-1);
 }
 
-.overlay {
-  + * {
-    z-index: 2;
-  }
-}
-
 .overlay-left {
   top: 0;
   right: 0;

@@ -92,11 +92,13 @@
   }
   .feature-icons {
     @extend .display-4;
+    @extend .text-center;
+    @extend .text-lg-end;
     color: $white;
   }
 }
 .feature-languages {
-  @extend .p-lg-16;
+  @extend .py-16;
   background-color: $secondary;
   .feature-big-text {
     @extend .h2;
@@ -121,8 +123,8 @@
   }
 }
 .feature-many-icons {
-  @extend .p-4 ;
-  @extend .p-lg-16 ;
+  @extend .py-8 ;
+  @extend .py-lg-20 ;
   background-color: $primary;
   color: $white;
   .feature-big-text {
@@ -136,16 +138,18 @@
   }
 }
 .feature-set {
-  @extend .p-6;
+  @extend .py-6;
   .feature-big-text {
     @extend .h2;
     color: $primary;
   }
   .feature-lead-text {
     @extend .mb-0;
+    color: $gray-700;
   }
   .feature-small-text {
     @extend .mb-2;
+    color: $gray-700;
   }
   .feature-lead-icon {
     @extend .h4;
