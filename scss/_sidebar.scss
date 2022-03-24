@@ -74,14 +74,21 @@
   //max-height: calc(100% - 30px);
   overflow-y: auto;
 }
+.site-nav-brand {
+  @extend .d-none;
+  @extend .d-lg-block;
+  background-color: $black;
+  color: $white;
+  height: 41px;
+}
 .site-nav-brand a {
+  position: relative;
   font-weight: 700;
   display: flex;
   align-items: center;
   height: 40px;
   padding-left: 20px;
-  background-color: $black;
-  color: $white;
+  color: inherit;
   text-decoration: none;
   img {
     @extend .me-1;
