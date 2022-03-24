@@ -68,20 +68,20 @@
   //max-height: calc(100% - 30px);
   overflow-y: auto;
 }
-.site-nav .site-nav-brand {
+.site-nav-brand a {
+  font-weight: 700;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 41px;
+  height: 40px;
   padding-left: 20px;
   background-color: $black;
+  color: $white;
+  text-decoration: none;
+  img {
+    @extend .me-1;
+  }
 }
-.site-nav .site-nav-brand > a {
-  @extend .position-relative;
-  flex-grow: 1;
-  font-weight: 700;
-}
-.site-nav .site-nav-header {
+.site-nav-header {
   padding: 20px;
   overflow: hidden;
 }
