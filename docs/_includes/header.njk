@@ -1,4 +1,8 @@
 <div id="site-topbar" class="site-topbar">
+  <button tabindex="3" type="button" id="site-toggler" class="btn btn-black btn-sm text-white shadow-none">
+    <span aria-hidden="true">☰</span>
+    <span class="visually-hidden">Toggle side navigation availability</span>
+  </button>
   <p class="m-0 font-weight-bold order-lg-2 mr-auto">
     <a href="{{ '/' | url }}" class="d-md-none text-white text-decoration-none" tabindex="2">
       <img src="/img/favicon.png" class="img-fluid d-md-none" style="width: 24px;" alt="Pelican Design System icon" />
@@ -6,8 +10,4 @@
     </a>
     <span class="d-none d-md-inline" tabindex="-1">{{ title }}</span>
   </p>
-  <button tabindex="3" type="button" id="site-toggler" class="btn btn-black btn-sm text-white shadow-none">
-    <span aria-hidden="true">☰</span>
-    <span class="visually-hidden">Toggle side navigation availability</span>
-  </button>
 </div>

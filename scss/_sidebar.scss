@@ -7,20 +7,17 @@
 .site-topbar {
   position: fixed;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   background-color: $black;
   color: $white;
   padding: .5rem 1rem;
   transition: $transition-base;
+  z-index: $zindex-site-topbar;
   .btn {
     padding-top: 0; padding-bottom: 0;
   }
   @media screen and (min-width: 992px){
-    flex-direction: row;
-    justify-content: start;
     left: $site-nav-width;
     &.toggled {
       left: 0;
@@ -40,18 +37,27 @@
 }
 .site-nav {
   position: fixed;
-  top: 0; left: -$site-nav-width;
+  top: 41px; left: -$site-nav-width;
   width: $site-nav-width;
   height: 100%;
   overflow-y: auto;
   background-color: $primary;
   color: fade-out($white, .15);
   transition: $transition-base;
+  z-index: $zindex-site-nav;
   &.toggled {
     left: 0;
+    box-shadow:
+      1.1px 0px 1px     fade-out($primary, .98),
+      2.7px 0px 2.4px   fade-out($primary, .97),
+      5px 0px 4.8px     fade-out($primary, .96),
+      8.9px 0px 8.7px   fade-out($primary, .96),
+      16.7px 0px 16.6px fade-out($primary, .95),
+      40px 0px 40px     fade-out($primary, .93)
+    ;
   }
   @media screen and (min-width: 992px){
-    left: 0;
+    top: 0; left: 0;
     &.toggled {
       left: -$site-nav-width;
     }

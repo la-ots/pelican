@@ -3,13 +3,12 @@
 .bg-image-size-cover {
   background-size: cover;
 }
-
 .bg-image-position-center {
   background-position: 50%;
 }
-
 .hero-dual-pane {
-  @extend .py-40 ;
+  @extend .py-10 ;
+  @extend .py-lg-40 ;
   @extend .position-relative ;
   @extend .bg-image-position-center ;
   @extend .bg-image-size-cover;
@@ -33,15 +32,18 @@
   }
   .hero-big-text {
     @extend .h1 ;
-    @extend .mb-32;
-    @extend .mb-lg-0;
     @extend .fw-bold ;
     @extend .text-shadow !optional;
+    @extend .mt-10;
+    @extend .mt-lg-0;
     @extend .shadow-primary!optional;
     color: $white;
   }
   .hero-lead-text {
     @extend .h4 ;
+    @extend .mt-4;
+    @extend .mb-6;
+    @extend .my-lg-0;
     color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
@@ -52,7 +54,6 @@
     @extend .shadow-primary!optional;
   }
 }
-
 .hero-solo-pane {
   > .row {
     @extend .g-0;
@@ -81,7 +82,6 @@
     @extend .d-lg-none;
   }
 }
-
 .hero-boxed-in-photo {
   @extend .content-container;
   @extend .shadow-none;
@@ -99,7 +99,6 @@
     @extend .mt-lg-0;
   }
 }
-
 .hero-text-color-toned-photo {
   @extend .position-relative ;
   @extend .bg-image-position-center ;
@@ -132,7 +131,6 @@
     @extend .shadow-primary !optional;
   }
 }
-
 .hero-textbox-over-photo {
   @extend .position-relative ;
   @extend .d-flex ;

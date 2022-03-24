@@ -88,6 +88,7 @@ h2#resources + ul li a {
   font-weight: normal;
   border: none;
   margin: 0 0 .5rem 0;
+  
 }
 .describe .fas {
   opacity: .5;

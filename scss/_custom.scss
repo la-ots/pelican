@@ -18,7 +18,10 @@
     left: 0;
   }
 }
-
+.home-logo {
+  width: 150px;
+  overflow: hidden;
+}
 .official-banner {
   @extend .border-bottom;
   @extend .py-2;
