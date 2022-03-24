@@ -7,6 +7,9 @@ footer, .footer {
       margin-left: 0;
     }
   }
+  &.home {
+    margin-left: 0;
+  }
   .brand-logo {
     @extend .position-relative;
     svg {
