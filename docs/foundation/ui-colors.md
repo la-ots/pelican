@@ -20,7 +20,7 @@ Pelican provides more clarity in the user interface by using a color for UI elem
     <div class="card border-0 mb-4">
       <div class="py-20 bg-ui rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">UI</p>
+        <p class="mb-0 fw-bold">UI</p>
         <p class="mb-0"><code>#6c757d</code></p>
         <p class="mb-0"><code>$ui</code></p>
       </div>

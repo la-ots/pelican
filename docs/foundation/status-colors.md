@@ -24,7 +24,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     <div class="card border-0 mb-4">
       <div class="py-20 bg-success rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Success</p>
+        <p class="mb-0 fw-bold">Success</p>
         <p class="mb-0"><code>#0d6211</code></p>
         <p class="mb-0"><code>$success</code></p>
       </div>
@@ -34,7 +34,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     <div class="card border-0 mb-4">
       <div class="py-20 bg-warning rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Warning</p>
+        <p class="mb-0 fw-bold">Warning</p>
         <p class="mb-0"><code>#ffc107</code></p>
         <p class="mb-0"><code>$warning</code></p>
       </div>
@@ -44,7 +44,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     <div class="card border-0 mb-4">
       <div class="py-20 bg-danger rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Danger</p>
+        <p class="mb-0 fw-bold">Danger</p>
         <p class="mb-0"><code>#b00003</code></p>
         <p class="mb-0"><code>$danger</code></p>
       </div>
@@ -54,7 +54,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     <div class="card border-0 mb-4">
       <div class="py-20 bg-info rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Info</p>
+        <p class="mb-0 fw-bold">Info</p>
         <p class="mb-0"><code>#004ba1</code></p>
         <p class="mb-0"><code>$info</code></p>
       </div>
@@ -112,7 +112,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-success rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Success</p>
+        <p class="mb-0 fw-bold">Success</p>
         <p class="mb-0"><code>#0d6211</code></p>
         <p class="mb-0"><code>$success</code></p>
       </div>
@@ -122,7 +122,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-success-10 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Success, Lighter</p>
+        <p class="mb-0 fw-bold">Success, Lighter</p>
         <p class="mb-0"><code>#dcf8e2</code></p>
         <p class="mb-0"><code>$success-10</code></p>
       </div>
@@ -132,7 +132,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-success-90 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Success, Darker</p>
+        <p class="mb-0 fw-bold">Success, Darker</p>
         <p class="mb-0"><code>#003302</code></p>
         <p class="mb-0"><code>$success-90</code></p>
       </div>
@@ -147,7 +147,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-warning rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Warning</p>
+        <p class="mb-0 fw-bold">Warning</p>
         <p class="mb-0"><code>#ffc107</code></p>
         <p class="mb-0"><code>$warning</code></p>
       </div>
@@ -157,7 +157,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-warning-10 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Warning, Lighter</p>
+        <p class="mb-0 fw-bold">Warning, Lighter</p>
         <p class="mb-0"><code>#ffecb3</code></p>
         <p class="mb-0"><code>$warning-10</code></p>
       </div>
@@ -167,7 +167,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-warning-90 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Warning, Darker</p>
+        <p class="mb-0 fw-bold">Warning, Darker</p>
         <p class="mb-0"><code>#5c3400</code></p>
         <p class="mb-0"><code>$warning-90</code></p>
       </div>
@@ -182,7 +182,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-danger rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Danger</p>
+        <p class="mb-0 fw-bold">Danger</p>
         <p class="mb-0"><code>#b00003</code></p>
         <p class="mb-0"><code>$danger</code></p>
       </div>
@@ -192,7 +192,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-danger-10 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Danger, Lighter</p>
+        <p class="mb-0 fw-bold">Danger, Lighter</p>
         <p class="mb-0"><code>#ffe6e8</code></p>
         <p class="mb-0"><code>$danger-10</code></p>
       </div>
@@ -202,7 +202,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-danger-90 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Danger, Darker</p>
+        <p class="mb-0 fw-bold">Danger, Darker</p>
         <p class="mb-0"><code>#650002</code></p>
         <p class="mb-0"><code>$danger-90</code></p>
       </div>
@@ -217,7 +217,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-info rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Info</p>
+        <p class="mb-0 fw-bold">Info</p>
         <p class="mb-0"><code>#004ba1</code></p>
         <p class="mb-0"><code>$info</code></p>
       </div>
@@ -227,7 +227,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-info-10 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Info, Lighter</p>
+        <p class="mb-0 fw-bold">Info, Lighter</p>
         <p class="mb-0"><code>#d0e6ff</code></p>
         <p class="mb-0"><code>$info-10</code></p>
       </div>
@@ -237,7 +237,7 @@ The Info color indicates informative or helpful information.
     <div class="card border-0 mb-4">
       <div class="py-20 bg-info-90 rounded-top"></div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold">Info, Darker</p>
+        <p class="mb-0 fw-bold">Info, Darker</p>
         <p class="mb-0"><code>#002480</code></p>
         <p class="mb-0"><code>$info-90</code></p>
       </div>
