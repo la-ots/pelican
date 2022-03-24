@@ -31,7 +31,7 @@
   @media screen and (min-width: 992px){
     padding-left: $site-nav-width;
     &.toggled {
-      padding-left: 16px;
+      padding-left: 0;
     }
   }
 }
@@ -60,6 +60,7 @@
     top: 0; left: 0;
     &.toggled {
       left: -$site-nav-width;
+      box-shadow: none;
     }
   }
 }
