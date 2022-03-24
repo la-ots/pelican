@@ -1,8 +1,12 @@
-let pageWrapper = document.getElementById("page-wrapper");
-let sidebarButton = document.getElementById("sidebar-button");
-let sidebarDropdownLink = document.querySelectorAll(".sidebar-dropdown-header-expand");
+let siteNav = document.getElementById("site-nav");
+let siteTopbar = document.getElementById("site-topbar");
+let mainContent = document.getElementById("main");
+let footer = document.getElementById("footer");
+
+let navToggler = document.getElementById("site-toggler");
+let navDropdownLinks = document.querySelectorAll(".site-nav-dropdown-header-expand");
+
 let scrollToTop = document.getElementById("ScrollToTop");
-let wrapperTopbar = document.getElementById("wrapper-topbar");
 
 let slideUp = (target, duration = 500) => {
   target.style.transitionProperty = "height, margin, padding";
@@ -58,16 +62,18 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
-if (sidebarButton) {
-  sidebarButton.onclick = () => {
-    pageWrapper.classList.toggle("toggled");
-    wrapperTopbar.classList.toggle("toggled");
+if (navToggler) {
+  navToggler.onclick = () => {
+    siteNav.classList.toggle("toggled");
+    siteTopbar.classList.toggle("toggled");
+    mainContent.classList.toggle("toggled");
+    footer.classList.toggle("toggled");
   };
 }
 
-sidebarDropdownLink.forEach((dropdownItem) => {
+navDropdownLinks.forEach((dropdownItem) => {
   dropdownItem.onclick = (event) => {
-    let sidebarSubMenu = document.querySelectorAll(".sidebar-submenu");
+    let sidebarSubMenu = document.querySelectorAll(".site-nav-submenu");
     let expand = event.target;
     if (expand.nodeName !== "A") {
       expand = expand.parentNode;
@@ -83,7 +89,7 @@ sidebarDropdownLink.forEach((dropdownItem) => {
 
     let wasActive = expand.classList.contains("active");
 
-    sidebarDropdownLink.forEach((link) => {
+    navDropdownLinks.forEach((link) => {
       link.classList.remove("active");
     });
 
@@ -93,7 +99,7 @@ sidebarDropdownLink.forEach((dropdownItem) => {
 
     let nextSibling = header.nextElementSibling;
 
-    while (nextSibling && !nextSibling.classList.contains("sidebar-submenu")) {
+    while (nextSibling && !nextSibling.classList.contains("site-nav-submenu")) {
       nextSibling = nextSibling.nextSibling;
     }
     slideDown(nextSibling, 200);
@@ -140,11 +146,4 @@ $(function () {
 
 $(function () {
   $("[data-toggle='tooltip']").tooltip();
-});
-
-$('#site-toggler').click(function(){
-  $('#site-nav').toggleClass('toggled');
-  $('#site-topbar').toggleClass('toggled');
-  $('#main').toggleClass('toggled');
-  $('#footer').toggleClass('toggled');
 });
