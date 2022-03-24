@@ -56,16 +56,15 @@ small,
 
 hr,
 .hr {
-  background-color: $primary-10;
-  border: 0;
   @extend .mx-0;
   @extend .w-100;
-
+  background-color: $primary-10;
+  border: 0;
+  opacity: 1;
   &.major {
     height: $spacer * 0.25;
     margin: $spacer 0;
   }
-
   &.minimal,
   &.minor {
     height: 1px;

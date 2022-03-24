@@ -81,12 +81,13 @@ After the `main id="main"` put the Footer element.
 The App Screen markup below is how all the 5 parts are assembled.
 
 ```html
-{% include 'markup/skip-link.njk' %}
+{%- include 'markup/skip-link.njk'-%}
 <div id="site-container" class="site-container">
   <nav id="site-nav" class="site-nav">  ...  </nav>
   <div id="site-topbar" class="site-topbar">  ...  </div>
   <main id="main" class="site-main">  ...  </main>
   <footer class="footer" id="footer">  ...  </footer>
 </div>
+
 {% include 'markup/button-back-to-top.njk' %}
 ```

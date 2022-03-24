@@ -20,7 +20,7 @@
     background-color: $primary;
   }
   .overlay-right {
-    background-color: $accent;
+    background-color: $secondary;
   }
   .container {
     @extend .position-relative;
@@ -109,7 +109,7 @@
     @extend .opacity-85 ;
     @extend .position-absolute ;
     top:0; right:0; bottom:0; left:0;
-    background-color: $accent;
+    background-color: $secondary;
     z-index: 0;
 
       & + * {
@@ -150,6 +150,7 @@
   .hero-textbox {
     background-color: $primary;
     @extend .p-10;
+    z-index: 2;
   }
   .hero-big-text {
     @extend .h2 ;

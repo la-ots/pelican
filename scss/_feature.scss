@@ -38,11 +38,9 @@
     }
   }
 }
-
 .feature-icons-text {
   @extend .py-16;
 }
-
 .feature-boxed-in-photo {
   @extend .py-16;
 }
@@ -77,43 +75,59 @@
 }
 .feature-icons-text {
   @extend .py-16 ;
-  background-color: $accent;
+  background-color: $secondary;
+  color: $white;
   .feature-big-text {
     @extend .h2 ;
-    color: $white;
     @extend .fw-bold ;
     @extend .text-center ;
     @extend .text-lg-start;
+    color: inherit;
   }
   .feature-small-text {
     @extend .mb-8 ;
     @extend .mb-lg-0 ;
-    color: $white;
+    color: inherit;
   }
   .feature-icons {
     @extend .display-4;
     @extend .text-center;
     @extend .text-lg-end;
-    color: $white;
+    color: inherit;
   }
 }
 .feature-languages {
   @extend .py-16;
   background-color: $secondary;
+  color: $white;
   .feature-big-text {
     @extend .h2;
     //this is redundant from the h2 inheritance above
     @extend .fw-bold;
-    color: $primary;
+    
   }
   .feature-small-text {
-    color: $primary;
+    
   }
   .feature-item {
+    @extend .position-relative;
     @extend .rounded;
     @extend .py-4;
-    background-color: $white;
     @extend .mt-4;
+    background-color: $white;
+    color: $primary;
+    transform: rotate(-2deg);
+    box-shadow: 4px 4px 2px 0 fade-out($primary, .5);
+    &:after {
+      @extend .position-absolute;
+      content: '';
+      top: $spacer * .5;
+      left: -$spacer * .75;
+      width: 0; height: 0;
+      border-top:    8px solid transparent;
+      border-right: 16px solid $white;
+      border-bottom: 8px solid transparent;
+    }
     p {
       @extend .mb-0;
       @extend .h4;
