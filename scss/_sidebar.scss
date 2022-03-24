@@ -1,3 +1,110 @@
+.site-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%; height: 100vh;
+}
+.site-nav {
+  position: fixed;
+  top: 0; left: -$site-nav-width;
+  width: $site-nav-width;
+  height: 100%;
+  overflow-y: auto;
+  background-color: $primary;
+  transition: $transition-base;
+  &.toggled {
+    left: 0;
+  }
+  @media screen and (min-width: 992px){
+    left: 0;
+    &.toggled {
+      left: -$site-nav-width;
+    }
+  }
+}
+.site-nav-header {
+  background: $black;
+  color: $white;
+  padding: 1rem;
+}
+.site-topbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: $black;
+  color: $white;
+  padding: 1rem;
+  transition: $transition-base;
+  .btn {
+    padding-top: 0; padding-bottom: 0;
+  }
+  @media screen and (min-width: 992px){
+    flex-direction: row;
+    justify-content: start;
+    left: $site-nav-width;
+    &.toggled {
+      left: 0;
+    }
+  }
+}
+.site-main {
+  background-color: sandybrown;
+  padding: 4rem 0 3rem;
+  transition: $transition-base;
+  @media screen and (min-width: 992px){
+    padding-left: $site-nav-width + 16px;
+    &.toggled {
+      padding-left: 16px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes swing {
   0% {
     transform: rotate(0deg);

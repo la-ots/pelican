@@ -141,3 +141,10 @@ $(function () {
 $(function () {
   $("[data-toggle='tooltip']").tooltip();
 });
+
+$('#site-toggler').click(function(){
+  $('#site-nav').toggleClass('toggled');
+  $('#site-topbar').toggleClass('toggled');
+  $('#main').toggleClass('toggled');
+  $('#footer').toggleClass('toggled');
+});

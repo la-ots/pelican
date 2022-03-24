@@ -1,4 +1,12 @@
 footer, .footer {
+  margin-top: auto;
+  transition: $transition-base;
+  @media screen and (min-width: 992px){
+    margin-left: $site-nav-width;
+    &.toggled {
+      margin-left: 0;
+    }
+  }
   .brand-logo {
     @extend .position-relative;
     svg {
