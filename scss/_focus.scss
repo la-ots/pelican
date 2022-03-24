@@ -16,7 +16,7 @@
     color: $ui-priority;
   }
 }
-.sidebar-wrapper .sidebar-brand > a {
+.site-nav-brand > a {
   &:focus {
     outline: none;
     &:after {
@@ -29,8 +29,8 @@
     }
   }
 }
-.sidebar-nav-item, 
-.sidebar-dropdown-header-expand[role="button"],
+.site-nav-nav-item, 
+.site-nav-dropdown-header-expand[role="button"],
 .navbar-icon-links .nav-link, 
 .official-banner summary,
 .page-link {
@@ -42,7 +42,7 @@
     }
   }
 }
-.sidebar-button[role=button] {
+.site-nav-button[role=button] {
   &:focus {
     outline: none;
     &:after {
