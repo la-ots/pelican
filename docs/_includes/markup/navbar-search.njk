@@ -3,8 +3,8 @@
     <a class="brand-link" href="#">
       <h1 class="brand-logo mb-0 ">{% include 'logo.njk' %}</h1>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationItemsList" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fas fa-bars"></span> Menu
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationItemsList" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars" aria-hidden="true"></span> Menu
     </button>
     <div class="search-form search-form-nav">
       <div class="input-group">
@@ -12,7 +12,7 @@
         <div class="input-group-append">
           <button class="btn btn-ui" type="button" id="searchButton">
             <span class="fas fa-search" aria-hidden="true"></span>
-            <span class="sr-only">Search</span>
+            <span class="visually-hidden">Search</span>
           </button>
         </div>
       </div>
