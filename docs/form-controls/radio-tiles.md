@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Put them into columns to size them.
+- Put them into columns for sizing.
 - If multiple items can be selected, use [Checkboxes](/form-controls/checkboxes).
 - If the user needs to activate or deactivate something, use a [Switch](/form-controls/switches) instead.
 - Ensure the `id` of the input matches the `for` of the label.
