@@ -40,10 +40,10 @@ footer, .footer {
       @extend .mb-0;
     }
     hr.major {
-      background-color: $primary-10;
+      opacity: .25;
     }
     .btn-link {
-      color: $secondary;
+      color: $accent;
     }
   }
 }

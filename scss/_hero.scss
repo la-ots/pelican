@@ -85,6 +85,7 @@
 .hero-boxed-in-photo {
   @extend .content-container;
   @extend .shadow-none;
+  @extend .py-lg-16;
   .hero-big-text {
     @extend .h2 ;
     color: $primary;

@@ -86,32 +86,33 @@
 }
 
 .page-title {
-  @extend .shadow-sm;
-  background-color: $white;
   @extend .py-4;
   @extend .py-lg-16;
   @extend .mb-4;
+  box-shadow: $card-box-shadow;
+  background-color: $white;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
-}
-.page-title-text {
-  @extend .h2 ;
-  @extend .mb-0;
-  color: $primary;
-  .icon {
-    color: $primary-10;
+  .page-title-text {
+    @extend .h2 ;
+    @extend .mb-0;
+    color: $primary;
+    .icon {
+      color: $primary-10;
+    }
   }
   p {
     @extend .mb-0;
+    color: $primary;
   }
 }
+
 
 .content-container {
   background-color: $white;
   @extend .py-4;
-  @extend .py-lg-16;
   @extend .mb-4;
-  box-shadow: 0 1px 1px 0 fade-out($black, .85);
+  box-shadow: $card-box-shadow;
 }
 
 .form-fieldset,
@@ -292,7 +293,7 @@ iframe {
     @extend .mb-2;
   }
   .btn {
-    @extend .btn-outline-ui-priority;
+    @extend .btn-outline-info;
     @extend .btn-sm;
   }
 }

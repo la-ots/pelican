@@ -256,6 +256,7 @@ $card-cap-color: null !default;
 $card-color: null !default;
 $card-bg: $gray-100;
 $card-bg: $white;
+$card-box-shadow: 0 1px 0 0 fade-out($ui, .85);
 
 // ---
 // Tooltips
@@ -264,9 +265,10 @@ $tooltip-max-width: 300px !default;
 // ---
 // tables
 $table-border-width: 1px;
-$table-border-color: fade-out($gray-600, 0.8);
+$table-border-color: $primary-10;
 $table-bg: $white;
 $table-cell-padding-y:        .7rem;
+$table-striped-bg:            fade-out($ui, .95); 
 
 // ---
 // pagination

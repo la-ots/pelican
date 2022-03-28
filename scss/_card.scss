@@ -1,6 +1,5 @@
 .card {
   margin-bottom: $spacer;
-  @extend .shadow-sm;
   .content-container & {
     background-color: $gray-100;
     box-shadow: none;
