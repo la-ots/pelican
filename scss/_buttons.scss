@@ -157,7 +157,7 @@ p a {
 #ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
   @extend .btn;
-  @extend .btn-accent;
+  @extend .btn-outline-ui;
   right: $spacer * 2;
   bottom: $spacer * 5;
   z-index: $zindex-scroll-to-top;
