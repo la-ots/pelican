@@ -19,7 +19,7 @@ footer, .footer {
   }
   &.footer-basic   {
     background-color: $black;
-    @extend .mt-12;
+    margin-top: auto;
     .links-wrapper {
       @extend .d-flex ;
       @extend .flex-wrap ;
@@ -46,7 +46,7 @@ footer, .footer {
       color: $accent;
     }
   }
-}
-.footer-no-toggle {
-  margin-left: 0;
+  &.no-side-toggle {
+    margin-left: 0;
+  }
 }
