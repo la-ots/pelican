@@ -44,7 +44,7 @@ eleventyNavigation:
 
 See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
-### Primary Buttons
+### Main Buttons
 
 <button type="button" class="btn btn-primary">ButtonText</button>
 
