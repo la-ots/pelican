@@ -27,6 +27,8 @@ eleventyNavigation:
 {% include 'markup/table.njk' %}
 ```
 
+**Table - Inverse Stripes**
+
 {% include 'markup/table-inverse.njk' %}
 
 ## Resources
