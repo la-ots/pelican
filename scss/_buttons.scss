@@ -149,7 +149,7 @@ summary,
 p a {
   &:focus,
   &.focus {
-    outline: 0.25rem solid #2491ff;
+    outline: 0.25rem solid $focus-color;
     outline-offset: 0.25rem;
   }
 }

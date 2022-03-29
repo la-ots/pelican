@@ -52,3 +52,10 @@ caption {
 .tr-striped {
   background-color: $table-accent-bg;
 }
+
+.table-striped-inverse {
+  > tbody > tr:nth-of-type(even) > * {
+    --#{$variable-prefix}table-accent-bg: var(--#{$variable-prefix}table-striped-bg);
+    color: var(--#{$variable-prefix}table-striped-color);
+  }
+}
