@@ -256,7 +256,6 @@ $card-cap-color: null !default;
 $card-color: null !default;
 $card-bg: $gray-100;
 $card-bg: $white;
-$card-box-shadow: 0 1px 0 0 fade-out($ui, .85);
 
 // ---
 // Tooltips
@@ -288,10 +287,11 @@ $breadcrumb-padding-x:    $spacer;
 
 // ---
 // shadows
-$box-shadow-sm: 0 0.25rem 2px fade-out($black, 0.9) !default;
-$box-shadow: 0 0.5rem 1rem fade-out($black, 0.25) !default;
-$box-shadow-lg: 0 1rem 3rem fade-out($black, 0.35) !default;
-$btn-shadow: 0 0.25rem 0.25rem fade-out($black, 0.7) !default;
+$box-shadow-sm:     0 0.25rem 2px fade-out($ui, 0.9) !default;
+$box-shadow:        0 0.5rem 1rem fade-out($black, 0.25) !default;
+$box-shadow-lg:     0 1rem 3rem fade-out($black, 0.35) !default;
+$btn-shadow:        0 0.125rem 0 fade-out($ui, 0.7) !default;
+$box-shadow-minor:  0 1px 0 fade-out($black, .85);
 
 // ---
 // animated loading indicator

@@ -112,7 +112,7 @@
   background-color: $white;
   @extend .py-4;
   @extend .mb-4;
-  box-shadow: $card-box-shadow;
+  box-shadow: $box-shadow-sm;
 }
 
 .form-fieldset,
