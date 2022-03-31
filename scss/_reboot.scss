@@ -58,7 +58,7 @@ hr,
 .hr {
   @extend .mx-0;
   @extend .w-100;
-  background-color: $primary-10;
+  background-color: $gray-200;
   border: 0;
   opacity: 1;
   &.major {

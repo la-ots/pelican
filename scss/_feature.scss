@@ -159,14 +159,15 @@
   }
   .feature-lead-text {
     @extend .mb-0;
-    color: $gray-700;
+    color: $primary-700;
   }
   .feature-small-text {
     @extend .mb-2;
-    color: $gray-700;
+    color: $primary-700;
   }
   .feature-lead-icon {
     @extend .h4;
     @extend .mb-2;
+    color: $primary-500;
   }
 }

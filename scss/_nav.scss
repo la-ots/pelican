@@ -27,7 +27,7 @@
 //
 
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $ui-light;
+  border-bottom: $nav-tabs-border-width solid $gray-300;
 
   .nav-item {
     margin-right: $spacer * 0.5;
@@ -49,7 +49,7 @@
   .nav-item.show .nav-link {
     color: $nav-tabs-link-active-color;
     background-color: $nav-tabs-link-active-bg;
-    border-color: $nav-tabs-link-active-border-color;
+    border-color: $gray-300;
     border-bottom: 2px solid $white;
   }
 

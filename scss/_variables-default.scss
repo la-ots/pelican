@@ -1,15 +1,6 @@
 // ---
 // color system
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #f5f5f5 !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #808080 !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #2b2b2b !default;
 $black: #000 !default;
 $blue: #004ba1 !default;
 $indigo: #6610f2 !default;
@@ -21,30 +12,21 @@ $yellow: #ffc107 !default;
 $green: #0d6211 !default;
 $teal: #20c997 !default;
 $cyan: #9c27b0 !default;
-$link-color: #185ae3;
-$ui: $gray-600;
-$ui-light: $gray-300;
-$ui-priority: $link-color;
 $body-bg: #f7f7f7;
 $body-color: $gray-700;
 $focus-color: #2491ff;
 $less-bright: #fbf9f9;
-$success: $green;
-$warning: $yellow;
-$danger: $red;
-$info: $blue;
-$success-10: #dcf8e2;
-$success-30: #58b66d;
-$success-90: #003302;
-$warning-10: #ffecb3;
-$warning-30: #ffcc32;
-$warning-90: #5c3400;
-$danger-10: #ffe6e8;
-$danger-30: #ff8c99;
-$danger-90: #650002;
-$info-10: #d0e6ff;
-$info-30: #6ab0ff;
-$info-90: #002480;
+$primary: $primary-800;
+$secondary: $secondary-800;
+$accent: $accent-500;
+$success: $success-800;
+$warning: $warning-500;
+$danger: $danger-800;
+$info: $info-900;
+$link-color: $info-900;
+$ui: $gray-600;
+$ui-light: $gray-100;
+$ui-priority: $info-900;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -56,35 +38,11 @@ $theme-colors: map-merge(
     "info": $info,
     "warning": $yellow,
     "danger": $danger,
-    "light": $gray-200,
-    "dark": $gray-700,
     "link": $link-color,
     "ui": $ui,
-    "ui-light": $gray-300,
-    "ui-priority": $ui-priority,
+    "ui-light": $ui-light,
     "black": $black,
     "white": $white,
-    "primary-10": $primary-10,
-    "primary-30": $primary-30,
-    "primary-90": $primary-90,
-    "secondary-10": $secondary-10,
-    "secondary-30": $secondary-30,
-    "secondary-90": $secondary-90,
-    "accent-10": $accent-10,
-    "accent-30": $accent-30,
-    "accent-90": $accent-90,
-    "success-10": $success-10,
-    "success-30": $success-30,
-    "success-90": $success-90,
-    "warning-10": $warning-10,
-    "warning-30": $warning-30,
-    "warning-90": $warning-90,
-    "danger-10": $danger-10,
-    "danger-30": $danger-30,
-    "danger-90": $danger-90,
-    "info-10": $info-10,
-    "info-30": $info-30,
-    "info-90": $info-90,
   ),
   $theme-colors
 );
@@ -95,16 +53,16 @@ $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge(
   (
-    0: 0,
-    1: ($spacer * 0.25),
-    2: ($spacer * 0.5),
-    3: ($spacer * 0.75),
-    4: ($spacer * 1),
-    5: ($spacer * 1.25),
-    6: ($spacer * 1.5),
-    7: ($spacer * 1.75),
-    8: ($spacer * 2),
-    9: ($spacer * 2.25),
+     0: 0,
+     1: ($spacer * 0.25),
+     2: ($spacer * 0.5),
+     3: ($spacer * 0.75),
+     4: ($spacer * 1),
+     5: ($spacer * 1.25),
+     6: ($spacer * 1.5),
+     7: ($spacer * 1.75),
+     8: ($spacer * 2),
+     9: ($spacer * 2.25),
     10: ($spacer * 2.5),
     11: ($spacer * 2.75),
     12: ($spacer * 3),
@@ -264,7 +222,7 @@ $tooltip-max-width: 300px !default;
 // ---
 // tables
 $table-border-width: 1px;
-$table-border-color: $primary-10;
+$table-border-color: $gray-200;
 $table-bg: $white;
 $table-cell-padding-y:        .7rem;
 $table-striped-bg:            fade-out($ui, .95); 

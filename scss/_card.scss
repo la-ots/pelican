@@ -1,8 +1,9 @@
 .card {
   margin-bottom: $spacer;
   box-shadow: $box-shadow-minor;
+  border-color: $gray-200;
   .content-container & {
-    background-color: $gray-100;
+    background-color: $gray-50;
     box-shadow: none;
   }
 }
