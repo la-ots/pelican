@@ -1,6 +1,6 @@
 "use strict";
 
-import $ from "jquery";
-window.$ = $;
+//import $ from "jquery";
+//window.$ = $;
 import "popper.js";
 import "bootstrap";
