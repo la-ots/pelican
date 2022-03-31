@@ -24,7 +24,7 @@
 }
 .official-banner {
   @extend .border-bottom;
-  @extend .py-2;
+  @extend .py-1;
 
   background-color: $black;
   color: $white;
