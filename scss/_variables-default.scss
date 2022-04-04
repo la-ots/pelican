@@ -161,6 +161,14 @@ $link-hover-decoration: underline !default;
 $emphasized-link-hover-darken-percentage: 15% !default;
 
 // ---
+// shadows
+$box-shadow-sm:     0 0.25rem 2px fade-out($ui, 0.9) !default;
+$box-shadow:        0 0.5rem 1rem fade-out($black, 0.25) !default;
+$box-shadow-lg:     0 1rem 3rem fade-out($black, 0.35) !default;
+$box-shadow-minor:  0 1px 0 fade-out($black, .85);
+$btn-shadow:        0 0.125rem 0 fade-out($ui, 0.7) !default;
+
+// ---
 // forms
 $input-bg: $white !default;
 $input-disabled-bg: $gray-200 !default;
@@ -218,6 +226,13 @@ $card-bg: $gray-100;
 $card-bg: $white;
 
 // ---
+// popovers
+$popover-header-color:              $text-color-dark;
+$popover-header-bg:                 $gray-100;
+$popover-border-color:              $card-border-color;
+$popover-box-shadow:                $box-shadow-sm;
+
+// ---
 // Tooltips
 $tooltip-max-width: 300px !default;
 
@@ -243,14 +258,6 @@ $breadcrumb-bg:           $body-bg;
 $breadcrumb-active-color: $text-color-dark !default;
 $breadcrumb-padding-y:    $spacer * .5;
 $breadcrumb-padding-x:    $spacer;
-
-// ---
-// shadows
-$box-shadow-sm:     0 0.25rem 2px fade-out($ui, 0.9) !default;
-$box-shadow:        0 0.5rem 1rem fade-out($black, 0.25) !default;
-$box-shadow-lg:     0 1rem 3rem fade-out($black, 0.35) !default;
-$box-shadow-minor:  0 1px 0 fade-out($black, .85);
-$btn-shadow:        0 0.125rem 0 fade-out($ui, 0.7) !default;
 
 // ---
 // animated loading indicator
