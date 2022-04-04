@@ -263,6 +263,11 @@ $enable-responsive-font-sizes: true;
 $enable-negative-margins:      true !default;
 
 // ---
+// Prefix for :root CSS variables
+$variable-prefix:             bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix:                      $variable-prefix !default;
+
+// ---
 // z-index values
 $zindex-dropdown: 1000 !default;
 $zindex-sticky: 1020 !default;
