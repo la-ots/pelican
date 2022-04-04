@@ -1,4 +1,5 @@
 .toast {
+  box-shadow: 0 .5rem 1rem fade-out($black, .85);
   &.toast-success {
     .toast-header {
       background-color: $success-100;

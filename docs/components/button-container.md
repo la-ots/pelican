@@ -16,7 +16,7 @@ eleventyNavigation:
 - See [Buttons](/components/buttons) for guidance on styling and writing buttons.
 - If there is only 1 cautionary button, such as a `.btn-warning` or `btn-danger`, then add the class `ml-auto` to it.
 - If there are 2 or more cautionary buttons, such as a `.btn-warning` or `btn-danger`, then add the class `ml-auto` to the first.
-- Consider buttons’ [action hierarchy](/components/buttons) when assigning button styles.
+- Consider [buttons’ hierarchies](/components/buttons) when assigning button styles.
 - Put Warning and Danger buttons to the right of the Button Bar by adding the class `ml-md-auto` added to the first of those buttons.
 
 ## Usage
