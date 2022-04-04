@@ -94,7 +94,7 @@ In the same way, using brand green-styled buttons as the go-to buttons will also
   <div class="row">
     <div class="col-12 ">
       <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
-      <button type="button" class="btn btn-success">Good Action Button</button>
+      <button type="button" class="btn btn-success">Success Button</button>
     </div>
   </div>
 </div>
