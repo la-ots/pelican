@@ -45,7 +45,7 @@ The UI color is often used as:
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-  <table class="table table-light mb-8">
+  <table class="table table-striped mb-8">
     <thead>
       <tr>
         <th>Background Colors</th>
@@ -56,7 +56,7 @@ The UI Colors are implemented as background colors and as text colors. The class
       <tr>
         <td><span class="badge badge-pill py-2 px-4 badge-ui">bg-ui</span></td>
         <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
-      </tr>                              
+      </tr>                             
     </tbody>
   </table>
 </div>
