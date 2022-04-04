@@ -12,8 +12,11 @@ $yellow: #ffc107 !default;
 $green: #0d6211 !default;
 $teal: #20c997 !default;
 $cyan: #9c27b0 !default;
+$text-color: $gray-800;
+$text-color-light: $gray-600;
+$text-color-dark: $gray-900;
 $body-bg: #f7f7f7;
-$body-color: $gray-700;
+$body-color: $text-color;
 $focus-color: #2491ff;
 $less-bright: #fbf9f9;
 $primary: $primary-800;
@@ -160,7 +163,8 @@ $emphasized-link-hover-darken-percentage: 15% !default;
 // ---
 // forms
 $input-bg: $white !default;
-$input-disabled-bg: $gray-300 !default;
+$input-disabled-bg: $gray-200 !default;
+$input-group-addon-bg: $gray-100 !default;
 $input-color: $gray-700 !default;
 $component-active-bg: $ui-priority;
 $input-border-color: $ui !default;
@@ -171,7 +175,6 @@ $form-switch-color: $ui;
 
 // ---
 // modals
-$modal-content-bg: $gray-100;
 $modal-backdrop-bg: $primary;
 $modal-header-border-color: fade-out($gray-600, 0.75);
 $modal-footer-border-color: fade-out($gray-600, 0.75);
@@ -181,7 +184,7 @@ $modal-backdrop-opacity: 0.75;
 // borders * border radii
 $border-width: 2px;
 $border-style: solid;
-$border-color: $gray-300 !default;
+$border-color: $gray-200 !default;
 $border-radius: 0.25rem !default;
 $border-radius-lg: 0.3rem !default;
 $border-radius-sm: 0.2rem !default;
@@ -206,7 +209,6 @@ $card-spacer-y: 1rem;
 $card-spacer-x: 1rem;
 $card-border-width: $border-width !default;
 $card-border-radius: $border-radius !default;
-$card-border-color: transparent;
 $card-border-color: $gray-300;
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg: null !default;
@@ -222,7 +224,7 @@ $tooltip-max-width: 300px !default;
 // ---
 // tables
 $table-border-width: 1px;
-$table-border-color: $gray-200;
+$table-border-color: $gray-300;
 $table-bg: $white;
 $table-cell-padding-y:        .7rem;
 $table-striped-bg:            fade-out($ui, .95); 
@@ -238,7 +240,7 @@ $pagination-disabled-border-color: $gray-600 !default;
 // Breadcrumbs
 $breadcrumb-bg:           $gray-200 !default;
 $breadcrumb-bg:           $body-bg;
-$breadcrumb-active-color: $gray-700 !default;
+$breadcrumb-active-color: $text-color-dark !default;
 $breadcrumb-padding-y:    $spacer * .5;
 $breadcrumb-padding-x:    $spacer;
 

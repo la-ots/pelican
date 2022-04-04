@@ -8,7 +8,7 @@
   justify-content: center;
   width: 220px;
   height: 44px;
-  color: $primary;
+  color: $info;
   background-color: $white;
   border-bottom-right-radius: $spacer;
   transition: $transition-base;
@@ -103,6 +103,12 @@
   p {
     @extend .mb-0;
     color: $primary;
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6{
+  & .fas{
+    color: $primary-500;
   }
 }
 

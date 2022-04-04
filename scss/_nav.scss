@@ -165,6 +165,7 @@
     }
     hr.minor {
       @extend .opacity-25;
+      background-color: $primary-100;
     }
     .navbar-collapse {
       

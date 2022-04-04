@@ -106,6 +106,7 @@
   @extend .bg-image-size-cover ;
   @extend .pt-40 ;
   @extend .pb-10;
+  text-shadow: 0 .125rem 0 fade-out($black, .5);
   .overlay {
     @extend .opacity-85 ;
     @extend .position-absolute ;
