@@ -163,3 +163,38 @@
     color: $white;
   }
 }
+.hero-centered {
+  @extend .pt-12;
+  background-color: $primary;
+  color: $accent;
+  text-align: center;
+  &-sentence {
+    @extend .mb-8;
+    @extend .lead;
+    color: $white;
+  }
+  &-buttons {
+    @extend .d-grid;
+    @extend .gap-2;
+    @extend .d-sm-flex;
+    @extend .justify-content-sm-center;
+    @extend .mb-10;
+    & .btn {
+      @extend .btn-lg;
+      @extend .px-4;
+      &:nth-child(2) {
+        @extend .ms-sm-3;
+      }
+    }
+  }
+  &-image {
+    @extend .overflow-hidden;
+    max-height: 30vh;
+    img {
+      @extend .img-fluid;
+      @extend .rounded-3 ;
+      @extend .shadow-lg ;
+      @extend .mb-4;
+    }
+  }
+}
