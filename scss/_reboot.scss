@@ -1,10 +1,11 @@
 html,
 body {
   scroll-behavior: smooth;
-  @include bg-texture();
   min-height: 100vh;
 }
-
+html {
+  background-color: $primary;
+}
 body {
   background-color: $body-bg;
   @include bg-texture();
