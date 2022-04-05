@@ -1,29 +1,29 @@
 .badge {
   @extend .rounded-pill;
   &-primary {
-    @extend .bg-primary;
+    background-color: $primary;
   }
   &-secondary {
-    @extend .bg-secondary;
+    background-color: $secondary;
   }
   &-accent {
-    @extend .bg-accent;
-    @extend .text-black;
+    background-color: $accent;
+    color: $black;
   }
   &-success {
-    @extend .bg-success;
+    background-color: $success;
   }
   &-info {
-    @extend .bg-info;
+    background-color: $info;
   }
   &-warning {
-    @extend .bg-warning;
-    @extend .text-black;
+    background-color: $warning;
+    color: $black;
   }
   &-danger {
-    @extend .bg-danger;
+    background-color: $danger;
   }
   &-ui {
-    @extend .bg-ui;
+    background-color: $ui;
   }
 }

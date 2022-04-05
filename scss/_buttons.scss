@@ -87,32 +87,11 @@
     @extend .py-2;
     @extend .px-3;
     border-radius: $border-radius;
-    background-color: $ui;
   }
 
   &:hover,
   &:active {
     background-color: fade-out($ui, 0.75);
-  }
-}
-
-.share-this {
-  @extend .text-center;
-  background-color: $white;
-  @extend .p-4;
-
-  small {
-    @extend .small;
-    @extend .mb-2;
-    @extend .d-block;
-  }
-
-  a {
-    @extend .btn;
-    @extend .btn-link;
-    @extend .btn-lg;
-    background-color: $white;
-    @extend .px-2;
   }
 }
 
@@ -152,12 +131,9 @@ p a {
 
 #ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
-  @extend .btn;
-  @extend .btn-outline-ui;
   right: $spacer * 2;
   bottom: $spacer * 5;
   z-index: $zindex-scroll-to-top;
-
   @include media-breakpoint-up(md) {
     bottom: $spacer * 5;
   }
@@ -180,12 +156,12 @@ p a {
   }
 }
 
-.sidebar-button {
-  @extend .position-relative;
-  @extend .btn;
-  @extend .btn-link;
-  color: $white;
-  &:hover {
-    color: $white;
-  }
-}
+// .sidebar-button {
+//   @extend .position-relative;
+//   @extend .btn;
+//   @extend .btn-link;
+//   color: $white;
+//   &:hover {
+//     color: $white;
+//   }
+// }

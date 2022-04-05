@@ -20,9 +20,9 @@
   }
   }
   &.badge-primary, &.badge-secondary, &.badge-ui, &.badge-info, &.badge-success, &.badge-danger{
-    @extend .text-white;
+    color: $white;
   }
   &.badge-accent, &.badge-warning {
-    @extend .text-black;
+    color: $black;
   }
 }
