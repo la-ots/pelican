@@ -104,7 +104,7 @@
     @extend .h2;
     //this is redundant from the h2 inheritance above
     @extend .fw-bold;
-    
+    color: inherit;
   }
   .feature-small-text {
     
@@ -134,21 +134,6 @@
       @extend .fw-light;
       @extend .text-center;
     }
-  }
-}
-.feature-many-icons {
-  @extend .py-8 ;
-  @extend .py-lg-20 ;
-  background-color: $primary;
-  color: $white;
-  .feature-big-text {
-    @extend .h2;
-    @extend .mb-8;
-    @extend .mb-lg-0;
-    color: $white;
-  }
-  .feature-small-text {
-    @extend .mb-0;
   }
 }
 .feature-set {

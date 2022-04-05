@@ -144,9 +144,11 @@
   width: 44px;
   overflow: hidden;
   color: fade-out($white, .15);
+  transition: $transition-base;
   text-decoration: none;
   &:hover, &:active {
     cursor: pointer;
+    color: $white;
     background-color: $info;
     text-decoration: none;
   }
