@@ -38,13 +38,13 @@ Pelican provides a way to change the following theme aspects when appropriate. T
 
 To change background or text color, change the class name representing the color to want to change. Consider [Color Contrast](/accessibility/color-contrast/) when you change these classes. For example, changing `bg-primary` to `bg-secondary` will change the background color from the primary to the secondary color. Changing `text-secondary` to `text-primary` will change the text color. Compare the cards below.
 
-<div class="px-4 mb-5">
+<div class="mb-5">
   <div class="row">
     <div class="col-12 col-md-6">
-      <div class="card bg-primary text-primary-10">
+      <div class="card bg-primary text-white">
         <div class="card-body">
-          <p class="mb">Background color is <code class="text-primary-10">bg-primary</code>.</p>
-          <p class="mb-0">Text color is <code class="text-primary-10">text-primary-10</code>.</p>
+          <p class="mb">Background color is <code class="text-white">bg-primary</code>.</p>
+          <p class="mb-0">Text color is <code class="text-white">text-white</code>.</p>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 
 <div class="row mb-12">
   <div class="col-md-6">
-    <div class="card border-0 mb-4">
+    <div class="card mb-4">
       <div class="py-20 rounded-top" style="background-color: #198754;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Example Brand</p>
@@ -77,7 +77,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card border-0 mb-4">
+    <div class="card mb-4">
       <div class="py-20 bg-success rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Status Success</p>
@@ -94,7 +94,7 @@ In the same way, using brand green-styled buttons as the go-to buttons will also
   <div class="row">
     <div class="col-12 ">
       <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
-      <button type="button" class="btn btn-success">Good Action Button</button>
+      <button type="button" class="btn btn-success">Success Button</button>
     </div>
   </div>
 </div>

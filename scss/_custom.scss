@@ -8,7 +8,7 @@
   justify-content: center;
   width: 220px;
   height: 44px;
-  color: $primary;
+  color: $info;
   background-color: $white;
   border-bottom-right-radius: $spacer;
   transition: $transition-base;
@@ -24,7 +24,7 @@
 }
 .official-banner {
   @extend .border-bottom;
-  @extend .py-2;
+  @extend .py-1;
 
   background-color: $black;
   color: $white;
@@ -39,34 +39,6 @@
 ::-moz-selection {
   background-color: lighten($secondary, 35%);
   border-radius: 16px;
-}
-
-.wrapper-topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 900;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  height: 40px;
-  padding: ($spacer * 0.25) ($spacer * 0.5);
-  color: #fff;
-  background-color: #000;
-  transition: padding-left 250ms ease-in-out;
-  .sidebar-button {
-    margin-left: auto;
-  }
-  @media screen and (min-width: 1024px) {
-    padding-left: 260px;
-    .sidebar-button {
-      margin-left: unset;
-    }
-    &.toggled {
-      padding-left: 0px;
-    }
-  }
 }
 
 .main {
@@ -89,16 +61,15 @@
   @extend .py-4;
   @extend .py-lg-16;
   @extend .mb-4;
-  box-shadow: $card-box-shadow;
+  box-shadow: $box-shadow-minor;
   background-color: $white;
   border: 0;
-  border-bottom: $border-width $border-style $border-color;
   .page-title-text {
     @extend .h2 ;
     @extend .mb-0;
     color: $primary;
     .icon {
-      color: $primary-10;
+      color: $primary-500;
     }
   }
   p {
@@ -107,11 +78,16 @@
   }
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6{
+  & .fas{
+    color: $primary-500;
+  }
+}
 
 .content-container {
-  background-color: $white;
   @extend .py-4;
   @extend .mb-4;
+  background-color: $white;
   box-shadow: $box-shadow-sm;
 }
 

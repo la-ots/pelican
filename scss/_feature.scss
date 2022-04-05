@@ -28,7 +28,7 @@
     @extend .mt-4;
     @extend .me-0;
     @extend .mb-4;
-    @extend .ms-38;
+    @extend .ms-40;
     @extend .my-md-40;
     @extend .me-lg-0;
     @extend .ms-lg-auto;
@@ -46,7 +46,7 @@
 }
 .feature-cta {
   background-color: $white;
-  @extend .py-38;
+  @extend .py-40;
   .feature-big-text {
     @extend .h2;
     @extend .mb-4;
@@ -159,14 +159,15 @@
   }
   .feature-lead-text {
     @extend .mb-0;
-    color: $gray-700;
+    color: $primary-700;
   }
   .feature-small-text {
     @extend .mb-2;
-    color: $gray-700;
+    color: $primary-700;
   }
   .feature-lead-icon {
     @extend .h4;
     @extend .mb-2;
+    color: $primary-500;
   }
 }
