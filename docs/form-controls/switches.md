@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Switches
   parent: Form Controls
-  order: 8
+  order: 10
   excerpt: Switches allow users to enable or disable something, like a light switch.
   img: /img/illustrations/illus-switches.svg
 ---

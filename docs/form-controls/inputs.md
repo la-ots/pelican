@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Inputs
   parent: Form Controls
-  order: 5
+  order: 6
   excerpt: The Input element specifies a field for the user to enter information on a page.
   img: /img/illustrations/illus-inputs.svg
 ---
