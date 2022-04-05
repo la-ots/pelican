@@ -78,6 +78,14 @@ Documentation can be found at the [Pelican Documentation](https://pelican.ots.la
 
 WIP
 
+### Guidelines For SCSS Modifications
+
+* Keep @extend when it relates to placement of the thing and the thing’s constituent elements
+* Keep @extend when it relates to text sizes, text weights, margins, and padding
+* Use normal SCSS / CSS rules when it relates to font-family, icon colors, text colors, or background colors, icons, or img src
+* Change a bootstrap default in the variables first
+* Change a bootstrap default in an appropriate SCSS file second
+
 ## Local Development
 
 First, ensure all dependencies are installed on your local machine:
@@ -117,4 +125,6 @@ This will run linters across the codebase. Scripts to run linters separately are
 > $ npm run js:lint
 
 Note: Linters are not run as part of any `watch` scripts and must be run separately.
+
+
 
