@@ -11,13 +11,11 @@ eleventyNavigation:
   img: /img/illustrations/illus-status-colors.svg
 --- 
 
-## Status Colors 
+## Best Practice
 
-Status colors indicate various system statuses, such as error messages or informational dialogs. 
-
-Status colors should not be the sole way statuses are communicated to users. However, the selected colors are common colors when communicating system conditions.
-
-Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Content must clearly relate to the chosen Status color.
+- Indicate various system statuses, such as error messages or informational dialogs. 
+- Don’t use them as the way to communicate statuses.
+- They only add visual meaning.
 
 <div class="row mb-12">
   <div class="col-md-6 col-xl-3">
@@ -103,154 +101,12 @@ The Info color indicates informative or helpful information.
 - Should be used to inform the user of in-process system-wide changes which will improve their experience
 - Lighter and darker variations used for background and text colors in [Info Alerts](/components/alerts/)
 
-## Status Color Variations
-
-**Success Status Colors**
-
-<div class="row mb-12">
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-success rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Success</p>
-        <p class="mb-0"><code>#0d6211</code></p>
-        <p class="mb-0"><code>$success</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-success-10 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Success, Lighter</p>
-        <p class="mb-0"><code>#dcf8e2</code></p>
-        <p class="mb-0"><code>$success-10</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-success-90 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Success, Darker</p>
-        <p class="mb-0"><code>#003302</code></p>
-        <p class="mb-0"><code>$success-90</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-**Warning Status Colors**
-
-<div class="row mb-12">
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-warning rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Warning</p>
-        <p class="mb-0"><code>#ffc107</code></p>
-        <p class="mb-0"><code>$warning</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-warning-10 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Warning, Lighter</p>
-        <p class="mb-0"><code>#ffecb3</code></p>
-        <p class="mb-0"><code>$warning-10</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-warning-90 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Warning, Darker</p>
-        <p class="mb-0"><code>#5c3400</code></p>
-        <p class="mb-0"><code>$warning-90</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-**Danger Status Colors**
-
-<div class="row mb-12">
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-danger rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Danger</p>
-        <p class="mb-0"><code>#b00003</code></p>
-        <p class="mb-0"><code>$danger</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-danger-10 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Danger, Lighter</p>
-        <p class="mb-0"><code>#ffe6e8</code></p>
-        <p class="mb-0"><code>$danger-10</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-danger-90 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Danger, Darker</p>
-        <p class="mb-0"><code>#650002</code></p>
-        <p class="mb-0"><code>$danger-90</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-**Info Status Colors**
-
-<div class="row mb-12">
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-info rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Info</p>
-        <p class="mb-0"><code>#004ba1</code></p>
-        <p class="mb-0"><code>$info</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-info-10 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Info, Lighter</p>
-        <p class="mb-0"><code>#d0e6ff</code></p>
-        <p class="mb-0"><code>$info-10</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-info-90 rounded-top"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Info, Darker</p>
-        <p class="mb-0"><code>#002480</code></p>
-        <p class="mb-0"><code>$info-90</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-
 ## Status Color Class List
 
 The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-  <table class="table table-light mb-8">
+  <table class="table table-striped mb-8">
     <thead>
       <tr>
         <th>Background Colors</th>

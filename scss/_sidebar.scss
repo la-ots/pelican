@@ -25,7 +25,6 @@
   }
 }
 .site-main {
-  //background-color: sandybrown;
   padding-top: 41px;
   transition: $transition-base;
   @media screen and (min-width: 992px){
@@ -71,8 +70,6 @@
 }
 .site-nav-content {
   position: relative;
-  //height: calc(100% - 30px);
-  //max-height: calc(100% - 30px);
   overflow-y: auto;
 }
 .site-nav-brand {
@@ -179,4 +176,7 @@
       }
     }
   }
+}
+.no-side-toggle {
+  padding-left: 0;
 }

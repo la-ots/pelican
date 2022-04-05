@@ -58,7 +58,7 @@ hr,
 .hr {
   @extend .mx-0;
   @extend .w-100;
-  background-color: $primary-10;
+  background-color: $gray-200;
   border: 0;
   opacity: 1;
   &.major {
@@ -138,6 +138,6 @@ legend,
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   line-height: inherit;
-  color: inherit;
+  color: $primary;
   white-space: normal;
 }

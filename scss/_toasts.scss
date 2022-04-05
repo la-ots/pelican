@@ -1,26 +1,27 @@
 .toast {
+  box-shadow: 0 .5rem 1rem fade-out($black, .85);
   &.toast-success {
     .toast-header {
-      background-color: $success-10;
-      color: $success-90;
+      background-color: $success-100;
+      color: $success-900;
     }
   }
   &.toast-danger  {
     .toast-header {
-      background-color: $danger-10;
-      color: $danger-90;
+      background-color: $danger-100;
+      color: $danger-900;
     }
   }
   &.toast-info    {
     .toast-header {
-      background-color: $info-10;
-      color: $info-90;
+      background-color: $info-100;
+      color: $info-900;
     }
   }
   &.toast-warning {
     .toast-header {
-      background-color: $warning-10;
-      color: $warning-90;
+      background-color: $warning-100;
+      color: $warning-900;
     }
   }
 }

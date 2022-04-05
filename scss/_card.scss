@@ -1,8 +1,8 @@
 .card {
   margin-bottom: $spacer;
-  @extend .shadow-sm;
+  box-shadow: $box-shadow-minor;
   .content-container & {
-    background-color: $gray-100;
+    background-color: $gray-50;
     box-shadow: none;
   }
 }
@@ -22,4 +22,8 @@
 }
 .card-error {
   border-color: $danger;
+}
+ 
+.card-title{
+  color: $text-color-dark;
 }
