@@ -91,7 +91,7 @@ We use `@extend` when it preserves the layout properties of an item. This includ
 - Margins
 - Padding
 
-An example of this is seen in a snippet of the Alerts’ SCSS rule:
+An example of this is seen in a snippet of the Alerts’ SCSS file, `_alert.scss`:
 ```scss
 .alert {
   ...
