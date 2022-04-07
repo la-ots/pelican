@@ -7,7 +7,7 @@
         </a>
       </div>
       <div class="site-nav-menu">
-        {% set navPages = collections.all | eleventyNavigation %}
+        {% set navPages = collections.sidebarNav | eleventyNavigation %}
         <ul>
         {%- for entry in navPages %}
           <li class="site-nav-item">
@@ -24,7 +24,8 @@
                 </a>
               {% endif %}
             </div>
-            {% if entry.children.length > 0 %}
+            {% if entry.hideChild %}
+            {% elif entry.children.length > 0 %}
             <div class="site-nav-submenu" {% if entry.url in page.url %} style="display:block" {% endif %}>
               <ul>
                 {% for child in entry.children %}

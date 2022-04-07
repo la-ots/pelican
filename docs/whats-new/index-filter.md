@@ -2,23 +2,27 @@
 title: What’s New
 summary: Pelican Changelog
 tags: resources
-layout: default-pagination
+layout: title
 index: true
+excludeFromSidebar: true
 eleventyNavigation:
-  key: NewsBlog
+  key: What’s New
   title: What’s New
   order: 1
   excerpt: Pelican Changelog
-  hideChild: true
 pagination:
-  data: collections.blog
-  size: 10
-  alias: blogs
-  reverse: true
-permalink: "whats-new/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
+  data: collections
+  size: 1
+  alias: tag
+permalink: "whats-new/tagged/{{tag | slug}}/"
 ---
+## Make Pelican Better
 
-{% for blog in blogs %}
+You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how to become involved.
+
+We’re continually improving Pelican. The following changes are listed by the date we completed each change.
+
+{% for blog in collections[tag] reversed %}
 
 <div class="card shadow-none">
   <div class="card-body">
@@ -34,9 +38,9 @@ permalink: "whats-new/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageN
           <div class="col-3">
             {%- for blogTag in blog.data.tags %}
             {%- if blogTag == blog.data.tags[0] %}
-            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
+            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
             {%- else -%}
-            , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
+            , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag}}">{{ blogTag }}</a>
             {%- endif %}
             {%- endfor %}
           </div>

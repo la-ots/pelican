@@ -9,6 +9,7 @@ const pluginReadingTime = require('eleventy-plugin-reading-time')
 const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
+const { DateTime } = require("luxon")
 
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
@@ -37,6 +38,10 @@ module.exports = (eleventyConfig) => {
 
     return value.replace(/\-/g, ' ')
   })
+
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+  });
 
   eleventyConfig.addNunjucksAsyncFilter("addHash", function (
     absolutePath,
@@ -69,6 +74,7 @@ module.exports = (eleventyConfig) => {
       .filter(item => (item.data || {}).excludeFromSidebar !== true)
   })
 
+  /*
   eleventyConfig.addCollection("tagList", (collection) => {
     let tagSet = new Set()
     collection.getAll().forEach((item) => {
@@ -99,6 +105,23 @@ module.exports = (eleventyConfig) => {
 
     return [...tagSet].sort()
   })
+  */
+
+  function blogTagList(tags) {
+    return (tags || []).filter(tag => tag.startsWith("blog"));
+  }
+
+  eleventyConfig.addFilter("blogTagList", blogTagList)
+
+  // Create an array of all tags
+  eleventyConfig.addCollection("tagList", function (collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return blogTagList([...tagSet]);
+  });
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
