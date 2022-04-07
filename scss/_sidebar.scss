@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%; height: 100vh;
+  width: 100%;
 }
 .site-topbar {
   position: fixed;
@@ -25,6 +25,7 @@
   }
 }
 .site-main {
+  min-height: calc(100vh - 172px);
   padding-top: 41px;
   transition: $transition-base;
   @media screen and (min-width: 992px){
