@@ -2,30 +2,28 @@
 layout: default.njk
 ---
 {% include "page-title.njk" %}
-<div class="p-lg-16">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        {% include "page-contents.njk" %}
-      </div>
-      <div class="col-12">
-        <div class="card bg-less-bright">
-          <div class="card-body">
-            {%- for blogTag in tags %}
-            {%- if blogTag == tags[0] %}
-            <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
-            {%- else -%}
-            , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
-            {%- endif %}
-            {%- endfor %}
+<div class="container-fluid flex-fill">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      {% include "page-contents.njk" %}
+    </div>
+    <div class="col-12">
+      <div class="card bg-less-bright">
+        <div class="card-body">
+          {%- for blogTag in tags %}
+          {%- if blogTag == tags[0] %}
+          <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
+          {%- else -%}
+          , <a href="{{ '/whats-new/tagged/' | url }}{{blogTag | slug}}">{{ blogTag }}</a>
+          {%- endif %}
+          {%- endfor %}
 
-            {{ content | safe }}
-          </div>
+          {{ content | safe }}
         </div>
-
       </div>
 
     </div>
+
   </div>
 </div>
 {% include "blog-navigation.njk" %}
