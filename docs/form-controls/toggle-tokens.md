@@ -20,8 +20,7 @@ eleventyNavigation:
 
 **Toggle Tokens for Exclusive Choices**
 
-* [Radios](form-controls/radios) can be presented as Toggle Tokens
-* Use Radio button logic
+* [Radios](/form-controls/radios) can be presented as Toggle Tokens
 
 {% include 'markup/toggle-tokens-exclusive.njk' %}
 
@@ -31,7 +30,7 @@ eleventyNavigation:
 
 **Toggle Tokens for Multiple Choices**
 
-* [Checkboxes](form-controls/checkboxes) can be presented as Toggle Tokens
+* [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens
 * Use Checkbox logic
 
 {% include 'markup/toggle-tokens-inclusive.njk' %}

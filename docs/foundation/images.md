@@ -65,7 +65,7 @@ Non-content images may be requested by the Stakeholders and Project Owners. In t
 When writing alt text, keep the following in mind:
 
 - Be specific; describe the image for users who cannot see them.
-- Keep it short; try to stay <a href="" target="_blank">under 250 characters</a>.
+- Keep it short as possible, but descriptive.
 - Don’t include phrases like “Image of...” or “Picture of...” 
 - Use a simple, descriptive sentence and the appropriate punctuation.
 - Don’t begin phrases with “Image of...” or “Picture of...”.

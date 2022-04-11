@@ -15,11 +15,9 @@ eleventyNavigation:
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - When possible, present them in a vertical list.
-- If space is limited, consider using a [Select](/forms/select).
-- If the user can select one or more options, use [Checkboxes](/forms/checkboxes).
+- If space is limited, consider using a [Select](/form-controls/select).
+- If the user can select one or more options, use [Checkboxes](/form-controls/checkboxes).
 - Ensure the `id` of the input matches the `for` of the label.
-
-_**Note:** Some Radios can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
 
 ## Usage
 
