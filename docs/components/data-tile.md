@@ -13,11 +13,13 @@ eleventyNavigation:
  
 ## Best Practices
 
-- Data Tiles extend [Cards](/components/card) behavior and styles.
+- Data Tiles extend [Cards](/components/cards) behavior and styles.
 - Data Tiles  simply display a label and related data corresponding to that label. 
 - They are useful in clearly displaying lots of text into easy-to-scan holders.
-- They will be grey when inside a [Content Container](/components/boxes/#content-container).
-- They will be white when **not** inside a [Content Container](/components/boxes/#content-container).
+- They will be grey when inside a [Content Container](- If a Card occurs outside of a [Content Container](/components/content_container/), it will automatically get a white background 
+- If the card occurs inside of a [Content Container](/components/content_container/) it will automatically get a gray background).
+- They will be white when **not** inside a [Content Container](- If a Card occurs outside of a [Content Container](/components/content_container/), it will automatically get a white background 
+- If the card occurs inside of a [Content Container](/components/content_container/) it will automatically get a gray background).
 
 ## Usage
 
