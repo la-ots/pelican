@@ -75,45 +75,6 @@ The UI Priority color is taken from calls to action and link colors around the w
 - Buttons which need to [appear more prominently than other UI buttons](/foundation/ui-colors/#ui-vs-ui-blue)
 - [Links in text](/accessibility/about-accessibility/)
 
-## UI vs UI Priority
-
-Deciding between the use of UI and UI Priority depends on the use case. As an example, consider the user interface below. 
-
-Each item in each list has a button which takes the user to more information about that item. The [UI Priority themed buttons](/components/buttons/#ui-priority-button) are used for the more important, higher visual priority items. The UI themed buttons are used for the lesser importance items.
-
-<div class="px-4 mb-12">
-    <div class="row">
-        <div class="col-lg-6">
-            <ul class="list-group">
-                <li class="list-group-item d-flex align-items-center">New Item
-                    <button type="button" class="btn btn-sm btn-ui-priority ml-auto">View Now</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">New Item
-                    <button type="button" class="btn btn-sm btn-ui-priority ml-auto">View Now</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">New Item
-                    <button type="button" class="btn btn-sm btn-ui-priority ml-auto">View Now</button>
-                </li>
-            </ul>
-        </div>
-        <div class="col-lg-6">
-            <ul class="list-group">
-                <li class="list-group-item d-flex align-items-center">Historical Item
-                    <button type="button" class="btn btn-sm btn-ui ml-auto">More Info</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">Historical Item
-                    <button type="button" class="btn btn-sm btn-ui ml-auto">More Info</button>
-                </li>
-                <li class="list-group-item d-flex align-items-center">Historical Item
-                    <button type="button" class="btn btn-sm btn-ui ml-auto">More Info</button>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-For more example and context guidance, read [Consider the Priority](/components/buttons/#consider-the-priority) on the UI Buttons page.
-
 ## UI Color Class List
 
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.

@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Spacing is used as Padding and Margin in Pelican. 
 
-Padding is the space inside of something, putting space between its edges and its internal contents. Margin is the space around something, putting space between its outder edges and the outer edges of something else.
+Padding is the space inside of something, putting space between its edges and its internal contents. Margin is the space around something, putting space between its outer edges and the outer edges of something else.
 
 These two boxes have margins around them and padding inside of them.
 

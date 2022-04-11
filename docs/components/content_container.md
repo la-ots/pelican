@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Use Content Containers to group content together.
 - They are the outermost container for content on the page or sections within a page.
-- Use [Bootstrap container classes](/components/layout-grid/) as the immediate children.
+- Use [Bootstrap container classes](/foundation/layout-grid/) as the immediate children.
 - Content Containers are the outermost container for content on the page or sections within a page.
 
 ## Usage
