@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-Let’s inmprove writing consistency cross all of Louisiana’s digital products. The advice in this document are guidelines, not official rules. If your agency or department follows its own specific style guide, continue to use it. This is a living document and can be revised as needed. We take our guidance from the <a href="https://content-guide.18f.gov/" target="_blank">18F Content Guide</a>.
+Let’s improve writing consistency across all of Louisiana’s digital products. The advice in this document are guidelines, not official rules. If your agency or department follows its own specific style guide, continue to use it. This is a living document and can be revised as needed. We take our guidance from the <a href="https://content-guide.18f.gov/" target="_blank">18F Content Guide</a>.
 
 ## Voice and Tone
 
@@ -41,7 +41,7 @@ The needs of your intended audience should always come first. Consider the follo
 
 ## Writing Effective Content
 
-All copy written for Louisiana state government digital products should use conversational, informal language. The goal is educate readers without talking down to them or confusing them. 
+All text written for Louisiana state government digital products should use conversational, informal language. The goal is educate readers without talking down to them or confusing them. 
 
 Keep these tips in mind:
 
@@ -77,7 +77,7 @@ Avoid these things:
 **Numbers**
 
 - Use numerals. 
-- Write out the number when a it starts a sentence.
+- Write out the number when it starts a sentence.
 
 **Time**
 

@@ -17,7 +17,7 @@ Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable fo
 
 ## Headings
 
-Headings indicate document content structure and become navigation tools for assisitive technology. See [Headings](/accessibility/headings/) in Accessibility for information.
+Headings indicate document content structure and become navigation tools for assistive technology. See [Headings](/accessibility/headings/) in Accessibility for information.
 
 ## Paragraphs
 

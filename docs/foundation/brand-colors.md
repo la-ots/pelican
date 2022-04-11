@@ -49,7 +49,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
 
 ## Using Brand Colors
 
-Some for each Brand Color are presented in these lists, but not limited to only these items. These colros have been automatically assigned for you. If your digital product requires changing these colors, see [Agency Themes](/foundation/agency-theming/) for more information.
+Brand Colors are presented in these lists. These colors have been automatically assigned for you. If your digital product requires changing these colors, see [Agency Themes](/foundation/agency-theming/) for more information.
 
 **Primary**
 

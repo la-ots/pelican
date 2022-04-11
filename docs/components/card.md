@@ -1,10 +1,10 @@
 ---
-title: Card
+title: Cards
 summary: Cards are containers for related content or information.
 tags: components, card
 layout: guide
 eleventyNavigation:
-  key: Card
+  key: Cards
   parent: Components
   order: 130
   excerpt: Cards are containers for related content or information.
@@ -12,8 +12,8 @@ eleventyNavigation:
 ---
 ## Best Practices
 Cards are designed to be flexible enough to accommodate most content types
-- If a Card occurs outside of a [Content Container](/components/boxes/#content-container), it will automatically get a white background 
-- If the card occurs inside of a Content Container or [White Box](/components/boxes/#white-box) it will automatically get a gray background
+- If a Card occurs outside of a [Content Container](/components/content_container/), it will automatically get a white background 
+- If the card occurs inside of a [Content Container](/components/content_container/) it will automatically get a gray background
 - Cards can contain various types of information, so their appearance will vary
 - A card’s width is determined by its parent element. In most cases, this is a Bootstrap `<div>` with a column class. Read [Layout Grid](/components/layout-grid/) for more information about columns
 - Rows and columns can be placed inside a card body
