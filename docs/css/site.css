@@ -3,23 +3,6 @@
   max-height: unset;
 }
 
-.pd-content {
-  margin-bottom: 1.5rem;
-}
-
-.pd-content h1,
-.pd-content h2,
-.pd-content h3,
-.pd-content h4,
-.pd-content h5,
-.pd-content h6 {
-  margin-bottom: 1rem;
-}
-
-.pd-content li > p {
-  margin-bottom: 0;
-}
-
 .loading-animation-wrapper {
   height: unset;
 }
