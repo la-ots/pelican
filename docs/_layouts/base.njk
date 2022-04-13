@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Eleventy">
     {% if env.production %}
     <script type="text/javascript">
       ;window.NREUM||(NREUM={});NREUM.init={distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["gov-bam.nr-data.net"]}};
@@ -45,7 +46,7 @@
     <meta property="twitter:description" content="Pelican will provide a scalable, modern base on which to build digital products for Louisiana citizens.">
     <meta property="twitter:image" content="/img/pelican-design-system-illustration.jpg">
   </head>
-  <body>
+  <body class="bg-texture">
     {{ content | safe }}
     {% if env.production %}
       <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>

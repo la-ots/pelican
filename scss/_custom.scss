@@ -46,6 +46,12 @@
   @extend .flex-column;
 }
 
+li {
+  a {
+    text-decoration: none;
+  }
+}
+
 .page-header {
   background-color: $white;
   border-bottom: $border-width $border-style $border-color;
@@ -85,10 +91,15 @@
 }
 
 .content-container {
-  @extend .py-4;
-  @extend .mb-4;
   background-color: $white;
-  box-shadow: $box-shadow-sm;
+  padding-top   : 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 1px 0 fade-out($black, .85);
+  @include media-breakpoint-up(lg){
+    padding-top   : 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .form-fieldset,

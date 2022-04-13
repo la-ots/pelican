@@ -7,7 +7,7 @@ html {
   background-color: $primary;
 }
 body {
-  @include bg-texture();
+  background-color: $body-bg;
 
   &.auth-page {
     background-color: $primary;
