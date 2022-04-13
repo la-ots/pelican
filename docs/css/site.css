@@ -3,10 +3,6 @@
   max-height: unset;
 }
 
-.loading-animation-wrapper {
-  height: unset;
-}
-
 .brand-link::after {
   display: none !important;
 }
