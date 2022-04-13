@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practice
 
-Users who rely keyboard navigation need a way to skip past navigation elements if they are already familiar with the page.
+Users who rely on keyboard navigation need a way to skip past navigation elements if they are already familiar with the page.
 
 - Put the Skip Link markup first as a direct child of the `<body>` element.
 - It should always be the first element the user can interact with on the page if they press the <kbd>Tab</kbd> key immediately after the page has loaded.
