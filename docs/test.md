@@ -409,94 +409,152 @@ eleventyExcludeFromCollections: true
       <caption class="d-none">Table caption describes the data presented.</caption>
       <thead>
         <tr>
-          <th scope="col" id="user">
+          <th scope="col" id="check" style="width:1px">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row0">
+                <label class="custom-control-label" for="row0"></label>
+              </div>
+            </div>
+          </th>
+          <th scope="col" id="sort" style="width:117px">
             <a href="#" class="text-decoration-none" role="button">
-              <span class="fas fa-sort"></span> User
+              <span class="fas fa-sort"></span> Sort Header
             </a>
           </th>
-          <th scope="col" id="role">
-            <a href="#" class="text-decoration-none" role="button">
-              <span class="fas fa-sort"></span> Role
-            </a>
-          </th>
-          <th scope="col" id="figma">
-            Figma Trained
-          </th>
-          <th scope="col" id="team">
-            <a href="#" class="text-decoration-none" role="button">
-              <span class="fas fa-sort"></span> Team
-            </a>
+          <th scope="col" id="plain">
+            Plain Header
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row" id="John">John</th>
-          <td headers="role John">Boss</td>
-          <td headers="figma John">No</td>
-          <td headers="team John">OTS</td>
+          <th scope="row" id="1">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row1">
+                <label class="custom-control-label" for="row1"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 1">Data Header</td>
+          <td headers="plain 1">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Susan">Susan</th>
-          <td headers="role Susan">Developer</td>
-          <td headers="figma Susan">No</td>
-          <td headers="team Susan">EA</td>
+          <th scope="row" id="2">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row2">
+                <label class="custom-control-label" for="row2"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 2">Data Header</td>
+          <td headers="plain 2">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Deborah">Deborah</th>
-          <td headers="role Deborah">Business Analyst</td>
-          <td headers="figma Deborah">Yes</td>
-          <td headers="team Deborah">OTS</td>
+          <th scope="row" id="3">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row3">
+                <label class="custom-control-label" for="row3"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 3">Data Header</td>
+          <td headers="plain 3">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Rick">Rick</th>
-          <td headers="role Rick">Business Analyst</td>
-          <td headers="figma Rick">Yes</td>
-          <td headers="team Rick">DOC</td>
+          <th scope="row" id="4">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row4">
+                <label class="custom-control-label" for="row4"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 4">Data Header</td>
+          <td headers="plain 4">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Kevin">Kevin</th>
-          <td headers="role Kevin">Product Owner</td>
-          <td headers="figma Kevin">No</td>
-          <td headers="team Kevin">OJJ</td>
+          <th scope="row" id="5">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row5">
+                <label class="custom-control-label" for="row5"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 5">Data Header</td>
+          <td headers="plain 5">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="José">José</th>
-          <td headers="role José">Tester</td>
-          <td headers="figma José">No</td>
-          <td headers="team José">OMV</td>
+          <th scope="row" id="6">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row6">
+                <label class="custom-control-label" for="row6"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 6">Data Header</td>
+          <td headers="plain 6">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Bob">Bob</th>
-          <td headers="role Bob">Business Analyst</td>
-          <td headers="figma Bob">Yes</td>
-          <td headers="team Bob">OMV</td>
+          <th scope="row" id="7">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row7">
+                <label class="custom-control-label" for="row7"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 7">Data Header</td>
+          <td headers="plain 7">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Jane">Jane</th>
-          <td headers="role Jane">Database Administrator</td>
-          <td headers="figma Jane">No</td>
-          <td headers="team Jane">DOC</td>
+          <th scope="row" id="8">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row8">
+                <label class="custom-control-label" for="row8"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 8">Data Header</td>
+          <td headers="plain 8">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Todd">Todd</th>
-          <td headers="role Todd">Developer</td>
-          <td headers="figma Todd">No</td>
-          <td headers="team Todd">DOC</td>
+          <th scope="row" id="9">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row9">
+                <label class="custom-control-label" for="row9"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 9">Data Header</td>
+          <td headers="plain 9">Data Value</td>
         </tr>
         <tr>
-          <th scope="row" id="Frank">Frank</th>
-          <td headers="role Frank">Developer</td>
-          <td headers="figma Frank">No</td>
-          <td headers="team Frank">OTS</td>
+          <th scope="row" id="10">
+            <div class="form-group mb-0">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="row10">
+                <label class="custom-control-label" for="row10"></label>
+              </div>
+            </div>
+          </th>
+          <td headers="sort 10">Data Header</td>
+          <td headers="plain 10">Data Value</td>
         </tr>
       </tbody>
     </table>
     <div class="row justify-content-center align-items-md-end mt-6">
-      <div class="col text-center text-lg-right">
+      <div class="col-md text-center text-lg-right">
         <form action="" class="">
           <label class="d-none" aria-hidden="false" for="NumberItemsToShow">Show how many?</label>
-          <select class="custom-select mb-4 mr-md-4 mb-lg-0" id="NumberItemsToShow" style="height:38px;">
+          <select class="custom-select mb-4 mr-md-4 mb-lg-0" id="NumberItemsToShow" style="height:38px; width:unset;">
             <option selected>Show 10 per page</option>
             <option value="1">Show 25 per page</option>
             <option value="2">Show 50 per page</option>
@@ -504,7 +562,7 @@ eleventyExcludeFromCollections: true
           </select>
         </form>
       </div>
-      <div class="col-auto">
+      <div class="col-md-auto">
         <nav class="" aria-label="Page navigation example">
           <ul class="pagination justify-content-center mr-lg-4 mb-lg-0">
             <li class="page-item">
@@ -535,7 +593,7 @@ eleventyExcludeFromCollections: true
           </ul>
         </nav>
       </div>
-      <div class="col text-center text-lg-left">
+      <div class="col-md text-center text-lg-left">
         <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none"> <strong>X</strong> of <strong>Y</strong>
           items.</p>
       </div>
