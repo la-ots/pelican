@@ -495,7 +495,7 @@ eleventyExcludeFromCollections: true
       </tbody>
     </table>
     <div class="row justify-content-center align-items-md-end mt-6">
-      <div class="col-md-3 text-center text-lg-right">
+      <div class="col text-center text-lg-right">
         <form action="" class="">
           <label class="d-none" aria-hidden="false" for="NumberItemsToShow">Show how many?</label>
           <select class="custom-select mb-4 mr-md-4 mb-lg-0" id="NumberItemsToShow" style="height:38px;">
@@ -506,7 +506,7 @@ eleventyExcludeFromCollections: true
           </select>
         </form>
       </div>
-      <div class="col-md-6">
+      <div class="col-auto">
         <nav class="" aria-label="Page navigation example">
           <ul class="pagination justify-content-center mr-lg-4 mb-lg-0">
             <li class="page-item">
@@ -537,7 +537,7 @@ eleventyExcludeFromCollections: true
           </ul>
         </nav>
       </div>
-      <div class="col-md-3 text-center text-lg-left">
+      <div class="col text-center text-lg-left">
         <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none"> <strong>X</strong> of <strong>Y</strong>
           items.</p>
       </div>
