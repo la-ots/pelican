@@ -222,6 +222,7 @@ eleventyExcludeFromCollections: true
         </div>
 			</div>
       <div class="col-3">
+        <label aria-hidden="true"><span class="fas invisible" aria-hidden="true"></span></label>
         <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" title="Tooltip">
           <span class="fas fa-question"></span>
         </button>
@@ -253,6 +254,7 @@ eleventyExcludeFromCollections: true
         </div>
       </div>
       <div class="col-3">
+        <label aria-hidden="true"><span class="fas invisible" aria-hidden="true"></span></label>
         <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">?</button>
       </div>
     </div>
