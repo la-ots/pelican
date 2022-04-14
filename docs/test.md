@@ -651,7 +651,7 @@ eleventyExcludeFromCollections: true
           <details id="toc" open="">
             <summary class="summary font-weight-bold">On this page:</summary>
             <div class="mt-2">
-              <nav class="toc">
+              <nav class="guide-toc">
                 <ol>
                   <li class="mt-1"><a href="#">Heading X</a>
                   </li>
@@ -894,14 +894,14 @@ eleventyExcludeFromCollections: true
 <!-- based on 'markup/feature-cta-double.njk' -->
 <div class="feature-cta-double">
   <div class="container">
-    <div class="row align-items-end">
+    <div class="row align-items-center">
       <div class="col-md-6 col-lg-5">
         <h2 class="feature-big-text">Big Text</h2>
         <p class="feature-small-text">This is smaller text which explains this block. This is smaller text which explains this block.</p>
       </div>
       <div class="col-md-6 offset-lg-1 text-center">
-        <a href="#" class="btn btn-white d-block d-md-inline mb-4 mb-md-0">Button <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
-        <a href="#" class="btn btn-white d-block d-md-inline">Button <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
+        <a href="#" class="btn btn-white btn-lg d-block d-md-inline mb-4 mb-md-0">Button <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
+        <a href="#" class="btn btn-white btn-lg d-block d-md-inline">Button <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
       </div>
     </div>
   </div>
@@ -909,35 +909,37 @@ eleventyExcludeFromCollections: true
 
 <!-- based on 'markup/feature-set.njk' -->
 <div class="content-container">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12">
+    <div class="container-fluid">
+      <div class="row justify-center-content">
+        <div class="col offset-lg-1">
           <h2 class="feature-big-text">Set Name</h2>
           <p class="feature-lead-text">This guide’s focus is to offer clear guidance on how to build reliable, predicatable, and reusable components for use in Louisiana’s digital products. </p>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-10 col-md-6">
+      <div class="row justify-center-content">
+        <div class="col-10 col-md-6 col-lg-3 offset-lg-1">
           <hr class="minor my-8">
-          <p class="feature-lead-icon">
+          <p class="h5 feature-lead-icon">
             <span class="fas fa-info-circle"></span>
           </p>
-          <p class="feature-small-text">This is smaller text which explains this block.</p>
+          <p class="feature-small-text">This guide aims to create a shared vocabulary between designers, developers, and other stake holders.</p>
           <a href="#" class="btn btn-ui-priority">
             Button
             <span class="fas fa-arrow-right"></span>
           </a>
         </div>
-        <div class="col-10 col-md-6">
+        <div class="col-10 col-md-6 col-lg-3 offset-lg-3">
           <hr class="minor my-8">
-          <p class="feature-lead-icon">
+          <p class="h5 feature-lead-icon">
             <span class="fas fa-info-circle"></span>
           </p>
-          <p class="feature-small-text">This is smaller text which explains this block.</p>
+          <p class="feature-small-text">These include website layouts, internal software development practices, visual design, and common usage patterns. </p>
           <a href="#" class="btn btn-ui-priority">
             Button
             <span class="fas fa-arrow-right"></span>
           </a>
+        </div>
+        <div class="col-lg-2">
         </div>
       </div>
     </div>
@@ -950,11 +952,11 @@ eleventyExcludeFromCollections: true
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-10 col-md-7 col-lg-6">
-        <h2 class="hero-big-text">Big text.</h2>
+        <h2 class="hero-big-text">Big Text</h2>
         <p class="hero-small-text">This is smaller text which explains this block. This is smaller text which explains this block.</p>
       </div>
       <div class="col-10 col-md-7 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-        <a href="/get-started/" class="btn btn-outline-primary btn-lg">Button</a>
+        <a href="/get-started/" class="btn btn-outline-primary btn-lg py-3 px-10">Button</a>
       </div>
     </div>
   </div>
@@ -964,7 +966,7 @@ eleventyExcludeFromCollections: true
 <div class="hero-textbox-over-photo" 
   style="background-image:url('/img/photos/pexels-photo-275030.jpeg');">
   <div class="overlay" style=""></div>
-  <div class="hero-textbox">
+  <div class="hero-textbox" style="width:30%;">
     <h2 class="hero-big-text">Big text.</h2>
     <p class="hero-small-text">This is smaller text which explains this block. This is smaller text which explains this block.</p>
     <a href="#" class="btn btn-white">Button</a>
@@ -1002,10 +1004,10 @@ eleventyExcludeFromCollections: true
     <div class="col-lg-6 half-right ">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-10 col-lg-8">
+          <div class="col-10 col-lg-5">
             <h2 class="hero-big-text">Big text.</h2>
             <p class="hero-small-text">This is smaller text which explains this block. This is smaller text which explains this block.</p>
-            <a href="/introduction" class="btn btn-white btn-lg">Button</a>
+            <a href="/introduction" class="btn btn-white btn-lg btn-block">Button</a>
           </div>
         </div>
       </div>

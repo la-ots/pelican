@@ -8,10 +8,10 @@ layout: base.njk
   <div id="wrapper-main" class="wrapper-main">
     <div class="page-content d-flex flex-column">
       {% include "header.njk" %}
-      <div class="row" style="position:fixed; width:100%; top:0; left:0;">
+      <div class="row" style="position:fixed; width:100%; top:0; left:0; z-index:900; pointer-events: none;">
         <div class="col">
         </div>
-        <div class="col-auto mt-4 mr-2">
+        <div class="col-auto mt-4 mr-2" style="pointer-events: auto;">
           {% include 'markup/toast-info.njk' %}
           {% include 'markup/toast-danger.njk' %}
           {% include 'markup/toast-success.njk' %}
