@@ -4,8 +4,6 @@ layout: test
 eleventyExcludeFromCollections: true
 ---
 
-
-
 <!-- based on 'markup/breadcrumbs.njk' -->
 <nav class="breadcrumb-wrapper" aria-label="breadcrumbs" class="breadcrumb-wrapper">
   <ol class="breadcrumb">
@@ -65,7 +63,7 @@ eleventyExcludeFromCollections: true
       <div class="col-12 d-lg-flex justify-content-lg-between align-items-center">
         <div class="mb-2 mb-lg-0">
           <h2 class="page-title-text">
-            <span class="icon fas fa-home" aria-hidden="true"></span>
+            <span class="icon fas fa-tachometer-alt" aria-hidden="true"></span>
             Page Title
             <span class="badge badge-primary">Badge</span>
             <span class="badge badge-success">Badge</span>
@@ -79,7 +77,7 @@ eleventyExcludeFromCollections: true
         </div>
         <div>
           <a href="https://google.com" class="btn btn-primary btn-shadow">
-            <span class="fas fa-bolt" aria-hidden="true"></span>
+            <span class="fas fa-plus" aria-hidden="true"></span>
             Do This
           </a>
         </div>
@@ -161,7 +159,7 @@ eleventyExcludeFromCollections: true
     <div class="row">
 			<div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Label</label>
+          <label for="inputTextBox199"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
@@ -174,7 +172,7 @@ eleventyExcludeFromCollections: true
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Label</label>
+          <label for="inputTextBox199"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
@@ -184,21 +182,21 @@ eleventyExcludeFromCollections: true
     <div class="row">
 			<div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Label</label>
+          <label for="inputTextBox199"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Label</label>
+          <label for="inputTextBox199"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="selectChoices">Label</label>
+          <label for="selectChoices"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <select class="custom-select" id="selectChoices">
             <option selected>&mdash; Select &mdash;</option>
             <option value="1">1 (One)</option>
@@ -211,14 +209,14 @@ eleventyExcludeFromCollections: true
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Label</label>
+          <label for="inputTextBox199"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Label</label>
+          <label for="inputTextBox199"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
@@ -246,7 +244,7 @@ eleventyExcludeFromCollections: true
     <div class="row">
       <div class="col-3">
         <div class="form-group">
-          <label for="customFile" aria-hidden="true">Label</label>
+          <label for="customFile" aria-hidden="true"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <div class="custom-file">
             <input type="file" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Choose file</label>
@@ -282,7 +280,7 @@ eleventyExcludeFromCollections: true
         </div>
 			</div>
       <div class="col-3">
-        <p class="label">Label</p>
+        <p class="label"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</p>
         <div class="form-group">
           <div class="custom-control custom-radio">
             <input type="radio" class="custom-control-input" id="radioValue1" name="radioChoice" checked>
@@ -322,7 +320,7 @@ eleventyExcludeFromCollections: true
     <div class="row">
 			<div class="col-3">
         <div class="form-group">
-          <p class="label">Which will you choose?</p>
+          <p class="label"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Which will you choose?</p>
           <div class="form-check toggle-token">
             <input class="form-check-input" type="radio" value="" name="exclusiveChoice01" id="toggleTokenField11" value="option1">
             <label class="form-check-label" for="toggleTokenField11">
@@ -343,7 +341,7 @@ eleventyExcludeFromCollections: true
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <p class="label">Which will you choose?</p>
+          <p class="label"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Which will you choose?</p>
           <div class="form-check toggle-token">
             <input class="form-check-input" type="checkbox" value="" id="toggleTokenField01">
             <label class="form-check-label" for="toggleTokenField01">
@@ -367,7 +365,7 @@ eleventyExcludeFromCollections: true
     <div class="row">
       <div class="col-6">
         <div class="form-group">
-          <label for="textarea1" class="label">Label</label>
+          <label for="textarea1" class="label"><span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span> Label</label>
           <textarea class="form-control" id="textarea1" rows="5"></textarea>
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
