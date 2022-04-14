@@ -300,19 +300,19 @@ eleventyExcludeFromCollections: true
 			</div>
       <div class="col-3">
         <p class="label">Label</p>
-        <div class="custom-control custom-control-inline custom-switch">
+        <div class="custom-control custom-control-inline custom-switch" style="width:100%;">
           <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="true">
           <label class="custom-control-label" for="customSwitch1">Value</label>
         </div>
-        <div class="custom-control custom-control-inline custom-switch">
+        <div class="custom-control custom-control-inline custom-switch" style="width:100%;">
           <input type="checkbox" class="custom-control-input" id="customSwitch2">
           <label class="custom-control-label" for="customSwitch2">Off / No</label>
         </div>
-        <div class="custom-control custom-control-inline custom-switch">
+        <div class="custom-control custom-control-inline custom-switch" style="width:100%;">
           <input type="checkbox" class="custom-control-input" id="customSwitch3" checked="true" disabled>
           <label class="custom-control-label" for="customSwitch3">Disabled, On</label>
         </div>
-        <div class="custom-control custom-control-inline custom-switch">
+        <div class="custom-control custom-control-inline custom-switch" style="width:100%;">
           <input type="checkbox" class="custom-control-input" disabled id="customSwitch4" disabled>
           <label class="custom-control-label" for="customSwitch4">Disabled, Off / No</label>
         </div>
