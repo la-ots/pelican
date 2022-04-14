@@ -4,9 +4,7 @@ layout: test
 eleventyExcludeFromCollections: true
 ---
 
-{% include 'markup/toast-info.njk' %}
-{% include 'markup/toast-danger.njk' %}
-{% include 'markup/toast-success.njk' %}
+
 
 <!-- based on 'markup/breadcrumbs.njk' -->
 <nav class="breadcrumb-wrapper" aria-label="breadcrumbs" class="breadcrumb-wrapper">
@@ -155,15 +153,15 @@ eleventyExcludeFromCollections: true
 <div class="content-container">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12">
-				<h2 class="legend h2 text-primary">Form Section</h2>
-				<p class="mb-0">Sentence about Form Section goes here. It can help describe this part of the form or explain special instructions</p>
+			<div class="col-4">
+				<h2 class="legend h2 text-primary">Heading</h2>
+				<p class="font-weight-bold mb-0">Use the minor dividers to signal tight relations among form elements when necessary.</p>
 			</div>
 		</div>
     <div class="row">
 			<div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Input Text Label</label>
+          <label for="inputTextBox199">Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
@@ -176,7 +174,7 @@ eleventyExcludeFromCollections: true
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Input Text Label</label>
+          <label for="inputTextBox199">Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
@@ -186,23 +184,23 @@ eleventyExcludeFromCollections: true
     <div class="row">
 			<div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Input Text Label</label>
+          <label for="inputTextBox199">Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Input Text Label</label>
+          <label for="inputTextBox199">Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="selectChoices">Label for Select</label>
+          <label for="selectChoices">Label</label>
           <select class="custom-select" id="selectChoices">
-            <option selected>&mdash; Select a Numeral &mdash;</option>
+            <option selected>&mdash; Select &mdash;</option>
             <option value="1">1 (One)</option>
             <option value="2">2 (Two)</option>
             <option value="3">3 (Three)</option>
@@ -213,14 +211,14 @@ eleventyExcludeFromCollections: true
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Input Text Label</label>
+          <label for="inputTextBox199">Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
 			</div>
       <div class="col-3">
         <div class="form-group">
-          <label for="inputTextBox199">Input Text Label</label>
+          <label for="inputTextBox199">Label</label>
           <input type="text" class="form-control" id="inputTextBox199">
           <small>This accepts any kind of alphanumeric characters.</small>
         </div>
@@ -240,15 +238,15 @@ eleventyExcludeFromCollections: true
 <div class="content-container">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12">
-				<h2 class="legend h2 text-primary">Form Section</h2>
-				<p class="mb-0">Sentence about Form Section goes here. It can help describe this part of the form or explain special instructions</p>
+			<div class="col-4">
+				<h2 class="legend h2 text-primary">Heading</h2>
+				<p class="mb-0">Form portions 1 and 2 belong together in the same large data set being collected, but each section has fields more tightly related to each other than other members of the form. Let’s ease the reading burden by breaking the form into visually-associated chunks.</p>
 			</div>
 		</div>
     <div class="row">
       <div class="col-3">
         <div class="form-group">
-          <label for="customFile" aria-hidden="true">Select</label>
+          <label for="customFile" aria-hidden="true">Label</label>
           <div class="custom-file">
             <input type="file" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Choose file</label>
@@ -264,53 +262,59 @@ eleventyExcludeFromCollections: true
     <div class="row">
 			<div class="col-3">
         <div class="form-group">
-          <p class="label">Group of Checkboxes</p>
+          <p class="label">Label</p>
           <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="checkboxValue1">
-            <label class="custom-control-label" for="checkboxValue1">Value 1</label>
+            <input type="checkbox" class="custom-control-input" id="checkboxValue1" checked>
+            <label class="custom-control-label" for="checkboxValue1">Value</label>
           </div>
           <div class="custom-control custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="checkboxValue2" checked>
-            <label class="custom-control-label" for="checkboxValue2">Value 2</label>
+            <input type="checkbox" class="custom-control-input" id="checkboxValue2">
+            <label class="custom-control-label" for="checkboxValue2">Unchecked</label>
           </div>
           <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="checkboxValue5" disabled>
-            <label class="custom-control-label" for="checkboxValue5">Value 5</label>
+            <label class="custom-control-label" for="checkboxValue5">Disabled, Unchecked</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="checkboxValue5" disabled>
+            <label class="custom-control-label" for="checkboxValue5">Disabled, Checked</label>
           </div>
         </div>
 			</div>
       <div class="col-3">
+        <p class="label">Label</p>
         <div class="form-group">
           <div class="custom-control custom-radio">
-            <input type="radio" class="custom-control-input" id="radioValue1" name="radioChoice">
-            <label class="custom-control-label" for="radioValue1">Value 1</label>
+            <input type="radio" class="custom-control-input" id="radioValue1" name="radioChoice" checked>
+            <label class="custom-control-label" for="radioValue1">Value</label>
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" class="custom-control-input" id="radioValue2" name="radioChoice">
-            <label class="custom-control-label" for="radioValue2">Value 2</label>
+            <label class="custom-control-label" for="radioValue2">Unticked</label>
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" class="custom-control-input" id="radioValue3" name="radioChoice" disabled>
-            <label class="custom-control-label" for="radioValue3">Value 3</label>
+            <label class="custom-control-label" for="radioValue3">Disabled, Ticked</label>
           </div>
         </div>
 			</div>
       <div class="col-3">
+        <p class="label">Label</p>
         <div class="custom-control custom-control-inline custom-switch">
           <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="true">
-          <label class="custom-control-label" for="customSwitch1">Value 1</label>
+          <label class="custom-control-label" for="customSwitch1">Value</label>
         </div>
         <div class="custom-control custom-control-inline custom-switch">
           <input type="checkbox" class="custom-control-input" id="customSwitch2">
-          <label class="custom-control-label" for="customSwitch2">Value 2</label>
+          <label class="custom-control-label" for="customSwitch2">Off / No</label>
         </div>
         <div class="custom-control custom-control-inline custom-switch">
           <input type="checkbox" class="custom-control-input" id="customSwitch3" checked="true" disabled>
-          <label class="custom-control-label" for="customSwitch3">Value 3</label>
+          <label class="custom-control-label" for="customSwitch3">Disabled, On</label>
         </div>
         <div class="custom-control custom-control-inline custom-switch">
           <input type="checkbox" class="custom-control-input" disabled id="customSwitch4" disabled>
-          <label class="custom-control-label" for="customSwitch4">Value 4</label>
+          <label class="custom-control-label" for="customSwitch4">Disabled, Off / No</label>
         </div>
 			</div>
 		</div>
@@ -324,7 +328,7 @@ eleventyExcludeFromCollections: true
             <label class="form-check-label" for="toggleTokenField11">
               <span class="fas fa-circle"></span>
               <span class="fas fa-dot-circle"></span>
-              Exclusive Choice 1
+              Value
             </label>
           </div>
           <div class="form-check toggle-token ml-4">
@@ -332,15 +336,7 @@ eleventyExcludeFromCollections: true
             <label class="form-check-label" for="toggleTokenField12">
               <span class="fas fa-circle" aria-hidden="true"></span>
               <span class="fas fa-dot-circle" aria-hidden="true"></span>
-              Exclusive Choice 2
-            </label>
-          </div>
-          <div class="form-check toggle-token">
-            <input class="form-check-input" type="radio" value="" name="exclusiveChoice01" id="toggleTokenField13" value="option3" disabled>
-            <label class="form-check-label" for="toggleTokenField13">
-              <span class="fas fa-circle"></span>
-              <span class="fas fa-dot-circle"></span>
-              Exclusive Choice 3
+              Value
             </label>
           </div>
         </div>
@@ -353,7 +349,7 @@ eleventyExcludeFromCollections: true
             <label class="form-check-label" for="toggleTokenField01">
               <span class="fas fa-square" aria-hidden="true"></span>
               <span class="fas fa-check-square" aria-hidden="true"></span>
-              Multi Choice 1
+              Value
             </label>
           </div>
           <div class="form-check toggle-token ml-4">
@@ -361,15 +357,7 @@ eleventyExcludeFromCollections: true
             <label class="form-check-label" for="toggleTokenField02">
               <span class="fas fa-square " aria-hidden="true"></span>
               <span class="fas fa-check-square" aria-hidden="true"></span>
-              Multi Choice 2
-            </label>
-          </div>
-          <div class="form-check toggle-token">
-            <input class="form-check-input" type="checkbox" value="" id="toggleTokenField03" checked disabled>
-            <label class="form-check-label" for="toggleTokenField03">
-              <span class="fas fa-square" aria-hidden="true"></span>
-              <span class="fas fa-check-square" aria-hidden="true"></span>
-              Multi Choice 3
+              Value
             </label>
           </div>
         </div>
@@ -379,8 +367,9 @@ eleventyExcludeFromCollections: true
     <div class="row">
       <div class="col-6">
         <div class="form-group">
-          <label for="textarea1" class="label">Textarea</label>
+          <label for="textarea1" class="label">Label</label>
           <textarea class="form-control" id="textarea1" rows="5"></textarea>
+          <small>This accepts any kind of alphanumeric characters.</small>
         </div>
       </div>
     </div>
@@ -389,11 +378,35 @@ eleventyExcludeFromCollections: true
 
 <hr class="major">
 
-{% include 'markup/input-text.njk' %}
-{% include 'markup/input-text.njk' %}
-<!-- based on 'markup/pagination.njk' / 'markup/table.njk' -->
+<!-- based on 'markup/input-text.njk' / 'markup/select.njk' / 'markup/pagination.njk' / 'markup/table.njk' -->
 <div class="content-container">
   <div class="container-fluid">
+    <div class="row">
+			<div class="col-12">
+				<h2 class="legend h2 text-primary">Heading</h2>
+			</div>
+		</div>
+    <div class="row">
+			<div class="col-3">
+        <div class="form-group">
+          <label for="inputTextBox199">Filter By Something</label>
+          <input type="text" class="form-control" id="inputTextBox199">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
+			</div>
+      <div class="col-3">
+        <div class="form-group">
+          <label for="selectChoices">Label</label>
+          <select class="custom-select" id="selectChoices">
+            <option selected>&mdash; Select &mdash;</option>
+            <option value="1">1 (One)</option>
+            <option value="2">2 (Two)</option>
+            <option value="3">3 (Three)</option>
+          </select>
+          <small>Use radios instead if possible. But, no more than 7 - 15 options otherwise.</small>
+        </div>
+			</div>
+		</div>
     <table class="table table-striped">
       <caption class="d-none">Table caption describes the data presented.</caption>
       <thead>
@@ -482,7 +495,7 @@ eleventyExcludeFromCollections: true
       </tbody>
     </table>
     <div class="row justify-content-center align-items-md-end mt-6">
-      <div class="col-md-3">
+      <div class="col-md-3 text-center text-lg-right">
         <form action="" class="">
           <label class="d-none" aria-hidden="false" for="NumberItemsToShow">Show how many?</label>
           <select class="custom-select mb-4 mr-md-4 mb-lg-0" id="NumberItemsToShow" style="height:38px;">
@@ -524,7 +537,7 @@ eleventyExcludeFromCollections: true
           </ul>
         </nav>
       </div>
-      <div class="col-md-3 text-center text-lg-right">
+      <div class="col-md-3 text-center text-lg-left">
         <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none"> <strong>X</strong> of <strong>Y</strong>
           items.</p>
       </div>
@@ -539,7 +552,31 @@ eleventyExcludeFromCollections: true
 <div class="content-container">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
+      <div class="col-9">
+        <h1>Heading 1</h1>
+        <p class="h1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.</p>
+        <h2>Heading 2</h2>
+        <p class="h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.</p>
+        <h3>Heading 3</h3>
+        <p class="h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.</p>
+        <h4>Heading 4</h4>
+        <p class="h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.</p>
+        <h5>Heading 5</h5>
+        <p class="h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.</p>
+        <h6>Heading 6</h6>
+        <p class="h6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.</p>
+        <p class="lead">This is a lead sentence.</p>
+        <p class="lead font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.
+        </p>
+        <p>
+        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.
+        </small>
+        </p>
+        <p>
+        <small class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius blandit nisl. Nulla non magna nec risus vehicula aliquet. Ut feugiat sem ut euismod tempus. Quisque tincidunt finibus felis eu tempus. Sed mauris risus, elementum eleifend leo eu, accumsan efficitur lacus. Maecenas quis massa a nisi varius pulvinar. Cras rhoncus eu mauris vel vehicula. Vivamus blandit, tellus sit amet consectetur luctus, nisl neque viverra urna, eu finibus urna magna ac dui. Nulla nulla est, posuere sed sem at, eleifend pulvinar nunc. In tempor urna id massa eleifend hendrerit.
+        </small>
+        </p>
+        <hr class="minor">
         <button type="button" class="btn btn-outline-ui">
           <span class="fas fa-print"></span> Print
         </button>
@@ -550,11 +587,65 @@ eleventyExcludeFromCollections: true
           <span class="fas fa-share-alt"></span> Share
         </button>
       </div>
+      <div class="col-3">
+      <div class="card">
+        <div class="card-body">
+          <details id="toc" open="">
+            <summary class="summary font-weight-bold">On this page:</summary>
+            <div class="mt-2">
+              <nav class="toc">
+                <ol>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                  <li class="mt-1"><a href="#">Heading X</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </details>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 </div>
 
-{% include 'markup/button-container.njk' %}
+<!-- based on 'markup/form-section-header.njk' / 'markup/button-container.njk' -->
+<div class="btn-container">
+  <div class="container-fluid">
+    <div class="row">
+			<div class="col-12">
+				<h2 class="legend h2 text-primary">Modal and Toasts</h2>
+			</div>
+		</div>
+    <div class="row">
+      <div class="col-12">
+        <button type="button" class="btn btn-primary">
+          Launch Modal
+        </button>
+        <button type="button" class="btn btn-info">
+          Launch Info Toast
+        </button>
+        <button type="button" class="btn btn-danger"> 
+          Launch Danger Toast
+        </button>
+        <button type="button" class="btn btn-success">
+          Launch Success Toast
+        </button>
+      </div>
+    </div>
+  </div>	
+</div>
 
 <hr class="major">
 
@@ -760,7 +851,7 @@ eleventyExcludeFromCollections: true
 
 <!-- based on 'markup/feature-set.njk' -->
 <div class="content-container">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
           <h2 class="feature-big-text">Set Name</h2>
