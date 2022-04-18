@@ -136,7 +136,9 @@
   }
 }
 .feature-set {
-  @extend .p-6;
+  .content-container {
+    @extend .my-0;
+  }
   .feature-big-text {
     @extend .h2;
     color: $primary;
