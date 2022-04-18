@@ -4,6 +4,32 @@ layout: test
 eleventyExcludeFromCollections: true
 ---
 
+<!-- this is the actual modal markup -->
+<div class="modal fade" id="ModalID" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="ModalTitle" aria-hidden="true" aria-describedby="ModalTitle">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalTitle">
+          <span class="fas fa-bell text-primary-10"></span> Modal Title
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><strong>For strong text, use this markup!</strong></p>
+        <p class="mb-0">For regular text, use this markup. But you can still insert <span class="strong">strong text</span> in this. Now, ready for the question?</p>
+      </div>
+      <div class="modal-footer">
+        <form method="post">
+          <button type="button" class="btn btn-primary mb-4 mb-md-0 mb-lg-0" id="logout_url">Main Choice</button>
+          <button type="button" class="btn btn-ui" id="resetTimer" data-dismiss="modal">Choice</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- based on 'markup/breadcrumbs.njk' -->
 <nav class="breadcrumb-wrapper" aria-label="breadcrumbs" class="breadcrumb-wrapper">
   <ol class="breadcrumb">
@@ -688,9 +714,7 @@ eleventyExcludeFromCollections: true
 		</div>
     <div class="row">
       <div class="col-12">
-        <button type="button" class="btn btn-primary">
-          Launch Modal
-        </button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalID">Launch Modal</button>
         <button type="button" class="btn btn-info">
           Launch Info Toast
         </button>
