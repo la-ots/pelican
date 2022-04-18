@@ -1,0 +1,34 @@
+---
+layout: base.njk
+---
+
+<!-- this style is only for the test page -->
+<style scoped>
+  .toast         {
+    position: fixed;
+    right: 10px;
+    z-index: 3000;
+    width: 300px;
+  }
+  .toast-info    {
+    top: 20px;
+  }
+  .toast-danger  {
+    top: 110px;
+  }
+  .toast-success {
+    top: 200px;
+  }
+</style>
+
+{% include 'markup/skip-link.njk' %}
+<div class="site-container">
+  {% include "sidebar.njk" %}
+  {% include "header.njk" %}
+  <main id="main" class="site-main">
+    {% include "markup/breadcrumbs.njk" %}
+    {{ content | safe }}
+  </main>
+  {% include "markup/footer-utility.njk" %}
+</div>
+{% include 'markup/button-back-to-top.njk' %}
