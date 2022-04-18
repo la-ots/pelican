@@ -1,6 +1,6 @@
 // Put focus states into their own SCSS file
 .skip-to-main, li a, .summary, p a, .btn, .btn-link, .badge.chip, .nav-pills .nav-link
-.nav-link, th a, .form-control, .custom-select {
+.nav-link, th a, .form-control, .custom-select, .form-select, .share-social .btn {
   &:focus {
    @include tab-focus; 
   }
@@ -141,3 +141,9 @@
       
   }
 }
+.form-select {
+  &:focus {
+    border-color: unset;
+  }
+}
+
