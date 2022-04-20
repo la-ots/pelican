@@ -11,25 +11,26 @@ footer, .footer {
   }
   &.footer-basic   {
     background-color: $black;
-    @extend .mt-12;
+    margin-top: 3rem;
     .links-wrapper {
-      @extend .d-flex ;
-      @extend .flex-wrap ;
-      @extend .justify-content-center ;
-      @extend .py-4;
+      @extend .d-flex;
+      @extend .flex-wrap;
+      @extend .justify-content-center;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
       .btn-link {
         color: $white;
-        @extend .border-0 ;
+        @extend .border-0;
         @extend .rounded-0;
       }
     }
   }
   &.footer-utility {
     background-color: $primary;
-    @extend .pt-4 ;
-    @extend .mt-auto;
+    padding-top: 1rem;
+    margin-top: auto;
     .brand-logo {
-      @extend .mb-0;
+      margin-bottom: 0;
     }
     hr.major {
       background-color: $primary-90;
