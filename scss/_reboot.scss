@@ -1,8 +1,8 @@
 html,
 body {
   scroll-behavior: smooth;
-  @include bg-texture();
   min-height: 100vh;
+  @include bg-texture();
 }
 
 body {
@@ -56,10 +56,11 @@ small,
 
 hr,
 .hr {
+  @extend .w-100;
   background-color: $primary-10;
   border: 0;
-  @extend .mx-0;
-  @extend .w-100;
+  margin-left: 0;
+  margin-right: 0;
 
   &.major {
     height: $spacer * 0.25;
