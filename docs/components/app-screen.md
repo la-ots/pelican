@@ -35,54 +35,15 @@ Everything considered part of the App Screen is placed into the `id=page-wrapper
 
 ## Sidebar with Navigation
 
-The first child element is the Sidebar with Navigation. This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
+The first child element of the `id=page-wrapper` is the [Sidebar with Navigation](/components/sidebar-nav/). This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
 
-- Current pages get the class `active` added to the class list of the `li` and `a` which hold the link.
+- Used in the App Screen.
+- Presents only two levels of navigation.
+- Current pages should get the class `active` added to the class list of the `li` and `a` which hold the link.
 - Current child pages also get the eye icon, <span class="fas fa-eye" aria-hidden="true"></span>. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 
 ```html
-<nav id="sidebar" class="sidebar-wrapper d-print-none">
-  <div class="sidebar-content">
-    <div class="sidebar-brand">
-      <a href="javascript://" class="mr-auto">Digital Product Name</a>
-    </div>
-    <div class="sidebar-menu text-white">
-      <ul>
-        <!-- this is a Top Level navi item without a child menu -->
-        <li class="sidebar-item border-top border-black">
-          <div class="sidebar-dropdown-header">
-            <a class="sidebar-nav-item " href="#">
-              <span>Top Level Nav Item</span>
-            </a>
-          </div>
-        </li>
-        <!-- this is a Top Level navi item with a child menu -->
-        <li class="sidebar-item">
-          <div class="sidebar-dropdown-header">
-            <a class="sidebar-nav-item" href="#">
-              <span>Top Level Nav Item</span>
-            </a>
-            <a class="sidebar-dropdown-header-expand" href="javascript://" role="button">
-              <span class="fas fa-fw fa-angle-right" aria-hidden="true"></span>
-            </a>
-          </div>
-          <div class="sidebar-submenu">
-            <ul>
-              <li class="sidebar-item active">
-                <a class="sidebar-nav-item active" href="#">
-                  <span class="fas fa-fw fa-eye" aria-hidden="true"></span>
-                  <span>Child Level Nav Item</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="sidebar-footer">
-  </div>
-</nav>
+{% include 'markup/sidebar-nav.njk' %}
 ```
 
 ## Wrapper Main and Page Content
