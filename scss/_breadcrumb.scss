@@ -4,7 +4,7 @@
   border-bottom: 1px solid $primary-10;
 }
 .breadcrumb {
-  @extend .mb-0;
+  margin-bottom: 0;
   @extend .rounded-0;
   @extend .border-0;
   background-color: $white;
