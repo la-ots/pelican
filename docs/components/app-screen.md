@@ -35,8 +35,10 @@ Everything considered part of the App Screen is placed into the `id=site-contain
 
 ## Sidebar with Navigation
 
-The first child element is the Sidebar with Navigation. This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
+The first child element of the `id=site-container` is the [Sidebar with Navigation](/components/sidebar-nav/). This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
 
+- Used in the App Screen.
+- Presents only two levels of navigation.
 - Current pages get the class `active` added to the class list of the `li` and `a` which hold the link.
 - Current child pages also get the eye icon, <span class="fas fa-eye" aria-hidden="true"></span>. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 

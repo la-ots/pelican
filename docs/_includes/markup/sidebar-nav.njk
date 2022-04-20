@@ -1,0 +1,43 @@
+<nav id="site-nav" class="site-nav">
+  <div class="site-nav-content">
+    <div class="site-nav-brand">
+      <a href="/" class="mr-auto">
+        <span class="d-none d-md-inline">Pelican 
+          <span class="visually-hidden">Home</span>
+        </span>
+      </a>
+    </div>
+    <div class="site-nav-menu">
+      <ul>
+        <!-- this is a parent nav item without a child menu -->
+        <li class="site-nav-item">
+          <div class="site-nav-dropdown-header">
+            <a class="site-nav-nav-item" href="/whats-new/">
+              <span>What’s New</span>
+            </a>              
+          </div>
+        </li>
+        <!-- this is a parent nav item with a child menu -->
+        <li class="site-nav-item">
+          <div class="site-nav-dropdown-header">
+            <a class="site-nav-nav-item" href="/introduction/"><span>Introduction</span></a>              
+            <a class="site-nav-dropdown-header-expand" href="javascript://" role="button">
+              <span class="sr-only">Toggle Child Items</span>
+              <span class="fas fa-fw fa-angle-right" aria-hidden="true"></span>
+             </a>
+          </div>
+          <div class="site-nav-submenu">
+            <ul>
+                <li class="site-nav-item">
+                  <a class="site-nav-nav-item" href="/introduction/benefits/">
+                    <span class="fas fa-fw fa-eye invisible"></span>
+                    <span>Benefits</span>
+                  </a>
+                </li>        
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
