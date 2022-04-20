@@ -1,8 +1,8 @@
 .brand-logo {
-  width: 120px;
-  height: 48px;
   @extend .d-flex;
   @extend .align-items-center;
+  width: 120px;
+  height: 48px;
 
   svg {
     .mark,
@@ -31,9 +31,9 @@
 
 .image-credit {
   @extend .small;
-  @extend .mt-1;
-  @extend .mb-0;
   @extend .text-center;
+  margin-top: .25rem;
+  margin-bottom: 0;
 
   a {
     color: inherit;
@@ -41,15 +41,15 @@
 }
 
 .cover-image-pull-quote {
-  color: $primary;
   @extend .lead;
+  color: $primary;
 }
 
 .cover-image-credit {
-  color: $ui;
   @extend .small;
-  @extend .mt-2;
   @extend .opacity-75;
+  color: $ui;
+  margin-top: .5rem;
 
   @include media-breakpoint-up(lg) {
     position: absolute;
@@ -59,6 +59,6 @@
 }
 
 .cover-toc {
-  @extend .p-4;
   @extend .rounded;
+  padding: 1rem;
 }
