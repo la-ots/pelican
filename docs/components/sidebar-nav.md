@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Components
   order: 270
   excerpt: Contains and organizes all of the navigation for your web app.
-  img: /img/illustrations/illus-share-social.svg
+  img: /img/illustrations/illus-sidebar-nav.svg
 ---
 
 ## Best Practice
