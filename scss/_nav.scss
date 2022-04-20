@@ -89,11 +89,12 @@
     }
   }
   .nav-link {
-    @include border-radius($nav-pills-border-radius);
     color: $link-color;
     background-color: $white;
     border: 2px solid $ui;
     transition: $transition-base;
+
+    @include border-radius($nav-pills-border-radius);
 
     &:hover,
     &:active {
@@ -154,59 +155,66 @@
     @extend .navbar-expand-lg;
     .navbar-toggler {
       color: $white;
-      @extend .ml-auto;
+      margin-left: auto;
     }
     .navbar-nav {
-      @extend .ml-auto;
+      margin-left: auto;
     }
     .nav-link {
       color: $white;
     }
     .btn {
       @extend .btn-white;
-      @extend .mt-2 ;
-      @extend .mt-lg-0 ;
-      @extend .ml-lg-2;
+      margin-top: .5rem;
+      @include media-breakpoint-up(lg){
+        margin-top: 0;
+        margin-left: .5rem;
+      }
     }
   }
   &.navbar-search {
     @extend .d-block;
     @extend .navbar-expand-lg;
     .container, .container-fluid {
-      @extend .py-0;
+      padding-top: 0;
+      padding-bottom: 0;
     }
     .navbar-toggler {
       color: $white;
-      @extend .ml-auto;
+      margin-left: auto;
     }
     hr.minor {
       @extend .opacity-25;
     }
     .navbar-collapse {
-      @extend .ml-lg-n2;
+      @include media-breakpoint-up(lg){
+        margin-left: -.5rem;
+      }
     }
     .nav-link {
       color: $white;
     }
     .btn {
-      @extend .mt-2 ;
-      @extend .mt-lg-0 ;
-      @extend .ml-lg-2;
+      margin-top: .5rem;
+      @include media-breakpoint-up(lg) {
+        margin-top: 0;
+        margin-left: .5rem;
+      }
     }
   }
   &.navbar-iconic {
     @extend .navbar-expand-lg;
     .brand-logo {
-      @extend .mb-0;
+      margin-bottom: 0;
     }
     .navbar-toggler {
       color: $white;
-      @extend .ml-auto;
+      margin-left: auto;
     }
     .navbar-icon-links {
       .nav-item {
-        @extend .ml-lg-3;
         @include media-breakpoint-up(lg) {
+          margin-left: .75rem;
           text-align: center;
         }
       }
