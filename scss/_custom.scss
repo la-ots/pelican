@@ -32,14 +32,15 @@
 
 .official-banner {
   @extend .border-bottom;
-  @extend .py-2;
-
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   background-color: $black;
   color: $white;
   border-color: $black !important;
 
   .container-fluid {
-    @extend .py-1;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
   }
 }
 
@@ -82,30 +83,40 @@
 .page-title {
   @extend .shadow-sm;
   background-color: $white;
-  @extend .py-4;
-  @extend .py-lg-16;
-  @extend .mb-4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 .page-title-text {
-  @extend .h2 ;
-  @extend .mb-0;
+  @extend .h2;
+  margin-bottom: 0;
   color: $primary;
   .icon {
     color: $primary-10;
   }
   p {
-    @extend .mb-0;
+    margin-bottom: 0;
   }
 }
 
 .content-container {
   background-color: $white;
-  @extend .py-4;
-  @extend .py-lg-16;
-  @extend .mb-4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   box-shadow: 0 1px 1px 0 fade-out($black, .85);
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .form-fieldset,
@@ -248,12 +259,12 @@
 //this combination does not appear to be in use
 .white-box,
 .form-fieldset {
+  @extend .shadow-sm;
   background-color: $white;
   padding: ($spacer * 1.5) $spacer;
   margin-bottom: $spacer;
   border-bottom: $border-width $border-style $border-color;
   border-radius: $border-radius;
-  @extend .shadow-sm;
 
   @include media-breakpoint-up(xl) {
     padding-right: ($spacer * 4);
@@ -266,8 +277,8 @@
 }
 
 iframe {
-  margin: $spacer 0 ($spacer * 2);
   @extend .position-relative;
+  margin: $spacer 0 ($spacer * 2);
 }
 
 .text-wrap {
@@ -289,7 +300,7 @@ iframe {
   }
   small {
     @extend .d-block;
-    @extend .mb-2;
+    margin-bottom: .5rem;
   }
   .btn {
     @extend .btn-outline-ui-priority;
