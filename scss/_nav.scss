@@ -33,7 +33,7 @@
   border-bottom: $nav-tabs-border-width solid $ui-light;
 
   .nav-item {
-    margin-right: $spacer * 0.5;
+    margin-right: 0.5rem;
     margin-bottom: -$nav-tabs-border-width;
   }
 
@@ -79,13 +79,13 @@
   &:not(.flex-column) {
     .nav-item {
       &:not(:last-of-type) {
-        margin-right: $spacer * 0.5;
+        margin-right: 0.5rem;
       }
     }
   }
   &.flex-column {
     .nav-item {
-      margin-top: $spacer * 0.5;
+      margin-top: 0.5rem;
     }
   }
   .nav-link {

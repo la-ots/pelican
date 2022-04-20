@@ -52,12 +52,12 @@
 }
 
 .btn-container {
-  padding: $spacer * 0.5;
-  margin-top: $spacer;
-  margin-bottom: $spacer;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: $white;
   border: 2px solid $border-color;
-  border-radius: $spacer * 0.5;
+  border-radius: 0.5rem;
   .btn {
     width: 100%;
     &:not(:last-of-type) {
@@ -190,12 +190,12 @@ p a {
   @extend .position-fixed;
   @extend .btn;
   @extend .btn-accent;
-  right: $spacer * 2;
-  bottom: $spacer * 5;
+  right: 2rem;
+  bottom: 5rem;
   z-index: $zindex-scroll-to-top;
 
   @include media-breakpoint-up(md) {
-    bottom: $spacer * 5;
+    bottom: 5rem;
   }
 }
 

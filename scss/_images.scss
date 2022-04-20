@@ -53,8 +53,8 @@
 
   @include media-breakpoint-up(lg) {
     position: absolute;
-    bottom: $spacer;
-    left: $spacer;
+    bottom: 1rem;
+    left: 1rem;
   }
 }
 
