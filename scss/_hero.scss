@@ -9,10 +9,11 @@
 }
 
 .hero-dual-pane {
-  @extend .py-40 ;
-  @extend .position-relative ;
-  @extend .bg-image-position-center ;
+  @extend .position-relative;
+  @extend .bg-image-position-center;
   @extend .bg-image-size-cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   .overlay {
     @extend .position-absolute;
     @extend .opacity-75;
@@ -27,27 +28,27 @@
     @extend .position-relative;
   }
   .logo {
-    @extend .img-fluid ;
-    @extend .mb-4;
+    @extend .img-fluid;
+    margin-bottom: 1rem;
     width: 128px;
   }
   .hero-big-text {
-    @extend .h1 ;
-    color: $white;
-    @extend .font-weight-bold ;
+    @extend .h1;
+    @extend .font-weight-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
+    color: $white;
   }
   .hero-lead-text {
-    @extend .h4 ;
-    color: $white;
+    @extend .h4;
     @extend .text-shadow !optional;
-    @extend .shadow-primary!optional;
+    @extend .shadow-primary !optional;
+    color: $white;
   }
   .hero-small-text {
-    color: $white;
     @extend .text-shadow !optional;
-    @extend .shadow-primary!optional;
+    @extend .shadow-primary !optional;
+    color: $white;
   }
 }
 
@@ -60,7 +61,8 @@
     @extend .bg-image-position-center;
   }
   .half-right {
-    @extend .py-32;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-color: $primary;
     color: $white;
     .row {
@@ -69,7 +71,7 @@
     }
   }
   .hero-big-text {
-    @extend .h2 ;
+    @extend .h2;
     color: $white;
   }
   .hero-small-text {
@@ -84,7 +86,7 @@
   @extend .content-container;
   @extend .shadow-none;
   .hero-big-text {
-    @extend .h2 ;
+    @extend .h2;
     color: $primary;
   }
   .hero-small-text {
@@ -97,54 +99,55 @@
 }
 
 .hero-text-color-toned-photo {
-  @extend .position-relative ;
-  @extend .bg-image-position-center ;
-  @extend .bg-image-size-cover ;
-  @extend .pt-40 ;
-  @extend .pb-10;
+  @extend .position-relative;
+  @extend .bg-image-position-center;
+  @extend .bg-image-size-cover;
+  padding-top: 10rem;
+  padding-bottom: 2.5rem;
   .overlay {
+    @extend .opacity-85;
+    @extend .position-absolute;
     background-color: $accent;
-    @extend .opacity-85 ;
-    @extend .position-absolute ;
     top:0; right:0; bottom:0; left:0;
   }
   .hero-big-text {
     @extend .h2;
     @extend .font-weight-bold;
-    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
+    color: $white;
   }
   .hero-small-text {
-    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
+    color: $white;
   }
 }
 
 .hero-textbox-over-photo {
-  @extend .position-relative ;
-  @extend .d-flex ;
-  @extend .flex-column ;
-  @extend .justify-content-end ;
-  @extend .flex-lg-row ;
-  @extend .bg-image-size-cover ;
-  @extend .position-relative ;
-  @extend .bg-image-position-center ;
-  @extend .py-40;
+  @extend .position-relative;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-end;
+  @extend .flex-lg-row;
+  @extend .bg-image-size-cover;
+  @extend .position-relative;
+  @extend .bg-image-position-center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   .overlay {
+    @extend .position-absolute;
+    @extend .opacity-50;
     background-color: $white;
-    @extend .position-absolute ;
-    @extend .opacity-50 ;
     top:0; right:0; bottom:0; left: 0;
   }
   .hero-textbox {
     background-color: $primary;
-    @extend .p-10;
+    padding: 2.5rem;
   }
   .hero-big-text {
-    @extend .h2 ;
-    @extend .font-weight-bold ;
+    @extend .h2;
+    @extend .font-weight-bold;
     color: $white;
   }
   .hero-small-text {
