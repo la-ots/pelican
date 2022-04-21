@@ -228,65 +228,65 @@ You’ll change background and text colors by using the following classes. Consu
       <tbody>
         <tr>
           <th scope="row" id="Primary">Primary</th>
-          <td headers="primary background-color"><span class="badge badge-pill py-2 px-4 badge-primary">bg-primary</span></td>
+          <td headers="primary background-color"><span class="badge badge-pill py-2 px-3 badge-primary">bg-primary</span></td>
           <td headers="primary background-color-class"><code>bg-primary</code></td>
-          <td headers="primary text-color"><span class="badge badge-pill py-2 px-4 text-primary">text-primary</span></td>
+          <td headers="primary text-color"><span class="badge badge-pill py-2 px-3 text-primary">text-primary</span></td>
           <td headers="primary text-color-class"><code>text-primary</code></td>
         </tr>
         <tr>
           <th scope="row" id="Primary-10">Primary-10</th>
-          <td headers="primary-10 background-color"><span class="badge badge-pill py-2 px-4 badge-primary-10 text-primary">bg-primary-10</span></td>
+          <td headers="primary-10 background-color"><span class="badge badge-pill py-2 px-3 badge-primary-10 text-primary">bg-primary-10</span></td>
           <td headers="primary-10 background-color-class"><code>bg-primary-10</code></td>
-          <td headers="primary-10 text-color"><span class="badge badge-pill py-2 px-4 text-primary-10">text-primary-10</span></td>
+          <td headers="primary-10 text-color"><span class="badge badge-pill py-2 px-3 text-primary-10">text-primary-10</span></td>
           <td headers="primary-10 text-color-class"><code>text-primary-10</code></td>
         </tr>
         <tr>
           <th scope="row" id="Primary-90">Primary-90</th>
-          <td headers="primary-90 background-color"><span class="badge badge-pill py-2 px-4 badge-primary-90">bg-primary-90</span></td>
+          <td headers="primary-90 background-color"><span class="badge badge-pill py-2 px-3 badge-primary-90">bg-primary-90</span></td>
           <td headers="primary-90 background-color-class"><code>bg-primary-90</code></td>
-          <td headers="primary-90 text-color"><span class="badge badge-pill py-2 px-4 text-primary-90">text-primary-90</span></td>
+          <td headers="primary-90 text-color"><span class="badge badge-pill py-2 px-3 text-primary-90">text-primary-90</span></td>
           <td headers="primary-90 text-color-class"><code>text-primary-90</code></td>
         </tr>
         <tr>
           <th scope="row" id="Secondary">Secondary</th>
-          <td headers="secondary background-color"><span class="badge badge-pill py-2 px-4 badge-secondary">bg-secondary</span></td>
+          <td headers="secondary background-color"><span class="badge badge-pill py-2 px-3 badge-secondary">bg-secondary</span></td>
           <td headers="secondary background-color-class"><code>bg-secondary</code></td>
-          <td headers="secondary text-color"><span class="badge badge-pill py-2 px-4 text-secondary">text-secondary</span></td>
+          <td headers="secondary text-color"><span class="badge badge-pill py-2 px-3 text-secondary">text-secondary</span></td>
           <td headers="secondary text-color-class"><code>text-secondary</code></td>
         </tr>
         <tr>
           <th scope="row" id="Secondary-10">Secondary-10</th>
-          <td headers="secondary-10 background-color"><span class="badge badge-pill py-2 px-4 badge-secondary-10 text-secondary">bg-secondary-10</span></td>
+          <td headers="secondary-10 background-color"><span class="badge badge-pill py-2 px-3 badge-secondary-10 text-secondary">bg-secondary-10</span></td>
           <td headers="secondary-10 background-color-class"><code>bg-secondary-10</code></td>
-          <td headers="secondary-10 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-10">text-secondary-10</span></td>
+          <td headers="secondary-10 text-color"><span class="badge badge-pill py-2 px-3 text-secondary-10">text-secondary-10</span></td>
           <td headers="secondary-10 text-color-class"><code>text-secondary-10</code></td>
         </tr>
         <tr>
           <th scope="row" id="Secondary-90">Secondary-90</th>
-          <td headers="secondary-90 background-color"><span class="badge badge-pill py-2 px-4 badge-secondary-90">bg-secondary-90</span></td>
+          <td headers="secondary-90 background-color"><span class="badge badge-pill py-2 px-3 badge-secondary-90">bg-secondary-90</span></td>
           <td headers="secondary-90 background-color-class"><code>bg-secondary-90</code></td>
-          <td headers="secondary-90 text-color"><span class="badge badge-pill py-2 px-4 text-secondary-90">text-secondary-90</span></td>
+          <td headers="secondary-90 text-color"><span class="badge badge-pill py-2 px-3 text-secondary-90">text-secondary-90</span></td>
           <td headers="secondary-90 text-color-class"><code>text-secondary-90</code></td>
         </tr>
         <tr>
           <th scope="row" id="Accent">Accent</th>
-          <td headers="accent background-color"><span class="badge badge-pill py-2 px-4 badge-accent">bg-accent</span></td>
+          <td headers="accent background-color"><span class="badge badge-pill py-2 px-3 badge-accent">bg-accent</span></td>
           <td headers="accent background-color-class"><code>bg-accent</code></td>
-          <td headers="accent text-color"><span class="badge badge-pill py-2 px-4 text-accent">text-accent</span></td>
+          <td headers="accent text-color"><span class="badge badge-pill py-2 px-3 text-accent">text-accent</span></td>
           <td headers="accent text-color-class"><code>text-accent</code></td>
         </tr>
         <tr>
           <th scope="row" id="Accent-10">Accent-10</th>
-          <td headers="accent-10 background-color"><span class="badge badge-pill py-2 px-4 badge-accent-10 text-accent-90">bg-accent-10</span></td>
+          <td headers="accent-10 background-color"><span class="badge badge-pill py-2 px-3 badge-accent-10 text-accent-90">bg-accent-10</span></td>
           <td headers="accent-10 background-color-class"><code>bg-accent-10</code></td>
-          <td headers="accent-10 text-color"><span class="badge badge-pill py-2 px-4 text-accent-10">text-accent-10</span></td>
+          <td headers="accent-10 text-color"><span class="badge badge-pill py-2 px-3 text-accent-10">text-accent-10</span></td>
           <td headers="accent-10 text-color-class"><code>text-accent-10</code></td>
         </tr>
         <tr>
           <th scope="row" id="Accent-90">Accent-90</th>
-          <td headers="accent-90 background-color"><span class="badge badge-pill py-2 px-4 badge-accent-90">bg-accent-90</span></td>
+          <td headers="accent-90 background-color"><span class="badge badge-pill py-2 px-3 badge-accent-90">bg-accent-90</span></td>
           <td headers="accent-90 background-color-class"><code>bg-accent-90</code></td>
-          <td headers="accent-90 text-color"><span class="badge badge-pill py-2 px-4 text-accent-90">text-accent-90</span></td>
+          <td headers="accent-90 text-color"><span class="badge badge-pill py-2 px-3 text-accent-90">text-accent-90</span></td>
           <td headers="accent-90 text-color-class"><code>text-accent-90</code></td>
         </tr>                      
       </tbody>

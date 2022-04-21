@@ -128,16 +128,16 @@ The UI Colors are implemented as background colors and as text colors. The class
         </thead>
         <tbody>
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui">bg-ui</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
+                <td><span class="badge badge-pill py-2 px-3 badge-ui">bg-ui</span></td>
+                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-ui">text-ui</span></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui-light">bg-ui-light</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-light">text-ui-light</span></td>
+                <td><span class="badge badge-pill py-2 px-3 badge-ui-light">bg-ui-light</span></td>
+                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-ui-light">text-ui-light</span></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui-priority">bg-ui-priority</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-priority">text-ui-priority</span></td>
+                <td><span class="badge badge-pill py-2 px-3 badge-ui-priority">bg-ui-priority</span></td>
+                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-ui-priority">text-ui-priority</span></td>
             </tr>                                
         </tbody>
     </table>
