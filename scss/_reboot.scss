@@ -2,7 +2,7 @@ html,
 body {
   scroll-behavior: smooth;
   min-height: 100vh;
-  @include bg-texture();
+  @extend .bg-texture;
 }
 html {
   background-color: $primary;

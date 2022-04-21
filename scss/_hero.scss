@@ -38,10 +38,12 @@
     @extend .h1;
     @extend .fw-bold;
     @extend .text-shadow !optional;
-    @extend .mt-10;
-    @extend .mt-lg-0;
-    @extend .shadow-primary!optional;
+    @extend .shadow-primary !optional;
+    margin-top: 2.5rem;
     color: $white;
+    @include media-breakpoint-up(lg){
+      margin-top: 0;
+    }
   }
   .hero-lead-text {
     @extend .h4;
@@ -93,7 +95,10 @@
 .hero-boxed-in-photo {
   @extend .content-container;
   @extend .shadow-none;
-  @extend .py-lg-16;
+  @include media-breakpoint-up(lg){
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   .hero-big-text {
     @extend .h2 ;
     background-color: $white;
@@ -105,8 +110,10 @@
     @extend .img-fluid;
     @extend .rounded;
     @extend .shadow-sm;
-    @extend .mt-4;
-    @extend .mt-lg-0;
+    margin-top: 1rem;
+    @include media-breakpoint-up(lg){
+      margin-top: 0;
+    }
   }
 }
 .hero-text-color-toned-photo {
@@ -176,13 +183,13 @@
   }
 }
 .hero-centered {
-  @extend .pt-12;
+  padding-top: 3rem;
   background-color: $primary;
   color: $accent;
   text-align: center;
   &-sentence {
-    @extend .mb-8;
     @extend .lead;
+    margin-bottom: 2rem;
     color: $white;
   }
   &-buttons {
@@ -190,12 +197,15 @@
     @extend .gap-2;
     @extend .d-sm-flex;
     @extend .justify-content-sm-center;
-    @extend .mb-10;
+    margin-bottom: 2.5rem;
     & .btn {
       @extend .btn-lg;
-      @extend .px-4;
+      padding-left: 1rem;
+      padding-right: 1rem;
       &:nth-child(2) {
-        @extend .ms-sm-3;
+        @include media-breakpoint-up(sm){
+          margin-left: .75rem;
+        }
       }
     }
   }
@@ -206,7 +216,7 @@
       @extend .img-fluid;
       @extend .rounded-3 ;
       @extend .shadow-lg ;
-      @extend .mb-4;
+      margin-bottom: 1rem;
     }
   }
 }
