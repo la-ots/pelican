@@ -25,14 +25,14 @@ Content images are images which have meaningful information in them.
 - Apply `img-fluid` to images to make them responsive. This makes the image fit its parent container. Height is automatically adjusted by the browser to preserve the aspect ratio.
 - You may optionally add the `rounded` class to put rounded corners on the image.
 
-<div class="row mb-8">
+<div class="row" style="margin-bottom: 2rem;">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="Person using a laptop, with notebooks and a pen." class="img-fluid rounded" src="/img/photos/pexels-photo-5077047.jpeg">
   </div>
 </div>
 
 ```html
-<div class="row mb-8">
+<div class="row" style="margin-bottom: 2rem;">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="Laptop, filled coffee cup, notepad, pen, and phone on a desk." class="img-fluid rounded" src="/img/photos/pexels-photo-5077047.jpeg">
   </div>
@@ -46,14 +46,14 @@ Non-content images may be requested by the Stakeholders and Project Owners. In t
 - Try to use images which do not distract from the content. 
 - Content images should use [Alt Text](/foundation/images/#alt-text) with an empty value.
 
-<div class="row mb-8">
+<div class="row" style="margin-bottom: 2rem;">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="" class="img-fluid rounded" src="/img/photos/pexels-photo-2317711.jpeg">
   </div>
 </div>
 
 ```html
-<div class="row mb-8">
+<div class="row" style="margin-bottom: 2rem;">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="" class="img-fluid rounded" src="/img/photos/pexels-photo-2317711.jpeg">
   </div>

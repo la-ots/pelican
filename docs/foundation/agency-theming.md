@@ -38,7 +38,7 @@ Pelican provides a way to change the following theme aspects when appropriate. T
 
 To change background or text color, change the class name representing the color to want to change. Consider [Color Contrast](/accessibility/color-contrast/) when you change these classes. For example, changing `bg-primary` to `bg-secondary` will change the background color from the primary to the secondary color. Changing `text-secondary` to `text-primary` will change the text color. Compare the cards below.
 
-<div class="px-3 mb-5">
+<div class="px-3" style="margin-bottom: 1.25rem;">
   <div class="row">
     <div class="col-12 col-md-6">
       <div class="card bg-primary text-primary-10">
@@ -65,9 +65,9 @@ Brand first is not necessarily accessibility or usability first. Designing with 
 
 Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
 
-<div class="row mb-12">
+<div class="row" style="margin-bottom: 3rem;">
   <div class="col-md-6">
-    <div class="card border-0 mb-4">
+    <div class="card border-0 mb-3">
       <div class="rounded-top" style="background-color: #198754; padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Example Brand</p>
@@ -90,7 +90,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 
 In the same way, using brand green-styled buttons as the go-to buttons will also cconfuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be be lost.
 
-<div class="px-3 mb-5">
+<div class="px-3" style="margin-bottom: 1.25rem;">
   <div class="row">
     <div class="col-12 ">
       <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
