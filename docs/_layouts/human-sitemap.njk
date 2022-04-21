@@ -4,7 +4,7 @@ layout: default.njk
 {% set navPages = collections.all | eleventyNavigation %}
 {% include "page-title.njk" %}
 
-<div class="content-container">
+<div class="content-container mb-0">
   {% for entry in navPages %}
   <div class="container-fluid">
     <div class="row">
@@ -37,7 +37,7 @@ layout: default.njk
   {% endfor %}
 </div>
 
-<div class="bg-secondary py-38 mt-n4 mb-n12">
+<div class="bg-secondary pb-20 pt-35" style="padding-top: 9rem; padding-bottom: 6.5rem;">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
