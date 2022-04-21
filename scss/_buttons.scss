@@ -48,12 +48,12 @@
 }
 
 .btn-container {
-  padding: $spacer * 0.5;
-  margin-top: $spacer;
-  margin-bottom: $spacer;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: $white;
   border: 2px solid $card-border-color;
-  border-radius: $spacer * 0.5;
+  border-radius: 0.5rem;
 }
 
 .btn-card-corner {
@@ -75,17 +75,21 @@
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
-  @extend .py-2;
-  @extend .my-2;
-  @extend .mb-0;
   @extend .shadow-none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  
 
   background-color: transparent;
   border: 2px dashed $gray-600;
 
   div {
-    @extend .py-2;
-    @extend .px-3;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
     border-radius: $border-radius;
   }
 
@@ -131,11 +135,11 @@ p a {
 
 #ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
-  right: $spacer * 2;
-  bottom: $spacer * 5;
+  right: 2rem;
+  bottom: 5rem;
   z-index: $zindex-scroll-to-top;
   @include media-breakpoint-up(md) {
-    bottom: $spacer * 5;
+    bottom: 5rem;
   }
 }
 
@@ -149,7 +153,8 @@ p a {
 
 .btns-previous-next, .btns-previous-forward {
   .container-fluid {
-    @extend .py-12;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .btn {
     @extend .btn-lg;

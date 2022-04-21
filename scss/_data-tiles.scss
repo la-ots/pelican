@@ -8,7 +8,7 @@
       @extend .label;
     }
     &:nth-of-type(2) {
-      @extend .mb-0;
+      margin-bottom: 0;
     }
   }
 }

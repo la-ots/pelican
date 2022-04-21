@@ -16,8 +16,8 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
 
 <div class="row">
   <div class="col-md-6 col-xl-4">
-    <div class="card mb-4">
-      <div class="py-20 bg-primary rounded-top"></div>
+    <div class="card mb-3">
+      <div class="bg-primary rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
         <p class="mb-0">Hex Code: <code>#00284d</code></p>
@@ -26,8 +26,8 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card mb-4">
-      <div class="py-20 bg-secondary rounded-top"></div>
+    <div class="card mb-3">
+      <div class="bg-secondary rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary</p>
         <p class="mb-0">Hex Code: <code>#008282</code></p>
@@ -36,8 +36,8 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card mb-4">
-      <div class="py-20 bg-accent rounded-top"></div>
+    <div class="card mb-3">
+      <div class="bg-accent rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Accent</p>
         <p class="mb-0">Hex Code: <code>#fe9903</code></p>
@@ -75,7 +75,7 @@ The Accent color is the smallest supporting color associated with your brand. It
 You’ll change background and text colors by using the following classes. Consult [Agency Themes](/foundation/agency-theming/) for more information.
 
 <div class="table-responsive">
-  <table class="table  mb-8">
+  <table class="table" style="margin-bottom: 2rem;">
     <thead>
       <tr>
         <th scope="col" id="brand-color">Brand Color</th>
@@ -88,23 +88,23 @@ You’ll change background and text colors by using the following classes. Consu
       <tbody>
         <tr>
           <th scope="row" id="Primary">Primary</th>
-          <td headers="primary background-color"><span class="badge badge-pill py-2 px-4 badge-primary">bg-primary</span></td>
+          <td headers="primary background-color"><span class="badge badge-pill py-2 px-3 badge-primary">bg-primary</span></td>
           <td headers="primary background-color-class"><code>bg-primary</code></td>
-          <td headers="primary text-color"><span class="badge badge-pill py-2 px-4 text-primary">text-primary</span></td>
+          <td headers="primary text-color"><span class="badge badge-pill py-2 px-3 text-primary">text-primary</span></td>
           <td headers="primary text-color-class"><code>text-primary</code></td>
         </tr>
         <tr>
           <th scope="row" id="Secondary">Secondary</th>
-          <td headers="secondary background-color"><span class="badge badge-pill py-2 px-4 badge-secondary">bg-secondary</span></td>
+          <td headers="secondary background-color"><span class="badge badge-pill py-2 px-3 badge-secondary">bg-secondary</span></td>
           <td headers="secondary background-color-class"><code>bg-secondary</code></td>
-          <td headers="secondary text-color"><span class="badge badge-pill py-2 px-4 text-secondary">text-secondary</span></td>
+          <td headers="secondary text-color"><span class="badge badge-pill py-2 px-3 text-secondary">text-secondary</span></td>
           <td headers="secondary text-color-class"><code>text-secondary</code></td>
         </tr>
         <tr>
           <th scope="row" id="Accent">Accent</th>
-          <td headers="accent background-color"><span class="badge badge-pill py-2 px-4 badge-accent">bg-accent</span></td>
+          <td headers="accent background-color"><span class="badge badge-pill py-2 px-3 badge-accent">bg-accent</span></td>
           <td headers="accent background-color-class"><code>bg-accent</code></td>
-          <td headers="accent text-color"><span class="badge badge-pill py-2 px-4 text-accent">text-accent</span></td>
+          <td headers="accent text-color"><span class="badge badge-pill py-2 px-3 text-accent">text-accent</span></td>
           <td headers="accent text-color-class"><code>text-accent</code></td>
         </tr>                   
       </tbody>

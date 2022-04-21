@@ -17,10 +17,10 @@ eleventyNavigation:
 - Don’t use them as the way to communicate statuses.
 - They only add visual meaning.
 
-<div class="row mb-12">
+<div class="row" style="margin-bottom: 3rem;">
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-success rounded-top"></div>
+    <div class="card border-0 mb-3">
+      <div class="bg-success rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Success</p>
         <p class="mb-0"><code>#0d6211</code></p>
@@ -29,8 +29,8 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-warning rounded-top"></div>
+    <div class="card border-0 mb-3">
+      <div class="bg-warning rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Warning</p>
         <p class="mb-0"><code>#ffc107</code></p>
@@ -39,8 +39,8 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-danger rounded-top"></div>
+    <div class="card border-0 mb-3">
+      <div class="bg-danger rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Danger</p>
         <p class="mb-0"><code>#b00003</code></p>
@@ -49,8 +49,8 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-info rounded-top"></div>
+    <div class="card border-0 mb-3">
+      <div class="bg-info rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Info</p>
         <p class="mb-0"><code>#004ba1</code></p>
@@ -106,7 +106,7 @@ The Info color indicates informative or helpful information.
 The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-  <table class="table table-striped mb-8">
+  <table class="table table-striped" style="margin-bottom: 2rem;">
     <thead>
       <tr>
         <th>Background Colors</th>
@@ -115,20 +115,20 @@ The Status Colors are implemented as background colors and as text colors. The c
     </thead>
     <tbody>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-success">bg-success</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-success">text-success</span></td>
+        <td><span class="badge badge-pill py-2 px-3 badge-success">bg-success</span></td>
+        <td><span class="badge badge-pill py-2 px-3 bg-transparent text-success">text-success</span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-warning">bg-warning</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-warning">text-warning</span></td>
+        <td><span class="badge badge-pill py-2 px-3 badge-warning">bg-warning</span></td>
+        <td><span class="badge badge-pill py-2 px-3 bg-transparent text-warning">text-warning</span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-danger">bg-danger</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-danger">text-danger</span></td>
+        <td><span class="badge badge-pill py-2 px-3 badge-danger">bg-danger</span></td>
+        <td><span class="badge badge-pill py-2 px-3 bg-transparent text-danger">text-danger</span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-info">bg-info</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-info">text-info</span></td>
+        <td><span class="badge badge-pill py-2 px-3 badge-info">bg-info</span></td>
+        <td><span class="badge badge-pill py-2 px-3 bg-transparent text-info">text-info</span></td>
       </tr>                 
     </tbody>
   </table>

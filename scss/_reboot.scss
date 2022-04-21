@@ -2,6 +2,7 @@ html,
 body {
   scroll-behavior: smooth;
   min-height: 100vh;
+  @include bg-texture();
 }
 html {
   background-color: $primary;
@@ -62,13 +63,13 @@ hr,
   border: 0;
   opacity: 1;
   &.major {
-    height: $spacer * 0.25;
-    margin: $spacer 0;
+    height: 0.25rem;
+    margin: 1rem 0;
   }
   &.minimal,
   &.minor {
     height: 1px;
-    margin: ($spacer * 0.5) 0;
+    margin: (0.5rem) 0;
   }
 }
 

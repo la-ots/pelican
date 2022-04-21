@@ -8,57 +8,70 @@
   @extend .bg-image-position-center;
 
   &-section {
-    @extend .p-5;
-    @extend .mt-4;
-    @extend .me-0;
-    @extend .mb-4;
-    @extend .ms-40;
-    @extend .my-md-40;
-    @extend .me-lg-0;
-    @extend .ms-lg-auto;
-
+    padding: 1.25rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    @include media-breakpoint-up(md){
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+    }
     @include media-breakpoint-up(lg) {
       flex: 0 1 50%;
+      margin-right: 0;
+      margin-left: auto;
     }
   }
 }
 .feature-icons-text {
-  @extend .py-16;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .feature-boxed-in-photo {
-  @extend .py-16;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .feature-cta {
   background-color: $white;
-  @extend .py-40;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   .feature-big-text {
     @extend .h2;
-    @extend .mb-4;
-    @extend .mb-md-0;
+    margin-bottom: 1rem;
     color: $primary;
+    @include media-breakpoint-up(md){
+      margin-bottom: 0;
+    }
   }
   .feature-small-text {
-    @extend .mb-4;
-    @extend .mb-md-0;
+    margin-bottom: 1rem;
     color: $primary;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
   }
 }
 .feature-cta-double {
-  background-color: $primary ;
-  @extend .py-20;
+  background-color: $primary;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   .feature-big-text {
     @extend .h2;
-    @extend .mb-4;
+    margin-bottom: 1rem;
     color: $white;
   }
   .feature-small-text {
     color: $white;
-    @extend .mb-4;
-    @extend .mb-lg-0;
+    margin-bottom: 1rem;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
   }
 }
 .feature-icons-text {
-  @extend .py-16 ;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: $secondary;
   color: $white;
   .feature-big-text {
@@ -69,9 +82,11 @@
     color: inherit;
   }
   .feature-small-text {
-    @extend .mb-8 ;
-    @extend .mb-lg-0 ;
+    margin-bottom: 2rem;
     color: inherit;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
   }
   .feature-icons {
     @extend .display-4;
@@ -81,7 +96,8 @@
   }
 }
 .feature-languages {
-  @extend .py-16;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: $secondary;
   color: $white;
   .feature-big-text {
@@ -96,8 +112,9 @@
   .feature-item {
     @extend .position-relative;
     @extend .rounded;
-    @extend .py-4;
-    @extend .mt-4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
     background-color: $white;
     color: $primary;
     transform: rotate(-2deg);
@@ -113,32 +130,33 @@
       border-bottom: 8px solid transparent;
     }
     p {
-      @extend .mb-0;
       @extend .h4;
       @extend .fw-light;
       @extend .text-center;
+      margin-bottom: 0;
     }
   }
 }
 .feature-set {
   .content-container {
-    @extend .my-0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .feature-big-text {
     @extend .h2;
     color: $primary;
   }
   .feature-lead-text {
-    @extend .mb-0;
+    margin-bottom: 0;
     color: $primary-700;
   }
   .feature-small-text {
-    @extend .mb-2;
+    margin-bottom: .5rem;
     color: $primary-700;
   }
   .feature-lead-icon {
     @extend .h4;
-    @extend .mb-2;
+    margin-bottom: .5rem;
     color: $primary-500;
   }
 }
