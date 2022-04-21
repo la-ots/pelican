@@ -122,8 +122,8 @@
     &:after {
       @extend .position-absolute;
       content: '';
-      top: $spacer * .5;
-      left: -$spacer * .75;
+      top: .5rem;
+      left: -.75rem;
       width: 0; height: 0;
       border-top:    8px solid transparent;
       border-right: 16px solid $white;

@@ -205,8 +205,8 @@ $pagination-disabled-border-color: $gray-600 !default;
 $breadcrumb-bg:           $gray-200 !default;
 $breadcrumb-bg:           $body-bg;
 $breadcrumb-active-color: $text-color-dark !default;
-$breadcrumb-padding-y:    $spacer * .5;
-$breadcrumb-padding-x:    $spacer;
+$breadcrumb-padding-y:    .5rem;
+$breadcrumb-padding-x:    1rem;
 
 // ---
 // animated loading indicator
