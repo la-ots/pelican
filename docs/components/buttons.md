@@ -138,7 +138,7 @@ eleventyNavigation:
 
 - Contains a list of links, using the `<a>` element.
 - It’s not the same thing as the [Select Menu used in Forms](/form-controls/select/).
-- Keep the text in the links succint.
+- Keep the text in the links brief.
 - Appearance can be changed like other buttons.
 
 <div class="dropdown">
