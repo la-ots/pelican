@@ -169,13 +169,13 @@ eleventyNavigation:
 
 <button type="button" class="btn btn-outline-ui">
     <span class="fas fa-check" aria-hidden="true"></span>
-    <span class="sr-only" aria-hidden="false">Accept Terms</span>
+    <span class="visually-hidden">Accept Terms</span>
 </button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
     <span class="fas fa-check" aria-hidden="true"></span>
-    <span class="sr-only" aria-hidden="false">Accept Terms</span>
+    <span class="visually-hidden">Accept Terms</span>
 </button>
 ```
 
