@@ -125,6 +125,9 @@
   height: 40px;
   padding-left: 20px;
   background-color: $black;
+  img {
+    height: 24px;
+  }
 }
 
 .sidebar-wrapper .sidebar-brand > a {

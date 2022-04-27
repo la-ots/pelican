@@ -63,7 +63,9 @@
   padding: (0.25rem) (0.5rem);
   color: #fff;
   background-color: #000;
-
+  img {
+    height: 24px;
+  }
   @include media-breakpoint-up(lg) {
     justify-content: flex-start;
   }
