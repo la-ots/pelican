@@ -88,6 +88,16 @@
       margin-bottom: 0;
     }
   }
+  .btn {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  @media screen and (min-width: 768px){
+    .btn {
+      display: inline;
+      margin-bottom: 0;
+    }
+  }
 }
 .feature-icons-text {
   padding-top: 4rem;
@@ -161,6 +171,10 @@
 }
 .feature-set {
   padding: 1.5rem;
+  hr.minor{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .feature-big-text {
     @extend .h2;
     color: $primary;
