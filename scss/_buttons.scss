@@ -218,12 +218,10 @@ p a {
 }
 
 .sidebar-button {
-  @extend .position-relative;
-  @extend .btn;
-  @extend .btn-link;
-  color: $white;
-  &:hover {
-    color: $white;
+  position: relative;
+  margin-right: .25rem;
+  @media screen and (min-width: 992px){
+    order: 1;
   }
 }
 
