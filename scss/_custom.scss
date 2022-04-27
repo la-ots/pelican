@@ -307,3 +307,12 @@ iframe {
     @extend .btn-sm;
   }
 }
+
+.error-display {
+  margin-top: 5.5rem;
+}
+.error-display-internal {
+  .card {
+    border-color: $danger-10;
+  }
+}
