@@ -19,10 +19,10 @@ Status colors should not be the sole way statuses are communicated to users. How
 
 Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Content must clearly relate to the chosen Status color.
 
-<div class="row" style="margin-bottom: 3rem;">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-success rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-success rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success</p>
                 <p class="mb-0"><code>#0d6211</code></p>
@@ -32,7 +32,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-warning rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-warning rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning</p>
                 <p class="mb-0"><code>#ffc107</code></p>
@@ -42,7 +42,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-danger rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-danger rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger</p>
                 <p class="mb-0"><code>#b00003</code></p>
@@ -52,7 +52,7 @@ Status colors only add visual meaning. This is not communicated to users with as
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-info rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-info rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info</p>
                 <p class="mb-0"><code>#004ba1</code></p>
@@ -107,10 +107,10 @@ The Info color indicates informative or helpful information.
 
 **Success Status Colors**
 
-<div class="row" style="margin-bottom: 3rem;">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-success rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-success rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success</p>
                 <p class="mb-0"><code>#0d6211</code></p>
@@ -120,7 +120,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-success-10 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-success-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success, Lighter</p>
                 <p class="mb-0"><code>#dcf8e2</code></p>
@@ -130,7 +130,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-success-90 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-success-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success, Darker</p>
                 <p class="mb-0"><code>#003302</code></p>
@@ -142,10 +142,10 @@ The Info color indicates informative or helpful information.
 
 **Warning Status Colors**
 
-<div class="row" style="margin-bottom: 3rem;">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-warning rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-warning rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning</p>
                 <p class="mb-0"><code>#ffc107</code></p>
@@ -155,7 +155,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-warning-10 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-warning-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning, Lighter</p>
                 <p class="mb-0"><code>#ffecb3</code></p>
@@ -165,7 +165,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-warning-90 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-warning-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning, Darker</p>
                 <p class="mb-0"><code>#5c3400</code></p>
@@ -177,10 +177,10 @@ The Info color indicates informative or helpful information.
 
 **Danger Status Colors**
 
-<div class="row" style="margin-bottom: 2rem;">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-danger rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-danger rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger</p>
                 <p class="mb-0"><code>#b00003</code></p>
@@ -190,7 +190,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-danger-10 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-danger-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger, Lighter</p>
                 <p class="mb-0"><code>#ffe6e8</code></p>
@@ -200,7 +200,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-danger-90 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-danger-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger, Darker</p>
                 <p class="mb-0"><code>#650002</code></p>
@@ -212,10 +212,10 @@ The Info color indicates informative or helpful information.
 
 **Info Status Colors**
 
-<div class="row" style="margin-bottom: 3rem;">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-info rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-info rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info</p>
                 <p class="mb-0"><code>#004ba1</code></p>
@@ -225,7 +225,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-info-10 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-info-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info, Lighter</p>
                 <p class="mb-0"><code>#d0e6ff</code></p>
@@ -235,7 +235,7 @@ The Info color indicates informative or helpful information.
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-info-90 rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-info-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info, Darker</p>
                 <p class="mb-0"><code>#002480</code></p>
@@ -250,7 +250,7 @@ The Info color indicates informative or helpful information.
 The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-    <table class="table table-light" style="margin-bottom: 2rem;">
+    <table class="table table-light mb-5">
         <thead>
             <tr>
                 <th>Background Colors</th>

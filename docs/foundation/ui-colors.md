@@ -15,10 +15,10 @@ eleventyNavigation:
 
 Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements. 
 
-<div class="row" style="margin-bottom: 3rem;">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-ui rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-ui rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI</p>
                 <p class="mb-0"><code>#6c757d</code></p>
@@ -28,7 +28,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-ui-light rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-ui-light rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI Light</p>
                 <p class="mb-0"><code>#dee2e6</code></p>
@@ -38,7 +38,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0 mb-3">
-            <div class="bg-ui-priority rounded-top" style="padding-top: 5rem; padding-bottom: 5rem;"></div>
+            <div class="bg-ui-priority rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI Priority</p>
                 <p class="mb-0"><code>#185ae3</code></p>
@@ -81,7 +81,7 @@ Deciding between the use of UI and UI Priority depends on the use case. As an ex
 
 Each item in each list has a button which takes the user to more information about that item. The [UI Priority themed buttons](/components/buttons/#ui-priority-button) are used for the more important, higher visual priority items. The UI themed buttons are used for the lesser importance items.
 
-<div class="px-3" style="margin-bottom: 3rem;">
+<div class="px-3 mb-5">
     <div class="row">
         <div class="col-lg-6">
             <ul class="list-group">
@@ -119,7 +119,7 @@ For more example and context guidance, read [Consider the Priority](/components/
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-    <table class="table table-light" style="margin-bottom: 2rem;">
+    <table class="table table-light mb-5">
         <thead>
             <tr>
                 <th>Background Colors</th>
