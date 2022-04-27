@@ -30,7 +30,7 @@
                 {% for child in entry.children %}
                   <li {% if child.url == page.url %} class="site-nav-item active" {% else %} class="site-nav-item" {% endif %}>
                     <a {% if child.url == page.url %} class="site-nav-nav-item active" {% else %} class="site-nav-nav-item" {% endif %} href="{{ child.url | url }}">
-                      <span {% if child.url == page.url %} class="fas fa-fw fa-eye" {% else %} class="fas fa-fw fa-eye invisible" {% endif %}></span>
+                      <span {% if child.url == page.url %} class="fas fa-fw fa-eye" {% else %} class="fas fa-fw fa-eye invisible" {% endif %} aria-hidden="true"></span>
                       <span>{{ child.title }}</span>
                     </a>
                   </li>
