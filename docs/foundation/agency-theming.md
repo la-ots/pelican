@@ -77,7 +77,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card border-0 mb-4">
+    <div class="card border-0 mb-3">
       <div class="bg-success rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Status Success</p>
