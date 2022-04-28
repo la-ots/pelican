@@ -6,6 +6,13 @@
   background-color: $white;
   .btn {
     @extend .shadow-none;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+  }
+  @media screen and (min-width: 768px) {
+    .btn {
+      margin-bottom: 0;
+    }
   }
 }
 .progress-info {
