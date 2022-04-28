@@ -60,7 +60,7 @@
   justify-content: flex-end;
   width: 100%;
   height: 40px;
-  padding: (0.25rem) (0.5rem);
+  padding: 0.25rem 0.5rem;
   color: #fff;
   background-color: #000;
   img {
@@ -139,7 +139,7 @@
 
 .validation-summary-errors {
   @extend .alert-danger;
-  margin: (0.5rem) 0;
+  margin: 0.5rem 0;
   background-color: fade-out($danger, 0.9);
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f6727c' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
   border-radius: 0.25rem;
@@ -152,7 +152,7 @@
 
   li {
     position: relative;
-    padding: (0.25rem) (0.5rem) (0.25rem) (1.25rem);
+    padding: 0.25rem 0.5rem 0.25rem 1.25rem;
 
     &::before {
       position: absolute;
@@ -263,14 +263,14 @@
 .form-fieldset {
   @extend .shadow-sm;
   background-color: $white;
-  padding: (1.5rem) 1rem;
+  padding: 1.5rem 1rem;
   margin-bottom: 1rem;
   border-bottom: $border-width $border-style $border-color;
   border-radius: $border-radius;
 
   @include media-breakpoint-up(xl) {
-    padding-right: (4rem);
-    padding-left: (4rem);
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
 
@@ -280,7 +280,7 @@
 
 iframe {
   @extend .position-relative;
-  margin: 1rem 0 (2rem);
+  margin: 1rem 0 2rem;
 }
 
 .text-wrap {
