@@ -21,7 +21,7 @@ Status colors only add visual meaning. This is not communicated to users with as
 
 <div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-success rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success</p>
@@ -31,7 +31,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-warning rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning</p>
@@ -41,7 +41,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-danger rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger</p>
@@ -51,7 +51,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-info rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info</p>
@@ -109,7 +109,7 @@ The Info color indicates informative or helpful information.
 
 <div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-success rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success</p>
@@ -119,7 +119,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-success-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success, Lighter</p>
@@ -129,7 +129,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-success-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Success, Darker</p>
@@ -144,7 +144,7 @@ The Info color indicates informative or helpful information.
 
 <div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-warning rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning</p>
@@ -154,7 +154,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-warning-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning, Lighter</p>
@@ -164,7 +164,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-warning-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Warning, Darker</p>
@@ -179,7 +179,7 @@ The Info color indicates informative or helpful information.
 
 <div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-danger rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger</p>
@@ -189,7 +189,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-danger-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger, Lighter</p>
@@ -199,7 +199,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-danger-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Danger, Darker</p>
@@ -214,7 +214,7 @@ The Info color indicates informative or helpful information.
 
 <div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-info rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info</p>
@@ -224,7 +224,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-info-10 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info, Lighter</p>
@@ -234,7 +234,7 @@ The Info color indicates informative or helpful information.
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-info-90 rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">Info, Darker</p>

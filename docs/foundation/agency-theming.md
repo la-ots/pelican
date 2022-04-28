@@ -65,7 +65,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 
 <div class="row mb-5">
   <div class="col-md-6">
-    <div class="card border-0 mb-3">
+    <div class="card border-0">
       <div class="rounded-top" style="background-color: #198754; height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Example Brand</p>
@@ -75,7 +75,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card border-0 mb-3">
+    <div class="card border-0">
       <div class="bg-success rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Status Success</p>
@@ -89,7 +89,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 In the same way, using brand green-styled buttons as the go-to buttons will also cconfuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be be lost.
 
 <div class="row px-3 mb-4">
-  <div class="col-12 ">
+  <div class="col-12">
     <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
     <button type="button" class="btn btn-success">Good Action Button</button>
   </div>

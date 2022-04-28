@@ -17,7 +17,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
 
 <div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-ui rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI</p>
@@ -27,7 +27,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-ui-light rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI Light</p>
@@ -37,7 +37,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-3">
+        <div class="card border-0">
             <div class="bg-ui-priority rounded-top" style="height: 160px;"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI Priority</p>

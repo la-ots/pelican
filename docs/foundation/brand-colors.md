@@ -14,9 +14,9 @@ eleventyNavigation:
 
 Brand colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default brand colors. These colors are based upon Louisiana’s official colors.
 
-<div class="row">
+<div class="row mb-5">
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-primary rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
@@ -26,7 +26,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-secondary rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary</p>
@@ -36,7 +36,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-accent rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Accent</p>
@@ -71,9 +71,9 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 **Primary Brand Colors**
 
-<div class="row">
+<div class="row mb-5">
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-primary rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
@@ -87,7 +87,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-primary-10 rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary, Lighter</p>
@@ -101,7 +101,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-primary-90 rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary, Darker</p>
@@ -118,9 +118,9 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 **Secondary Brand Colors**
 
-<div class="row">
+<div class="row mb-5">
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-secondary rounded-top" style="height: 160px;"></div>
         <div class="card-body">
           <p class="mb-0 fw-bold">secondary</p>
@@ -134,7 +134,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-secondary-10 rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">secondary, Lighter</p>
@@ -148,7 +148,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-secondary-90 rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">secondary, Darker</p>
@@ -165,9 +165,9 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 **Accent Brand Colors**
 
-<div class="row">
+<div class="row mb-5">
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-accent rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">accent</p>
@@ -181,7 +181,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-accent-10 rounded-top" style="height: 160px;"></div>
         <div class="card-body">
             <p class="mb-0 fw-bold">accent, Lighter</p>
@@ -195,7 +195,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card border-0 mb-4">
+    <div class="card border-0">
       <div class="bg-accent-90 rounded-top" style="height: 160px;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">accent, Darker</p>
