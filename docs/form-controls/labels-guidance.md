@@ -23,7 +23,7 @@ eleventyNavigation:
 
 <div class="form-group">
   <label for="inputTextBox499">
-    <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Input Email Label
+    <span class="fas fa-asterisk text-danger mr-1" aria-hidden="true"></span>Input Email Label
   </label>
   <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
   <small>On mobile browsers this presents an email-optimized UI.</small>
@@ -32,7 +32,7 @@ eleventyNavigation:
 ```html
 <div class="form-group">
   <label for="inputTextBox499">
-      <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Input Email Label
+      <span class="fas fa-asterisk text-danger mr-1" aria-hidden="true"></span>Input Email Label
     </label>
   <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
   <small>On mobile browsers this presents an email-optimized UI.</small>

@@ -70,8 +70,7 @@ The first child element is the Sidebar with Navigation. This is the `nav`. For s
             <ul>
               <li class="sidebar-item active">
                 <a class="sidebar-nav-item active" href="#">
-                  <span class="fas fa-fw fa-eye" aria-hidden="true"></span>
-                  <span>Child Level Nav Item</span>
+                  <span class="fas fa-fw fa-eye mr-1" aria-hidden="true"></span><span>Child Level Nav Item</span>
                 </a>
               </li>
             </ul>
