@@ -108,7 +108,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
     <span class="d-md-none">Digital Product Name</span>
     <span class="d-none d-md-inline">Current Page Title</span>
   </p>
-  <a id="sidebar-button" class="btn btn-sm btn-black mr-2 text-white order-lg-1" href="javascript://" role="button">
+  <a id="sidebar-button" class="btn btn-sm btn-black sidebar-button" href="javascript://" role="button">
     <span class="fas fa-fw fa-bars"></span>
   </a>
 </div>
