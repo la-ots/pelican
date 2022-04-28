@@ -2,7 +2,7 @@
     <div class="site-nav-content">
       <div class="site-nav-brand">
         <a href="{{ '/' | url }}" class="mr-auto">
-          <img src="/img/favicon.png" class="img-fluid d-none d-md-inline" style="width: 24px;" alt="Pelican Design System icon" />
+          <img src="/img/favicon.png" class="d-none d-md-inline" alt="Pelican Design System icon" />
           <span class="d-none d-md-inline">Pelican <span class="visually-hidden">Home</span></span>
         </a>
       </div>
@@ -30,8 +30,7 @@
                 {% for child in entry.children %}
                   <li {% if child.url == page.url %} class="site-nav-item active" {% else %} class="site-nav-item" {% endif %}>
                     <a {% if child.url == page.url %} class="site-nav-nav-item active" {% else %} class="site-nav-nav-item" {% endif %} href="{{ child.url | url }}">
-                      <span {% if child.url == page.url %} class="fas fa-fw fa-eye" {% else %} class="fas fa-fw fa-eye invisible" {% endif %}></span>
-                      <span>{{ child.title }}</span>
+                      <span {% if child.url == page.url %} class="fas fa-fw fa-eye mr-1" {% else %} class="fas fa-fw fa-eye invisible mr-1" {% endif %} aria-hidden="true"></span><span>{{ child.title }}</span>
                     </a>
                   </li>
                 {% endfor %}                

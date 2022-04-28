@@ -100,18 +100,20 @@
     padding-bottom: 4rem;
   }
   .hero-big-text {
-    @extend .h2 ;
-    background-color: $white;
+    @extend .h2;
+    margin-top: 2rem;
     color: $primary;
   }
   .hero-small-text {
   }
-  img {
-    @extend .img-fluid;
-    @extend .rounded;
-    @extend .shadow-sm;
-    margin-top: 1rem;
-    @include media-breakpoint-up(lg){
+  img{
+    margin-top: 1.25rem;
+  }
+  @media screen and (min-width: 992px) {
+    .hero-big-text{
+      margin-top: 0;
+    }
+    img {
       margin-top: 0;
     }
   }

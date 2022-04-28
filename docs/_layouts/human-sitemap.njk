@@ -9,7 +9,7 @@ layout: default.njk
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <h2 class="h4" style="margin-top: 2.5rem;">
+        <h2 class="h4 mt-5">
           <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">{{ entry.title }}</a>
         </h2>
         <p class="lead">{{ entry.excerpt }}</p>
@@ -32,14 +32,14 @@ layout: default.njk
     {% endif %}
   </div>
   {% if not loop.last %}
-  <hr class="minor mb-3" style="margin-top: 2rem;">
+  <hr class="minor my-3">
   {% endif %}
   {% endfor %}
 </div>
 
-<div class="bg-secondary text-white" style="padding-top: 9rem; padding-bottom: 6.5rem;">
+<div class="bg-secondary">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center" style="height: 344px;">
       <div class="col-12 text-center">
         <p class="h2 mb-6 ">Start using Pelican.</p>
         <a href="/get-started" class="btn btn-white btn-lg">Get started</a>

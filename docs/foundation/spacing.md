@@ -19,15 +19,15 @@ Padding is the space inside of something, putting space between its edges and it
 
 These two boxes have margins around them and padding inside of them.
 
-<div class="row" style="margin-bottom: 3rem;">
-    <div class="col-md-6 mb-lg-0" style="margin-bottom: 2.5rem;">
-        <div class="bg-ui text-white rounded-lg" style="padding: 2rem;">
+<div class="row mb-5">
+    <div class="col-md-6 mb-4 mb-lg-0">
+        <div class="p-5 bg-ui text-white rounded-lg">
             <p>There are 32 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
             <p>There are 15 pixels of margin to the right. This can also be called “margin-right”.</p>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="bg-ui text-white rounded-lg" style="padding: 2rem;">
+        <div class="p-5 bg-ui text-white rounded-lg">
             <p>There are 32 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
             <p>There are 15 pixels of margin to the left. This can also be called “margin-left”.</p>
         </div>
@@ -38,7 +38,7 @@ These two boxes have margins around them and padding inside of them.
 
 Padding and Margin can be applied to individual sides, to top and bottom at the same, or the left and right at the same time.
 
-Replace `n` with any number from 0 to 74. Replacing `n` with `0` applies zero spacing. Each successive number from `1` to `74` adds an additional 2 pixels of space to the previous number.
+Replace `n` with any number from 0 to 5. Replacing `n` with `0` applies zero spacing. Each successive number from `1` to `5` adds a multiple of pixels of space to the previous number (based on Bootstrap's defined spacer variable).
 
 Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a> for additional spacing abilities like responsive spacing.
 
