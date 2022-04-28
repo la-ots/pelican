@@ -109,7 +109,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
     <span class="d-none d-md-inline">Current Page Title</span>
   </p>
   <a id="sidebar-button" class="btn btn-sm btn-black sidebar-button" href="javascript://" role="button">
-    <span class="fas fa-fw fa-bars"></span>
+    <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
   </a>
 </div>
 <!-- / topbar -->
