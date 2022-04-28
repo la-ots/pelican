@@ -126,18 +126,18 @@ The UI Colors are implemented as background colors and as text colors. The class
                 <th>Text Colors</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="h5">
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-ui">bg-ui</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-ui">text-ui</span></td>
+                <td><span class="badge badge-ui">bg-ui</span></td>
+                <td><span class="badge bg-transparent text-ui">text-ui</span></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-ui-light">bg-ui-light</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-ui-light">text-ui-light</span></td>
+                <td><span class="badge badge-ui-light">bg-ui-light</span></td>
+                <td><span class="badge bg-transparent text-ui-light">text-ui-light</span></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-ui-priority">bg-ui-priority</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-ui-priority">text-ui-priority</span></td>
+                <td><span class="badge badge-ui-priority">bg-ui-priority</span></td>
+                <td><span class="badge bg-transparent text-ui-priority">text-ui-priority</span></td>
             </tr>                                
         </tbody>
     </table>

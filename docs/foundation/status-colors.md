@@ -257,54 +257,54 @@ The Status Colors are implemented as background colors and as text colors. The c
                 <th>Text Colors</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="h5">
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-success">bg-success</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-success">text-success</span></td>
+                <td><span class="badge badge-success">bg-success</span></td>
+                <td><span class="badge bg-transparent text-success">text-success</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-success-10 ">bg-success-10</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-success-10">text-success-10</span></td>
+                <td><span class="badge badge-success-10 ">bg-success-10</span></td>
+                <td><span class="badge bg-transparent text-success-10">text-success-10</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-success-90 ">bg-success-90</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-success-90">text-success-90</span></td>
+                <td><span class="badge badge-success-90 ">bg-success-90</span></td>
+                <td><span class="badge bg-transparent text-success-90">text-success-90</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-warning">bg-warning</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-warning">text-warning</span></td>
+                <td><span class="badge badge-warning">bg-warning</span></td>
+                <td><span class="badge bg-transparent text-warning">text-warning</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-warning-10 ">bg-warning-10</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-warning-10">text-warning-10</span></td>
+                <td><span class="badge badge-warning-10 ">bg-warning-10</span></td>
+                <td><span class="badge bg-transparent text-warning-10">text-warning-10</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-warning-90 ">bg-warning-90</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-warning-90">text-warning-90</span></td>
+                <td><span class="badge badge-warning-90 ">bg-warning-90</span></td>
+                <td><span class="badge bg-transparent text-warning-90">text-warning-90</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-danger">bg-danger</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-danger">text-danger</span></td>
+                <td><span class="badge badge-danger">bg-danger</span></td>
+                <td><span class="badge bg-transparent text-danger">text-danger</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-danger-10 ">bg-danger-10</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-danger-10">text-danger-10</span></td>
+                <td><span class="badge badge-danger-10 ">bg-danger-10</span></td>
+                <td><span class="badge bg-transparent text-danger-10">text-danger-10</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-danger-90 ">bg-danger-90</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-danger-90">text-danger-90</span></td>
+                <td><span class="badge badge-danger-90 ">bg-danger-90</span></td>
+                <td><span class="badge bg-transparent text-danger-90">text-danger-90</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-info">bg-info</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-info">text-info</span></td>
+                <td><span class="badge badge-info">bg-info</span></td>
+                <td><span class="badge bg-transparent text-info">text-info</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-info-10 ">bg-info-10</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-info-10">text-info-10</span></td>
+                <td><span class="badge badge-info-10 ">bg-info-10</span></td>
+                <td><span class="badge bg-transparent text-info-10">text-info-10</span></td>
             </tr>
             <tr>
-                <td><span class="badge badge-pill py-2 px-3 badge-info-90 ">bg-info-90</span></td>
-                <td><span class="badge badge-pill py-2 px-3 bg-transparent text-info-90">text-info-90</span></td>
+                <td><span class="badge badge-info-90 ">bg-info-90</span></td>
+                <td><span class="badge bg-transparent text-info-90">text-info-90</span></td>
             </tr>                                 
         </tbody>
     </table>
