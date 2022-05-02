@@ -1,6 +1,6 @@
 ---
 title: Test Page
-summary: This test page is used to visuall check if CSS changes have unintended effects.
+summary: This test page is used to visually check if CSS changes have unintended effects.
 tags: test-page
 layout: test-page
 index: true
