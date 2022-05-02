@@ -17,7 +17,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
 <div class="row mb-5">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-primary rounded-top" style="height: 160px;"></div>
+      <div class="bg-primary rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
         <p class="mb-0">Hex Code: <code>#00284d</code></p>
@@ -27,7 +27,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-secondary rounded-top" style="height: 160px;"></div>
+      <div class="bg-secondary rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary</p>
         <p class="mb-0">Hex Code: <code>#fe9903</code></p>
@@ -37,7 +37,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-accent rounded-top" style="height: 160px;"></div>
+      <div class="bg-accent rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Accent</p>
         <p class="mb-0">Hex Code: <code>#008282</code></p>
@@ -74,7 +74,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 <div class="row mb-5">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-primary rounded-top" style="height: 160px;"></div>
+      <div class="bg-primary rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
         <p class="mb-0">
@@ -88,7 +88,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-primary-10 rounded-top" style="height: 160px;"></div>
+      <div class="bg-primary-10 rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary, Lighter</p>
         <p class="mb-0">
@@ -102,7 +102,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-primary-90 rounded-top" style="height: 160px;"></div>
+      <div class="bg-primary-90 rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary, Darker</p>
         <p class="mb-0">
@@ -121,7 +121,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 <div class="row mb-5">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-secondary rounded-top" style="height: 160px;"></div>
+      <div class="bg-secondary rounded-top pd-color-block"></div>
         <div class="card-body">
           <p class="mb-0 fw-bold">secondary</p>
           <p class="mb-0">
@@ -135,7 +135,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-secondary-10 rounded-top" style="height: 160px;"></div>
+      <div class="bg-secondary-10 rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">secondary, Lighter</p>
         <p class="mb-0">
@@ -149,7 +149,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-secondary-90 rounded-top" style="height: 160px;"></div>
+      <div class="bg-secondary-90 rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">secondary, Darker</p>
         <p class="mb-0">
@@ -168,7 +168,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 <div class="row mb-5">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-accent rounded-top" style="height: 160px;"></div>
+      <div class="bg-accent rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">accent</p>
         <p class="mb-0">
@@ -182,7 +182,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-accent-10 rounded-top" style="height: 160px;"></div>
+      <div class="bg-accent-10 rounded-top pd-color-block"></div>
         <div class="card-body">
             <p class="mb-0 fw-bold">accent, Lighter</p>
             <p class="mb-0">
@@ -196,7 +196,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-accent-90 rounded-top" style="height: 160px;"></div>
+      <div class="bg-accent-90 rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">accent, Darker</p>
         <p class="mb-0">

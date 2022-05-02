@@ -66,7 +66,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 <div class="row mb-5">
   <div class="col-md-6">
     <div class="card border-0">
-      <div class="rounded-top" style="background-color: #198754; height: 160px;"></div>
+      <div class="rounded-top pd-color-block" style="background-color: #198754;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Example Brand</p>
         <p class="mb-0">Hex Code: <code>#198754</code></p>
@@ -76,7 +76,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
   </div>
   <div class="col-md-6">
     <div class="card border-0">
-      <div class="bg-success rounded-top" style="height: 160px;"></div>
+      <div class="bg-success rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Status Success</p>
         <p class="mb-0">Hex Code: <code>#0d6211</code></p>

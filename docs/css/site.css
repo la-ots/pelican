@@ -134,3 +134,7 @@ h2#resources + ul li a {
 .content-area li {
   max-width: 72ex;
 }
+
+.pd-color-block{
+  height: 160px;
+}
