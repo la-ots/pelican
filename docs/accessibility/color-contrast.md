@@ -29,7 +29,7 @@ eleventyNavigation:
           <span class="fas fa-check me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center text-white" style="height: 100px; background-color: #657892!important;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center text-white pd-color-block" style="background-color: #657892!important;">
         <p class="mb-0 text-center">Text</p>
       </div>
       <div class="card-body">
@@ -44,7 +44,7 @@ eleventyNavigation:
           <span class="fas fa-check me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-secondary text-white" style="height: 100px; font-size: 24px; color: #734500!important;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-secondary text-white pd-color-block" style="font-size: 24px; color: #734500!important;">
         <p class="mb-0 text-center text-secondary-90">Text</p>
       </div>
       <div class="card-body">
@@ -59,7 +59,7 @@ eleventyNavigation:
           <span class="fas fa-times me-1" aria-hidden="true"></span>Don’t
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white" style="height: 100px; background-color: #FECB7F!important;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block" style="background-color: #FECB7F!important;">
         <p class="mb-0 text-center">Text</p>
       </div>
       <div class="card-body">
@@ -79,7 +79,7 @@ eleventyNavigation:
           <span class="fas fa-check me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white" style="height: 100px;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block">
         <p class="mb-0 text-center">
           <button type="button" class="btn btn-secondary">Button Text</button>
         </p>
@@ -96,7 +96,7 @@ eleventyNavigation:
           <span class="fas fa-check me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black" style="height: 100px; background-color: #CED4DA!important;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black pd-color-block" style="background-color: #CED4DA!important;">
         <div class="form-group mb-0">
           <label for="colorTest1" class="label">
             <span class="fas fa-asterisk text-danger me-1" aria-hidden="true"></span>Label</label>
@@ -115,7 +115,7 @@ eleventyNavigation:
           <span class="fas fa-times me-1" aria-hidden="true"></span>Don’t
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white" style="height: 100px; background-color: #C0CEDB!important;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block" style="background-color: #C0CEDB!important;">
         <p class="mb-0 text-center">
           <button type="button" class="btn btn-warning">Button Text</button>
         </p>

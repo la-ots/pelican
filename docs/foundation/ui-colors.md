@@ -18,7 +18,7 @@ Pelican provides more clarity in the user interface by using a color for UI elem
 <div class="row mb-5">
   <div class="col-md-6 col-xl-3">
     <div class="card border-0">
-      <div class="bg-ui rounded-top" style="height: 160px;"></div>
+      <div class="bg-ui rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">UI</p>
         <p class="mb-0"><code>#6c757d</code></p>

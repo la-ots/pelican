@@ -20,7 +20,7 @@ eleventyNavigation:
 <div class="row mb-5">
   <div class="col-md-6 col-xl-3">
     <div class="card border-0">
-      <div class="bg-success rounded-top" style="height: 160px;"></div>
+      <div class="bg-success rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Success</p>
         <p class="mb-0"><code>#0d6211</code></p>
@@ -30,7 +30,7 @@ eleventyNavigation:
   </div>
   <div class="col-md-6 col-xl-3">
     <div class="card border-0">
-      <div class="bg-warning rounded-top" style="height: 160px;"></div>
+      <div class="bg-warning rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Warning</p>
         <p class="mb-0"><code>#ffc107</code></p>
@@ -40,7 +40,7 @@ eleventyNavigation:
   </div>
   <div class="col-md-6 col-xl-3">
     <div class="card border-0">
-      <div class="bg-danger rounded-top" style="height: 160px;"></div>
+      <div class="bg-danger rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Danger</p>
         <p class="mb-0"><code>#b00003</code></p>
@@ -50,7 +50,7 @@ eleventyNavigation:
   </div>
   <div class="col-md-6 col-xl-3">
     <div class="card border-0">
-      <div class="bg-info rounded-top" style="height: 160px;"></div>
+      <div class="bg-info rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Info</p>
         <p class="mb-0"><code>#004ba1</code></p>

@@ -17,7 +17,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
 <div class="row mb-5">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-primary rounded-top" style="height: 160px;"></div>
+      <div class="bg-primary rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
         <p class="mb-0">Hex Code: <code>#00284d</code></p>
@@ -27,7 +27,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-secondary rounded-top" style="height: 160px;"></div>
+      <div class="bg-secondary rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary</p>
         <p class="mb-0">Hex Code: <code>#008282</code></p>
@@ -37,7 +37,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
   </div>
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
-      <div class="bg-accent rounded-top" style="height: 160px;"></div>
+      <div class="bg-accent rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Accent</p>
         <p class="mb-0">Hex Code: <code>#fe9903</code></p>
