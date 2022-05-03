@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Use this when you’re ready to direct the reader to take an action, but that action must be a decision among two presented. 
   - Do not present more than two choices.
-  - This Call-to-Action, like the Call-to-Action Single, is not navigation, it iss a persuasion with two choices you present to the user.
+  - This Call-to-Action, like the Call-to-Action Single, is not for navigation; it’s a persuasion item with two choices you present to the user.
 
 ## Usage
 

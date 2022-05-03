@@ -36,11 +36,6 @@ eleventyNavigation:
 <span class="fas fa-heart text-danger" aria-hidden="true"></span>
 ```
 
-## Accessibility
-
-1. Copy markup from FontAwesome, but change the `<i>` to a `<span>`.
-1. Be sure to add `aria-hidden="true"` to the `<span>` so that it resembles the code above. This hides the icon from assistive technologies.
-
 ## Resources
 
 * <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank">FontAwesome Icon List</a>

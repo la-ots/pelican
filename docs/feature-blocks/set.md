@@ -1,12 +1,12 @@
 ---
 title: Set
-summary: A Set is a way to highlight some apsects of a digital product. 
+summary: A Set is a way to highlight some aspects of a digital product. 
 tags: feature
 layout: guide
 eleventyNavigation:
   key: Set
   parent: Feature Blocks
-  excerpt: A Set is a way to highlight some apsects of a digital product.
+  excerpt: A Set is a way to highlight some aspects of a digital product.
   order: 6
   img: /img/illustrations/illus-set.svg
 ---

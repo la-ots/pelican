@@ -2,8 +2,8 @@
   margin-bottom: 1rem;
   @extend .shadow-sm;
   .content-container & {
+    @extend .shadow-none;
     background-color: $gray-100;
-    box-shadow: none;
   }
 }
 

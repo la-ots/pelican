@@ -25,7 +25,7 @@ Pelican endeavours to conform to level Double-A of the World Wide Web Consortium
 
 This site has been built using code compliant with W3C standards for HTML and CSS. The site displays correctly in current browsers and using standards compliant HTML/CSS code means any future browsers will also display it correctly.
 
-Our ongoing accessibility efforts work toward making Pelican as accessible as possible. [Pelican welcomes comments](/feedback) on how to improve the its accessibility for users with disabilities.
+Our ongoing accessibility efforts work toward making Pelican as accessible as possible. [Pelican welcomes comments](/feedback) on how to improve its accessibility for users with disabilities.
 
 {% include 'markup/pull-request.njk' %}
 

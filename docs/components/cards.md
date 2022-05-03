@@ -1,10 +1,10 @@
 ---
-title: Card
+title: Cards
 summary: Cards are containers for related content or information.
 tags: components, card
 layout: guide
 eleventyNavigation:
-  key: Card
+  key: Cards
   parent: Components
   order: 130
   excerpt: Cards are containers for related content or information.
