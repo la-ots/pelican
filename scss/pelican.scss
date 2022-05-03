@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-// background texture
-@import "bg-texture";
-
 // OTS & Agency variables
 @import "variables-agency";
 @import "variables-default";
@@ -41,4 +38,5 @@
 @import "toc";
 @import "data-tiles";
 @import "focus";
+@import "bg-texture";
 @import "custom";
