@@ -1,0 +1,43 @@
+<nav id="sidebar" class="sidebar-wrapper d-print-none">
+  <div class="sidebar-content">
+    <div class="sidebar-brand">
+      <a href="#" class="mr-auto">Digital Product Name</a>
+    </div>
+    <div class="sidebar-menu text-white">
+      <ul>
+        <!-- this is a parent nav item without a child menu -->
+        <li class="sidebar-item border-top border-black">
+          <div class="sidebar-dropdown-header">
+            <a class="sidebar-nav-item " href="#">
+              <span>Parent Nav Item</span>
+            </a>
+          </div>
+        </li>
+        <!-- this is a parent nav item with a child menu -->
+        <li class="sidebar-item">
+          <div class="sidebar-dropdown-header">
+            <a class="sidebar-nav-item" href="#">
+              <span>Parent Nav Item</span>
+            </a>
+            <a class="sidebar-dropdown-header-expand" href="javascript://" role="button">
+              <span class="sr-only">Toggle Child Items</span>
+              <span class="fas fa-fw fa-angle-right" aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="sidebar-submenu">
+            <ul>
+              <li class="sidebar-item active">
+                <a class="sidebar-nav-item active" href="#">
+                  <span class="fas fa-fw fa-eye" aria-hidden="true"></span>
+                  <span>Child Nav Item</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar-footer">
+  </div>
+</nav>

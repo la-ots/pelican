@@ -1,13 +1,11 @@
 html,
 body {
   scroll-behavior: smooth;
-  @include bg-texture();
   min-height: 100vh;
 }
 
 body {
   background-color: $body-bg;
-  @include bg-texture();
 
   &.auth-page {
     background-color: $primary;
