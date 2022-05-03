@@ -17,13 +17,13 @@ eleventyNavigation:
 - Don’t replace Labels with placeholders.
 - Refrain from using placeholder attributes in inputs because they cause usability problems.
 - Ensure the `for` and `id` attributes have matching values. Note the code below.
-- Use a red asterisk (<span class="fas fa-asterisk text-danger"></span>) to denote required fields.
+- Use a red asterisk (<span class="fas fa-asterisk text-danger" aria-hidden="true"></span>) to denote required fields.
 
 ## Usage
 
 <div class="form-group">
   <label for="inputTextBox499">
-    <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Input Email Label
+    <span class="fas fa-asterisk text-danger mr-1" aria-hidden="true"></span>Input Email Label
   </label>
   <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
   <small>On mobile browsers this presents an email-optimized UI.</small>
@@ -32,7 +32,7 @@ eleventyNavigation:
 ```html
 <div class="form-group">
   <label for="inputTextBox499">
-      <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> Input Email Label
+      <span class="fas fa-asterisk text-danger mr-1" aria-hidden="true"></span>Input Email Label
     </label>
   <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
   <small>On mobile browsers this presents an email-optimized UI.</small>

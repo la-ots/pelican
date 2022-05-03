@@ -5,3 +5,7 @@
 .brand-link::after {
   display: none !important;
 }
+
+.pd-color-block {
+  height: 160px;
+}

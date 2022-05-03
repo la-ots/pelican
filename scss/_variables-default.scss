@@ -93,57 +93,6 @@ $theme-colors: map-merge(
 // options
 $enable-responsive-font-sizes: true;
 
-// ---
-// spacers
-$spacer: 1rem !default;
-$spacers: () !default;
-$spacers: map-merge(
-  (
-    0: 0,
-    1: ($spacer * 0.25),
-    2: ($spacer * 0.5),
-    3: ($spacer * 0.75),
-    4: ($spacer * 1),
-    5: ($spacer * 1.25),
-    6: ($spacer * 1.5),
-    7: ($spacer * 1.75),
-    8: ($spacer * 2),
-    9: ($spacer * 2.25),
-    10: ($spacer * 2.5),
-    11: ($spacer * 2.75),
-    12: ($spacer * 3),
-    13: ($spacer * 3.25),
-    14: ($spacer * 3.5),
-    15: ($spacer * 3.75),
-    16: ($spacer * 4),
-    17: ($spacer * 4.25),
-    18: ($spacer * 4.5),
-    19: ($spacer * 4.75),
-    20: ($spacer * 5),
-    21: ($spacer * 5.25),
-    22: ($spacer * 5.5),
-    23: ($spacer * 5.75),
-    24: ($spacer * 6),
-    25: ($spacer * 6.25),
-    26: ($spacer * 6.5),
-    27: ($spacer * 6.75),
-    28: ($spacer * 7),
-    29: ($spacer * 7.25),
-    30: ($spacer * 7.5),
-    31: ($spacer * 7.75),
-    32: ($spacer * 8),
-    33: ($spacer * 8.25),
-    34: ($spacer * 8.5),
-    35: ($spacer * 8.75),
-    36: ($spacer * 9),
-    37: ($spacer * 9.25),
-    38: ($spacer * 9.5),
-    39: ($spacer * 9.75),
-    40: ($spacer * 10),
-  ),
-  $spacers
-);
-
 // This variable affects the `.h-*` and `.w-*` classes.
 $sizes: () !default;
 $sizes: map-merge(
@@ -183,7 +132,7 @@ $display5-weight: 300 !default;
 $display6-weight: 300 !default;
 $display7-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
-$headings-margin-bottom: $spacer * .5 !default;
+$headings-margin-bottom: .5rem !default;
 $headings-font-family: "Public Sans" !default;
 $headings-font-weight: 700 !default;
 $headings-line-height: 1.2 !default;

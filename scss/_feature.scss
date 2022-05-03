@@ -1,7 +1,8 @@
 .feature-options-titles {
   h2,
   .h2 {
-    @extend .my-0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   h3,
@@ -11,7 +12,8 @@
 
   hr,
   .hr {
-    @extend .my-0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .feature-text-box-over-photo {
@@ -24,71 +26,96 @@
   @extend .bg-image-position-center;
 
   &-section {
-    @extend .p-5;
-    @extend .mt-4;
-    @extend .mr-0;
-    @extend .mb-4;
-    @extend .ml-38;
-    @extend .my-md-40;
-    @extend .mr-lg-0;
-    @extend .ml-lg-auto;
-
+    padding: 1.25rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-left: 9.5rem;
+    @include media-breakpoint-up(md){
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+    }
     @include media-breakpoint-up(lg) {
       flex: 0 1 50%;
+      margin-right: 0;
+      margin-left: auto;
     }
   }
 }
 
 .feature-icons-text {
-  @extend .py-16;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .feature-boxed-in-photo {
-  @extend .py-16;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .feature-cta {
   background-color: $white;
-  @extend .py-38;
+  padding-top: 9.5rem;
+  padding-bottom: 9.5rem;
   .feature-big-text {
     @extend .h2;
-    @extend .mb-4;
-    @extend .mb-md-0;
+    margin-bottom: 1rem;
     color: $primary;
+    @include media-breakpoint-up(md){
+      margin-bottom: 0;
+    }
   }
   .feature-small-text {
-    @extend .mb-4;
-    @extend .mb-md-0;
+    margin-bottom: 1rem;
     color: $primary;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
   }
 }
 .feature-cta-double {
-  background-color: $primary ;
-  @extend .py-20;
+  background-color: $primary;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   .feature-big-text {
     @extend .h2;
-    @extend .mb-4;
+    margin-bottom: 1rem;
     color: $white;
   }
   .feature-small-text {
     color: $white;
-    @extend .mb-4;
-    @extend .mb-lg-0;
+    margin-bottom: 1rem;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
+  }
+  .btn {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  @media screen and (min-width: 768px){
+    .btn {
+      display: inline;
+      margin-bottom: 0;
+    }
   }
 }
 .feature-icons-text {
-  @extend .py-16 ;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: $accent;
   .feature-big-text {
-    @extend .h2 ;
-    color: $white;
-    @extend .font-weight-bold ;
-    @extend .text-center ;
+    @extend .h2;
+    @extend .font-weight-bold;
+    @extend .text-center;
     @extend .text-lg-left;
+    color: $white;
   }
   .feature-small-text {
-    @extend .mb-8 ;
-    @extend .mb-lg-0 ;
+    margin-bottom: 2rem;
     color: $white;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
   }
   .feature-icons {
     @extend .display-4;
@@ -96,8 +123,10 @@
   }
 }
 .feature-languages {
-  @extend .p-lg-16;
   background-color: $secondary;
+  @include media-breakpoint-up(lg) {
+    padding: 4rem;
+  }
   .feature-big-text {
     @extend .h2;
     //this is redundant from the h2 inheritance above
@@ -109,48 +138,55 @@
   }
   .feature-item {
     @extend .rounded;
-    @extend .py-4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
     background-color: $white;
-    @extend .mt-4;
     p {
-      @extend .mb-0;
       @extend .h4;
       @extend .font-weight-light;
       @extend .text-center;
+      margin-bottom: 0;
     }
   }
 }
 .feature-many-icons {
-  @extend .p-4 ;
-  @extend .p-lg-16 ;
   background-color: $primary;
   color: $white;
+  padding: 1rem;
+  @include media-breakpoint-up(lg) {
+    padding: 4rem;
+  }
   .feature-big-text {
     @extend .h2;
-    @extend .mb-8;
-    @extend .mb-lg-0;
+    margin-bottom: 2rem;
     color: $white;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+    }
   }
   .feature-small-text {
-    @extend .mb-0;
+    margin-bottom: 0;
   }
 }
 .feature-set {
-  .content-container {
-    @extend .my-0;
+  padding: 1.5rem;
+  hr.minor{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .feature-big-text {
     @extend .h2;
     color: $primary;
   }
   .feature-lead-text {
-    @extend .mb-0;
+    margin-bottom: 0;
   }
   .feature-small-text {
-    @extend .mb-2;
+    margin-bottom: .5rem;
   }
   .feature-lead-icon {
     @extend .h4;
-    @extend .mb-2;
+    margin-bottom: .5rem;
   }
 }

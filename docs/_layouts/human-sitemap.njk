@@ -4,12 +4,12 @@ layout: default.njk
 {% set navPages = collections.all | eleventyNavigation %}
 {% include "page-title.njk" %}
 
-<div class="content-container">
+<div class="content-container mb-0">
   {% for entry in navPages %}
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <h2 class="h4 mt-10">
+        <h2 class="h4 mt-5">
           <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">{{ entry.title }}</a>
         </h2>
         <p class="lead">{{ entry.excerpt }}</p>
@@ -32,16 +32,18 @@ layout: default.njk
     {% endif %}
   </div>
   {% if not loop.last %}
-  <hr class="minor mt-8 mb-4">
+  <hr class="minor my-3">
   {% endif %}
   {% endfor %}
 </div>
 
-<div class="bg-secondary py-38 mt-n4 mb-n12">
+<div class="feature-cta bg-secondary">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <p class="h2 mb-6 text-primary">Start using Pelican.</p>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-10 col-md-6 text-center text-lg-left">
+        <p class="feature-big-text">Start using Pelican.</p>
+      </div>
+      <div class="col-10 col-md-6 text-center text-lg-right">
         <a href="/get-started" class="btn btn-primary btn-lg">Get started</a>
       </div>
     </div>

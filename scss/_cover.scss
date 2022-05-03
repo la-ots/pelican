@@ -1,22 +1,22 @@
 .cover-image-pull-quote {
-  color: $primary;
   @extend .lead;
+  color: $primary;
 }
 
 .cover-image-credit {
-  color: $ui;
   @extend .small;
-  @extend .mt-2;
   @extend .opacity-75;
+  color: $ui;
+  margin-top: .5rem;
 
   @include media-breakpoint-up(lg) {
     position: absolute;
-    bottom: $spacer;
-    left: $spacer;
+    bottom: 1rem;
+    left: 1rem;
   }
 }
 
 .cover-toc {
-  @extend .p-4;
   @extend .rounded;
+  padding: 1rem;
 }

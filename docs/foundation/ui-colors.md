@@ -15,10 +15,10 @@ eleventyNavigation:
 
 Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements. 
 
-<div class="row mb-12">
+<div class="row mb-5">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-ui rounded-top"></div>
+        <div class="card border-0">
+            <div class="bg-ui rounded-top pd-color-block"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI</p>
                 <p class="mb-0"><code>#6c757d</code></p>
@@ -27,8 +27,8 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-ui-light rounded-top"></div>
+        <div class="card border-0">
+            <div class="bg-ui-light rounded-top pd-color-block"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI Light</p>
                 <p class="mb-0"><code>#dee2e6</code></p>
@@ -37,8 +37,8 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0 mb-4">
-            <div class="py-20 bg-ui-priority rounded-top"></div>
+        <div class="card border-0">
+            <div class="bg-ui-priority rounded-top pd-color-block"></div>
             <div class="card-body">
                 <p class="mb-0 font-weight-bold">UI Priority</p>
                 <p class="mb-0"><code>#185ae3</code></p>
@@ -80,25 +80,25 @@ The UI Priority color is taken from calls to action and link colors around the w
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-    <table class="table table-light mb-8">
+    <table class="table table-light mb-5">
         <thead>
             <tr>
                 <th>Background Colors</th>
                 <th>Text Colors</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="h5">
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui">bg-ui</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
+                <td><span class="badge badge-ui">bg-ui</span></td>
+                <td><span class="badge bg-transparent text-ui">text-ui</span></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui-light">bg-ui-light</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-light">text-ui-light</span></td>
+                <td><span class="badge badge-ui-light">bg-ui-light</span></td>
+                <td><span class="badge bg-transparent text-ui-light">text-ui-light</span></td>
             </tr> 
             <tr>
-                <td><span class="badge badge-pill py-2 px-4 badge-ui-priority">bg-ui-priority</span></td>
-                <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui-priority">text-ui-priority</span></td>
+                <td><span class="badge badge-ui-priority">bg-ui-priority</span></td>
+                <td><span class="badge bg-transparent text-ui-priority">text-ui-priority</span></td>
             </tr>                                
         </tbody>
     </table>

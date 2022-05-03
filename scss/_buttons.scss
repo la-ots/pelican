@@ -52,12 +52,12 @@
 }
 
 .btn-container {
-  padding: $spacer * 0.5;
-  margin-top: $spacer;
-  margin-bottom: $spacer;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: $white;
   border: 2px solid $border-color;
-  border-radius: $spacer * 0.5;
+  border-radius: 0.5rem;
   .btn {
     width: 100%;
     &:not(:last-of-type) {
@@ -67,7 +67,7 @@
       box-shadow: none;
     }
     &.btn-link {
-      @extend .mr-0;
+      margin-right: 0;
     }
     @media screen and (min-width: 1024px){
       width: unset;
@@ -106,10 +106,12 @@
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
-  @extend .py-2;
-  @extend .my-2;
-  @extend .mb-0;
   @extend .shadow-none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  
 
   background-color: transparent;
   border: 2px dashed $gray-600;
@@ -117,8 +119,10 @@
   div {
     background-color: $ui;
     @extend .rounded-lg;
-    @extend .py-2;
-    @extend .px-3;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
 
   &:hover,
@@ -130,11 +134,11 @@
 .share-this {
   @extend .text-center;
   background-color: $white;
-  @extend .p-4;
+  padding: 1rem;
 
   small {
     @extend .small;
-    @extend .mb-2;
+    margin-bottom: .5rem;
     @extend .d-block;
   }
 
@@ -143,7 +147,8 @@
     @extend .btn-link;
     @extend .btn-lg;
     background-color: $white;
-    @extend .px-2;
+    padding-left: .5rem;
+    padding-right: .5rem;
   }
 }
 
@@ -185,12 +190,12 @@ p a {
   @extend .position-fixed;
   @extend .btn;
   @extend .btn-accent;
-  right: $spacer * 2;
-  bottom: $spacer * 5;
+  right: 2rem;
+  bottom: 5rem;
   z-index: $zindex-scroll-to-top;
 
   @include media-breakpoint-up(md) {
-    bottom: $spacer * 5;
+    bottom: 5rem;
   }
 }
 
@@ -204,7 +209,8 @@ p a {
 
 .btns-previous-next, .btns-previous-forward {
   .container-fluid {
-    @extend .py-12;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
   .btn {
     @extend .btn-lg;
@@ -212,12 +218,10 @@ p a {
 }
 
 .sidebar-button {
-  @extend .position-relative;
-  @extend .btn;
-  @extend .btn-link;
-  color: $white;
-  &:hover {
-    color: $white;
+  position: relative;
+  margin-right: .25rem;
+  @media screen and (min-width: 992px){
+    order: 1;
   }
 }
 

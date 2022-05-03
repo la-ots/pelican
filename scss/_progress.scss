@@ -1,31 +1,39 @@
 .progress-large {
-  @extend .border-bottom ;
-  @extend .border-primary-10 ;
-  @extend .py-4 ;
+  @extend .border-bottom;
+  @extend .border-primary-10;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: $white;
   .btn {
     @extend .shadow-none;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+  }
+  @media screen and (min-width: 768px) {
+    .btn {
+      margin-bottom: 0;
+    }
   }
 }
 .progress-info {
   @extend .d-flex;
 }
 .progress-description {
-  color: $primary;
-  @extend .mb-0 ;
   @extend .font-weight-bold;
-  @extend .mt-1;
-  @extend .pl-1;
+  color: $primary;
+  margin-bottom: 0;
+  margin-top: .25rem;
+  padding-left: .25rem;
 }
 .progress-description-counter {
   @extend .small;
-  color: fade-out($primary, .25);
   @extend .d-block;
-  @extend .pl-1;
+  color: fade-out($primary, .25);
+  padding-left: .25rem;
 }
 .progress-description-text {
-  color: $primary;
   @extend .d-block;
+  color: $primary;
 }
 .progress-step {
   position: relative;
