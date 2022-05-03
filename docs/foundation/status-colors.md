@@ -80,11 +80,11 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 The Warning color Indicates unintended, but not dangerous, effects of actions.
 
-- Often used to present remove actions from a list if it’s relatively easy to reinsert items in the list
-- Can be used to signal data actions authorized users can affect which could affect non-authorized users
-- Could be used to indicate waiting states in processes or multi-step forms
-- Should be used to inform the user of system-wide errors preventing some, if not all, features
-- Lighter and darker variations used for background and text colors in [Warning Alerts](/components/alerts/)
+- Often used to display destructive actions from a list if it’s relatively easy to reinsert items in the list.
+- Can be used to signal data actions authorized users can affect which could affect non-authorized users.
+- Could be used to indicate waiting states in processes or multi-step forms.
+- Should be used to inform the user of system-wide errors preventing some, if not all, features.
+- Lighter and darker variations used for background and text colors in [Warning Alerts](/components/alerts/).
 
 **Danger**
 

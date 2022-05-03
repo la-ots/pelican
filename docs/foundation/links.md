@@ -37,7 +37,7 @@ eleventyNavigation:
 
 ## Links with Button Appreance
 
-- Links may take the appearance of Buttons. [Read about about Buttons](/components/buttons) to learn about them.
+- Links may take the appearance of Buttons. [Read about Buttons](/components/buttons) to learn about them.
 
 ## External / Off-site links
 
