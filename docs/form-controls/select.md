@@ -21,7 +21,6 @@ eleventyNavigation:
 - If you need to include more than 15 possible options, let users type the information into a text input that suggests options.
 - Do not use this for navigation.
 - Use the first `option` to help inform the user of what they should do.
-- It’s not the same thing as the [Dropdown Button](/components/buttons/#dropdown-buttons).
 
 ## Usage
 
