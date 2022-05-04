@@ -18,6 +18,8 @@ eleventyNavigation:
 - If only one item can be selected, use [Radios](/form-controls/radios).
 - If the user needs to activate or deactivate something, use a [Switch](/form-controls/switches) instead.
 - Ensure the `id` of the input matches the `for` of the label.
+- Set a checkbox as the default choice by adding the `checked` attribute to it.
+- If a checkbox is required, add the `required` attribute to it.
 
 ## Usage
 
