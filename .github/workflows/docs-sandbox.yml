@@ -2,6 +2,7 @@ name: Deploy Docs to Sandbox
 
 on:
   pull_request:
+    branches: [ main ]
     
   workflow_dispatch:
 
