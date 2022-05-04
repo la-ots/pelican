@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Docs (vNext)
-      url: https://pelican-vnext.ots.la.gov
+      url: https://pelican-test.ots.la.gov
 
     strategy:
       matrix:
@@ -40,7 +40,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy to S3
-        run: aws s3 sync ./dist/docs/ s3://pelican-vnext.ots.la.gov --acl public-read
+        run: aws s3 sync ./dist/docs/ s3://pelican-test.ots.la.gov --acl public-read
 
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_VNEXT_DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_TEST_DISTRIBUTION_ID }} --paths "/*"
