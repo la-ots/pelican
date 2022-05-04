@@ -125,7 +125,7 @@
   }
   .hero-big-text {
     @extend .h2;
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
@@ -158,8 +158,8 @@
     z-index: 2;
   }
   .hero-big-text {
-    @extend .h2 ;
-    @extend .font-weight-bold ;
+    @extend .h2;
+    @extend .fw-bold;
     color: $white;
   }
   .hero-small-text {

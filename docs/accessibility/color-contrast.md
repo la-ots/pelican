@@ -34,7 +34,7 @@ eleventyNavigation:
           <p class="mb-0 text-center">Text</p>
         </div>
         <div class="p-4">
-          <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 4.5:1 Contrast ratio</p>
+          <p class="mb-0 fw-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 4.5:1 Contrast ratio</p>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@ eleventyNavigation:
           <p class="mb-0 text-center text-secondary-90" style="font-size: 24px; color: #734500!important;">Text</p>
         </div>
         <div class="p-4">
-          <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 3.78:1 Contrast ratio</p>
+          <p class="mb-0 fw-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 3.78:1 Contrast ratio</p>
         </div>
       </div>
     </div>
@@ -68,7 +68,7 @@ eleventyNavigation:
           <p class="mb-0 text-center">Text</p>
         </div>
         <div class="p-4">
-          <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger" aria-hidden="true"></span> 1.49:1 Contrast ratio</p>
+          <p class="mb-0 fw-bold"><span class="fas fa-times text-danger" aria-hidden="true"></span> 1.49:1 Contrast ratio</p>
         </div>
       </div>
     </div>
@@ -92,7 +92,7 @@ eleventyNavigation:
           </p>
         </div>
         <div class="p-4">
-          <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 9.77:1 Contrast ratio</p>
+          <p class="mb-0 fw-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 9.77:1 Contrast ratio</p>
         </div>
       </div>
     </div>
@@ -114,7 +114,7 @@ eleventyNavigation:
           </div>
         </div>
         <div class="p-4">
-          <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 3.13:1 Contrast ratio</p>
+          <p class="mb-0 fw-bold"><span class="fas fa-check text-success" aria-hidden="true"></span> 3.13:1 Contrast ratio</p>
         </div>
       </div>
     </div>
@@ -133,7 +133,7 @@ eleventyNavigation:
           </p>
         </div>
         <div class="p-4">
-          <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger" aria-hidden="true"></span> 1.02:1 Contrast ratio</p>
+          <p class="mb-0 fw-bold"><span class="fas fa-times text-danger" aria-hidden="true"></span> 1.02:1 Contrast ratio</p>
         </div>
       </div>
     </div>
