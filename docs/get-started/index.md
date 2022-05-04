@@ -19,7 +19,7 @@ Installation instructions for the latest version of the package can be found [on
 
 Included within the package are the following compiled CSS and JS builds:
 
-<div class="sr-only">
+<div class="visually-hidden">
   <ul>
     <li>pelican
       <ul>

@@ -102,7 +102,7 @@ index: true
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
           <span class="fas fa-question" aria-hidden="true"></span>
-          <span class="sr-only visually-hidden">Click to show Tooltip</span>
+          <span class="visually-hidden">Click to show Tooltip</span>
         </button>
       </div>
     </div>
@@ -129,7 +129,7 @@ index: true
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
           <span class="fas fa-question" aria-hidden="true"></span>
-          <span class="sr-only visually-hidden">Click to show popover</span>
+          <span class="visually-hidden">Click to show popover</span>
         </button>
       </div>
     </div>
