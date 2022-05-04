@@ -18,6 +18,8 @@ eleventyNavigation:
 - If space is limited, consider using a [Select](/form-controls/select).
 - If the user can select one or more options, use [Checkboxes](/form-controls/checkboxes).
 - Ensure the `id` of the input matches the `for` of the label.
+- Set a radio button as the default choice by adding the `checked` attribute to it.
+- If a radio button choice is required, add the `required` attribute on all radio buttons in a group.
 
 ## Usage
 

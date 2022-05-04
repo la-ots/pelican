@@ -58,7 +58,7 @@ Included within the package are the following compiled CSS and JS builds:
   </ul>
 </div>
 
-<div class="" aria-hidden="true">
+<div aria-hidden="true">
 <pre>
 pelican
 └── dist/
