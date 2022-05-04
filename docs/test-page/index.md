@@ -1,13 +1,9 @@
 ---
 title: Test Page
-summary: This test page is used to visuall check if CSS changes have unintended effects.
+summary: This test page is used to visually check if CSS changes have unintended effects.
 tags: test-page
 layout: test-page
 index: true
-## eleventyNavigation:
-##   key: Sitemap
-##   title: Sitemap
-##   order: 14
 ---
 
 {%- include 'markup/toast-info.njk'    -%}
@@ -104,7 +100,7 @@ index: true
         {%- include 'markup/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm mt-8" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show Tooltip</span>
         </button>
@@ -131,7 +127,7 @@ index: true
         {%- include 'markup/input-file.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm mt-8" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
+        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show popover</span>
         </button>
@@ -271,14 +267,14 @@ index: true
     <div class="col-12 col-lg-4">
       <div class="data-tile">
         <div class="data-tile-body">
-          <p class="fw-bold text-black mb-0">Label</p>
-          <hr class="minor my-2">
-          <p class="mb-0">Value</p>
+          <p class="fw-bold text-black">Label</p>
+          <hr class="minor">
+          <p>Value</p>
         </div>
       </div>
       {%- include 'markup/progress-small.njk' -%}
     </div>
-    <div class="col-12 col-lg-4">
+    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
       {%- include 'markup/share-social.njk' -%}
     </div>
   </div>
@@ -300,14 +296,14 @@ index: true
       <div class="col-12 col-lg-4">
         <div class="data-tile">
           <div class="data-tile-body">
-            <p class="fw-bold text-black mb-0">Label</p>
-            <hr class="minor my-2">
-            <p class="mb-0">Value</p>
+            <p class="fw-bold text-black">Label</p>
+            <hr class="minor">
+            <p>Value</p>
           </div>
         </div>
         {%- include 'markup/progress-small.njk' -%}
       </div>
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-lg-4 mt-3 mt-lg-0">
         {%- include 'markup/share-social.njk' -%}
       </div>
     </div>

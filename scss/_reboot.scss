@@ -2,10 +2,6 @@ html,
 body {
   scroll-behavior: smooth;
   min-height: 100vh;
-  @extend .bg-texture;
-}
-html {
-  background-color: $primary;
 }
 body {
   background-color: $body-bg;
