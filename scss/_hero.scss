@@ -142,7 +142,7 @@
   }
   .hero-big-text {
     @extend .h2;
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
     color: $white;
@@ -177,7 +177,7 @@
   }
   .hero-big-text {
     @extend .h2;
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     color: $white;
   }
   .hero-small-text {
