@@ -1,0 +1,46 @@
+name: Deploy Docs to Sandbox
+
+on:
+  pull_request:
+    branches: [ v2 ]
+    
+  workflow_dispatch:
+
+jobs:
+  build:
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: Docs (vNext)
+      url: https://pelican-vnext.ots.la.gov
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node Version ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Dependencies and Build
+        run: |
+          npm ci
+          npm run build-dist-docs
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Deploy to S3
+        run: aws s3 sync ./dist/docs/ s3://pelican-vnext.ots.la.gov --acl public-read
+
+      - name: Invalidate CloudFront Cache
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_VNEXT_DISTRIBUTION_ID }} --paths "/*"
