@@ -1,4 +1,4 @@
-name: Deploy Docs to Sandbox
+name: Deploy Docs to vNext
 
 on:
   pull_request:
