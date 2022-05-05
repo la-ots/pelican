@@ -45,9 +45,9 @@ Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/
 **Padding Classes**
 
 - Top: `pt-n`
-- Right: `pr-n`
+- Right: `pe-n`
 - Bottom: `pb-n`
-- Left: `pl-n`
+- Left: `ps-n`
 - Top and Bottom: `py-n`
 - Right and Left: `px-n`
 
