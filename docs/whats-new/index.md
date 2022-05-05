@@ -16,7 +16,21 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 1.0.0 — 31 January 2022
+## 1.1.0 - 05 May 2022
+
+A number of changes to clean up issues found since the last release. A lot of work on the documentation, to address typos, tone and add clarity. Fixed a few style issues that were noticed once it started being used that are being addressed here.
+
+- Fixes margin and padding across the design system, reducing package size. [92b1c11](https://github.com/la-ots/pelican/commit/92b1c11)
+- Add styles from Design System Site back into Pelican [7ce681c](https://github.com/la-ots/pelican/commit/7ce681c)
+- Fixes an issue with disabled toggles [f57d2e8](https://github.com/la-ots/pelican/commit/f57d2e8)
+- Fixed a padding issue with previous/next buttons [3d594f7](https://github.com/la-ots/pelican/commit/3d594f7)
+- Renamed previous/forward buttons to previous/next [789ead8](https://github.com/la-ots/pelican/commit/789ead8)
+- Adds disabled state for toggle-tokens [d200ae7](https://github.com/la-ots/pelican/commit/d200ae7)
+- Overriding hover state on sidebar buttons [0cf784d](https://github.com/la-ots/pelican/commit/0cf784d)
+- Documentation fixes and cleanup.
+- Dependency updates.
+
+## 1.0.0 — 15 February 2022
 
 - Version 1.0 released! See [Get Started](/get-started) to begin using Pelican Design System.
 - Content has been simplified and the guidance is easier to follow.
