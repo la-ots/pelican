@@ -47,7 +47,9 @@
     <meta property="twitter:image" content="/img/pelican-design-system-illustration.jpg">
   </head>
   <body class="bg-texture">
+    {% include 'markup/skip-link.njk' %}
     {{ content | safe }}
+    {% include 'markup/button-back-to-top.njk' %}
     {% if env.production %}
       <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>
       <script src="{{ '/js/default.js' | addHash }}"></script>

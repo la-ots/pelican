@@ -106,6 +106,9 @@ navDropdownLinks.forEach((dropdownItem) => {
   };
 });
 
+window.onload = () => {
+  scrollFunction();
+};
 window.onscroll = () => {
   scrollFunction();
 };
