@@ -53,7 +53,7 @@ Small tags `<small>` allow text to be presented in smaller size in a logical con
 
 ## Lists
 
-Lists are used to present elements in a collection. These may be bullet points or a numeric list. When writing lists, try to do the following when possible:
+Lists are used to present elements in a collection. These may be bullet points numeric list. When writing lists, try to do the following when possible:
 
 * Try to keep the same approximate line lengths and phrasing.
 * Try to avoid repeating the same word at the beginning of each list item.
@@ -78,7 +78,7 @@ Use **Unordered** lists when the order of items does not matter.
 
 **Use Span for Inline Style**
 
-Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
+Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics.This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
 
 ```html
 Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
