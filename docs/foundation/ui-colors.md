@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements. 
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
             <div class="bg-ui rounded-top pd-color-block"></div>
@@ -80,7 +80,7 @@ The UI Priority color is taken from calls to action and link colors around the w
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-    <table class="table table-light mb-5">
+    <table class="table table-light mb-12">
         <thead>
             <tr>
                 <th>Background Colors</th>

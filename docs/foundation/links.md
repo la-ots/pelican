@@ -18,7 +18,7 @@ eleventyNavigation:
 - The text in the link should communicate the link’s destination.
 - Refrain from generic link text such as “click here”.
 
-<div class="row mb-4">
+<div class="row mb-6">
   <div class="col-lg-6">
     <p class="mb-2"><em>A clear example:</em></p>
     Search engines allow us to find<a href="https://www.google.com/search?q=cats" target="_blank"> information about cats</a>.
