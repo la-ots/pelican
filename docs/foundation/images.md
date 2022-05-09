@@ -74,6 +74,6 @@ When writing alt text, keep the following in mind:
 
 ## Resources
 
-- <a href="https://www.washington.edu/doit/how-long-can-alt-attribute-be" target="_blank">Alt Text Length, Washington.edu</a>
 - <a href="https://webaim.org/techniques/alttext/" target="_blank">WebAIM: Alternate Text</a>
+- <a href="https://www.washington.edu/doit/how-long-can-alt-attribute-be" target="_blank">Alt Text Length, Washington.edu</a>
 - <a href="https://usability.yale.edu/web-accessibility/articles/images" target="_blank">Images, Yale Usability</a>
