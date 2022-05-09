@@ -275,7 +275,7 @@ index: true
       </div>
       {%- include 'markup/progress-small.njk' -%}
     </div>
-    <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+    <div class="col-12 col-lg-4 mt-4 mt-lg-0">
       {%- include 'markup/share-social.njk' -%}
     </div>
   </div>
@@ -304,7 +304,7 @@ index: true
         </div>
         {%- include 'markup/progress-small.njk' -%}
       </div>
-      <div class="col-12 col-lg-4 mt-3 mt-lg-0">
+      <div class="col-12 col-lg-4 mt-4 mt-lg-0">
         {%- include 'markup/share-social.njk' -%}
       </div>
     </div>

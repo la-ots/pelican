@@ -38,7 +38,7 @@ Pelican provides a way to change the following theme aspects when appropriate. T
 
 To change background or text color, change the class name representing the color you want to change. Consider [Color Contrast](/accessibility/color-contrast/) when you change these classes. For example, changing `bg-primary` to `bg-secondary` will change the background color from the primary to the secondary color. Changing `text-secondary` to `text-primary` will change the text color. Compare the cards below.
 
-<div class="row px-3 mb-6">
+<div class="row px-4 mb-6">
   <div class="col-12 col-md-6">
     <div class="card bg-primary text-primary-10">
       <div class="card-body">
@@ -88,7 +88,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 
 In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
 
-<div class="row px-3 mb-6">
+<div class="row px-4 mb-6">
   <div class="col-12">
     <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
     <button type="button" class="btn btn-success">Good Action Button</button>
