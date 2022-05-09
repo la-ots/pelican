@@ -199,7 +199,7 @@ index: true
         {%- include 'markup/sample-table.njk' -%}
       </div>
     </div>
-    <div class="row mb-n6">
+    <div class="row">
       <div class="col-12">
         <hr class="minor">
       </div>
