@@ -19,15 +19,15 @@ Padding is the space inside of something, putting space between its edges and it
 
 These two boxes have margins around them and padding inside of them.
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 mb-4 mb-lg-0">
-        <div class="p-5 bg-ui text-white rounded-lg">
+        <div class="p-12 bg-ui text-white rounded-lg">
             <p>There are 32 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
             <p>There are 15 pixels of margin to the right. This can also be called “margin-right”.</p>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="p-5 bg-ui text-white rounded-lg">
+        <div class="p-12 bg-ui text-white rounded-lg">
             <p>There are 32 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
             <p>There are 15 pixels of margin to the left. This can also be called “margin-left”.</p>
         </div>

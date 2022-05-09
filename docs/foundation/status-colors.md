@@ -19,7 +19,7 @@ Status colors should not be the sole way statuses are communicated to users. How
 
 Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Content must clearly relate to the chosen Status color.
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
             <div class="bg-success rounded-top pd-color-block"></div>
@@ -107,7 +107,7 @@ The Info color indicates informative or helpful information.
 
 **Success Status Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
             <div class="bg-success rounded-top pd-color-block"></div>
@@ -142,7 +142,7 @@ The Info color indicates informative or helpful information.
 
 **Warning Status Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
             <div class="bg-warning rounded-top pd-color-block"></div>
@@ -177,7 +177,7 @@ The Info color indicates informative or helpful information.
 
 **Danger Status Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
             <div class="bg-danger rounded-top pd-color-block"></div>
@@ -212,7 +212,7 @@ The Info color indicates informative or helpful information.
 
 **Info Status Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
             <div class="bg-info rounded-top pd-color-block"></div>
@@ -250,7 +250,7 @@ The Info color indicates informative or helpful information.
 The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-    <table class="table table-light mb-5">
+    <table class="table table-light mb-12">
         <thead>
             <tr>
                 <th>Background Colors</th>

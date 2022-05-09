@@ -14,7 +14,7 @@ eleventyNavigation:
 
 Brand colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default brand colors. These colors are based upon Louisiana’s official colors.
 
-<div class="row mb-5">
+<div class="row mb-12">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
       <div class="bg-primary rounded-top pd-color-block"></div>
@@ -71,7 +71,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 **Primary Brand Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
       <div class="bg-primary rounded-top pd-color-block"></div>
@@ -118,7 +118,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 **Secondary Brand Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
       <div class="bg-secondary rounded-top pd-color-block"></div>
@@ -165,7 +165,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 
 **Accent Brand Colors**
 
-<div class="row mb-5">
+<div class="row mb-12">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">
       <div class="bg-accent rounded-top pd-color-block"></div>
@@ -215,7 +215,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
 You’ll change background and text colors by using the following classes. Consult [Agency Themes](/foundation/agency-theming/) for more information.
 
 <div class="table-responsive">
-  <table class="table mb-5">
+  <table class="table mb-12">
     <thead>
       <tr>
         <th scope="col" id="brand-color">Brand Color</th>

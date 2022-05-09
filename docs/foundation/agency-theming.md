@@ -63,7 +63,7 @@ Brand first is not necessarily accessibility or usability first. Designing with 
 
 Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
 
-<div class="row mb-5">
+<div class="row mb-12">
   <div class="col-md-6">
     <div class="card border-0">
       <div class="rounded-top pd-color-block" style="background-color: #198754;"></div>
