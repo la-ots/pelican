@@ -6,7 +6,7 @@ let footer = document.getElementById("footer");
 let navToggler = document.getElementById("site-toggler");
 let navDropdownLinks = document.querySelectorAll(".site-nav-dropdown-header-expand");
 
-let scrollToTop = document.getElementById("ScrollToTop");
+let scrollToTop = document.getElementsByClassName("btn-scroll-top")[0];
 
 let slideUp = (target, duration = 500) => {
   target.style.transitionProperty = "height, margin, padding";

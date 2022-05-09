@@ -1,9 +1,5 @@
 .modal-content {
   border: $card-border-width solid $card-border-color;
-  .close {
-    @extend .position-relative;
-    opacity: 1;
-  }
 }
 .modal-title {
   color: $primary;

@@ -129,7 +129,7 @@ p a {
   }
 }
 
-#ScrollToTop, .btn-scroll-top {
+.btn-scroll-top {
   @extend .position-fixed;
   right: $spacer * 2;
   bottom: $spacer * 5;
@@ -155,13 +155,3 @@ p a {
     @extend .btn-lg;
   }
 }
-
-// .sidebar-button {
-//   @extend .position-relative;
-//   @extend .btn;
-//   @extend .btn-link;
-//   color: $white;
-//   &:hover {
-//     color: $white;
-//   }
-// }
