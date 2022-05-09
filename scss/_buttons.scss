@@ -133,7 +133,7 @@ p a {
   }
 }
 
-#ScrollToTop, .btn-scroll-top {
+.btn-scroll-top {
   @extend .position-fixed;
   right: 2rem;
   bottom: 5rem;

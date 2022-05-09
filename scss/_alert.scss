@@ -19,10 +19,6 @@
   .alert-link {
     color: $warning-900;
   }
-  .close {
-    color: $warning-900;
-    opacity: 1;
-  }
 }
 .alert-danger {
   color: $danger-900;
@@ -30,10 +26,6 @@
   border: $danger-900 $border-style $border-width;
   .alert-link {
     color: $danger-900;
-  }
-  .close {
-    color: $danger-900;
-    opacity: 1;
   }
 }
 .alert-success {
@@ -43,10 +35,6 @@
   .alert-link {
     color: $success-900;
   }
-  .close {
-    color: $success-900;
-    opacity: 1;
-  }
 }
 .alert-info {
   color: $info-900;
@@ -54,9 +42,5 @@
   border: $info-900 $border-style $border-width;
   .alert-link {
     color: $info-900;
-  }
-  .close {
-    color: $info-900;
-    opacity: 1;
   }
 }

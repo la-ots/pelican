@@ -17,12 +17,6 @@
     &:hover,
     &:active {
       text-decoration: none;
-  }
-  }
-  &.badge-primary, &.badge-secondary, &.badge-ui, &.badge-info, &.badge-success, &.badge-danger{
-    color: $white;
-  }
-  &.badge-accent, &.badge-warning {
-    color: $black;
+    }
   }
 }

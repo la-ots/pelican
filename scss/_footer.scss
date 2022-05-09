@@ -11,10 +11,6 @@ footer, .footer {
     @extend .position-relative;
     svg {
       width: 100%;
-      .mark,
-      .type {
-        fill: $white;
-      }
     }
   }
   &.footer-basic   {

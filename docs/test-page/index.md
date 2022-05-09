@@ -2,7 +2,7 @@
 title: Test Page
 summary: This test page is used to visuall check if CSS changes have unintended effects.
 tags: test-page
-layout: test-page
+layout: default-minimal
 index: true
 ## eleventyNavigation:
 ##   key: Sitemap
@@ -10,9 +10,30 @@ index: true
 ##   order: 14
 ---
 
+<!-- this style is only for the test page -->
+<style scoped>
+  .toast         {
+    position: fixed;
+    right: 10px;
+    z-index: 3000;
+    width: 300px;
+  }
+  .toast-info    {
+    top: 20px;
+  }
+  .toast-danger  {
+    top: 110px;
+  }
+  .toast-success {
+    top: 200px;
+  }
+</style>
+
 {%- include 'markup/toast-info.njk'    -%}
 {%- include 'markup/toast-danger.njk'  -%}
 {%- include 'markup/toast-success.njk' -%}
+
+{% include "markup/breadcrumbs.njk" %}
 
 <!-- page title -->
 <div class="page-title">
