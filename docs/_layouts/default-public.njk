@@ -2,12 +2,10 @@
 layout: base.njk
 ---
 
-{% include 'markup/skip-link.njk' %}
 <div id="site-container" class="site-container">
   {% include 'markup/navbar-basic.njk' %}
-  <main id="main" class="site-main no-side-toggle">          
+  <main id="main" class="site-main no-side-toggle" style="padding-top: 0;">          
     {{ content | safe }}
   </main>
   {% include 'markup/footer-utility.njk' %}
 </div>
-{% include 'markup/button-back-to-top.njk' %}
