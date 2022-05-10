@@ -12,7 +12,7 @@
 /* adding padding-x at larger sizes */
 /* this applies only to this site */
 @media screen and (min-width: 1200px){
-  .container-fluid, .container-xl, .breadcrumb {
+  .container-fluid, .breadcrumb {
     padding-right: 24px;
     padding-left:  24px;
   }
