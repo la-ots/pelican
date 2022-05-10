@@ -98,18 +98,6 @@
   }
 }
 
-.sidebar-wrapper .sidebar-brand > a {
-  @extend .position-relative;
-  flex-grow: 1;
-  font-weight: 700;
-}
-
-#close-sidebar {
-  flex: 0 0 30px;
-  font-size: 20px;
-  text-align: center;
-  cursor: pointer;
-}
 .site-nav-header {
   padding: 20px;
   overflow: hidden;
