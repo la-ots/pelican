@@ -323,3 +323,15 @@ iframe {
     border-color: $danger-10;
   }
 }
+// adding padding-x at larger sizes
+// this applies across all products using pelican
+// @include media-breakpoint-up(xl){
+//   .container-fluid, .container-xl, .breadcrumb {
+//     padding-right: 24px;
+//     padding-left:  24px;
+//   }
+//   .wrapper-topbar {
+//     padding-left:  14px;
+//     padding-right: 14px;
+//   }
+// }
