@@ -5,7 +5,9 @@
 .brand-link::after {
   display: none !important;
 }
-
+#resources + ul li a {
+  text-decoration: none;
+}
 .pd-color-block {
   height: 160px;
 }
