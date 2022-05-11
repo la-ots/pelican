@@ -1,17 +1,10 @@
 <div class="card">
   <div class="card-body">
-    <div class="row">
-      <div class="col-12">
-        <h3 class="h3 mb-6 text-primary">
-          <span class="fas fa-user-shield" aria-hidden="true"></span> Create User ID &amp; Password
-        </h3>
-      </div>
-      <div class="col-12">
-        <p>We need to get some information to start. We&rsquo;ll ask you to create a User ID, and a Password.</p>
-        <p class="small">If there&rsquo;s an asterisk <span class="fas fa-asterisk text-danger" aria-hidden="true"></span> we have to get
-          that information.</p>
-      </div>
-    </div>
+    <h3 class="h3 mb-6 text-primary">
+      <span class="fas fa-user-shield" aria-hidden="true"></span> Create User ID &amp; Password
+    </h3>
+    <p>We need to get some information to start. We&rsquo;ll ask you to create a User ID, and a Password.</p>
+    {%- include 'markup/form-required-message.njk' -%}
     <div class="row">
       <div class="col-12">
         <div class="form-group">
