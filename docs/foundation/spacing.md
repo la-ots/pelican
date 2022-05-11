@@ -45,18 +45,18 @@ Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/
 **Padding Classes**
 
 - Top: `pt-n`
-- Right: `pr-n`
+- Right: `pe-n`
 - Bottom: `pb-n`
-- Left: `pl-n`
+- Left: `ps-n`
 - Top and Bottom: `py-n`
 - Right and Left: `px-n`
 
 **Margin Classes**
 
 - Top: `mt-n`
-- Right: `mr-n`
+- Right: `me-n`
 - Bottom: `mb-n`
-- Left: `ml-n`
+- Left: `ms-n`
 - Top and Bottom: `my-n`
 - Right and Left: `mx-n`
 

@@ -25,7 +25,7 @@ eleventyNavigation:
 
 ## Color Contrast
 * <a href="https://webaim.org/resources/contrastchecker/" target="_blank" class="text-decoration-none">WebAIM Contrast Checker</a>
-<a href="https://www.w3.org/TR/WCAG21/" target="_blank" class="text-decoration-none">Web Content Accessibility Guidelines (WCAG) 2.1</a>
+* <a href="https://www.w3.org/TR/WCAG21/" target="_blank" class="text-decoration-none">Web Content Accessibility Guidelines (WCAG) 2.1</a>
 * <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" class="text-decoration-none">Dyslexia Friendly Style Guide</a>
 
 ## Design Resources
