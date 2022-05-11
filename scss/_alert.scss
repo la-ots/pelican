@@ -6,11 +6,6 @@
     top: 22px; left:16px;
     width: 18px; height: 18px;
   }
-  .btn-close {
-    @extend .position-absolute;
-    top: 14px; right: 16px;
-    width: 21px; height: 21px;
-  }
 }
 .alert-warning {
   color: $warning-900;

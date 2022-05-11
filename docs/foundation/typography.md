@@ -62,18 +62,46 @@ Lists are used to present elements in a collection. These may be bullet points n
 
 Use **Ordered** lists when the order of items is important.
 
-{% include 'markup/list-ordered.njk' %}
+<ol>
+  <li>Define the Problem</li>
+  <li>Conduct Research</li>
+  <li>Brainstorm and Conceptualize</li>
+  <li>Create Prototype</li>
+  <li>Build Product</li>
+  <li>Product Analysis</li>
+  <li>Troubleshooting</li>
+</ol>
 
 ``` html
-{% include 'markup/list-ordered.njk' %}
+<ol>
+  <li>Define the Problem</li>
+  <li>Conduct Research</li>
+  <li>Brainstorm and Conceptualize</li>
+  <li>Create Prototype</li>
+  <li>Build Product</li>
+  <li>Product Analysis</li>
+  <li>Troubleshooting</li>
+</ol>
 ```
 
 Use **Unordered** lists when the order of items does not matter.
 
-{% include 'markup/list-unordered.njk' %}
+<ul>
+  <li>Pizza</li>
+  <li>Tacos</li>
+  <li>Burgers</li>
+  <li>Pie</li>
+  <li>Ice Cream</li>
+</ul>
 
 ``` html
-{% include 'markup/list-unordered.njk' %}
+<ul>
+  <li>Pizza</li>
+  <li>Tacos</li>
+  <li>Burgers</li>
+  <li>Pie</li>
+  <li>Ice Cream</li>
+</ul>
 ```
 
 **Use Span for Inline Style**
