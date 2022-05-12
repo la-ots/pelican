@@ -44,7 +44,7 @@ eleventyNavigation:
           <span class="fas fa-check me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-secondary text-white pd-color-block" style="font-size: 24px; color: #734500!important;">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-accent text-white pd-color-block" style="font-size: 24px; color: #734500!important;">
         <p class="mb-0 text-center text-secondary-90">Text</p>
       </div>
       <div class="card-body">
@@ -81,7 +81,7 @@ eleventyNavigation:
       </div>
       <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block">
         <p class="mb-0 text-center">
-          <button type="button" class="btn btn-secondary">Button Text</button>
+          <button type="button" class="btn btn-accent">Button Text</button>
         </p>
       </div>
       <div class="card-body">
