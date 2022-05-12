@@ -1,68 +1,46 @@
 <div class="content-container">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <ul class="nav nav-pills nav-pills-tabs mb-1" id="UserInfosTabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="Tab1Control" data-bs-toggle="pill" href="#Tab1Content" role="tab" aria-controls="Tab1Content" aria-selected="true">
-              Tab 1
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="Tab2Control" data-bs-toggle="pill" href="#Tab2Content" role="tab" aria-controls="Tab2Content" aria-selected="false">
-              Tab 2
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="Tab3Control" data-bs-toggle="pill" href="#Tab3Content" role="tab" aria-controls="Tab3Content" aria-selected="false">
-              Tab 3
-            </a>
-          </li>
-        </ul>
+    <ul class="nav nav-pills nav-pills-tabs mb-1" id="UserInfosTabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="Tab1Control" data-bs-toggle="pill" href="#Tab1Content" role="tab" aria-controls="Tab1Content" aria-selected="true">
+          Tab 1
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="Tab2Control" data-bs-toggle="pill" href="#Tab2Content" role="tab" aria-controls="Tab2Content" aria-selected="false">
+          Tab 2
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="Tab3Control" data-bs-toggle="pill" href="#Tab3Content" role="tab" aria-controls="Tab3Content" aria-selected="false">
+          Tab 3
+        </a>
+      </li>
+    </ul>
+    <div class="tab-content mt-4">
+      <div id="Tab1Content" class="tab-pane fade show active">
+        <p class="h4 text-primary">
+          Tab 1
+        </p>
+        <p class="lead">I am content in a tabbed content section.</p>
+        <partial name="uiparts/_Name" />
+        <p>Other content fits into here too. From rows and columns to paragraphs to forms.</p>
       </div>
-    </div>
-  </div>
-  <div class="tab-content mt-4">
-    <div id="Tab1Content" class="tab-pane fade show active">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <p class="h4 text-primary">
-              Tab 1
-            </p>
-            <p class="lead">I am content in a tabbed content section.</p>
-            <partial name="uiparts/_Name"/>
-            <p>Other content fits into here too. From rows and columns to paragraphs to forms.</p>
-          </div>
-        </div>
+      <div id="Tab2Content" class="tab-pane fade">
+        <p class="h4 text-primary">
+          Tab 2
+        </p>
+        <p class="lead">I am content in a tabbed content section.</p>
+        <partial name="uiparts/_Name" />
+        <p>Other content fits into here too.</p>
       </div>
-    </div>
-    <div id="Tab2Content" class="tab-pane fade">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <p class="h4 text-primary">
-              Tab 2
-            </p>
-            <p class="lead">I am content in a tabbed content section.</p>
-            <partial name="uiparts/_Name"/>
-            <p>Other content fits into here too.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="Tab3Content" class="tab-pane fade">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <p class="h4 text-primary">
-              Tab 3
-            </p>
-            <p class="lead">I am content in a tabbed content section.</p>
-            <partial name="uiparts/_Name"/>
-            <p>Other content fits into here too.</p>
-          </div>
-        </div>
+      <div id="Tab3Content" class="tab-pane fade">
+        <p class="h4 text-primary">
+          Tab 3
+        </p>
+        <p class="lead">I am content in a tabbed content section.</p>
+        <partial name="uiparts/_Name" />
+        <p>Other content fits into here too.</p>
       </div>
     </div>
   </div>

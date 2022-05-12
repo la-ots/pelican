@@ -1,62 +1,43 @@
 <div class="content-container ">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <ul class="nav nav-tabs" id="tabset2" role="tablist">
-          <li class="nav-item" role="presentation">
-            <a data-bs-toggle="tab" aria-controls="#Tab1TraditionalContent" aria-selected="true" class="nav-link active" href="#Tab1TraditionalContent">Active</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a data-bs-toggle="tab" aria-controls="#Tab2TraditionalContent" aria-selected="false" class="nav-link" href="#Tab2TraditionalContent">Link</a>
-          </li>
-          <li class="nav-item" role="presentation">
-            <a data-bs-toggle="tab" aria-controls="#Tab3TraditionalContent" aria-selected="false" class="nav-link" href="#Tab3TraditionalContent">Link</a>
-          </li>
-        </ul>
+    <ul class="nav nav-tabs" id="tabset2" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a data-bs-toggle="tab" aria-controls="#Tab1TraditionalContent" aria-selected="true" class="nav-link active"
+          href="#Tab1TraditionalContent">Active</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a data-bs-toggle="tab" aria-controls="#Tab2TraditionalContent" aria-selected="false" class="nav-link"
+          href="#Tab2TraditionalContent">Link</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a data-bs-toggle="tab" aria-controls="#Tab3TraditionalContent" aria-selected="false" class="nav-link"
+          href="#Tab3TraditionalContent">Link</a>
+      </li>
+    </ul>
+    <div class="tab-content mt-4">
+      <div id="Tab1TraditionalContent" class="tab-pane fade show active">
+        <p class="h4 text-primary">
+          Tab 1
+        </p>
+        <p class="lead">I am content in a tabbed content section.</p>
+        <partial name="uiparts/_Name" />
+        <p>Other content fits into here too. From rows and columns to paragraphs to forms.</p>
       </div>
-    </div>
-  </div>
-  <div class="tab-content mt-4">
-    <div id="Tab1TraditionalContent" class="tab-pane fade show active">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <p class="h4 text-primary">
-              Tab 1
-            </p>
-            <p class="lead">I am content in a tabbed content section.</p>
-            <partial name="uiparts/_Name"/>
-            <p>Other content fits into here too. From rows and columns to paragraphs to forms.</p>
-          </div>
-        </div>
+      <div id="Tab2TraditionalContent" class="tab-pane fade">
+        <p class="h4 text-primary">
+          Tab 2
+        </p>
+        <p class="lead">I am content in a tabbed content section.</p>
+        <partial name="uiparts/_Name" />
+        <p>Other content fits into here too.</p>
       </div>
-    </div>
-    <div id="Tab2TraditionalContent" class="tab-pane fade">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <p class="h4 text-primary">
-              Tab 2
-            </p>
-            <p class="lead">I am content in a tabbed content section.</p>
-            <partial name="uiparts/_Name"/>
-            <p>Other content fits into here too.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="Tab3TraditionalContent" class="tab-pane fade">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <p class="h4 text-primary">
-              Tab 3
-            </p>
-            <p class="lead">I am content in a tabbed content section.</p>
-            <partial name="uiparts/_Name"/>
-            <p>Other content fits into here too.</p>
-          </div>
-        </div>
+      <div id="Tab3TraditionalContent" class="tab-pane fade">
+        <p class="h4 text-primary">
+          Tab 3
+        </p>
+        <p class="lead">I am content in a tabbed content section.</p>
+        <partial name="uiparts/_Name" />
+        <p>Other content fits into here too.</p>
       </div>
     </div>
   </div>
