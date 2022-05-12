@@ -47,7 +47,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body p-0">
-        <div class="d-flex flex-column justify-content-center align-items-center  px-4 bg-secondary text-white" style="height: 100px; ">
+        <div class="d-flex flex-column justify-content-center align-items-center px-4 bg-accent text-white" style="height: 100px; ">
           <p class="mb-0 text-center text-secondary-90" style="font-size: 24px; color: #734500!important;">Text</p>
         </div>
         <div class="p-4">
@@ -86,9 +86,9 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body p-0">
-        <div class="d-flex flex-column justify-content-center align-items-center  px-4 bg-black text-white" style="height: 100px; ">
+        <div class="d-flex flex-column justify-content-center align-items-center px-4 bg-black text-white" style="height: 100px; ">
           <p class="mb-0 text-center">
-            <button type="button" class="btn btn-secondary">Button Text</button>
+            <button type="button" class="btn btn-accent">Button Text</button>
           </p>
         </div>
         <div class="p-4">

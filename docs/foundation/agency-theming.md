@@ -67,7 +67,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 
 <div class="row mb-12">
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card border-0 mb-4">
       <div class="py-20 rounded-top" style="background-color: #198754;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Example Brand</p>
@@ -77,7 +77,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
     </div>
   </div>
   <div class="col-md-6">
-    <div class="card mb-4">
+    <div class="card border-0 mb-4">
       <div class="py-20 bg-success rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Status Success</p>

@@ -16,7 +16,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
 
 <div class="row">
   <div class="col-md-6 col-xl-4">
-    <div class="card mb-4">
+    <div class="card border-0 mb-4">
       <div class="py-20 bg-primary rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Primary</p>
@@ -26,7 +26,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card mb-4">
+    <div class="card border-0 mb-4">
       <div class="py-20 bg-secondary rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary</p>
@@ -36,7 +36,7 @@ Brand colors are the colors featured in an agency’s logo and other aspects of 
     </div>
   </div>
   <div class="col-md-6 col-xl-4">
-    <div class="card mb-4">
+    <div class="card border-0 mb-4">
       <div class="py-20 bg-accent rounded-top"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Accent</p>
