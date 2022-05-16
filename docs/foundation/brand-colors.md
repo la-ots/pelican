@@ -88,23 +88,23 @@ You’ll change background and text colors by using the following classes. Consu
       <tbody>
         <tr>
           <th scope="row" id="Primary">Primary</th>
-          <td headers="primary background-color" class="h5"><span class="badge badge-primary">bg-primary</span></td>
+          <td headers="primary background-color"><span class="h5"><span class="badge badge-primary">bg-primary</span></span></td>
           <td headers="primary background-color-class"><code>bg-primary</code></td>
-          <td headers="primary text-color" class="h5"><span class="badge text-primary">text-primary</span></td>
+          <td headers="primary text-color"><span class="h5"><span class="badge text-primary">text-primary</span></span></td>
           <td headers="primary text-color-class"><code>text-primary</code></td>
         </tr>
         <tr>
           <th scope="row" id="Secondary">Secondary</th>
-          <td headers="secondary background-color" class="h5"><span class="badge badge-secondary">bg-secondary</span></td>
+          <td headers="secondary background-color"><span class="h5"><span class="badge badge-secondary">bg-secondary</span></span></td>
           <td headers="secondary background-color-class"><code>bg-secondary</code></td>
-          <td headers="secondary text-color" class="h5"><span class="badge text-secondary">text-secondary</span></td>
+          <td headers="secondary text-color"><span class="h5"><span class="badge text-secondary">text-secondary</span></span></td>
           <td headers="secondary text-color-class"><code>text-secondary</code></td>
         </tr>
         <tr>
           <th scope="row" id="Accent">Accent</th>
-          <td headers="accent background-color" class="h5"><span class="badge badge-accent">bg-accent</span></td>
+          <td headers="accent background-color"><span class="h5"><span class="badge badge-accent">bg-accent</span></span></td>
           <td headers="accent background-color-class"><code>bg-accent</code></td>
-          <td headers="accent text-color" class="h5"><span class="badge text-accent">text-accent</span></td>
+          <td headers="accent text-color"><span class="h5"><span class="badge text-accent">text-accent</span></span></td>
           <td headers="accent text-color-class"><code>text-accent</code></td>
         </tr>                   
       </tbody>

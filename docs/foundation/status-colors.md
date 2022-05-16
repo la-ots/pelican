@@ -113,22 +113,22 @@ The Status Colors are implemented as background colors and as text colors. The c
         <th>Text Colors</th>
       </tr>
     </thead>
-    <tbody class="h5">
+    <tbody>
       <tr>
-        <td><span class="badge badge-success">bg-success</span></td>
-        <td><span class="badge bg-transparent text-success">text-success</span></td>
+        <td><span class="h5"><span class="badge badge-success">bg-success</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-success">text-success</span></span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-warning">bg-warning</span></td>
-        <td><span class="badge bg-transparent text-warning">text-warning</span></td>
+        <td><span class="h5"><span class="badge badge-warning">bg-warning</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-warning">text-warning</span></span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-danger">bg-danger</span></td>
-        <td><span class="badge bg-transparent text-danger">text-danger</span></td>
+        <td><span class="h5"><span class="badge badge-danger">bg-danger</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-danger">text-danger</span></span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-info">bg-info</span></td>
-        <td><span class="badge bg-transparent text-info">text-info</span></td>
+        <td><span class="h5"><span class="badge badge-info">bg-info</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-info">text-info</span></span></td>
       </tr>                 
     </tbody>
   </table>

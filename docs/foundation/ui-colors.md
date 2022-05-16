@@ -52,10 +52,10 @@ The UI Colors are implemented as background colors and as text colors. The class
         <th>Text Colors</th>
       </tr>
     </thead>
-    <tbody class="h5">
+    <tbody>
       <tr>
-        <td><span class="badge badge-ui">bg-ui</span></td>
-        <td><span class="badge bg-transparent text-ui">text-ui</span></td>
+        <td><span class="h5"><span class="badge badge-ui">bg-ui</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-ui">text-ui</span></span></td>
       </tr>                             
     </tbody>
   </table>
