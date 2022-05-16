@@ -23,9 +23,9 @@ eleventyNavigation:
 
 <div class="data-tile">
   <div class="data-tile-body">
-    <p class="data-tile-title mb-0">Label</p>
-    <hr class="minor my-2">
-    <p class="mb-0">Value</p>
+    <p class="data-tile-title">Label</p>
+    <hr class="minor">
+    <p>Value</p>
   </div>
 </div>
 
@@ -33,9 +33,9 @@ eleventyNavigation:
 ```html
 <div class="data-tile">
   <div class="data-tile-body">
-    <p class="data-tile-title mb-0">Label</p>
-    <hr class="minor my-2">
-    <p class="mb-0">Value</p>
+    <p class="data-tile-title">Label</p>
+    <hr class="minor">
+    <p>Value</p>
   </div>
 </div>
 ```

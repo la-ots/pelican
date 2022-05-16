@@ -3,9 +3,6 @@ body {
   scroll-behavior: smooth;
   min-height: 100vh;
 }
-html {
-  background-color: $primary;
-}
 body {
   background-color: $body-bg;
 
@@ -42,7 +39,7 @@ label,
   // Allow labels to use `margin` for spacing.
   display: block;
   font-weight: 600;
-  margin-bottom: $spacer * .5;
+  margin-bottom: .5rem;
 }
 
 small,
@@ -62,13 +59,13 @@ hr,
   border: 0;
   opacity: 1;
   &.major {
-    height: $spacer * 0.25;
-    margin: $spacer 0;
+    height: 0.25rem;
+    margin: 1rem 0;
   }
   &.minimal,
   &.minor {
     height: 1px;
-    margin: ($spacer * 0.5) 0;
+    margin: 0.5rem 0;
   }
 }
 

@@ -7,11 +7,15 @@
   background-position: 50%;
 }
 .hero-dual-pane {
-  @extend .py-10 ;
-  @extend .py-lg-40 ;
   @extend .position-relative ;
   @extend .bg-image-position-center ;
   @extend .bg-image-size-cover;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  @include media-breakpoint-up(lg){
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
   .overlay {
     @extend .position-absolute;
     @extend .opacity-75;
@@ -26,32 +30,37 @@
     @extend .position-relative;
   }
   .logo {
-    @extend .img-fluid ;
-    @extend .mb-4;
+    @extend .img-fluid;
+    margin-bottom: 1rem;
     width: 128px;
   }
   .hero-big-text {
-    @extend .h1 ;
-    @extend .fw-bold ;
+    @extend .h1;
+    @extend .fw-bold;
     @extend .text-shadow !optional;
-    @extend .mt-10;
-    @extend .mt-lg-0;
-    @extend .shadow-primary!optional;
+    @extend .shadow-primary !optional;
+    margin-top: 2.5rem;
     color: $white;
+    @include media-breakpoint-up(lg){
+      margin-top: 0;
+    }
   }
   .hero-lead-text {
-    @extend .h4 ;
-    @extend .mt-4;
-    @extend .mb-6;
-    @extend .my-lg-0;
-    color: $white;
+    @extend .h4;
     @extend .text-shadow !optional;
-    @extend .shadow-primary!optional;
+    @extend .shadow-primary !optional;
+    color: $white;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    @include media-breakpoint-up(lg){
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
   .hero-small-text {
-    color: $white;
     @extend .text-shadow !optional;
-    @extend .shadow-primary!optional;
+    @extend .shadow-primary !optional;
+    color: $white;
   }
 }
 .hero-solo-pane {
@@ -63,7 +72,8 @@
     @extend .bg-image-position-center;
   }
   .half-right {
-    @extend .py-32;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-color: $primary;
     color: $white;
     .row {
@@ -72,7 +82,7 @@
     }
   }
   .hero-big-text {
-    @extend .h2 ;
+    @extend .h2;
     color: $white;
   }
   .hero-small-text {
@@ -85,28 +95,35 @@
 .hero-boxed-in-photo {
   @extend .content-container;
   @extend .shadow-none;
-  @extend .py-lg-16;
+  @include media-breakpoint-up(lg){
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   .hero-big-text {
-    @extend .h2 ;
-    background-color: $white;
+    @extend .h2;
+    margin-top: 2rem;
     color: $primary;
   }
   .hero-small-text {
   }
-  img {
-    @extend .img-fluid;
-    @extend .rounded;
-    @extend .shadow-sm;
-    @extend .mt-4;
-    @extend .mt-lg-0;
+  img{
+    margin-top: 1.25rem;
+  }
+  @media screen and (min-width: 992px) {
+    .hero-big-text{
+      margin-top: 0;
+    }
+    img {
+      margin-top: 0;
+    }
   }
 }
 .hero-text-color-toned-photo {
-  @extend .position-relative ;
-  @extend .bg-image-position-center ;
-  @extend .bg-image-size-cover ;
-  @extend .pt-40 ;
-  @extend .pb-10;
+  @extend .position-relative;
+  @extend .bg-image-position-center;
+  @extend .bg-image-size-cover;
+  padding-top: 10rem;
+  padding-bottom: 2.5rem;
   .overlay {
     @extend .opacity-85 ;
     @extend .position-absolute ;
@@ -126,26 +143,27 @@
   .hero-big-text {
     @extend .h2;
     @extend .fw-bold;
-    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
+    color: $white;
   }
   .hero-small-text {
-    color: $white;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
+    color: $white;
   }
 }
 .hero-textbox-over-photo {
-  @extend .position-relative ;
-  @extend .d-flex ;
-  @extend .flex-column ;
-  @extend .justify-content-end ;
-  @extend .flex-lg-row ;
-  @extend .bg-image-size-cover ;
-  @extend .position-relative ;
-  @extend .bg-image-position-center ;
-  @extend .py-40;
+  @extend .position-relative;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-end;
+  @extend .flex-lg-row;
+  @extend .bg-image-size-cover;
+  @extend .position-relative;
+  @extend .bg-image-position-center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   .overlay {
     @extend .position-absolute ;
     background-color: $white;
@@ -153,8 +171,8 @@
     top:0; right:0; bottom:0; left: 0;
   }
   .hero-textbox {
-    @extend .p-10;
     background-color: $primary;
+    padding: 2.5rem;
     z-index: 2;
   }
   .hero-big-text {
@@ -167,13 +185,13 @@
   }
 }
 .hero-centered {
-  @extend .pt-12;
+  padding-top: 3rem;
   background-color: $primary;
   color: $accent;
   text-align: center;
   &-sentence {
-    @extend .mb-8;
     @extend .lead;
+    margin-bottom: 2rem;
     color: $white;
   }
   &-buttons {
@@ -181,12 +199,15 @@
     @extend .gap-2;
     @extend .d-sm-flex;
     @extend .justify-content-sm-center;
-    @extend .mb-10;
+    margin-bottom: 2.5rem;
     & .btn {
       @extend .btn-lg;
-      @extend .px-4;
+      padding-left: 1rem;
+      padding-right: 1rem;
       &:nth-child(2) {
-        @extend .ms-sm-3;
+        @include media-breakpoint-up(sm){
+          margin-left: .75rem;
+        }
       }
     }
   }
@@ -197,7 +218,7 @@
       @extend .img-fluid;
       @extend .rounded-3 ;
       @extend .shadow-lg ;
-      @extend .mb-4;
+      margin-bottom: 1rem;
     }
   }
 }

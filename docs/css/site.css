@@ -5,6 +5,11 @@
 .brand-link::after {
   display: none !important;
 }
+
+.pd-color-block {
+  height: 160px;
+}
+
 /* adding padding-x at larger sizes */
 /* this applies only to this site */
 @media screen and (min-width: 1200px){
