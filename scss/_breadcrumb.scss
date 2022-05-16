@@ -1,10 +1,10 @@
 .breadcrumb-wrapper {
   display: block;
   background-color: $white;
-  border-bottom: 1px solid $primary-10;
+  border-bottom: 1px solid $gray-200;
 }
 .breadcrumb {
-  @extend .mb-0;
+  margin-bottom: 0;
   @extend .rounded-0;
   @extend .border-0;
   background-color: $white;

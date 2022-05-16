@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best practices
 
-- Here’s the <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank">Font Awesome icons we can use</a>.
+- Here’s the <a href="https://fontawesome.com/v5/search?m=free&s=solid" target="_blank">Font Awesome icons we can use</a>.
 - Choose the clearest icon for what’s being communicated. 
 - Be consistent when using icons in projects. 
 - Do not use the same icon for two different functions.
@@ -36,11 +36,6 @@ eleventyNavigation:
 <span class="fas fa-heart text-danger" aria-hidden="true"></span>
 ```
 
-## Accessibility
-
-1. Copy markup from FontAwesome, but change the `<i>` to a `<span>`.
-1. Be sure to add `aria-hidden="true"` to the `<span>` so that it resembles the code above. This hides the icon from assistive technologies.
-
 ## Resources
 
-* <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank">FontAwesome Icon List</a>
+* <a href="https://fontawesome.com/v5/search?m=free&s=solid" target="_blank">FontAwesome Icon List</a>

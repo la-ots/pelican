@@ -1,15 +1,6 @@
 // ---
 // color system
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #f5f5f5 !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #808080 !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #2b2b2b !default;
 $black: #000 !default;
 $blue: #004ba1 !default;
 $indigo: #6610f2 !default;
@@ -21,30 +12,24 @@ $yellow: #ffc107 !default;
 $green: #0d6211 !default;
 $teal: #20c997 !default;
 $cyan: #9c27b0 !default;
-$link-color: #185ae3;
-$ui: $gray-600;
-$ui-light: $gray-300;
-$ui-priority: $link-color;
+$text-color: $gray-800;
+$text-color-light: $gray-600;
+$text-color-dark: $gray-900;
 $body-bg: #f7f7f7;
-$body-color: $gray-700;
+$body-color: $text-color;
 $focus-color: #2491ff;
 $less-bright: #fbf9f9;
-$success: $green;
-$warning: $yellow;
-$danger: $red;
-$info: $blue;
-$success-10: #dcf8e2;
-$success-30: #58b66d;
-$success-90: #003302;
-$warning-10: #ffecb3;
-$warning-30: #ffcc32;
-$warning-90: #5c3400;
-$danger-10: #ffe6e8;
-$danger-30: #ff8c99;
-$danger-90: #650002;
-$info-10: #d0e6ff;
-$info-30: #6ab0ff;
-$info-90: #002480;
+$primary: $primary-800;
+$secondary: $secondary-800;
+$accent: $accent-500;
+$success: $success-800;
+$warning: $warning-500;
+$danger: $danger-800;
+$info: $info-900;
+$link-color: $info-900;
+$ui: $gray-600;
+$ui-light: $gray-100;
+$ui-priority: $info-900;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -56,92 +41,13 @@ $theme-colors: map-merge(
     "info": $info,
     "warning": $yellow,
     "danger": $danger,
-    "light": $gray-200,
-    "dark": $gray-700,
     "link": $link-color,
     "ui": $ui,
-    "ui-light": $gray-300,
-    "ui-priority": $ui-priority,
+    "ui-light": $ui-light,
     "black": $black,
     "white": $white,
-    "primary-10": $primary-10,
-    "primary-30": $primary-30,
-    "primary-90": $primary-90,
-    "secondary-10": $secondary-10,
-    "secondary-30": $secondary-30,
-    "secondary-90": $secondary-90,
-    "accent-10": $accent-10,
-    "accent-30": $accent-30,
-    "accent-90": $accent-90,
-    "success-10": $success-10,
-    "success-30": $success-30,
-    "success-90": $success-90,
-    "warning-10": $warning-10,
-    "warning-30": $warning-30,
-    "warning-90": $warning-90,
-    "danger-10": $danger-10,
-    "danger-30": $danger-30,
-    "danger-90": $danger-90,
-    "info-10": $info-10,
-    "info-30": $info-30,
-    "info-90": $info-90,
   ),
   $theme-colors
-);
-
-// ---
-// options
-$enable-responsive-font-sizes: true;
-
-// ---
-// spacers
-$spacer: 1rem !default;
-$spacers: () !default;
-$spacers: map-merge(
-  (
-    0: 0,
-    1: ($spacer * 0.25),
-    2: ($spacer * 0.5),
-    3: ($spacer * 0.75),
-    4: ($spacer * 1),
-    5: ($spacer * 1.25),
-    6: ($spacer * 1.5),
-    7: ($spacer * 1.75),
-    8: ($spacer * 2),
-    9: ($spacer * 2.25),
-    10: ($spacer * 2.5),
-    11: ($spacer * 2.75),
-    12: ($spacer * 3),
-    13: ($spacer * 3.25),
-    14: ($spacer * 3.5),
-    15: ($spacer * 3.75),
-    16: ($spacer * 4),
-    17: ($spacer * 4.25),
-    18: ($spacer * 4.5),
-    19: ($spacer * 4.75),
-    20: ($spacer * 5),
-    21: ($spacer * 5.25),
-    22: ($spacer * 5.5),
-    23: ($spacer * 5.75),
-    24: ($spacer * 6),
-    25: ($spacer * 6.25),
-    26: ($spacer * 6.5),
-    27: ($spacer * 6.75),
-    28: ($spacer * 7),
-    29: ($spacer * 7.25),
-    30: ($spacer * 7.5),
-    31: ($spacer * 7.75),
-    32: ($spacer * 8),
-    33: ($spacer * 8.25),
-    34: ($spacer * 8.5),
-    35: ($spacer * 8.75),
-    36: ($spacer * 9),
-    37: ($spacer * 9.25),
-    38: ($spacer * 9.5),
-    39: ($spacer * 9.75),
-    40: ($spacer * 10),
-  ),
-  $spacers
 );
 
 // This variable affects the `.h-*` and `.w-*` classes.
@@ -183,9 +89,9 @@ $display5-weight: 300 !default;
 $display6-weight: 300 !default;
 $display7-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
-$headings-margin-bottom: $spacer * .5 !default;
+$headings-margin-bottom: .5rem !default;
 $headings-font-family: "Public Sans" !default;
-$headings-font-weight: 700 !default;
+//$headings-font-weight: 700 !default;
 $headings-line-height: 1.2 !default;
 $lead-font-size: 1.25rem;
 $lead-font-weight: 300;
@@ -204,18 +110,28 @@ $link-hover-decoration: underline !default;
 $emphasized-link-hover-darken-percentage: 15% !default;
 
 // ---
+// shadows
+$box-shadow-sm:     0 0.25rem 2px fade-out($ui, 0.9) !default;
+$box-shadow:        0 0.5rem 1rem fade-out($black, 0.25) !default;
+$box-shadow-lg:     0 1rem 3rem fade-out($black, 0.35) !default;
+$box-shadow-minor:  0 1px 0 fade-out($black, .85);
+$btn-shadow:        0 0.125rem 0 fade-out($ui, 0.7) !default;
+
+// ---
 // forms
 $input-bg: $white !default;
-$input-disabled-bg: $gray-300 !default;
+$input-disabled-bg: $gray-200 !default;
+$input-group-addon-bg: $gray-100 !default;
 $input-color: $gray-700 !default;
 $component-active-bg: $ui-priority;
 $input-border-color: $ui !default;
 $input-box-shadow: inset 0 3px 4px fade-out($ui, 0.75);
 $input-btn-focus-color: $ui-priority;
+$form-check-input-border:                 2px solid $ui;
+$form-switch-color: $ui;
 
 // ---
 // modals
-$modal-content-bg: $gray-100;
 $modal-backdrop-bg: $primary;
 $modal-header-border-color: fade-out($gray-600, 0.75);
 $modal-footer-border-color: fade-out($gray-600, 0.75);
@@ -225,17 +141,10 @@ $modal-backdrop-opacity: 0.75;
 // borders * border radii
 $border-width: 2px;
 $border-style: solid;
-$border-color: $gray-300 !default;
+$border-color: $gray-200 !default;
 $border-radius: 0.25rem !default;
 $border-radius-lg: 0.3rem !default;
 $border-radius-sm: 0.2rem !default;
-
-// ---
-// buttons
-// Allows for customizing button radius independently from global border radius
-$btn-border-radius: 8px;
-$btn-border-radius-lg: $btn-border-radius !default;
-$btn-border-radius-sm: $btn-border-radius !default;
 
 // ---
 // navbar
@@ -248,7 +157,8 @@ $navbar-dark-active-color: $white !default;
 $nav-tabs-link-active-bg     : $white !default;
 $nav-pills-link-active-color : $white;
 $nav-pills-link-active-bg    : $ui-priority;
-$nav-pills-border-radius     : $btn-border-radius;
+
+$site-nav-width: 260px;
 
 // ---
 // Cards
@@ -256,7 +166,6 @@ $card-spacer-y: 1rem;
 $card-spacer-x: 1rem;
 $card-border-width: $border-width !default;
 $card-border-radius: $border-radius !default;
-$card-border-color: transparent;
 $card-border-color: $gray-300;
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg: null !default;
@@ -266,15 +175,23 @@ $card-bg: $gray-100;
 $card-bg: $white;
 
 // ---
+// popovers
+$popover-header-color:              $text-color-dark;
+$popover-header-bg:                 $gray-100;
+$popover-border-color:              $card-border-color;
+$popover-box-shadow:                $box-shadow-sm;
+
+// ---
 // Tooltips
 $tooltip-max-width: 300px !default;
 
 // ---
 // tables
 $table-border-width: 1px;
-$table-border-color: fade-out($gray-600, 0.8);
-$table-accent-bg: fade-out($gray-600, 0.95);
+$table-border-color: $gray-300;
 $table-bg: $white;
+$table-cell-padding-y:        .7rem;
+$table-striped-bg:            fade-out($ui, .95); 
 
 // ---
 // pagination
@@ -285,17 +202,11 @@ $pagination-disabled-border-color: $gray-600 !default;
 
 // ---
 // Breadcrumbs
-$breadcrumb-bg: $gray-200 !default;
-$breadcrumb-bg: $body-bg;
-$breadcrumb-active-color: $gray-600 !default;
-$breadcrumb-active-color: $gray-700 !default;
-
-// ---
-// shadows
-$box-shadow-sm: 0 0.25rem 2px fade-out($black, 0.9) !default;
-$box-shadow: 0 0.5rem 1rem fade-out($black, 0.25) !default;
-$box-shadow-lg: 0 1rem 3rem fade-out($black, 0.35) !default;
-$btn-shadow: 0 0.25rem 0.25rem fade-out($black, 0.7) !default;
+$breadcrumb-bg:           $gray-200 !default;
+$breadcrumb-bg:           $body-bg;
+$breadcrumb-active-color: $text-color-dark !default;
+$breadcrumb-padding-y:    .5rem;
+$breadcrumb-padding-x:    1rem;
 
 // ---
 // animated loading indicator
@@ -303,9 +214,11 @@ $loader-main-color: $primary;
 $loader-secondary-color: $secondary;
 
 // ---
-// enables
-$enable-gradients: false;
-$enable-shadows: true;
+// options
+$enable-gradients:             false;
+$enable-shadows:               true;
+$enable-responsive-font-sizes: true;
+$enable-negative-margins:      true !default;
 
 // ---
 // z-index values
@@ -315,8 +228,8 @@ $zindex-fixed: 1030 !default;
 $zindex-modal-backdrop: 1040 !default;
 $zindex-progress-step: 1060 !default;
 $zindex-scroll-to-top: 1070 !default;
-$zindex-wrapper-topbar: 1080 !default;
-$zindex-sidebar-wrapper: 1090 !default;
+$zindex-site-nav: 1080 !default;
+$zindex-site-topbar: 1090 !default;
 $zindex-cookie-banner: 2000 !default;
 $zindex-skip-to-main: 2010 !default;
 $zindex-popover: 2020 !default;

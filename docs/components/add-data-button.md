@@ -17,6 +17,7 @@ eleventyNavigation:
 - Put it below any objects it adds, usually in [a row and column-classed element](/foundation/layout-grid/) of its own.
 - Make it the same width as the objects it adds.
 - Place it under the data to which it adds.
+- Change the color of the plus by change the `.bg-color` class.
 
 ## Usage
 

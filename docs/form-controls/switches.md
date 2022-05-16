@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Switches
   parent: Form Controls
-  order: 8
+  order: 10
   excerpt: Switches allow users to enable or disable something, like a light switch.
   img: /img/illustrations/illus-switches.svg
 ---
@@ -16,7 +16,7 @@ eleventyNavigation:
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Use this when users can toggle a feature on or off.
 - Users expect Switches to take immediate effect.
-- Switches are custom-styled [Checkboxes](/forms/checkboxes).
+- Switches are custom-styled [Checkboxes](/form-controls/checkboxes).
 
 ## Usage
 

@@ -16,16 +16,16 @@ eleventyNavigation:
 - Data Tiles extend [Cards](/components/card) behavior and styles.
 - Data Tiles  simply display a label and related data corresponding to that label. 
 - They are useful in clearly displaying lots of text into easy-to-scan holders.
-- They will be grey when inside a [Content Container](/components/boxes/#content-container) or [White Box](/components/boxes/#white-box).
-- They will be white when **not** inside a [Content Container](/components/boxes/#content-container) or [White Box](/components/boxes/#white-box).
+- They will be grey when inside a [Content Container](/components/content_container/).
+- They will be white when **not** inside a [Content Container](/components/content_container/).
 
 ## Usage
 
 <div class="data-tile">
   <div class="data-tile-body">
-    <p class="fw-bold text-black mb-0">Label</p>
-    <hr class="minor my-2">
-    <p class="mb-0">Value</p>
+    <p class="data-tile-title">Label</p>
+    <hr class="minor">
+    <p>Value</p>
   </div>
 </div>
 
@@ -33,9 +33,9 @@ eleventyNavigation:
 ```html
 <div class="data-tile">
   <div class="data-tile-body">
-    <p class="fw-bold text-black mb-0">Label</p>
-    <hr class="minor my-2">
-    <p class="mb-0">Value</p>
+    <p class="data-tile-title">Label</p>
+    <hr class="minor">
+    <p>Value</p>
   </div>
 </div>
 ```

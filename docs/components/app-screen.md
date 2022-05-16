@@ -15,19 +15,19 @@ eleventyNavigation:
 
 For projects requiring a sidebar navigation the App Screen provides the basic user interface frame. It contains 5 parts. The bottom of this page will display the markup pattern after the 5 parts have been explained.
 
-1. Page Wrapper, `id=page-wrapper`
-1. Sidebar with Navigation, `id=sidebar`
-1. Main Wrapper, `id=wrapper-main`
-1. Topbar, `id=wrapper-topbar`
-1. Main Content, `id=main`
+1. Site Container, `id=site-container`
+1. Sidebar with Navigation, `id=site-nav`
+1. Topbar, `id=site-topbar`
+1. Main Wrapper, `id=main`
+1. Footer, `id=footer`
 
 ## Usage
 
-Everything considered part of the App Screen is placed into the `id=page-wrapper`. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top button goes below it in markup.
+Everything considered part of the App Screen is placed into the `id=site-container`. This is out the outermost `div`. The Skip Link goes above it in markup. The Footer and Back to Top button go below it in markup.
 
 ```html
 {% include 'markup/skip-link.njk' %}
-<div id="page-wrapper" class="page-wrapper agency-theme">
+<div id="site-container" class="site-container">
   ...
 </div>
 {% include 'markup/button-back-to-top.njk' %}
@@ -35,94 +35,47 @@ Everything considered part of the App Screen is placed into the `id=page-wrapper
 
 ## Sidebar with Navigation
 
-The first child element is the Sidebar with Navigation. This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
+The first child element of the `id=site-container` is the [Sidebar with Navigation](/components/sidebar-nav/). This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
 
+- Used in the App Screen.
+- Presents only two levels of navigation.
 - Current pages get the class `active` added to the class list of the `li` and `a` which hold the link.
 - Current child pages also get the eye icon, <span class="fas fa-eye" aria-hidden="true"></span>. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 
 ```html
-<nav id="sidebar" class="sidebar-wrapper d-print-none">
-  <div class="sidebar-content">
-    <div class="sidebar-brand">
-      <a href="javascript://" class="mr-auto">Digital Product Name</a>
-    </div>
-    <div class="sidebar-menu text-white">
-      <ul>
-        <!-- this is a Top Level navi item without a child menu -->
-        <li class="sidebar-item border-top border-black">
-          <div class="sidebar-dropdown-header">
-            <a class="sidebar-nav-item " href="#">
-              <span>Top Level Nav Item</span>
-            </a>
-          </div>
-        </li>
-        <!-- this is a Top Level navi item with a child menu -->
-        <li class="sidebar-item">
-          <div class="sidebar-dropdown-header">
-            <a class="sidebar-nav-item" href="#">
-              <span>Top Level Nav Item</span>
-            </a>
-            <a class="sidebar-dropdown-header-expand" href="javascript://" role="button">
-              <span class="fas fa-fw fa-angle-right" aria-hidden="true"></span>
-            </a>
-          </div>
-          <div class="sidebar-submenu">
-            <ul>
-              <li class="sidebar-item active">
-                <a class="sidebar-nav-item active" href="#">
-                  <span class="fas fa-fw fa-eye" aria-hidden="true"></span>
-                  <span>Child Level Nav Item</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="sidebar-footer">
-  </div>
+<nav id="site-nav" class="site-nav">
+  ...
 </nav>
-```
-
-## Wrapper Main and Page Content
-
-After the `nav` is the `class="wrapper-main"` and `class="page-content"`.
-
-```html
-<div id="wrapper-main" class="wrapper-main">
-  <div class="page-content">
-    ...
-  </div>
-</div>
 ```
 
 ## Topbar
 
-The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current page title.
+The Topbar also goes inside of the `id="site-container"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current page title.
 
 ```html
-<!-- topbar -->
-<div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
-  <p class="m-0 font-weight-bold order-lg-2 mr-auto">
-    <span class="d-md-none">Digital Product Name</span>
-    <span class="d-none d-md-inline">Current Page Title</span>
-  </p>
-  <a id="sidebar-button" class="btn btn-sm btn-black mr-2 text-white order-lg-1" href="javascript://" role="button">
-    <span class="fas fa-fw fa-bars"></span>
-  </a>
+<div id="site-topbar" class="site-topbar">
+  ...
 </div>
-<!-- / topbar -->
 ```
 
-## Using Main Content
+## Main Content
 
-This `main` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
+This `main id="main"` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
 
 ```html
-<main id="main" class="main" role="main">
-  ... 
+<main id="main" class="site-main">
+  ...
 </main>
+```
+
+## Footer
+
+After the `main id="main"` put the Footer element.
+
+```html
+<footer class="footer" id="footer">
+  ...
+</footer>
 ```
 
 ## Putting It All Together
@@ -130,5 +83,10 @@ This `main` element is where the screen’s contents and user interface items ar
 The App Screen markup below is how all the 5 parts are assembled.
 
 ```html
-{% include 'markup/app-screen.njk' %}
+<div id="site-container" class="site-container">
+  <nav id="site-nav" class="site-nav">  ...  </nav>
+  <div id="site-topbar" class="site-topbar">  ...  </div>
+  <main id="main" class="site-main">  ...  </main>
+  <footer class="footer" id="footer">  ...  </footer>
+</div>
 ```

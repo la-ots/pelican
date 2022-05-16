@@ -1,3 +1,29 @@
 .badge {
-  @extend .badge-pill;
+  @extend .rounded-pill;
+  &-primary {
+    background-color: $primary;
+  }
+  &-secondary {
+    background-color: $secondary;
+  }
+  &-accent {
+    background-color: $accent;
+    color: $black;
+  }
+  &-success {
+    background-color: $success;
+  }
+  &-info {
+    background-color: $info;
+  }
+  &-warning {
+    background-color: $warning;
+    color: $black;
+  }
+  &-danger {
+    background-color: $danger;
+  }
+  &-ui {
+    background-color: $ui;
+  }
 }

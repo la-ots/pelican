@@ -2,16 +2,10 @@
 layout: base.njk
 ---
 
-<a id="SkipToMain" class="skip-to-main" href="#main" tabindex="1">Skip to Main Content</a>
-
-<div id="page-wrapper" class="page-wrapper agency-theme">
-  <div id="wrapper-main" class="wrapper-main d-flex flex-column">
-    {% include 'markup/navbar-basic.njk' %}
-      <main id="main" class="main flex-fill" role="main">          
-        {{ content | safe }}
-      </main>
-      {% include 'markup/footer-utility.njk' %}
-  </div>
+<div id="site-container" class="site-container">
+  {% include 'markup/navbar-basic.njk' %}
+  <main id="main" class="site-main no-side-toggle" style="padding-top: 0;">          
+    {{ content | safe }}
+  </main>
+  {% include 'markup/footer-utility.njk' %}
 </div>
-
-{% include 'markup/button-back-to-top.njk' %}

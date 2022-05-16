@@ -25,14 +25,14 @@ Content images are images which have meaningful information in them.
 - Apply `img-fluid` to images to make them responsive. This makes the image fit its parent container. Height is automatically adjusted by the browser to preserve the aspect ratio.
 - You may optionally add the `rounded` class to put rounded corners on the image.
 
-<div class="row mb-8">
+<div class="row mb-5">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="Person using a laptop, with notebooks and a pen." class="img-fluid rounded" src="/img/photos/pexels-photo-5077047.jpeg">
   </div>
 </div>
 
 ```html
-<div class="row mb-8">
+<div class="row mb-5">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="Laptop, filled coffee cup, notepad, pen, and phone on a desk." class="img-fluid rounded" src="/img/photos/pexels-photo-5077047.jpeg">
   </div>
@@ -46,14 +46,14 @@ Non-content images may be requested by the Stakeholders and Project Owners. In t
 - Try to use images which do not distract from the content. 
 - Content images should use [Alt Text](/foundation/images/#alt-text) with an empty value.
 
-<div class="row mb-8">
+<div class="row mb-5">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="" class="img-fluid rounded" src="/img/photos/pexels-photo-2317711.jpeg">
   </div>
 </div>
 
 ```html
-<div class="row mb-8">
+<div class="row mb-5">
   <div class="col-12 col-md-6 col-lg-4">
     <img alt="" class="img-fluid rounded" src="/img/photos/pexels-photo-2317711.jpeg">
   </div>
@@ -65,7 +65,7 @@ Non-content images may be requested by the Stakeholders and Project Owners. In t
 When writing alt text, keep the following in mind:
 
 - Be specific; describe the image for users who cannot see them.
-- Keep it short; try to stay <a href="" target="_blank">under 250 characters</a>.
+- Keep it short as possible, but descriptive.
 - Don’t include phrases like “Image of...” or “Picture of...” 
 - Use a simple, descriptive sentence and the appropriate punctuation.
 - Don’t begin phrases with “Image of...” or “Picture of...”.
@@ -75,4 +75,5 @@ When writing alt text, keep the following in mind:
 ## Resources
 
 - <a href="https://webaim.org/techniques/alttext/" target="_blank">WebAIM: Alternate Text</a>
+- <a href="https://www.washington.edu/doit/how-long-can-alt-attribute-be" target="_blank">Alt Text Length, Washington.edu</a>
 - <a href="https://usability.yale.edu/web-accessibility/articles/images" target="_blank">Images, Yale Usability</a>

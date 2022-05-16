@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Toasts
   parent: Components
-  order: 300
+  order: 310
   excerpt: Toasts are a lightweight notification relaying information related to the user's actions.
   img: /img/illustrations/illus-toasts.svg
 ---
@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Put Toasts at the top right of the screen.
-- Toasts use the same [Status Colors](/theming/color) as Alerts.
+- Toasts use the same [Status Colors](/foundation/status-colors) as Alerts.
 - Status Colors only add visual cues. The content of the Toast must make the meaning obvious to assistive technology users.
 - Toasts are only triggered by user actions such as saving, editing, deleting, or creating a file.
 - Use **Info** (Blue) to communicate informative or helpful information to users.

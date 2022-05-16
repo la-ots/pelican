@@ -78,6 +78,50 @@ Documentation can be found at the [Pelican Documentation](https://pelican.ots.la
 
 WIP
 
+### Guidelines For SCSS Modifications
+
+Order of SCSS / CSS Overrides:
+1. Make changes to Bootstrap or Pelican defaults in SCSS variables first.
+1. Make changes to Bootstrap or Pelican default in appropriate SCSS files second.
+1. Make changes to Bootstrap or Pelican defaults in `_custom.scss` file last.
+
+We use `@extend` when it preserves the layout properties of an item. This includes:
+- Placements
+- Text sizes, text weights
+- Margins
+- Padding
+
+An example of this is seen in a snippet of the Alerts’ SCSS file, `_alert.scss`:
+```scss
+.alert {
+  ...
+  .alert-icon {
+    @extend .position-absolute;
+    ...
+  }
+  ...
+}
+```
+In this example we are preserving a layout property which allows Pelican to control where the `.alert-icon` is placed within an `.alert`. Using `@extend` makes it hard to override.
+
+We use normal SCSS/CSS rules when we create default theme aspects. This includes:
+- Border colors
+- Background colors
+- Text colors
+- Font family
+- Icon colors
+
+An example of this is seen in a sippet of the Alert Warning’s SCSS rule:
+```scss
+.alert-warning {
+  color: $warning-900;
+  background-color: $warning-100;
+  ...
+}
+```
+In this example we are applying certain theme color variations to the background and text colors of a wanring Alert. Using variables names makes it easier to override.
+
+
 ## Local Development
 
 First, ensure all dependencies are installed on your local machine:
@@ -117,4 +161,6 @@ This will run linters across the codebase. Scripts to run linters separately are
 > $ npm run js:lint
 
 Note: Linters are not run as part of any `watch` scripts and must be run separately.
+
+
 

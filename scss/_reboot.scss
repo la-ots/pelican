@@ -1,13 +1,10 @@
 html,
 body {
   scroll-behavior: smooth;
-  @include bg-texture();
   min-height: 100vh;
 }
-
 body {
   background-color: $body-bg;
-  @include bg-texture();
 
   &.auth-page {
     background-color: $primary;
@@ -30,7 +27,7 @@ body {
 
 p {
   b,
-  .font-weight-bold,
+  .fw-bold,
   strong,
   .strong {
     color: $black;
@@ -41,8 +38,8 @@ label,
 .label {
   // Allow labels to use `margin` for spacing.
   display: block;
-  margin-bottom: $label-margin-bottom;
   font-weight: 600;
+  margin-bottom: .5rem;
 }
 
 small,
@@ -56,20 +53,19 @@ small,
 
 hr,
 .hr {
-  background-color: $primary-10;
+  margin: 0 0;
+  width: 100%;
+  background-color: $gray-200;
   border: 0;
-  @extend .mx-0;
-  @extend .w-100;
-
+  opacity: 1;
   &.major {
-    height: $spacer * 0.25;
-    margin: $spacer 0;
+    height: 0.25rem;
+    margin: 1rem 0;
   }
-
   &.minimal,
   &.minor {
     height: 1px;
-    margin: ($spacer * 0.5) 0;
+    margin: 0.5rem 0;
   }
 }
 
@@ -139,6 +135,6 @@ legend,
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   line-height: inherit;
-  color: inherit;
+  color: $primary;
   white-space: normal;
 }

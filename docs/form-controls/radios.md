@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Radios
   parent: Form Controls
-  order: 6
+  order: 7
   excerpt: Radios allow users to select exactly one option from multiple options.
   img: /img/illustrations/illus-radios.svg
 ---
@@ -15,11 +15,11 @@ eleventyNavigation:
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - When possible, present them in a vertical list.
-- If space is limited, consider using a [Select](/forms/select).
-- If the user can select one or more options, use [Checkboxes](/forms/checkboxes).
+- If space is limited, consider using a [Select](/form-controls/select).
+- If the user can select one or more options, use [Checkboxes](/form-controls/checkboxes).
 - Ensure the `id` of the input matches the `for` of the label.
-
-_**Note:** Some Radios can be marked as 'required' (<span class="fas fa-asterisk text-danger"></span>) in the wireframe/ mock-up. Please refer to [Required Form Inputs & Controls](/form-controls/labels-guidance#required-form-inputs-%26-controls) for guidance._
+- Set a radio button as the default choice by adding the `checked` attribute to it.
+- If a radio button choice is required, add the `required` attribute on all radio buttons in a group.
 
 ## Usage
 

@@ -1,15 +1,13 @@
 .modal-content {
-  background-color: $card-bg;
   border: $card-border-width solid $card-border-color;
-  .close {
-    @extend .position-relative;
-    opacity: 1;
-  }
 }
 .modal-title {
   color: $primary;
+  .fas {
+    color: $primary-500;
+  }
 }
 .modal-footer {
   @extend .text-center ;
-  @extend .text-lg-left;
+  @extend .text-lg-start;
 }

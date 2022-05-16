@@ -25,7 +25,7 @@ eleventyNavigation:
 
 ## Color Contrast
 * <a href="https://webaim.org/resources/contrastchecker/" target="_blank" class="text-decoration-none">WebAIM Contrast Checker</a>
-* <a href="(https://www.w3.org/TR/WCAG21/" target="_blank" class="text-decoration-none">WCAG - Web Content Accessibility Guidelines</a>
+* <a href="https://www.w3.org/TR/WCAG21/" target="_blank" class="text-decoration-none">Web Content Accessibility Guidelines (WCAG) 2.1</a>
 * <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank" class="text-decoration-none">Dyslexia Friendly Style Guide</a>
 
 ## Design Resources
@@ -33,7 +33,7 @@ eleventyNavigation:
 - <a href="https://www.figma.com/" target="_blank" class="text-decoration-none">Figma.com</a>
 - <a href="https://www.figma.com/@LAGov" target="_blank" class="text-decoration-none">Pelican Wireframe and Mockup Files at Figma Community</a>
 - <a href="https://www.pexels.com" target="_blank" class="text-decoration-none">Pexels.com</a>
-- <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank" class="text-decoration-none">FontAwesome Icon List</a>
+- <a href="https://fontawesome.com/v5/search?m=free&s=solid" target="_blank" class="text-decoration-none">FontAwesome Icon List</a>
 - <a href="https://accessibility.digital.gov/visual-design/getting-started/" target="_blank" class="text-decoration-none">Visual Design Guidance by Digital.gov</a>
 
 ## Development Resources
