@@ -10,6 +10,10 @@
   height: 160px;
 }
 
+.container-fluid, .breadcrumb {
+  transition: all 0.2s ease-in-out;
+}
+
 /* adding padding-x at larger sizes */
 /* this applies only to this site */
 @media screen and (min-width: 1200px){
