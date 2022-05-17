@@ -68,26 +68,18 @@ index: true
 
 <!-- alerts -->
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-12">
-      {%- include 'markup/alert-success.njk' -%}
-      {%- include 'markup/alert-info.njk' -%}
-      {%- include 'markup/alert-warning.njk' -%}
-      {%- include 'markup/alert-danger.njk' -%}
-    </div>
-  </div>
+  {%- include 'markup/alert-success.njk' -%}
+  {%- include 'markup/alert-info.njk' -%}
+  {%- include 'markup/alert-warning.njk' -%}
+  {%- include 'markup/alert-danger.njk' -%}
 </div>
 
 <!-- progress indicator large -->
 {%- include 'markup/progress-large.njk' -%}
 <div class="content-container">
   <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="legend">Heading</h2>
-        <p class="fw-bold" id="form-section-01-description">Use the minor dividers to signal tight relations among form elements when necessary.</p>
-      </div>
-    </div>
+    <h2 class="legend">Heading</h2>
+    <p class="fw-bold" id="form-section-01-description">Use the minor dividers to signal tight relations among form elements when necessary.</p>
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -101,11 +93,7 @@ index: true
         {%- include 'markup/input-text.njk' -%}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-    </div>
+    <hr class="minor">
     <div class="row">
       <div class="col-12 col-lg-3">
         {%- include 'markup/input-text.njk' -%}
@@ -139,12 +127,8 @@ index: true
 
 <div class="content-container">
   <div class="container-fluid" role="group" aria-labelledby="form-section-02-description">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="legend">Heading</h2>
-        <p class="fw-bold" id="form-section-02-description">Form portions 1 and 2 belong together in the same large data set being collected, but each section has fields more tightly related to each other than other members of the form. Let’s ease the reading burden by breaking the form into visually-associated chunks.</p>
-      </div>
-    </div>
+    <h2 class="legend">Heading</h2>
+    <p class="fw-bold" id="form-section-02-description">Form portions 1 and 2 belong together in the same large data set being collected, but each section has fields more tightly related to each other than other members of the form. Let’s ease the reading burden by breaking the form into visually-associated chunks.</p>
   </div>
   <div class="container-fluid">
     <div class="row">
@@ -158,11 +142,7 @@ index: true
         </button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-    </div>
+    <hr class="minor">
     <div class="row">
       <div class="col-12 col-lg-4">
         {%- include 'markup/checkboxes.njk' -%}
@@ -171,11 +151,7 @@ index: true
         {%- include 'markup/radios.njk' -%}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-    </div>
+    <hr class="minor">
     <div class="row">
       <div class="col-12 col-lg-4">
         {%- include 'markup/toggle-tokens-exclusive.njk' -%}
@@ -184,11 +160,7 @@ index: true
         {%- include 'markup/toggle-tokens-inclusive.njk' -%}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-    </div>
+    <hr class="minor">
     <div class="row">
       <div class="col-12 col-lg-3">
         <div class="form-group">
@@ -205,11 +177,7 @@ index: true
 
 <div class="content-container">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="legend">Heading</h2>
-      </div>
-    </div>
+    <h2 class="legend">Heading</h2>
     <div class="row">
       <div class="col-12 col-lg-3">
         {%- include 'markup/input-text.njk' -%}
@@ -218,16 +186,8 @@ index: true
         {%- include 'markup/select.njk' -%}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        {%- include 'markup/sample-table.njk' -%}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-    </div>
+    {%- include 'markup/sample-table.njk' -%}
+    <hr class="minor">
     {%- include 'markup/pagination.njk' -%}
   </div>
 </div>
@@ -246,11 +206,7 @@ index: true
         {%- include 'markup/sample-typography.njk' -%}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
-      </div>
-    </div>
+    <hr class="minor">
     {%- include 'markup/button-page-actions.njk' -%}
   </div>
 </div>
@@ -259,21 +215,13 @@ index: true
 
 <div class="content-container">
   <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="legend">Modals and Toasts</h2>
-      </div>
-    </div>
+    <h2 class="legend">Modals and Toasts</h2>
   </div>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        {%- include 'markup/modal.njk' -%}
-        <button type="button" class="btn btn-info">Launch Info Toast</button>
-        <button type="button" class="btn btn-danger">Launch Danger Toast</button>
-        <button type="button" class="btn btn-success">Launch Success Toast</button>
-      </div>
-    </div>
+    {%- include 'markup/modal.njk' -%}
+    <button type="button" class="btn btn-info">Launch Info Toast</button>
+    <button type="button" class="btn btn-danger">Launch Danger Toast</button>
+    <button type="button" class="btn btn-success">Launch Success Toast</button>
   </div>
 </div>
 

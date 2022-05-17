@@ -12,11 +12,7 @@ layout: default.njk
 </div>
 <div class="bg-less-bright py-12">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        {{ content | safe }}
-      </div>
-    </div>
+    {{ content | safe }}
   </div>
 </div>
 {% include "page-navigation.njk" %}

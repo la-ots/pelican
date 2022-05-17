@@ -89,11 +89,9 @@ Let’s examine this concept with an imaginary color palette for a digital produ
 
 In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
 
-<div class="row px-3 mb-4">
-  <div class="col-12">
-    <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
-    <button type="button" class="btn btn-success">Success Button</button>
-  </div>
+<div class="px-3 mb-4">
+  <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
+  <button type="button" class="btn btn-success">Success Button</button>
 </div>
 
 User confusion is likely, and could lead them to ask:

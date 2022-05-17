@@ -7,14 +7,10 @@ layout: default.njk
 <div class="content-container mb-0">
   {% for entry in navPages %}
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="h4 mt-5">
-          <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">{{ entry.title }}</a>
-        </h2>
-        <p class="lead">{{ entry.excerpt }}</p>
-      </div>
-    </div>
+    <h2 class="h4 mt-5">
+      <a class="text-decoration-none d-flex" href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </h2>
+    <p class="lead">{{ entry.excerpt }}</p>
     {% if entry.children.length > 0 %}
     <div class="row">
       {% for child in entry.children %}
