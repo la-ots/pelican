@@ -2,7 +2,7 @@
 title: Sitemap
 summary: Here are some of the resources to help you create digital products.
 tags: resources
-layout: sitemap-page
+layout: page-sitemap
 index: true
 eleventyNavigation:
   key: Sitemap
