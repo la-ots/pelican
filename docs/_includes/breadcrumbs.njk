@@ -4,13 +4,13 @@
     <li class="breadcrumb-item">
       <a href="{{ '/' | url }}">
         <span class="fas fa-home" aria-hidden="true"></span>
-        <span class="sr-only">Home</span>
+        <span class="visually-hidden">Home</span>
       </a>
     </li>
     {%- for entry in entries %}
       {% if entry.key == eleventyNavigation.key %}
         <li class="breadcrumb-item active" aria-current="page">
-          {{ entry.title }} <span class="fas fa-eye" aria-hidden="true"></span>
+          {{ entry.title }}<span class="fas fa-eye ms-1" aria-hidden="true"></span>
         </li>
       {% else %}
         <li class="breadcrumb-item">

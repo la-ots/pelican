@@ -17,10 +17,10 @@ eleventyNavigation:
 - Don’t use them as the way to communicate statuses.
 - They only add visual meaning.
 
-<div class="row mb-12">
+<div class="row mb-5">
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-success rounded-top"></div>
+    <div class="card border-0">
+      <div class="bg-success rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Success</p>
         <p class="mb-0"><code>#0d6211</code></p>
@@ -29,8 +29,8 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-warning rounded-top"></div>
+    <div class="card border-0">
+      <div class="bg-warning rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Warning</p>
         <p class="mb-0"><code>#ffc107</code></p>
@@ -39,8 +39,8 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-danger rounded-top"></div>
+    <div class="card border-0">
+      <div class="bg-danger rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Danger</p>
         <p class="mb-0"><code>#b00003</code></p>
@@ -49,8 +49,8 @@ eleventyNavigation:
     </div>
   </div>
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-info rounded-top"></div>
+    <div class="card border-0">
+      <div class="bg-info rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Info</p>
         <p class="mb-0"><code>#004ba1</code></p>
@@ -78,11 +78,11 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 The Warning color Indicates unintended, but not dangerous, effects of actions.
 
-- Often used to present remove actions from a list if it’s relatively easy to reinsert items in the list
-- Can be used to signal data actions authorized users can affect which could affect non-authorized users
-- Could be used to indicate waiting states in processes or multi-step forms
-- Should be used to inform the user of system-wide errors preventing some, if not all, features
-- Lighter and darker variations used for background and text colors in [Warning Alerts](/components/alerts/)
+- Often used to display destructive actions from a list if it’s relatively easy to reinsert items in the list.
+- Can be used to signal data actions authorized users can affect which could affect non-authorized users.
+- Could be used to indicate waiting states in processes or multi-step forms.
+- Should be used to inform the user of system-wide errors preventing some, if not all, features.
+- Lighter and darker variations used for background and text colors in [Warning Alerts](/components/alerts/).
 
 **Danger**
 
@@ -106,7 +106,7 @@ The Info color indicates informative or helpful information.
 The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-  <table class="table table-striped mb-8">
+  <table class="table table-striped mb-5">
     <thead>
       <tr>
         <th>Background Colors</th>
@@ -115,20 +115,20 @@ The Status Colors are implemented as background colors and as text colors. The c
     </thead>
     <tbody>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-success">bg-success</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-success">text-success</span></td>
+        <td><span class="h5"><span class="badge badge-success">bg-success</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-success">text-success</span></span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-warning">bg-warning</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-warning">text-warning</span></td>
+        <td><span class="h5"><span class="badge badge-warning">bg-warning</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-warning">text-warning</span></span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-danger">bg-danger</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-danger">text-danger</span></td>
+        <td><span class="h5"><span class="badge badge-danger">bg-danger</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-danger">text-danger</span></span></td>
       </tr>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-info">bg-info</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-info">text-info</span></td>
+        <td><span class="h5"><span class="badge badge-info">bg-info</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-info">text-info</span></span></td>
       </tr>                 
     </tbody>
   </table>

@@ -6,14 +6,14 @@ layout: guide
 eleventyNavigation:
   key: Skip Link
   parent: Components
-  order: 270
+  order: 280
   excerpt: Skip Links allow users to skip navigation elements and go straight to content.
   img: /img/illustrations/illus-skip-link.svg
 ---
 
 ## Best Practice
 
-Assistive technology users or those who use keyboard navigation need a way to skip past navigation elements if they are already familiar with the page.
+Users who rely keyboard navigation need a way to skip past navigation elements if they are already familiar with the page.
 
 - Put the Skip Link markup first as a direct child of the `<body>` element.
 - It should always be the first element the user can interact with on the page if they press the <kbd>Tab</kbd> key immediately after the page has loaded.

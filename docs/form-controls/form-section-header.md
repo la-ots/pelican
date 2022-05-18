@@ -25,21 +25,13 @@ eleventyNavigation:
 ## Usage
 
 <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="legend">Form Section</h2>
-      <p id="form-section-01-description">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
-    </div>
-  </div>
+  <h2 class="legend">Form Section</h2>
+  <p id="form-section-01-description">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
 </div>
 
 ```html
 <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
-  <div class="row">
-    <div class="col-12">
-      <h2 class="legend">Form Section</h2>
-      <p id="form-section-01-description">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
-    </div>
-  </div>
+  <h2 class="legend">Form Section</h2>
+  <p id="form-section-01-description">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
 </div>
 ```

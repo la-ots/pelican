@@ -23,8 +23,12 @@
       left: 0;
     }
   }
+  img {
+    height: 24px;
+  }
 }
 .site-main {
+  min-height: calc(100vh - 172px);
   padding-top: 41px;
   transition: $transition-base;
   @media screen and (min-width: 992px){
@@ -88,10 +92,12 @@
   padding-left: 20px;
   color: inherit;
   text-decoration: none;
+  background-color: $black;
   img {
-    @extend .me-1;
+    height: 24px;
   }
 }
+
 .site-nav-header {
   padding: 20px;
   overflow: hidden;

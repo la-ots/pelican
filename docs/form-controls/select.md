@@ -16,11 +16,12 @@ eleventyNavigation:
 - The Select element creates a floating menu of options. It’s often called a “dropdown” but we should avoid this term as it may be confused with a <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/" target="_blank">Bootstrap Dropdown</a>. Use this as the last resort ui element.
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Forms work best when users can see all of their choices. When possible, try to refrain from using Selects. 
-- If space is not limited, use [Radios](/forms/radios) or [Toggle Tokens](/forms/toggle-tokens) instead.
-- If users can choose more than one option at a time, use [Checkboxes](/forms/checkboxes).
+- If space is not limited, use [Radios](/form-controls/radios) or [Toggle Tokens](/form-controls/toggle-tokens) instead.
+- If users can choose more than one option at a time, use [Checkboxes](/form-controls/checkboxes).
 - If you need to include more than 15 possible options, let users type the information into a text input that suggests options.
 - Do not use this for navigation.
 - Use the first `option` to help inform the user of what they should do.
+- It’s not the same thing as the [Dropdown Button](/components/buttons/#dropdown-buttons).
 
 ## Usage
 

@@ -6,11 +6,6 @@
     top: 22px; left:16px;
     width: 18px; height: 18px;
   }
-  .btn-close {
-    @extend .position-absolute;
-    top: 14px; right: 16px;
-    width: 21px; height: 21px;
-  }
 }
 .alert-warning {
   color: $warning-900;
@@ -18,10 +13,6 @@
   border: $warning-900 $border-style $border-width;
   .alert-link {
     color: $warning-900;
-  }
-  .close {
-    color: $warning-900;
-    opacity: 1;
   }
 }
 .alert-danger {
@@ -31,10 +22,6 @@
   .alert-link {
     color: $danger-900;
   }
-  .close {
-    color: $danger-900;
-    opacity: 1;
-  }
 }
 .alert-success {
   color: $success-900;
@@ -43,10 +30,6 @@
   .alert-link {
     color: $success-900;
   }
-  .close {
-    color: $success-900;
-    opacity: 1;
-  }
 }
 .alert-info {
   color: $info-900;
@@ -54,9 +37,5 @@
   border: $info-900 $border-style $border-width;
   .alert-link {
     color: $info-900;
-  }
-  .close {
-    color: $info-900;
-    opacity: 1;
   }
 }

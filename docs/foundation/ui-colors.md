@@ -15,10 +15,10 @@ eleventyNavigation:
 
 Pelican provides more clarity in the user interface by using a color for UI elements. This color is used on form controls, priority interface actions, and supporting interface elements. 
 
-<div class="row mb-12">
+<div class="row mb-5">
   <div class="col-md-6 col-xl-3">
-    <div class="card border-0 mb-4">
-      <div class="py-20 bg-ui rounded-top"></div>
+    <div class="card border-0">
+      <div class="bg-ui rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">UI</p>
         <p class="mb-0"><code>#6c757d</code></p>
@@ -45,7 +45,7 @@ The UI color is often used as:
 The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
 
 <div class="table-wrapper">
-  <table class="table table-striped mb-8">
+  <table class="table table-striped mb-5">
     <thead>
       <tr>
         <th>Background Colors</th>
@@ -54,8 +54,8 @@ The UI Colors are implemented as background colors and as text colors. The class
     </thead>
     <tbody>
       <tr>
-        <td><span class="badge badge-pill py-2 px-4 badge-ui">bg-ui</span></td>
-        <td><span class="badge badge-pill py-2 px-4 bg-transparent text-ui">text-ui</span></td>
+        <td><span class="h5"><span class="badge badge-ui">bg-ui</span></span></td>
+        <td><span class="h5"><span class="badge bg-transparent text-ui">text-ui</span></span></td>
       </tr>                             
     </tbody>
   </table>

@@ -134,6 +134,38 @@ eleventyNavigation:
 <button type="button" class="btn btn-warning">Button</button>
 ```
 
+***Dropdown Buttons***
+
+- Contains a list of links, using the `<a>` element.
+- It’s not the same thing as the [Select Menu used in Forms](/form-controls/select/).
+- Keep the text in the links brief.
+- Appearance can be changed like other buttons.
+
+<div class="dropdown">
+  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+
+```html
+<div class="dropdown">
+  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+```
+
+
 **Icons in Buttons**
 
 - Review Pelican’s [Icon](/foundation/icons/) guidance
@@ -169,13 +201,13 @@ eleventyNavigation:
 
 <button type="button" class="btn btn-outline-ui">
     <span class="fas fa-check" aria-hidden="true"></span>
-    <span class="sr-only" aria-hidden="false">Accept Terms</span>
+    <span class="visually-hidden" aria-hidden="false">Accept Terms</span>
 </button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
     <span class="fas fa-check" aria-hidden="true"></span>
-    <span class="sr-only" aria-hidden="false">Accept Terms</span>
+    <span class="visually-hidden" aria-hidden="false">Accept Terms</span>
 </button>
 ```
 

@@ -17,7 +17,7 @@ eleventyNavigation:
 - Refrain from using placeholder attributes in inputs because they causes usability problems.
 - Use the Text Input when you can’t predict a user’s response or when another type of Input would make answering the prompt difficult.
 - If users must choose from a predetermined set of choices, use [Radio Buttons](/form-controls/radios) or [Checkboxes](/form-controls/checkboxes).
-- Use [Textarea](/forms/textarea) if the user needs to enter more than a single line of text.
+- Use [Textarea](/form-controls/textarea) if the user needs to enter more than a single line of text.
 - Clearly label all text input fields.
 - Use the appropriate type of input for the data being gathered.
 - Ensure the `for` and `id` attributes have matching values.

@@ -18,7 +18,7 @@ Our site uses <a href="https://www.11ty.dev/" target="_blank">11ty</a> as our st
 One of the most widely-used frontend frameworks available and supported in Microsoft VisualStudio, <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a> provides the frontend foundation upon which we have built our system .
 
 ## FontAwesome
-We use  <a href="https://fontawesome.com/" target="_blank">FontAwesome </a> as our icon source for many internal and public-facing projects.
+We use  <a href="https://fontawesome.com/v5/search?m=free&s=solid" target="_blank">FontAwesome </a> as our icon source for many internal and public-facing projects.
 
 ## Photography Credits
 

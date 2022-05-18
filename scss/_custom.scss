@@ -10,7 +10,7 @@
   height: 44px;
   color: $info;
   background-color: $white;
-  border-bottom-right-radius: $spacer;
+  border-bottom-right-radius: 1rem;
   transition: $transition-base;
 
   &:active,
@@ -24,14 +24,15 @@
 }
 .official-banner {
   @extend .border-bottom;
-  @extend .py-1;
-
+  padding-top: .25rem;
+  padding-bottom: .25rem;
   background-color: $black;
   color: $white;
   border-color: $black !important;
 
   .container-fluid {
-    @extend .py-1;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
   }
 }
 
@@ -46,34 +47,44 @@
   @extend .flex-column;
 }
 
+li {
+  a {
+    text-decoration: none;
+  }
+}
+
 .page-header {
   background-color: $white;
   border-bottom: $border-width $border-style $border-color;
   border-radius: 0;
 
   @include media-breakpoint-up(lg) {
-    padding-top: $spacer * 2;
-    padding-bottom: $spacer * 2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
 .page-title {
-  @extend .py-4;
-  @extend .py-lg-16;
-  @extend .mb-4;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   box-shadow: $box-shadow-minor;
   background-color: $white;
   border: 0;
+  @include media-breakpoint-up(lg) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
   .page-title-text {
-    @extend .h2 ;
-    @extend .mb-0;
+    @extend .h2;
+    margin-bottom: 0;
     color: $primary;
     .icon {
       color: $primary-500;
     }
   }
   p {
-    @extend .mb-0;
+    margin-bottom: 0;
     color: $primary;
   }
 }
@@ -85,19 +96,24 @@
 }
 
 .content-container {
-  @extend .py-4;
-  @extend .mb-4;
   background-color: $white;
-  box-shadow: $box-shadow-sm;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 1px 0 fade-out($black, .85);
+  @include media-breakpoint-up(lg){
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .form-fieldset,
 .page-area,
 .white-container-box {
-  padding-top: $spacer;
-  padding-bottom: $spacer;
-  margin-top: $spacer;
-  margin-bottom: $spacer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background-color: $card-bg;
   border-bottom: $border-width $border-style $border-color;
   border-radius: $border-radius;
@@ -109,10 +125,10 @@
 
 .validation-summary-errors {
   @extend .alert-danger;
-  margin: ($spacer * 0.5) 0;
+  margin: 0.5rem 0;
   background-color: fade-out($danger, 0.9);
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f6727c' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
-  border-radius: $spacer * 0.25;
+  border-radius: 0.25rem;
 
   ul {
     padding: 0;
@@ -122,14 +138,14 @@
 
   li {
     position: relative;
-    padding: ($spacer * 0.25) ($spacer * 0.5) ($spacer * 0.25) ($spacer * 1.25);
+    padding: 0.25rem 0.5rem 0.25rem 1.25rem;
 
     &::before {
       position: absolute;
-      top: $spacer * 0.25;
-      left: $spacer * 0.25;
-      width: $spacer * 1.5;
-      height: $spacer * 1.5;
+      top: 0.25rem;
+      left: 0.25rem;
+      width: 1.5rem;
+      height: 1.5rem;
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       color: inherit;
@@ -216,7 +232,7 @@
 }
 
 .grey-box {
-  padding: $spacer;
+  padding: 1rem;
   background-color: $gray-100;
   border: 2px solid $gray-400;
   border-radius: $border-radius;
@@ -225,16 +241,16 @@
 //this combination does not appear to be in use
 .white-box,
 .form-fieldset {
+  @extend .shadow-sm;
   background-color: $white;
-  padding: ($spacer * 1.5) $spacer;
-  margin-bottom: $spacer;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
   border-bottom: $border-width $border-style $border-color;
   border-radius: $border-radius;
-  @extend .shadow-sm;
 
   @include media-breakpoint-up(xl) {
-    padding-right: ($spacer * 4);
-    padding-left: ($spacer * 4);
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
 }
 
@@ -243,8 +259,8 @@
 }
 
 iframe {
-  margin: $spacer 0 ($spacer * 2);
   @extend .position-relative;
+  margin: 1rem 0 2rem;
 }
 
 .text-wrap {
@@ -266,19 +282,29 @@ iframe {
   }
   small {
     @extend .d-block;
-    @extend .mb-2;
+    margin-bottom: .5rem;
   }
   .btn {
     @extend .btn-outline-info;
     @extend .btn-sm;
   }
 }
+
+.error-display {
+  margin-top: 5.5rem;
+}
+.error-display-internal {
+  .card {
+    border-color: $danger-50;
+  }
+}
+
 .media {
   @extend .d-flex;
-  &-start {
-    
-  }
+
+  &-start {}
+
   &-end {
-    margin-left: $spacer * .25;
+    margin-left: .25rem;
   }
 }
