@@ -2,7 +2,7 @@
 title: Chip
 summary: Chips allow users to see items added to or removed from a set.
 tags: components, chips
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Chip
   parent: Components

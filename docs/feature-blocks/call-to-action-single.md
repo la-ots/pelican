@@ -2,7 +2,7 @@
 title: Call to Action, Single
 summary: A simple imperative statement with an action button.
 tags: feature block
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Call to Action, Single
   parent: Feature Blocks

@@ -2,7 +2,7 @@
 title: Voice & Tone
 summary: Guidelines for written content.
 tags: typography, font, typeface
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Voice & Tone
   parent: Foundation

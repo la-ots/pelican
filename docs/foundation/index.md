@@ -2,7 +2,7 @@
 title: Foundation
 summary: Get to know the basics behind Pelican.
 tags: foundation
-layout: area-page
+layout: page-area
 index: true
 eleventyNavigation:
   key: Foundation

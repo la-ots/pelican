@@ -2,7 +2,7 @@
 title: Hero Blocks
 summary: Hero Blocks are used to create visually-engaging introductions to a site.
 tags: hero, blocks
-layout: area-page
+layout: page-area
 index: true
 eleventyNavigation:
   key: Hero Blocks

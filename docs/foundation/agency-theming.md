@@ -2,7 +2,7 @@
 title: Agency Themes
 summary: Agencies have opportunity to reflect their own brand using Pelican.
 tags: color, agency, brand
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Agency Themes
   parent: Foundation

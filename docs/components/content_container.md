@@ -2,7 +2,7 @@
 title: Content Container
 summary: Content Containers collect content into meaningful groups.
 tags: components, boxes, content container
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Content Container
   parent: Components

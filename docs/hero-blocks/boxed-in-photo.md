@@ -2,7 +2,7 @@
 title: Boxed-in Photo
 summary: Short amounts of text and a link with a contained image.
 tags: feature block
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Boxed-in Photo
   parent: Hero Blocks

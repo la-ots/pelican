@@ -2,7 +2,7 @@
 title: Feature Blocks
 summary: Feature Blocks are ways to highlight what users get from an app or site.
 tags: features, blocks, block, feature
-layout: area-page
+layout: page-area
 index: true
 eleventyNavigation:
   key: Feature Blocks

@@ -2,7 +2,7 @@
 title: Documentation Page
 summary: A layout that provides links to jump to content section headers.
 tags: page templates
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Documentation Page
   parent: Page Templates

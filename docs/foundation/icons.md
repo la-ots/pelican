@@ -2,7 +2,7 @@
 title: Icons
 summary: Icons provide at-a-glance representation of actions or concepts.
 tags: icons
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Icons
   parent: Foundation

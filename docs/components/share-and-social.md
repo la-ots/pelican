@@ -2,7 +2,7 @@
 title: Share & Social
 summary: Social Icons allow users to share the page with others.
 tags: components
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Share & Social
   parent: Components

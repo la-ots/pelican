@@ -2,7 +2,7 @@
 title: Feedback
 summary: Help make Pelican better by giving us your feedback.
 tags: features, blocks, block, feature
-layout: guide-page
+layout: page-guide
 index: true
 eleventyNavigation:
   key: Feedback

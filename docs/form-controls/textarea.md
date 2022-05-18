@@ -2,7 +2,7 @@
 title: Text Area
 summary: Textarea allows users to input multiple lines of text into a form.
 tags: forms
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Text Area
   parent: Form Controls

@@ -2,7 +2,7 @@
 title: Accessibility
 summary: Keeping users of all access needs in mind is a high priority.
 tags: accessibility
-layout: area-page
+layout: page-area
 index: true
 eleventyNavigation:
   key: Accessibility

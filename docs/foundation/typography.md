@@ -2,7 +2,7 @@
 title: Typography
 summary: Guidelines for presenting textual information.
 tags: typography, font, typeface
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Typography
   parent: Foundation

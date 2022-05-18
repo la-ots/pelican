@@ -2,7 +2,7 @@
 title: Address
 summary: The Address block allows the user to input their address on a form.
 tags: form-templates
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Address
   parent: Form Templates

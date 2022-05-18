@@ -2,7 +2,7 @@
 title: Inputs
 summary: The Input element specifies a field for the user to enter information on a page.
 tags: forms
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Inputs
   parent: Form Controls

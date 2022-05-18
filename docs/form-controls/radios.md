@@ -2,7 +2,7 @@
 title: Radios
 summary: Radios allow users to select exactly one option from multiple options.
 tags: forms
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Radios
   parent: Form Controls

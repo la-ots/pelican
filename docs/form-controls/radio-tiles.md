@@ -2,7 +2,7 @@
 title: Radio Tiles
 summary: Radios allow users to select exactly one option from multiple options.
 tags: forms
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Radio Tiles
   parent: Form Controls

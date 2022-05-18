@@ -2,7 +2,7 @@
 title: Images
 summary: Guidelines for including images in digital products.
 tags: images
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Images
   parent: Foundation

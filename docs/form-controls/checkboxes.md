@@ -2,7 +2,7 @@
 title: Checkboxes
 summary: Checkboxes allow users to select one or more options at the same time.
 tags: forms
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Checkboxes
   parent: Form Controls

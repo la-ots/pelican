@@ -2,7 +2,7 @@
 title: Text Over Color-Toned Photo
 summary: Short text over a translucent field of color, over an image.
 tags: feature blocks
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Text Over Color-Toned Photo
   parent: Hero Blocks

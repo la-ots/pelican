@@ -2,7 +2,7 @@
 title: What’s New
 summary: Pelican Changelog
 tags: resources
-layout: guide-page
+layout: page-guide
 index: true
 eleventyNavigation:
   key: What’s New

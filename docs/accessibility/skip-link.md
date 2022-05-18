@@ -2,7 +2,7 @@
 title: Skip Link
 summary: Skip Links allow users to skip navigation elements and go straight to content.
 tags: skip link, accessibility
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Skip Link
   parent: Accessibility

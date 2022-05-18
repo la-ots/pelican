@@ -2,7 +2,7 @@
 title: Data Tile
 summary: Data Tiles group related information about a category. 
 tags: data tile, group, information
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Data Tile
   parent: Components

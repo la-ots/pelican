@@ -2,7 +2,7 @@
 title: Tabbed Content
 summary: Tabs group related content, allowing users to see only what they want to see. 
 tags: components
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Tabbed Content
   parent: Components

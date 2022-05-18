@@ -2,7 +2,7 @@
 title: Page Actions Button
 summary: Page Actions allow users perform various actions. 
 tags: components, buttons
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Page Actions Button
   parent: Components

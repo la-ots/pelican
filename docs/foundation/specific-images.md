@@ -2,7 +2,7 @@
 title: Specific Images
 summary: Specific guidelines for using images such as the State seal and logos.
 tags: images
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Specific Images
   parent: Foundation

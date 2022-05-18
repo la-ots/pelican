@@ -2,7 +2,7 @@
 title: Pagination
 summary: Pagination allows users to choose between viewable data sets.
 tags: components
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Pagination
   parent: Components

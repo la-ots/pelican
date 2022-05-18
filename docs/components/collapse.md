@@ -2,7 +2,7 @@
 title: Collapse
 summary: Collapses allow users to toggle the visibility of content.
 tags: components,collapse
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Collapse
   parent: Components

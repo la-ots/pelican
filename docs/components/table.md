@@ -2,7 +2,7 @@
 title: Table
 summary: Tables allow users to compare and review large amounts of data.
 tags: components
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Table
   parent: Components

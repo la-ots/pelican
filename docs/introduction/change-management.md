@@ -2,7 +2,7 @@
 title: Change Management
 summary: Suggest changes to the Pelican Design System.
 tags: change management, contribute
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Change Management
   parent: Introduction

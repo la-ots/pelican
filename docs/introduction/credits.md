@@ -2,7 +2,7 @@
 title: Credits
 summary: We used many open-source and freely-available resources to help us deliver this quickly and reliably. 
 tags: credits
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Credits
   parent: Introduction

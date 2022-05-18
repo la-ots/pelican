@@ -2,7 +2,7 @@
 title: Dyslexia Friendly
 summary: Dyslexic readers benefit from a few easy-to-implement strategies.
 tags: color, contrast
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Dyslexia Friendly
   parent: Accessibility

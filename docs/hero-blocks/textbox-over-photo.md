@@ -2,7 +2,7 @@
 title: Textbox Over Photo
 summary: Short text over over a photograph.
 tags: feature blocks
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Textbox Over Photo
   parent: Hero Blocks

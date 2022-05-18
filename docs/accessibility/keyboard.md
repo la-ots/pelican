@@ -2,7 +2,7 @@
 title: Keyboard Navigation
 summary: Users should be able to completely interact with your application using only the keyboard.
 tags: accessibility, keyboard, focus
-layout: guide-page
+layout: page-guide
 eleventyNavigation:
   key: Keyboard Navigation
   parent: Accessibility
