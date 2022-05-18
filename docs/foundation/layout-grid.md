@@ -29,10 +29,138 @@ The browser window has an explicit width whether it’s edge-to-edge of your mon
 
 These breakpoints allow for items to be predictably sized. Resize this window and observe how the light blue boxes widths change in small increments before changing across larger increments.
 
-{% include 'markup/layout-grid.njk' %}
+<div class="container-fluid">
+  <div class="row mb-3">
+    <div class="col-12" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span>Always 12 Columns</span>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 ``` html
-{% include 'markup/layout-grid.njk' %}
+<div class="container-fluid">
+  <div class="row mb-3">
+    <div class="col-12" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span>Always 12 Columns</span>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4" style="background-color:#d0e6ff!important;">
+      <div class="p-4" style="background-color:#6ab0ff!important;">
+        <span class="d-block d-sm-none">XS 12</span>
+        <span class="d-none d-sm-block d-md-none">SM 6</span>
+        <span class="d-none d-md-block d-lg-none">MD 4</span>
+        <span class="d-none d-lg-block d-xl-none">LG 3</span>
+        <span class="d-none d-xl-block">XL 2</span>
+      </div>
+    </div>
+  </div>
+</div>
 ``` 
 
 ## Guidance
@@ -55,10 +183,58 @@ This forms the basis of your layout.
 
 Content which needs to resize would be placed directly in the `<div>` elements with the columns classes. Cards and Form Groups are easy examples.
 
-{% include 'markup/cards-layout.njk' %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          Card
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          Card
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          Card
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ```html
-{% include 'markup/cards-layout.njk' %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          Card
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          Card
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          Card
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
 ## Special Note
