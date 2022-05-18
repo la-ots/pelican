@@ -2,7 +2,7 @@
 title: Hero Centered
 summary: Heroes bring a visual impact to a visitor’s initial impression of a site.
 tags: hero block
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Hero Centered
   parent: Hero Blocks

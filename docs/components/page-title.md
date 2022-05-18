@@ -2,7 +2,7 @@
 title: Page Title
 summary: The Page Title block explains the purpose of a page.
 tags: components
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Page Title
   parent: Components

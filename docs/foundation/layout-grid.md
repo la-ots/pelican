@@ -2,7 +2,7 @@
 title: Layout Grid
 summary: Pelican uses Bootstrap’s Grid to arrange content.
 tags: components, layout grid, grid, layout
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Layout Grid
   parent: Foundation

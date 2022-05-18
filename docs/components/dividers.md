@@ -2,7 +2,7 @@
 title: Dividers
 summary: Dividers separate content into clear, meaningful groups.
 tags: components, dividers
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Dividers
   parent: Components

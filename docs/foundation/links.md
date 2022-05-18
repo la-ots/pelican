@@ -2,7 +2,7 @@
 title: Links
 summary: Links allow users to change locations.
 tags: foundation
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Links
   parent: Foundation

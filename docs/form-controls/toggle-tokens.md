@@ -2,7 +2,7 @@
 title: Toggle Tokens
 summary: Toggle Tokens are a styled version of Checkboxes and Radios. 
 tags: forms
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Toggle Tokens
   parent: Form Controls

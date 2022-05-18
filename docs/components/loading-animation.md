@@ -2,7 +2,7 @@
 title: Loading Animation
 summary: The Loading Animation informs the user a website or application is getting data.
 tags: components
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Loading Animation
   parent: Components

@@ -2,7 +2,7 @@
 title: Switches
 summary: Switches allow users to enable or disable something, like a light switch.
 tags: forms
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Switches
   parent: Form Controls

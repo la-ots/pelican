@@ -2,7 +2,7 @@
 title: Toasts
 summary: Toasts are a lightweight notification relaying information related to the user's actions.
 tags: components
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Toasts
   parent: Components

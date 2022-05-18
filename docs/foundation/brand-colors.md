@@ -2,7 +2,7 @@
 title: Brand Colors
 summary: Pelican uses Brand colors to help define your own brand.
 tags: color
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Brand Colors
   parent: Foundation

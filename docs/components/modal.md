@@ -2,7 +2,7 @@
 title: Modal
 summary: Modals stop the user for an important change or decision.
 tags: components
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Modal
   parent: Components

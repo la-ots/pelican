@@ -2,7 +2,7 @@
 title: Accessibility Statement
 summary: Pelican is committed to ongoing accessibility improvements.
 tags: accessibility
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Accessibility Statement
   parent: Accessibility

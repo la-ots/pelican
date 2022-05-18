@@ -2,7 +2,7 @@
 title: Dual Pane
 summary: An image with text and color overlay next to an image with color overlay and a button.
 tags: hero block
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Dual Pane
   parent: Hero Blocks

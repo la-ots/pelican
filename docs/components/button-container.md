@@ -2,7 +2,7 @@
 title: Button Container
 summary: The Button Container collects a series of related buttons at bottom of page.
 tags: button container
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Button Container
   parent: Components

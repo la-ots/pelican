@@ -2,7 +2,7 @@
 title: Checkbox Tiles
 summary: Offer your users a larger tap target and additional information.
 tags: forms
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Checkbox Tiles
   parent: Form Controls

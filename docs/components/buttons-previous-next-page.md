@@ -2,7 +2,7 @@
 title: Previous & Next Page Buttons
 summary: Previous & Next Page buttons allow users to move through a sequential process.
 tags: components, buttons
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Previous and Next Page Buttons
   parent: Components

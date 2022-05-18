@@ -2,7 +2,7 @@
 title: Badges
 summary: Badges are labels that inform users about some aspect of the data, such as the count of related items.
 tags: components, badges
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Badges
   parent: Components

@@ -2,7 +2,7 @@
 title: Footer
 summary: Footers contain links and other useful information at the bottom of a page.
 tags: components, footers
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Footer
   parent: Components

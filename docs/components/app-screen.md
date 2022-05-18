@@ -2,7 +2,7 @@
 title: App Screen
 summary: The App Screen is the container for your digital product. 
 tags: basic view, sidenav, topbar
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: App Screen
   parent: Components

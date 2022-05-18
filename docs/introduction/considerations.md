@@ -2,7 +2,7 @@
 title: Important Considerations
 summary: Some important things to be aware of as you use the Pelican.
 tags: layout, markup, accessibility
-layout: guide
+layout: guide-page
 eleventyNavigation:
   key: Important Considerations
   parent: Introduction
