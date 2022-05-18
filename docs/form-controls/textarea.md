@@ -19,10 +19,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/textarea.njk' %}
+{% include 'markup/form-controls/textarea.njk' %}
 
 ``` html
-{% include 'markup/textarea.njk' %}
+{% include 'markup/form-controls/textarea.njk' %}
 ```
 
 ## Resources

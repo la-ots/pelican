@@ -25,10 +25,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/select.njk' %}
+{% include 'markup/form-controls/select.njk' %}
 
 ``` html
-{% include 'markup/select.njk' %}
+{% include 'markup/form-controls/select.njk' %}
 ```
 
 ## Resources

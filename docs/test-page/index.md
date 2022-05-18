@@ -92,13 +92,13 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text-plain.njk' -%}
+        {%- include 'markup/form-controls/input-text-plain.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -108,21 +108,21 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/select.njk' -%}
+        {%- include 'markup/form-controls/select.njk' -%}
       </div>
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
@@ -149,7 +149,7 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-file.njk' -%}
+        {%- include 'markup/form-controls/input-file.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
@@ -165,10 +165,10 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-4">
-        {%- include 'markup/checkboxes.njk' -%}
+        {%- include 'markup/form-controls/checkboxes.njk' -%}
       </div>
       <div class="col-12 col-lg-4">
-        {%- include 'markup/radios.njk' -%}
+        {%- include 'markup/form-controls/radios.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -178,10 +178,10 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-4">
-        {%- include 'markup/toggle-tokens-exclusive.njk' -%}
+        {%- include 'markup/form-controls/toggle-tokens-exclusive.njk' -%}
       </div>
       <div class="col-12 col-lg-4">
-        {%- include 'markup/toggle-tokens-inclusive.njk' -%}
+        {%- include 'markup/form-controls/toggle-tokens-inclusive.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -212,10 +212,10 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/select.njk' -%}
+        {%- include 'markup/form-controls/select.njk' -%}
       </div>
     </div>
     <div class="row">

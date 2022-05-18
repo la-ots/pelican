@@ -20,10 +20,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/switches-little.njk' %}
+{% include 'markup/form-controls/switches-little.njk' %}
 
 ``` html
-{% include 'markup/switches-little.njk' %}
+{% include 'markup/form-controls/switches-little.njk' %}
 ```
 
 ## Resources
