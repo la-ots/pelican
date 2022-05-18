@@ -20,8 +20,8 @@ Use this when you’re ready to direct the reader to take an action, but that ac
 
 ## Usage
 
-{% include 'markup/feature-cta-double.njk' %}
+{% include 'markup/highlights/feature-cta-double.njk' %}
 
 ``` html
-{% include 'markup/feature-cta-double.njk' %}
+{% include 'markup/highlights/feature-cta-double.njk' %}
 ```

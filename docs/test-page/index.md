@@ -371,8 +371,8 @@ index: true
 {%- include 'markup/components/tabbed-content-traditional.njk' -%}
 
 <!-- features -->
-{%- include 'markup/feature-cta-double.njk' -%}
-{%- include 'markup/feature-set.njk' -%}
+{%- include 'markup/highlights/feature-cta-double.njk' -%}
+{%- include 'markup/highlights/feature-set.njk' -%}
 <!-- heroes -->
 {%- include 'markup/highlights/hero-dual-pane.njk' -%}
 {%- include 'markup/highlights/hero-textbox-over-photo.njk' -%}
