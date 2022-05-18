@@ -3,8 +3,17 @@ layout: base.njk
 ---
 
 <!-- need to replace these with generic document components -->
-{% include "sidebar-internal.njk" %}
-{% include "header.njk" %}
+<nav id="site-nav" class="site-nav">
+  <div class="site-nav-content">
+    <div class="site-nav-brand">
+      <a href="{{ '/' | url }}" class="me-auto">
+        <img src="/img/favicon.png" class="d-none d-md-inline me-1" alt="Pelican Design System icon" /><span
+          class="d-none d-md-inline">Pelican <span class="visually-hidden">Home</span></span>
+      </a>
+    </div>
+  </div>
+</nav>
+{% include "site-blocks/header.njk" %}
 <main id="main" class="site-main">         
   {{ content | safe }}
 </main>
