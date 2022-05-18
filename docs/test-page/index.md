@@ -374,9 +374,9 @@ index: true
 {%- include 'markup/feature-cta-double.njk' -%}
 {%- include 'markup/feature-set.njk' -%}
 <!-- heroes -->
-{%- include 'markup/hero-dual-pane.njk' -%}
-{%- include 'markup/hero-textbox-over-photo.njk' -%}
-{%- include 'markup/hero-text-color-toned-photo.njk' -%}
-{%- include 'markup/hero-single-pane.njk' -%}
+{%- include 'markup/highlights/hero-dual-pane.njk' -%}
+{%- include 'markup/highlights/hero-textbox-over-photo.njk' -%}
+{%- include 'markup/highlights/hero-text-color-toned-photo.njk' -%}
+{%- include 'markup/highlights/hero-single-pane.njk' -%}
 <!-- button container -->
 {%- include 'markup/components/button-container.njk' -%}
