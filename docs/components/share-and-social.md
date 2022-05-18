@@ -18,8 +18,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/share-social.njk' %}
+{% include 'markup/components/share-social.njk' %}
 
 ``` html
-{% include 'markup/share-social.njk' %}
+{% include 'markup/components/share-social.njk' %}
 ```

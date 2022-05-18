@@ -20,10 +20,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/content-container.njk' %}
+{% include 'markup/components/content-container.njk' %}
 
 ``` html
-{% include 'markup/content-container.njk' %}
+{% include 'markup/components/content-container.njk' %}
 ```
 
 ## Resources

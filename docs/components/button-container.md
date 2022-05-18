@@ -21,10 +21,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-container.njk' %}
+{% include 'markup/components/button-container.njk' %}
 
 ``` html
-{% include 'markup/button-container.njk' %}
+{% include 'markup/components/button-container.njk' %}
 ```
 ## Resources
 * <a href="https://getbootstrap.com/docs/4.5/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>

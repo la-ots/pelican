@@ -3,9 +3,9 @@ layout: base.njk
 ---
 
 <div id="site-container" class="site-container">
-  {% include 'markup/navbar-basic.njk' %}
+  {% include 'markup/components/navbar-basic.njk' %}
   <main id="main" class="site-main no-side-toggle" style="padding-top: 0;">          
     {{ content | safe }}
   </main>
-  {% include 'markup/footer-utility.njk' %}
+  {% include 'markup/components/footer-utility.njk' %}
 </div>

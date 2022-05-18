@@ -26,11 +26,11 @@ For projects requiring a sidebar navigation the App Screen provides the basic us
 Everything considered part of the App Screen is placed into the `id=site-container`. This is out the outermost `div`. The Skip Link goes above it in markup. The Footer and Back to Top button go below it in markup.
 
 ```html
-{% include 'markup/skip-link.njk' %}
+{% include 'markup/components/skip-link.njk' %}
 <div id="site-container" class="site-container">
   ...
 </div>
-{% include 'markup/button-back-to-top.njk' %}
+{% include 'markup/components/button-back-to-top.njk' %}
 ```
 
 ## Sidebar with Navigation

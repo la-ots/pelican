@@ -26,10 +26,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/modal.njk' %}
+{% include 'markup/components/modal.njk' %}
 
 ``` html
-{% include 'markup/modal.njk' %}
+{% include 'markup/components/modal.njk' %}
 ```
 
 ## Resources

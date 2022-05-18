@@ -21,10 +21,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/table.njk' %}
+{% include 'markup/components/table.njk' %}
 
 ``` html
-{% include 'markup/table.njk' %}
+{% include 'markup/components/table.njk' %}
 ```
 
 ## Resources

@@ -21,10 +21,10 @@ Badges are used for information such as:
 
 ## Usage
 
-{% include 'markup/badges.njk' %}
+{% include 'markup/components/badges.njk' %}
 
 ``` html
-{% include 'markup/badges.njk' %}
+{% include 'markup/components/badges.njk' %}
 ```
 
 ## Resources

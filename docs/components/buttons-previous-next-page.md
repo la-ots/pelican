@@ -22,10 +22,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/buttons-previous-next-page.njk' %}
+{% include 'markup/components/buttons-previous-next-page.njk' %}
 
 ``` html
-{% include 'markup/buttons-previous-next-page.njk' %}
+{% include 'markup/components/buttons-previous-next-page.njk' %}
 ```
 
 ## Resources
