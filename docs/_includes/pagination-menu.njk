@@ -1,6 +1,6 @@
 <hr class="major opacity-50 mb-0" />
 
-<nav class="" aria-label="Page navigation example">
+<nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center mr-lg-4 mb-lg-0">
     <li class="page-item">
       <a class="page-link" href="{{ pagination.href.previous }}" aria-label="Previous">
@@ -20,18 +20,20 @@
     <li class="page-item active" aria-current="page">
       <a class="page-link" href="">{{ pagination.pageNumber + 1 }}</a>
     </li>
-    {%- if pagination.pageNumber + 2 <= pagination.pages.length %} <li class="page-item">
+    {%- if pagination.pageNumber + 2 <= pagination.pages.length %} 
+    <li class="page-item">
       <a class="page-link" href="{{ pagination.hrefs[pagination.pageNumber+1] }}">{{ pagination.pageNumber + 2 }}</a>
-      </li>
-      {%- endif %}
-      {%- if pagination.pageNumber + 3 <= pagination.pages.length %} <li class="page-item">
-        <a class="page-link" href="{{ pagination.hrefs[pagination.pageNumber+2] }}">{{ pagination.pageNumber + 3 }}</a>
-        </li>
-        {%- endif %}
-        <li class="page-item">
-          <a class="page-link" href="{{ pagination.href.next }}" aria-label="Next">
-            <span class="fas fa-angle-double-right"></span>
-          </a>
-        </li>
+    </li>
+    {%- endif %}
+    {%- if pagination.pageNumber + 3 <= pagination.pages.length %} 
+    <li class="page-item">
+      <a class="page-link" href="{{ pagination.hrefs[pagination.pageNumber+2] }}">{{ pagination.pageNumber + 3 }}</a>
+    </li>
+    {%- endif %}
+    <li class="page-item">
+      <a class="page-link" href="{{ pagination.href.next }}" aria-label="Next">
+        <span class="fas fa-angle-double-right"></span>
+      </a>
+    </li>
   </ul>
 </nav>
