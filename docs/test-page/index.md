@@ -2,7 +2,7 @@
 title: Test Page
 summary: This test page is used to visuall check if CSS changes have unintended effects.
 tags: test-page
-layout: nav-site-default
+layout: nav-site-internal
 index: true
 ## eleventyNavigation:
 ##   key: Sitemap
