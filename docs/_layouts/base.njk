@@ -48,7 +48,9 @@
   </head>
   <body class="bg-texture">
     {% include 'markup/components/skip-link.njk' %}
-    {{ content | safe }}
+    <div id="site-container" class="site-container">
+      {{ content | safe }}
+    </div>
     {% include 'markup/components/button-back-to-top.njk' %}
     {% if env.production %}
       <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>

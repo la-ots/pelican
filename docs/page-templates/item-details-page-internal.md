@@ -1,6 +1,6 @@
 ---
 title: Item Details Page Internal
-layout: default-internal
+layout: nav-internal
 ---
 
 {% include 'markup/components/page-title.njk' %}

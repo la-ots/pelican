@@ -1,0 +1,9 @@
+---
+layout: nav-site-default.njk
+---
+{% set navPages = collections.all | eleventyNavigation %}
+
+{% include "breadcrumbs.njk" %}
+{% include "page-title.njk" %}
+{{ content | safe }}
+  

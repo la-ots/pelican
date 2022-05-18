@@ -1,6 +1,6 @@
 ---
 title: Document Page Public
-layout: default-public
+layout: nav-public
 ---
 
 {% include 'markup/components/breadcrumbs.njk' %}

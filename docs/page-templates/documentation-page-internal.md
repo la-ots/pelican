@@ -1,6 +1,6 @@
 ---
 title: Document Page Internal
-layout: default-internal
+layout: nav-internal
 ---
 
 {% include 'markup/components/breadcrumbs.njk' %}

@@ -1,0 +1,10 @@
+---
+layout: base.njk
+---
+
+{% include 'markup/components/official-banner.njk' %}
+{% include 'markup/components/navbar-basic.njk' %}
+<main id="main" class="site-main no-side-toggle" style="padding-top: 0;">
+  {{ content | safe }}
+</main>
+{% include 'markup/components/footer-utility.njk' %}

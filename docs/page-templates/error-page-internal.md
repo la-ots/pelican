@@ -1,6 +1,6 @@
 ---
 title: Error Page Internal
-layout: default-internal
+layout: nav-internal
 ---
 
 {% include 'markup/error-internal.njk' %}

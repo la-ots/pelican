@@ -1,6 +1,6 @@
 ---
 title: Error Page Public
-layout: default-public
+layout: nav-public
 ---
 
 {% include 'markup/error-public.njk' %}

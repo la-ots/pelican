@@ -1,6 +1,6 @@
 ---
 title: 404 Page Internal
-layout: default-internal
+layout: nav-internal
 ---
 
 {% include 'markup/404-internal.njk' %}
