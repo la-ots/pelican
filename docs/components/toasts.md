@@ -26,7 +26,7 @@ eleventyNavigation:
 - Toasts are persistent regardless of scrolling. 
 - Toasts are dismissable either by clicking the X to close or they automatically close after a defined time duration (suggestion is 7 seconds).
 
-{% include 'writing-tips.njk' %}
+{% include 'text-quotes/writing-tips.njk' %}
 
 ## Usage
 

@@ -27,7 +27,7 @@ This site has been built using code compliant with W3C standards for HTML and CS
 
 Our ongoing accessibility efforts work toward making Pelican as accessible as possible. [Pelican welcomes comments](/feedback) on how to improve its accessibility for users with disabilities.
 
-{% include 'markup/pull-request.njk' %}
+{% include 'text-quotes/pull-request.njk' %}
 
 ## Resources
 

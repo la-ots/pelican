@@ -16,7 +16,7 @@ eleventyNavigation:
 
 404 pages are pages which users will see if they click an invalid URL. An invalid URL could be caused by a developer error, a copy and paste error, or other error. They are not the user’s fault.
 
-{% include 'writing-tips.njk' %}
+{% include 'text-quotes/writing-tips.njk' %}
 
 ## Usage
 

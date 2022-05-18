@@ -14,7 +14,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-{% include 'writing-tips.njk' %}
+{% include 'text-quotes/writing-tips.njk' %}
 
 ## Usage
 
