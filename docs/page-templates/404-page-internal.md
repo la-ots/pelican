@@ -3,5 +3,5 @@ title: 404 Page Internal
 layout: nav-internal
 ---
 
-{% include 'markup/404-internal.njk' %}
+{% include 'markup/page-templates/404-internal.njk' %}
 

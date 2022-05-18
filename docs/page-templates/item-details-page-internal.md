@@ -4,4 +4,4 @@ layout: nav-internal
 ---
 
 {% include 'markup/components/page-title.njk' %}
-{% include 'markup/item-details-internal.njk' %}
+{% include 'markup/page-templates/item-details-internal.njk' %}
