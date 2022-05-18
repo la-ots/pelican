@@ -114,7 +114,7 @@ To prevent ambiguity in this situation, you could try one of a few strategies:
 - Avoid using Brand Colors in meaningful places in the user interface
 - Design a supporting brand palette for Status colors
 
-{% include 'color-warning.njk' %}
+{% include 'text-quotes/color-warning.njk' %}
 
 ## Resources
 
