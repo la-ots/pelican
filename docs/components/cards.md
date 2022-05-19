@@ -72,4 +72,4 @@ Cards are designed to be flexible enough to accommodate most content types
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/components/card/" target="_blank">Bootstrap Documentation - Cards</a>
+* <a href="{% include 'links/cards.njk' %}" target="_blank">Bootstrap Documentation - Cards</a>

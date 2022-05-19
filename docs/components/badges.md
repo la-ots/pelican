@@ -28,4 +28,4 @@ Badges are used for information such as:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/4.5/components/badge/" target="_blank">Bootstrap Documentation - Badges</a>
+* <a href="{% include 'links/badges.njk' %}" target="_blank">Bootstrap Documentation - Badges</a>

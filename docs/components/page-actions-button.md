@@ -24,4 +24,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>
+* <a href="{% include 'links/buttons.njk' %}" target="_blank">Bootstrap Documentation - Buttons</a>

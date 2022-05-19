@@ -85,7 +85,7 @@ pelican
 
 The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
 
-Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
+Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS]({% include 'links/bootstrap-home.njk' %}), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
 
 For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/v5/search?m=free&s=solid/) library, which are **not provided** in the bundled resources.
 
