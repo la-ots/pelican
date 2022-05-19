@@ -1,13 +1,13 @@
 ---
 title: Important Considerations
-summary: Some important things to be aware of as you use the Pelican.
+summary: Some important things to be aware of as you use Pelican.
 tags: layout, markup, accessibility
 layout: guide
 eleventyNavigation:
   key: Important Considerations
   parent: Introduction
   order: 2
-  excerpt: Some important things to be aware of as you use the Pelican.
+  excerpt: Some important things to be aware of as you use Pelican.
   img: /img/illustrations/illus-important-considerations.svg
 ---
 
