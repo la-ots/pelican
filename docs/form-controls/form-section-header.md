@@ -20,7 +20,7 @@ eleventyNavigation:
 - Put `role="group"` onto the container which holds the form section.
 - Be sure to consult [Typography and Headings](/foundation/typography/#headings) to ensure you’re using the appropriate heading level.
 
-**Note:** The content container, row, and column are only included to show how the Form Section Header will look. If you already have those in place, you only need the element with “Form Section” as the text.
+**Note:** The outer containers are only included to show how the Form Section Header will look. If you already have those in place, you only need the element with “Form Section” as the text.
 
 ## Usage
 
