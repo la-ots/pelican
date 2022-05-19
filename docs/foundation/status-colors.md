@@ -1,13 +1,13 @@
 ﻿---
 title: Status Colors
-summary: Pelican uses Status colors to inform users about what is going on with the system.
+summary: Pelican uses status colors to inform users about what is going on with the system.
 tags: color
 layout: guide
 eleventyNavigation:
   key: Status Colors
   parent: Foundation
   order: 2
-  excerpt: Pelican uses Status colors to inform users about what is going on with the system.
+  excerpt: Pelican uses status colors to inform users about what is going on with the system.
   img: /img/illustrations/illus-status-colors.svg
 --- 
 
@@ -23,8 +23,8 @@ eleventyNavigation:
       <div class="bg-success rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Success</p>
-        <p class="mb-0"><code>#0d6211</code></p>
-        <p class="mb-0"><code>$success</code></p>
+        <p class="mb-0">Hex Code: <code>#0d6211</code></p>
+        <p class="mb-0">SCSS Var: <code>$success</code></p>
       </div>
     </div>
   </div>
@@ -33,8 +33,8 @@ eleventyNavigation:
       <div class="bg-warning rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Warning</p>
-        <p class="mb-0"><code>#ffc107</code></p>
-        <p class="mb-0"><code>$warning</code></p>
+        <p class="mb-0">Hex Code: <code>#ffc107</code></p>
+        <p class="mb-0">SCSS Var: <code>$warning</code></p>
       </div>
     </div>
   </div>
@@ -43,8 +43,8 @@ eleventyNavigation:
       <div class="bg-danger rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Danger</p>
-        <p class="mb-0"><code>#b00003</code></p>
-        <p class="mb-0"><code>$danger</code></p>
+        <p class="mb-0">Hex Code: <code>#b00003</code></p>
+        <p class="mb-0">SCSS Var: <code>$danger</code></p>
       </div>
     </div>
   </div>
@@ -53,8 +53,8 @@ eleventyNavigation:
       <div class="bg-info rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Info</p>
-        <p class="mb-0"><code>#004ba1</code></p>
-        <p class="mb-0"><code>$info</code></p>
+        <p class="mb-0">Hex Code: <code>#004ba1</code></p>
+        <p class="mb-0">SCSS Var: <code>$info</code></p>
       </div>
     </div>
   </div>
@@ -68,18 +68,18 @@ The guidelines below may not cover all situations and use cases in your digital 
 
 The Success color indicates an action is successful or an event is beneficial.
 
-- Often used in validated form field indications
-- Lighter and darker variations used for background and text colors in [Success Alerts](/components/alerts/) and [Success Toasts](/components/toasts/)
+- Often used in validated form field indications.
+- Lighter and darker variations used for background and text colors in [Success Alerts](/components/alerts/) and [Success Toasts](/components/toasts/).
 - Might be to used to signal a data submission button when all required or validated fields are satisfactory.
 
 _Note: A successful action can include the successful deletion of an item or file._
 
 **Warning**
 
-The Warning color Indicates unintended, but not dangerous, effects of actions.
+The Warning color indicates unintended, but not dangerous, effects of actions.
 
 - Often used to display destructive actions from a list if it’s relatively easy to reinsert items in the list.
-- Can be used to signal data actions authorized users can affect which could affect non-authorized users.
+- Can be used to signal data actions authorized users can affect, which could affect non-authorized users.
 - Could be used to indicate waiting states in processes or multi-step forms.
 - Should be used to inform the user of system-wide errors preventing some, if not all, features.
 - Lighter and darker variations used for background and text colors in [Warning Alerts](/components/alerts/).
@@ -88,18 +88,18 @@ The Warning color Indicates unintended, but not dangerous, effects of actions.
 
 The Danger colors indicates that an action will cause critical effects such as loss of data, errors, or other hard-to-reverse effects.
 
-- Should be used to inform the user of data deletions
-- Could be used to inform the user that opting out of certain application features could prohibit future functionality
-- Should be used to inform the user of system-wide errors which totally prevent system use
-- Lighter and darker variations used for background and text colors in [Danger Alerts](/components/alerts/) and [Danger Toasts](/components/toasts/)
+- Should be used to inform the user of data deletions.
+- Could be used to inform the user that opting out of certain application features could prohibit future functionality.
+- Should be used to inform the user of system-wide errors which totally prevent system use.
+- Lighter and darker variations used for background and text colors in [Danger Alerts](/components/alerts/) and [Danger Toasts](/components/toasts/).
 
 **Info**
 
 The Info color indicates informative or helpful information.
 
-- Could be used to inform the user of new features
-- Should be used to inform the user of in-process system-wide changes which will improve their experience
-- Lighter and darker variations used for background and text colors in [Info Alerts](/components/alerts/)
+- Could be used to inform the user of new features.
+- Should be used to inform the user of in-process system-wide changes which will improve their experience.
+- Lighter and darker variations used for background and text colors in [Info Alerts](/components/alerts/).
 
 ## Status Color Class List
 

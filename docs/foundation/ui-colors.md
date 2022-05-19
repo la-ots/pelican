@@ -21,14 +21,14 @@ Pelican provides more clarity in the user interface by using a color for UI elem
       <div class="bg-ui rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">UI</p>
-        <p class="mb-0"><code>#6c757d</code></p>
-        <p class="mb-0"><code>$ui</code></p>
+        <p class="mb-0">Hex Code: <code>#6c757d</code></p>
+        <p class="mb-0">SCSS Var: <code>$ui</code></p>
       </div>
     </div>
   </div>
 </div>
 
-Like [Brand Colors](/foundation/status-colors) and [Status colors](/foundation/status-colors), these can be changed. Change with great care as they have been chosen in accordance with usability and color contrast guidelines.
+Like [Brand Colors](/foundation/status-colors) and [Status colors](/foundation/status-colors), this can be changed. Change with great care as this have been chosen in accordance with usability and color contrast guidelines.
 
 ## Using UI Colors
 
@@ -36,9 +36,9 @@ Like [Brand Colors](/foundation/status-colors) and [Status colors](/foundation/s
 
 The UI color is often used as:
 
-- Border colors on [Form Controls](/form-controls/)
-- Auxiliary choice buttons among several buttons in a row when Brand or Status themed buttons must also appear
-- The smaller buttons immediately adjacent to user interface elements
+- Border colors on [Form Controls](/form-controls/).
+- Auxiliary choice buttons among several buttons in a row when Brand or Status themed buttons must also appear.
+- The smaller buttons immediately adjacent to user interface elements.
 
 ## UI Color Class List
 

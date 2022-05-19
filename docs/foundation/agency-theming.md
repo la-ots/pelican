@@ -30,7 +30,7 @@ Pelican provides a way to change the following theme aspects when appropriate. T
 
 - Background colors, using classes such as `bg-primary`, `bg-accent`, etc.
 - Text colors, using classes such as `text-accent`, `text-primary`, etc.
-- Images and photographs
+- Images and photographs.
 - Icons and their colors, using classes such as `text-accent`, `text-danger`, etc.
 - Button colors, `btn-primary`, etc.
 
@@ -87,7 +87,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
   </div>
 </div>
 
-In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
+In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere, but what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
 
 <div class="row px-3 mb-4">
   <div class="col-12">
@@ -104,15 +104,15 @@ User confusion is likely, and could lead them to ask:
 
 Some strategies to counter this could include:
 
-- Adjust Status Colors to be distinct
+- Adjust Status Colors to be distinct.
 - Create and use supporting brand colors for important user interface elements.
 - Only use brand-colored buttons in specific, controlled regions, like the top or bottom of a page.
 
 To prevent ambiguity in this situation, you could try one of a few strategies:
 
-- Design [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
-- Avoid using Brand Colors in meaningful places in the user interface
-- Design a supporting brand palette for Status colors
+- [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
+- Avoid using Brand Colors in meaningful places in the user interface.
+- Design a supporting brand palette for Status colors.
 
 {% include 'color-warning.njk' %}
 
