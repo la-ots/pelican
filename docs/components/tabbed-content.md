@@ -19,7 +19,7 @@ eleventyNavigation:
 - You may need to put tabbed content into [Layout Grid](/foundation/layout-grid/) items.
 
 ## Usage
-### Rounded Style
+**Rounded Style**
 
 {% include 'markup/tabbed-content-rounded.njk' %}
 
@@ -27,7 +27,7 @@ eleventyNavigation:
 {% include 'markup/tabbed-content-rounded.njk' %}
 ```
 
-### Traditional Style
+**Traditional Style**
 
 {% include 'markup/tabbed-content-traditional.njk' %}
 

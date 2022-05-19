@@ -17,7 +17,7 @@ eleventyNavigation:
 - They contain a `<a>` with `role="button"` to delete them from a data group.
 - Chips are special [Badges](/components/badges).
 - Create a parent container with a class of `chips` to hold the chips.
-- First use Badge markup, then add `class=”chip”`. 
+- First use the badge markup, then add `class=”chip”`. 
 
 ## Usage
 

@@ -13,8 +13,6 @@ eleventyNavigation:
   
 ## Best Practices
 
-Badges are used for information such as:
-
 - Use them to display a piece of data’s related quality, such as a number of notifications.
 - Badges take their size from the parent element.
 - Keep the text in them short and simple.
