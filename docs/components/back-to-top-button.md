@@ -20,8 +20,6 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-back-to-top.njk' %}
-
 ``` html
 {% include 'markup/button-back-to-top.njk' %}
 ```
