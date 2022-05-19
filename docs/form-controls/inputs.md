@@ -48,7 +48,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Known Date Entry**
 
-- Accepts dates using three text inputs for Month, Day, Year. 
+- Accepts dates using three text inputs for the Month, Day, Year. 
 - Displays a User Interface (UI) optimized for the entry of dates.
 - Be sure to include labels, especially if the fields are rearranged.
 
@@ -60,8 +60,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Tel**
 
-- Accepts telephone numbers
-- Displays a UI optimized for a phone number
+- Accepts telephone numbers.
+- Displays a UI optimized for a phone number.
 
 {% include 'markup/input-tel.njk' %}
 
@@ -71,8 +71,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Email**
 
-- Accepts email addresses
-- Displays a UI optimized for the email address entry
+- Accepts email addresses.
+- Displays a UI optimized for the email address entry.
 
 {% include 'markup/input-email.njk' %}
 
@@ -82,8 +82,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Search**
 
-- Accepts search terms
-- Displays a UI optimized for search term entry
+- Accepts search terms.
+- Displays a UI optimized for search term entry.
 
 {% include 'markup/input-search.njk' %}
 
@@ -93,8 +93,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: URL**
 
-- Accepts web addresses
-- Displays a UI optimized for the entry of web addresses
+- Accepts web addresses.
+- Displays a UI optimized for the entry of web addresses.
 
 {% include 'markup/input-url.njk' %}
 
@@ -104,8 +104,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Number**
 
-- Accepts numbers
-- Displays a UI optimized for the entry of numbers
+- Accepts numbers.
+- Displays a UI optimized for the entry of numbers.
 
 {% include 'markup/input-number.njk' %}
 

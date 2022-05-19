@@ -1,13 +1,13 @@
 ---
 title: Checkbox Tiles
-summary: Offer your users a larger tap target and additional information.
+summary: Offer users a larger tap target and additional information.
 tags: forms
 layout: guide
 eleventyNavigation:
   key: Checkbox Tiles
   parent: Form Controls
   order: 5
-  excerpt: Offer your users a larger tap target and additional information.
+  excerpt: Offer users a larger tap target and additional information.
   img: /img/illustrations/illus-checkbox-tile.svg
 ---
 
@@ -19,7 +19,7 @@ eleventyNavigation:
 - If the user needs to activate or deactivate something, use a [Switch](/form-controls/switches) instead.
 - Ensure the `id` of the input matches the `for` of the label.
 - If you need more than four, use a normal [Checkbox](/form-controls/checkboxes/) instead.
-- Omit the tile description `tile-description` if you don’t need it.
+- Omit the tile description span with `tile-description` if you don’t need it.
 
 ## Usage
 

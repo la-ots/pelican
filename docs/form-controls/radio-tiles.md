@@ -19,7 +19,7 @@ eleventyNavigation:
 - If the user needs to activate or deactivate something, use a [Switch](/form-controls/switches) instead.
 - Ensure the `id` of the input matches the `for` of the label.
 - If you need more than four, use a normal [Radios](/form-controls/radios/) instead.
-- Omit the tile description `tile-description` if you don’t need it.
+- Omit the tile description span with `tile-description` if you don’t need it.
 
 ## Usage
 
