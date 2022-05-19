@@ -134,7 +134,7 @@ eleventyNavigation:
 <button type="button" class="btn btn-warning">Button</button>
 ```
 
-***Dropdown Buttons***
+**Dropdown Buttons**
 
 - Contains a list of links, using the `<a>` element.
 - It’s not the same thing as the [Select Menu used in Forms](/form-controls/select/).
@@ -168,10 +168,10 @@ eleventyNavigation:
 
 **Icons in Buttons**
 
-- Review Pelican’s [Icon](/foundation/icons/) guidance
+- Review Pelican’s [icon](/foundation/icons/) guidance.
 - Put the icon on the left or the right side.
-- Icons in Button are mostly on the left. Buttons on the right are meant for directional actions such as going to a link, sign in, or sign out actions.
-- Ensure icons have `aria-hidden="true"` to hide them from assistive technology
+- Icons in buttons are mostly on the left. Buttons on the right are meant for directional actions such as going to a link, sign in, or sign out actions.
+- Ensure icons have `aria-hidden="true"` to hide them from assistive technology.
 
 <button type="button" class="btn btn-primary">
   <span class="fas fa-check" aria-hidden="true"></span> 
@@ -215,7 +215,7 @@ eleventyNavigation:
 
 - It’s best not to show disabled buttons.
 - Disabled buttons cannot be clicked and should not appear clickable.
-- Do not use Disabled buttons as a placeholder if a feature isn’t ready yet.
+- Do not use disabled buttons as a placeholder if a feature isn’t ready yet.
 - Disabled states can be used for a temporary state change triggered by the user’s actions. Once the action is resolved, the button should return to an enabled state.
 - Use the `disabled` attribute to create a disabled button.
 - Add the class `disabled` to the class list.

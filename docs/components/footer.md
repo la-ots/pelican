@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Use the Basic Footer if the product only needs a few links.
-- Use the Utility Footer is the product needs more advanced features.
+- Use the Utility Footer if the product needs more advanced features.
 
 ## Usage
 
