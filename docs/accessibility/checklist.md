@@ -31,13 +31,13 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 - Are all menus, links, buttons, and other controls [usable only by keyboard](/accessibility/keyboard/), to make them accessible to users who don’t use a mouse?
 - Does the web page include a visible focus indicator so all users, especially those using a keyboard, can easily know their current position?
 - Do features that scroll or update automatically (e.g., slideshows, carousels) have prominent accessible controls that enable users to pause or advance these features on their own?
-- Do pages that have time limits include mechanisms for adjusting those limits for users who need more time?
+- Do actions that have time limits include mechanisms for adjusting those limits for users who need more time?
 - Have you avoided using content that flashes or flickers?
 - Does the web page or document have a title that describes its topic or purpose?
-- Are mechanisms in place that [allow users to bypass blocks of content](/accessibility/skip-link/) (e.g., a “skip to main content”?
+- Are mechanisms in place that [allow users to bypass blocks of content](/accessibility/skip-link/) (e.g., a “skip to main content”)?
 - Does the website include two or more ways of finding content, such as a navigation menu, search feature, or [human-readable site map](/sitemap/)?
 - Do all [links contain meaninful text](/foundation/links/), independent of context?
-- At 200% zoom or higher, all content and controls should still be accessed.
+- At 200% zoom or higher, can all content and controls still be accessed?
 
 ### Understandable
 
@@ -45,23 +45,23 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 - Have you avoided links, controls, or form fields that automatically trigger a change in context?
 - Does the website include consistent navigation?
 - Do online forms provide helpful, accessible error and verification messages?
-- At 200% zoom or higher, the user should only need to scroll in one direction.
+- At 200% zoom or higher, does the user only need to scroll in one direction?
 
 ### Robust
 
-- Are you including human testing? Automated testing is useful, but not a replacement for human testing.
+- Are you including human testing (Automated testing is useful, but not a replacement for human testing)? 
 - Are you using semantic HTML?
 - Is the web page coded using valid HTML (e.g., not using Javascript on a Div instead of a button or link)? 
 - Do rich, dynamic, web interfaces, such as modal windows, drop-down menus, slideshows, and carousels, include ARIA markup?
 - Are you including proper ARIA on custom controls?
-- At 200% zoom or higher, the digital product should still function.
+- At 200% zoom or higher, does the digital product still function?
 
 ## Resources
 
 This checklist is heavily inspired by University of Washington’s Accessibility Checklist.
 
-- <a href="https://accessibility.digital.gov/" target="_blank">Digital.gov’s Accessibility for Teams </a>
+- <a href="https://accessibility.digital.gov/" target="_blank">Digital.gov’s Accessibility for Teams</a>
 - <a href="https://www.washington.edu/accessibility/checklist/" target="_blank">University of Washington’s Accessibility Checklist</a>
-- <a href="https://accessibility.digital.gov/visual-design/getting-started/" target="_blank">Visual Design Guidance by Digital.gov </a>
-- <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Accessibility for Front-End Developers </a>
-- <a href="https://alistapart.com/article/accessibilityseo" target="_blank">Accessibility Leads to SEO Wins </a>
+- <a href="https://accessibility.digital.gov/visual-design/getting-started/" target="_blank">Visual Design Guidance by Digital.gov</a>
+- <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Accessibility for Front-End Developers</a>
+- <a href="https://alistapart.com/article/accessibilityseo" target="_blank">Accessibility Leads to SEO Wins</a>

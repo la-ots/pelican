@@ -23,12 +23,12 @@ Accessibility isn’t a line-item that is tacked on at the end of a digital prod
 
 Pelican endeavours to conform to level Double-A of the World Wide Web Consortium (W3C) <a href="http://www.w3.org/TR/WCAG20/" target="_blank">Web Content Accessibility Guidelines 2.</a>.<a href="https://www.w3.org/TR/WCAG21/" target="_blank">1</a>. These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
 
-This site has been built using code compliant with W3C standards for HTML and CSS. The site displays correctly in current browsers and using standards compliant HTML/CSS code means any future browsers will also display it correctly.
+This site has been built using code compliant with W3C standards for HTML and CSS. This site displays correctly in current browsers and by using standards compliant HTML/CSS code, it means any future browser updates will also display it correctly.
 
-Our ongoing accessibility efforts work toward making Pelican as accessible as possible. [Pelican welcomes comments](/feedback) on how to improve its accessibility for users with disabilities.
+Our ongoing accessibility efforts are working toward making Pelican as accessible as possible. [Pelican welcomes comments](/feedback) on how to improve its accessibility for users with disabilities.
 
 {% include 'markup/pull-request.njk' %}
 
 ## Resources
 
-- <a href="https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html" target="_blank">Census.gov 2012 </a>
+- <a href="https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html" target="_blank">Census.gov 2012</a>
