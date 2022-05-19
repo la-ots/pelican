@@ -1,13 +1,13 @@
 ﻿---
 title: Color Contrast
-summary: Color Contrast is the contrast ratio between colors.
+summary: Color contrast is the contrast ratio between colors.
 tags: color, contrast
 layout: guide
 eleventyNavigation:
   key: Color Contrast
   parent: Accessibility
   order: 3
-  excerpt: Color Contrast is the contrast ratio between two colors.
+  excerpt: Color contrast is the contrast ratio between two colors.
   img: /img/illustrations/illus-color-contrast.svg
 ---
 
@@ -16,7 +16,7 @@ eleventyNavigation:
 - Use the recommended color contrast ratios.
 - Normal-sized text is 16 pixels and requires a minimum Contrast Ratio of 4.5:1.
 - Large-sized text is 18 pixels or larger and requires a minimum Contrast Ratio of 3:1.
-- User interface items such as [Form Controls](/form-controls/) require a minimum Contrast Ratio of 3:1. This includes the outlines of Form Controls and the outer edges of Buttons, but is not limited to them.
+- User interface items such as [Form Controls](/form-controls/) require a minimum Contrast Ratio of 3:1. This includes the outlines of Form Controls and the outer edges of buttons, but is not limited to them.
 - When in doubt use <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM’s Contrast Checker</a>
 
 **Text Contrast**
