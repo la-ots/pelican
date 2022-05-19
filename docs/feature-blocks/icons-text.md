@@ -13,8 +13,8 @@ eleventyNavigation:
 
 ## Best Practices
 
-Allows a Louisiana product to briefly describe a feature with related icons to reinforce the message. In the example below, it’s describing Pelican.
-   - The large text is the main benefit or feature, explain in one or two words.
+Allows a Louisiana product to briefly describe a feature with related icons to reinforce the message.
+   - The large text is the main benefit or feature. Explain it in one or two words.
    - The small text explains the main benefit or feature. Keep this explanation as short as possible.
    - Icons set the context for the benefit or feature. Do not use more than three.
 
