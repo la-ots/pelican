@@ -1,13 +1,13 @@
 ﻿---
 title: Brand Colors
-summary: Pelican uses Brand colors to help define your own brand.
+summary: Pelican uses brand colors to help define your own brand.
 tags: color
 layout: guide
 eleventyNavigation:
   key: Brand Colors
   parent: Foundation
   order: 1
-  excerpt: Pelican uses Brand colors to help define your own brand.
+  excerpt: Pelican uses brand colors to help define your own brand.
   img: /img/illustrations/illus-brand-colors.svg
 --- 
 ## Brand Colors
