@@ -40,7 +40,7 @@ Padding and Margin can be applied to individual sides, to top and bottom at the 
 
 Replace `n` with any number from 0 to 5. Replacing `n` with `0` applies zero spacing. Each successive number from `1` to `5` adds a multiple of pixels of space to the previous number (based on Bootstrap's defined spacer variable).
 
-Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a> for additional spacing abilities like responsive spacing.
+Be sure to consult <a href="https://getbootstrap.com/docs/5.1/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a> for additional spacing abilities like responsive spacing.
 
 **Padding Classes**
 
@@ -62,4 +62,4 @@ Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a>
+* <a href="https://getbootstrap.com/docs/5.1/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a>

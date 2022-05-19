@@ -16,7 +16,7 @@ eleventyNavigation:
 - Page Titles tell the user which page they’re on.
 - Pelican recommends a Page Title for every page.
 - Use the button to provide quick access to one common action for the page.
-- If a page title needs more than one action, use a <a href="https://getbootstrap.com/docs/4.6/components/dropdowns/#single-button" target="_blank">Bootstrap Dropdown button</a>.
+- If a page title needs more than one action, use a <a href="https://getbootstrap.com/docs/5.1/components/dropdowns/#single-button" target="_blank">Bootstrap Dropdown button</a>.
 
 ## Usage
 
