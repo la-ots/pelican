@@ -1,13 +1,13 @@
 ---
 title: Address
-summary: The Address block allows the user to input their address on a form.
+summary: The Address form allows the user to input their address.
 tags: form-templates
 layout: guide
 eleventyNavigation:
   key: Address
   parent: Form Templates
   order: 1
-  excerpt: The Address block allows the user to input their address on a form.
+  excerpt: The Address form allows the user to input their address.
   img: /img/illustrations/illus-address.svg
 ---
 
