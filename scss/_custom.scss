@@ -30,6 +30,10 @@
   color: $white;
   border-color: $black !important;
 
+  a, .fw-bolder {
+    color: inherit;
+  }
+
   .container-fluid {
     padding-top: .25rem;
     padding-bottom: .25rem;
