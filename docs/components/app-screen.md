@@ -73,7 +73,7 @@ This `main id="main"` element is where the screen’s contents and user interfac
 After the `main id="main"` put the Footer element.
 
 ```html
-<footer class="footer" id="footer">
+<footer id="footer" class="footer">
   ...
 </footer>
 ```
@@ -87,6 +87,6 @@ The App Screen markup below is how all the 5 parts are assembled.
   <nav id="site-nav" class="site-nav">  ...  </nav>
   <div id="site-topbar" class="site-topbar">  ...  </div>
   <main id="main" class="site-main">  ...  </main>
-  <footer class="footer" id="footer">  ...  </footer>
+  <footer id="footer" class="footer">  ...  </footer>
 </div>
 ```

@@ -13,8 +13,21 @@ layout: base.njk
     </div>
   </div>
 </nav>
-{% include "site-blocks/header.njk" %}
+<div id="site-topbar" class="site-topbar">
+  <button tabindex="3" type="button" id="site-toggler"
+    class="btn btn-black btn-sm text-white shadow-none sidebar-button">
+    <span aria-hidden="true">☰</span>
+    <span class="visually-hidden">Toggle side navigation availability</span>
+  </button>
+  <p class="m-0 fw-bold order-lg-2 me-auto">
+    <a href="{{ '/' | url }}" class="d-md-none text-white text-decoration-none" tabindex="2">
+      <img src="/img/favicon.png" class="d-md-none" alt="Pelican Design System icon" />
+      <span class="">Pelican Design System</span>
+    </a>
+    <span class="d-none d-md-inline" tabindex="-1">{{ title }}</span>
+  </p>
+</div>
 <main id="main" class="site-main">         
   {{ content | safe }}
 </main>
-{% include 'site-blocks/footer-utility.njk' %}
+{% include 'markup/components/footer-utility-toggle.njk' %}
