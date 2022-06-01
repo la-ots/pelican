@@ -41,7 +41,7 @@ Ensure accessibility, so keep the following in mind:
 
 * Users should be able to focus on every interactive element on the page using Tab (or Shift + Tab to move in reverse). These include buttons, links, toggles, and menu options.
 * Once focused on an interactive object, users should be able to interact with it using the Enter, Spacebar, or Arrow keys depending on the element.
-* Users should not be able to Tab to non-interactive elements, such as images, text areas, or other static elements.
+* Users should not be able to Tab to non-interactive elements, such as images, textareas, or other static elements.
 
 ## Special Keyboard Uses
 
