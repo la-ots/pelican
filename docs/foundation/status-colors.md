@@ -1,13 +1,13 @@
 ﻿---
 title: Status Colors
-summary: Pelican uses status colors to inform users about what is going on with the system.
+summary: Pelican uses Status Colors to inform users about what is going on with the system.
 tags: color
 layout: guide
 eleventyNavigation:
   key: Status Colors
   parent: Foundation
   order: 2
-  excerpt: Pelican uses status colors to inform users about what is going on with the system.
+  excerpt: Pelican uses Status Colors to inform users about what is going on with the system.
   img: /img/illustrations/illus-status-colors.svg
 --- 
 

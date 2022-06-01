@@ -112,7 +112,7 @@ To prevent ambiguity in this situation, you could try one of a few strategies:
 
 - [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
 - Avoid using Brand Colors in meaningful places in the user interface.
-- Design a supporting brand palette for Status colors.
+- Design a supporting brand palette for Status Colors.
 
 {% include 'color-warning.njk' %}
 

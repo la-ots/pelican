@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Put alerts at the top of the page, under the [Page Title](/components/page-title/).
 - Alerts use the [Status Colors](/foundation/status-colors/) for their colors and meaning.
-- Status colors only add visual cues. The content of the alert must make the meaning obvious to assistive technology users.
+- Status Colors only add visual cues. The content of the alert must make the meaning obvious to assistive technology users.
 - Use **Info** (blue) to communicate informative or helpful information to users.
 - Use **Success** (green) to provide feedback to the user indicating an action is successful.
 - Use **Warning** (yellow) to indicate an unintended, but not dangerous, effect.   
