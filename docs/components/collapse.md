@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Collapses give users control over how much information they see at one time.
 - A common use of Collapses is for a “Question and Answer” item on a FAQ page. 
-- Use the native HTML tag for <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">Details disclosure Element</a> as collapses whenever possible.
+- Use the native HTML tag for <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">Details disclosure Element</a> as a Collapse whenever possible.
 
 ## Usage
 
