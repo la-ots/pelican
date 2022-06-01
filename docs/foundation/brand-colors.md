@@ -61,7 +61,7 @@ The Primary color is the color most recognized and associated with a brand. In P
 
 **Secondary**
 
-- Button background color for the Secondary action button in a [Button Container](/components/button-container/)
+- Button background color for the secondary action button in a [Button Container](/components/button-container/)
 
 **Accent**
 

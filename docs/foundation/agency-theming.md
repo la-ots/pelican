@@ -87,7 +87,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
   </div>
 </div>
 
-In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere, but what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
+In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere, but what happens when you need a Success Button? The meaning of the Success Button, to indicate something affirmative, would be lost.
 
 <div class="row px-3 mb-4">
   <div class="col-12">

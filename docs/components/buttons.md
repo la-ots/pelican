@@ -25,9 +25,9 @@ eleventyNavigation:
 
 <p class="fw-bold mt-4">Button Hierarchies</p>
 
-- For a single action: only include the [Primary button](/components/buttons/#primary-buttons).
+- For a single action: only include the [Primary Button](/components/buttons/#primary-buttons).
 - For two types of actions: use the primary button as the main action and [gray outline buttons](/components/buttons/#tertiary-buttons) as the tertiary action(s).
-- For three types of actions:  use the primary button as the main action, use the [Secondary button](/components/buttons/#secondary-buttons) as the secondary action, and the gray outline buttons as the tertiary action(s).
+- For three types of actions: use the primary button as the main action, use the [Secondary Button](/components/buttons/#secondary-buttons) as the secondary action, and the gray outline buttons as the tertiary action(s).
 - If a fourth or more types of actions are required, use the [Link Buttons](/components/buttons/#link-buttons) for those, in addition to the types above.
 - Any cautionary buttons, [Warning](/components/buttons/#warning-buttons) or [Danger](/components/buttons/#danger-buttons), should be right aligned in the button container.
 - Use a [Button Container](/components/button-container/) to hold all of the buttons at the end of a form or page.
