@@ -19,7 +19,7 @@ eleventyNavigation:
 - Use only one primary button when possible.
 - Multiple gray outline buttons may be used.
 - If an action moves the user to another place in the same page, or another URL, use a link (`<a>`) and not `<button>`.
-- If a button is inside of a table row, give it the `btn-sm` class in addition to other classes.
+- If a Button is inside of a Table row, give it the `btn-sm` class in addition to other classes.
 - For accessibility reasons, when using `<a>` as a `<button>` you must include `role="button"`.
 - If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below).
 

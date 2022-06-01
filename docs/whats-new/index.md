@@ -40,7 +40,7 @@ Pelican’s purpose is to bring consistency, user friendliness, and to modernize
 
 ## 0.1.06 — 8 March 2021
 
-- Moved on-page table of contents to a Details Summary HTML element.
+- Moved on-page Table of Contents to a Details Summary HTML element.
 - Moved to top of page content, giving more width room to markup and preview.
 
 ## 0.1.05 — 2 March 2021
