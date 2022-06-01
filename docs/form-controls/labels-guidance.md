@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Labels are **required** for Form Controls.
-- Don’t replace labels with placeholders.
+- Don’t replace Labels with placeholders.
 - Refrain from using placeholder attributes in inputs because they cause usability problems.
 - Ensure the `for` and `id` attributes have matching values. Note the code below.
 - Use a red asterisk (<span class="fas fa-asterisk text-danger" aria-hidden="true"></span>) to denote required fields.

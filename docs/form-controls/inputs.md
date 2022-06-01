@@ -50,7 +50,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 - Accepts dates using three text inputs for the Month, Day, Year. 
 - Displays a User Interface (UI) optimized for the entry of dates.
-- Be sure to include labels, especially if the fields are rearranged.
+- Be sure to include Labels, especially if the fields are rearranged.
 
 {% include 'markup/input-date-multiple-fields.njk' %}
 
@@ -151,7 +151,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 **Input Detail View**
 
 - Use for detail views.
-- Decreased vertical space between label and data to improve a detail page of data.
+- Decreased vertical space between Label and data to improve a detail page of data.
 - Use on detail pages, not edit pages.
 
 <div class="form-group">

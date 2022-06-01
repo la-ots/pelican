@@ -50,7 +50,7 @@ Pelican’s purpose is to bring consistency, user friendliness, and to modernize
 
 ## 0.1.04 — 19 February 2021
 
-- Adds a new guidance page, [Label Guidelines](/form-controls/labels-guidance/), for guidance on using labels in Forms.
+- Adds a new guidance page, [Label Guidelines](/form-controls/labels-guidance/), for guidance on using Labels in Forms.
 
 ## 0.1.03 — 11 February 2021
 

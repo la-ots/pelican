@@ -1,13 +1,13 @@
 ---
 title: Badges
-summary: Badges are labels that inform users about some aspect of the data, such as the count of related items.
+summary: Badges are Labels that inform users about some aspect of the data, such as the count of related items.
 tags: components, badges
 layout: guide
 eleventyNavigation:
   key: Badges
   parent: Components
   order: 30
-  excerpt: Badges are labels that inform users about some aspect of the data, such as the count of related items.
+  excerpt: Badges are Labels that inform users about some aspect of the data, such as the count of related items.
   img: /img/illustrations/illus-badges.svg
 ---
   
