@@ -19,7 +19,7 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 
 - Do images have [Alt text](/foundation/images/)?
 - Does video have captions and does audio have transcripts?
-- Does the page include proper headings, lists, ARIA landmarks, and other semantic HTML elements to communicate document structure?
+- Does the page include proper Headings, lists, ARIA landmarks, and other semantic HTML elements to communicate document structure?
 - Are the [tab and read orders](/accessibility/keyboard/) logical and intuitive?
 - Do form fields within pages have [appropriately coded and connected labels](/form-controls/inputs/)?
 - Have you avoided using visual tactics to communicate information (e.g., “click the button on the right” or “required fields are in red”)?
