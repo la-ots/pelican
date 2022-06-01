@@ -28,7 +28,7 @@ Pelican provides more clarity in the user interface by using a color for UI elem
   </div>
 </div>
 
-Like [Brand Colors](/foundation/status-colors) and [Status Colors](/foundation/status-colors), this can be changed. Change with great care as this have been chosen in accordance with usability and color contrast guidelines.
+Like [Brand Colors](/foundation/status-colors) and [Status Colors](/foundation/status-colors), this can be changed. Change with great care as this has been chosen in accordance with usability and color contrast guidelines.
 
 ## Using UI Colors
 
