@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Put Toasts at the top right of the screen.
-- Toasts use the same [Status Colors](/foundation/status-colors) as alerts.
+- Toasts use the same [Status Colors](/foundation/status-colors) as Alerts.
 - Status Colors only add visual cues. The content of the toast must make the meaning obvious to assistive technology users.
 - Toasts are only triggered by user actions such as saving, editing, deleting, or creating a file.
 - Use **Info** (blue) to communicate informative or helpful information to users.
