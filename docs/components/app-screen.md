@@ -50,7 +50,7 @@ The first child element of the `id=site-container` is the [Sidebar with Navigati
 
 ## Topbar
 
-The Topbar also goes inside of the `id="site-container"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current page title.
+The Topbar also goes inside of the `id="site-container"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current Page Title.
 
 ```html
 <div id="site-topbar" class="site-topbar">
