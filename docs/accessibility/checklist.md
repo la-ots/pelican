@@ -52,7 +52,7 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 - Are you including human testing (Automated testing is useful, but not a replacement for human testing)? 
 - Are you using semantic HTML?
 - Is the web page coded using valid HTML (e.g., not using Javascript on a Div instead of a button or link)? 
-- Do rich, dynamic, web interfaces, such as modal windows, drop-down menus, slideshows, and carousels, include ARIA markup?
+- Do rich, dynamic, web interfaces, such as Modal windows, drop-down menus, slideshows, and carousels, include ARIA markup?
 - Are you including proper ARIA on custom controls?
 - At 200% zoom or higher, does the digital product still function?
 
