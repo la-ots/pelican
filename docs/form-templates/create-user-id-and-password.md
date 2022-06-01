@@ -1,13 +1,13 @@
 ﻿---
 title: Create User ID & Password
-summary: The Create User ID & Password form allows users to create and update their User ID & Password.
+summary: The Create User ID & Password Form allows users to create and update their User ID & Password.
 tags: form-templates
 layout: guide
 eleventyNavigation:
   key: Create User ID & Password
   parent: Form Templates
   order: 4
-  excerpt: The Create User ID & Password form allows users to create and update their User ID & Password.
+  excerpt: The Create User ID & Password Form allows users to create and update their User ID & Password.
   img: /img/illustrations/illus-create-user-id-password.svg
 ---
 

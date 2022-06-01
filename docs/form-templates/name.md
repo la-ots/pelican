@@ -1,13 +1,13 @@
 ﻿---
 title: Name
-summary: The Name form allows the user to input their name.
+summary: The Name Form allows the user to input their name.
 tags: form-templates
 layout: guide
 eleventyNavigation:
   key: Name
   parent: Form Templates
   order: 5
-  excerpt: The Name form allows the user to input their name.
+  excerpt: The Name Form allows the user to input their name.
   img: /img/illustrations/illus-name.svg
 ---
 
