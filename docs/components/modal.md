@@ -19,7 +19,7 @@ eleventyNavigation:
 - Any buttons that close or cancel the modal should get initial focus.
 - Modals hold focus until the action is completed or dismissed. 
 - Do not use modals to notify a user of a successful or unsuccessful action; Use a [Toast](/components/toasts) instead.
-- Do not use forms in a modal.
+- Do not use Forms in a modal.
 - Tabbing should only cycle between the buttons inside the modal.
 - For accessibility reasons do not close the modal by tapping the modal backdrop.
 - For accessibility reasons pressing the key escape (ESC) should close or cancel the modal.

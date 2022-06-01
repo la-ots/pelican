@@ -20,7 +20,7 @@ Some users, particularly those with visual or motor impairments, will use the ke
 * <kbd>Tab</kbd> : Navigates forwards between elements.
 * <kbd>Shift + Tab</kbd> : Navigates backwards between elements.
 * <kbd>Arrow Keys</kbd> : Moves between options, such as in a Select, Radio, or Checkbox.
-* <kbd>Enter</kbd> : Activates links and buttons or submits forms.
+* <kbd>Enter</kbd> : Activates Links and Buttons or submits Forms.
 * <kbd>Spacebar</kbd> : Activates Buttons, Switches, Checkboxes, or Radios.
 * <kbd>Esc</kbd> : Can close Modals or stop some actions.
 

@@ -1,19 +1,19 @@
 ---
 title: Label Guidance
-summary: Labels give the user additonal control and context for form controls.
+summary: Labels give the user additonal control and context for Form Controls.
 tags: forms
 layout: guide
 eleventyNavigation:
   key: Label Guidance
   parent: Form Controls
   order: 2
-  excerpt: Labels give the user additonal control and context for form controls.
+  excerpt: Labels give the user additonal control and context for Form Controls.
   img: /img/illustrations/illus-labels.svg
 ---
     
 ## Best Practices
 
-- Labels are **required** for form controls.
+- Labels are **required** for Form Controls.
 - Don’t replace labels with placeholders.
 - Refrain from using placeholder attributes in inputs because they cause usability problems.
 - Ensure the `for` and `id` attributes have matching values. Note the code below.

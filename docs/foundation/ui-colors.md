@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## User Interface Colors
 
-Pelican provides more clarity in the user interface by using a color for UI elements. This color is used on form controls, priority interface actions, and supporting interface elements. 
+Pelican provides more clarity in the user interface by using a color for UI elements. This color is used on Form Controls, priority interface actions, and supporting interface elements. 
 
 <div class="row mb-5">
   <div class="col-md-6 col-xl-3">

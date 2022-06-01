@@ -32,7 +32,7 @@ Pelican’s purpose is to bring consistency, user friendliness, and to modernize
 
 ## 0.1.08 – 1 June 2021
 
-- Adds [Form Section Header variant](/form-controls/form-section-header/) with a sentence under the large text to help explain the form section.
+- Adds [Form Section Header variant](/form-controls/form-section-header/) with a sentence under the large text to help explain the Form Section.
 
 ## 0.1.07 — 19 April 2021
 
@@ -50,7 +50,7 @@ Pelican’s purpose is to bring consistency, user friendliness, and to modernize
 
 ## 0.1.04 — 19 February 2021
 
-- Adds a new guidance page, [Label Guidelines](/form-controls/labels-guidance/), for guidance on using labels in forms.
+- Adds a new guidance page, [Label Guidelines](/form-controls/labels-guidance/), for guidance on using labels in Forms.
 
 ## 0.1.03 — 11 February 2021
 

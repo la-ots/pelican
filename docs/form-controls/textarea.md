@@ -1,13 +1,13 @@
 ﻿---
 title: Text Area
-summary: Text area allows users to input multiple lines of text into a form.
+summary: Text area allows users to input multiple lines of text into a Form.
 tags: forms
 layout: guide
 eleventyNavigation:
   key: Text Area
   parent: Form Controls
   order: 11
-  excerpt: Text area allows users to input multiple lines of text into a form.
+  excerpt: Text area allows users to input multiple lines of text into a Form.
   img: /img/illustrations/illus-textarea.svg
 ---
     
