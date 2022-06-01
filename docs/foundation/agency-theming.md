@@ -62,7 +62,7 @@ To change background or text color, change the class name representing the color
 
 Brand first is not necessarily accessibility or usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with accessibility in mind.
 
-Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary Brand Color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a Brand Color. The meaning would be unclear.
+Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary Brand Color of this imaginary palette is green. The success Status Color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a Brand Color. The meaning would be unclear.
 
 <div class="row mb-5">
   <div class="col-md-6">
