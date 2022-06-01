@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+
+<div id="site-container" class="site-container">
+  {% include "sidebar.njk" %}
+  {% include "header.njk" %}
+  <main id="main" class="site-main">
+    {% include "breadcrumbs.njk" %}
+    {% include "page-title.njk" %}
+    {{ content | safe }}
+    {% include "pagination-menu.njk" %}
+  </main>
+  {% include 'footer.njk' %}
+</div>
