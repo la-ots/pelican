@@ -62,7 +62,7 @@ eleventyNavigation:
 
 ## Using Status Colors
 
-The guidelines below may not cover all situations and use cases in your digital product. Use them as guides for deciding which color is semantically appropriate. Be careful not to use Status Colors as brand colors or influence colors as this will dilute their meaning.
+The guidelines below may not cover all situations and use cases in your digital product. Use them as guides for deciding which color is semantically appropriate. Be careful not to use Status Colors as Brand Colors or influence colors as this will dilute their meaning.
 
 **Success**
 

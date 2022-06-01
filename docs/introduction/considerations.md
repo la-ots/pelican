@@ -17,7 +17,7 @@ Consider accessible, equitable design in your work. Pelican is built to evolve a
 
 ## Layout
 
-Don’t change the layouts of Pelican’s elements. Louisiana’s residents need common layouts across Louisiana government’s digital products. Even with brand colors across agencies, users become familiar to where things are placed. The purpose of Pelican is to enable residents to become familiar with a shared visual language.
+Don’t change the layouts of Pelican’s elements. Louisiana’s residents need common layouts across Louisiana government’s digital products. Even with Brand Colors across agencies, users become familiar to where things are placed. The purpose of Pelican is to enable residents to become familiar with a shared visual language.
 
 ## Code
 
