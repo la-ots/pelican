@@ -16,7 +16,7 @@ eleventyNavigation:
 
 People often arrive at a documentation page after visiting the landing page or after searching for a specific piece of information. Documentation pages don’t need to provide as much contextualizing information as more introductory pages. The copy should be clear, focused, and concise.
 
-- Use <a href="https://plainlanguage.gov/" target="_blank">plain language</a>, not technical jargon.
+- Use <a href="https://plainlanguage.gov/" target="_blank">Plain Language</a>, not technical jargon.
 - Provide useful information.
 - See [Voice and Tone](/foundation/voice-and-tone/) for more information.
 
