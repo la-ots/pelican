@@ -1,10 +1,3 @@
-.btn-link {
-  @extend .shadow-none;
-  @extend .border-0;
-  @extend .text-decoration-none;
-  background-color: transparent !important;
-}
-
 .btn-primary,
 .btn-secondary,
 .btn-accent,
@@ -42,36 +35,35 @@
   color: $text-color-dark;
 }
 
-.btn-accent,
-.btn-warning {
-  color: $black;
+.btn-link {
+  @extend .shadow-none;
+  @extend .border-0;
+  @extend .text-decoration-none;
+  background-color: transparent !important;
 }
 
-.btn-container {
-  padding: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: $white;
-  border: 2px solid $card-border-color;
-  border-radius: 0.5rem;
+//this class has similar attributes to btn-link
+.btn-prev-next-section {
+  color: $ui-priority;
+  background-color: transparent !important;
+  @extend .border-0;
+  @extend .shadow-none;
 }
 
-.btn-card-corner {
-  @extend .position-absolute;
-  top: 1.25rem;
-  right: 1.25rem;
-}
+.btns-previous-next,
+.btns-previous-forward {
+  .container-fluid {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 
-.btn-card-edit {
-  @extend .position-absolute;
-  top: 50%;
-  right: 8px;
-  transform: translateY(-50%);
+  .btn {
+    @extend .btn-lg;
+  }
 }
 
 .btn-add-this, .btn-add-data {
   @extend .btn;
-  @extend .btn-ui;
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
@@ -81,7 +73,6 @@
   margin-top: .5rem;
   margin-bottom: .5rem;
   
-
   background-color: transparent;
   border: 2px dashed $gray-600;
 
@@ -143,24 +134,6 @@ p a {
   }
 }
 
-//this class has similar attributes to btn-link
-.btn-prev-next-section {
-  color: $ui-priority;
-  background-color: transparent !important;
-  @extend .border-0 ;
-  @extend .shadow-none;
-}
-
-.btns-previous-next, .btns-previous-forward {
-  .container-fluid {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-  .btn {
-    @extend .btn-lg;
-  }
-}
-
 .sidebar-button {
   position: relative;
   margin-right: .25rem;
@@ -171,4 +144,17 @@ p a {
 
 .btn-outline-ui, .btn-outline-ui-priority {
   @extend .shadow-none;
+}
+
+.btn-card-corner {
+  @extend .position-absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.btn-card-edit {
+  @extend .position-absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
 }

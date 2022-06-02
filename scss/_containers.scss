@@ -2,3 +2,12 @@
   background-color: $white;
   border-bottom: 1px solid $gray-200;
 }
+
+.btn-container {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: $white;
+  border: 2px solid $card-border-color;
+  border-radius: 0.5rem;
+}
