@@ -26,9 +26,8 @@
   }
 }
 .toast-header {
-  @extend .position-relative;
   .btn-close {
-    @extend .position-absolute;
-    top: 8px; right: 16px;
+    margin-left: auto;
+    margin-right: -2px;
   }
 }
