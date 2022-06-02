@@ -1,18 +1,18 @@
 ﻿---
 title: Brand Colors
-summary: Pelican uses Brand colors to help define your own brand.
+summary: Pelican uses Brand Colors to help define your own brand.
 tags: color
 layout: page-guide
 eleventyNavigation:
   key: Brand Colors
   parent: Foundation
   order: 1
-  excerpt: Pelican uses Brand colors to help define your own brand.
+  excerpt: Pelican uses Brand Colors to help define your own brand.
   img: /img/illustrations/illus-brand-colors.svg
---- 
+---
 ## Brand Colors
 
-Brand colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default brand colors. These colors are based upon Louisiana’s official colors.
+Brand Colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default Brand Colors. These colors are based upon Louisiana’s official colors.
 
 <div class="row mb-5">
   <div class="col-md-6 col-xl-4">
@@ -53,7 +53,7 @@ Brand Colors are presented in these lists. These colors have been automatically 
 
 **Primary**
 
-The Primary color is the color most recognized and associated with a brand. In Pelican, the Primary brand color, `$primary`, is often used for the items below:
+The Primary color is the color most recognized and associated with a brand. In Pelican, the Primary Brand Color, `$primary`, is often used for the items below:
 
 - Text color for [Page Title](/components/page-title/)
 - Background color for [left sidebar](/components/app-screen/)
@@ -61,11 +61,11 @@ The Primary color is the color most recognized and associated with a brand. In P
 
 **Secondary**
 
-- Button background color for the Secondary action button in a [Button Container](/components/button-container/)
+- Button background color for the secondary action button in a [Button Container](/components/button-container/)
 
 **Accent**
 
-The Accent color is the smallest supporting color associated with your brand. It’s used as supporting color when either the Primary or Secondary brand need to stand apart from each other but still need a supporting color to them. The Accent brand color, `$accent`, is often used in Pelican as:
+The Accent color is the smallest supporting color associated with your brand. It’s used as supporting color when either the Primary or Secondary brand need to stand apart from each other but still need a supporting color to them. The Accent Brand Color, `$accent`, is often used in Pelican as:
 
 - Overlay colors in [Hero Blocks](/hero-blocks/)
 - Default color for buttons in the [Utility Footer](/components/footer/)

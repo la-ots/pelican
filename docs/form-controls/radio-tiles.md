@@ -17,9 +17,9 @@ eleventyNavigation:
 - Put them into columns for sizing.
 - If multiple items can be selected, use [Checkboxes](/form-controls/checkboxes).
 - If the user needs to activate or deactivate something, use a [Switch](/form-controls/switches) instead.
-- Ensure the `id` of the input matches the `for` of the label.
+- Ensure the `id` of the input matches the `for` of the Label.
 - If you need more than four, use a normal [Radios](/form-controls/radios/) instead.
-- Omit the tile description `tile-description` if you don’t need it.
+- Omit the tile description span with `tile-description` if you don’t need it.
 
 ## Usage
 
@@ -31,7 +31,7 @@ eleventyNavigation:
   <input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
   <label class="form-check-label" for="check-historical-booker-4">
     Booker T. Washington
-    <span class="tile-description">This is optional text that can be used to describe the label in more
+    <span class="tile-description">This is optional text that can be used to describe the Label in more
       detail.</span>
   </label>
 </div>
@@ -45,7 +45,7 @@ eleventyNavigation:
   <input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
   <label class="form-check-label" for="check-historical-booker-4">
     Booker T. Washington
-    <span class="tile-description">This is optional text that can be used to describe the label in more
+    <span class="tile-description">This is optional text that can be used to describe the Label in more
       detail.</span>
   </label>
 </div>

@@ -19,9 +19,9 @@ eleventyNavigation:
 - They are not used to show browsing history.
 - They show the user their current place within the site or app’s hierarchy.
 - The Home icon always goes to the Homepage.
+- Place breadcrumbs immediately above the Page Title.
 - On smaller devices, breadcrumbs only display the current page and a link to its parent in the information hierarchy.
-- Place Breadcrumbs immediately above the Page Title.
-- To save space on mobile, only Home, Current, and parent of Current will appear.
+- To save space on mobile, only Home, Current page, and parent of the Current page will appear.
 
 ## Usage
 

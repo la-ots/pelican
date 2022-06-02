@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Overview
 
-Headings semantically express the content structure of a document. For assistive technology, Heading tags create a navigable outline of the page’s information.
+Headings semantically express the content structure of a document. For assistive technology, heading tags create a navigable outline of the page’s information.
 
 ## Best Practices
 

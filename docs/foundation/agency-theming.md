@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Agencies can apply their own brand by changing the SCSS variables and recompiling the CSS. Pelican comes with default theme colors for brand, based upon Louisiana colors, to give you a starting point.
 
-Pelican provides 9 Brand color variables you can change. These are listed in the file named `_variables-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
+Pelican provides 9 Brand Color variables you can change. These are listed in the file named `_variables-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
 
 To use your own agency colors:
 
@@ -30,7 +30,7 @@ Pelican provides a way to change the following theme aspects when appropriate. T
 
 - Background colors, using classes such as `bg-primary`, `bg-accent`, etc.
 - Text colors, using classes such as `text-accent`, `text-primary`, etc.
-- Images and photographs
+- Images and photographs.
 - Icons and their colors, using classes such as `text-accent`, `text-danger`, etc.
 - Button colors, `btn-primary`, etc.
 
@@ -62,7 +62,7 @@ To change background or text color, change the class name representing the color
 
 Brand first is not necessarily accessibility or usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with accessibility in mind.
 
-Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
+Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary Brand Color of this imaginary palette is green. The success Status Color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a Brand Color. The meaning would be unclear.
 
 <div class="row mb-5">
   <div class="col-md-6">
@@ -87,7 +87,7 @@ Let’s examine this concept with an imaginary color palette for a digital produ
   </div>
 </div>
 
-In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
+In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere, but what happens when you need a Success Button? The meaning of the Success Button, to indicate something affirmative, would be lost.
 
 <div class="row px-3 mb-4">
   <div class="col-12">
@@ -104,15 +104,15 @@ User confusion is likely, and could lead them to ask:
 
 Some strategies to counter this could include:
 
-- Adjust Status Colors to be distinct
-- Create and use supporting brand colors for important user interface elements.
+- Adjust Status Colors to be distinct.
+- Create and use supporting Brand Colors for important user interface elements.
 - Only use brand-colored buttons in specific, controlled regions, like the top or bottom of a page.
 
 To prevent ambiguity in this situation, you could try one of a few strategies:
 
-- Design [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
-- Avoid using Brand Colors in meaningful places in the user interface
-- Design a supporting brand palette for Status colors
+- [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
+- Avoid using Brand Colors in meaningful places in the user interface.
+- Design a supporting brand palette for Status Colors.
 
 {% include 'text-quotes/color-warning.njk' %}
 

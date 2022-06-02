@@ -13,14 +13,14 @@ eleventyNavigation:
     
 ## Best Practices
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Toggle Tokens have larger interaction areas than [Checkboxes](/form-controls/checkboxes) and [Radios](/form-controls/radios) and are easier to easier to press because they require less accuracy.
+- Toggle Tokens have larger interaction areas than [Checkboxes](/form-controls/checkboxes) and [Radios](/form-controls/radios) and are easier to press because they require less accuracy.
 - When space is limited, use the unstyled [Checkboxes](/form-controls/checkboxes) and [Radios](/form-controls/radios) instead.
 
 ## Usage
 
 **Toggle Tokens for Exclusive Choices**
 
-* [Radios](/form-controls/radios) can be presented as Toggle Tokens
+* [Radios](/form-controls/radios) can be presented as Toggle Tokens.
 
 {% include 'markup/form-controls/toggle-tokens-exclusive.njk' %}
 
@@ -30,8 +30,8 @@ eleventyNavigation:
 
 **Toggle Tokens for Multiple Choices**
 
-* [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens
-* Use Checkbox logic
+* [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens.
+* Use checkbox logic.
 
 {% include 'markup/form-controls/toggle-tokens-inclusive.njk' %}
 

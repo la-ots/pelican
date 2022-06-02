@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Use this when you’re ready to direct the reader to take an action, like signing up.
 
-  - The big text is the action verb for the goal you have for the user. Use this to direct the user an action. This is a decision moment, don’t put a lot of text in here.
+  - The big text is the action verb for the goal you have for the user. Use this to direct the user to an action. This is a decision moment, don’t put a lot of text in here.
   - A Call-to-Action is not navigation, it’s a persuasion item with a link to what you want the user to do.
 
 ## Usage

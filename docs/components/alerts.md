@@ -16,10 +16,10 @@ eleventyNavigation:
 - Put Alerts at the top of the page, under the [Page Title](/components/page-title/).
 - Alerts use the [Status Colors](/foundation/status-colors/) for their colors and meaning.
 - Status Colors only add visual cues. The content of the Alert must make the meaning obvious to assistive technology users.
-- Use **Info** (Blue) to communicate informative or helpful information to users.
-- Use **Success** (Green) to provide feedback to the user indicating an action is successful.
-- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.   
-- Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
+- Use **Info** (blue) to communicate informative or helpful information to users.
+- Use **Success** (green) to provide feedback to the user indicating an action is successful.
+- Use **Warning** (yellow) to indicate an unintended, but not dangerous, effect.   
+- Use **Danger** (red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
 {% include 'text-quotes/writing-tips.njk' %}

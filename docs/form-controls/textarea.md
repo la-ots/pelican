@@ -1,13 +1,13 @@
 ﻿---
-title: Text Area
-summary: Textarea allows users to input multiple lines of text into a form.
+title: Textarea
+summary: Textarea allows users to input multiple lines of text into a Form.
 tags: forms
 layout: page-guide
 eleventyNavigation:
-  key: Text Area
+  key: Textarea
   parent: Form Controls
   order: 11
-  excerpt: Textarea allows users to input multiple lines of text into a form.
+  excerpt: Textarea allows users to input multiple lines of text into a Form.
   img: /img/illustrations/illus-textarea.svg
 ---
     

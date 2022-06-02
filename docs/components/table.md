@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Tables allows the user to compare data.
 - Use accessible Table markup, like what’s provided.
-- [Pagination](/components/pagination) goes below a table if you need it.
+- [Pagination](/components/pagination) goes below a Table if you need it.
 - Use Tables to display tabular data, not for layout.
 {% include 'text-quotes/cards-tables.njk' %}
 

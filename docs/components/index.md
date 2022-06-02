@@ -1,13 +1,13 @@
 ---
 title: Components
-summary: Components are the small piece of a user interface.
+summary: Components are the small pieces of a user interface.
 tags: components
 layout: page-area
 index: true
 eleventyNavigation:
   key: Components
   order: 6
-  excerpt: Components are the small piece of a user interface.
+  excerpt: Components are the small pieces of a user interface.
 ---
 
 # Overview

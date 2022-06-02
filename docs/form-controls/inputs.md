@@ -27,7 +27,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 ## Usage
 **Input Type: Text**
 
-- Accepts text, numbers, and other characters
+- Accepts text, numbers, and other characters.
 
 {% include 'markup/form-controls/input-text.njk' %}
 
@@ -48,9 +48,9 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Known Date Entry**
 
-- Accepts dates using three text inputs for Month, Day, Year. 
+- Accepts dates using three text inputs for the Month, Day, Year. 
 - Displays a User Interface (UI) optimized for the entry of dates.
-- Be sure to include labels, especially if the fields are rearranged.
+- Be sure to include Labels, especially if the fields are rearranged.
 
 {% include 'markup/form-controls/input-date-multiple-fields.njk' %}
 
@@ -60,8 +60,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Tel**
 
-- Accepts telephone numbers
-- Displays a UI optimized for a phone number
+- Accepts telephone numbers.
+- Displays a UI optimized for a phone number.
 
 {% include 'markup/form-controls/input-tel.njk' %}
 
@@ -71,8 +71,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Email**
 
-- Accepts email addresses
-- Displays a UI optimized for the email address entry
+- Accepts email addresses.
+- Displays a UI optimized for the email address entry.
 
 {% include 'markup/form-controls/input-email.njk' %}
 
@@ -82,8 +82,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Search**
 
-- Accepts search terms
-- Displays a UI optimized for search term entry
+- Accepts search terms.
+- Displays a UI optimized for search term entry.
 
 {% include 'markup/form-controls/input-search.njk' %}
 
@@ -93,8 +93,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: URL**
 
-- Accepts web addresses
-- Displays a UI optimized for the entry of web addresses
+- Accepts web addresses.
+- Displays a UI optimized for the entry of web addresses.
 
 {% include 'markup/form-controls/input-url.njk' %}
 
@@ -104,8 +104,8 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 **Input Type: Number**
 
-- Accepts numbers
-- Displays a UI optimized for the entry of numbers
+- Accepts numbers.
+- Displays a UI optimized for the entry of numbers.
 
 {% include 'markup/form-controls/input-number.njk' %}
 
@@ -151,7 +151,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 **Input Detail View**
 
 - Use for detail views.
-- Decreased vertical space between label and data to improve a detail page of data.
+- Decreased vertical space between Label and data to improve a detail page of data.
 - Use on detail pages, not edit pages.
 
 <div class="form-group">
