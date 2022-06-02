@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 1
   excerpt: Pelican uses Brand Colors to help define your own brand.
   img: /img/illustrations/illus-brand-colors.svg
---- 
+---
 ## Brand Colors
 
 Brand Colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default Brand Colors. These colors are based upon Louisiana’s official colors.

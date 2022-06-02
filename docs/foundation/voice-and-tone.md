@@ -55,13 +55,13 @@ Keep these tips in mind:
 
 Avoid these things:
 
-- Goofy jokes or puns.
-- Figures of Speech.
-- Mixed Metaphors.
-- Pop culture references.
-- Internet abbreviations.
-- Figurative language.
-- Unfamiliar jargon.
+- Goofy jokes or puns
+- Figures of Speech
+- Mixed Metaphors
+- Pop culture references
+- Internet abbreviations
+- Figurative language
+- Unfamiliar jargon
 
 ## Writing Style
 

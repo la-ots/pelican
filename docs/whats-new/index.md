@@ -27,8 +27,8 @@ Pelican’s purpose is to bring consistency, user friendliness, and to modernize
 
 ## 0.1.09 – 22 July 2021
 
-- Edits made to all sections, adding more developer-focused language and information
-- Changes `Boxes` section to [Content Container](/components/content_container)
+- Edits made to all sections, adding more developer-focused language and information.
+- Changes `Boxes` section to [Content Container](/components/content_container).
 
 ## 0.1.08 – 1 June 2021
 

@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 3
   excerpt: Pelican uses UI colors to help define important interface cues.
   img: /img/illustrations/illus-ui-colors.svg
---- 
+---
 
 ## User Interface Colors
 

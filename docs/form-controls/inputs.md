@@ -27,7 +27,7 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 ## Usage
 **Input Type: Text**
 
-- Accepts text, numbers, and other characters
+- Accepts text, numbers, and other characters.
 
 {% include 'markup/input-text.njk' %}
 

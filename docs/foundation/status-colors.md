@@ -9,7 +9,7 @@ eleventyNavigation:
   order: 2
   excerpt: Pelican uses Status Colors to inform users about what is going on with the system.
   img: /img/illustrations/illus-status-colors.svg
---- 
+---
 
 ## Best Practice
 
