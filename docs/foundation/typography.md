@@ -106,7 +106,7 @@ Use **Unordered** lists when the order of items does not matter.
 
 **Use Span for Inline Style**
 
-Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics.This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
+Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
 
 ```html
 Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
@@ -114,4 +114,4 @@ Span tags `<span>` allow local text changes without affecting semantics. We can 
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>
+* <a href="https://getbootstrap.com/docs/5.1/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>

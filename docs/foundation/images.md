@@ -66,9 +66,9 @@ When writing alt text, keep the following in mind:
 
 - Be specific; describe the image for users who cannot see them.
 - Keep it short as possible, but descriptive.
-- Don’t include phrases like “Image of...” or “Picture of...” 
-- Use a simple, descriptive sentence and the appropriate punctuation.
+- Don’t include phrases like “Image of...” or “Picture of...”.
 - Don’t begin phrases with “Image of...” or “Picture of...”.
+- Use a simple, descriptive sentence and the appropriate punctuation.
 - Alt text describes the image, it’s not a caption.
 - Alt text does not need to include any copyright information.
 

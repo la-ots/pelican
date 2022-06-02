@@ -83,7 +83,7 @@ pelican
 </pre>
 </div>
 
-The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
+The Pelican Design System provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
 
 Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
 
@@ -118,5 +118,4 @@ Download the package and extract the contents. Include the Pelican files and ass
     <script src="/js/pelican.min.js"></script>
 
 </body>
-</html>
 ```

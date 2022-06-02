@@ -13,13 +13,13 @@ eleventyNavigation:
 
 ## Overview
 
-The <a href="https://getbootstrap.com/docs/4.5/layout/overview/" target="_blank">Layout Grid is taken from Bootstrap</a>, upon which Pelican is built, allocates space to items and sizes them. We recommend familiarizing yourself with it.
+The <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">Layout Grid is taken from Bootstrap</a>, upon which Pelican is built, allocates space to items and sizes them. We recommend familiarizing yourself with it.
 
 ## Explanation
 
 The Layout Grid needs to be understood from the point of view of screen or device widths, such as mobile devices.
 
-The browser window has an explicit width whether it’s edge-to-edge of your monitor or resized to some fraction. The Bootstrap grid divides that width into 12 equally-sized columns with gaps. These 12 columns’ individual widths change as the browser window or device width changes. These browser windows or device widths are put into certain grid division ranges, or Breakpoints, as their widths fall within certain pixel width ranges.
+The browser window has an explicit width whether it’s edge-to-edge of your monitor or resized to some fraction. The Bootstrap grid divides that width into 12 equally-sized columns with gaps. These 12 columns’ individual widths change as the browser window or device width changes. These browser windows or device widths are put into certain grid division ranges, or breakpoints, as their widths fall within certain pixel width ranges.
 
 1. Extra Small, `-xs` , the beginning, is 0 – 576px.
 1. Small, `-sm` , is 577 – 767px.
@@ -39,9 +39,9 @@ These breakpoints allow for items to be predictably sized. Resize this window an
 
 To get the predictable resizing, follow this markup guide.
 
-1. Begin with a `container-fluid`
-1. Insert a `row`
-1. Add the column classed `<div>`s as necessary
+1. Begin with a `container-fluid`.
+1. Insert a `row`.
+1. Add the column classed `<div>`s as necessary.
 
 ```html
 <div class="container-fluid">
@@ -70,4 +70,4 @@ Pelican uses `container-fluid` rather than `container` to better accomodate flui
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank">Bootstrap Documentation - Grid System</a>
+* <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">Bootstrap Documentation - Grid System</a>

@@ -12,6 +12,6 @@ eleventyNavigation:
 
 ## Overview
 
-Form Templates are common forms across Louisiana’s digital products. This could be a sign in form or a form to collect contact information.
+Form Templates are common Forms across Louisiana’s digital products. This could be a Sign In Form or a Form to collect contact information.
 
 {% include 'themeables.njk' %}

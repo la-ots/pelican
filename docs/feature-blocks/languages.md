@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-The Louisiana Census reveals four languages which should be accommodated in its digital products. 
+The Louisiana Census reveals four languages which should be accommodated in its digital products: 
   - English
   - French
   - Spanish 

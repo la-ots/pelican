@@ -17,7 +17,7 @@ eleventyNavigation:
 - When possible, present them in a vertical list.
 - If only one item can be selected, use [Radios](/form-controls/radios).
 - If the user needs to activate or deactivate something, use a [Switch](/form-controls/switches) instead.
-- Ensure the `id` of the input matches the `for` of the label.
+- Ensure the `id` of the input matches the `for` of the Label.
 - Set a checkbox as the default choice by adding the `checked` attribute to it.
 - If a checkbox is required, add the `required` attribute to it.
 
@@ -33,4 +33,4 @@ eleventyNavigation:
 * <a href="https://designsystem.digital.gov/components/form-controls/#checkbox" target="_blank">Design.gov - Checkbox (Best Practices)</a>
 * <a href="https://www.section508.gov/" target="_blank">Section 508 Guidelines</a>
 * <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a>
-* <a href="https://getbootstrap.com/docs/4.5/components/forms/" target="_blank">Bootstrap Documentation - Forms</a>
+* <a href="https://getbootstrap.com/docs/5.1/forms/checks-radios/" target="_blank">Bootstrap Documentation - Forms</a>

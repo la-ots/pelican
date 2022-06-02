@@ -36,4 +36,4 @@ People often arrive at a documentation page after visiting the landing page or a
 
 ## Resources
 
-- <a href="https://www.plainlanguage.gov/guidelines/" target="_blank">Plain Language.gov</a>
+- <a href="https://www.plainlanguage.gov/guidelines/" target="_blank">plainlanguage.gov</a>
