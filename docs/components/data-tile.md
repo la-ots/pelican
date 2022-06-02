@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Data Tiles extend [Cards](/components/card) behavior and styles.
-- Data Tiles  simply display a label and related data corresponding to that label. 
+- Data Tiles simply display a Label and related data corresponding to that Label. 
 - They are useful in clearly displaying lots of text into easy-to-scan holders.
 - They will be grey when inside a [Content Container](/components/content_container/).
 - They will be white when **not** inside a [Content Container](/components/content_container/).

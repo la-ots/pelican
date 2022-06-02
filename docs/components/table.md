@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Tables allows the user to compare data.
 - Use accessible Table markup, like what’s provided.
-- [Pagination](/components/pagination) goes below a table if you need it.
+- [Pagination](/components/pagination) goes below a Table if you need it.
 - Use Tables to display tabular data, not for layout.
 {% include 'cards-tables.njk' %}
 
@@ -28,5 +28,5 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/4.5/content/tables/" target="_blank">Bootstrap Documentation - Tables</a>
+* <a href="https://getbootstrap.com/docs/5.1/content/tables/" target="_blank">Bootstrap Documentation - Tables</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced" target="_blank">Mozilla Developer Network - HTML Table Advanced Features and Accessibility</a>

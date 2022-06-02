@@ -13,14 +13,14 @@ eleventyNavigation:
     
 ## Best Practices
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Toggle Tokens have larger interaction areas than [Checkboxes](/form-controls/checkboxes) and [Radios](/form-controls/radios) and are easier to easier to press because they require less accuracy.
+- Toggle Tokens have larger interaction areas than [Checkboxes](/form-controls/checkboxes) and [Radios](/form-controls/radios) and are easier to press because they require less accuracy.
 - When space is limited, use the unstyled [Checkboxes](/form-controls/checkboxes) and [Radios](/form-controls/radios) instead.
 
 ## Usage
 
 **Toggle Tokens for Exclusive Choices**
 
-* [Radios](/form-controls/radios) can be presented as Toggle Tokens
+* [Radios](/form-controls/radios) can be presented as Toggle Tokens.
 
 {% include 'markup/toggle-tokens-exclusive.njk' %}
 
@@ -30,8 +30,8 @@ eleventyNavigation:
 
 **Toggle Tokens for Multiple Choices**
 
-* [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens
-* Use Checkbox logic
+* [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens.
+* Use checkbox logic.
 
 {% include 'markup/toggle-tokens-inclusive.njk' %}
 
@@ -43,4 +43,4 @@ eleventyNavigation:
 * <a href="https://designsystem.digital.gov/components/form-controls/#checkbox" target="_blank">Design.gov - Checkbox (Best Practices)</a>
 * <a href="https://www.section508.gov/" target="_blank">Section 508 Guidelines</a>
 * <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a>
-* <a href="https://getbootstrap.com/docs/4.5/components/forms/" target="_blank">Bootstrap Documentation - Forms</a>
+* <a href="https://getbootstrap.com/docs/5.1/forms/checks-radios/" target="_blank">Bootstrap Documentation - Forms</a>

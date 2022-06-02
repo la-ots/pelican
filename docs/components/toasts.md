@@ -17,10 +17,10 @@ eleventyNavigation:
 - Toasts use the same [Status Colors](/foundation/status-colors) as Alerts.
 - Status Colors only add visual cues. The content of the Toast must make the meaning obvious to assistive technology users.
 - Toasts are only triggered by user actions such as saving, editing, deleting, or creating a file.
-- Use **Info** (Blue) to communicate informative or helpful information to users.
-- Use **Success** (Green) to provide feedback to the user indicating an action is successful.
-- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.  
-- Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
+- Use **Info** (blue) to communicate informative or helpful information to users.
+- Use **Success** (green) to provide feedback to the user indicating an action is successful.
+- Use **Warning** (yellow) to indicate an unintended, but not dangerous, effect.  
+- Use **Danger** (red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Toast type.
 - Toasts may also be used to notify the user about information related to their current action.
 - Toasts are persistent regardless of scrolling. 
@@ -55,4 +55,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/4.5/components/toasts/" target="_blank">Bootstrap Documentation - Toasts</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/toasts/" target="_blank">Bootstrap Documentation - Toasts</a>

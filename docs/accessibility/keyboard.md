@@ -19,20 +19,20 @@ Some users, particularly those with visual or motor impairments, will use the ke
  
 * <kbd>Tab</kbd> : Navigates forwards between elements.
 * <kbd>Shift + Tab</kbd> : Navigates backwards between elements.
-* <kbd>Arrow Keys</kbd> : Moves between options, such as in a Select, Radio, or Checkboxes.
-* <kbd>Enter</kbd> : Activates links and buttons or Submits forms.
+* <kbd>Arrow Keys</kbd> : Moves between options, such as in a Select, Radio, or Checkbox.
+* <kbd>Enter</kbd> : Activates Links and Buttons or submits Forms.
 * <kbd>Spacebar</kbd> : Activates Buttons, Switches, Checkboxes, or Radios.
 * <kbd>Esc</kbd> : Can close Modals or stop some actions.
 
 ## What is Focus?
 
-Focus creates an ouline (typically a light-blue outline around interactive items) around which element the user’s keyboard is currently situated. Although Focus may change based on your particular application, follow these general guidelines:
+Focus creates an outline (typically a light-blue outline around interactive items) around which element the user’s keyboard is currently situated. Although focus may change based on your particular application, follow these general guidelines:
 
-* Unless there is a Skip Link, Focus should start on the first interactive element on the screen when the page loads.
+* Unless there is a Skip Link, focus should start on the first interactive element on the screen when the page loads.
 * Focus should never change on its own. It should **always** be initiated by a user action.
 * Focus should be obvious.
-* If an action causes the currently focused element to disable or hide, then Focus should go to the next logical interactive element.
-* Don’t remove Focus styles.
+* If an action causes the currently focused element to disable or hide, then focus should go to the next logical interactive element.
+* Don’t remove focus styles.
 * Focus follows source order.
 
 ## Considerations for Keyboard Navigation
@@ -40,13 +40,12 @@ Focus creates an ouline (typically a light-blue outline around interactive items
 Ensure accessibility, so keep the following in mind:
 
 * Users should be able to focus on every interactive element on the page using Tab (or Shift + Tab to move in reverse). These include buttons, links, toggles, and menu options.
-* Users should be able to focus on every interactive element on the page using Tab (or Tab+Shift to move in reverse). These include buttons, links, toggles, and menu options. 
 * Once focused on an interactive object, users should be able to interact with it using the Enter, Spacebar, or Arrow keys depending on the element.
-* Users should not be able to Tab to non-interactive elements, such as images, text areas, or other static elements 
+* Users should not be able to Tab to non-interactive elements, such as images, textareas, or other static elements.
 
 ## Special Keyboard Uses
 
-Typeaheads/ Selects / Autocompletes
+Typeaheads / Selects / Autocompletes
 
 * Arrow Keys allow users to navigate through presented options
 * Enter activates or selects desired option

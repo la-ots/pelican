@@ -20,8 +20,8 @@ Let’s improve writing consistency across all of Louisiana’s digital products
 For Louisiana’s digital products, let’s use a voice and tone that is:
 
 - **Approachable**: Users shouldn’t be afraid of us.
-- **Friendly**: We are to help the users.
-- **Casual, but professional**: We’re easy to listen to, but our expertise is evident. 
+- **Friendly**: We are here to help users.
+- **Casual, but professional**: We are easy to listen to, but our expertise is evident. 
 
 What is the difference between Voice and Tone?
 
@@ -60,7 +60,7 @@ Avoid these things:
 - Mixed Metaphors
 - Pop culture references
 - Internet abbreviations
-- Figurative language 
+- Figurative language
 - Unfamiliar jargon
 
 ## Writing Style
