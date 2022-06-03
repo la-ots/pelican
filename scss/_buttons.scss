@@ -42,26 +42,6 @@
   background-color: transparent !important;
 }
 
-//this class has similar attributes to btn-link
-.btn-prev-next-section {
-  color: $ui-priority;
-  background-color: transparent !important;
-  @extend .border-0;
-  @extend .shadow-none;
-}
-
-.btns-previous-next,
-.btns-previous-forward {
-  .container-fluid {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .btn {
-    @extend .btn-lg;
-  }
-}
-
 .btn-add-this, .btn-add-data {
   @extend .btn;
   @extend .d-flex;
@@ -87,6 +67,22 @@
   &:hover,
   &:active {
     background-color: fade-out($ui, 0.75);
+  }
+}
+
+.btn-scroll-top {
+  @extend .position-fixed;
+  right: 2rem;
+  bottom: 5rem;
+  z-index: $zindex-scroll-to-top;
+}
+
+.sidebar-button {
+  position: relative;
+  margin-right: .25rem;
+
+  @media screen and (min-width: 992px) {
+    order: 1;
   }
 }
 
@@ -124,37 +120,4 @@ p a {
   }
 }
 
-.btn-scroll-top {
-  @extend .position-fixed;
-  right: 2rem;
-  bottom: 5rem;
-  z-index: $zindex-scroll-to-top;
-  @include media-breakpoint-up(md) {
-    bottom: 5rem;
-  }
-}
 
-.sidebar-button {
-  position: relative;
-  margin-right: .25rem;
-  @media screen and (min-width: 992px){
-    order: 1;
-  }
-}
-
-.btn-outline-ui, .btn-outline-ui-priority {
-  @extend .shadow-none;
-}
-
-.btn-card-corner {
-  @extend .position-absolute;
-  top: 1.25rem;
-  right: 1.25rem;
-}
-
-.btn-card-edit {
-  @extend .position-absolute;
-  top: 50%;
-  right: 8px;
-  transform: translateY(-50%);
-}

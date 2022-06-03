@@ -11,3 +11,15 @@
   border: 2px solid $card-border-color;
   border-radius: 0.5rem;
 }
+
+.btns-previous-next,
+.btns-previous-forward {
+  .container-fluid {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .btn {
+    @extend .btn-lg;
+  }
+}
