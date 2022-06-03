@@ -1,11 +1,5 @@
-.modal-content {
-  border: $card-border-width solid $card-border-color;
-}
 .modal-title {
   color: $primary;
-  .fas {
-    color: $primary-500;
-  }
 }
 .modal-footer {
   @extend .text-center ;

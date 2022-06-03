@@ -133,6 +133,7 @@ $form-switch-color: $ui;
 // ---
 // modals
 $modal-backdrop-bg: $primary;
+$modal-content-border-color: $gray-300;
 $modal-header-border-color: fade-out($gray-600, 0.75);
 $modal-footer-border-color: fade-out($gray-600, 0.75);
 $modal-backdrop-opacity: 0.75;
