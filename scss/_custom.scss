@@ -312,3 +312,11 @@ iframe {
     margin-left: .25rem;
   }
 }
+
+.animate-this {
+  transition: $transition-base;
+}
+
+.rotated-180 {
+  transform: rotate(180deg);
+}
