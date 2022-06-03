@@ -15,7 +15,6 @@
 .img-fluid {
   width: 100%;
 }
-
 .img-official {
   width: 23px;
   height: 23px;
@@ -24,40 +23,7 @@
 .bg-image-size-cover {
   background-size: cover;
 }
+
 .bg-image-position-center {
   background-position: 50%;
-}
-
-.image-credit {
-  @extend .small;
-  @extend .text-center;
-  margin-top: .25rem;
-  margin-bottom: 0;
-
-  a {
-    color: inherit;
-  }
-}
-
-.cover-image-pull-quote {
-  @extend .lead;
-  color: $primary;
-}
-
-.cover-image-credit {
-  @extend .small;
-  @extend .opacity-75;
-  color: $ui;
-  margin-top: .5rem;
-
-  @include media-breakpoint-up(lg) {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-  }
-}
-
-.cover-toc {
-  @extend .rounded;
-  padding: 1rem;
 }
