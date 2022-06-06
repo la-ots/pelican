@@ -1,14 +1,14 @@
-caption {
-  caption-side: bottom;
-  border-top: 1px dashed $ui;
-}
-
 .table {
   width: 100%;
   margin-bottom: 1rem;
   font-size: $font-size-base * 0.875;
   color: $gray-700;
   background-color: $table-bg; // Reset for nesting within parents with `background-color`.
+
+  caption {
+    caption-side: bottom;
+    border-top: 1px dashed $ui;
+  }
 
   th,
   td {
@@ -47,8 +47,4 @@ caption {
       }
     }
   }
-}
-
-.tr-striped {
-  background-color: $table-accent-bg;
 }
