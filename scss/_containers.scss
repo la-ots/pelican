@@ -27,3 +27,27 @@
 .chips {
   font-size: $font-size-base * 1.3;
 }
+
+.site-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .site-main {
+    min-height: calc(100vh - 172px);
+    padding-top: 41px;
+    transition: $transition-base;
+
+    &.no-side-toggle {
+      margin-left: 0;
+    }
+    @media screen and (min-width: 992px) {
+      padding-left: $site-nav-width;
+
+      &.toggled {
+        padding-left: 0;
+      }
+    }
+  }
+}
