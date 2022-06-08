@@ -1,3 +1,20 @@
+#resources + ul li a {
+  text-decoration: none;
+}
+
 .pd-color-block {
   height: 160px;
+}
+
+/* adding padding-x at larger sizes */
+/* this applies only to this site */
+@media screen and (min-width: 1200px){
+  .container-fluid, .breadcrumb {
+    padding-right: 24px;
+    padding-left:  24px;
+  }
+  .wrapper-topbar {
+    padding-left:  14px;
+    padding-right: 14px;
+  }
 }

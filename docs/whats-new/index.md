@@ -16,6 +16,12 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 1.1.1 - 10 May 2022
+
+Addresses a breaking change that was introduced in v1.1.0. 
+
+- Restores spacer values. [6967a48](https://github.com/la-ots/pelican/commit/6967a48)
+
 ## 1.1.0 - 05 May 2022
 
 A number of changes to clean up issues found since the last release. A lot of work on the documentation, to address typos, tone and add clarity. Fixed a few style issues that were noticed once it started being used that are being addressed here.
