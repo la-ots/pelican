@@ -2,7 +2,7 @@
 title: Progress Indicator
 summary: Progress Indicators show users their place in a multi-step process.
 tags: components
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Progress Indicator
   parent: Components

@@ -1,0 +1,12 @@
+---
+title: Document Page Public
+---
+
+{%- extends "../_includes/public-template-layout.njk" -%}
+
+{%- block pageContent -%}
+  {% include 'markup/breadcrumbs.njk' %}
+  {% include 'markup/page-title.njk' %}
+  {% include 'markup/documentation-public.njk' %}
+  {% include 'markup/buttons-previous-next-page.njk' %}
+{%- endblock -%}

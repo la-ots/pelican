@@ -2,7 +2,7 @@
 title: Official Banner
 summary: The Official Banner identifies official Louisiana Government websites.
 tags: components
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Official Banner
   parent: Components

@@ -2,9 +2,31 @@
 title: Test Page
 summary: This test page is used to visually check if CSS changes have unintended effects.
 tags: test-page
-layout: test-page
+layout: sidebar
 index: true
 ---
+
+<style scoped>
+  .toast {
+    position: fixed;
+    right: 10px;
+    z-index: 3000;
+    width: 300px;
+  }
+  .toast-info {
+    top: 20px;
+  }
+  .toast-danger {
+    top: 110px;
+  }
+  .toast-success {
+    top: 200px;
+  }
+  .pd-mt-8 {
+    margin-top: 2rem;
+  }
+</style>
+
 
 {%- include 'markup/toast-info.njk'    -%}
 {%- include 'markup/toast-danger.njk'  -%}

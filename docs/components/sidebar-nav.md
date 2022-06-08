@@ -2,7 +2,7 @@
 title: Sidebar with Navigation
 summary: Contains and organizes all of the navigation for your web app.
 tags: components
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Sidebar with Navigation
   parent: Components

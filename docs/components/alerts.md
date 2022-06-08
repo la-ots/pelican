@@ -2,7 +2,7 @@
 title: Alerts
 summary:  Alerts communicate system or data statuses, such as warnings, to users.
 tags: components, alerts
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Alerts
   parent: Components

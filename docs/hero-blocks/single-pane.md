@@ -2,7 +2,7 @@
 title: Single Pane
 summary: A image next to a solid block of color with text and a link.
 tags: hero block
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Single Pane
   parent: Hero Blocks

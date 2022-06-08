@@ -2,7 +2,7 @@
 title: Page Templates
 summary: Common solutions which fit onto a single page.
 tags: page templates
-layout: area-page
+layout: docs/area
 index: true
 eleventyNavigation:
   key: Page Templates

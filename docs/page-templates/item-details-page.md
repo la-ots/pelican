@@ -2,7 +2,7 @@
 title: Item Details Page
 summary: A layout intended to group various aspects about something for easy, glanceability.
 tags: page templates
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Item Details Page
   parent: Page Templates

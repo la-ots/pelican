@@ -2,7 +2,7 @@
 title: Cards
 summary: Cards are containers for related content or information.
 tags: components, card
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Cards
   parent: Components

@@ -2,7 +2,7 @@
 title: Color Contrast
 summary: Color Contrast is the contrast ratio between colors.
 tags: color, contrast
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Color Contrast
   parent: Accessibility

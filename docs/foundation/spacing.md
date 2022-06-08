@@ -2,7 +2,7 @@
 title: Spacing
 summary: Spacing is the paddings and margins in Pelican.
 tags: foundation
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Spacing
   parent: Foundation
