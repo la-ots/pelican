@@ -83,7 +83,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
 This `main` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
 
 ```html
-<main id="main" class="main" role="main">
+<main id="main" class="main">
   ... 
 </main>
 ```
