@@ -116,7 +116,8 @@
   background-color: transparent;
   border: 2px dashed $gray-600;
 
-  .icon-holder {
+  //remove 'div' in the next version update
+  div, .icon-holder {
     background-color: $ui;
     @extend .rounded-lg;
     padding-top: .5rem;
