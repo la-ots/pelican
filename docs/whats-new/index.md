@@ -19,6 +19,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 ## 1.1.2 - 01 July 2022
 
 - Removes underlines from links in a list. [69970834](https://github.com/la-ots/pelican/commit/6997083415837f10ad40445968a5edc86ac48e1f)
+- Dependency updates.
 
 ## 1.1.1 - 10 May 2022
 
