@@ -1,4 +1,5 @@
 const pelicanEleventyPlugin = require('@la-ots/eleventy-plugin-pelican')
+const path = require('path')
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pelicanEleventyPlugin, {
@@ -22,24 +23,22 @@ module.exports = (eleventyConfig) => {
     },
     assets: {
       bundle: true,
-      core: false,
-      custom: {
+      core: {
         css: [
-          '../css/pelican.css',
-          '../../node_modules/@la-ots/eleventy-plugin-pelican/assets/css/docs.css',
-          '../../node_modules/@la-ots/eleventy-plugin-pelican/assets/css/prism-theme.css',
-          'css/site.css'
+          path.resolve('./dist/css/pelican.css'),
+          path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/css/docs.css'),
+          path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/css/prism-theme.css'),
+          path.resolve('./docs/css/site.css')
         ],
         javascript: [
-          '../js/pelican.bundle.js',
-          '../../node_modules/@la-ots/eleventy-plugin-pelican/assets/js/docs.js',
+          path.resolve('./dist/js/pelican.bundle.js'),
+          path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/js/docs.js'),
         ]
       }
     }
   })
 
   eleventyConfig.addPassthroughCopy('docs/img')
-  eleventyConfig.addPassthroughCopy('docs/css')
 
   eleventyConfig.setUseGitIgnore(false)
   eleventyConfig.addWatchTarget('./build/.eleventy.js')
