@@ -117,4 +117,3 @@ This will run linters across the codebase. Scripts to run linters separately are
 > $ npm run js:lint
 
 Note: Linters are not run as part of any `watch` scripts and must be run separately.
-
