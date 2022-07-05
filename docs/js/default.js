@@ -1,7 +1,7 @@
 let pageWrapper = document.getElementById("page-wrapper");
 let sidebarButton = document.getElementById("sidebar-button");
 let sidebarDropdownLink = document.querySelectorAll(".sidebar-dropdown-header-expand");
-let scrollToTop = document.getElementById("ScrollToTop");
+let scrollToTop = document.getElementById("ScrollTopMain");
 
 let slideUp = (target, duration = 500) => {
   target.style.transitionProperty = "height, margin, padding";

@@ -220,70 +220,70 @@ You’ll change background and text colors by using the following classes. Consu
       <tr>
         <th scope="col" id="brand-color">Brand Color</th>
         <th scope="col" id="background-color">Background Color</th>
-        <th scope="col" id="background-color-class">Background Color Class</th></th>
+        <th scope="col" id="background-color-class">Background Color Class</th>
         <th scope="col" id="text-color">Text Color</th>
-        <th scope="col" id="text-color-class">Text Color Class</th></th>
+        <th scope="col" id="text-color-class">Text Color Class</th>
       </tr>
     </thead>
       <tbody>
         <tr>
-          <th scope="row" id="Primary">Primary</th>
+          <th scope="row" id="primary">Primary</th>
           <td headers="primary background-color" class="h5"><span class="badge badge-primary">bg-primary</span></td>
           <td headers="primary background-color-class"><code>bg-primary</code></td>
           <td headers="primary text-color" class="h5"><span class="badge text-primary">text-primary</span></td>
           <td headers="primary text-color-class"><code>text-primary</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Primary-10">Primary-10</th>
+          <th scope="row" id="primary-10">Primary-10</th>
           <td headers="primary-10 background-color" class="h5"><span class="badge badge-primary-10">bg-primary-10</span></td>
           <td headers="primary-10 background-color-class"><code>bg-primary-10</code></td>
           <td headers="primary-10 text-color" class="h5"><span class="badge text-primary-10">text-primary-10</span></td>
           <td headers="primary-10 text-color-class"><code>text-primary-10</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Primary-90">Primary-90</th>
+          <th scope="row" id="primary-90">Primary-90</th>
           <td headers="primary-90 background-color" class="h5"><span class="badge badge-primary-90">bg-primary-90</span></td>
           <td headers="primary-90 background-color-class"><code>bg-primary-90</code></td>
           <td headers="primary-90 text-color" class="h5"><span class="badge text-primary-90">text-primary-90</span></td>
           <td headers="primary-90 text-color-class"><code>text-primary-90</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Secondary">Secondary</th>
+          <th scope="row" id="secondary">Secondary</th>
           <td headers="secondary background-color" class="h5"><span class="badge badge-secondary">bg-secondary</span></td>
           <td headers="secondary background-color-class"><code>bg-secondary</code></td>
           <td headers="secondary text-color" class="h5"><span class="badge text-secondary">text-secondary</span></td>
           <td headers="secondary text-color-class"><code>text-secondary</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Secondary-10">Secondary-10</th>
+          <th scope="row" id="secondary-10">Secondary-10</th>
           <td headers="secondary-10 background-color" class="h5"><span class="badge badge-secondary-10">bg-secondary-10</span></td>
           <td headers="secondary-10 background-color-class"><code>bg-secondary-10</code></td>
           <td headers="secondary-10 text-color" class="h5"><span class="badge text-secondary-10">text-secondary-10</span></td>
           <td headers="secondary-10 text-color-class"><code>text-secondary-10</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Secondary-90">Secondary-90</th>
+          <th scope="row" id="secondary-90">Secondary-90</th>
           <td headers="secondary-90 background-color" class="h5"><span class="badge badge-secondary-90">bg-secondary-90</span></td>
           <td headers="secondary-90 background-color-class"><code>bg-secondary-90</code></td>
           <td headers="secondary-90 text-color" class="h5"><span class="badge text-secondary-90">text-secondary-90</span></td>
           <td headers="secondary-90 text-color-class"><code>text-secondary-90</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Accent">Accent</th>
+          <th scope="row" id="accent">Accent</th>
           <td headers="accent background-color" class="h5"><span class="badge badge-accent">bg-accent</span></td>
           <td headers="accent background-color-class"><code>bg-accent</code></td>
           <td headers="accent text-color" class="h5"><span class="badge text-accent">text-accent</span></td>
           <td headers="accent text-color-class"><code>text-accent</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Accent-10">Accent-10</th>
+          <th scope="row" id="accent-10">Accent-10</th>
           <td headers="accent-10 background-color" class="h5"><span class="badge badge-accent-10">bg-accent-10</span></td>
           <td headers="accent-10 background-color-class"><code>bg-accent-10</code></td>
           <td headers="accent-10 text-color" class="h5"><span class="badge text-accent-10">text-accent-10</span></td>
           <td headers="accent-10 text-color-class"><code>text-accent-10</code></td>
         </tr>
         <tr>
-          <th scope="row" id="Accent-90">Accent-90</th>
+          <th scope="row" id="accent-90">Accent-90</th>
           <td headers="accent-90 background-color" class="h5"><span class="badge badge-accent-90">bg-accent-90</span></td>
           <td headers="accent-90 background-color-class"><code>bg-accent-90</code></td>
           <td headers="accent-90 text-color" class="h5"><span class="badge text-accent-90">text-accent-90</span></td>
