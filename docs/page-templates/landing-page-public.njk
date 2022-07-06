@@ -1,0 +1,14 @@
+---
+title: Landing Page Public
+---
+
+{%- extends "../_includes/public-template-layout.njk" -%}
+{%- from "../../node_modules/@la-ots/eleventy-plugin-pelican/components/official-banner/macro.njk" import officialBanner -%}
+
+{%- block officialBanner -%}
+  {{ officialBanner() }}
+{%- endblock -%}
+
+{%- block pageContent -%}
+  {% include 'markup/landing-page.njk' %}
+{%- endblock -%}

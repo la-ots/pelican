@@ -1,0 +1,12 @@
+---
+title: Document Page Internal
+---
+
+{%- extends "../_includes/internal-template-layout.njk" -%}
+
+{%- block pageWithSidebarContent -%}
+  {% include 'markup/breadcrumbs.njk' %}
+  {% include 'markup/page-title.njk' %}
+  {% include 'markup/documentation-internal.njk' %}
+  {% include 'markup/buttons-previous-next-page.njk' %}
+{%- endblock -%}

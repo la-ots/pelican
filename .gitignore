@@ -84,3 +84,7 @@ $RECYCLE.BIN/
 *.lnk
 
 *.pem
+
+# yalc
+.yalc/
+yalc.lock

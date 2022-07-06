@@ -2,7 +2,7 @@
 title: Landing Page
 summary: Create a first impression of your digital product.
 tags: page templates
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Landing Page
   parent: Page Templates

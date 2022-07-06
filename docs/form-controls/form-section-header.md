@@ -2,7 +2,7 @@
 title: Form Section Header
 summary: Form section headers divide a form into smaller sections.
 tags: forms
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Form Section Header
   parent: Form Controls

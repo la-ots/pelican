@@ -2,7 +2,7 @@
 title: Introduction
 summary: Pelican will standardize Louisiana’s digital products.
 tags: introduction, pelican, design system
-layout: area-page
+layout: docs/area
 index: true
 eleventyNavigation:
   key: Introduction

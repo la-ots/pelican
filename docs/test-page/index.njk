@@ -2,13 +2,44 @@
 title: Test Page
 summary: This test page is used to visually check if CSS changes have unintended effects.
 tags: test-page
-layout: test-page
 index: true
 ---
+
+{%- extends "../_includes/test-page-layout.njk" -%}
+
+{%- block sidebarFooter -%}
+  {% include 'markup/footer-utility.njk' %}
+{%- endblock -%}
+
+{%- block pageWithSidebarContent -%}
+
+<style scoped>
+  .toast {
+    position: fixed;
+    right: 30px;
+    z-index: 3000;
+    width: 300px;
+  }
+  .toast-info {
+    top: 20px;
+  }
+  .toast-danger {
+    top: 110px;
+  }
+  .toast-success {
+    top: 200px;
+  }
+  .pd-mt-8 {
+    margin-top: 2rem;
+  }
+</style>
+
 
 {%- include 'markup/toast-info.njk'    -%}
 {%- include 'markup/toast-danger.njk'  -%}
 {%- include 'markup/toast-success.njk' -%}
+
+{% include "markup/breadcrumbs.njk" %}
 
 <!-- page title -->
 <div class="page-title">
@@ -356,3 +387,5 @@ index: true
 {%- include 'markup/hero-single-pane.njk' -%}
 <!-- button container -->
 {%- include 'markup/button-container.njk' -%}
+
+{%- endblock -%}

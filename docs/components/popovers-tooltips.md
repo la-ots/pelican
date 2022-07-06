@@ -2,7 +2,7 @@
 title: Popovers & Tooltips
 summary: Popovers & Tooltips provide additional context to users about a connected item.
 tags: components
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Popovers & Tooltips
   parent: Components

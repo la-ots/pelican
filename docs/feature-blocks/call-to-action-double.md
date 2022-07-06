@@ -2,7 +2,7 @@
 title: Call to Action, Double
 summary: A simple imperative statement with two choice buttons.
 tags: feature block
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Call to Action, Double
   parent: Feature Blocks

@@ -2,7 +2,7 @@
 title: Select
 summary: Select allows the user to select an option from a group of similar options.
 tags: forms
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Select
   parent: Form Controls

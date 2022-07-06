@@ -2,7 +2,7 @@
 title: Icons & Text
 summary: Simple text with icons to explain a feature.
 tags: feature block
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Icons & Text
   parent: Feature Blocks

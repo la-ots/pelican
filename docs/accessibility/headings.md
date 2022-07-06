@@ -2,7 +2,7 @@
 title: Headings
 summary: Headings are used to indicate information structure. They also enable accessible access.
 tags: color, contrast
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Headings
   parent: Accessibility

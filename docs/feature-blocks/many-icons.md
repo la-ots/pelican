@@ -2,7 +2,7 @@
 title: Many Icons
 summary: Lots of icons illuminating main and smaller benefits.
 tags: feature blocks
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Many Icons
   parent: Feature Blocks
