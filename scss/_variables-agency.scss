@@ -191,11 +191,6 @@ $gray-colors: (
 );
 
 
-// MIXIN
-
-// Quickly create utility classes based on the primary map keys;
-// Pass in the map name, secondary key, then the utility class prefix and the attribute to create
-
 @mixin createUtilities($map, $utilityClass, $attribute) {
   @each $primaryKey, $val in $map {
     .#{$utilityClass}-#{$primaryKey} {
