@@ -1,6 +1,6 @@
 ---
 title: Feature Set
-summary: A Set is a way to highlight some aspects of a digital product. 
+summary: A Feature Set is a way to highlight some aspects of a digital product. 
 tags: feature
 layout: guide
 eleventyNavigation:
