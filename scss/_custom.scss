@@ -226,10 +226,6 @@ li {
   z-index: $zindex-cookie-banner;
 }
 
-.page-link {
-  border: 2px solid $input-border-color;
-}
-
 //this item (as well as its associated page) are no longer used/shown in this project
 .white-box {
   border: 1px solid $gray-300;
@@ -311,4 +307,12 @@ iframe {
   &-end {
     margin-left: .25rem;
   }
+}
+
+.animate-this {
+  transition: $transition-base;
+}
+
+.rotated-180 {
+  transform: rotate(180deg);
 }

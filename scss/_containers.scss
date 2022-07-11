@@ -1,0 +1,53 @@
+.breadcrumb-wrapper {
+  background-color: $white;
+  border-bottom: 1px solid $gray-200;
+}
+
+.btn-container {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: $white;
+  border: 2px solid $card-border-color;
+  border-radius: 0.5rem;
+}
+
+.btns-previous-next,
+.btns-previous-forward {
+  .container-fluid {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .btn {
+    @extend .btn-lg;
+  }
+}
+
+.chips {
+  font-size: $font-size-base * 1.3;
+}
+
+.site-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .site-main {
+    min-height: calc(100vh - 172px);
+    padding-top: 41px;
+    transition: $transition-base;
+
+    &.no-side-toggle {
+      margin-left: 0;
+    }
+    @media screen and (min-width: 992px) {
+      padding-left: $site-nav-width;
+
+      &.toggled {
+        padding-left: 0;
+      }
+    }
+  }
+}

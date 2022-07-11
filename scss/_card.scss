@@ -7,23 +7,39 @@
   }
 }
 
-.card-fieldset-entry,
-.card-in-form {
-  // this is a card with discrete data in a fieldset
-  margin-bottom: 8px;
-  background-color: $light;
-  border: 1px solid $body-bg;
+.card-title {
+  color: $text-color-dark;
 }
-.card-warning {
-  border-color: lighten($warning, 15%);
+
+
+.data-tile {
+  @extend .card;
 }
+.data-tile-body {
+  @extend .card-body;
+
+  p {
+    &:nth-of-type(1) {
+      @extend .label;
+    }
+
+    &:nth-of-type(2) {
+      margin-bottom: 0;
+    }
+  }
+}
+.data-tile-title {
+  @extend .card-title;
+}
+
+
 .card-authenticate {
   border-color: $light;
 }
 .card-error {
   border-color: $danger;
 }
- 
-.card-title{
-  color: $text-color-dark;
+.card-warning {
+  border-color: lighten($warning, 15%);
 }
+

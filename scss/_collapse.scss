@@ -1,27 +1,3 @@
-.collapse-unit {
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-  &:not(:last-of-type) {
-    margin-bottom: 1.5rem;
-  }
-}
-.collapse-border {
-  border: 1px $border-style $ui;
-  border-radius: $border-radius;
-
-  &:not(:last-of-type) {
-    margin-bottom: .5rem;
-  }
-}
-
-.animate-this {
-  transition: $transition-base;
-}
-.rotated-180 {
-  transform: rotate(180deg);
-}
-
 // Animated icons on toggle
 [data-toggle="collapse"][aria-expanded="false"] {
   .fas,

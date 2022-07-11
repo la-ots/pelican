@@ -1,13 +1,5 @@
-.breadcrumb-wrapper {
-  display: block;
-  background-color: $white;
-  border-bottom: 1px solid $gray-200;
-}
 .breadcrumb {
   margin-bottom: 0;
-  @extend .rounded-0;
-  @extend .border-0;
-  background-color: $white;
 }
 .breadcrumb-item {
   display: none;
@@ -27,7 +19,6 @@
     }
   }
   a {
-    text-decoration: none;
     &:hover {
       text-decoration: underline;
     }

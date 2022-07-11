@@ -39,7 +39,7 @@ $theme-colors: map-merge(
     "accent": $accent,
     "success": $success,
     "info": $info,
-    "warning": $yellow,
+    "warning": $warning,
     "danger": $danger,
     "link": $link-color,
     "ui": $ui,
@@ -133,6 +133,7 @@ $form-switch-color: $ui;
 // ---
 // modals
 $modal-backdrop-bg: $primary;
+$modal-content-border-color: $gray-300;
 $modal-header-border-color: fade-out($gray-600, 0.75);
 $modal-footer-border-color: fade-out($gray-600, 0.75);
 $modal-backdrop-opacity: 0.75;
@@ -202,8 +203,6 @@ $pagination-disabled-border-color: $gray-600 !default;
 
 // ---
 // Breadcrumbs
-$breadcrumb-bg:           $gray-200 !default;
-$breadcrumb-bg:           $body-bg;
 $breadcrumb-active-color: $text-color-dark !default;
 $breadcrumb-padding-y:    .5rem;
 $breadcrumb-padding-x:    1rem;
