@@ -39,7 +39,7 @@ eleventyNavigation:
 * <a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank" class="text-decoration-none">Bootstrap 4</a>
 * <a href="https://vuejs.org/" target="_blank" class="text-decoration-none">Vue.js</a>
 * <a href="https://developer.mozilla.org/en-US/" target="_blank" class="text-decoration-none">Mozilla Developer Network</a>
-* <a href="https://www.11ty.dev/" target="_blank" class="text-decoration-none">11ty</a>
+* <a href="https://www.11ty.dev/" target="_blank" class="text-decoration-none"><abbr title="Eleventy">11ty</abbr></a>
 
 ## Additional Resources
 * <a href="https://www.nngroup.com/" target="_blank" class="text-decoration-none">Nielson Norman Group</a>
