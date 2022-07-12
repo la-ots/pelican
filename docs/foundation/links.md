@@ -15,8 +15,10 @@ eleventyNavigation:
 
 - When writing links, users should be able to clearly understand the destination of the link.
 - Assistive technology also uses the text in the link to describe the link to users.
+- Voice control technology uses the text in the link as activation text for the user.
 - The text in the link should communicate the link’s destination.
 - Refrain from generic link text such as “click here”.
+- Pelican automatically applies distinct styling to links to an external site using `target="_blank"`.
 
 <div class="row mb-6">
   <div class="col-lg-6">
@@ -38,7 +40,3 @@ eleventyNavigation:
 ## Links with Button Appreance
 
 - Links may take the appearance of Buttons. [Read about Buttons](/components/buttons) to learn about them.
-
-## External / Off-site links
-
-If a link connects users to <a href="https://fontawesome.com/icons/external-link-alt?style=solid" target="_blank">a site that is not a part of the digital product</a>, include `target="_blank"` to the link, unless it’s a [button](/components/buttons/). Pelican CSS will automatically append the appropriate icon to the end of the link. The link will open in a new tab or window, depending on the user’s browser settings, allowing the user to keep their place in the digital product.

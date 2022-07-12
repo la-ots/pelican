@@ -64,14 +64,14 @@ The UI color is often used as:
 
 The UI Light color is often used as:
 
-- The disabled color for [Form Controls](/form-controls/)
+- The disabled color for Form Controls
 - The background color to UI color uses
 
 **UI Priority**
 
 The UI Priority color is taken from calls to action and link colors around the web. It’s often used as:
 
-- Activated [Form Controls](/form-controls/)
+- Activated Form Controls
 - Buttons which need to [appear more prominently than other UI buttons](/foundation/ui-colors/#ui-vs-ui-blue)
 - [Links in text](/accessibility/about-accessibility/)
 
