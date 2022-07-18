@@ -21,7 +21,7 @@ eleventyNavigation:
 
 ## Usage
 
-<a class="btn btn-primary" href="/page-templates/landing-page-public/" target="_blank">See Preview</a>
+<a class="btn btn-primary" href="/page-templates/landing-page-public/" target="_blank">Go to Preview</a>
 
 ``` html
 {% include 'markup/landing-page.njk' %}

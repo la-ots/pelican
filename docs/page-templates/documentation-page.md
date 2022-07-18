@@ -22,13 +22,13 @@ People often arrive at a documentation page after visiting the landing page or a
 
 ## Usage
 
-<a class="btn btn-primary" href="/page-templates/documentation-page-internal/" target="_blank">See Internal Preview</a>
+<a class="btn btn-primary" href="/page-templates/documentation-page-internal/" target="_blank">Go to Internal Preview</a>
 
 ``` html
 {% include 'markup/documentation-internal.njk' %}
 ```
 
-<a class="btn btn-primary" href="/page-templates/documentation-page-public/" target="_blank">See Public Preview</a>
+<a class="btn btn-primary" href="/page-templates/documentation-page-public/" target="_blank">Go to Public Preview</a>
 
 ``` html
 {% include 'markup/documentation-public.njk' %}

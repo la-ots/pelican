@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best practices
 
-- Here’s the <a href="https://fontawesome.com/v5/search?m=free&s=solid" target="_blank">Font Awesome icons we can use</a>.
+- Here’s the <a href="https://fontawesome.com/v5/search?m=free&s=brands%2Csolid" target="_blank">Font Awesome icons we can use</a>.
 - Choose the clearest icon for what’s being communicated. 
 - Be consistent when using icons in projects. 
 - Do not use the same icon for two different functions.
@@ -22,7 +22,7 @@ eleventyNavigation:
 - By default, Pelican wraps icons `<span>` tags as these tags are inline to the text. 
 - Change the color of an icon by changing the theme class. The [Color Theme Lists](/foundation/agency-theming/) have the text color classes you need to change icon colors.
 - Copy markup from Font Awesome, but change the `<i>` to a `<span>`.
-- Be sure to add `aria-hidden="true"` to the `<span>` so that it resembles the code below. This hides the icon from assistive technologies.
+- Be sure to add `aria-hidden="true"` to the `<span>` so that it resembles the code samples. This hides the icon from assistive technologies.
 
 ## Usage
 
@@ -38,4 +38,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://fontawesome.com/v5/search?m=free&s=solid" target="_blank">Font Awesome Icon List</a>
+* <a href="https://fontawesome.com/v5/search?m=free&s=brands%2Csolid" target="_blank">FontAwesome Icon List</a>
