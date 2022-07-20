@@ -38,7 +38,7 @@ eleventyNavigation:
 
 ## Development Resources
 * <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank" class="text-decoration-none">Accessibility for Front-End Developers</a>
-* <a href="{% include 'links/bootstrap.njk' %}" target="_blank" class="text-decoration-none">Bootstrap 5</a>
+* <a href="https://getbootstrap.com/" target="_blank" class="text-decoration-none">Bootstrap 5</a>
 * <a href="https://vuejs.org/" target="_blank" class="text-decoration-none">Vue.js</a>
 * <a href="https://developer.mozilla.org/en-US/" target="_blank" class="text-decoration-none">Mozilla Developer Network (MDN)</a>
 * <a href="https://www.11ty.dev/" target="_blank" class="text-decoration-none">11ty</a>

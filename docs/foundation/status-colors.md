@@ -136,4 +136,4 @@ The Status Colors are implemented as background colors and as text colors. The c
 
 ## Resources
 
-* <a href="{% include 'links/color.njk' %}" target="_blank">Bootstrap Documentation - Color</a>
+* <a href="https://getbootstrap.com/docs/5.1/utilities/colors/" target="_blank">Bootstrap Documentation - Color</a>

@@ -55,4 +55,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="{% include 'links/toasts.njk' %}" target="_blank">Bootstrap Documentation - Toasts</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/toasts/" target="_blank">Bootstrap Documentation - Toasts</a>

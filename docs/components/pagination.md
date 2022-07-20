@@ -28,4 +28,4 @@ eleventyNavigation:
 
 ## Resources
 
-- <a href="{% include 'links/pagination.njk' %}" target="_blank">Bootstrap Pagination</a>
+- <a href="https://getbootstrap.com/docs/5.1/components/pagination/" target="_blank">Bootstrap Pagination</a>

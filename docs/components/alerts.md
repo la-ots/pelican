@@ -62,4 +62,4 @@ _Note: A successful action can include the successful deletion of an item or fil
 ```
 
 ## Resources
-* <a href="{% include 'links/alerts.njk' %}" target="_blank">Bootstrap Documentation - Alerts</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/alerts/" target="_blank">Bootstrap Documentation - Alerts</a>

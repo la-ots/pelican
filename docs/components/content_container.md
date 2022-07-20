@@ -27,4 +27,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="{% include 'links/container.njk' %}" target="_blank">Bootstrap Documentation - Containers</a>
+* <a href="https://getbootstrap.com/docs/5.1/layout/containers/" target="_blank">Bootstrap Documentation - Containers</a>

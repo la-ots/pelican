@@ -38,5 +38,5 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="{% include 'links/popovers.njk' %}" target="_blank">Bootstrap Documentation - Popovers</a>
-* <a href="{% include 'links/tooltips.njk' %}" target="_blank">Bootstrap Documentation - Tooltips</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/popovers/" target="_blank">Bootstrap Documentation - Popovers</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/tooltips/" target="_blank">Bootstrap Documentation - Tooltips</a>

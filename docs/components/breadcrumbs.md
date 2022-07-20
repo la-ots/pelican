@@ -33,4 +33,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="{% include 'links/breadcrumbs.njk' %}" target="_blank">Bootstrap Documentation - Breadcrumb</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/breadcrumb/" target="_blank">Bootstrap Documentation - Breadcrumb</a>

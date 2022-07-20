@@ -65,5 +65,5 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="{% include 'links/navbar.njk' %} " target="_blank">Bootstrap Documentation - Navbar</a> 
-* <a href="{% include 'links/navs.njk' %}" target="_blank">Bootstrap Documentation - Navs</a> 
+* <a href="https://getbootstrap.com/docs/5.1/components/navbar/" target="_blank">Bootstrap Documentation - Navbar</a> 
+* <a href="https://getbootstrap.com/docs/5.1/components/navs-tabs/" target="_blank">Bootstrap Documentation - Navs</a> 

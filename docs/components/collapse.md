@@ -27,5 +27,5 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="{% include 'links/collapse.njk' %}" target="_blank">Bootstrap Documentation - Collapse</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/collapse/" target="_blank">Bootstrap Documentation - Collapse</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">Details disclosure Element</a>

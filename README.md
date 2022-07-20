@@ -1,6 +1,6 @@
 # Pelican Design System
 
-The Pelican Design System package is a customized [Bootstrap]({% include 'links/bootstrap.njk' %}) theme for use within OTS projects.
+The Pelican Design System package is a customized [Bootstrap](https://getbootstrap.com/) theme for use within OTS projects.
 
 ## Installation
 
