@@ -2,7 +2,7 @@
 title: Single Pane
 summary: A image next to a solid block of color with text and a link.
 tags: hero block
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Single Pane
   parent: Hero Blocks
@@ -13,12 +13,12 @@ eleventyNavigation:
 
 ## Best Practice
 
-{% include 'hero-guidance.njk' %}
+{% include 'text-quotes/hero-guidance.njk' %}
 
 ## Usage
 
-{% include 'markup/hero-single-pane.njk' %}
+{% include 'markup/highlights/hero-single-pane.njk' %}
 
 ``` html
-{% include 'markup/hero-single-pane.njk' %}
+{% include 'markup/highlights/hero-single-pane.njk' %}
 ```

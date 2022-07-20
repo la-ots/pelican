@@ -2,7 +2,7 @@
 title: Agency Themes
 summary: Agencies have opportunity to reflect their own brand using Pelican.
 tags: color, agency, brand
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Agency Themes
   parent: Foundation
@@ -114,7 +114,7 @@ To prevent ambiguity in this situation, you could try one of a few strategies:
 - Avoid using Brand Colors in meaningful places in the user interface.
 - Design a supporting brand palette for Status Colors.
 
-{% include 'color-warning.njk' %}
+{% include 'text-quotes/color-warning.njk' %}
 
 ## Resources
 

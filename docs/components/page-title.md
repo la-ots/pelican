@@ -2,7 +2,7 @@
 title: Page Title
 summary: The Page Title block explains the purpose of a page.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Page Title
   parent: Components
@@ -20,8 +20,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/page-title.njk' %}
+{% include 'markup/components/page-title.njk' %}
 
 ``` html
-{% include 'markup/page-title.njk' %}
+{% include 'markup/components/page-title.njk' %}
 ```

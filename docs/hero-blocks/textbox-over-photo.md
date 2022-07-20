@@ -2,7 +2,7 @@
 title: Textbox Over Photo
 summary: Short text over over a photograph.
 tags: feature blocks
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Textbox Over Photo
   parent: Hero Blocks
@@ -13,12 +13,12 @@ eleventyNavigation:
 
 ## Best Practice
 
-{% include 'hero-guidance.njk' %}
+{% include 'text-quotes/hero-guidance.njk' %}
 
 ## Usage
 
-{% include 'markup/hero-textbox-over-photo.njk' %}
+{% include 'markup/highlights/hero-textbox-over-photo.njk' %}
 
 ``` html
-{% include 'markup/hero-textbox-over-photo.njk' %}
+{% include 'markup/highlights/hero-textbox-over-photo.njk' %}
 ```

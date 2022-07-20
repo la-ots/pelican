@@ -2,7 +2,7 @@
 title: Content Container
 summary: Content Containers collect content into meaningful groups.
 tags: components, boxes, content container
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Content Container
   parent: Components
@@ -20,10 +20,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/content-container.njk' %}
+{% include 'markup/components/content-container.njk' %}
 
 ``` html
-{% include 'markup/content-container.njk' %}
+{% include 'markup/components/content-container.njk' %}
 ```
 
 ## Resources

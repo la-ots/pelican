@@ -2,7 +2,7 @@
 title: Back to Top Button
 summary: The Back to Top Button allows users to return to the top of the page.
 tags: back to top button, required
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Back to Top Button
   parent: Components
@@ -20,8 +20,9 @@ eleventyNavigation:
 
 ## Usage
 
+
 ``` html
-{% include 'markup/button-back-to-top.njk' %}
+{% include 'markup/components/button-back-to-top.njk' %}
 ```
 ## Resources
 

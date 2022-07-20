@@ -2,7 +2,7 @@
 title: Sidebar with Navigation
 summary: Contains and organizes all of the navigation for your web app.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Sidebar with Navigation
   parent: Components
@@ -23,5 +23,5 @@ The first child element of the `id=site-container` is the Sidebar with Navigatio
 ## Usage
 
 ``` html
-{% include 'markup/sidebar-nav.njk' %}
+{% include 'markup/components/sidebar-nav.njk' %}
 ```

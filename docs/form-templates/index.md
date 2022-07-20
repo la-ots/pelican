@@ -2,7 +2,7 @@
 title: Form Templates
 summary: Form Templates are common combinations of Components and Forms elements.
 tags: form-templates
-layout: area-page
+layout: page-area
 index: true
 eleventyNavigation:
   key: Form Templates
@@ -14,4 +14,4 @@ eleventyNavigation:
 
 Form Templates are common Forms across Louisiana’s digital products. This could be a Sign In Form or a Form to collect contact information.
 
-{% include 'themeables.njk' %}
+{% include 'text-quotes/themeables.njk' %}

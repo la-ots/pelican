@@ -2,7 +2,7 @@
 title: Popovers & Tooltips
 summary: Popovers & Tooltips provide additional context to users about a connected item.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Popovers & Tooltips
   parent: Components
@@ -22,18 +22,18 @@ eleventyNavigation:
 
 ### Popover
 
-{% include 'markup/popovers.njk' %}
+{% include 'markup/components/popovers.njk' %}
 
 ``` html
-{% include 'markup/popovers.njk' %}
+{% include 'markup/components/popovers.njk' %}
 ```
 
 ### Tooltips
 
-{% include 'markup/tooltips.njk' %}
+{% include 'markup/components/tooltips.njk' %}
 
 ``` html
-{% include 'markup/tooltips.njk' %}
+{% include 'markup/components/tooltips.njk' %}
 ```
 
 ## Resources

@@ -2,7 +2,7 @@
 title: Button Container
 summary: The Button Container collects a series of related buttons at the bottom of a page.
 tags: button container
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Button Container
   parent: Components
@@ -21,10 +21,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-container.njk' %}
+{% include 'markup/components/button-container.njk' %}
 
 ``` html
-{% include 'markup/button-container.njk' %}
+{% include 'markup/components/button-container.njk' %}
 ```
 ## Resources
 * <a href="https://getbootstrap.com/docs/5.1/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>

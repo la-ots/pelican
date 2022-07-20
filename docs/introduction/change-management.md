@@ -2,7 +2,7 @@
 title: Change Management
 summary: Suggest changes to the Pelican Design System.
 tags: change management, contribute
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Change Management
   parent: Introduction
@@ -24,4 +24,4 @@ The Pelican Design System will grow as we discover solutions created by each tea
 1. Make pull request for peer review processes to occur.
 1. Final merge into the Main branch.
 
-{% include 'markup/pull-request.njk' %}
+{% include 'text-quotes/pull-request.njk' %}

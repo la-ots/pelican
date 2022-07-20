@@ -2,7 +2,7 @@
 title: Add Data Button
 summary: Add Data Button allows users to add data to a set.
 tags: components, buttons
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Add Data Button
   parent: Components
@@ -21,10 +21,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-add-data.njk' %}
+{% include 'markup/components/button-add-data.njk' %}
 
 ``` html
-{% include 'markup/button-add-data.njk' %}
+{% include 'markup/components/button-add-data.njk' %}
 ```
 
 ## Resources

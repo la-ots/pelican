@@ -2,7 +2,7 @@
 title: Item Details Page
 summary: A layout intended to group various aspects about something for easy, glanceability.
 tags: page templates
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Item Details Page
   parent: Page Templates
@@ -25,5 +25,5 @@ eleventyNavigation:
 <a class="btn btn-primary" href="/page-templates/item-details-page-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include 'markup/item-details-internal.njk' %}
+{% include 'markup/page-templates/item-details-internal.njk' %}
 ```

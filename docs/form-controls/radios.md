@@ -2,7 +2,7 @@
 title: Radios
 summary: Radios allow users to select exactly one option from multiple options.
 tags: forms
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Radios
   parent: Form Controls
@@ -23,10 +23,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/radios.njk' %}
+{% include 'markup/form-controls/radios.njk' %}
 
 ``` html
-{% include 'markup/radios.njk' %}
+{% include 'markup/form-controls/radios.njk' %}
 ```
 
 ## Resources

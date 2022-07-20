@@ -2,7 +2,7 @@
 title: Landing Page
 summary: Create a first impression of your digital product.
 tags: page templates
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Landing Page
   parent: Page Templates
@@ -24,5 +24,5 @@ eleventyNavigation:
 <a class="btn btn-primary" href="/page-templates/landing-page-public/" target="_blank">See Preview</a>
 
 ``` html
-{% include 'markup/landing-page.njk' %}
+{% include 'markup/page-templates/landing-page.njk' %}
 ```

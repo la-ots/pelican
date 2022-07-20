@@ -2,7 +2,7 @@
 title: Languages
 summary: Show the Louisiana user all of the languages we support.
 tags: feature blocks
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Languages
   parent: Feature Blocks
@@ -21,8 +21,8 @@ The Louisiana Census reveals four languages which should be accommodated in its 
 
 ## Usage
 
-{% include 'markup/feature-languages.njk' %}
+{% include 'markup/highlights/feature-languages.njk' %}
 
 ``` html
-{% include 'markup/feature-languages.njk' %}
+{% include 'markup/highlights/feature-languages.njk' %}
 ```

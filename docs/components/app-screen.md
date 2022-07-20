@@ -2,7 +2,7 @@
 title: App Screen
 summary: The App Screen is the container for your digital product. 
 tags: basic view, sidenav, topbar
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: App Screen
   parent: Components
@@ -26,11 +26,11 @@ For projects requiring a sidebar navigation the App Screen provides the basic us
 Everything considered part of the App Screen is placed into the `id=site-container`. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top Button goes below it in markup.
 
 ```html
-{% include 'markup/skip-link.njk' %}
+{% include 'markup/components/skip-link.njk' %}
 <div id="site-container" class="site-container">
   ...
 </div>
-{% include 'markup/button-back-to-top.njk' %}
+{% include 'markup/components/button-back-to-top.njk' %}
 ```
 
 ## Sidebar with Navigation
@@ -73,7 +73,7 @@ This main `id="main"` element is where the screen’s contents and user interfac
 After the main `id="main"` put the Footer element.
 
 ```html
-<footer class="footer" id="footer">
+<footer id="footer" class="footer">
   ...
 </footer>
 ```
@@ -87,6 +87,6 @@ The App Screen markup below is how all the 5 parts are assembled.
   <nav id="site-nav" class="site-nav">  ...  </nav>
   <div id="site-topbar" class="site-topbar">  ...  </div>
   <main id="main" class="site-main">  ...  </main>
-  <footer class="footer" id="footer">  ...  </footer>
+  <footer id="footer" class="footer">  ...  </footer>
 </div>
 ```

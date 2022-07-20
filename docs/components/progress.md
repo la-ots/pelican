@@ -2,7 +2,7 @@
 title: Progress Indicator
 summary: Progress Indicators show users their place in a multi-step process.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Progress Indicator
   parent: Components
@@ -22,16 +22,16 @@ eleventyNavigation:
 
 ### Large Progress Indicator
 
-{% include 'markup/progress-large.njk' %}
+{% include 'markup/components/progress-large.njk' %}
 
 ``` html
-{% include 'markup/progress-large.njk' %}
+{% include 'markup/components/progress-large.njk' %}
 ```
 
 ### Small Progress Indicator
 
-{% include 'markup/progress-small.njk' %}
+{% include 'markup/components/progress-small.njk' %}
 
 ``` html
-{% include 'markup/progress-small.njk' %}
+{% include 'markup/components/progress-small.njk' %}
 ```

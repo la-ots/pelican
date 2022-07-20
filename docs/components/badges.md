@@ -2,7 +2,7 @@
 title: Badges
 summary: Badges are Labels that inform users about some aspect of the data, such as the count of related items.
 tags: components, badges
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Badges
   parent: Components
@@ -19,10 +19,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/badges.njk' %}
+{% include 'markup/components/badges.njk' %}
 
 ``` html
-{% include 'markup/badges.njk' %}
+{% include 'markup/components/badges.njk' %}
 ```
 
 ## Resources

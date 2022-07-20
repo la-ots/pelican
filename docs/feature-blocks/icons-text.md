@@ -2,7 +2,7 @@
 title: Icons & Text
 summary: Simple text with icons to explain a feature.
 tags: feature block
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Icons & Text
   parent: Feature Blocks
@@ -20,8 +20,8 @@ Allows a Louisiana product to briefly describe a feature with related icons to r
 
 ## Usage
 
-{% include 'markup/feature-icons-text.njk' %}
+{% include 'markup/highlights/feature-icons-text.njk' %}
 
 ``` html
-{% include 'markup/feature-icons-text.njk' %}
+{% include 'markup/highlights/feature-icons-text.njk' %}
 ```

@@ -1,11 +1,11 @@
 ---
 title: Document Page Internal
-layout: default-internal
+layout: nav-internal
 ---
 
-{% include 'markup/breadcrumbs.njk' %}
-{% include 'markup/page-title.njk' %}
+{% include 'markup/components/breadcrumbs.njk' %}
+{% include 'markup/components/page-title.njk' %}
 
-{% include 'markup/documentation-internal.njk' %}
+{% include 'markup/page-templates/documentation-internal.njk' %}
 
-{% include 'markup/buttons-previous-next-page.njk' %}
+{% include 'markup/components/buttons-previous-next-page.njk' %}

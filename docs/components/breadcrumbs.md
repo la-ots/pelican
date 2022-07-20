@@ -2,7 +2,7 @@
 title: Breadcrumbs
 summary: Breadcrumbs show users where the current page is in relation to other pages on the site.
 tags: components, breadcrumbs
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Breadcrumbs
   parent: Components
@@ -25,10 +25,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/breadcrumbs.njk' %}
+{% include 'markup/components/breadcrumbs.njk' %}
 
 ``` html
-{% include 'markup/breadcrumbs.njk' %}
+{% include 'markup/components/breadcrumbs.njk' %}
 ```
 
 ## Resources

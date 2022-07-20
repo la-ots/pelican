@@ -2,7 +2,7 @@
 title: Official Banner
 summary: The Official Banner identifies official Louisiana Government websites.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Official Banner
   parent: Components
@@ -20,8 +20,8 @@ _**Note**: This doesn’t contain the code for switching language, only the mark
 
 ## Usage
 
-{% include 'markup/official-banner.njk' %}
+{% include 'markup/components/official-banner.njk' %}
 
 ``` html
-{% include 'markup/official-banner.njk' %}
+{% include 'markup/components/official-banner.njk' %}
 ```

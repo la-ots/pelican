@@ -2,7 +2,7 @@
 title: Cards
 summary: Cards are containers for related content or information.
 tags: components, card
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Cards
   parent: Components
@@ -21,7 +21,7 @@ Cards are designed to be flexible enough to accommodate most content types
 - Rows and columns can be placed inside a card body.
 - Cards can be themed using theming classes. Read more in [Agency Themes](/foundation/agency-theming/).
 
-{% include 'cards-tables.njk' %}
+{% include 'text-quotes/cards-tables.njk' %}
 
 ## Usage
 **Basic card**

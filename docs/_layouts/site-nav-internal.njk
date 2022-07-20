@@ -1,0 +1,10 @@
+---
+layout: base.njk
+---
+
+{% include "site-blocks/sidebar.njk" %}
+{% include "site-blocks/header.njk" %}
+<main id="main" class="site-main">
+  {{ content | safe }}
+</main>
+{% include 'site-blocks/footer-utility-toggle.njk' %}

@@ -2,7 +2,7 @@
 title: Skip Link
 summary: Skip Links allow users to skip navigation elements and go straight to content.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Skip Link
   parent: Components
@@ -21,7 +21,7 @@ Users who rely keyboard navigation need a way to skip past navigation elements i
 ## Usage
 
 ``` html
-{% include 'markup/skip-link.njk' %}
+{% include 'markup/components/skip-link.njk' %}
 ```
 
 ## Resources

@@ -2,7 +2,7 @@
 title: Boxed-in Photo
 summary: Short amounts of text and a link with a contained image.
 tags: feature block
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Boxed-in Photo
   parent: Hero Blocks
@@ -13,12 +13,12 @@ eleventyNavigation:
 
 ## Best Practice
 
-{% include 'hero-guidance.njk' %}
+{% include 'text-quotes/hero-guidance.njk' %}
 
 ## Usage
 
-{% include 'markup/hero-boxed-in-photo.njk' %}
+{% include 'markup/highlights/hero-boxed-in-photo.njk' %}
 
 ``` html
-{% include 'markup/hero-boxed-in-photo.njk' %}
+{% include 'markup/highlights/hero-boxed-in-photo.njk' %}
 ```

@@ -2,7 +2,7 @@
 title: Important Considerations
 summary: Some important things to be aware of as you use Pelican.
 tags: layout, markup, accessibility
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Important Considerations
   parent: Introduction
@@ -21,10 +21,10 @@ Don’t change the layouts of Pelican’s elements. Louisiana’s residents need
 
 ## Code
 
-Don’t change code in ways other than what’s provided for customization. You may have to remedy any [accessibility](/accessibility/about-accessibility/) or browser rendering problems on your own. If you need something Pelican doesn’t have, consult the <a href="https://getbootstrap.com" target="_blank">Bootstrap documentation</a> as it’s the underlying framework for Pelican.
+Don’t change code in ways other than what’s provided for customization. You may have to remedy any [accessibility](/accessibility/about-accessibility/) or browser rendering problems on your own. If you need something Pelican doesn’t have, consult the <a href="https://getbootstrap.com/" target="_blank">Bootstrap documentation</a> as it’s the underlying framework for Pelican.
 
 If your project requires custom work not found in either Pelican or Bootstrap, consult <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">digital.gov’s guidelines on frontend accessibility</a>.
 
-{% include 'markup/pull-request.njk' %}
+{% include 'text-quotes/pull-request.njk' %}
 
 Extensions to Pelican are welcome! Extensions will be implemented in a manner which accommodates their future use by all teams and compliance with accessibility guidelines.

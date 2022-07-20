@@ -2,7 +2,7 @@
 title: Checkboxes
 summary: Checkboxes allow users to select one or more options at the same time.
 tags: forms
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Checkboxes
   parent: Form Controls
@@ -23,10 +23,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/checkboxes.njk' %}
+{% include 'markup/form-controls/checkboxes.njk' %}
 
 ``` html
-{% include 'markup/checkboxes.njk' %}
+{% include 'markup/form-controls/checkboxes.njk' %}
 ```
 
 ## Resources

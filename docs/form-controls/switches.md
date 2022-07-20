@@ -2,7 +2,7 @@
 title: Switches
 summary: Switches allow users to enable or disable something, like a light switch.
 tags: forms
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Switches
   parent: Form Controls
@@ -20,10 +20,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/switches-little.njk' %}
+{% include 'markup/form-controls/switches-little.njk' %}
 
 ``` html
-{% include 'markup/switches-little.njk' %}
+{% include 'markup/form-controls/switches-little.njk' %}
 ```
 
 ## Resources

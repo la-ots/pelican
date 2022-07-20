@@ -2,7 +2,7 @@
 title: Error Page
 summary: A prompt to notify the user of an issue on the site.
 tags: page templates
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Error Page
   parent: Page Templates
@@ -14,18 +14,18 @@ eleventyNavigation:
 
 ## Best Practices
 
-{% include 'writing-tips.njk' %}
+{% include 'text-quotes/writing-tips.njk' %}
 
 ## Usage
 
 <a class="btn btn-primary" href="/page-templates/error-page-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include 'markup/error-internal.njk' %}
+{% include 'markup/page-templates/error-internal.njk' %}
 ```
 
 <a class="btn btn-primary" href="/page-templates/error-page-public/" target="_blank">See Public Preview</a>
 
 ``` html
-{% include 'markup/error-public.njk' %}
+{% include 'markup/page-templates/error-public.njk' %}
 ```

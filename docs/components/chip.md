@@ -2,7 +2,7 @@
 title: Chip
 summary: Chips allow users to see items added to or removed from a set.
 tags: components, chips
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Chip
   parent: Components
@@ -21,10 +21,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/chip.njk' %}
+{% include 'markup/components/chip.njk' %}
 
 ``` html
-{% include 'markup/chip.njk' %}
+{% include 'markup/components/chip.njk' %}
 ```
 
 ## Resources

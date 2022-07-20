@@ -2,7 +2,7 @@
 title: Toasts
 summary: Toasts are a lightweight notification relaying information related to the user's actions.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Toasts
   parent: Components
@@ -26,32 +26,32 @@ eleventyNavigation:
 - Toasts are persistent regardless of scrolling. 
 - Toasts are dismissable either by clicking the X to close or they automatically close after a defined time duration (suggestion is 7 seconds).
 
-{% include 'writing-tips.njk' %}
+{% include 'text-quotes/writing-tips.njk' %}
 
 ## Usage
 
 **Success Toast**
 
-{% include 'markup/toast-success.njk' %}
+{% include 'markup/components/toast-success.njk' %}
 
 ``` html
-{% include 'markup/toast-success.njk' %}
+{% include 'markup/components/toast-success.njk' %}
 ```
 
 **Danger Toast**
 
-{% include 'markup/toast-danger.njk' %}
+{% include 'markup/components/toast-danger.njk' %}
 
 ``` html
-{% include 'markup/toast-danger.njk' %}
+{% include 'markup/components/toast-danger.njk' %}
 ```
 
 **Info Toast**
 
-{% include 'markup/toast-info.njk' %}
+{% include 'markup/components/toast-info.njk' %}
 
 ``` html
-{% include 'markup/toast-info.njk' %}
+{% include 'markup/components/toast-info.njk' %}
 ```
 
 ## Resources

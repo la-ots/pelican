@@ -2,7 +2,7 @@
 title: Forms
 summary: Form accessibility is an important part of Pelican.
 tags: color, contrast
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Forms
   parent: Accessibility
@@ -13,4 +13,4 @@ eleventyNavigation:
 
 ## Best Practices
 
-{% include 'form-guidelines.njk' %}
+{% include 'text-quotes/form-guidelines.njk' %}

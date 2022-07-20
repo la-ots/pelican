@@ -2,7 +2,7 @@
 title: Footer
 summary: Footers contain links and other useful information at the bottom of a page.
 tags: components, footers
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Footer
   parent: Components
@@ -20,16 +20,16 @@ eleventyNavigation:
 
 **Basic Footer**
 
-{% include 'markup/footer-basic.njk' %}
+{% include 'markup/components/footer-basic.njk' %}
 
 ``` html
-{% include 'markup/footer-basic.njk' %}
+{% include 'markup/components/footer-basic.njk' %}
 ```
 
 **Utility Footer**
 
-{% include 'markup/footer-utility.njk' %}
+{% include 'markup/components/footer-utility.njk' %}
 
 ``` html
-{% include 'markup/footer-utility.njk' %}
+{% include 'markup/components/footer-utility.njk' %}
 ```

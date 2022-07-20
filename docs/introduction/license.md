@@ -2,7 +2,7 @@
 title: License
 summary: We want anyone who wants to use the Pelican Design System to use it.
 tags: license
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: License
   parent: Introduction

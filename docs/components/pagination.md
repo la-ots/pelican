@@ -2,7 +2,7 @@
 title: Pagination
 summary: Pagination allows users to choose between viewable data sets.
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Pagination
   parent: Components
@@ -20,10 +20,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/pagination.njk' %}
+{% include 'markup/components/pagination.njk' %}
 
 ``` html
-{% include 'markup/pagination.njk' %}
+{% include 'markup/components/pagination.njk' %}
 ```
 
 ## Resources

@@ -2,7 +2,7 @@
 title: Test Page
 summary: This test page is used to visuall check if CSS changes have unintended effects.
 tags: test-page
-layout: default-minimal
+layout: site-nav-internal
 index: true
 ## eleventyNavigation:
 ##   key: Sitemap
@@ -29,11 +29,11 @@ index: true
   }
 </style>
 
-{%- include 'markup/toast-info.njk'    -%}
-{%- include 'markup/toast-danger.njk'  -%}
-{%- include 'markup/toast-success.njk' -%}
+{%- include 'markup/components/toast-info.njk'    -%}
+{%- include 'markup/components/toast-danger.njk'  -%}
+{%- include 'markup/components/toast-success.njk' -%}
 
-{% include "markup/breadcrumbs.njk" %}
+{% include "markup/components/breadcrumbs.njk" %}
 
 <!-- page title -->
 <div class="page-title">
@@ -70,16 +70,16 @@ index: true
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      {%- include 'markup/alert-success.njk' -%}
-      {%- include 'markup/alert-info.njk' -%}
-      {%- include 'markup/alert-warning.njk' -%}
-      {%- include 'markup/alert-danger.njk' -%}
+      {%- include 'markup/components/alert-success.njk' -%}
+      {%- include 'markup/components/alert-info.njk' -%}
+      {%- include 'markup/components/alert-warning.njk' -%}
+      {%- include 'markup/components/alert-danger.njk' -%}
     </div>
   </div>
 </div>
 
 <!-- progress indicator large -->
-{%- include 'markup/progress-large.njk' -%}
+{%- include 'markup/components/progress-large.njk' -%}
 <div class="content-container">
   <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
     <div class="row">
@@ -92,13 +92,13 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text-plain.njk' -%}
+        {%- include 'markup/form-controls/input-text-plain.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -108,21 +108,21 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/select.njk' -%}
+        {%- include 'markup/form-controls/select.njk' -%}
       </div>
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
@@ -149,7 +149,7 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-file.njk' -%}
+        {%- include 'markup/form-controls/input-file.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">
@@ -165,10 +165,10 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-4">
-        {%- include 'markup/checkboxes.njk' -%}
+        {%- include 'markup/form-controls/checkboxes.njk' -%}
       </div>
       <div class="col-12 col-lg-4">
-        {%- include 'markup/radios.njk' -%}
+        {%- include 'markup/form-controls/radios.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -178,10 +178,10 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-4">
-        {%- include 'markup/toggle-tokens-exclusive.njk' -%}
+        {%- include 'markup/form-controls/toggle-tokens-exclusive.njk' -%}
       </div>
       <div class="col-12 col-lg-4">
-        {%- include 'markup/toggle-tokens-inclusive.njk' -%}
+        {%- include 'markup/form-controls/toggle-tokens-inclusive.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -212,10 +212,10 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        {%- include 'markup/form-controls/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/select.njk' -%}
+        {%- include 'markup/form-controls/select.njk' -%}
       </div>
     </div>
     <div class="row">
@@ -228,7 +228,7 @@ index: true
         <hr class="minor">
       </div>
     </div>
-    {%- include 'markup/pagination.njk' -%}
+    {%- include 'markup/components/pagination.njk' -%}
   </div>
 </div>
 
@@ -251,7 +251,7 @@ index: true
         <hr class="minor">
       </div>
     </div>
-    {%- include 'markup/button-page-actions.njk' -%}
+    {%- include 'markup/components/button-page-actions.njk' -%}
   </div>
 </div>
 
@@ -268,7 +268,7 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        {%- include 'markup/modal.njk' -%}
+        {%- include 'markup/components/modal.njk' -%}
         <button type="button" class="btn btn-info">Launch Info Toast</button>
         <button type="button" class="btn btn-danger">Launch Danger Toast</button>
         <button type="button" class="btn btn-success">Launch Success Toast</button>
@@ -297,10 +297,10 @@ index: true
           <p>Value</p>
         </div>
       </div>
-      {%- include 'markup/progress-small.njk' -%}
+      {%- include 'markup/components/progress-small.njk' -%}
     </div>
     <div class="col-12 col-lg-4 mt-3 mt-lg-0">
-      {%- include 'markup/share-social.njk' -%}
+      {%- include 'markup/components/share-social.njk' -%}
     </div>
   </div>
 </div>
@@ -326,10 +326,10 @@ index: true
             <p>Value</p>
           </div>
         </div>
-        {%- include 'markup/progress-small.njk' -%}
+        {%- include 'markup/components/progress-small.njk' -%}
       </div>
       <div class="col-12 col-lg-4 mt-3 mt-lg-0">
-        {%- include 'markup/share-social.njk' -%}
+        {%- include 'markup/components/share-social.njk' -%}
       </div>
     </div>
   </div>
@@ -341,7 +341,7 @@ index: true
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 col-lg-3">
-      {%- include 'markup/component-collapse.njk' -%}
+      {%- include 'markup/components/component-collapse.njk' -%}
     </div>
   </div>
 </div>
@@ -349,7 +349,7 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/component-collapse.njk' -%}
+        {%- include 'markup/components/component-collapse.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
         <div class="spinner-border text-ui" role="status">
@@ -368,15 +368,15 @@ index: true
 <hr class="major">
 
 <!-- tabbed content -->
-{%- include 'markup/tabbed-content-traditional.njk' -%}
+{%- include 'markup/components/tabbed-content-traditional.njk' -%}
 
 <!-- features -->
-{%- include 'markup/feature-cta-double.njk' -%}
-{%- include 'markup/feature-set.njk' -%}
+{%- include 'markup/highlights/feature-cta-double.njk' -%}
+{%- include 'markup/highlights/feature-set.njk' -%}
 <!-- heroes -->
-{%- include 'markup/hero-dual-pane.njk' -%}
-{%- include 'markup/hero-textbox-over-photo.njk' -%}
-{%- include 'markup/hero-text-color-toned-photo.njk' -%}
-{%- include 'markup/hero-single-pane.njk' -%}
+{%- include 'markup/highlights/hero-dual-pane.njk' -%}
+{%- include 'markup/highlights/hero-textbox-over-photo.njk' -%}
+{%- include 'markup/highlights/hero-text-color-toned-photo.njk' -%}
+{%- include 'markup/highlights/hero-single-pane.njk' -%}
 <!-- button container -->
-{%- include 'markup/button-container.njk' -%}
+{%- include 'markup/components/button-container.njk' -%}

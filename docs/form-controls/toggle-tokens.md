@@ -2,7 +2,7 @@
 title: Toggle Tokens
 summary: Toggle Tokens are a styled version of Checkboxes and Radios. 
 tags: forms
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Toggle Tokens
   parent: Form Controls
@@ -22,10 +22,10 @@ eleventyNavigation:
 
 * [Radios](/form-controls/radios) can be presented as Toggle Tokens.
 
-{% include 'markup/toggle-tokens-exclusive.njk' %}
+{% include 'markup/form-controls/toggle-tokens-exclusive.njk' %}
 
 ```html
-{% include 'markup/toggle-tokens-exclusive.njk' %}
+{% include 'markup/form-controls/toggle-tokens-exclusive.njk' %}
 ```
 
 **Toggle Tokens for Multiple Choices**
@@ -33,10 +33,10 @@ eleventyNavigation:
 * [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens.
 * Use checkbox logic.
 
-{% include 'markup/toggle-tokens-inclusive.njk' %}
+{% include 'markup/form-controls/toggle-tokens-inclusive.njk' %}
 
 ```html
-{% include 'markup/toggle-tokens-inclusive.njk' %}
+{% include 'markup/form-controls/toggle-tokens-inclusive.njk' %}
 ```
 
 ## Resources

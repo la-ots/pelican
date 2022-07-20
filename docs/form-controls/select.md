@@ -2,7 +2,7 @@
 title: Select
 summary: Select allows the user to select an option from a group of similar options.
 tags: forms
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Select
   parent: Form Controls
@@ -25,10 +25,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/select.njk' %}
+{% include 'markup/form-controls/select.njk' %}
 
 ``` html
-{% include 'markup/select.njk' %}
+{% include 'markup/form-controls/select.njk' %}
 ```
 
 ## Resources

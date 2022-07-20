@@ -2,7 +2,7 @@
 title: Dual Pane
 summary: An image with text and color overlay next to an image with color overlay and a button.
 tags: hero block
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Dual Pane
   parent: Hero Blocks
@@ -13,12 +13,12 @@ eleventyNavigation:
 
 ## Best Practice
 
-{% include 'hero-guidance.njk' %}
+{% include 'text-quotes/hero-guidance.njk' %}
 
 ## Usage
 
-{% include 'markup/hero-dual-pane.njk' %}
+{% include 'markup/highlights/hero-dual-pane.njk' %}
 
 ``` html
-{% include 'markup/hero-dual-pane.njk' %}
+{% include 'markup/highlights/hero-dual-pane.njk' %}
 ```

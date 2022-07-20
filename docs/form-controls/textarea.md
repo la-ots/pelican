@@ -2,7 +2,7 @@
 title: Textarea
 summary: Textarea allows users to input multiple lines of text into a Form.
 tags: forms
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Textarea
   parent: Form Controls
@@ -19,10 +19,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/textarea.njk' %}
+{% include 'markup/form-controls/textarea.njk' %}
 
 ``` html
-{% include 'markup/textarea.njk' %}
+{% include 'markup/form-controls/textarea.njk' %}
 ```
 
 ## Resources

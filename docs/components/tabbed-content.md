@@ -2,7 +2,7 @@
 title: Tabbed Content
 summary: Tabs group related content, allowing users to see only what they want to see. 
 tags: components
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Tabbed Content
   parent: Components
@@ -21,16 +21,16 @@ eleventyNavigation:
 ## Usage
 **Rounded Style**
 
-{% include 'markup/tabbed-content-rounded.njk' %}
+{% include 'markup/components/tabbed-content-rounded.njk' %}
 
 ``` html
-{% include 'markup/tabbed-content-rounded.njk' %}
+{% include 'markup/components/tabbed-content-rounded.njk' %}
 ```
 
 **Traditional Style**
 
-{% include 'markup/tabbed-content-traditional.njk' %}
+{% include 'markup/components/tabbed-content-traditional.njk' %}
 
 ``` html
-{% include 'markup/tabbed-content-traditional.njk' %}
+{% include 'markup/components/tabbed-content-traditional.njk' %}
 ```

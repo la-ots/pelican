@@ -2,7 +2,7 @@
 title: Components
 summary: Components are the small pieces of a user interface.
 tags: components
-layout: area-page
+layout: page-area
 index: true
 eleventyNavigation:
   key: Components
@@ -14,4 +14,4 @@ eleventyNavigation:
 
 Components are the smallest pieces of functionality in Pelican. They can be combined to form larger pieces of functionality. 
 
-{% include 'themeables.njk' %}
+{% include 'text-quotes/themeables.njk' %}

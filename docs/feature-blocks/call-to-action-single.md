@@ -2,7 +2,7 @@
 title: Call to Action, Single
 summary: A simple imperative statement with an action button.
 tags: feature block
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Call to Action, Single
   parent: Feature Blocks
@@ -20,8 +20,8 @@ Use this when you’re ready to direct the reader to take an action, like signin
 
 ## Usage
 
-{% include 'markup/feature-cta.njk' %}
+{% include 'markup/highlights/feature-cta.njk' %}
 
 ``` html
-{% include 'markup/feature-cta.njk' %}
+{% include 'markup/highlights/feature-cta.njk' %}
 ```

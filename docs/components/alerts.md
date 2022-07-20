@@ -2,7 +2,7 @@
 title: Alerts
 summary:  Alerts communicate system or data statuses, such as warnings, to users.
 tags: components, alerts
-layout: guide
+layout: page-guide
 eleventyNavigation:
   key: Alerts
   parent: Components
@@ -22,43 +22,43 @@ eleventyNavigation:
 - Use **Danger** (red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
-{% include 'writing-tips.njk' %}
+{% include 'text-quotes/writing-tips.njk' %}
 
 
 ## Usage
 
 ### Info Alert
 
-{% include 'markup/alert-info.njk' %}
+{% include 'markup/components/alert-info.njk' %}
 
 ``` html
-{% include 'markup/alert-info.njk' %}
+{% include 'markup/components/alert-info.njk' %}
 ```
 
 ### Success Alert
 
 _Note: A successful action can include the successful deletion of an item or file._
 
-{% include 'markup/alert-success.njk' %}
+{% include 'markup/components/alert-success.njk' %}
 
 ``` html
-{% include 'markup/alert-success.njk' %}
+{% include 'markup/components/alert-success.njk' %}
 ```
 
 ### Warning Alert
 
-{% include 'markup/alert-warning.njk' %}
+{% include 'markup/components/alert-warning.njk' %}
 
 ``` html
-{% include 'markup/alert-warning.njk' %}
+{% include 'markup/components/alert-warning.njk' %}
 ```
 
 ### Danger Alert
 
-{% include 'markup/alert-danger.njk' %}
+{% include 'markup/components/alert-danger.njk' %}
 
 ``` html
-{% include 'markup/alert-danger.njk' %}
+{% include 'markup/components/alert-danger.njk' %}
 ```
 
 ## Resources
