@@ -113,4 +113,4 @@ You’ll change background and text colors by using the following classes. Consu
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.1/utilities/colors/" target="_blank">Bootstrap Documentation - Color</a>
+* <a href="https://getbootstrap.com/docs/5.1/customize/color/" target="_blank">Bootstrap Documentation - Color</a>
