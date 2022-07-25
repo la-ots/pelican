@@ -2,9 +2,6 @@
   height: 100%;
   max-height: unset;
 }
-.brand-link::after {
-  display: none !important;
-}
 
 .pd-color-block {
   height: 160px;
