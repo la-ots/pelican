@@ -17,6 +17,11 @@ pagination:
   reverse: true
 permalink: "whats-new/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber | plus: 1 }}/{% endif %}"
 ---
+## Make Pelican Better
+
+You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how to become involved.
+
+We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
 {% for blog in blogs %}
 

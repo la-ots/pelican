@@ -1,12 +1,12 @@
 ﻿---
 title: Call to Action, Double
-summary: A simple imperative statement with two choice buttons.
+summary: A simple imperative statement with two button choices.
 tags: feature block
 layout: guide
 eleventyNavigation:
   key: Call to Action, Double
   parent: Feature Blocks
-  excerpt: A simple imperative statement with two choice buttons.
+  excerpt: A simple imperative statement with two button choices.
   order: 2
   img: /img/illustrations/illus-cta-2.svg
 ---

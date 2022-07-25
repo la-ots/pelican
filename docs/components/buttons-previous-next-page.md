@@ -1,13 +1,13 @@
 ﻿---
 title: Previous & Next Page Buttons
-summary: Previous & Next Page buttons allow users to move through a sequential process.
+summary: Previous & Next Page Buttons allow users to move through a sequential process.
 tags: components, buttons
 layout: guide
 eleventyNavigation:
   key: Previous and Next Page Buttons
   parent: Components
   order: 80
-  excerpt: Previous & Next Page buttons allow users to move through a sequential process.
+  excerpt: Previous & Next Page Buttons allow users to move through a sequential process.
   img: /img/illustrations/illus-buttons-back-fwd.svg
 ---
 
@@ -30,4 +30,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>

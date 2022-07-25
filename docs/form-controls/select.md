@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-- The Select element creates a floating menu of options. It’s often called a “dropdown” but we should avoid this term as it may be confused with a <a href="https://getbootstrap.com/docs/4.5/components/dropdowns/" target="_blank">Bootstrap Dropdown</a>. Use this as the last resort ui element.
+- The Select element creates a floating menu of options. It’s often called a “dropdown” but we should avoid this term as it may be confused with a <a href="https://getbootstrap.com/docs/5.1/components/dropdowns/" target="_blank">Bootstrap Dropdown</a>. Use this as the last resort UI element.
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Forms work best when users can see all of their choices. When possible, try to refrain from using Selects. 
 - If space is not limited, use [Radios](/form-controls/radios) or [Toggle Tokens](/form-controls/toggle-tokens) instead.
@@ -35,4 +35,4 @@ eleventyNavigation:
 * <a href="https://designsystem.digital.gov/components/form-controls/#dropdown" target="_blank">Digital.gov - Form Controls: Selects (Best Practices)</a>
 * <a href="https://www.section508.gov/" target="_blank">Section 508 Guidelines</a>
 * <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a>
-* <a href="https://getbootstrap.com/docs/4.5/components/forms/" target="_blank">Bootstrap Documentation - Forms</a>
+* <a href="https://getbootstrap.com/docs/5.1/forms/select/" target="_blank">Bootstrap Documentation - Forms</a>

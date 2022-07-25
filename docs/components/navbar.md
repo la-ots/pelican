@@ -15,15 +15,15 @@ eleventyNavigation:
 
 - Navbars contain links to either another page in the digital product or parts of the current page.
 - Tailor them to your agency’s needs by changing some aspects of their appearance.
-- Do not remove the word “Menu” from the button that expands the navigation .
+- Do not remove the word “Menu” from the button that expands the navigation.
 - If you emphasize a link, make sure it is either the first or last link in the list.
 
 ## Usage
 
 ### Brand Minimal Navigation
 
-- Directs users to a single action 
-- This may be used on a landing page or a single-page website
+- Directs users to a single action.
+- This may be used on a landing page or a single-page website.
 
 {% include 'markup/navbar-minimal.njk' %}
 
@@ -33,9 +33,9 @@ eleventyNavigation:
 
 ### Basic Navigation
 
-- Presents 3 - 5 links to the user
-- Contains one visually-emphasized link
-- If you emphasize a link, make sure it is either the first or last link in the list
+- Presents 3 - 5 links to the user.
+- Contains one visually-emphasized link.
+- If you emphasize a link, make sure it is either the first or last link in the list.
 
 {% include 'markup/navbar-basic.njk' %}
 
@@ -45,8 +45,8 @@ eleventyNavigation:
 
 ### Navigation with Search
 
-- Displays an agency logo with a set of textual links underneath 
-- Features a search field positioned to the right of the bar
+- Displays an agency logo with a set of textual links underneath.
+- Features a search field positioned to the right of the bar.
 
 {% include 'markup/navbar-search.njk' %}
 ``` html
@@ -55,9 +55,9 @@ eleventyNavigation:
 
 ### Iconic Links Navigation
 
-* Well-suited for pages behind a login of a web application
-* Displays an agency logo
-* Features a set of links composed of an Icon over text
+* Well-suited for pages behind a login of a web application.
+* Displays an agency logo.
+* Features a set of links composed of an icon over text.
 
 {% include 'markup/navbar-iconic.njk' %}
 ``` html
@@ -65,5 +65,5 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/4.5/components/navbar/" target="_blank">Bootstrap Documentation - Navbar</a> 
-* <a href="https://getbootstrap.com/docs/4.5/components/navs/" target="_blank">Bootstrap Documentation - Navs</a> 
+* <a href="https://getbootstrap.com/docs/5.1/components/navbar/" target="_blank">Bootstrap Documentation - Navbar</a> 
+* <a href="https://getbootstrap.com/docs/5.1/components/navs-tabs/" target="_blank">Bootstrap Documentation - Navs</a> 

@@ -21,7 +21,7 @@ The Pelican Design System will grow as we discover solutions created by each tea
 1. The OTS Product Delivery Design Team members will create visual assets in Figma which match code output.
 1. Create branch in Pelican for the change.
 1. Write code.
-1. Pull Reviews and peer review process will occur.
+1. Make pull request for peer review processes to occur.
 1. Final merge into the Main branch.
 
 {% include 'markup/pull-request.njk' %}

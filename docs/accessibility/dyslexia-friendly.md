@@ -16,7 +16,7 @@ eleventyNavigation:
 - Use font sizes of 16 – 19 pixels.
 - Avoid underlines when possible.
 - Avoid all uppercase letters when possible.
-- Ensure hyperlinks are distinct from headings and normal text.
+- Ensure hyperlinks are distinct from Headings and normal text.
 - Slightly darken the reading background. In Pelican, the class `bg-less-bright` may be added to achieve this. The card containing this content uses this class.
 
 ## Resources

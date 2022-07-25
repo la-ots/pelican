@@ -20,11 +20,9 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/button-back-to-top.njk' %}
-
 ``` html
 {% include 'markup/button-back-to-top.njk' %}
 ```
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>
+* <a href="https://getbootstrap.com/docs/5.1/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>

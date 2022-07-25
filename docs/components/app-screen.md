@@ -23,7 +23,7 @@ For projects requiring a sidebar navigation the App Screen provides the basic us
 
 ## Usage
 
-Everything considered part of the App Screen is placed into the `id=site-container`. This is out the outermost `div`. The Skip Link goes above it in markup. The Footer and Back to Top button go below it in markup.
+Everything considered part of the App Screen is placed into the `id=site-container`. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top Button goes below it in markup.
 
 ```html
 {% include 'markup/skip-link.njk' %}
@@ -50,7 +50,7 @@ The first child element of the `id=site-container` is the [Sidebar with Navigati
 
 ## Topbar
 
-The Topbar also goes inside of the `id="site-container"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current page title.
+The Topbar also goes inside of the `id="site-container"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current Page Title.
 
 ```html
 <div id="site-topbar" class="site-topbar">
@@ -60,7 +60,7 @@ The Topbar also goes inside of the `id="site-container"`. The Topbar contains a 
 
 ## Main Content
 
-This `main id="main"` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
+This main `id="main"` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
 
 ```html
 <main id="main" class="site-main">
@@ -70,7 +70,7 @@ This `main id="main"` element is where the screen’s contents and user interfac
 
 ## Footer
 
-After the `main id="main"` put the Footer element.
+After the main `id="main"` put the Footer element.
 
 ```html
 <footer class="footer" id="footer">
