@@ -2,7 +2,7 @@
 title: Label Guidance
 summary: Labels give the user additonal control and context for Form Controls.
 tags: forms
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Label Guidance
   parent: Form Controls

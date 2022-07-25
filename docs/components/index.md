@@ -2,7 +2,7 @@
 title: Components
 summary: Components are the small pieces of a user interface.
 tags: components
-layout: area-page
+layout: docs/area
 index: true
 eleventyNavigation:
   key: Components

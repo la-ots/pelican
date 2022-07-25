@@ -2,7 +2,7 @@
 title: Form Controls
 summary: The pieces used to create a Form should be easy on the user.
 tags: forms
-layout: area-page
+layout: docs/area
 index: true
 eleventyNavigation:
   key: Form Controls

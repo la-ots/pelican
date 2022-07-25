@@ -1,0 +1,27 @@
+---
+title: Site Map
+summary: Here are some of the resources to help you create digital products.
+tags: resources
+index: true
+eleventyNavigation:
+  key: Sitemap
+  title: Site Map
+  order: 14
+---
+
+{%- extends "../../node_modules/@la-ots/eleventy-plugin-pelican/layouts/docs/sitemap.njk" -%}
+
+{%- block sitemapFooter -%}
+  <div class="feature-cta bg-secondary">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-10 col-md-6 text-center text-lg-left">
+          <p class="feature-big-text">Start using Pelican.</p>
+        </div>
+        <div class="col-10 col-md-6 text-center text-lg-right">
+          <a href="/get-started" class="btn btn-primary btn-lg">Get started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endblock -%}

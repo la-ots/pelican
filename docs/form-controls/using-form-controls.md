@@ -2,7 +2,7 @@
 title: Using Form Controls
 summary: Make the Form for the user, not for us.
 tags: forms
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Using Form Controls
   parent: Form Controls

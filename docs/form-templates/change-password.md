@@ -2,7 +2,7 @@
 title: Change Password
 summary: The Change Password Form allows the user to manage their password.
 tags: form-templates
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Change Password
   parent: Form Templates

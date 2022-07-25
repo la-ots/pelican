@@ -2,13 +2,20 @@
 title: Test Page
 summary: This test page is used to visuall check if CSS changes have unintended effects.
 tags: test-page
-layout: default-minimal
 index: true
 ## eleventyNavigation:
 ##   key: Sitemap
 ##   title: Sitemap
 ##   order: 14
 ---
+
+{%- extends "../_includes/test-page-layout.njk" -%}
+
+{%- block sidebarFooter -%}
+  {% include 'markup/footer-utility.njk' %}
+{%- endblock -%}
+
+{%- block pageWithSidebarContent -%}
 
 <!-- this style is only for the test page -->
 <style scoped>
@@ -380,3 +387,5 @@ index: true
 {%- include 'markup/hero-single-pane.njk' -%}
 <!-- button container -->
 {%- include 'markup/button-container.njk' -%}
+
+{%- endblock -%}

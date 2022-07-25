@@ -2,7 +2,7 @@
 title: Textarea
 summary: Textarea allows users to input multiple lines of text into a Form.
 tags: forms
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Textarea
   parent: Form Controls

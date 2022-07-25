@@ -2,7 +2,7 @@
 title: Name
 summary: The Name Form allows the user to input their name.
 tags: form-templates
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Name
   parent: Form Templates

@@ -2,7 +2,7 @@
 title: Address
 summary: The Address Form allows the user to input their address.
 tags: form-templates
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Address
   parent: Form Templates

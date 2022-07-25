@@ -2,7 +2,7 @@
 title: Navbar
 summary: Navbars allow users to move around digital products.
 tags: components
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: Navbar
   parent: Components

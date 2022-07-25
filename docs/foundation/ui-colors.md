@@ -2,7 +2,7 @@
 title: UI Colors
 summary: Pelican uses UI colors to help define important interface cues.
 tags: color
-layout: guide
+layout: docs/guide
 eleventyNavigation:
   key: UI Colors
   parent: Foundation

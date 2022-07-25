@@ -1,0 +1,15 @@
+{%- extends "../../node_modules/@la-ots/eleventy-plugin-pelican/layouts/sidebar.njk" -%}
+{%- from "../../node_modules/@la-ots/eleventy-plugin-pelican/components/sidebar/macro.njk" import sideBar -%}
+
+{%- block sidebar -%}
+  {{ sideBar({
+  entries: [] | eleventyNavigation,
+  title: "Pelican",
+  icon: options.favicon,
+  iconAltText: "Design system logo"
+  }) }}
+{%- endblock -%}
+
+{%- block sidebarFooter -%}
+  {% include 'markup/internal-footer.njk' %}
+{%- endblock -%}
