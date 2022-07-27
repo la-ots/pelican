@@ -31,8 +31,12 @@ module.exports = (eleventyConfig) => {
           path.resolve('./docs/css/site.css')
         ],
         javascript: [
-          path.resolve('./dist/js/pelican.bundle.js'),
-          path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/js/docs.js'),
+          path.resolve('./dist/js/pelican.bundle.js')
+          //path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/js/docs.js'),
+        ],
+        js: [
+          path.resolve('./dist/js/pelican.bundle.js')
+          //path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/js/docs.js'),
         ]
       }
     }
