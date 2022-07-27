@@ -18,8 +18,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/form-template-password.njk' %}
+{% include 'markup/form-templates/form-template-password.njk' %}
 
 ```html
-{% include 'markup/form-template-password.njk' %}
+{% include 'markup/form-templates/form-template-password.njk' %}
 ```

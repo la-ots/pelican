@@ -17,8 +17,8 @@ MyLa should be used to sign users into your application. If not, use this Form.
 
 ## Usage
 
-{% include 'markup/form-template-signin.njk' %}
+{% include 'markup/form-templates/form-template-signin.njk' %}
 
 ``` html
-{% include 'markup/form-template-signin.njk' %}
+{% include 'markup/form-templates/form-template-signin.njk' %}
 ```

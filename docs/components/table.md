@@ -17,7 +17,7 @@ eleventyNavigation:
 - Use accessible Table markup, like what’s provided.
 - [Pagination](/components/pagination) goes below a Table if you need it.
 - Use Tables to display tabular data, not for layout.
-{% include 'cards-tables.njk' %}
+{% include 'markup/text-quotes/cards-tables.njk' %}
 
 ## Usage
 

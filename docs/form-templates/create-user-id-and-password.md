@@ -18,8 +18,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/form-template-userid.njk' %}
+{% include 'markup/form-templates/form-template-userid.njk' %}
 
 ``` html
-{% include 'markup/form-template-userid.njk' %}
+{% include 'markup/form-templates/form-template-userid.njk' %}
 ```

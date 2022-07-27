@@ -18,8 +18,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/form-template-address.njk' %}
+{% include 'markup/form-templates/form-template-address.njk' %}
 
 ``` html
-{% include 'markup/form-template-address.njk' %}
+{% include 'markup/form-templates/form-template-address.njk' %}
 ```

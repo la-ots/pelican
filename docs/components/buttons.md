@@ -82,7 +82,7 @@ eleventyNavigation:
 - Use action verbs and precise language. Use a noun after the verb to clarify meaning. For example: "Edit", "Empty Trash", or "Go to File".
 - When including an icon with text, the icon's meaning must match the meaning of the text.
 
-{% include "writing-tips.njk" %}
+{% include "markup/text-quotes/writing-tips.njk" %}
 
 ## Usage
 

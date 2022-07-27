@@ -4,7 +4,7 @@
       <span class="fas fa-user-shield me-1" aria-hidden="true"></span>Create User ID &amp; Password
     </h3>
     <p>We need to get some information to start. We&rsquo;ll ask you to create a User ID, and a Password.</p>
-    {%- include 'markup/form-required-message.njk' -%}
+    {%- include 'markup/form-templates/form-required-message.njk' -%}
     <div class="row">
       <div class="col-12">
         <div class="form-group">
@@ -75,7 +75,7 @@
             <span class="fas fa-asterisk text-danger me-1" aria-hidden="true"></span>Password
           </label>
           <input type="password" class="form-control" id="Password">
-          {%- include 'markup/form-password-help.njk' -%}
+          {%- include 'markup/form-templates/form-password-help.njk' -%}
         </div>
         <div class="form-group">
           <label for="PasswordConfirm">

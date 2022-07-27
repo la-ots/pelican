@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practice
 
-{% include 'hero-guidance.njk' %}
+{% include 'markup/text-quotes/hero-guidance.njk' %}
 
 ## Usage
 

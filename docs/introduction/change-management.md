@@ -24,4 +24,4 @@ The Pelican Design System will grow as we discover solutions created by each tea
 1. Make pull request for peer review processes to occur.
 1. Final merge into the Main branch.
 
-{% include 'markup/pull-request.njk' %}
+{% include 'markup/text-quotes/pull-request.njk' %}

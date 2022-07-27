@@ -15,7 +15,7 @@ eleventyNavigation:
 
 Louisiana government agencies will get the best data possible from the user if the Forms are planned from the user’s point of view. Users don’t know the legislative or administrative structure. Arrange the Forms for their understanding.
 
-{% include 'form-guidelines.njk' %}
+{% include 'markup/text-quotes/form-guidelines.njk' %}
     
 ## Theming
 

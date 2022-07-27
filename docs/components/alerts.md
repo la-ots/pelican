@@ -22,7 +22,7 @@ eleventyNavigation:
 - Use **Danger** (red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
-{% include 'writing-tips.njk' %}
+{% include 'markup/text-quotes/writing-tips.njk' %}
 
 
 ## Usage

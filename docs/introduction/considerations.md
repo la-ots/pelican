@@ -25,6 +25,6 @@ Don’t change code in ways other than what’s provided for customization. You 
 
 If your project requires custom work not found in either Pelican or Bootstrap, consult <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">digital.gov’s guidelines on frontend accessibility</a>.
 
-{% include 'markup/pull-request.njk' %}
+{% include 'markup/text-quotes/pull-request.njk' %}
 
 Extensions to Pelican are welcome! Extensions will be implemented in a manner which accommodates their future use by all teams and compliance with accessibility guidelines.
