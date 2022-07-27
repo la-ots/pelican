@@ -29,10 +29,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 - Accepts text, numbers, and other characters.
 
-{% include 'markup/input-text.njk' %}
+{% include 'markup/form-controls/input-text.njk' %}
 
 ``` html
-{% include 'markup/input-text.njk' %}
+{% include 'markup/form-controls/input-text.njk' %}
 ```
 
 **Input Type: Date Picker**
@@ -40,10 +40,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts dates using the browser’s date picker. 
 - Displays a User Interface (UI) optimized for the entry of dates.
 
-{% include 'markup/input-date-picker.njk' %}
+{% include 'markup/form-controls/input-date-picker.njk' %}
 
 ``` html
-{% include 'markup/input-date-picker.njk' %}
+{% include 'markup/form-controls/input-date-picker.njk' %}
 ```
 
 **Input Type: Known Date Entry**
@@ -52,10 +52,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Displays a User Interface (UI) optimized for the entry of dates.
 - Be sure to include Labels, especially if the fields are rearranged.
 
-{% include 'markup/input-date-multiple-fields.njk' %}
+{% include 'markup/form-controls/input-date-multiple-fields.njk' %}
 
 ``` html
-{% include 'markup/input-date-multiple-fields.njk' %}
+{% include 'markup/form-controls/input-date-multiple-fields.njk' %}
 ```
 
 **Input Type: Tel**
@@ -63,10 +63,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts telephone numbers.
 - Displays a UI optimized for a phone number.
 
-{% include 'markup/input-tel.njk' %}
+{% include 'markup/form-controls/input-tel.njk' %}
 
 ``` html
-{% include 'markup/input-tel.njk' %}
+{% include 'markup/form-controls/input-tel.njk' %}
 ```
 
 **Input Type: Email**
@@ -74,10 +74,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts email addresses.
 - Displays a UI optimized for the email address entry.
 
-{% include 'markup/input-email.njk' %}
+{% include 'markup/form-controls/input-email.njk' %}
 
 ``` html
-{% include 'markup/input-email.njk' %}
+{% include 'markup/form-controls/input-email.njk' %}
 ```
 
 **Input Type: Search**
@@ -85,10 +85,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts search terms.
 - Displays a UI optimized for search term entry.
 
-{% include 'markup/input-search.njk' %}
+{% include 'markup/form-controls/input-search.njk' %}
 
 ``` html
-{% include 'markup/input-search.njk' %}
+{% include 'markup/form-controls/input-search.njk' %}
 ```
 
 **Input Type: URL**
@@ -96,10 +96,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts web addresses.
 - Displays a UI optimized for the entry of web addresses.
 
-{% include 'markup/input-url.njk' %}
+{% include 'markup/form-controls/input-url.njk' %}
 
 ``` html
-{% include 'markup/input-url.njk' %}
+{% include 'markup/form-controls/input-url.njk' %}
 ```
 
 **Input Type: Number**
@@ -107,10 +107,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts numbers.
 - Displays a UI optimized for the entry of numbers.
 
-{% include 'markup/input-number.njk' %}
+{% include 'markup/form-controls/input-number.njk' %}
 
 ``` html
-{% include 'markup/input-number.njk' %}
+{% include 'markup/form-controls/input-number.njk' %}
 ```
 
 **Input Type: File**
@@ -118,10 +118,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 - Accepts file uploads.
 - Displays a UI optimized for uploading files.
 
-{% include 'markup/input-file.njk' %}
+{% include 'markup/form-controls/input-file.njk' %}
 
 ``` html
-{% include 'markup/input-file.njk' %}
+{% include 'markup/form-controls/input-file.njk' %}
 ```
 
 ### Readonly
@@ -131,10 +131,10 @@ We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_inp
 
 Note: This is not the same as a disabled field. A disabled field prevents _user input_. This displays _system provided values_.
 
-{% include 'markup/input-text-readonly.njk' %}
+{% include 'markup/form-controls/input-text-readonly.njk' %}
 
 ``` html
-{% include 'markup/input-text-readonly.njk' %}
+{% include 'markup/form-controls/input-text-readonly.njk' %}
 ```
 
 **Input-Aligned Plain Text**
@@ -142,10 +142,10 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 - Same as Readonly, but removes input styling.
 - Will horizontally align with other, user-editable fields.
 
-{% include 'markup/input-text-plain.njk' %}
+{% include 'markup/form-controls/input-text-plain.njk' %}
 
 ``` html
-{% include 'markup/input-text-plain.njk' %}
+{% include 'markup/form-controls/input-text-plain.njk' %}
 ```
 
 **Input Detail View**

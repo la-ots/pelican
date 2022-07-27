@@ -23,10 +23,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/checkboxes.njk' %}
+{% include 'markup/form-controls/checkboxes.njk' %}
 
 ``` html
-{% include 'markup/checkboxes.njk' %}
+{% include 'markup/form-controls/checkboxes.njk' %}
 ```
 
 ## Resources

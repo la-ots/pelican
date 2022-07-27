@@ -16,10 +16,10 @@ eleventyNavigation:
 - Page Action Buttons allows the user to print, email, or share the page they are reading.
 - They can go before and after the main body content of the page.
 
-{% include 'markup/button-page-actions.njk' %}
+{% include 'markup/components/button-page-actions.njk' %}
 
 ``` html
-{% include 'markup/button-page-actions.njk' %}
+{% include 'markup/components/button-page-actions.njk' %}
 ```
 
 ## Resources

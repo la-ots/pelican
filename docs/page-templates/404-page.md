@@ -23,11 +23,11 @@ eleventyNavigation:
 <a class="btn btn-primary" href="/page-templates/404-page-internal/" target="_blank">See Internal Preview</a>
 
 ``` html
-{% include 'markup/404-internal.njk' %}
+{% include 'markup/page-templates/404-internal.njk' %}
 ```
 
 <a class="btn btn-primary" href="/page-templates/404-page-public/" target="_blank">See Public Preview</a>
 
 ``` html
-{% include 'markup/404-public.njk' %}
+{% include 'markup/page-templates/404-public.njk' %}
 ```

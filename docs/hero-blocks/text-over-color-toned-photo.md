@@ -17,8 +17,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/hero-text-color-toned-photo.njk' %}
+{% include 'markup/highlights/hero-text-color-toned-photo.njk' %}
 
 ``` html
-{% include 'markup/hero-text-color-toned-photo.njk' %}
+{% include 'markup/highlights/hero-text-color-toned-photo.njk' %}
 ```

@@ -21,7 +21,7 @@ eleventyNavigation:
 ## Usage
 
 ``` html
-{% include 'markup/button-back-to-top.njk' %}
+{% include 'markup/components/button-back-to-top.njk' %}
 ```
 ## Resources
 

@@ -17,8 +17,8 @@ Allows the presentation of two smaller aspects about a larger feature. Change th
 
 ## Usage
 
-{% include 'markup/feature-set.njk' %}
+{% include 'markup/highlights/feature-set.njk' %}
 
 ``` html
-{% include 'markup/feature-set.njk' %}
+{% include 'markup/highlights/feature-set.njk' %}
 ```

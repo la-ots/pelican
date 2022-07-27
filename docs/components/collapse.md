@@ -19,10 +19,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/component-collapse.njk' %}
+{% include 'markup/components/component-collapse.njk' %}
 
 ``` html
-{% include 'markup/component-collapse.njk' %}
+{% include 'markup/components/component-collapse.njk' %}
 ```
 
 ## Resources

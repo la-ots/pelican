@@ -20,8 +20,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/hero-centered.njk' %}
+{% include 'markup/highlights/hero-centered.njk' %}
 
 ```html
-{% include 'markup/hero-centered.njk' %}
+{% include 'markup/highlights/hero-centered.njk' %}
 ```

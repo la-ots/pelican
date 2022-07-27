@@ -17,8 +17,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/hero-single-pane.njk' %}
+{% include 'markup/highlights/hero-single-pane.njk' %}
 
 ``` html
-{% include 'markup/hero-single-pane.njk' %}
+{% include 'markup/highlights/hero-single-pane.njk' %}
 ```

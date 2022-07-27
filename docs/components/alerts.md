@@ -29,36 +29,36 @@ eleventyNavigation:
 
 ### Info Alert
 
-{% include 'markup/alert-info.njk' %}
+{% include 'markup/components/alert-info.njk' %}
 
 ``` html
-{% include 'markup/alert-info.njk' %}
+{% include 'markup/components/alert-info.njk' %}
 ```
 
 ### Success Alert
 
 _Note: A successful action can include the successful deletion of an item or file._
 
-{% include 'markup/alert-success.njk' %}
+{% include 'markup/components/alert-success.njk' %}
 
 ``` html
-{% include 'markup/alert-success.njk' %}
+{% include 'markup/components/alert-success.njk' %}
 ```
 
 ### Warning Alert
 
-{% include 'markup/alert-warning.njk' %}
+{% include 'markup/components/alert-warning.njk' %}
 
 ``` html
-{% include 'markup/alert-warning.njk' %}
+{% include 'markup/components/alert-warning.njk' %}
 ```
 
 ### Danger Alert
 
-{% include 'markup/alert-danger.njk' %}
+{% include 'markup/components/alert-danger.njk' %}
 
 ``` html
-{% include 'markup/alert-danger.njk' %}
+{% include 'markup/components/alert-danger.njk' %}
 ```
 
 ## Resources

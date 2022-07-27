@@ -21,7 +21,7 @@ Users who rely on keyboard navigation need a way to skip past navigation element
 ## Usage
 
 ``` html
-{% include 'markup/skip-link.njk' %}
+{% include 'markup/components/skip-link.njk' %}
 ```
 
 ## Resources

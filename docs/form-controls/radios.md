@@ -23,10 +23,10 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/radios.njk' %}
+{% include 'markup/form-controls/radios.njk' %}
 
 ``` html
-{% include 'markup/radios.njk' %}
+{% include 'markup/form-controls/radios.njk' %}
 ```
 
 ## Resources

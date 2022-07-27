@@ -17,8 +17,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/hero-textbox-over-photo.njk' %}
+{% include 'markup/highlights/hero-textbox-over-photo.njk' %}
 
 ``` html
-{% include 'markup/hero-textbox-over-photo.njk' %}
+{% include 'markup/highlights/hero-textbox-over-photo.njk' %}
 ```

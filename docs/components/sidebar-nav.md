@@ -23,5 +23,5 @@ The first child element of the `id=site-container` is the Sidebar with Navigatio
 ## Usage
 
 ``` html
-{% include 'markup/sidebar-nav.njk' %}
+{% include 'markup/components/sidebar-nav.njk' %}
 ```

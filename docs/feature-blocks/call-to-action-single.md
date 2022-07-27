@@ -20,8 +20,8 @@ Use this when you’re ready to direct the reader to take an action, like signin
 
 ## Usage
 
-{% include 'markup/feature-cta.njk' %}
+{% include 'markup/highlights/feature-cta.njk' %}
 
 ``` html
-{% include 'markup/feature-cta.njk' %}
+{% include 'markup/highlights/feature-cta.njk' %}
 ```

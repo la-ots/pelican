@@ -17,8 +17,8 @@ eleventyNavigation:
 
 ## Usage
 
-{% include 'markup/hero-boxed-in-photo.njk' %}
+{% include 'markup/highlights/hero-boxed-in-photo.njk' %}
 
 ``` html
-{% include 'markup/hero-boxed-in-photo.njk' %}
+{% include 'markup/highlights/hero-boxed-in-photo.njk' %}
 ```

@@ -32,26 +32,26 @@ eleventyNavigation:
 
 **Success Toast**
 
-{% include 'markup/toast-success.njk' %}
+{% include 'markup/components/toast-success.njk' %}
 
 ``` html
-{% include 'markup/toast-success.njk' %}
+{% include 'markup/components/toast-success.njk' %}
 ```
 
 **Danger Toast**
 
-{% include 'markup/toast-danger.njk' %}
+{% include 'markup/components/toast-danger.njk' %}
 
 ``` html
-{% include 'markup/toast-danger.njk' %}
+{% include 'markup/components/toast-danger.njk' %}
 ```
 
 **Info Toast**
 
-{% include 'markup/toast-info.njk' %}
+{% include 'markup/components/toast-info.njk' %}
 
 ``` html
-{% include 'markup/toast-info.njk' %}
+{% include 'markup/components/toast-info.njk' %}
 ```
 
 ## Resources
