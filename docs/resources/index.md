@@ -4,6 +4,8 @@ summary: Here are some of the resources to help you create digital products.
 tags: resources
 layout: guide
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Resources
   title: Resources

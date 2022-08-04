@@ -3,6 +3,8 @@ title: Inputs
 summary: The Input element specifies a field for the user to enter information on a page.
 tags: forms
 layout: guide
+image: /img/illustrations/illus-inputs.svg
+imageAlt: 
 eleventyNavigation:
   key: Inputs
   parent: Form Controls

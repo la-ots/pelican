@@ -3,6 +3,8 @@ title: Checkboxes
 summary: Checkboxes allow users to select one or more options at the same time.
 tags: forms
 layout: guide
+image: /img/illustrations/illus-checkboxes.svg
+imageAlt: 
 eleventyNavigation:
   key: Checkboxes
   parent: Form Controls

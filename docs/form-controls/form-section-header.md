@@ -3,6 +3,8 @@ title: Form Section Header
 summary: Form section headers divide a form into smaller sections.
 tags: forms
 layout: guide
+image: /img/illustrations/illus-form-section-header.svg
+imageAlt: 
 eleventyNavigation:
   key: Form Section Header
   parent: Form Controls

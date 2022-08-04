@@ -3,6 +3,8 @@ title: Toggle Tokens
 summary: Toggle Tokens are a styled version of Checkboxes and Radios. 
 tags: forms
 layout: guide
+image: /img/illustrations/illus-toggle-tokens.svg
+imageAlt: 
 eleventyNavigation:
   key: Toggle Tokens
   parent: Form Controls

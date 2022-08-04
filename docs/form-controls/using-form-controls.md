@@ -3,6 +3,8 @@ title: Using Form Controls
 summary: Make the form for the user, not for us.
 tags: forms
 layout: guide
+image: /img/illustrations/illus-using-form-controls.svg
+imageAlt: 
 eleventyNavigation:
   key: Using Form Controls
   parent: Form Controls

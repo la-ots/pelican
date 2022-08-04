@@ -4,6 +4,8 @@ summary: Pelican Changelog
 tags: resources
 layout: guide
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: What’s New
   title: What’s New

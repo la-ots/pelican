@@ -3,6 +3,8 @@ title: Label Guidance
 summary: Labels give the user additonal control and context for form controls.
 tags: forms
 layout: guide
+image: /img/illustrations/illus-labels.svg
+imageAlt: 
 eleventyNavigation:
   key: Label Guidance
   parent: Form Controls

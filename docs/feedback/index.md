@@ -4,6 +4,8 @@ summary: Help make Pelican better by giving us your feedback.
 tags: features, blocks, block, feature
 layout: guide
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Feedback
   order: 12

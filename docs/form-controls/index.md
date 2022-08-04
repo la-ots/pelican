@@ -4,6 +4,8 @@ summary: The pieces used to create a form should be easy on the user.
 tags: forms
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Form Controls
   order: 7

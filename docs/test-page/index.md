@@ -4,6 +4,8 @@ summary: This test page is used to visually check if CSS changes have unintended
 tags: test-page
 layout: test-page
 index: true
+image: 
+imageAlt: 
 ---
 
 {%- include 'markup/toast-info.njk'    -%}

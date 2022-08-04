@@ -3,6 +3,8 @@ title: Get Started
 summary: Get a quick start using Pelican.
 tags: get started
 layout: guide
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Get Started
   order: 2

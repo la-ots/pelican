@@ -3,6 +3,8 @@ title: Switches
 summary: Switches allow users to enable or disable something, like a light switch.
 tags: forms
 layout: guide
+image: /img/illustrations/illus-switches.svg
+imageAlt: 
 eleventyNavigation:
   key: Switches
   parent: Form Controls
