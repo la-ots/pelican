@@ -3,6 +3,8 @@ title: Images
 summary: Guidelines for including images in digital products.
 tags: images
 layout: guide
+image: /img/illustrations/illus-images.svg
+imageAlt: 
 eleventyNavigation:
   key: Images
   parent: Foundation

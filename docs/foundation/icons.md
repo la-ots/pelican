@@ -3,6 +3,8 @@ title: Icons
 summary: Icons provide at-a-glance representation of actions or concepts.
 tags: icons
 layout: guide
+image: /img/illustrations/illus-icons.svg
+imageAlt: 
 eleventyNavigation:
   key: Icons
   parent: Foundation

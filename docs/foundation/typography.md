@@ -3,6 +3,8 @@ title: Typography
 summary: Guidelines for presenting textual information.
 tags: typography, font, typeface
 layout: guide
+image: /img/illustrations/illus-typography.svg
+imageAlt: 
 eleventyNavigation:
   key: Typography
   parent: Foundation

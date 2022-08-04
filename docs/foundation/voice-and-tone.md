@@ -3,6 +3,8 @@ title: Voice & Tone
 summary: Guidelines for written content.
 tags: typography, font, typeface
 layout: guide
+image: /img/illustrations/illus-voice-tone.svg
+imageAlt: 
 eleventyNavigation:
   key: Voice & Tone
   parent: Foundation

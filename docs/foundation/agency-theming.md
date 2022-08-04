@@ -3,6 +3,8 @@ title: Agency Themes
 summary: Agencies have opportunity to reflect their own brand using Pelican.
 tags: color, agency, brand
 layout: guide
+image: /img/illustrations/illus-agency-theme.svg
+imageAlt: 
 eleventyNavigation:
   key: Agency Themes
   parent: Foundation

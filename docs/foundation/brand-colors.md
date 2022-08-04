@@ -3,6 +3,8 @@ title: Brand Colors
 summary: Pelican uses Brand colors to help define your own brand.
 tags: color
 layout: guide
+image: /img/illustrations/illus-brand-colors.svg
+imageAlt: 
 eleventyNavigation:
   key: Brand Colors
   parent: Foundation

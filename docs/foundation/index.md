@@ -4,6 +4,8 @@ summary: Get to know the basics behind Pelican.
 tags: foundation
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Foundation
   title: Foundation

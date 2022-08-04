@@ -3,6 +3,8 @@ title: Spacing
 summary: Spacing is the paddings and margins in Pelican.
 tags: foundation
 layout: guide
+image: /img/illustrations/illus-spacing.svg
+imageAlt: 
 eleventyNavigation:
   key: Spacing
   parent: Foundation

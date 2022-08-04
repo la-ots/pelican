@@ -3,6 +3,8 @@ title: Specific Images
 summary: Specific guidelines for using images such as the State seal and logos.
 tags: images
 layout: guide
+image: /img/illustrations/illus-images-specific.svg
+imageAlt: 
 eleventyNavigation:
   key: Specific Images
   parent: Foundation

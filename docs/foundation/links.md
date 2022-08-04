@@ -3,6 +3,8 @@ title: Links
 summary: Links allow users to change locations.
 tags: foundation
 layout: guide
+image: /img/illustrations/illus-links.svg
+imageAlt: 
 eleventyNavigation:
   key: Links
   parent: Foundation
