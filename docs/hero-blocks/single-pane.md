@@ -3,6 +3,8 @@ title: Single Pane
 summary: A image next to a solid block of color with text and a link.
 tags: hero block
 layout: guide
+image: /img/illustrations/illus-single-pane.svg
+imageAlt: 
 eleventyNavigation:
   key: Single Pane
   parent: Hero Blocks

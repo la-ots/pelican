@@ -3,6 +3,8 @@ title: Text Over Color-Toned Photo
 summary: Short text over a translucent field of color, over an image.
 tags: feature blocks
 layout: guide
+image: /img/illustrations/illus-text-over-color-toned-photo.svg
+imageAlt: 
 eleventyNavigation:
   key: Text Over Color-Toned Photo
   parent: Hero Blocks

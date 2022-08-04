@@ -3,6 +3,8 @@ title: Dual Pane
 summary: An image with text and color overlay next to an image with color overlay and a button.
 tags: hero block
 layout: guide
+image: /img/illustrations/illus-dual-pane.svg
+imageAlt: 
 eleventyNavigation:
   key: Dual Pane
   parent: Hero Blocks

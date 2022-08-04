@@ -3,6 +3,8 @@ title: Textbox Over Photo
 summary: Short text over over a photograph.
 tags: feature blocks
 layout: guide
+image: /img/illustrations/illus-textbox-over-photo.svg
+imageAlt: 
 eleventyNavigation:
   key: Textbox Over Photo
   parent: Hero Blocks

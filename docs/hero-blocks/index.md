@@ -4,6 +4,8 @@ summary: Hero Blocks are used to create visually-engaging introductions to a sit
 tags: hero, blocks
 layout: area-page
 index: true
+image: /img/illustrations/illus-cta-2.svg
+imageAlt: 
 eleventyNavigation:
   key: Hero Blocks
   order: 9

@@ -3,6 +3,8 @@ title: Boxed-in Photo
 summary: Short amounts of text and a link with a contained image.
 tags: feature block
 layout: guide
+image: /img/illustrations/illus-boxed-in-photo.svg
+imageAlt: 
 eleventyNavigation:
   key: Boxed-in Photo
   parent: Hero Blocks
