@@ -4,6 +4,8 @@ summary: Pelican will standardize Louisiana’s digital products.
 tags: introduction, pelican, design system
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Introduction
   order: 3

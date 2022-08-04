@@ -3,6 +3,8 @@ title: Credits
 summary: We used many open-source and freely-available resources to help us deliver this quickly and reliably. 
 tags: credits
 layout: guide
+image: /img/illustrations/illus-credits.svg
+imageAlt: 
 eleventyNavigation:
   key: Credits
   parent: Introduction

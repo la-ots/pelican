@@ -3,6 +3,8 @@ title: Benefits
 summary: Pelican will make our development efforts faster, more easily updated.
 tags: change management, contribute
 layout: guide
+image: /img/illustrations/illus-benefits.svg
+imageAlt: 
 eleventyNavigation:
   key: Benefits
   parent: Introduction

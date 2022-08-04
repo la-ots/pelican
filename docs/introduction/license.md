@@ -3,6 +3,8 @@ title: License
 summary: We want anyone who wants to use the Pelican Design System to use it.
 tags: license
 layout: guide
+image: /img/illustrations/illus-license.svg
+imageAlt: 
 eleventyNavigation:
   key: License
   parent: Introduction
