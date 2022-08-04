@@ -3,6 +3,8 @@ title: Pagination
 summary: Pagination allows users to choose between viewable data sets.
 tags: components
 layout: guide
+image: /img/illustrations/illus-pagination.svg
+imageAlt: 
 eleventyNavigation:
   key: Pagination
   parent: Components

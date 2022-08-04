@@ -3,6 +3,8 @@ title: Popovers & Tooltips
 summary: Popovers & Tooltips provide additional context to users about a connected item.
 tags: components
 layout: guide
+image: /img/illustrations/illus-popovers-tooltips.svg
+imageAlt: 
 eleventyNavigation:
   key: Popovers & Tooltips
   parent: Components

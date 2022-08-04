@@ -3,6 +3,8 @@ title: Table
 summary: Tables allow users to compare and review large amounts of data.
 tags: components
 layout: guide
+image: /img/illustrations/illus-table.svg
+imageAlt: 
 eleventyNavigation:
   key: Table
   parent: Components

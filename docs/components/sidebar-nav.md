@@ -3,6 +3,8 @@ title: Sidebar with Navigation
 summary: Contains and organizes all of the navigation for your web app.
 tags: components
 layout: guide
+image: /img/illustrations/illus-sidebar-nav.svg
+imageAlt: 
 eleventyNavigation:
   key: Sidebar with Navigation
   parent: Components

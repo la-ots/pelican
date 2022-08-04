@@ -3,6 +3,8 @@ title: Page Actions Button
 summary: Page Actions allow users perform various actions. 
 tags: components, buttons
 layout: guide
+image: /img/illustrations/illus-button-page-actions.svg
+imageAlt: 
 eleventyNavigation:
   key: Page Actions Button
   parent: Components

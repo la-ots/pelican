@@ -3,6 +3,8 @@ title: App Screen
 summary: The App Screen is the container for your digital product. 
 tags: basic view, sidenav, topbar
 layout: guide
+image: /img/illustrations/illus-app-screen.svg
+imageAlt: 
 eleventyNavigation:
   key: App Screen
   parent: Components

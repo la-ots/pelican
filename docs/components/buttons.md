@@ -3,6 +3,8 @@ title: Buttons
 summary: Buttons are interactive elements that trigger actions.
 tags: components, buttons
 layout: guide
+image: /img/illustrations/illus-buttons.svg
+imageAlt: 
 eleventyNavigation:
   key: Buttons
   parent: Components

@@ -3,6 +3,8 @@ title: Collapse
 summary: Collapses allow users to toggle the visibility of content.
 tags: components,collapse
 layout: guide
+image: /img/illustrations/illus-collapses.svg
+imageAlt: 
 eleventyNavigation:
   key: Collapse
   parent: Components

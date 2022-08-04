@@ -3,6 +3,8 @@ title: Content Container
 summary: Content Containers collect content into meaningful groups.
 tags: components, boxes, content container
 layout: guide
+image: /img/illustrations/illus-boxes.svg
+imageAlt: 
 eleventyNavigation:
   key: Content Container
   parent: Components

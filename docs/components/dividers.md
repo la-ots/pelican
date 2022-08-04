@@ -3,6 +3,8 @@ title: Dividers
 summary: Dividers separate content into clear, meaningful groups.
 tags: components, dividers
 layout: guide
+image: /img/illustrations/illus-divider.svg
+imageAlt: 
 eleventyNavigation:
   key: Dividers
   parent: Components

@@ -3,6 +3,8 @@ title: Cards
 summary: Cards are containers for related content or information.
 tags: components, card
 layout: guide
+image: /img/illustrations/illus-cards.svg
+imageAlt: 
 eleventyNavigation:
   key: Cards
   parent: Components

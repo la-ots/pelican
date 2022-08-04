@@ -3,6 +3,8 @@ title: Footer
 summary: Footers contain links and other useful information at the bottom of a page.
 tags: components, footers
 layout: guide
+image: /img/illustrations/illus-footers.svg
+imageAlt: 
 eleventyNavigation:
   key: Footer
   parent: Components

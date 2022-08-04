@@ -3,6 +3,8 @@ title: Modal
 summary: Modals stop the user for an important change or decision.
 tags: components
 layout: guide
+image: /img/illustrations/illus-modals.svg
+imageAlt: 
 eleventyNavigation:
   key: Modal
   parent: Components

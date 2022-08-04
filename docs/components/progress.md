@@ -3,6 +3,8 @@ title: Progress Indicator
 summary: Progress Indicators show users their place in a multi-step process.
 tags: components
 layout: guide
+image: /img/illustrations/illus-progress-indicators.svg
+imageAlt: 
 eleventyNavigation:
   key: Progress Indicator
   parent: Components

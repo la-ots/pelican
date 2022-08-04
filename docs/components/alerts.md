@@ -3,6 +3,8 @@ title: Alerts
 summary:  Alerts communicate system or data statuses, such as warnings, to users.
 tags: components, alerts
 layout: guide
+image: /img/illustrations/illus-alerts.svg
+imageAlt: 
 eleventyNavigation:
   key: Alerts
   parent: Components

@@ -3,6 +3,8 @@ title: Tabbed Content
 summary: Tabs group related content, allowing users to see only what they want to see. 
 tags: components
 layout: guide
+image: /img/illustrations/illus-tabbed-content.svg
+imageAlt: 
 eleventyNavigation:
   key: Tabbed Content
   parent: Components

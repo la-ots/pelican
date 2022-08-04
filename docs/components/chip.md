@@ -3,6 +3,8 @@ title: Chip
 summary: Chips allow users to see items added to or removed from a set.
 tags: components, chips
 layout: guide
+image: /img/illustrations/illus-chips.svg
+imageAlt: 
 eleventyNavigation:
   key: Chip
   parent: Components

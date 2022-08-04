@@ -3,6 +3,8 @@ title: Page Title
 summary: The Page Title block explains the purpose of a page.
 tags: components
 layout: guide
+image: /img/illustrations/illus-page-title.svg
+imageAlt: 
 eleventyNavigation:
   key: Page Title
   parent: Components
