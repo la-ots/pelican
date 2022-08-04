@@ -4,6 +4,8 @@ summary: Keeping users of all access needs in mind is a high priority.
 tags: accessibility
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Accessibility
   order: 4

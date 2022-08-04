@@ -3,6 +3,8 @@ title: Icons & Text
 summary: Simple text with icons to explain a feature.
 tags: feature block
 layout: guide
+image: /img/illustrations/illus-icons-text.svg
+imageAlt: 
 eleventyNavigation:
   key: Icons & Text
   parent: Feature Blocks

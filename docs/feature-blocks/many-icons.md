@@ -3,6 +3,8 @@ title: Many Icons
 summary: Lots of icons illuminating main and smaller benefits.
 tags: feature blocks
 layout: guide
+image: /img/illustrations/illus-many-icons.svg
+imageAlt: 
 eleventyNavigation:
   key: Many Icons
   parent: Feature Blocks

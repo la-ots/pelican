@@ -3,6 +3,8 @@ title: Call to Action, Single
 summary: A simple imperative statement with an action button.
 tags: feature block
 layout: guide
+image: /img/illustrations/illus-cta-1.svg
+imageAlt: 
 eleventyNavigation:
   key: Call to Action, Single
   parent: Feature Blocks

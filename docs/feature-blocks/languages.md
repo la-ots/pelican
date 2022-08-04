@@ -3,6 +3,8 @@ title: Languages
 summary: Show the Louisiana user all of the languages we support.
 tags: feature blocks
 layout: guide
+image: /img/illustrations/illus-languages.svg
+imageAlt: 
 eleventyNavigation:
   key: Languages
   parent: Feature Blocks

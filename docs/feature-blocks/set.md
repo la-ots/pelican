@@ -3,6 +3,8 @@ title: Set
 summary: A Set is a way to highlight some aspects of a digital product. 
 tags: feature
 layout: guide
+image: /img/illustrations/illus-set.svg
+imageAlt: 
 eleventyNavigation:
   key: Set
   parent: Feature Blocks

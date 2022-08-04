@@ -4,6 +4,8 @@ summary: Feature Blocks are ways to highlight what users get from an app or site
 tags: features, blocks, block, feature
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Feature Blocks
   order: 10

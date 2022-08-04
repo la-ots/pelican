@@ -4,6 +4,8 @@ summary: Components are the small piece of a user interface.
 tags: components
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Components
   order: 6
