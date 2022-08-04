@@ -3,6 +3,8 @@ title: Sign In
 summary: The Sign In block allows the user to sign into an application.
 tags: form-templates
 layout: guide
+image: /img/illustrations/illus-sign-in.svg
+imageAlt: 
 eleventyNavigation:
   key: Sign In
   parent: Form Templates

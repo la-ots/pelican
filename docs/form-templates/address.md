@@ -3,6 +3,8 @@ title: Address
 summary: The Address block allows the user to input their address on a form.
 tags: form-templates
 layout: guide
+image: /img/illustrations/illus-address.svg
+imageAlt: 
 eleventyNavigation:
   key: Address
   parent: Form Templates

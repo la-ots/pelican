@@ -3,6 +3,8 @@ title: Name
 summary: The Name form allows the user to input their name on a form.
 tags: form-templates
 layout: guide
+image: /img/illustrations/illus-name.svg
+imageAlt: 
 eleventyNavigation:
   key: Name
   parent: Form Templates

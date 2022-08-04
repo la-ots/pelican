@@ -3,6 +3,8 @@ title: Contact Information
 summary: The Contact Information form allows the user to manage their bare minimum contact information.
 tags: form-templates
 layout: guide
+image: /img/illustrations/illus-contact-information.svg
+imageAlt: 
 eleventyNavigation:
   key: Contact Information
   parent: Form Templates
