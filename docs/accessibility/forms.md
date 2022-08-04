@@ -3,6 +3,8 @@ title: Forms
 summary: Form accessibility is an important part of Pelican.
 tags: color, contrast
 layout: guide
+image: /img/illustrations/illus-using-form-controls.svg
+imageAlt:
 eleventyNavigation:
   key: Forms
   parent: Accessibility

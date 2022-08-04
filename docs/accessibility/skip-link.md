@@ -3,6 +3,8 @@ title: Skip Link
 summary: Skip Links allow users to skip navigation elements and go straight to content.
 tags: skip link, accessibility
 layout: guide
+image: /img/illustrations/illus-skip-link.svg
+imageAlt:
 eleventyNavigation:
   key: Skip Link
   parent: Accessibility

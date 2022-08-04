@@ -3,6 +3,8 @@ title: Color Contrast
 summary: Color Contrast is the contrast ratio between colors.
 tags: color, contrast
 layout: guide
+image: /img/illustrations/illus-color-contrast.svg
+imageAlt:
 eleventyNavigation:
   key: Color Contrast
   parent: Accessibility

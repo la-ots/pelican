@@ -3,6 +3,8 @@ title: Dyslexia Friendly
 summary: Dyslexic readers benefit from a few easy-to-implement strategies.
 tags: color, contrast
 layout: guide
+image: /img/illustrations/illus-dyslexia-friendly.svg
+imageAlt:
 eleventyNavigation:
   key: Dyslexia Friendly
   parent: Accessibility

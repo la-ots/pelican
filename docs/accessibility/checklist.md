@@ -3,6 +3,8 @@ title: Accessibility Checklist
 summary: A few things you can check to ensure you have basic accessibility covered.
 tags: accessibility
 layout: guide
+image: /img/illustrations/illus-accessibility-checklist.svg
+imageAlt:
 eleventyNavigation:
   key: Accessibility Checklist
   parent: Accessibility
