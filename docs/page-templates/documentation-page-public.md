@@ -1,6 +1,8 @@
 ---
 title: Document Page Public
 layout: default-public
+image: 
+imageAlt: 
 ---
 
 {% include 'markup/breadcrumbs.njk' %}

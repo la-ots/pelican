@@ -3,6 +3,8 @@ title: 404 Page
 summary: 404 Pages tell the user a page doesn’t exist and helps them recover.
 tags: page templates
 layout: guide
+image: /img/illustrations/illus-404-page.svg
+imageAlt: 
 eleventyNavigation:
   key: 404 Page
   parent: Page Templates

@@ -4,6 +4,8 @@ summary: Common solutions which fit onto a single page.
 tags: page templates
 layout: area-page
 index: true
+image: 
+imageAlt: 
 eleventyNavigation:
   key: Page Templates
   title: Page Templates

@@ -3,6 +3,8 @@ title: Item Details Page
 summary: A layout intended to group various aspects about something for easy, glanceability.
 tags: page templates
 layout: guide
+image: /img/illustrations/illus-item-details.svg
+imageAlt: 
 eleventyNavigation:
   key: Item Details Page
   parent: Page Templates

@@ -1,6 +1,8 @@
 ---
 title: Document Page Internal
 layout: default-internal
+image: 
+imageAlt: 
 ---
 
 {% include 'markup/breadcrumbs.njk' %}

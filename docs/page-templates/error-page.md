@@ -3,6 +3,8 @@ title: Error Page
 summary: A prompt to notify the user of an issue on the site.
 tags: page templates
 layout: guide
+image: /img/illustrations/illus-error-page.svg
+imageAlt: 
 eleventyNavigation:
   key: Error Page
   parent: Page Templates

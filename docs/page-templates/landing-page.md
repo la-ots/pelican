@@ -3,6 +3,8 @@ title: Landing Page
 summary: Create a first impression of your digital product.
 tags: page templates
 layout: guide
+image: /img/illustrations/illus-landing-page.svg
+imageAlt: 
 eleventyNavigation:
   key: Landing Page
   parent: Page Templates
