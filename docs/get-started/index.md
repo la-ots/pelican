@@ -31,7 +31,7 @@ Included within the package are the following compiled CSS and JS builds:
                 <li>pelican.css.map</li>
                 <li>pelican.min.css</li>
                 <li>pelican.min.css.map</li>
-              </li>
+              </ul>
             </li>
           </ul>
           <ul>
