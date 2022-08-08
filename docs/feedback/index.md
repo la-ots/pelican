@@ -6,6 +6,10 @@ layout: guide
 index: true
 image: 
 imageAlt: 
+social:
+  title: Feedback
+  description: Help make Pelican better by giving us your feedback.
+  image:
 eleventyNavigation:
   key: Feedback
   order: 12

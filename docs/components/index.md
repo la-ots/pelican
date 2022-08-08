@@ -6,6 +6,10 @@ layout: area-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Components
+  description: Components are the small piece of a user interface.
+  image:
 eleventyNavigation:
   key: Components
   order: 6

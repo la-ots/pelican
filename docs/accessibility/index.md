@@ -6,6 +6,10 @@ layout: area-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Accessibility
+  description: Keeping users of all access needs in mind is a high priority.
+  image:
 eleventyNavigation:
   key: Accessibility
   order: 4

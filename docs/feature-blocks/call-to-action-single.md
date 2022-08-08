@@ -5,6 +5,10 @@ tags: feature block
 layout: guide
 image: /img/illustrations/illus-cta-1.svg
 imageAlt: 
+social:
+  title: Call to Action, Single
+  description: A simple imperative statement with an action button.
+  image:
 eleventyNavigation:
   key: Call to Action, Single
   parent: Feature Blocks

@@ -5,6 +5,10 @@ tags: page templates
 layout: guide
 image: /img/illustrations/illus-404-page.svg
 imageAlt: 
+social:
+  title: 404 Page
+  description: 404 Pages tell the user a page doesn’t exist and helps them recover.
+  image:
 eleventyNavigation:
   key: 404 Page
   parent: Page Templates

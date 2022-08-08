@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-form-section-header.svg
 imageAlt: 
+social:
+  title: Form Section Header
+  description: Form section headers divide a form into smaller sections.
+  image:
 eleventyNavigation:
   key: Form Section Header
   parent: Form Controls

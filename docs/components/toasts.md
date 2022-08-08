@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-toasts.svg
 imageAlt: 
+social:
+  title: Toasts
+  description: Toasts are a lightweight notification relaying information related to the user's actions.
+  image:
 eleventyNavigation:
   key: Toasts
   parent: Components

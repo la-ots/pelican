@@ -5,6 +5,10 @@ tags: components, badges
 layout: guide
 image: /img/illustrations/illus-badges.svg
 imageAlt: 
+social:
+  title: Badges
+  description: Badges are labels that inform users about some aspect of the data, such as the count of related items.
+  image:
 eleventyNavigation:
   key: Badges
   parent: Components

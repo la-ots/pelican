@@ -5,6 +5,10 @@ tags: feature blocks
 layout: guide
 image: /img/illustrations/illus-languages.svg
 imageAlt: 
+social:
+  title: Languages
+  description: Show the Louisiana user all of the languages we support.
+  image:
 eleventyNavigation:
   key: Languages
   parent: Feature Blocks

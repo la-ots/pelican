@@ -5,6 +5,10 @@ tags: components, buttons
 layout: guide
 image: /img/illustrations/illus-button-page-actions.svg
 imageAlt: 
+social:
+  title: Page Actions Button
+  description: Page Actions allow users perform various actions.
+  image:
 eleventyNavigation:
   key: Page Actions Button
   parent: Components

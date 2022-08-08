@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-textarea.svg
 imageAlt: 
+social:
+  title: Text Area
+  description: Textarea allows users to input multiple lines of text into a form.
+  image:
 eleventyNavigation:
   key: Text Area
   parent: Form Controls

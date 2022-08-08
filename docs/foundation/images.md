@@ -5,6 +5,10 @@ tags: images
 layout: guide
 image: /img/illustrations/illus-images.svg
 imageAlt: 
+social:
+  title: Images
+  description: Guidelines for including images in digital products.
+  image:
 eleventyNavigation:
   key: Images
   parent: Foundation

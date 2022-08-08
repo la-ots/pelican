@@ -5,6 +5,10 @@ tags: form-templates
 layout: guide
 image: /img/illustrations/illus-name.svg
 imageAlt: 
+social:
+  title: Name
+  description: The Name form allows the user to input their name on a form.
+  image:
 eleventyNavigation:
   key: Name
   parent: Form Templates

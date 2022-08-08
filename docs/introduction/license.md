@@ -5,6 +5,10 @@ tags: license
 layout: guide
 image: /img/illustrations/illus-license.svg
 imageAlt: 
+social:
+  title: License
+  description: We want anyone who wants to use the Pelican Design System to use it.
+  image:
 eleventyNavigation:
   key: License
   parent: Introduction

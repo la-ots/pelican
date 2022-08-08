@@ -5,6 +5,10 @@ tags: credits
 layout: guide
 image: /img/illustrations/illus-credits.svg
 imageAlt: 
+social:
+  title: Credits
+  description: We used many open-source and freely-available resources to help us deliver this quickly and reliably.
+  image:
 eleventyNavigation:
   key: Credits
   parent: Introduction

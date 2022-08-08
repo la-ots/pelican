@@ -5,6 +5,10 @@ tags: components, footers
 layout: guide
 image: /img/illustrations/illus-footers.svg
 imageAlt: 
+social:
+  title: Footer
+  description: Footers contain links and other useful information at the bottom of a page.
+  image:
 eleventyNavigation:
   key: Footer
   parent: Components

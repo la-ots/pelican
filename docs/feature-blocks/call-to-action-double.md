@@ -5,6 +5,10 @@ tags: feature block
 layout: guide
 image: /img/illustrations/illus-cta-2.svg
 imageAlt: 
+social:
+  title: Call to Action, Double
+  description: A simple imperative statement with two choice buttons.
+  image:
 eleventyNavigation:
   key: Call to Action, Double
   parent: Feature Blocks

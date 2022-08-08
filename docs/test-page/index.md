@@ -6,6 +6,10 @@ layout: test-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Test Page
+  description:
+  image:
 ---
 
 {%- include 'markup/toast-info.njk'    -%}

@@ -5,6 +5,10 @@ tags: components, layout grid, grid, layout
 layout: guide
 image: /img/illustrations/illus-layout.svg
 imageAlt: 
+social:
+  title: Layout Grid
+  description: Pelican uses Bootstrap’s Grid to arrange content.
+  image:
 eleventyNavigation:
   key: Layout Grid
   parent: Foundation

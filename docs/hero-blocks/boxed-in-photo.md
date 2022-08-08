@@ -5,6 +5,10 @@ tags: feature block
 layout: guide
 image: /img/illustrations/illus-boxed-in-photo.svg
 imageAlt: 
+social:
+  title: Boxed-in Photo
+  description: Short amounts of text and a link with a contained image.
+  image:
 eleventyNavigation:
   key: Boxed-in Photo
   parent: Hero Blocks

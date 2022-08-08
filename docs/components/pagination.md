@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-pagination.svg
 imageAlt: 
+social:
+  title: Pagination
+  description: Pagination allows users to choose between viewable data sets.
+  image:
 eleventyNavigation:
   key: Pagination
   parent: Components

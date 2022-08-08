@@ -6,6 +6,10 @@ layout: guide
 index: true
 image: 
 imageAlt: 
+social:
+  title: What’s New
+  description:
+  image:
 eleventyNavigation:
   key: What’s New
   title: What’s New

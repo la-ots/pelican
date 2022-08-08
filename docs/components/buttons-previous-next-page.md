@@ -5,6 +5,10 @@ tags: components, buttons
 layout: guide
 image: /img/illustrations/illus-buttons-back-fwd.svg
 imageAlt: 
+social:
+  title: Previous & Next Page Buttons
+  description: Previous & Next Page buttons allow users to move through a sequential process.
+  image:
 eleventyNavigation:
   key: Previous and Next Page Buttons
   parent: Components

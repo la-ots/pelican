@@ -5,6 +5,10 @@ tags: components, alerts
 layout: guide
 image: /img/illustrations/illus-alerts.svg
 imageAlt: 
+social:
+  title: Alerts
+  description: Alerts communicate system or data statuses, such as warnings, to users.
+  image:
 eleventyNavigation:
   key: Alerts
   parent: Components

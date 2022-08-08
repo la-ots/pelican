@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-loading.svg
 imageAlt: 
+social:
+  title: Loading Animation
+  description: The Loading Animation informs the user a website or application is getting data.
+  image:
 eleventyNavigation:
   key: Loading Animation
   parent: Components

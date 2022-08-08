@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-checkboxes.svg
 imageAlt: 
+social:
+  title: Checkboxes
+  description: Checkboxes allow users to select one or more options at the same time.
+  image:
 eleventyNavigation:
   key: Checkboxes
   parent: Form Controls

@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-official-banner.svg
 imageAlt: 
+social:
+  title: Official Banner
+  description: The Official Banner identifies official Louisiana Government websites.
+  image:
 eleventyNavigation:
   key: Official Banner
   parent: Components

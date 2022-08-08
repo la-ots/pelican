@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-table.svg
 imageAlt: 
+social:
+  title: Table
+  description: Tables allow users to compare and review large amounts of data.
+  image:
 eleventyNavigation:
   key: Table
   parent: Components

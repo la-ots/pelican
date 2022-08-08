@@ -5,6 +5,10 @@ tags: hero block
 layout: guide
 image: /img/illustrations/illus-dual-pane.svg
 imageAlt: 
+social:
+  title: Dual Pane
+  description: An image with text and color overlay next to an image with color overlay and a button.
+  image:
 eleventyNavigation:
   key: Dual Pane
   parent: Hero Blocks

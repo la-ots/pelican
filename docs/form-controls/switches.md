@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-switches.svg
 imageAlt: 
+social:
+  title: Switches
+  description: Switches allow users to enable or disable something, like a light switch.
+  image:
 eleventyNavigation:
   key: Switches
   parent: Form Controls

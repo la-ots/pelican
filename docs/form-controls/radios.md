@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-radios.svg
 imageAlt: 
+social:
+  title: Radios
+  description: Radios allow users to select exactly one option from multiple options.
+  image:
 eleventyNavigation:
   key: Radios
   parent: Form Controls

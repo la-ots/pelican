@@ -5,6 +5,10 @@ tags: color, contrast
 layout: guide
 image: /img/illustrations/illus-dyslexia-friendly.svg
 imageAlt:
+social:
+  title: Dyslexia Friendly
+  description: Dyslexic readers benefit from a few easy-to-implement strategies.
+  image:
 eleventyNavigation:
   key: Dyslexia Friendly
   parent: Accessibility

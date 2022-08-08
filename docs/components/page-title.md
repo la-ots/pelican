@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-page-title.svg
 imageAlt: 
+social:
+  title: Page Title
+  description: The Page Title block explains the purpose of a page.
+  image:
 eleventyNavigation:
   key: Page Title
   parent: Components

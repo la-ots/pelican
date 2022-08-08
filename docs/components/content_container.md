@@ -5,6 +5,10 @@ tags: components, boxes, content container
 layout: guide
 image: /img/illustrations/illus-boxes.svg
 imageAlt: 
+social:
+  title: Content Container
+  description: Content Containers collect content into meaningful groups.
+  image:
 eleventyNavigation:
   key: Content Container
   parent: Components

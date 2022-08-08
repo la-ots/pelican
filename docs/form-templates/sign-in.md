@@ -5,6 +5,10 @@ tags: form-templates
 layout: guide
 image: /img/illustrations/illus-sign-in.svg
 imageAlt: 
+social:
+  title: Sign In
+  description: The Sign In block allows the user to sign into an application.
+  image:
 eleventyNavigation:
   key: Sign In
   parent: Form Templates

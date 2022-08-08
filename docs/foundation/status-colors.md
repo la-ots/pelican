@@ -5,6 +5,10 @@ tags: color
 layout: guide
 image: /img/illustrations/illus-status-colors.svg
 imageAlt: 
+social:
+  title: Status Colors
+  description: Pelican uses Status colors to inform users about what is going on with the system.
+  image:
 eleventyNavigation:
   key: Status Colors
   parent: Foundation

@@ -6,6 +6,10 @@ layout: guide
 index: true
 image: 
 imageAlt: 
+social:
+  title: Resources
+  description: Here are some of the resources to help you create digital products.
+  image:
 eleventyNavigation:
   key: Resources
   title: Resources

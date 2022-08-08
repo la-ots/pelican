@@ -5,6 +5,10 @@ tags: accessibility
 layout: guide
 image: /img/illustrations/illus-accessibility-statement.svg
 imageAlt: 
+social:
+  title: Accessibility Statement
+  description: Pelican is committed to ongoing accessibility improvements.
+  image:
 eleventyNavigation:
   key: Accessibility Statement
   parent: Accessibility

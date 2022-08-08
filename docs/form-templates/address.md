@@ -5,6 +5,10 @@ tags: form-templates
 layout: guide
 image: /img/illustrations/illus-address.svg
 imageAlt: 
+social:
+  title: Address
+  description: The Address block allows the user to input their address on a form.
+  image:
 eleventyNavigation:
   key: Address
   parent: Form Templates

@@ -6,6 +6,10 @@ layout: area-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Foundation
+  description: Get to know the basics behind Pelican.
+  image:
 eleventyNavigation:
   key: Foundation
   title: Foundation

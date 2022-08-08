@@ -5,6 +5,10 @@ tags: foundation
 layout: guide
 image: /img/illustrations/illus-spacing.svg
 imageAlt: 
+social:
+  title: Spacing
+  description: Spacing is the paddings and margins in Pelican.
+  image:
 eleventyNavigation:
   key: Spacing
   parent: Foundation

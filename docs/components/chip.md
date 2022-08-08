@@ -5,6 +5,10 @@ tags: components, chips
 layout: guide
 image: /img/illustrations/illus-chips.svg
 imageAlt: 
+social:
+  title: Chip
+  description: Chips allow users to see items added to or removed from a set.
+  image:
 eleventyNavigation:
   key: Chip
   parent: Components

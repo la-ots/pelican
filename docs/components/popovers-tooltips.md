@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-popovers-tooltips.svg
 imageAlt: 
+social:
+  title: Popovers & Tooltips
+  description: Popovers & Tooltips provide additional context to users about a connected item.
+  image:
 eleventyNavigation:
   key: Popovers & Tooltips
   parent: Components

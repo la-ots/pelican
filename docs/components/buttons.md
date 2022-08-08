@@ -5,6 +5,10 @@ tags: components, buttons
 layout: guide
 image: /img/illustrations/illus-buttons.svg
 imageAlt: 
+social:
+  title: Buttons
+  description: Buttons are interactive elements that trigger actions.
+  image:
 eleventyNavigation:
   key: Buttons
   parent: Components

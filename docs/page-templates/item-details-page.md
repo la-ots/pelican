@@ -5,6 +5,10 @@ tags: page templates
 layout: guide
 image: /img/illustrations/illus-item-details.svg
 imageAlt: 
+social:
+  title: Item Details Page
+  description: A layout intended to group various aspects about something for easy, glanceability.
+  image:
 eleventyNavigation:
   key: Item Details Page
   parent: Page Templates

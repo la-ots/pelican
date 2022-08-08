@@ -3,6 +3,10 @@ title: Document Page Public
 layout: default-public
 image: 
 imageAlt: 
+social:
+  title: Document Page Public
+  description:
+  image:
 ---
 
 {% include 'markup/breadcrumbs.njk' %}

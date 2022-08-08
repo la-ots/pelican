@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-tabbed-content.svg
 imageAlt: 
+social:
+  title: Tabbed Content
+  description: Tabs group related content, allowing users to see only what they want to see. 
+  image:
 eleventyNavigation:
   key: Tabbed Content
   parent: Components

@@ -5,6 +5,10 @@ tags: data tile, group, information
 layout: guide
 image: /img/illustrations/illus-data-tiles.svg
 imageAlt: 
+social:
+  title: Data Tile
+  description: Data Tiles group related information about a category. 
+  image:
 eleventyNavigation:
   key: Data Tile
   parent: Components

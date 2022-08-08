@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-toggle-tokens.svg
 imageAlt: 
+social:
+  title: Toggle Tokens
+  description: Toggle Tokens are a styled version of Checkboxes and Radios.
+  image:
 eleventyNavigation:
   key: Toggle Tokens
   parent: Form Controls

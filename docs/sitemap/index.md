@@ -6,6 +6,10 @@ layout: human-sitemap
 index: true
 image: 
 imageAlt: 
+social:
+  title: Sitemap
+  description: Here are some of the resources to help you create digital products.
+  image:
 eleventyNavigation:
   key: Sitemap
   title: Sitemap

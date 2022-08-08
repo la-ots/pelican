@@ -5,6 +5,10 @@ tags: change management, contribute
 layout: guide
 image: /img/illustrations/illus-benefits.svg
 imageAlt: 
+social:
+  title: Benefits
+  description: Pelican will make our development efforts faster, more easily updated.
+  image:
 eleventyNavigation:
   key: Benefits
   parent: Introduction

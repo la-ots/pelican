@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-select.svg
 imageAlt: 
+social:
+  title: Select
+  description: Select allows the user to select an option from a group of similar options.
+  image:
 eleventyNavigation:
   key: Select
   parent: Form Controls

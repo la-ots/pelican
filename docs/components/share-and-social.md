@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-share-social.svg
 imageAlt: 
+social:
+  title: Share & Social
+  description: Social Icons allow users to share the page with others.
+  image:
 eleventyNavigation:
   key: Share & Social
   parent: Components

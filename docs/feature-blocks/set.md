@@ -5,6 +5,10 @@ tags: feature
 layout: guide
 image: /img/illustrations/illus-set.svg
 imageAlt: 
+social:
+  title: Set
+  description: A Set is a way to highlight some aspects of a digital product. 
+  image:
 eleventyNavigation:
   key: Set
   parent: Feature Blocks

@@ -5,6 +5,10 @@ tags: feature block
 layout: guide
 image: /img/illustrations/illus-icons-text.svg
 imageAlt: 
+social:
+  title: Icons & Text
+  description: Simple text with icons to explain a feature.
+  image:
 eleventyNavigation:
   key: Icons & Text
   parent: Feature Blocks

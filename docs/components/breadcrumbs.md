@@ -5,6 +5,10 @@ tags: components, breadcrumbs
 layout: guide
 image: /img/illustrations/illus-breadcrumbs.svg
 imageAlt: 
+social:
+  title: Breadcrumbs
+  description: Breadcrumbs show users where the current page is in relation to other pages on the site.
+  image:
 eleventyNavigation:
   key: Breadcrumbs
   parent: Components

@@ -3,6 +3,10 @@ title: Document Page Internal
 layout: default-internal
 image: 
 imageAlt: 
+social:
+  title: Document Page Internal
+  description:
+  image:
 ---
 
 {% include 'markup/breadcrumbs.njk' %}

@@ -5,6 +5,10 @@ tags: color, contrast
 layout: guide
 image: /img/illustrations/illus-color-contrast.svg
 imageAlt:
+social:
+  title: Color Contrast
+  description: Color Contrast is the contrast ratio between colors.
+  image:
 eleventyNavigation:
   key: Color Contrast
   parent: Accessibility

@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-modals.svg
 imageAlt: 
+social:
+  title: Modal
+  description: Modals stop the user for an important change or decision.
+  image:
 eleventyNavigation:
   key: Modal
   parent: Components

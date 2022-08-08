@@ -6,6 +6,10 @@ layout: area-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Form Controls
+  description: The pieces used to create a form should be easy on the user.
+  image:
 eleventyNavigation:
   key: Form Controls
   order: 7

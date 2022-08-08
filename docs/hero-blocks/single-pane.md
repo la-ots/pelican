@@ -5,6 +5,10 @@ tags: hero block
 layout: guide
 image: /img/illustrations/illus-single-pane.svg
 imageAlt: 
+social:
+  title: Single Pane
+  description: A image next to a solid block of color with text and a link.
+  image:
 eleventyNavigation:
   key: Single Pane
   parent: Hero Blocks

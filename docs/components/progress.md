@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-progress-indicators.svg
 imageAlt: 
+social:
+  title: Progress Indicator
+  description: Progress Indicators show users their place in a multi-step process.
+  image:
 eleventyNavigation:
   key: Progress Indicator
   parent: Components

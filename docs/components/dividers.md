@@ -5,6 +5,10 @@ tags: components, dividers
 layout: guide
 image: /img/illustrations/illus-divider.svg
 imageAlt: 
+social:
+  title: Dividers
+  description: Dividers separate content into clear, meaningful groups.
+  image:
 eleventyNavigation:
   key: Dividers
   parent: Components

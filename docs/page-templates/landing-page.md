@@ -5,6 +5,10 @@ tags: page templates
 layout: guide
 image: /img/illustrations/illus-landing-page.svg
 imageAlt: 
+social:
+  title: Landing Page
+  description: Create a first impression of your digital product.
+  image:
 eleventyNavigation:
   key: Landing Page
   parent: Page Templates

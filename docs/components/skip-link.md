@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-skip-link.svg
 imageAlt: 
+social:
+  title: Skip Link
+  description: Skip Links allow users to skip navigation elements and go straight to content.
+  image:
 eleventyNavigation:
   key: Skip Link
   parent: Components

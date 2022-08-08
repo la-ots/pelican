@@ -6,6 +6,10 @@ layout: area-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Introduction
+  description: Pelican will standardize Louisiana’s digital products.
+  image:
 eleventyNavigation:
   key: Introduction
   order: 3

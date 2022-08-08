@@ -5,6 +5,10 @@ tags: components, card
 layout: guide
 image: /img/illustrations/illus-cards.svg
 imageAlt: 
+social:
+  title: Cards
+  description: Cards are containers for related content or information.
+  image:
 eleventyNavigation:
   key: Cards
   parent: Components

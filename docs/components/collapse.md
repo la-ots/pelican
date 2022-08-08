@@ -5,6 +5,10 @@ tags: components,collapse
 layout: guide
 image: /img/illustrations/illus-collapses.svg
 imageAlt: 
+social:
+  title: Collapse
+  description: Collapses allow users to toggle the visibility of content.
+  image:
 eleventyNavigation:
   key: Collapse
   parent: Components

@@ -5,6 +5,10 @@ tags: page templates
 layout: guide
 image: /img/illustrations/illus-error-page.svg
 imageAlt: 
+social:
+  title: Error Page
+  description: A prompt to notify the user of an issue on the site.
+  image:
 eleventyNavigation:
   key: Error Page
   parent: Page Templates

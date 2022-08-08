@@ -6,6 +6,10 @@ layout: area-page
 index: true
 image: 
 imageAlt: 
+social:
+  title: Page Templates
+  description: Common solutions which fit onto a single page.
+  image:
 eleventyNavigation:
   key: Page Templates
   title: Page Templates

@@ -5,6 +5,10 @@ tags: color
 layout: guide
 image: /img/illustrations/illus-ui-colors.svg
 imageAlt: 
+social:
+  title: UI Colors
+  description: Pelican uses UI colors to help define important interface cues.
+  image:
 eleventyNavigation:
   key: UI Colors
   parent: Foundation

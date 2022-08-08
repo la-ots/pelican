@@ -5,6 +5,10 @@ tags: components, buttons
 layout: guide
 image: /img/illustrations/illus-button-add-data.svg
 imageAlt: 
+social:
+  title: Add Data Button
+  description: Add Data Button allows users to add data to a set.
+  image:
 eleventyNavigation:
   key: Add Data Button
   parent: Components

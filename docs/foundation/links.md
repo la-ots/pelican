@@ -5,6 +5,10 @@ tags: foundation
 layout: guide
 image: /img/illustrations/illus-links.svg
 imageAlt: 
+social:
+  title: Links
+  description: Links allow users to change locations.
+  image:
 eleventyNavigation:
   key: Links
   parent: Foundation

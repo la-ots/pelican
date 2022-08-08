@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-navbar.svg
 imageAlt: 
+social:
+  title: Navbar
+  description: Navbars allow users to move around digital products.
+  image:
 eleventyNavigation:
   key: Navbar
   parent: Components

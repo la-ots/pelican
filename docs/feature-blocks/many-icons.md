@@ -5,6 +5,10 @@ tags: feature blocks
 layout: guide
 image: /img/illustrations/illus-many-icons.svg
 imageAlt: 
+social:
+  title: Many Icons
+  description: Lots of icons illuminating main and smaller benefits.
+  image:
 eleventyNavigation:
   key: Many Icons
   parent: Feature Blocks

@@ -5,6 +5,10 @@ tags: feature blocks
 layout: guide
 image: /img/illustrations/illus-textbox-over-photo.svg
 imageAlt: 
+social:
+  title: Textbox Over Photo
+  description: Short text over over a photograph.
+  image:
 eleventyNavigation:
   key: Textbox Over Photo
   parent: Hero Blocks

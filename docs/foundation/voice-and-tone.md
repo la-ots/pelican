@@ -5,6 +5,10 @@ tags: typography, font, typeface
 layout: guide
 image: /img/illustrations/illus-voice-tone.svg
 imageAlt: 
+social:
+  title: Voice & Tone
+  description: Guidelines for written content.
+  image:
 eleventyNavigation:
   key: Voice & Tone
   parent: Foundation

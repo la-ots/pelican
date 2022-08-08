@@ -5,6 +5,10 @@ tags: typography, font, typeface
 layout: guide
 image: /img/illustrations/illus-typography.svg
 imageAlt: 
+social:
+  title: Typography
+  description: Guidelines for presenting textual information.
+  image:
 eleventyNavigation:
   key: Typography
   parent: Foundation

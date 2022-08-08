@@ -5,6 +5,10 @@ tags: color, contrast
 layout: guide
 image: /img/illustrations/illus-headings.svg
 imageAlt:
+social:
+  title: Headings
+  description: Headings are used to indicate information structure. They also enable accessible access.
+  image:
 eleventyNavigation:
   key: Headings
   parent: Accessibility

@@ -5,6 +5,10 @@ tags: forms
 layout: guide
 image: /img/illustrations/illus-using-form-controls.svg
 imageAlt: 
+social:
+  title: Using Form Controls
+  description: Make the form for the user, not for us.
+  image:
 eleventyNavigation:
   key: Using Form Controls
   parent: Form Controls

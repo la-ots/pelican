@@ -5,6 +5,10 @@ tags: icons
 layout: guide
 image: /img/illustrations/illus-icons.svg
 imageAlt: 
+social:
+  title: Icons
+  description: Icons provide at-a-glance representation of actions or concepts.
+  image:
 eleventyNavigation:
   key: Icons
   parent: Foundation

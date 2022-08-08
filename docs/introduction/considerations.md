@@ -5,6 +5,10 @@ tags: layout, markup, accessibility
 layout: guide
 image: /img/illustrations/illus-important-considerations.svg
 imageAlt: 
+social:
+  title: Important Considerations
+  description: Some important things to be aware of as you use the Pelican.
+  image:
 eleventyNavigation:
   key: Important Considerations
   parent: Introduction

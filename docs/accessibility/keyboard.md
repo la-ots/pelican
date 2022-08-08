@@ -5,6 +5,10 @@ tags: accessibility, keyboard, focus
 layout: guide
 image: /img/illustrations/illus-keyboard.svg
 imageAlt:
+social:
+  title: Keyboard Navigation
+  description: Users should be able to completely interact with your application using only the keyboard.
+  image:
 eleventyNavigation:
   key: Keyboard Navigation
   parent: Accessibility

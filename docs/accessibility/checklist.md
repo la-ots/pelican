@@ -5,6 +5,10 @@ tags: accessibility
 layout: guide
 image: /img/illustrations/illus-accessibility-checklist.svg
 imageAlt:
+social:
+  title: Accessibility Checklist
+  description: A few things you can check to ensure you have basic accessibility covered.
+  image:
 eleventyNavigation:
   key: Accessibility Checklist
   parent: Accessibility

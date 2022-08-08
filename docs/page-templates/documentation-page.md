@@ -5,6 +5,10 @@ tags: page templates
 layout: guide
 image: /img/illustrations/illus-doc-page.svg
 imageAlt: 
+social:
+  title: Documentation Page
+  description: A layout that provides links to jump to content section headers.
+  image:
 eleventyNavigation:
   key: Documentation Page
   parent: Page Templates

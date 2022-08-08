@@ -5,6 +5,10 @@ tags: components
 layout: guide
 image: /img/illustrations/illus-sidebar-nav.svg
 imageAlt: 
+social:
+  title: Sidebar with Navigation
+  description: Contains and organizes all of the navigation for your web app.
+  image:
 eleventyNavigation:
   key: Sidebar with Navigation
   parent: Components

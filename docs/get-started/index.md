@@ -5,6 +5,10 @@ tags: get started
 layout: guide
 image: 
 imageAlt: 
+social:
+  title: Get Started
+  description: Get a quick start using Pelican.
+  image:
 eleventyNavigation:
   key: Get Started
   order: 2
