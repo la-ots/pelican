@@ -1,4 +1,176 @@
 // Put focus states into their own SCSS file
+select,
+textarea,
+input,
+button,
+area,
+summary {
+  &:focus {
+    @include tab-focus;
+  }
+}
+
+//bootstrap overrides
+.form-control,
+.form-select,
+.custom-select,
+.custom-file
+.custom-file-label, 
+.nav-link,
+.btn {
+  &:focus {
+    @include tab-focus;
+  }
+}
+.custom-file-input {
+  &:focus~.custom-file-label {
+    @include tab-focus;
+  }
+}
+
+.form-check-input {
+  &:focus,
+  &.focus {
+    +.form-check-label {
+      @include tab-focus;
+    }
+  }
+}
+.page-link {
+  &:focus {
+    @include tab-focus-fake;
+  }
+}
+
+
+
+.brand-link {
+  &:focus {
+      @include tab-focus;
+    }
+}
+.sidebar-brand > a,
+.sidebar-nav-item,
+.sidebar-dropdown-header-expand {
+  &:focus {
+    @include tab-focus-fake;
+  }
+}
+
+
+
+a:not(.form-control,
+.form-select,
+.custom-select,
+.custom-file .custom-file-input,
+.custom-file-label,
+.nav-link,
+.btn,
+.form-check-input,
+.brand-link,
+.sidebar-brand>a,
+.sidebar-nav-item,
+.sidebar-dropdown-header-expand,
+.page-link
+  ) {
+  &:focus {
+    @include tab-focus;
+  }
+}
+
+
+button.close {
+  &:focus {
+    outline: .25rem dashed $focus-color;
+  }
+}
+
+
+
+
+/*
+// putting focus appearances here because bootstrap defines elements' focus across scss
+// partials, and for brevity, i am putting them here
+// judge me later
+button,
+.btn,
+.btn-link.border-0,
+.form-control,
+.custom-select,
+.custom-control-switch,
+a[role="button"],
+a.nav-link,
+.skip-to-main,
+.page-link,
+.breadcrumb-item a,
+th a,
+summary,
+.brand-link,
+p a {
+
+  &:focus,
+  &.focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0.25rem;
+  }
+}
+
+.custom-control-switch {
+
+  &:focus,
+  &.focus {
+    border: 1px solid $input-border-color;
+    box-shadow: none;
+  }
+}
+
+.custom-file-label,
+.custom-file-input,
+.custom-file {
+
+  &:focus,
+  &.focus {
+    @include tab-focus;
+  }
+}
+
+.switch-toggle {
+  .switch-toggle-knob {
+    @include tab-focus;
+  }
+
+  &:focus,
+  &.focus,
+  &:active {
+    outline: 0;
+    outline-offset: 0;
+
+    .switch-toggle-knob {
+      @include tab-focus;
+    }
+  }
+}
+
+.form-control,
+.custom-select,
+.custom-control-switch {
+
+  &:focus,
+  &.focus {
+    border: 2px solid $input-border-color;
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+/*
 .skip-to-main, li a, .summary, p a, .btn, .btn-link, .badge.chip, .nav-pills .nav-link
 .nav-link, th a, .form-control, .custom-select {
   &:focus {
@@ -141,3 +313,4 @@
       
   }
 }
+*/
