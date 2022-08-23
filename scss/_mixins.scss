@@ -1,13 +1,13 @@
-@mixin focus-indicator-default {
+@mixin focus-default {
   box-shadow: none;
   outline: 0.25rem solid $focus-color;
   outline-offset: 0.25rem;
 }
-@mixin focus-indicator-box {
+@mixin focus-box {
   box-shadow: none;
   outline: none;
 
-  &:after{
+  &:before{
     position: absolute;
     content: '';
     width: 100%;

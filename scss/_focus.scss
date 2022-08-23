@@ -1,4 +1,4 @@
-// Put focus states into their own SCSS file
+// Cover all interactable elements with default focus
 select,
 textarea,
 input,
@@ -7,11 +7,11 @@ area,
 summary,
 a {
   &:focus {
-    @include focus-indicator-default;
+    @include focus-default;
   }
 }
 
-//bootstrap overrides
+//Bootstrap overrides
 .form-control,
 .form-select,
 .custom-select,
@@ -21,269 +21,37 @@ a {
 .brand-link,
 .btn {
   &:focus {
-    @include focus-indicator-default;
+    @include focus-default;
   }
 }
 .custom-file-input {
   &:focus~.custom-file-label {
-    @include focus-indicator-default;
+    @include focus-default;
   }
 }
 .form-check-input {
   &:focus,
   &.focus {
     +.form-check-label {
-      @include focus-indicator-default;
+      @include focus-default;
     }
   }
 }
 
-
-
-
-
-
-
+//switching specific anchors to only draw a box inside their DOM container
+.focus-box,
 .sidebar-brand>a,
 .sidebar-nav-item,
 .sidebar-dropdown-header-expand,
 .page-link {
   &:focus {
-    @include focus-indicator-box;
+    @include focus-box;
   }
 } 
 
-
+//change up the outline for closing buttons
 button.close {
   &:focus {
     outline: .25rem dashed $focus-color;
   }
 }
-
-
-/*
-// putting focus appearances here because bootstrap defines elements' focus across scss
-// partials, and for brevity, i am putting them here
-// judge me later
-button,
-.btn,
-.btn-link.border-0,
-.form-control,
-.custom-select,
-.custom-control-switch,
-a[role="button"],
-a.nav-link,
-.skip-to-main,
-.page-link,
-.breadcrumb-item a,
-th a,
-summary,
-.brand-link,
-p a {
-
-  &:focus,
-  &.focus {
-    outline: 0.25rem solid #2491ff;
-    outline-offset: 0.25rem;
-  }
-}
-
-.custom-control-switch {
-
-  &:focus,
-  &.focus {
-    border: 1px solid $input-border-color;
-    box-shadow: none;
-  }
-}
-
-.custom-file-label,
-.custom-file-input,
-.custom-file {
-
-  &:focus,
-  &.focus {
-    @include tab-focus;
-  }
-}
-
-.switch-toggle {
-  .switch-toggle-knob {
-    @include tab-focus;
-  }
-
-  &:focus,
-  &.focus,
-  &:active {
-    outline: 0;
-    outline-offset: 0;
-
-    .switch-toggle-knob {
-      @include tab-focus;
-    }
-  }
-}
-
-.form-control,
-.custom-select,
-.custom-control-switch {
-
-  &:focus,
-  &.focus {
-    border: 2px solid $input-border-color;
-  }
-}
-*/
-
-
-
-
-
-
-
-
-
-/*
-.skip-to-main, li a, .summary, p a, .btn, .btn-link, .badge.chip, .nav-pills .nav-link
-.nav-link, th a, .form-control, .custom-select {
-  &:focus {
-   @include tab-focus; 
-  }
-}
-.btn, .badge.chip,
-.nav-pills .nav-link {
-  &:focus {
-    box-shadow: none;
-  }
-}
-.btn-link {
-  &:focus {
-    color: $ui-priority;
-  }
-}
-.sidebar-wrapper .sidebar-brand > a {
-  &:focus {
-    outline: none;
-    &:after {
-      @include tab-focus-fake;
-      width: unset; height: unset;  
-      top: -8px;
-      right: 0px;
-      bottom: -8px; 
-      left: -20px;
-    }
-  }
-}
-.sidebar-nav-item, 
-.sidebar-dropdown-header-expand[role="button"],
-.navbar-icon-links .nav-link, 
-.official-banner summary,
-.page-link {
-  &:focus {
-    outline: none;
-    box-shadow: none;
-    &:after {
-      @include tab-focus-fake;
-    }
-  }
-}
-.sidebar-button[role=button] {
-  &:focus {
-    outline: none;
-    &:after {
-      @include tab-focus-fake;
-      width: 100%; height: unset;
-      top: -3px;
-      right: -10px;
-      bottom: -2px;
-      left: 0px;
-    }
-  }
-}
-.close:not(:disabled):not(.disabled):focus {
-  opacity: 1;
-}
-.alert .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -7px; left: -8px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.modal-content .close {
-  &:focus {
-    outline: none;
-    &:after {
-      outline: none;
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: 10px; left: 5px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.toast .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -6px; left: -10px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.brand-link {
-  &:focus {
-    outline: none;
-    .brand-logo {
-      &:after {
-        @include tab-focus-fake;
-      }
-    }
-  }
-}
-.custom-file-input:focus {
-  & ~ .custom-file-label {
-    overflow: visible;
-    border-color: $input-border-color;
-    box-shadow: none;
-    &:before {
-      position: absolute;
-      content: '';
-      width: calc(100% + 20px);
-      border-radius: 8px;
-      top: -10px; right: -10px; bottom: -10px; left: -10px;
-      border: .25rem solid $focus-color
-    }
-  }
-}
-.form-control {
-  &[readonly]{
-    &:focus {
-      outline: none;
-    }
-  }
-}
-.custom-control-input:focus:not(:checked) {
-  & ~ .custom-control-label:before {
-    border-color: $input-border-color;
-  }
-}
-.custom-control-input:focus {
-  & ~ .custom-control-label:before {
-    box-shadow: 
-      inset 0 3px 4px rgb(108 117 125 / 25%), 
-      0 0 0 0.2rem $focus-color;
-    
-      
-  }
-}
-*/
