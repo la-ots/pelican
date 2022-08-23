@@ -1,9 +1,9 @@
-@mixin tab-focus {
+@mixin focus-indicator-default {
   box-shadow: none;
   outline: 0.25rem solid $focus-color;
   outline-offset: 0.25rem;
 }
-@mixin tab-focus-fake {
+@mixin focus-indicator-box {
   box-shadow: none;
   outline: none;
 

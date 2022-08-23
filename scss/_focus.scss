@@ -4,9 +4,10 @@ textarea,
 input,
 button,
 area,
-summary {
+summary,
+a {
   &:focus {
-    @include tab-focus;
+    @include focus-indicator-default;
   }
 }
 
@@ -17,66 +18,40 @@ summary {
 .custom-file
 .custom-file-label, 
 .nav-link,
+.brand-link,
 .btn {
   &:focus {
-    @include tab-focus;
+    @include focus-indicator-default;
   }
 }
 .custom-file-input {
   &:focus~.custom-file-label {
-    @include tab-focus;
+    @include focus-indicator-default;
   }
 }
-
 .form-check-input {
   &:focus,
   &.focus {
     +.form-check-label {
-      @include tab-focus;
+      @include focus-indicator-default;
     }
   }
 }
-.page-link {
-  &:focus {
-    @include tab-focus-fake;
-  }
-}
 
 
 
-.brand-link {
-  &:focus {
-      @include tab-focus;
-    }
-}
-.sidebar-brand > a,
-.sidebar-nav-item,
-.sidebar-dropdown-header-expand {
-  &:focus {
-    @include tab-focus-fake;
-  }
-}
 
 
 
-a:not(.form-control,
-.form-select,
-.custom-select,
-.custom-file .custom-file-input,
-.custom-file-label,
-.nav-link,
-.btn,
-.form-check-input,
-.brand-link,
+
 .sidebar-brand>a,
 .sidebar-nav-item,
 .sidebar-dropdown-header-expand,
-.page-link
-  ) {
+.page-link {
   &:focus {
-    @include tab-focus;
+    @include focus-indicator-box;
   }
-}
+} 
 
 
 button.close {
@@ -84,8 +59,6 @@ button.close {
     outline: .25rem dashed $focus-color;
   }
 }
-
-
 
 
 /*
