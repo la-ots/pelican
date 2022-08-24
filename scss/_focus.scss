@@ -18,10 +18,16 @@ a {
 .custom-file
 .custom-file-label, 
 .nav-link,
-.brand-link,
 .btn {
   &:focus {
     @include focus-default;
+  }
+}
+.brand-link {
+  &:focus {
+    svg, img {
+      @include focus-default;
+    }
   }
 }
 .custom-file-input {
@@ -39,7 +45,6 @@ a {
 }
 
 //switching specific anchors to only draw a box inside their DOM container
-.focus-box,
 .sidebar-brand>a,
 .sidebar-nav-item,
 .sidebar-dropdown-header-expand,
