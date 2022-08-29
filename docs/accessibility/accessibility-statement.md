@@ -29,7 +29,7 @@ According to a <a href="https://www.census.gov/content/dam/Census/library/public
 
 ## Ongoing Committment
 
-Pelican endeavours to conform to level A.A. of the World Wide Web Consortium (W3C) <a href="http://www.w3.org/TR/WCAG20/" target="_blank">Web Content Accessibility Guidelines 2.</a>.<a href="https://www.w3.org/TR/WCAG21/" target="_blank">1</a>. These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
+Pelican endeavors to conform to level A.A. of the World Wide Web Consortium (W3C) <a href="http://www.w3.org/TR/WCAG20/" target="_blank">Web Content Accessibility Guidelines 2.0</a> & <a href="https://www.w3.org/TR/WCAG21/" target="_blank">2.1</a>. These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
 
 This site has been built using code compliant with W3C standards for HTML and CSS. The site displays correctly in current browsers and using standards compliant HTML/CSS code means any future browsers will also display it correctly.
 
