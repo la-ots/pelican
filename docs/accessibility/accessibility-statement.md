@@ -25,7 +25,7 @@ While Pelican strives to create the starting point for accessible products, be s
 
 ## Accessibility is a Human Right
 
-According to a <a href="https://www.cdc.gov/ncbddd/disabilityandhealth/impacts/louisiana.html" target="_blank">Centers for Disease Control (CDC) report on Louisianians with disabilities in 2022</a>, 1 in 3 Louisianians have a disability. This means that an accessibility-first mindset should be an important part of developing digital products for Louisiana.
+According to a <a href="https://www.cdc.gov/ncbddd/disabilityandhealth/impacts/louisiana.html" target="_blank">Centers for Disease Control (CDC) report</a> on Louisianians with disabilities in 2022, 1 in 3 Louisianians have a disability. This means that an accessibility-first mindset should be an important part of developing digital products for Louisiana.
 
 ## Ongoing Committment
 
@@ -39,7 +39,4 @@ Our ongoing accessibility efforts work toward making Pelican as accessible as po
 
 ## Resources
 
-- <a href="https://www.cdc.gov/ncbddd/disabilityandhealth/impacts/louisiana.html" target="_blank">CDC data on Louisianians with disabilities </a>
 - <a href="https://accessibility.digital.gov/" target="_blank">Accessibility for teams </a>
-
-
