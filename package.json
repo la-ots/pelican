@@ -10,7 +10,7 @@
   "bugs": "https://github.com/la-ots/pelican/issues",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "@la-ots/eleventy-plugin-pelican": "^1.0.0-beta5",
+    "@la-ots/eleventy-plugin-pelican": "^1.0.0-beta6",
     "autoprefixer": "^10.4.0",
     "bootstrap": "^4.6.1",
     "chokidar-cli": "^3.0.0",

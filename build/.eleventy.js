@@ -26,7 +26,7 @@ module.exports = (eleventyConfig) => {
       core: {
         css: [
           path.resolve('./dist/css/pelican.css'),
-          path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/css/docs.css'),
+          path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/css/docs.scss'),
           path.resolve('./node_modules/@la-ots/eleventy-plugin-pelican/assets/css/prism-theme.css'),
           path.resolve('./docs/css/site.css')
         ],
