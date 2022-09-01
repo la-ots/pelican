@@ -29,7 +29,7 @@ According to a <a href="https://www.cdc.gov/ncbddd/disabilityandhealth/impacts/l
 
 ## Ongoing Committment
 
-Pelican endeavors to conform to level AA of the World Wide Web Consortium (W3C) <a href="http://www.w3.org/TR/WCAG20/" target="_blank">Web Content Accessibility Guidelines 2.0</a> & <a href="https://www.w3.org/TR/WCAG21/" target="_blank">2.1</a>. These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
+Pelican endeavors to conform to level AA of the World Wide Web Consortium (W3C) <a href="http://www.w3.org/TR/WCAG20/" target="_blank">Web Content Accessibility Guidelines 2.0</a> and <a href="https://www.w3.org/TR/WCAG21/" target="_blank">2.1</a>. These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
 
 This site has been built using code compliant with W3C standards for Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS). The site displays correctly in current browsers and using standards compliant HTML and CSS code. This means any future browsers will also display it correctly.
 
