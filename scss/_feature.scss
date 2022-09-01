@@ -107,7 +107,7 @@
     @extend .h2;
     @extend .font-weight-bold;
     @extend .text-center;
-    @extend .text-lg-left;
+    //todo @extend .text-lg-left;
     color: $white;
   }
   .feature-small-text {
@@ -144,7 +144,7 @@
     background-color: $white;
     p {
       @extend .h4;
-      @extend .font-weight-light;
+      //todo @extend .font-weight-light;
       @extend .text-center;
       margin-bottom: 0;
     }

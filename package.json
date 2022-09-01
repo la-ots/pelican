@@ -14,7 +14,7 @@
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "autoprefixer": "^10.4.0",
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^5.2.0",
     "chokidar-cli": "^3.0.0",
     "clean-css-cli": "^5.4.2",
     "cross-env": "^7.0.3",

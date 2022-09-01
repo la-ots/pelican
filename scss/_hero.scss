@@ -54,7 +54,7 @@
 
 .hero-solo-pane {
   > .row {
-    @extend .no-gutters;
+    //todo @extend .no-gutters;
   }
   .half-left {
     @extend .bg-image-size-cover;

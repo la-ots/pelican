@@ -102,7 +102,7 @@
 .btn-add-this, .btn-add-data {
   @extend .btn;
   @extend .btn-ui;
-  @extend .btn-block;
+  //todo @extend .btn-block;
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
@@ -118,7 +118,7 @@
 
   div {
     background-color: $ui;
-    @extend .rounded-lg;
+    //todo @extend .rounded-lg;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: .75rem;
