@@ -43,11 +43,6 @@
   }
 }
 
-.feature-icons-text {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .feature-boxed-in-photo {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -102,12 +97,12 @@
 .feature-icons-text {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: $accent;
+  background-color: $secondary;
   .feature-big-text {
     @extend .h2;
     @extend .font-weight-bold;
     @extend .text-center;
-    //todo @extend .text-lg-left;
+    @extend .text-lg-start;
     color: $white;
   }
   .feature-small-text {
@@ -123,7 +118,7 @@
   }
 }
 .feature-languages {
-  background-color: $secondary;
+  background-color: $accent;
   @include media-breakpoint-up(lg) {
     padding: 4rem;
   }
@@ -144,7 +139,7 @@
     background-color: $white;
     p {
       @extend .h4;
-      //todo @extend .font-weight-light;
+      @extend .fw-light;
       @extend .text-center;
       margin-bottom: 0;
     }
