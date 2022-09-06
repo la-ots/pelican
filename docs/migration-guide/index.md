@@ -27,14 +27,14 @@ Other changes are caused by other development choices based upon ongoing feedbac
 - Back to Top Button
 - Add Data Button
 - Page Actions Button
-- Chip
+- Chips
 - Footer, Utility Footer
-- Modal
+- Modals
 - Navbars
 - Official Banner
 - Pagination
 - Popovers & Tooltips
-- Progress Indicator
+- Progress Indicator, Large
 - Tabbed Content
 - Toasts
 
@@ -45,3 +45,5 @@ Other changes are caused by other development choices based upon ongoing feedbac
 - Radios
 - Selects
 - Switches
+- File Uploads
+
