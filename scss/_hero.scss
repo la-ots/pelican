@@ -114,8 +114,13 @@
   .overlay {
     @extend .opacity-85;
     @extend .position-absolute;
-    background-color: $accent;
+    background-color: $secondary;
     top:0; right:0; bottom:0; left:0;
+    z-index: 0;
+  }
+  .container, .container-fluid {
+    position: relative;
+    z-index: 1;
   }
   .hero-big-text {
     @extend .h2;
