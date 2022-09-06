@@ -40,7 +40,7 @@ label,
   // Allow labels to use `margin` for spacing.
   display: block;
   margin-bottom: $label-margin-bottom;
-  font-weight: 600;
+  font-weight: $form-label-font-weight;
 }
 
 small,
