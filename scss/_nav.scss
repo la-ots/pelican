@@ -195,8 +195,11 @@
     .nav-link {
       color: $white;
     }
+    .form-control {
+      border-top-left-radius:    $btn-border-radius!important;
+      border-bottom-left-radius: $btn-border-radius!important;
+    }
     .btn {
-      margin-top: .5rem;
       @include media-breakpoint-up(lg) {
         margin-top: 0;
         margin-left: .5rem;
