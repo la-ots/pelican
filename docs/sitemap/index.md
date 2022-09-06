@@ -7,5 +7,5 @@ index: true
 eleventyNavigation:
   key: Sitemap
   title: Sitemap
-  order: 14
+  order: 15
 ---

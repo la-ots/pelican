@@ -6,7 +6,7 @@ layout: area-page
 index: true
 eleventyNavigation:
   key: Introduction
-  order: 3
+  order: 4
   excerpt: Pelican will standardize Louisiana’s digital products.
 ---
 

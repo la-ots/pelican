@@ -6,7 +6,7 @@ layout: area-page
 index: true
 eleventyNavigation:
   key: Hero Blocks
-  order: 9
+  order: 10
   excerpt: Hero Blocks are used to create visually-engaging introductions to a site.
   img: /img/illustrations/illus-cta-2.svg
 ---
