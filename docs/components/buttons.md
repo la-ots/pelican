@@ -85,7 +85,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Appearance can be changed like other buttons.
 
 <div class="dropdown">
-  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown button
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -97,7 +97,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ```html
 <div class="dropdown">
-  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown button
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
