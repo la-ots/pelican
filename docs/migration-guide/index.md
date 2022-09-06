@@ -50,7 +50,11 @@ Other changes are caused by other development choices based upon ongoing feedbac
 ### Form Templates
 
 - Address Form
-- 
+- Change Password
+- Contact Information
+- Create User ID & Password
+- Name
+- Sign In
 
 ## Hero Blocks
 
