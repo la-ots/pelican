@@ -27,3 +27,15 @@
     border: 2px solid $input-border-color;
   }
 }
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left:  -5px;
+  & > .col, & > [class*=col-]{
+    padding: 0 5px;
+  }
+}
