@@ -102,11 +102,11 @@
 .btn-add-this, .btn-add-data {
   @extend .btn;
   @extend .btn-ui;
-  //todo @extend .btn-block;
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
   @extend .shadow-none;
+  @extend .w-100;
   padding-top: .5rem;
   padding-bottom: .5rem;
   margin-top: .5rem;
@@ -117,17 +117,19 @@
   border: 2px dashed $gray-600;
 
   div {
+    @extend .rounded;
     background-color: $ui;
-    //todo @extend .rounded-lg;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: .75rem;
     padding-right: .75rem;
   }
 
-  &:hover,
-  &:active {
+  &:hover {
     background-color: fade-out($ui, 0.75);
+  }
+  &:active {
+    background-color: fade-out($ui, 0.5);
   }
 }
 
