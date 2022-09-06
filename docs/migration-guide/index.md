@@ -47,3 +47,8 @@ Other changes are caused by other development choices based upon ongoing feedbac
 - Switches
 - File Uploads
 
+## Hero Blocks
+
+- Dual Pane
+- Text over Color-toned Photo
+
