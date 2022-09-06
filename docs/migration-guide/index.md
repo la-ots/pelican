@@ -47,6 +47,15 @@ Other changes are caused by other development choices based upon ongoing feedbac
 - Switches
 - File Uploads
 
+### Form Templates
+
+- Address Form
+- Change Password
+- Contact Information
+- Create User ID & Password
+- Name
+- Sign In
+
 ## Hero Blocks
 
 - Dual Pane
