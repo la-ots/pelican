@@ -10,7 +10,7 @@
     {%- for entry in entries %}
       {% if entry.url == page.url %}
         <li class="breadcrumb-item active" aria-current="page">
-          {{ entry.title }}<span class="fas fa-eye ml-1" aria-hidden="true"></span>
+          {{ entry.title }}<span class="fas fa-eye ml-1 ms-1" aria-hidden="true"></span>
         </li>
       {% elif entry.url in page.url %}
         {% if entry.children.length > 0 %}
@@ -22,7 +22,7 @@
           {%- for child in entry.children %}
             {% if child.url == page.url %}
               <li class="breadcrumb-item active" aria-current="page">
-                {{ child.title }}<span class="fas fa-eye ml-1" aria-hidden="true"></span>
+                {{ child.title }}<span class="fas fa-eye ml-1 ms-1" aria-hidden="true"></span>
               </li>
             {% endif %}
           {% endfor %}
