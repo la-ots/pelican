@@ -6,7 +6,7 @@ layout: area-page
 index: true
 eleventyNavigation:
   key: Form Templates
-  order: 8
+  order: 9
   excerpt: Form Templates are common combinations of Components and Forms elements.
 ---
 

@@ -7,7 +7,7 @@ index: true
 eleventyNavigation:
   key: Foundation
   title: Foundation
-  order: 5
+  order: 6
   excerpt: Get to know the basics behind Pelican.
 ---
 

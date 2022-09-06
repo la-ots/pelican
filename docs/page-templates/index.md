@@ -7,6 +7,6 @@ index: true
 eleventyNavigation:
   key: Page Templates
   title: Page Templates
-  order: 11
+  order: 12
   excerpt: Common solutions which fit onto a single page.
 ---
