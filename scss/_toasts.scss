@@ -24,3 +24,11 @@
     }
   }
 }
+.toast-header {
+  position: relative;
+  .btn-close {
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+  }
+}
