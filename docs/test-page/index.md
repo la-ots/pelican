@@ -100,7 +100,7 @@ index: true
         {%- include 'markup/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show Tooltip</span>
         </button>
@@ -128,7 +128,7 @@ index: true
         {%- include 'markup/input-file.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-bs-toggle="popover" data-bs-placement="top" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">
+        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="And here's some amazing content. It's very engaging. Right?" title="Popover title">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show popover</span>
         </button>
