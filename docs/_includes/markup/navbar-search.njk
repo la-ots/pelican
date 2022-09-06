@@ -4,17 +4,15 @@
       <h1 class="brand-logo mb-0 ">{% include 'logo.njk' %}</h1>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationItemsList" data-bs-toggle="collapse" data-bs-target="#navigationItemsList" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fas fa-bars mr-1" aria-hidden="true"></span>Menu
+      <span class="fas fa-bars mr-1 me-1" aria-hidden="true"></span>Menu
     </button>
     <div class="search-form search-form-nav">
       <div class="input-group">
-        <input type="search" class="form-control" aria-label="Search" aria-describedby="searchButton">
-        <div class="input-group-append">
-          <button class="btn btn-ui" type="button" id="searchButton">
-            <span class="fas fa-search" aria-hidden="true">
-            </span><span class="sr-only">Search</span>
-          </button>
-        </div>
+        <label for="search-for" class="sr-only visually-hidden">Search for</label>
+        <input type="search" class="form-control" aria-label="Search" id="search-for">
+        <button class="btn btn-ui" type="button" id="searchButton">
+          Search
+        </button>
       </div>
     </div>
   </div>
