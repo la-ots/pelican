@@ -190,6 +190,7 @@ p a {
   @extend .position-fixed;
   @extend .btn;
   @extend .btn-accent;
+  @extend .btn-sm;
   right: 2rem;
   bottom: 5rem;
   z-index: $zindex-scroll-to-top;
