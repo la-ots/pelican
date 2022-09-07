@@ -16,8 +16,6 @@ There are differences between Pelican 1 and Pelican 2. Most changes are caused b
 
 Other changes are caused by other development choices based upon ongoing feedback. Most changes are handled by the new Cascading Style Sheet (CSS) and Syntactically Correct Style Sheet (SCSS) work so you won’t see them. But other changes require some markup adjustments. The changes which require markup changes are listed.
 
-## Markup Changes
-
 ### Components
 
 - Alerts
@@ -56,8 +54,14 @@ Other changes are caused by other development choices based upon ongoing feedbac
 - Name
 - Sign In
 
-## Hero Blocks
+### Hero Blocks
 
 - Dual Pane
 - Text over Color-toned Photo
+
+### Page Templates
+
+- 404 Page, public and internal
+- Error Page, public and internal
+- Landing Page
 
