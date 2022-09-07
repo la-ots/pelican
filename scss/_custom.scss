@@ -30,12 +30,6 @@
   height: 100%;
 }
 
-main.main {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
 .official-banner {
   @extend .border-bottom;
   padding-top: .5rem;
