@@ -196,7 +196,7 @@ $gray-colors: (
   @each $primaryKey,
   $val in $map {
     .#{$utilityClass}-#{$primaryKey} {
-      #{$attribute}:#{$val};
+      #{$attribute}:#{$val} !important;
     }
   }
 }

@@ -234,7 +234,7 @@ You’ll change background and text colors by using the following classes. Consu
       </tr>
       <tr>
         <th scope="row" id="Primary-100">Primary-100</th>
-        <td headers="Primary-100 background-color" class="h5"><span class="badge bg-primary-100">bg-primary-10</span></td>
+        <td headers="Primary-100 background-color" class="h5"><span class="badge bg-primary-100">bg-primary-100</span></td>
         <td headers="Primary-100 background-color-class"><code>bg-primary-100</code></td>
         <td headers="Primary-100 text-color" class="h5"><span class="badge text-primary-100">text-primary-100</span></td>
         <td headers="Primary-100 text-color-class"><code>text-primary-100</code></td>
@@ -282,11 +282,11 @@ You’ll change background and text colors by using the following classes. Consu
         <td headers="Accent-100 text-color-class"><code>text-accent-100</code></td>
       </tr>
       <tr>
-        <th scope="row" id="Accent-90">Accent-900</th>
-        <td headers="Accent-90 background-color" class="h5"><span class="badge bg-accent-900">bg-accent-900</span></td>
-        <td headers="Accent-90 background-color-class"><code>bg-accent-900</code></td>
-        <td headers="Accent-90 text-color" class="h5"><span class="badge text-accent-900">text-accent-900</span></td>
-        <td headers="Accent-90 text-color-class"><code>text-accent-900</code></td>
+        <th scope="row" id="Accent-900">Accent-900</th>
+        <td headers="Accent-900 background-color" class="h5"><span class="badge bg-accent-900">bg-accent-900</span></td>
+        <td headers="Accent-900 background-color-class"><code>bg-accent-900</code></td>
+        <td headers="Accent-900 text-color" class="h5"><span class="badge text-accent-900">text-accent-900</span></td>
+        <td headers="Accent-900 text-color-class"><code>text-accent-900</code></td>
       </tr>                      
     </tbody>
 </table>

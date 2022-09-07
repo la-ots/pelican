@@ -13,8 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-Cards are designed to be flexible enough to accommodate most content types.
-
+- Cards are designed to be flexible enough to accommodate most content types.
 - If a Card occurs outside of a [Content Container](/components/content_container/), it will automatically get a white background 
 - If the card occurs inside of a [Content Container](/components/content_container/) it will automatically get a gray background
 - Cards can contain various types of information, so their appearance will vary
