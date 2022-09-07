@@ -306,6 +306,11 @@ iframe {
   .btn {
     @extend .btn-outline-ui-priority;
     @extend .btn-sm;
+    transition:  $transition-base;
+    &:hover, &:active {
+      background-color: $ui-priority;
+      color: $white;
+    }
   }
 }
 
