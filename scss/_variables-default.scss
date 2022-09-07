@@ -30,7 +30,7 @@ $info: $info-900;
 $link-color: $info-900;
 $ui: $gray-600;
 $ui-light: $gray-100;
-$ui-priority: $info-900;
+$ui-priority: $info-800;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -218,12 +218,11 @@ $card-spacer-x: 1rem;
 $card-border-width: $border-width !default;
 $card-border-radius: $border-radius !default;
 $card-border-color: transparent;
-$card-border-color: $gray-300;
+$card-border-color: $gray-200;
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg: null !default;
 $card-cap-color: null !default;
 $card-color: null !default;
-$card-bg: $gray-100;
 $card-bg: $white;
 
 // ---
@@ -233,9 +232,11 @@ $tooltip-max-width: 300px !default;
 // ---
 // tables
 $table-border-width: 1px;
-$table-border-color: fade-out($gray-600, 0.8);
-$table-accent-bg: fade-out($gray-600, 0.95);
-$table-bg: $white;
+$table-bg:                    $white !default;
+$table-striped-bg-factor:     .1 !default;
+$table-striped-bg:            $ui-light;
+$table-border-factor:         1 !default;
+$table-border-color:          $gray-200;
 
 // ---
 // pagination

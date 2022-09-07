@@ -40,10 +40,10 @@ To change background or text color, change the class name representing the color
 
 <div class="row px-4 mb-6">
   <div class="col-12 col-md-6">
-    <div class="card bg-primary text-primary-10">
+    <div class="card bg-primary text-primary-100">
       <div class="card-body">
-        <p class="mb">Background color is <code class="text-primary-10">bg-primary</code>.</p>
-        <p class="mb-0">Text color is <code class="text-primary-10">text-primary-10</code>.</p>
+        <p class="mb">Background color is <code class="text-primary-100">bg-primary</code>.</p>
+        <p class="mb-0">Text color is <code class="text-primary-100">text-primary-100</code>.</p>
       </div>
     </div>
   </div>
@@ -69,8 +69,8 @@ Let’s examine this concept with an imaginary color palette for a digital produ
       <div class="rounded-top pd-color-block" style="background-color: #198754;"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Example Brand</p>
-        <p class="mb-0">Hex Code: <code>#198754</code></p>
-        <p class="mb-0">SCSS Var: <code>$primary</code></p>
+        <p class="mb-0">Your Hex Code: <code>#198754</code></p>
+        <p class="mb-0">Your Brand SCSS Var: <code>$primary</code></p>
       </div>
     </div>
   </div>
@@ -79,8 +79,8 @@ Let’s examine this concept with an imaginary color palette for a digital produ
       <div class="bg-success rounded-top pd-color-block"></div>
       <div class="card-body">
         <p class="mb-0 fw-bold">Status Success</p>
-        <p class="mb-0">Hex Code: <code>#0d6211</code></p>
-        <p class="mb-0">SCSS Var: <code>$success</code></p>
+        <p class="mb-0">Pelican Success Hex Code: <code>#0d6211</code></p>
+        <p class="mb-0">Pelican Success SCSS Var: <code>$success</code></p>
       </div>
     </div>
   </div>

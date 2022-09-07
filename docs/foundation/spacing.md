@@ -21,44 +21,42 @@ These two boxes have margins around them and padding inside of them.
 
 <div class="row mb-12">
     <div class="col-md-6 mb-6 mb-lg-0">
-        <div class="p-12 bg-ui text-white rounded-lg">
-            <p>There are 32 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
-            <p>There are 15 pixels of margin to the right. This can also be called “margin-right”.</p>
+        <div class="p-1 bg-ui text-white rounded-lg">
+            <p>There are 4 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
+            <p>There are 16 pixels of margin to the bottom of these sentences. This can also be called “margin-bottom”.</p>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="p-12 bg-ui text-white rounded-lg">
-            <p>There are 32 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
-            <p>There are 15 pixels of margin to the left. This can also be called “margin-left”.</p>
+        <div class="p-5 bg-ui text-white rounded-lg">
+            <p class="mb-0">There are 20 pixels of padding around this box. It pushes content away from the edges, towards the inside.</p>
+            <p class="mb-0">There are 0 pixels of margin to the bottom of these sentences. This can also be called “margin-bottom”.</p>
         </div>
     </div>
 </div>
 
 ## Padding and Margin Classes
 
-Padding and Margin can be applied to individual sides, to top and bottom at the same, or the left and right at the same time.
+Padding and Margin can be applied to individual sides, to top and bottom at the same, or the left and right at the same time. Padding left and right have been changed to padding start and padding end, based upon the flex direction. Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a> for additional spacing abilities like responsive spacing and flex direction. 
 
 Replace `n` with any number from 0 to 40. Replacing `n` with `0` applies zero spacing. Each successive number from `1` to `40` adds a multiple of 4 pixels (based on .25 rem) of space to the previous number (based on Bootstrap's defined spacer variable).
 
 For example, `mb-5` adds 1.25 rem (20 pixels) while `mb-6` adds 1.5 rem (24 pixels) of margin at the bottom.
 
-Be sure to consult <a href="https://getbootstrap.com/docs/4.5/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a> for additional spacing abilities like responsive spacing.
-
 **Padding Classes**
 
 - Top: `pt-n`
-- Right: `pr-n`
+- Right: `pe-n`
 - Bottom: `pb-n`
-- Left: `pl-n`
+- Left: `ps-n`
 - Top and Bottom: `py-n`
 - Right and Left: `px-n`
 
 **Margin Classes**
 
 - Top: `mt-n`
-- Right: `mr-n`
+- Right: `me-n`
 - Bottom: `mb-n`
-- Left: `ml-n`
+- Left: `ms-n`
 - Top and Bottom: `my-n`
 - Right and Left: `mx-n`
 
