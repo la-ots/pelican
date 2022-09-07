@@ -210,3 +210,6 @@ p a {
 .btn-outline-ui, .btn-outline-ui-priority {
   @extend .shadow-none;
 }
+.btn-outline-ui {
+  color: $gray-700;
+}

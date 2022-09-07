@@ -3,7 +3,7 @@
   @extend .shadow-sm;
   .content-container & {
     @extend .shadow-none;
-    background-color: $gray-100;
+    background-color: $gray-50;
   }
 }
 

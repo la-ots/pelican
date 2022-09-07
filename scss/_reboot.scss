@@ -55,10 +55,11 @@ small,
 hr,
 .hr {
   @extend .w-100;
-  background-color: $primary-10;
+  background-color: $gray-200;
   border: 0;
   margin-left: 0;
   margin-right: 0;
+  opacity: 1;
 
   &.major {
     height: 0.25rem;
