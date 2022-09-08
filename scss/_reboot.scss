@@ -77,42 +77,34 @@ hr,
   }
 }
 
-a {
-  p & {
+// Added for links, but not button style, in paragraph text or list items
+p, li {
+  a {
     text-decoration: underline;
-
+    text-decoration-style: dashed;
     &[rel="external"],
-    &[target="blank"] {
-      .fas,
-      .far {
-        font-size: 12px;
-        color: inherit;
+    &[target="_blank"] {
+      &::after {
+        display: inline-block;
+        margin: 0 1px 0 5px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-size: .75rem;
+        font-style: normal;
+        font-weight: 900;
+        font-variant: normal;
+        content: "\F35D";
+        transform: translateY(-.125rem);
+        opacity: .6;
       }
     }
-  }
-
-  p &.btn {
-    text-decoration: none;
-
-    &:hover,
-    &:active {
-      text-decoration: inherit;
-    }
-  }
-
-  &[target="_blank"]:not(.btn),
-  &[target="blank"]:not(.btn) {
-    &::after {
-      display: inline-block;
-      margin: 0 1px 0 5px;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      font-family: "Font Awesome 5 Free";
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 900;
-      font-variant: normal;
-      content: "\F35D";
+    &.btn {
+      text-decoration: none;
+      &:hover,
+      &:active {
+        text-decoration: none;
+      }
     }
   }
 }
