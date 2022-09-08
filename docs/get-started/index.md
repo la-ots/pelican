@@ -19,7 +19,7 @@ Installation instructions for the latest version of the package can be found [on
 
 Included within the package are the following compiled CSS and JS builds:
 
-<div class="sr-only">
+<div class="sr-only visually-hidden">
   <ul>
     <li>pelican
       <ul>
@@ -31,7 +31,7 @@ Included within the package are the following compiled CSS and JS builds:
                 <li>pelican.css.map</li>
                 <li>pelican.min.css</li>
                 <li>pelican.min.css.map</li>
-              </li>
+              </ul>
             </li>
           </ul>
           <ul>
@@ -58,7 +58,7 @@ Included within the package are the following compiled CSS and JS builds:
   </ul>
 </div>
 
-<div class="" aria-hidden="true">
+<div aria-hidden="true">
 <pre>
 pelican
 └── dist/
