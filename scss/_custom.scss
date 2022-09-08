@@ -42,6 +42,9 @@ main.main {
     padding-top: .25rem;
     padding-bottom: .25rem;
   }
+  .expander {
+    transform: translateY(-1px);
+  }
 }
 
 ::selection,
