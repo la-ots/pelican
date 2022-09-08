@@ -23,7 +23,15 @@
     padding-right: 14px;
   }
 }
-
 .btns-previous-next {
   margin-top: auto;
+}
+.content-area p:not(.lead), .content-area li {
+  width: 80ch;
+}
+.content-area li {
+  line-height: 1.5;
+}
+.content-area li:not(:last-child) {
+  margin-bottom: .3125rem;
 }
