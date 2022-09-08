@@ -58,7 +58,8 @@
 }
 
 .page-wrapper {
-  min-height: 100vh;
+  
+  
 }
 
 .page-wrapper .theme {
@@ -267,6 +268,10 @@
 }
 
 .page-wrapper .page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
   width: 100%;
   padding-top: 0;
   padding-left: 0;

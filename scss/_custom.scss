@@ -24,11 +24,6 @@
   min-height: 100vh;
 }
 
-.page-content {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 main.main {
   display: flex;
   flex-direction: column;
@@ -57,6 +52,7 @@ main.main {
 
 .wrapper-topbar {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   left: 0;
   z-index: 900;
