@@ -33,7 +33,7 @@ eleventyNavigation:
         <p class="mb-0 text-center">16px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>4.5:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>4.5:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ eleventyNavigation:
         <p class="mb-0 text-center text-white">18px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@ eleventyNavigation:
         <p class="mb-0 text-center text-white">16px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>2.15:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>2.15:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -85,7 +85,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.16:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.16:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -104,7 +104,7 @@ eleventyNavigation:
         </div>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.79:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.79:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>1.02:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>1.02:1 Contrast ratio</p>
       </div>
     </div>
   </div>

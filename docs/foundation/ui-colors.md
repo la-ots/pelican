@@ -20,7 +20,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         <div class="card border-0">
             <div class="bg-ui rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">UI</p>
+                <p class="mb-0 fw-bold">UI</p>
                 <p class="mb-0"><code>#6e8287</code></p>
                 <p class="mb-0"><code>$ui</code></p>
             </div>
@@ -30,7 +30,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         <div class="card border-0">
             <div class="bg-ui-light rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">UI Light</p>
+                <p class="mb-0 fw-bold">UI Light</p>
                 <p class="mb-0"><code>#ebeeef</code></p>
                 <p class="mb-0"><code>$ui-light</code></p>
             </div>
@@ -40,7 +40,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
         <div class="card border-0">
             <div class="bg-ui-priority rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">UI Priority</p>
+                <p class="mb-0 fw-bold">UI Priority</p>
                 <p class="mb-0"><code>#0057d7</code></p>
                 <p class="mb-0"><code>$ui-priority</code></p>
             </div>
