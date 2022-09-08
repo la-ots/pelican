@@ -134,4 +134,4 @@ These include:
 - [Add Data buttons](/components/add-data-button) - Add data multiples to an application
 - [Page Action buttons](/components/page-actions-button) - Allow users to print, email, or share
 ## Resources
-- <a href="https://getbootstrap.com/docs/4.5/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>
+- <a href="https://getbootstrap.com/docs/5.2/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>

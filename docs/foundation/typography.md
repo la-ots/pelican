@@ -86,4 +86,4 @@ Span tags `<span>` allow local text changes without affecting semantics. We can 
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>
+* <a href="https://getbootstrap.com/docs/5.2/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>
