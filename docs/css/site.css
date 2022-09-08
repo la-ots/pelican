@@ -27,7 +27,7 @@
   margin-top: auto;
 }
 .content-area p:not(.lead), .content-area li {
-  width: 80ch;
+  max-width: 80ch;
 }
 .content-area li {
   line-height: 1.5;
