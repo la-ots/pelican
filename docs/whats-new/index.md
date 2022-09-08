@@ -18,4 +18,4 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 ## 2.0.0 - 01 October 2022
 
-- Removes underlines from links in a list. [69970834](https://github.com/la-ots/pelican/commit/6997083415837f10ad40445968a5edc86ac48e1f)
+- Pelican 2 released. Pelican 2 is based on Bootstrap 5.2. See the [Migration Guide](/migration-guide/) for details about how this affects projects built upon Pelican 1 (Bootstrap 4.6).

@@ -12,13 +12,16 @@ eleventyNavigation:
 
 ## Migration Guide
 
-There are differences between Pelican 1 and Pelican 2. Most changes are caused by moving from Bootstrap 4.6 to 5.2. Bootstrap 5’s components often have different markup than the same component in Bootstrap 4. Pelican 2’s markup will match Bootstrap 5’s markup for components based upon Bootstrap 5. Pelican 2 markup will contain Pelican 1’s classes to ease the transition.
+Pelican 2 is based upon Bootstrap 5 (BS5). Pelican 1 is based upon Bootstrap 4.6 (BS4). Some of the changes between BS5 and BS4 are markup changes. This means that components in Pelican 2 will be a little different from Pelican 1. 
 
-Other changes are caused by other development choices based upon ongoing feedback. Most changes are handled by the new Cascading Style Sheet (CSS) and Syntactically Correct Style Sheet (SCSS) work so you won’t see them. But other changes require some markup adjustments. The changes which require markup changes are listed.
+These changes could be different markup structure or different values on the `class` attributes. The CSS of Pelican 2 has been written to provide a smooth transition. Pelican 2 will look almost exactly the same as Pelican 1. Javascript has also been updated. If you notice something broken, please [give us feedback](/feedback/).
+
+Here’s lists of where some of these markup-related changes happened.
 
 ### Components
 
 - Alerts
+- App Screen
 - Badges
 - Button Container
 - Previous and Next Page Buttons
@@ -64,4 +67,3 @@ Other changes are caused by other development choices based upon ongoing feedbac
 - 404 Page, public and internal
 - Error Page, public and internal
 - Landing Page
-
