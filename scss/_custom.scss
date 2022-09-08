@@ -21,13 +21,13 @@
 
 .wrapper-main {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-.page-content {
+main.main {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  flex: 1 1 auto;
 }
 
 .official-banner {
@@ -52,6 +52,7 @@
 
 .wrapper-topbar {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   left: 0;
   z-index: 900;

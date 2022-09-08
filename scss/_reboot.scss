@@ -1,10 +1,14 @@
 html,
 body {
   scroll-behavior: smooth;
-  min-height: 100vh;
 }
+html {
 
+}
 body {
+
+  display: flex;
+  flex-direction: column;
   background-color: $body-bg;
 
   &.auth-page {
