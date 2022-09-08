@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-keyboard.svg
 ---
 
-# What is Keyboard Navigation?
+## What is Keyboard Navigation?
   
 Some users, particularly those with visual or motor impairments, will use the keyboard to navigate your app or webpage. If a user can use the mouse to interact with a component, the same interaction must be accessible to a keyboard-only user.
 
