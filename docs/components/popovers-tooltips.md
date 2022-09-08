@@ -38,5 +38,5 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/4.5/components/popovers/" target="_blank">Bootstrap Documentation - Popovers</a>
-* <a href="https://getbootstrap.com/docs/4.5/components/tooltips/" target="_blank">Bootstrap Documentation - Tooltips</a>
+* <a href="https://getbootstrap.com/docs/5.2/components/popovers/" target="_blank">Bootstrap Documentation - Popovers</a>
+* <a href="https://getbootstrap.com/docs/5.2/components/tooltips/" target="_blank">Bootstrap Documentation - Tooltips</a>

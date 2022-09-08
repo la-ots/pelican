@@ -34,3 +34,7 @@ eleventyNavigation:
 ``` html
 {% include 'markup/tabbed-content-traditional.njk' %}
 ```
+
+## Resources
+* <a href="https://getbootstrap.com/docs/5.2/components/navs-tabs/#pills" target="_blank">Bootstrap Documentation - Pill Nav</a> 
+* <a href="https://getbootstrap.com/docs/5.2/components/navs-tabs/#tabs" target="_blank">Bootstrap Documentation - Tab Nav</a> 
