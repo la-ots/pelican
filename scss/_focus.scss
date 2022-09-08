@@ -58,43 +58,7 @@
 .close:not(:disabled):not(.disabled):focus {
   opacity: 1;
 }
-.alert .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -7px; left: -8px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.modal-content .close {
-  &:focus {
-    outline: none;
-    &:after {
-      outline: none;
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: 10px; left: 5px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.toast .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -6px; left: -10px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
+
 .brand-link {
   &:focus {
     outline: none;
