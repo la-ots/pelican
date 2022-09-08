@@ -10,3 +10,18 @@
   border: .25rem solid $focus-color;
   top: 0; left: 0;
 }
+
+@mixin focus-box-outline {
+  box-shadow: none;
+  outline: none;
+
+  &:before {
+    position: absolute;
+    content: '';
+    border: .25rem solid $focus-color;
+    top: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    bottom: -.5rem;
+  }
+}

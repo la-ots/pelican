@@ -105,3 +105,11 @@
       
   }
 }
+
+.stretched-link:focus{
+  @include focus-box-outline;  
+
+  &:focus-visible{
+    outline: none;
+  }
+}
