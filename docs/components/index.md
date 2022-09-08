@@ -6,7 +6,7 @@ layout: area-page
 index: true
 eleventyNavigation:
   key: Components
-  order: 6
+  order: 7
   excerpt: Components are the small piece of a user interface.
 ---
 

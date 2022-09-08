@@ -34,7 +34,8 @@ footer, .footer {
       margin-bottom: 0;
     }
     hr.major {
-      background-color: $black;
+      background-color: $primary-100;
+      opacity: .25;
     }
     .btn-link {
       color: $accent;

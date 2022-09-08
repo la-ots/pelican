@@ -26,14 +26,14 @@ eleventyNavigation:
     <div class="card border-0">
       <div class="card-header rounded-top border-0 py-2 bg-success">
         <p class="mb-0 text-white">
-          <span class="fas fa-check mr-1" aria-hidden="true"></span>Do
+          <span class="fas fa-check mr-1 me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center text-white pd-color-block" style="background-color: #657892!important;">
-        <p class="mb-0 text-center">Text</p>
+      <div class="card-body d-flex flex-column justify-content-center align-items-center text-white pd-color-block" style="background-color: #767676!important;">
+        <p class="mb-0 text-center">16px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1" aria-hidden="true"></span>4.5:1 Contrast ratio</p>
+        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>4.5:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -41,14 +41,14 @@ eleventyNavigation:
     <div class="card border-0">
       <div class="card-header rounded-top border-0 py-2 bg-success">
         <p class="mb-0 text-white">
-          <span class="fas fa-check mr-1" aria-hidden="true"></span>Do
+          <span class="fas fa-check mr-1 me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-secondary text-white pd-color-block" style="font-size: 24px; color: #734500!important;">
-        <p class="mb-0 text-center text-secondary-90">Text</p>
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-secondary text-white pd-color-block" style="font-size: 24px; background-color: #08A5A7!important;">
+        <p class="mb-0 text-center text-white">18px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1" aria-hidden="true"></span>3.78:1 Contrast ratio</p>
+        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -56,14 +56,14 @@ eleventyNavigation:
     <div class="card border-0">
       <div class="card-header rounded-top border-0 py-2 bg-danger">
         <p class="mb-0 text-white">
-          <span class="fas fa-times mr-1" aria-hidden="true"></span>Don’t
+          <span class="fas fa-times mr-1 me-1" aria-hidden="true"></span>Don’t
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block" style="background-color: #FECB7F!important;">
-        <p class="mb-0 text-center">Text</p>
+      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block" style="background-color: #fe9903!important;">
+        <p class="mb-0 text-center text-white">16px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger mr-1" aria-hidden="true"></span>1.49:1 Contrast ratio</p>
+        <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>2.15:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@ eleventyNavigation:
     <div class="card border-0">
       <div class="card-header rounded-top border-0 py-2 bg-success">
         <p class="mb-0 text-white">
-          <span class="fas fa-check mr-1" aria-hidden="true"></span>Do
+          <span class="fas fa-check mr-1 me-1" aria-hidden="true"></span>Do
         </p>
       </div>
       <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block">
@@ -85,7 +85,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1" aria-hidden="true"></span>9.77:1 Contrast ratio</p>
+        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.16:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -93,18 +93,18 @@ eleventyNavigation:
     <div class="card border-0">
       <div class="card-header rounded-top border-0 py-2 bg-success">
         <p class="mb-0 text-white">
-          <span class="fas fa-check mr-1" aria-hidden="true"></span>Do
+          <span class="fas fa-check mr-1 me-1" aria-hidden="true"></span>Do
         </p>
       </div>
       <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black pd-color-block" style="background-color: #CED4DA!important;">
         <div class="form-group mb-0">
           <label for="colorTest1" class="label">
-            <span class="fas fa-asterisk text-danger mr-1" aria-hidden="true"></span>Label</label>
+            <span class="fas fa-asterisk text-danger mr-1 me-1" aria-hidden="true"></span>Label</label>
           <input id="colorTest1" type="text" class="form-control">
         </div>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1" aria-hidden="true"></span>3.13:1 Contrast ratio</p>
+        <p class="mb-0 font-weight-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.79:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@ eleventyNavigation:
     <div class="card border-0">
       <div class="card-header rounded-top border-0 py-2 bg-danger">
         <p class="mb-0 text-white">
-          <span class="fas fa-times mr-1" aria-hidden="true"></span>Don’t
+          <span class="fas fa-times mr-1 me-1" aria-hidden="true"></span>Don’t
         </p>
       </div>
       <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block" style="background-color: #C0CEDB!important;">
@@ -121,7 +121,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger mr-1" aria-hidden="true"></span>1.02:1 Contrast ratio</p>
+        <p class="mb-0 font-weight-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>1.02:1 Contrast ratio</p>
       </div>
     </div>
   </div>

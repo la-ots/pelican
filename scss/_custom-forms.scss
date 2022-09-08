@@ -4,7 +4,7 @@
   &.form-check {
     display: inline-block;
     padding: 0;
-    margin: 0 0 4px !important;
+    margin: 0 .5rem 0 0 !important;
 
     .form-check-label {
       position: relative;
@@ -18,11 +18,9 @@
         top: 8px;
         left: 10px;
         color: $ui;
-
         &:first-of-type {
           opacity: 1;
         }
-
         &:last-of-type {
           opacity: 0;
         }
@@ -35,7 +33,7 @@
     }
 
     .form-check-input {
-      @extend .sr-only !optional;
+      @extend .visually-hidden;
 
       &:checked {
         + .form-check-label {

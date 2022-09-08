@@ -46,7 +46,7 @@
   background-color: $white;
 }
 
-.btn-secondary,
+.btn-accent,
 .btn-warning {
   color: $black;
 }
@@ -133,27 +133,6 @@
   }
 }
 
-.share-this {
-  @extend .text-center;
-  background-color: $white;
-  padding: 1rem;
-
-  small {
-    @extend .small;
-    margin-bottom: .5rem;
-    @extend .d-block;
-  }
-
-  a {
-    @extend .btn;
-    @extend .btn-link;
-    @extend .btn-lg;
-    background-color: $white;
-    padding-left: .5rem;
-    padding-right: .5rem;
-  }
-}
-
 a.btn {
   text-decoration: none;
 
@@ -230,4 +209,7 @@ p a {
 
 .btn-outline-ui, .btn-outline-ui-priority {
   @extend .shadow-none;
+}
+.btn-outline-ui {
+  color: $gray-700;
 }

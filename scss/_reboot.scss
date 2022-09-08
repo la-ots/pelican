@@ -1,10 +1,14 @@
 html,
 body {
   scroll-behavior: smooth;
-  min-height: 100vh;
 }
+html {
 
+}
 body {
+
+  display: flex;
+  flex-direction: column;
   background-color: $body-bg;
 
   &.auth-page {
@@ -40,7 +44,7 @@ label,
   // Allow labels to use `margin` for spacing.
   display: block;
   margin-bottom: $label-margin-bottom;
-  font-weight: 600;
+  font-weight: $form-label-font-weight;
 }
 
 small,
@@ -55,10 +59,11 @@ small,
 hr,
 .hr {
   @extend .w-100;
-  background-color: $primary-10;
+  background-color: $gray-200;
   border: 0;
   margin-left: 0;
   margin-right: 0;
+  opacity: 1;
 
   &.major {
     height: 0.25rem;

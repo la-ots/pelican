@@ -1,15 +1,6 @@
 // ---
 // color system
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #f5f5f5 !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #808080 !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #2b2b2b !default;
 $black: #000 !default;
 $blue: #004ba1 !default;
 $indigo: #6610f2 !default;
@@ -19,32 +10,27 @@ $red: #b00003 !default;
 $orange: #fd7e14 !default;
 $yellow: #ffc107 !default;
 $green: #0d6211 !default;
+$green: #0d6211 !default;
 $teal: #20c997 !default;
 $cyan: #9c27b0 !default;
-$link-color: #185ae3;
-$ui: $gray-600;
-$ui-light: $gray-300;
-$ui-priority: $link-color;
+$text-color: $gray-800;
+$text-color-light: $gray-600;
+$text-color-dark: $gray-900;
 $body-bg: #f7f7f7;
-$body-color: $gray-700;
+$body-color: $text-color;
 $focus-color: #2491ff;
 $less-bright: #fbf9f9;
-$success: $green;
-$warning: $yellow;
-$danger: $red;
-$info: $blue;
-$success-10: #dcf8e2;
-$success-30: #58b66d;
-$success-90: #003302;
-$warning-10: #ffecb3;
-$warning-30: #ffcc32;
-$warning-90: #5c3400;
-$danger-10: #ffe6e8;
-$danger-30: #ff8c99;
-$danger-90: #650002;
-$info-10: #d0e6ff;
-$info-30: #6ab0ff;
-$info-90: #002480;
+$primary: $primary-800;
+$secondary: $secondary-800;
+$accent: $accent-500;
+$success: $success-800;
+$warning: $warning-500;
+$danger: $danger-800;
+$info: $info-900;
+$link-color: $info-900;
+$ui: $gray-600;
+$ui-light: $gray-100;
+$ui-priority: $info-800;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -56,35 +42,12 @@ $theme-colors: map-merge(
     "info": $info,
     "warning": $yellow,
     "danger": $danger,
-    "light": $gray-200,
-    "dark": $gray-700,
     "link": $link-color,
     "ui": $ui,
-    "ui-light": $gray-300,
+    "ui-light": $ui-light,
     "ui-priority": $ui-priority,
     "black": $black,
     "white": $white,
-    "primary-10": $primary-10,
-    "primary-30": $primary-30,
-    "primary-90": $primary-90,
-    "secondary-10": $secondary-10,
-    "secondary-30": $secondary-30,
-    "secondary-90": $secondary-90,
-    "accent-10": $accent-10,
-    "accent-30": $accent-30,
-    "accent-90": $accent-90,
-    "success-10": $success-10,
-    "success-30": $success-30,
-    "success-90": $success-90,
-    "warning-10": $warning-10,
-    "warning-30": $warning-30,
-    "warning-90": $warning-90,
-    "danger-10": $danger-10,
-    "danger-30": $danger-30,
-    "danger-90": $danger-90,
-    "info-10": $info-10,
-    "info-30": $info-30,
-    "info-90": $info-90,
   ),
   $theme-colors
 );
@@ -255,12 +218,11 @@ $card-spacer-x: 1rem;
 $card-border-width: $border-width !default;
 $card-border-radius: $border-radius !default;
 $card-border-color: transparent;
-$card-border-color: $gray-300;
+$card-border-color: $gray-200;
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg: null !default;
 $card-cap-color: null !default;
 $card-color: null !default;
-$card-bg: $gray-100;
 $card-bg: $white;
 
 // ---
@@ -270,9 +232,11 @@ $tooltip-max-width: 300px !default;
 // ---
 // tables
 $table-border-width: 1px;
-$table-border-color: fade-out($gray-600, 0.8);
-$table-accent-bg: fade-out($gray-600, 0.95);
-$table-bg: $white;
+$table-bg:                    $white !default;
+$table-striped-bg-factor:     .1 !default;
+$table-striped-bg:            $ui-light;
+$table-border-factor:         1 !default;
+$table-border-color:          $gray-200;
 
 // ---
 // pagination
@@ -323,7 +287,8 @@ $zindex-modal: 2040 !default;
 
 
 //added variables for 5.2.0
-$label-margin-bottom:  .5rem !default;
-$table-cell-padding:   .75rem !default;
-$breadcrumb-padding-y: .75rem !default;
-$breadcrumb-padding-x: 1rem !default;
+$label-margin-bottom:    .5rem !default;
+$table-cell-padding:     .75rem !default;
+$breadcrumb-padding-y:   .75rem !default;
+$breadcrumb-padding-x:   1rem !default;
+$form-label-font-weight: 600;

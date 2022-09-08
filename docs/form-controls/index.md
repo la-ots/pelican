@@ -6,7 +6,7 @@ layout: area-page
 index: true
 eleventyNavigation:
   key: Form Controls
-  order: 7
+  order: 8
   excerpt: The pieces used to create a form should be easy on the user.
 ---
 

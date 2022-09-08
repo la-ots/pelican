@@ -7,7 +7,7 @@ index: true
 eleventyNavigation:
   key: Migration Guide
   title: Migration Guide
-  order: 1
+  order: 3
 ---
 
 ## Migration Guide

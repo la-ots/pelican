@@ -6,7 +6,7 @@ layout: guide
 index: true
 eleventyNavigation:
   key: Feedback
-  order: 12
+  order: 13
   excerpt: Help make Pelican better by giving us your feedback.
 ---
 

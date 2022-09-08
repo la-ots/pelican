@@ -21,13 +21,13 @@
 
 .wrapper-main {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-.page-content {
+main.main {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  flex: 1 1 auto;
 }
 
 .official-banner {
@@ -52,6 +52,7 @@
 
 .wrapper-topbar {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   left: 0;
   z-index: 900;
@@ -101,7 +102,7 @@
   margin-bottom: 0;
   color: $primary;
   .icon {
-    color: $primary-10;
+    color: $primary-500;
   }
   p {
     margin-bottom: 0;
@@ -306,15 +307,23 @@ iframe {
   .btn {
     @extend .btn-outline-ui-priority;
     @extend .btn-sm;
+    transition:  $transition-base;
+    &:hover, &:active {
+      background-color: $ui-priority;
+      color: $white;
+    }
   }
 }
 
 .error-display {
-  margin-top: 5.5rem;
+  margin-top: 1rem;
+  @include media-breakpoint-up(md){
+    margin-top: 5.5rem;
+  }
 }
 .error-display-internal {
   .card {
-    border-color: $danger-10;
+    border-color: $danger-100;
   }
 }
 .media {
