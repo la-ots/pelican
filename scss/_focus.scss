@@ -31,7 +31,7 @@
 }
 .sidebar-nav-item, 
 .sidebar-dropdown-header-expand[role="button"],
-.navbar-icon-links .nav-link, 
+ 
 .official-banner summary,
 .page-link {
   &:focus {
@@ -111,5 +111,16 @@
 
   &:focus-visible{
     outline: none;
+  }
+}
+
+.navbar-icon-links .nav-link {
+  &:focus {
+    @include focus-default;
+  }
+}
+.navbar-toggler {
+  &:focus {
+    @include focus-default;
   }
 }
