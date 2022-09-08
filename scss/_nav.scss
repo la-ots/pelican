@@ -226,7 +226,6 @@
       .nav-link {
         background-color: fade-out($ui, 1);
         border-radius: 4px 4px 0 0;
-        transition: $transition-base;
         color: $white;
     
         .fas {

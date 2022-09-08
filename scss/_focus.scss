@@ -31,7 +31,7 @@
 }
 .sidebar-nav-item, 
 .sidebar-dropdown-header-expand[role="button"],
-.navbar-icon-links .nav-link, 
+ 
 .official-banner summary,
 .page-link {
   &:focus {
@@ -58,43 +58,7 @@
 .close:not(:disabled):not(.disabled):focus {
   opacity: 1;
 }
-.alert .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -7px; left: -8px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.modal-content .close {
-  &:focus {
-    outline: none;
-    &:after {
-      outline: none;
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: 10px; left: 5px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.toast .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -6px; left: -10px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
+
 .brand-link {
   &:focus {
     outline: none;
@@ -139,5 +103,24 @@
       0 0 0 0.2rem $focus-color;
     
       
+  }
+}
+
+.stretched-link:focus{
+  @include focus-box-outline;  
+
+  &:focus-visible{
+    outline: none;
+  }
+}
+
+.navbar-icon-links .nav-link {
+  &:focus {
+    @include focus-default;
+  }
+}
+.navbar-toggler {
+  &:focus {
+    @include focus-default;
   }
 }
