@@ -19,9 +19,6 @@ index: true
           <h2 class="page-title-text">
             <span class="icon fas fa-home" aria-hidden="true"></span>
             Page Title
-            <span class="badge badge-primary">Badge</span>
-            <span class="badge badge-secondary">Badge</span>
-            <span class="badge badge-accent">Badge</span>
             <span class="badge badge-ui">Badge</span>
             <span class="badge badge-success">Badge</span>
             <span class="badge badge-warning">Badge</span>
@@ -197,11 +194,6 @@ index: true
     <div class="row">
       <div class="col-12">
         {%- include 'markup/sample-table.njk' -%}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <hr class="minor">
       </div>
     </div>
     {%- include 'markup/pagination.njk' -%}
