@@ -57,7 +57,7 @@ index: true
     <div class="row">
       <div class="col-12">
         <h2 class="legend">Heading</h2>
-        <p class="font-weight-bold" id="form-section-01-description">Use the minor dividers to signal tight relations among form elements when necessary.</p>
+        <p class="fw-bold" id="form-section-01-description">Use the minor dividers to signal tight relations among form elements when necessary.</p>
       </div>
     </div>
   </div>
@@ -114,7 +114,7 @@ index: true
     <div class="row">
       <div class="col-12">
         <h2 class="legend">Heading</h2>
-        <p class="font-weight-bold" id="form-section-02-description">Form portions 1 and 2 belong together in the same large data set being collected, but each section has fields more tightly related to each other than other members of the form. Let’s ease the reading burden by breaking the form into visually-associated chunks.</p>
+        <p class="fw-bold" id="form-section-02-description">Form portions 1 and 2 belong together in the same large data set being collected, but each section has fields more tightly related to each other than other members of the form. Let’s ease the reading burden by breaking the form into visually-associated chunks.</p>
       </p>
       </div>
     </div>

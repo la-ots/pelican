@@ -24,7 +24,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         <div class="card border-0">
             <div class="bg-success rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Success</p>
+                <p class="mb-0 fw-bold">Success</p>
                 <p class="mb-0"><code>#0d6211</code></p>
                 <p class="mb-0"><code>$success</code></p>
             </div>
@@ -34,7 +34,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         <div class="card border-0">
             <div class="bg-warning rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Warning</p>
+                <p class="mb-0 fw-bold">Warning</p>
                 <p class="mb-0"><code>#ffc107</code></p>
                 <p class="mb-0"><code>$warning</code></p>
             </div>
@@ -44,7 +44,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         <div class="card border-0">
             <div class="bg-danger rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Danger</p>
+                <p class="mb-0 fw-bold">Danger</p>
                 <p class="mb-0"><code>#b00003</code></p>
                 <p class="mb-0"><code>$danger</code></p>
             </div>
@@ -54,7 +54,7 @@ Status colors only add visual meaning. This is not communicated to users with as
         <div class="card border-0">
             <div class="bg-info rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Info</p>
+                <p class="mb-0 fw-bold">Info</p>
                 <p class="mb-0"><code>#004ba1</code></p>
                 <p class="mb-0"><code>$info</code></p>
             </div>
@@ -112,7 +112,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-success rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Success</p>
+                <p class="mb-0 fw-bold">Success</p>
                 <p class="mb-0"><code>#0d6211</code></p>
                 <p class="mb-0"><code>$success</code></p>
             </div>
@@ -122,7 +122,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-success-100 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Success, Lighter</p>
+                <p class="mb-0 fw-bold">Success, Lighter</p>
                 <p class="mb-0"><code>#cbffc8</code></p>
                 <p class="mb-0"><code>$success-100</code></p>
             </div>
@@ -132,7 +132,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-success-900 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Success, Darker</p>
+                <p class="mb-0 fw-bold">Success, Darker</p>
                 <p class="mb-0"><code>#115616</code></p>
                 <p class="mb-0"><code>$success-900</code></p>
             </div>
@@ -147,7 +147,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-warning rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Warning</p>
+                <p class="mb-0 fw-bold">Warning</p>
                 <p class="mb-0"><code>#ffc107</code></p>
                 <p class="mb-0"><code>$warning</code></p>
             </div>
@@ -157,7 +157,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-warning-100 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Warning, Lighter</p>
+                <p class="mb-0 fw-bold">Warning, Lighter</p>
                 <p class="mb-0"><code>#fffbc5</code></p>
                 <p class="mb-0"><code>$warning-100</code></p>
             </div>
@@ -167,7 +167,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-warning-900 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Warning, Darker</p>
+                <p class="mb-0 fw-bold">Warning, Darker</p>
                 <p class="mb-0"><code>#7c420b</code></p>
                 <p class="mb-0"><code>$warning-900</code></p>
             </div>
@@ -182,7 +182,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-danger rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Danger</p>
+                <p class="mb-0 fw-bold">Danger</p>
                 <p class="mb-0"><code>#b00003</code></p>
                 <p class="mb-0"><code>$danger</code></p>
             </div>
@@ -192,7 +192,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-danger-100 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Danger, Lighter</p>
+                <p class="mb-0 fw-bold">Danger, Lighter</p>
                 <p class="mb-0"><code>#ffdcdd</code></p>
                 <p class="mb-0"><code>$danger-100</code></p>
             </div>
@@ -202,7 +202,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-danger-900 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Danger, Darker</p>
+                <p class="mb-0 fw-bold">Danger, Darker</p>
                 <p class="mb-0"><code>#94080a</code></p>
                 <p class="mb-0"><code>$danger-900</code></p>
             </div>
@@ -217,7 +217,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-info rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Info</p>
+                <p class="mb-0 fw-bold">Info</p>
                 <p class="mb-0"><code>#004ba1</code></p>
                 <p class="mb-0"><code>$info</code></p>
             </div>
@@ -227,7 +227,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-info-100 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Info, Lighter</p>
+                <p class="mb-0 fw-bold">Info, Lighter</p>
                 <p class="mb-0"><code>#d1f3ff</code></p>
                 <p class="mb-0"><code>$info-100</code></p>
             </div>
@@ -237,7 +237,7 @@ The Info color indicates informative or helpful information.
         <div class="card border-0">
             <div class="bg-info-900 rounded-top pd-color-block"></div>
             <div class="card-body">
-                <p class="mb-0 font-weight-bold">Info, Darker</p>
+                <p class="mb-0 fw-bold">Info, Darker</p>
                 <p class="mb-0"><code>#94080a</code></p>
                 <p class="mb-0"><code>$info-900</code></p>
             </div>
