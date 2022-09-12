@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Text Area
   parent: Form Controls
-  order: 9
+  order: 11
   excerpt: Textarea allows users to input multiple lines of text into a form.
   img: /img/illustrations/illus-textarea.svg
 ---
