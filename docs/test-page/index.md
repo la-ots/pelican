@@ -65,13 +65,21 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox1" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox1">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
         {%- include 'markup/input-text-plain.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox2" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox2">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -81,21 +89,45 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox3" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox3">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox4" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox4">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/select.njk' -%}
+        <div class="form-group">
+          <label for="select1">Label for Select</label>
+          <select class="custom-select form-select" aria-label="" id="select1">
+            <option selected>&mdash; Select a Numeral &mdash;</option>
+            <option value="1">1 (One)</option>
+            <option value="2">2 (Two)</option>
+            <option value="3">3 (Three)</option>
+          </select>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox5" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox5">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox6" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox6">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" style="margin-top: 2rem;">
