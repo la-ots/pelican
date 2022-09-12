@@ -5,10 +5,11 @@ tags: test-page
 layout: test-page
 index: true
 ---
-
-{%- include 'markup/toast-info.njk'    -%}
-{%- include 'markup/toast-danger.njk'  -%}
-{%- include 'markup/toast-success.njk' -%}
+<div style="position: fixed; right: 10px; top: 20px; z-index: 3000; width: 300px;">
+  {%- include 'markup/toast-info.njk'    -%}
+  {%- include 'markup/toast-danger.njk'  -%}
+  {%- include 'markup/toast-success.njk' -%}
+</div>
 
 <!-- page title -->
 <div class="page-title">
@@ -97,7 +98,7 @@ index: true
         {%- include 'markup/input-text.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" style="margin-top: 2rem;">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show Tooltip</span>
         </button>
@@ -124,7 +125,7 @@ index: true
         {%- include 'markup/input-file.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="And here's some amazing content. It's very engaging. Right?" title="Popover title">
+        <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="And here's some amazing content. It's very engaging. Right?" title="Popover title" style="margin-top: 2rem;">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show popover</span>
         </button>
