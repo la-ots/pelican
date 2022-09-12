@@ -82,6 +82,7 @@ p, li {
   a {
     text-decoration: underline;
     text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
     &[rel="external"],
     &[target="_blank"] {
       &::after {
