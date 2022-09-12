@@ -219,18 +219,18 @@ You’ll change background and text colors by using the following classes. Consu
     <tr>
       <th scope="col" id="brand-color">Brand Color</th>
       <th scope="col" id="background-color">Background Color</th>
-      <th scope="col" id="background-color-class">Background Color Class</th></th>
+      <th scope="col" id="background-color-class">Background Color Class</th>
       <th scope="col" id="text-color">Text Color</th>
-      <th scope="col" id="text-color-class">Text Color Class</th></th>
+      <th scope="col" id="text-color-class">Text Color Class</th>
     </tr>
   </thead>
     <tbody>
       <tr>
         <th scope="row" id="Primary">Primary</th>
-        <td headers="primary background-color" class="h5"><span class="badge badge-primary">bg-primary</span></td>
-        <td headers="primary background-color-class"><code>bg-primary</code></td>
-        <td headers="primary text-color" class="h5"><span class="badge text-primary">text-primary</span></td>
-        <td headers="primary text-color-class"><code>text-primary</code></td>
+        <td headers="Primary background-color" class="h5"><span class="badge badge-primary">bg-primary</span></td>
+        <td headers="Primary background-color-class"><code>bg-primary</code></td>
+        <td headers="Primary text-color" class="h5"><span class="badge text-primary">text-primary</span></td>
+        <td headers="Primary text-color-class"><code>text-primary</code></td>
       </tr>
       <tr>
         <th scope="row" id="Primary-100">Primary-100</th>
