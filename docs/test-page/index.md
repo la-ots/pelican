@@ -5,10 +5,11 @@ tags: test-page
 layout: test-page
 index: true
 ---
-
-{%- include 'markup/toast-info.njk'    -%}
-{%- include 'markup/toast-danger.njk'  -%}
-{%- include 'markup/toast-success.njk' -%}
+<div style="position: fixed; right: 10px; top: 20px; z-index: 3000; width: 300px;">
+  {%- include 'markup/toast-info.njk'    -%}
+  {%- include 'markup/toast-danger.njk'  -%}
+  {%- include 'markup/toast-success.njk' -%}
+</div>
 
 <!-- page title -->
 <div class="page-title">
@@ -64,13 +65,21 @@ index: true
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox1" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox1">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
         {%- include 'markup/input-text-plain.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox2" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox2">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -80,24 +89,48 @@ index: true
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox3" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox3">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox4" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox4">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/select.njk' -%}
+        <div class="form-group">
+          <label for="select1">Label for Select</label>
+          <select class="custom-select form-select" aria-label="" id="select1">
+            <option selected>&mdash; Select a Numeral &mdash;</option>
+            <option value="1">1 (One)</option>
+            <option value="2">2 (Two)</option>
+            <option value="3">3 (Three)</option>
+          </select>
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox5" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox5">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        {%- include 'markup/input-text.njk' -%}
+        <div class="form-group">
+          <label for="inputTextBox6" class="label form-label">Input Text Label</label>
+          <input type="text" class="form-control" id="inputTextBox6">
+          <small>This accepts any kind of alphanumeric characters.</small>
+        </div>
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+        <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" style="margin-top: 2rem;">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show Tooltip</span>
         </button>
@@ -115,7 +148,6 @@ index: true
       <div class="col-12">
         <h2 class="legend">Heading</h2>
         <p class="fw-bold" id="form-section-02-description">Form portions 1 and 2 belong together in the same large data set being collected, but each section has fields more tightly related to each other than other members of the form. Let’s ease the reading burden by breaking the form into visually-associated chunks.</p>
-      </p>
       </div>
     </div>
   </div>
@@ -125,7 +157,7 @@ index: true
         {%- include 'markup/input-file.njk' -%}
       </div>
       <div class="col-12 col-lg-3">
-        <button type="button" class="btn btn-ui btn-sm pd-mt-8" data-toggle="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="And here's some amazing content. It's very engaging. Right?" title="Popover title">
+        <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="And here's some amazing content. It's very engaging. Right?" title="Popover title" style="margin-top: 2rem;">
           <span class="fas fa-question" aria-hidden="true"></span>
           <span class="sr-only visually-hidden">Click to show popover</span>
         </button>

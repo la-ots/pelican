@@ -2,29 +2,6 @@
 layout: base.njk
 ---
 
-<!-- this style is only for the test page -->
-<style scoped>
-  .toast         {
-    position: fixed;
-    right: 10px;
-    z-index: 3000;
-    width: 300px;
-  }
-  .toast-info    {
-    top: 20px;
-  }
-  .toast-danger  {
-    top: 110px;
-  }
-  .toast-success {
-    top: 200px;
-  }
-
-  .pd-mt-8{
-    margin-top: 2rem;
-  }
-</style>
-
 {% include "markup/skip-link.njk" %}
 <div id="page-wrapper" class="page-wrapper agency-theme">
   {% include "sidebar.njk" %}
@@ -32,7 +9,7 @@ layout: base.njk
     <div class="page-content d-flex flex-column">
       {% include "header.njk" %}
       {% include "markup/breadcrumbs.njk" %}
-      <main id="main" class="main flex-fill" role="main">          
+      <main id="main" class="main flex-fill">          
         {{ content | safe }}
       </main>
       {% include "markup/footer-utility.njk" %}

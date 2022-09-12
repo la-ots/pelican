@@ -43,6 +43,7 @@ Here’s lists of where some of these markup-related changes happened.
 
 - Inputs
 - Checkboxes
+- Date Pickers
 - Radios
 - Selects
 - Switches
