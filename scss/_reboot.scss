@@ -84,7 +84,7 @@ p, li {
     text-decoration-style: dashed;
     text-decoration-thickness: 1px;
     &[rel="external"],
-    &[target="_blank"] {
+    &[target="_blank"]:not(.btn) {
       &::after {
         display: inline-block;
         margin: 0 1px 0 5px;
