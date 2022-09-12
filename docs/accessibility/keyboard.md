@@ -46,7 +46,7 @@ Ensure accessibility, so keep the following in mind:
 
 ## Special Keyboard Uses
 
-Typeaheads/ Selects / Autocompletes
+Typeaheads / Selects / Autocompletes
 
 * Arrow Keys allow users to navigate through presented options
 * Enter activates or selects desired option

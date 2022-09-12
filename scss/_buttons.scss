@@ -116,7 +116,7 @@
   background-color: transparent;
   border: 2px dashed $gray-600;
 
-  div {
+  div, .wrapper {
     @extend .rounded;
     background-color: $ui;
     padding-top: .5rem;
