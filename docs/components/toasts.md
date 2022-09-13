@@ -54,5 +54,13 @@ eleventyNavigation:
 {% include 'markup/toast-info.njk' %}
 ```
 
+**Warning Toast**
+
+{% include 'markup/toast-warning.njk' %}
+
+``` html
+{% include 'markup/toast-warning.njk' %}
+```
+
 ## Resources
 * <a href="https://getbootstrap.com/docs/5.2/components/toasts/" target="_blank">Bootstrap Documentation - Toasts</a>
