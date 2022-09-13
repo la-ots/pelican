@@ -48,7 +48,7 @@ a {
 
 .brand-link {
   &:focus {
-
+    outline: none;
     svg,
     img {
       @include focus-default;
