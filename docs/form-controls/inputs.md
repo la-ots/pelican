@@ -155,13 +155,13 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 - Use on detail pages, not edit pages.
 
 <div class="form-group">
-  <p class="label">Label</p>
+  <p class="label form-label">Label</p>
   <p>Value</p>
 </div>
 
 ``` html
 <div class="form-group">
-  <p class="label">Label</p>
+  <p class="label form-label">Label</p>
   <p>Value</p>
 </div>
 ```
