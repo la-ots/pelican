@@ -21,6 +21,14 @@ eleventyNavigation:
 
 ### Static Text List
 
+<ul class="list-group">
+  <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
+</ul>
+
 ``` html
 <ul class="list-group">
   <li class="list-group-item">An item</li>
@@ -30,17 +38,17 @@ eleventyNavigation:
   <li class="list-group-item">And a fifth one</li>
 </ul>
 ```
-
-<ul class="list-group">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
 
 ### Link List
 
+<div class="list-group" role="list-group">
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">A thirditem</a>
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">A fourth item</a>
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
+</div>
+
 ``` html
 <div class="list-group" role="list-group">
   <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
@@ -50,11 +58,3 @@ eleventyNavigation:
   <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
 </div>
 ```
-
-<div class="list-group" role="list-group">
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A thirditem</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A fourth item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
-</div>
