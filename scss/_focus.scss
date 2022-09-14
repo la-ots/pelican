@@ -21,6 +21,21 @@
   }
 }
 
+@mixin focus-box-outline {
+  box-shadow: none;
+  outline: none;
+
+  &:before {
+    position: absolute;
+    content: '';
+    border: .25rem solid $focus-color;
+    top: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    bottom: -.5rem;
+  }
+}
+
 // Cover all interactable elements with default focus
 select,
 textarea,
@@ -49,6 +64,7 @@ a {
 .brand-link {
   &:focus {
     outline: none;
+
     svg,
     img {
       @include focus-default;
@@ -62,8 +78,7 @@ a {
   }
 }
 
-.form-check-input {
-
+.toggle-token > .form-check-input {
   &:focus,
   &.focus {
     +.form-check-label {
