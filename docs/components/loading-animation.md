@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Loading Animation
   parent: Components
-  order: 180
+  order: 190
   excerpt: The Loading Animation informs the system is getting data.
   img: /img/illustrations/illus-loading.svg
 ---

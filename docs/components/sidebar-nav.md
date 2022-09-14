@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Sidebar with Navigation
   parent: Components
-  order: 270
+  order: 280
   excerpt: Contains and organizes all of the navigation for your web app.
   img: /img/illustrations/illus-sidebar-nav.svg
 ---

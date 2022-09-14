@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Tabbed Content
   parent: Components
-  order: 280
+  order: 300
   excerpt: Tabs group related content, allowing users to see only what they want to see. 
   img: /img/illustrations/illus-tabbed-content.svg
 ---

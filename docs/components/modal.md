@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Modal
   parent: Components
-  order: 190
+  order: 200
   excerpt: Modals stop the user for an important change or decision.
   img: /img/illustrations/illus-modals.svg
 ---

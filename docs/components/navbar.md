@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Navbar
   parent: Components
-  order: 200
+  order: 210
   excerpt: Navbars allow users to move around digital products.
   img: /img/illustrations/illus-navbar.svg
 ---
