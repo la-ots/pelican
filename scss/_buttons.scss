@@ -190,8 +190,12 @@ p a {
 
 .btns-previous-next, .btns-previous-forward {
   .container-fluid {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1.675rem;
+    padding-bottom: 1.625rem;
+  }
+  hr.major {
+    margin-top   : .75rem;
+    margin-bottom: 0;
   }
   .btn {
     @extend .btn-lg;

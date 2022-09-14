@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Pagination
   parent: Components
-  order: 230
+  order: 240
   excerpt: Pagination allows users to choose between viewable data sets.
   img: /img/illustrations/illus-pagination.svg
 ---

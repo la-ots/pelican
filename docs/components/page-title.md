@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Page Title
   parent: Components
-  order: 220
+  order: 230
   excerpt: The Page Title block explains the purpose of a page.
   img: /img/illustrations/illus-page-title.svg
 ---

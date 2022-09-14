@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Share & Social
   parent: Components
-  order: 260
+  order: 270
   excerpt: Social Icons allow users to share the page with others.
   img: /img/illustrations/illus-share-social.svg
 ---

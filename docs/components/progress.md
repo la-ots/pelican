@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Progress Indicator
   parent: Components
-  order: 250
+  order: 260
   excerpt: Progress Indicators show users their place in a multi-step process.
   img: /img/illustrations/illus-progress-indicators.svg
 ---

@@ -26,12 +26,14 @@
 .btns-previous-next {
   margin-top: auto;
 }
-.content-area p:not(.lead), .content-area li {
+.content-area p:not(.lead), .content-area li,
+.content-area li:not(:list-group-item) {
   max-width: 80ch;
 }
 .content-area li {
   line-height: 1.5;
 }
-.content-area li:not(:last-child) {
+.content-area li:not(:last-child),
+.content-area li:not(:list-group-item) {
   margin-bottom: .3125rem;
 }

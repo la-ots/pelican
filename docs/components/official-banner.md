@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Official Banner
   parent: Components
-  order: 210
+  order: 220
   excerpt: The Official Banner identifies official Louisiana Government websites.
   img: /img/illustrations/illus-official-banner.svg
 ---

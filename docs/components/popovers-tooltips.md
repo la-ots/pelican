@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Popovers & Tooltips
   parent: Components
-  order: 240
+  order: 250
   excerpt: Popovers & Tooltips provide additional context to users about a connected item.
   img: /img/illustrations/illus-popovers-tooltips.svg
 ---
