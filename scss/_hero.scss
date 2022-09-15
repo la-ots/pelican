@@ -53,9 +53,6 @@
 }
 
 .hero-solo-pane {
-  > .row {
-    //todo @extend .no-gutters;
-  }
   .half-left {
     @extend .bg-image-size-cover;
     @extend .bg-image-position-center;
