@@ -68,10 +68,12 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
 <!-- topbar -->
 <div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
   <p class="m-0 font-weight-bold order-lg-2 mr-auto me-auto">
-    <span class="d-md-none">Digital Product Name</span>
-    <span class="d-none d-md-inline">Current Page Title</span>
+    <a href="#" class="d-md-none text-white text-decoration-none" tabindex="2">
+      <span class="d-md-none">Digital Product Name</span>
+      <span class="d-none d-md-inline">Current Page Title</span>
+    </a>
   </p>
-  <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" tabindex="3">
+  <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" aria-haspop="true" aria-controls="sidebar" tabindex="3">
     <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
     <span class="sr-only visually-hidden">Toggle side navigation</span>
   </button>
