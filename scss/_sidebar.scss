@@ -77,12 +77,12 @@
 .sidebar-wrapper {
   position: fixed;
   top: 0;
+  left: -260px;
   z-index: 1000;
   width: 260px;
   height: 100%;
   max-height: 100%;
   transition: left 250ms ease-in-out;
-  left: -260px;
   visibility: hidden;
 
   .toggled & {
