@@ -62,10 +62,16 @@ let slideDown = (target, duration = 500) => {
 
 sidebar.ontransitionend = () => {
   //insert menu hidding behavior
-  if (sidebar.offsetLeft == 0)
+  if (sidebar.offsetLeft == 0) {
     sidebar.setAttribute("aria-hidden", "false");
-  else
+    sidebar.removeAttribute("inert");
+    sidebar.setAttribute("aria-expanded", "true");
+  }
+  else {
     sidebar.setAttribute("aria-hidden", "true");
+    sidebar.setAttribute("inert", "inert");
+    sidebar.setAttribute("aria-expanded", "false");
+  }
 };
 
 if (sidebarButton) {
