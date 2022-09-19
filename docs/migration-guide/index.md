@@ -34,10 +34,12 @@ Here’s lists of where some of these markup-related changes happened.
 - Navbars
 - Official Banner
 - Pagination
-- Popovers & Tooltips
+- Popovers &amp; Tooltips
 - Progress Indicator, Large
+- Sidebar (part of App Screen)
 - Tabbed Content
 - Toasts
+- Topbar(part of App Screen)
 
 ### Form Controls
 
