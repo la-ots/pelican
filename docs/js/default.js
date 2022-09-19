@@ -60,19 +60,24 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
-sidebar.ontransitionend = () => {
+function menuA11Y() {
   //insert menu hidding behavior
   if (sidebar.offsetLeft == 0) {
     sidebar.setAttribute("aria-hidden", "false");
     sidebar.removeAttribute("inert");
+    sidebar.setAttribute("visibility", "visible");
     sidebar.setAttribute("aria-expanded", "true");
   }
   else {
     sidebar.setAttribute("aria-hidden", "true");
     sidebar.setAttribute("inert", "inert");
+    sidebar.removeAttribute("visibility");
     sidebar.setAttribute("aria-expanded", "false");
   }
 };
+
+sidebar.ontransitionend = menuA11Y;
+menuA11Y();
 
 if (sidebarButton) {
   sidebarButton.onclick = () => {
