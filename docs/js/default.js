@@ -71,7 +71,7 @@ function menuA11Y() {
   else {
     sidebar.setAttribute("aria-hidden", "true");
     sidebar.setAttribute("inert", "inert");
-    sidebar.removeAttribute("visibility");
+    sidebar.setAttribute("visibility", "hidden");
     sidebar.setAttribute("aria-expanded", "false");
   }
 };
