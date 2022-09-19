@@ -60,7 +60,6 @@ let slideDown = (target, duration = 500) => {
 
 sidebar.ontransitionend = () => {
   //insert menu hidding behavior
-  console.dir(sidebar);
   if(sidebar.offsetLeft < 0)
     sidebar.setAttribute("display", "none");
 };
