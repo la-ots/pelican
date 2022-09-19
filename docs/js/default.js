@@ -58,14 +58,18 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
+sidebar.ontransitionstart = () => {
+  //insert menu showing behavior
+  sidebar.style.display = "block";
+};
 sidebar.ontransitionend = () => {
   //insert menu hidding behavior
   if(sidebar.offsetLeft < 0)
-    sidebar.setAttribute("display", "none");
+    sidebar.style.display = "none";
 };
 if (sidebarButton) {
   sidebarButton.onclick = () => {
-    sidebar.setAttribute("display", "block");
+    sidebar.style.display = "block";
     pageWrapper.classList.toggle("toggled");
   };
 }
