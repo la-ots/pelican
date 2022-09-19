@@ -92,11 +92,9 @@
 @include media-breakpoint-up(md) {
   .sidebar-wrapper {
     left: 0;
-    display: block;
   }
   .toggled .sidebar-wrapper {
     left: -260px;
-    display: none;
   }
 }
 

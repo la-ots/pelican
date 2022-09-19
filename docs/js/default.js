@@ -1,4 +1,5 @@
 let pageWrapper = document.getElementById("page-wrapper");
+let sidebar = document.getElementById("sidebar");
 let sidebarButton = document.getElementById("sidebar-button");
 let sidebarDropdownLink = document.querySelectorAll(".sidebar-dropdown-header-expand");
 let scrollToTop = document.getElementById("ScrollToTop");
@@ -57,8 +58,15 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
+sidebar.ontransitionend = () => {
+  //insert menu hidding behavior
+  console.dir(sidebar);
+  if(sidebar.offsetLeft < 0)
+    sidebar.setAttribute("display", "none");
+};
 if (sidebarButton) {
   sidebarButton.onclick = () => {
+    sidebar.setAttribute("display", "block");
     pageWrapper.classList.toggle("toggled");
   };
 }
