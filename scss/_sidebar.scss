@@ -83,6 +83,7 @@
   max-height: 100%;
   transition: left 250ms ease-in-out;
   left: -260px;
+  visibility: hidden;
 
   .toggled & {
     left: 0;
@@ -97,6 +98,7 @@
   }
   .toggled .sidebar-wrapper {
     left: -260px;
+    visibility: hidden;
   }
 }
 
