@@ -18,6 +18,7 @@ let slideUp = (target, duration = 500) => {
   target.style.marginBottom = 0;
   window.setTimeout(() => {
     target.style.display = "none";
+    target.setAttribute("aria-hidden", "true");
     target.style.removeProperty("height");
     target.style.removeProperty("padding-top");
     target.style.removeProperty("padding-bottom");
@@ -34,6 +35,7 @@ let slideDown = (target, duration = 500) => {
   let display = window.getComputedStyle(target).display;
   if (display === "none") display = "block";
   target.style.display = display;
+  target.setAttribute("aria-hidden", "false");
   let height = target.offsetHeight;
   target.style.overflow = "hidden";
   target.style.height = 0;
@@ -58,18 +60,16 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
-sidebar.ontransitionstart = () => {
-  //insert menu showing behavior
-  sidebar.style.display = "block";
-};
 sidebar.ontransitionend = () => {
   //insert menu hidding behavior
-  if(sidebar.offsetLeft < 0)
-    sidebar.style.display = "none";
+  if (sidebar.offsetLeft == 0)
+    sidebar.setAttribute("aria-hidden", "false");
+  else
+    sidebar.setAttribute("aria-hidden", "true");
 };
+
 if (sidebarButton) {
   sidebarButton.onclick = () => {
-    sidebar.style.display = "block";
     pageWrapper.classList.toggle("toggled");
   };
 }
