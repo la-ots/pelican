@@ -73,6 +73,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
   </p>
   <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" tabindex="3">
     <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
+    <span class="sr-only visually-hidden">Toggle side navigation</span>
   </button>
 </div>
 <!-- / topbar -->
