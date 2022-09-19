@@ -71,7 +71,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
     <span class="d-md-none">Digital Product Name</span>
     <span class="d-none d-md-inline">Current Page Title</span>
   </p>
-  <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button">
+  <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" tabindex="3">
     <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
   </button>
 </div>
