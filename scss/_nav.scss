@@ -27,7 +27,7 @@
 //
 
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $ui-light;
+  border-bottom: $nav-tabs-border-width solid $border-color;
 
   .nav-item {
     margin-right: 0.5rem;
@@ -42,6 +42,10 @@
       color: $ui-light;
       background-color: transparent;
       border-color: transparent;
+    }
+    &:hover {
+      background-color: $white;
+      border-bottom: none;
     }
   }
 
