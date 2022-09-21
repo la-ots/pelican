@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Form Validation
   parent: Form Controls
-  order: 4
+  order: 13
   excerpt: 
   img: /img/illustrations/illus-form-section-header.svg
 ---
