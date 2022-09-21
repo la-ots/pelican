@@ -57,13 +57,6 @@
           }
         }
       }
-
-      &:focus,
-      &.focus {
-        + .form-check-label {
-          @include tab-focus;
-        }
-      }
     }
   }
   .form-check-input[disabled] ~ .form-check-label {
@@ -156,21 +149,6 @@
       z-index: 11;
       color: $white;
     }
-  }
-}
-.custom-control-switch {
-  &:focus,
-  &.focus {
-    border: 1px solid $input-border-color;
-    box-shadow: none;
-  }
-}
-.custom-file-label,
-.custom-file-input,
-.custom-file {
-  &:focus,
-  &.focus {
-    @include tab-focus;
   }
 }
 
