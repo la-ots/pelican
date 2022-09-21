@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Checkboxes
   parent: Form Controls
-  order: 4
+  order: 5
   excerpt: Checkboxes allow users to select one or more options at the same time.
   img: /img/illustrations/illus-checkboxes.svg
 ---

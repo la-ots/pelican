@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Select
   parent: Form Controls
-  order: 9
+  order: 10
   excerpt: Select allows the user to select an option from a group of similar options.
   img: /img/illustrations/illus-select.svg
 ---
