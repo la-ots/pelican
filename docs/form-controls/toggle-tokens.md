@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Toggle Tokens
   parent: Form Controls
-  order: 13
+  order: 12
   excerpt: Toggle Tokens are a styled version of Checkboxes and Radios.
   img: /img/illustrations/illus-toggle-tokens.svg
 ---

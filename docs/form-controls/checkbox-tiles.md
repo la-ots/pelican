@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Checkbox Tiles
   parent: Form Controls
-  order: 6
+  order: 5
   excerpt: Offer users a larger tap target and additional information.
   img: /img/illustrations/illus-checkbox-tile.svg
 ---

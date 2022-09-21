@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Radio Tiles
   parent: Form Controls
-  order: 9
+  order: 8
   excerpt: Radios allow users to select exactly one option from multiple options.
   img: /img/illustrations/illus-radio-tile.svg
 ---
