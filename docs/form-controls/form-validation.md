@@ -11,6 +11,14 @@ eleventyNavigation:
   img: /img/illustrations/illus-form-section-header.svg
 ---
 
+## Best Practices
+
+Form validation helps our users know they’ve given us appropriate information in form fields. Pelican builds in form validation styles but you’ll have to submit the data and run validation yourself. This page is a sample to show you how form validation will look.
+
+- Don’t rely on color alone to convery a form field’s state.
+- Pelican adds icons to help users distinguish between valid and invalid fields.
+- It’s best to validate the form before sending data to the server.
+
 ## Usage
 
 <form class="row g-3 needs-validation" novalidate>
@@ -146,8 +154,8 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/5.2/forms/validation/" target="_blank">Validation</a>
 
+* <a href="https://getbootstrap.com/docs/5.2/forms/validation/" target="_blank">Validation</a>
 
 <script>
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
