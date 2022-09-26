@@ -4,7 +4,9 @@
       <summary class="summary">
         <h2 class="h6 d-inline" id="on-this-page">On this page:</h2>
       </summary>
-      {{content | toc | safe }}
+      <nav aria-labelledby=“on-this-page”>
+        {{content | toc | safe }}
+      </nav>
     </details>
   </div>
 </section>

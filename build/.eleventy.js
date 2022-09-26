@@ -13,7 +13,9 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
 
-  eleventyConfig.addPlugin(pluginToc)
+  eleventyConfig.addPlugin(pluginToc, {
+    wrapper: 'div'
+  })
   eleventyConfig.addPlugin(pluginSyntaxHighlight)
   eleventyConfig.addPlugin(pluginInclusiveLanguage)
   eleventyConfig.addPlugin(pluginReadingTime)

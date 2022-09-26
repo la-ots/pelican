@@ -2,21 +2,25 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12 col-lg-6">
-      <div class="card">
+      <section class="card">
         <div class="card-body">
-          <details open="">
-          <summary class="summary">On this page:</summary>
-            <nav class="toc">
-              <ol>
-                <li><a href="#">Heading X</a>
-                </li>
-                <li><a href="#">Heading X</a>
-                </li>
-              </ol>
+          <details class="page-contents" id="toc">
+            <summary class="summary">
+              <h2 class="h6 d-inline" id="on-this-page">On this page:</h2>
+            </summary>
+            <nav aria-labelledby=“on-this-page”>
+              <div class="toc">
+                <ol>
+                  <li><a href="#">Heading X</a>
+                  </li>
+                  <li><a href="#">Heading X</a>
+                  </li>
+                </ol>
+              </div>
             </nav>
           </details>
         </div>
-      </div>
+      </section>    
     </div>
   </div>
 </div>
