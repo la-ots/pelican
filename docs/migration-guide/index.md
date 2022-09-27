@@ -12,13 +12,17 @@ eleventyNavigation:
 
 ## Migration Guide
 
-Pelican 2 is based upon Bootstrap 5 (BS5). Pelican 1 is based upon Bootstrap 4.6 (BS4). Some of the changes between BS5 and BS4 are markup changes. This means that components in Pelican 2 will be a little different from Pelican 1. 
+Upgrading to Pelican 2 requires a few steps. Here’s what you’ll have to do:
 
-These changes could be different markup structure or different values on the `class` attributes. The CSS of Pelican 2 has been written to provide a smooth transition. Pelican 2 will look almost exactly the same as Pelican 1. Javascript has also been updated. If you notice something broken, please [give us feedback](/feedback/).
+1. Swap Pelican 1 CSS with Pelican 2 CSS.
+2. Update your markup from Pelican 1 markup to Pelican 2 markup.
+3. Update the javascript.
 
-Here’s lists of where some of these markup-related changes happened.
+## Markup Changes
 
-### Components
+The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require some markup changes in a few things.  These changes could be different markup or different `class` values on old markup. Here’s lists of items which have new markup. You’ll need to compare your markup from Pelican 1 to markup for Pelican 2 for the following items.
+
+### Components with new markup
 
 - Alerts
 - App Screen
@@ -41,7 +45,7 @@ Here’s lists of where some of these markup-related changes happened.
 - Toasts
 - Topbar(part of App Screen)
 
-### Form Controls
+### Form Controls with new markup
 
 - Inputs
 - Checkboxes
@@ -51,7 +55,7 @@ Here’s lists of where some of these markup-related changes happened.
 - Switches
 - File Uploads
 
-### Form Templates
+### Form Templates with new markup
 
 - Address Form
 - Change Password
@@ -60,12 +64,12 @@ Here’s lists of where some of these markup-related changes happened.
 - Name
 - Sign In
 
-### Hero Blocks
+### Hero Blocks with new markup
 
 - Dual Pane
 - Text over Color-toned Photo
 
-### Page Templates
+### Page Templates with new markup
 
 - 404 Page, public and internal
 - Error Page, public and internal
