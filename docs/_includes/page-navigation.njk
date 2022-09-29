@@ -19,21 +19,23 @@
 {%- endfor %}
 
 {% if previousPage | length or nextPage | length %}
-<div class="btns-previous-next">
-  <hr class="major"/>
+<div class="btns-previous-next" role="region" aria-label="Move in This Area">
+  <hr class="major">
   <div class="container-fluid">
     <div class="row justify-content-between">
       <div class="col-6 col-md-3">
         {% if previousPage | length %}
         <a href="{{ previousPage.url | url }}" class="btn btn-outline-ui">
-          <span class="fas fa-arrow-left fa-xs mr-1 me-1" aria-hidden="true"></span><span class="sr-only">Go to </span>Previous<span class="sr-only"> screen</span>
+          <span class="fas fa-arrow-left fa-xs mr-1 me-1" aria-hidden="true"></span>
+          Previous
         </a>
         {% endif %}
       </div>
       <div class="col-6 col-md-3 text-right text-end">
         {% if nextPage | length %}
         <a href="{{ nextPage.url | url }}" class="btn btn-primary">
-          <span class="sr-only">Go to </span>Next<span class="sr-only"> screen</span><span class="fas fa-arrow-right fa-xs ml-1 ms-1" aria-hidden="true"></span>
+          Next
+          <span class="fas fa-arrow-right fa-xs ml-1 ms-1" aria-hidden="true"></span>
         </a>
         {% endif %}
       </div>
