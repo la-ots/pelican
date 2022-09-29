@@ -5,7 +5,7 @@ title: Home
 
 {% include 'markup/skip-link.njk' %}
 
-<div class="official-banner">
+<section class="official-banner" role="banner" aria-label="Louisiana.gov Website">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-7">
@@ -14,42 +14,40 @@ title: Home
           <div class="media-body">
             <p class="mt-lg-1 mb-0">An official Louisiana.gov website.
               <button class="expander btn btn-link border-0 bg-transparent shadow-none btn-sm text-white" type="button" data-toggle="collapse" data-target="#collapseExample" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                How do I know?<span class="opacity-50 fas fa-angle-down ml-1 ms-1 ms-1" aria-hidden="true"></span>
+                How do I know?<span class="opacity-50 fas fa-angle-down ml-1 ms-1" aria-hidden="true"></span>
               </button>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="row mt-4 mb-1 collapse" id="collapseExample">
-      <div class="col-12 col-md-6 col-lg-5">
+    <div class="row mt-4 mb-1 collapse" id="collapseExample" role="list">
+      <div class="col-12 col-md-6 col-lg-5" role="list-item" aria-labelledby="official">
         <div class="media">
-          <img src="/img/icon-dot-gov.svg" alt="" class="align-self-start img-official mr-2 me-2">
+          <img src="/img/icon-dot-gov.svg" alt="" class="align-self-start img-official mr-2 me-2" aria-hidden="true">
           <div class="media-body">
-            <p class="mb-0"><span class="font-weight-bolder">The .gov means it&rsquo;s official.</span></p>
-            <p class="mb-0">Louisiana government websites often end in .gov. Before sharing sensitive information, make sure you&rsquo;re on a Louisiana government site.</p>
+            <p id="official" class="mb-0" aria-hidden="true"><span class="fw-bold">The .gov means it’s official.</span></p>
+            <p class="mb-0">Louisiana government websites often end in .gov. Before sharing sensitive information, make sure you’re on a Louisiana government site.</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+      <div class="col-12 col-md-6 col-lg-5 offset-lg-1" role="list-item" aria-labelledby="secure">
         <div class="media">
-          <img src="/img/icon-https.svg" alt="" class="align-self-start img-official mr-2 me-2">
+          <img src="/img/icon-https.svg" alt="" class="align-self-start img-official mr-2 me-2" aria-hidden="true">
           <div class="media-body">
-            <p class="mb-0"><span class="font-weight-bolder">The site is secure. </span></p>
-            <p class="mb-0">The <span class="font-weight-bolder">https://</span> ensures that you are connecting to the official website and that
-              any information you provide is encrypted and transmitted securely.</p>
+            <p id="secure" class="mb-0" aria-hidden="true"><span class="fw-bold">The site is secure. </span></p>
+            <p class="mb-0">The <span class="fw-bold">https</span> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<nav class="navbar navbar-basic">
+<nav class="navbar navbar-basic" aria-label="Site Links">
   <div class="container">
     <h1 class="mb-0">
-      <img class="img-fluid" alt="Pelican Design System logo." src="/img/Pelican-Design-System-Logo.svg">
-      <span class="sr-only">Pelican Design System</span>
+      <img class="img-fluid" alt="Pelican Design System." src="/img/Pelican-Design-System-Logo.svg" role="img">
     </h1>
     <button class="navbar-toggler"
       type="button" data-toggle="collapse" data-target="#navigationItems" data-bs-toggle="collapse" data-bs-target="#navigationItems" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,13 +72,13 @@ title: Home
   </div>
 </nav>
 
-<div class="hero-dual-pane" style="background-image: url('/img/photos/pexels-photo-275030.jpeg');">
+<section class="hero-dual-pane" style="background-image: url('/img/photos/pexels-photo-275030.jpeg');" role="banner" aria-label="Pelican Design System">
   <div class="overlay overlay-left"></div>
   <div class="overlay overlay-right"></div>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10 col-md-7 col-lg-6 text-center text-lg-left text-lg-start">
-        <img src="/img/favicon.png" alt="icon for Pelican, Louisianas Design System." class="logo">
+        <img src="/img/favicon.png" alt="" class="logo" aria-hidden="true">
         <p class="hero-big-text">Pelican</p>
         <p class="hero-lead-text">Louisiana’s Design System</p>
       </div>
@@ -89,21 +87,21 @@ title: Home
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<main id="main" class="content-container pr-0 pl-0 mb-0 text-primary">
-  <div class="container">
+<main id="main" class="content-container pr-0 pl-0 mb-0 text-primary" aria-label="Explaining Pelican">
+  <div class="container" aria-label="What’s in Pelican?" role="region">
     <div class="row">
       <div class="col-12">
-        <h2 class="h2">What’s in Pelican?</h2>
+        <h2 class="h2" id="inpelican">What’s in Pelican?</h2>
         <p class="lead opacity-75">Pelican is a design system. It has user experience guidance and reusable code patterns for creating easy-to-use, standardized digital products for Louisiana’s people.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row" role="list">
       <div class="col-12 col-md-4">
-        <div class="card border-0">
+        <div class="card border-0" role="listitem" aria-labelledby="foundation">
           <div class="card-body">
-            <h3 class="h3 fw-normal">
+            <h3 class="h3 fw-normal" id="foundation">
               <span class="opacity-50 fas fa-layer-group mr-1 me-1" aria-hidden="true"></span>Foundation
             </h3>
             <p class="opacity-75">Pelican is built on small parts working together. These parts are explained so all projects can build upon Pelican successfully.</p>
@@ -114,9 +112,9 @@ title: Home
         </div>
       </div>
       <div class="col-12 col-md-4">
-        <div class="card border-0">
+        <div class="card border-0" role="listitem" aria-labelledby="accessibility">
           <div class="card-body">
-            <h3 class="h3 fw-normal">
+            <h3 class="h3 fw-normal" id="accessibility">
               <span class="opacity-50 fas fa-universal-access mr-1 me-1" aria-hidden="true"></span>Accessibility
             </h3>
             <p class="opacity-75">Louisiana wants to serve all of its citizens and residents. Anyone should be able to use Louisiana’s digital products to complete their tasks.</p>
@@ -127,9 +125,9 @@ title: Home
         </div>
       </div>
       <div class="col-12 col-md-4">
-        <div class="card border-0">
+        <div class="card border-0" role="listitem" aria-labelledby="components">
           <div class="card-body">
-            <h3 class="h3 fw-normal">
+            <h3 class="h3 fw-normal" id="components">
               <span class="opacity-50 fas fa-puzzle-piece mr-1 me-1" aria-hidden="true"></span>Components
             </h3>
             <p class="opacity-75">Don’t rebuild every time you need something. Start with common user interface items which solve common problems.</p>
@@ -141,56 +139,54 @@ title: Home
       </div>
     </div>
   </div>
-  <div class="container mt-12">
+  <div class="container mt-12" aria-label="What’s a Design System?" role="region">
     <div class="row">
       <div class="col-12">
-        <h2 class="h2">What’s a design system?</h2>
+        <h2 class="h2" id="whatsds">What’s a design system?</h2>
         <p class="lead opacity-75">Design systems provide solutions to common problems digital teams face. They combine UX principles, interface components, and code. Teams work faster, design better, and focus on new problems instead of old ones.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row" role="list">
       <div class="col-12 col-md-6">
-        <div class="d-flex flex-column flex-lg-row p-4 rounded">
+        <div class="d-flex flex-column flex-lg-row p-4 rounded" role="listitem" aria-labelledby="consistent">
           <div class="bg-ui-light opacity-50 d-flex flex-column justify-content-center align-items-center my-0 mx-auto flex-grow-0 flex-shrink-0 rounded-circle h2" style="width:6rem; height:6rem;">
             <span class="fas fa-users" aria-hidden="true"></span>
           </div>
           <div class="my-0 mr-0 ml-2 me-0 ms-2">
-            <h3 class="h4 fw-normal">Consistent user experiences</h3>
+            <h3 class="h4 fw-normal" id="consistent">Consistent user experiences</h3>
             <p class="opacity-75">Services and products that use the design system feel the same, even when they have their own identity. This puts the focus on what Louisianians need to do.</p>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6">
-        <div class="d-flex flex-column flex-lg-row p-4 rounded">
+        <div class="d-flex flex-column flex-lg-row p-4 rounded" role="listitem" aria-labelledby="shared">
           <div class="bg-ui-light opacity-50 d-flex flex-column justify-content-center align-items-center my-0 mx-auto flex-grow-0 flex-shrink-0 rounded-circle h2" style="width:6rem; height:6rem;">
             <span class="fas fa-comments" aria-hidden="true"></span>
           </div>
           <div class="my-0 mr-0 ml-2 me-0 ms-2">
-            <h3 class="h4 fw-normal">Shared vocabulary</h3>
+            <h3 class="h4 fw-normal" id="shared">Shared vocabulary</h3>
             <p class="opacity-75">A common language for components, patterns, and conventions increases collaboration within and across teams.</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mt-md-4" role="listitem" aria-labelledby="leverage">
         <div class="d-flex flex-column flex-lg-row p-4 rounded">
           <div class="bg-ui-light opacity-50 d-flex flex-column justify-content-center align-items-center my-0 mx-auto flex-grow-0 flex-shrink-0 rounded-circle h2" style="width:6rem; height:6rem;">
             <span class="fas fa-code" aria-hidden="true"></span>
           </div>
           <div class="my-0 mr-0 ml-2 me-0 ms-2">
-            <h3 class="h4 fw-normal">Leverage best practices</h3>
+            <h3 class="h4 fw-normal" id="leverage">Leverage best practices</h3>
             <p class="opacity-75">Pelican uses tried-and-true best practices and allows other teams to use them. it uses industry standards, academic research, and government regulations.</p>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mt-md-4" role="listitem" aria-labelledby="effective">
         <div class="d-flex flex-column flex-lg-row p-4 rounded">
           <div class="bg-ui-light opacity-50 d-flex flex-column justify-content-center align-items-center my-0 mx-auto flex-grow-0 flex-shrink-0 rounded-circle h2" style="width:6rem; height:6rem;">
             <span class="fas fa-chart-bar" aria-hidden="true"></span>
           </div>
           <div class="my-0 mr-0 ml-2 me-0 ms-2">
-            <h3 class="h4 fw-normal">Effective resource usage</h3>
+            <h3 class="h4 fw-normal" id="effective">Effective resource usage</h3>
             <p class="opacity-75">With common problems already solved, designers and developers can speed through the basics, doing more with less time and budget.</p>
           </div>
         </div>
@@ -199,7 +195,7 @@ title: Home
   </div>
 </main>
 
-<div class="feature-cta feature-cta-home bg-texture-accent">
+<section class="feature-cta feature-cta-home bg-texture-accent" role="region" aria-label="Get Started">
   <div class="container">
       <div class="row justify-content-center align-items-center">
           <div class="col-10 col-md-6 col-lg-5 offset-lg-1 text-center text-lg-left text-lg-start">
@@ -207,20 +203,20 @@ title: Home
           </div>
           <div class="col-10 col-md-6 col-lg-5 text-center text-lg-right text-lg-end">
               <a href="/get-started/" class="btn btn-white btn-lg">
-                Get started<span class="fas fa-arrow-right ml-1 ms-1" aria-hidden="true"></span>
+                Get Started<span class="fas fa-arrow-right ml-1 ms-1" aria-hidden="true"></span>
               </a>
           </div>
       </div>
   </div>
-</div>
+</section>
 
-<footer class="footer footer-basic mt-0">
-  <div class="container" role="navigation" aria-label="Footer navigation" id="FooterNavigation">
-    <div class="links-wrapper" role="navigation">
-      <a class="btn btn-link" href="https://pelican.ots.la.gov/">Pelican</a>
-      <a class="btn btn-link" href="/accessibility/accessibility-statement/">Accessibility Statement</a>
+<footer class="footer footer-basic mt-0" id="FooterNavigation">
+  <div class="container" >
+    <nav class="links-wrapper" aria-label="Footer Links">
       <a class="btn btn-link" href="https://www.doa.la.gov/doa/ots/" target="blank">Office of Technology Services</a>
-      <a class="btn btn-link" href="/feedback/">Feedback</a>
-    </div>
+      <a class="btn btn-link" href="/accessibility/accessibility-statement/">Accessibility Statement</a>
+      <a class="btn btn-link" href="https://pelican.ots.la.gov/">Pelican Home</a>
+      <a class="btn btn-link" href="/feedback/">Give Feedback</a>
+    </nav>
   </div>
 </footer>
