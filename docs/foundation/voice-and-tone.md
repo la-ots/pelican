@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-Let’s improve writing consistency across all of Louisiana’s digital products. The advice in this document are guidelines, not official rules. If your agency or department follows its own specific style guide, continue to use it. This is a living document and can be revised as needed. We take our guidance from the <a href="https://content-guide.18f.gov/" target="_blank">18F Content Guide</a>.
+Let’s improve writing consistency across all of Louisiana’s digital products. The advice in this document are guidelines, not official rules. If your agency or department follows its own specific style guide, continue to use it. This is a living document and can be revised as needed. We take our guidance from the [18F Content Guide](https://content-guide.18f.gov/).
 
 ## Voice and Tone
 

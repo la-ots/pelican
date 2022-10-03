@@ -22,7 +22,7 @@ eleventyNavigation:
 - Use the appropriate type of input for the data being gathered.
 - Ensure the `for` and `id` attributes have matching values.
 
-We currently show 8 of the <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">22 types of inputs</a>.
+We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/html_form_input_types.asp).
 
 ## Usage
 **Input Type: Text**
