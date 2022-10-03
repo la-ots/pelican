@@ -21,7 +21,7 @@ eleventyNavigation:
 <div class="row mb-6">
   <div class="col-lg-6">
     <p class="mb-2"><em>A clear example:</em></p>
-    Search engines allow us to find<a href="https://www.google.com/search?q=cats" target="_blank"> information about cats</a>.
+    Search engines allow us to find <a href="https://www.google.com/search?q=cats" target="_blank">information about cats</a>.
   </div>
   <div class="col-lg-6">
     <p class="mb-2"><em>An unclear example:</em></p>
