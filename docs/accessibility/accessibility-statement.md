@@ -31,4 +31,4 @@ Our ongoing accessibility efforts work toward making Pelican as accessible as po
 
 ## Resources
 
-- <a href="https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html" target="_blank">Census.gov 2012 </a>
+- [Census.gov 2012](https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html)

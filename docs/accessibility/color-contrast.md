@@ -128,5 +128,5 @@ eleventyNavigation:
 </div>
 
 ## Resources
-* <a href="https://webaim.org/resources/contrastchecker/" target="_blank">WebAIM Contrast Checker</a>
-* <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG - Web Content Accessibility Guidelines</a>
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+* [WCAG - Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)

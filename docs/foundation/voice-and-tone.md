@@ -97,5 +97,5 @@ Avoid these things:
 
 ## Resources
 
-- <a href="https://content-guide.18f.gov/our-style/" target="_blank">18F Content Guide</a>
-- <a href="https://www.plainlanguage.gov/" target="_blank">Plain Language</a>
+- [18F Content Guide](https://content-guide.18f.gov/our-style/)
+- [Plain Language](https://www.plainlanguage.gov/)

@@ -28,4 +28,4 @@ eleventyNavigation:
 
 ## Resources
 
-- <a href="https://getbootstrap.com/docs/5.2/components/pagination/" target="_blank">Bootstrap Pagination</a>
+- [Bootstrap Pagination](https://getbootstrap.com/docs/5.2/components/pagination/)

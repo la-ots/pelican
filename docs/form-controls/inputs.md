@@ -168,7 +168,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 
 ## Resources
 
-* <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">W3Schools.com - 22 Types of Inputs</a>
-* <a href="https://www.section508.gov/" target="_blank">Section 508 Guidelines</a>
-* <a href="https://www.w3.org/TR/WCAG21/" target="_blank">Web Content Accessibility Guidelines (WCAG)</a>
-* <a href="https://getbootstrap.com/docs/5.2/forms/overview/" target="_blank">Bootstrap Documentation - Forms</a>
+* [W3Schools.com - 22 Types of Inputs](https://www.w3schools.com/html/html_form_input_types.asp)
+* [Section 508 Guidelines](https://www.section508.gov/)
+* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+* [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/overview/)

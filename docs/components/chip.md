@@ -28,4 +28,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/5.2/components/badge/" target="_blank">Bootstrap Documentation - Badges</a>
+* [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.2/components/badge/)

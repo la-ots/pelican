@@ -60,4 +60,4 @@ Modal
 
 
 ## Resources
-* <a href="https://webaim.org/techniques/keyboard/" target="_blank">WebAIM - Keyboard Accessibility</a>
+* [WebAIM - Keyboard Accessibility](https://webaim.org/techniques/keyboard/)

@@ -25,7 +25,7 @@ Users who rely on keyboard navigation need a way to skip past navigation element
 ```
 
 ## Resources
-* <a href="https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/" target="_blank">Skip Links: Skip to Main Content by NC State University</a>
-* <a href="https://webaim.org/techniques/keyboard/tabindex" target="_blank">Skip Links: WebAIM Keyboard Accessibility via Tabindex</a>
-* <a href="https://webaim.org/techniques/skipnav/" target="_blank">WebAIM Skip Navigation Links</a>
+* [Skip Links: Skip to Main Content by NC State University](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/)
+* [Skip Links: WebAIM Keyboard Accessibility via Tabindex](https://webaim.org/techniques/keyboard/tabindex)
+* [WebAIM Skip Navigation Links](https://webaim.org/techniques/skipnav/)
 

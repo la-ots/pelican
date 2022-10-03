@@ -36,7 +36,7 @@ These two boxes have margins around them and padding inside of them.
 
 ## Padding and Margin Classes
 
-Padding and Margin can be applied to individual sides, to top and bottom at the same, or the left and right at the same time. Padding left and right have been changed to padding start and padding end, based upon the flex direction. Be sure to consult <a href="https://getbootstrap.com/docs/5.2/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a> for additional spacing abilities like responsive spacing and flex direction. 
+Padding and Margin can be applied to individual sides, to top and bottom at the same, or the left and right at the same time. Padding left and right have been changed to padding start and padding end, based upon the flex direction. Be sure to consult [Bootstrap’s Spacing Utilities](https://getbootstrap.com/docs/5.2/utilities/spacing/) for additional spacing abilities like responsive spacing and flex direction. 
 
 Replace `n` with any number from 0 to 40. Replacing `n` with `0` applies zero spacing. Each successive number from `1` to `40` adds a multiple of 4 pixels (based on .25 rem) of space to the previous number (based on Bootstrap's defined spacer variable).
 
@@ -62,4 +62,4 @@ For example, `mb-5` adds 1.25 rem (20 pixels) while `mb-6` adds 1.5 rem (24 pixe
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.2/utilities/spacing/" target="_blank">Bootstrap’s Spacing Utilities</a>
+* [Bootstrap’s Spacing Utilities](https://getbootstrap.com/docs/5.2/utilities/spacing/)

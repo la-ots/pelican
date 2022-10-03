@@ -63,4 +63,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/5.2/components/toasts/" target="_blank">Bootstrap Documentation - Toasts</a>
+* [Bootstrap Documentation - Toasts](https://getbootstrap.com/docs/5.2/components/toasts/)

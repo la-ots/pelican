@@ -155,7 +155,7 @@ Form validation helps our users know they’ve given us appropriate information 
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.2/forms/validation/" target="_blank">Validation</a>
+* [Validation](https://getbootstrap.com/docs/5.2/forms/validation/)
 
 <script>
   // Fetch all the forms we want to apply custom Bootstrap validation styles to

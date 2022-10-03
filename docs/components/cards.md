@@ -73,4 +73,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.2/components/card/" target="_blank">Bootstrap Documentation - Cards</a>
+* [Bootstrap Documentation - Cards](https://getbootstrap.com/docs/5.2/components/card/)

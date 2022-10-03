@@ -33,4 +33,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.2/components/breadcrumb/" target="_blank">Bootstrap Documentation - Breadcrumb</a>
+* [Bootstrap Documentation - Breadcrumb](https://getbootstrap.com/docs/5.2/components/breadcrumb/)

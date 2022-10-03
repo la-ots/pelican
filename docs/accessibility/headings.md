@@ -51,4 +51,4 @@ To use Headings properly
 
 ## Resources
 
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">Heading Elements</a>
+- [Heading Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)

@@ -27,4 +27,4 @@ eleventyNavigation:
 {% include 'markup/button-container.njk' %}
 ```
 ## Resources
-* <a href="https://getbootstrap.com/docs/5.2/components/buttons/" target="_blank">Bootstrap Documentation - Buttons</a>
+* [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
