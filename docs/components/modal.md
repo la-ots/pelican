@@ -33,4 +33,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/5.2/components/modal/" target="_blank">Bootstrap Documentation - Modal</a>
+* [Bootstrap Documentation - Modal](https://getbootstrap.com/docs/5.2/components/modal/)

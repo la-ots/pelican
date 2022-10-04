@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best practices
 
-- Here’s the <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank">Font Awesome icons we can use</a>.
+- Here’s the [Font Awesome icons we can use](https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free).
 - Choose the clearest icon for what’s being communicated. 
 - Be consistent when using icons in projects. 
 - Do not use the same icon for two different functions.
@@ -38,4 +38,4 @@ eleventyNavigation:
 
 ## Resources
 
-* <a href="https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free" target="_blank">FontAwesome Icon List</a>
+* [FontAwesome Icon List](https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free)

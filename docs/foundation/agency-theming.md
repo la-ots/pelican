@@ -117,5 +117,5 @@ To prevent ambiguity in this situation, you could try one of a few strategies:
 
 ## Resources
 
-- <a href="https://www.section508.gov/" target="_blank">Section 508</a>
-- <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG Standards</a>
+- [Section 508](https://www.section508.gov/)
+- [WCAG Standards](https://www.w3.org/TR/WCAG21/)

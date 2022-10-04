@@ -44,4 +44,4 @@ eleventyNavigation:
 ```
 
 ## Resources
-* <a href="https://getbootstrap.com/docs/5.2/utilities/spacing/" target="_blank">Bootstrap Spacing Utilities</a>
+* [Bootstrap Spacing Utilities](https://getbootstrap.com/docs/5.2/utilities/spacing/)

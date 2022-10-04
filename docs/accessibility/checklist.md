@@ -60,8 +60,8 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 
 This checklist is heavily inspired by University of Washington’s Accessibility Checklist.
 
-- <a href="https://accessibility.digital.gov/" target="_blank">Digital.gov’s Accessibility for Teams </a>
-- <a href="https://www.washington.edu/accessibility/checklist/" target="_blank">University of Washington’s Accessibility Checklist</a>
-- <a href="https://accessibility.digital.gov/visual-design/getting-started/" target="_blank">Visual Design Guidance by Digital.gov </a>
-- <a href="https://accessibility.digital.gov/front-end/getting-started/" target="_blank">Accessibility for Front-End Developers </a>
-- <a href="https://alistapart.com/article/accessibilityseo" target="_blank">Accessibility Leads to SEO Wins </a>
+- [Digital.gov’s Accessibility for Teams](https://accessibility.digital.gov/)
+- [University of Washington’s Accessibility Checklist](https://www.washington.edu/accessibility/checklist/)
+- [Visual Design Guidance by Digital.gov](https://accessibility.digital.gov/visual-design/getting-started/)
+- [Accessibility for Front-End Developers](https://accessibility.digital.gov/front-end/getting-started/)
+- [Accessibility Leads to SEO Wins](https://alistapart.com/article/accessibilityseo)

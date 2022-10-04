@@ -310,4 +310,4 @@ The Status Colors are implemented as background colors and as text colors. The c
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.2/utilities/colors/" target="_blank">Bootstrap Documentation - Color</a>
+* [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/utilities/colors/)

@@ -12,4 +12,4 @@ eleventyNavigation:
 
 ## Make Pelican Better
 
-Please use the <a href="https://forms.gle/PunFX8YjXb3iMxd19" target="_blank">Feedback Form</a> to tell us what needs improvement or make suggestions. Business Analysts and Developers, you’re the Product Owners! Get involved.
+Please use the [Feedback Form](https://forms.gle/PunFX8YjXb3iMxd19) to tell us what needs improvement or make suggestions. Business Analysts and Developers, you’re the Product Owners! Get involved.

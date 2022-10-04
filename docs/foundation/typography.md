@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Typeface
 
-Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is available from Google Fonts</a>, it’s ready-to-use in Figma and easy to deploy to a web product.
+Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because [Public Sans is available from Google Fonts](https://fonts.google.com/specimen/Public+Sans), it’s ready-to-use in Figma and easy to deploy to a web product.
 
 ## Headings
 
@@ -86,4 +86,4 @@ Span tags `<span>` allow local text changes without affecting semantics. We can 
 
 ## Resources
 
-* <a href="https://getbootstrap.com/docs/5.2/content/typography/" target="_blank">Bootstrap Documentation - Typography</a>
+* [Bootstrap Documentation - Typography](https://getbootstrap.com/docs/5.2/content/typography/)
