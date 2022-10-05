@@ -13,11 +13,12 @@ eleventyNavigation:
   
 ## Best Practices
 
-Badges are used for information such as:
-
-- Use them to display a piece of data’s related quality, such as a number of notifications.
 - Badges take their size from the parent element.
-- Keep the text in them short and simple.
+- Prefer smaller badges over larger ones to prevent them from being confused with buttons.
+- Keep the text in them short and succint.
+- Use them to display a piece of data’s related quality, such as a number of notifications.
+- Remove the `<span>` with the icon if you don’t need it.
+- Prefer fewer badges on a page element so they don’t create visual noise.
 
 ## Usage
 
