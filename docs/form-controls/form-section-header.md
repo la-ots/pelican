@@ -19,26 +19,27 @@ eleventyNavigation:
 - Put the form section header and its related form fields into the same `.content-container`.
 - Put `role="group"` onto the container which holds the form section.
 - Be sure to consult [Typography and Headings](/foundation/typography/#headings) to ensure you’re using the appropriate heading level.
-
-**Note:** The content container, row, and column are only included to show how the Form Section Header will look. If you already have those in place, you only need the element with “Form Section” as the text.
+- Remove the `role="presentation"` from the markup when you paste it into your project.
 
 ## Usage
 
-<div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
+<div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="legend">Form Section</h2>
-      <p id="form-section-01-description">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
+      <h2 class="legend text-primary mb-1" role="presentation">Header</h2>
+      <p class="mb-1">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
+      <p class="small"><span class="fa fa-asterisk text-danger me-1" aria-hidden="true"></span>An asterisk means we need this information.</p>
     </div>
   </div>
 </div>
 
 ```html
-<div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
+<div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="legend">Form Section</h2>
-      <p id="form-section-01-description">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
+      <h2 class="legend text-primary mb-1" role="presentation">Header</h2>
+      <p class="mb-1">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
+      <p class="small"><span class="fa fa-asterisk text-danger me-1" aria-hidden="true"></span>An asterisk means we need this information.</p>
     </div>
   </div>
 </div>
