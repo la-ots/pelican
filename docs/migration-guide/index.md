@@ -48,6 +48,7 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 
 ### Form Controls with new markup
 
+- Form Section Header
 - Inputs
 - Checkboxes
 - Date Pickers
