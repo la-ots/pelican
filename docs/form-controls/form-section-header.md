@@ -19,7 +19,7 @@ eleventyNavigation:
 - Put the form section header and its related form fields into the same `.content-container`.
 - Put `role="group"` onto the container which holds the form section.
 - Be sure to consult [Typography and Headings](/foundation/typography/#headings) to ensure you’re using the appropriate heading level.
-- Remove the `role="presentation"` from the markup when you paste it into your project.
+- Remove the `role="presentation"` from the `<h2>` markup when you paste it into your project.
 
 ## Usage
 
