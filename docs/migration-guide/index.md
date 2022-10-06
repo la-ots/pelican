@@ -37,6 +37,7 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 - Modals
 - Navbars
 - Official Banner
+- Page Title
 - Pagination
 - Popovers &amp; Tooltips
 - Progress Indicator, Large

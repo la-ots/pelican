@@ -94,10 +94,29 @@ main.main {
   margin-bottom: 1rem;
   border: 0;
   border-bottom: $border-width $border-style $border-color;
-
-  @include media-breakpoint-up(lg) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .badge-primary {
+    background-color: $primary-100;
+    color           : $primary-900;
+  }
+  .badge-secondary {
+    background-color: $secondary-100;
+    color           : $secondary-900;
+  }
+  .badge-accent {
+    background-color: $accent-100;
+    color           : $accent-900;
+  }
+  .badge-ui {
+    background-color: $gray-100;
+    color           : $gray-900;
+  }
+  .badge-success {
+    background-color: $success-100;
+    color           : $success-900;
+  }
+  .badge-info {
+    background-color: $info-100;
+    color           : $info-900;
   }
 }
 .page-title-text {
