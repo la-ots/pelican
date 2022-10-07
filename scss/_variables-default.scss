@@ -13,24 +13,24 @@ $green: #0d6211 !default;
 $green: #0d6211 !default;
 $teal: #20c997 !default;
 $cyan: #9c27b0 !default;
-$text-color: $gray-700;
-$text-color-light: $gray-600;
-$text-color-dark: $gray-900;
-$body-bg: #f7f7f7;
-$body-color: $text-color;
-$focus-color: #2491ff;
-$less-bright: #fbf9f9;
-$primary: $primary-800;
-$secondary: $secondary-800;
-$accent: $accent-500;
-$success: $success-800;
-$warning: $warning-500;
-$danger: $danger-800;
-$info: $info-900;
-$link-color: $info-900;
-$ui: $gray-600;
-$ui-light: $gray-100;
-$ui-priority: $info-800;
+$text-color: $gray-700 !default;
+$text-color-light: $gray-600 !default;
+$text-color-dark: $gray-900 !default;
+$body-bg: #f7f7f7 !default;
+$body-color: $text-color !default;
+$focus-color: #2491ff !default;
+$less-bright: #fbf9f9 !default;
+$primary: $primary-800 !default;
+$secondary: $secondary-800 !default;
+$accent: $accent-500 !default;
+$success: $success-800 !default;
+$warning: $warning-500 !default;
+$danger: $danger-800 !default;
+$info: $info-900 !default;
+$link-color: $info-900 !default;
+$ui: $gray-600 !default;
+$ui-light: $gray-100 !default;
+$ui-priority: $info-800 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -137,9 +137,9 @@ $display1-weight: 300 !default;
 $display2-weight: 300 !default;
 $display3-weight: 300 !default;
 $display4-weight: 300 !default;
-$display5-size: 3rem;
-$display6-size: 2.5rem;
-$display7-size: 2rem;
+$display5-size: 3rem !default;
+$display6-size: 2.5rem !default;
+$display7-size: 2rem !default;
 $display5-weight: 300 !default;
 $display6-weight: 300 !default;
 $display7-weight: 300 !default;
@@ -148,16 +148,16 @@ $headings-margin-bottom: .5rem !default;
 $headings-font-family: "Public Sans" !default;
 $headings-font-weight: 700 !default;
 $headings-line-height: 1.2 !default;
-$lead-font-size: 1.25rem;
-$lead-font-weight: 300;
+$lead-font-size: 1.25rem !default;
+$lead-font-weight: 300 !default;
 $small-font-size: 80% !default;
 $blockquote-small-color: $gray-600 !default;
 $blockquote-small-font-size: $small-font-size !default;
-$blockquote-font-size: $font-size-base;
+$blockquote-font-size: $font-size-base !default;
 
 // ---
 // links
-$link-color: $link-color;
+$link-color: $link-color !default;
 $link-decoration: underline !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
@@ -169,23 +169,23 @@ $emphasized-link-hover-darken-percentage: 15% !default;
 $input-bg: $white !default;
 $input-disabled-bg: $gray-300 !default;
 $input-color: $gray-700 !default;
-$component-active-bg: $ui-priority;
+$component-active-bg: $ui-priority !default;
 $input-border-color: $ui !default;
 $input-box-shadow: inset 0 3px 4px fade-out($ui, 0.75);
-$input-btn-focus-color: $ui-priority;
+$input-btn-focus-color: $ui-priority !default;
 
 // ---
 // modals
-$modal-content-bg: $gray-100;
-$modal-backdrop-bg: $primary;
+$modal-content-bg: $gray-100 !default;
+$modal-backdrop-bg: $primary !default;
 $modal-header-border-color: fade-out($gray-600, 0.75);
 $modal-footer-border-color: fade-out($gray-600, 0.75);
 $modal-backdrop-opacity: 0.75;
 
 // ---
 // borders * border radii
-$border-width: 2px;
-$border-style: solid;
+$border-width: 2px !default;
+$border-style: solid !default;
 $border-color: $gray-300 !default;
 $border-radius: 0.25rem !default;
 $border-radius-lg: 0.3rem !default;
@@ -194,7 +194,7 @@ $border-radius-sm: 0.2rem !default;
 // ---
 // buttons
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius: 8px;
+$btn-border-radius: 8px !default;
 $btn-border-radius-lg: $btn-border-radius !default;
 $btn-border-radius-sm: $btn-border-radius !default;
 
@@ -207,24 +207,24 @@ $navbar-dark-active-color: $white !default;
 // ---
 // nav tabs & pills
 $nav-tabs-link-active-bg     : $white !default;
-$nav-pills-link-active-color : $white;
-$nav-pills-link-active-bg    : $ui-priority;
-$nav-pills-border-radius     : $btn-border-radius;
-$nav-tabs-border-color       : $border-color;
+$nav-pills-link-active-color : $white !default;
+$nav-pills-link-active-bg    : $ui-priority !default;
+$nav-pills-border-radius     : $btn-border-radius !default;
+$nav-tabs-border-color       : $border-color !default;
 
 // ---
 // Cards
-$card-spacer-y: 1rem;
-$card-spacer-x: 1rem;
+$card-spacer-y: 1rem !default;
+$card-spacer-x: 1rem !default;
 $card-border-width: $border-width !default;
 $card-border-radius: $border-radius !default;
-$card-border-color: transparent;
-$card-border-color: $gray-200;
+$card-border-color: transparent !default;
+$card-border-color: $gray-200 !default;
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width}) !default;
 $card-cap-bg: null !default;
 $card-cap-color: null !default;
 $card-color: null !default;
-$card-bg: $white;
+$card-bg: $white !default;
 
 // ---
 // Tooltips
@@ -232,10 +232,10 @@ $tooltip-max-width: 300px !default;
 
 // ---
 // tables
-$table-striped-bg:            $gray-50;
-$table-striped-bg-factor:     0;
-$table-border-width:          1px;
-$table-border-color:          $gray-200;
+$table-striped-bg:            $gray-50 !default;
+$table-striped-bg-factor:     0 !default;
+$table-border-width:          1px !default;
+$table-border-color:          $gray-200 !default;
 
 // ---
 // pagination
@@ -247,7 +247,7 @@ $pagination-disabled-border-color: $gray-600 !default;
 // ---
 // Breadcrumbs
 $breadcrumb-bg: $gray-200 !default;
-$breadcrumb-bg: $body-bg;
+$breadcrumb-bg: $body-bg !default;
 $breadcrumb-active-color: $gray-600 !default;
 $breadcrumb-active-color: $gray-700 !default;
 
@@ -260,17 +260,17 @@ $btn-shadow: 0 0.25rem 0.25rem fade-out($black, 0.7) !default;
 
 // ---
 // toasts
-$toast-box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%);;
+$toast-box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 10%) !default;
 
 // ---
 // animated loading indicator
-$loader-main-color: $primary;
-$loader-secondary-color: $secondary;
+$loader-main-color: $primary !default;
+$loader-secondary-color: $secondary !default;
 
 // ---
 // enables
-$enable-gradients: false;
-$enable-shadows: true;
+$enable-gradients: false !default;
+$enable-shadows: true !default;
 
 // ---
 // z-index values
@@ -294,4 +294,11 @@ $label-margin-bottom:    .5rem !default;
 $table-cell-padding:     .75rem !default;
 $breadcrumb-padding-y:   .75rem !default;
 $breadcrumb-padding-x:   1rem !default;
-$form-label-font-weight: 600;
+$form-label-font-weight: 600 !default;
+
+// sidebar
+$sidebar-background: $primary !default;
+$sidebar-submenu-color: darken($primary, 5%) !default;
+$sidebar-menu-active-hover-color: $info !default;
+$sidebar-border-color: darken($primary, 5%) !default;
+$sidebar-link-color: $white !default;

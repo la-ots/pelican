@@ -291,12 +291,12 @@
 
 .agency-theme .sidebar-wrapper,
 .agency-theme .sidebar-footer {
-  background: $primary;
+  background: $sidebar-background;
 }
 
 .agency-theme .sidebar-wrapper .sidebar-header,
 .agency-theme .sidebar-wrapper .sidebar-search {
-  border-top: 1px solid darken($primary, 15%);
+  border-top: 1px solid $sidebar-border-color;
 }
 
 .agency-theme .sidebar-wrapper .sidebar-search input.search-menu,
@@ -312,7 +312,7 @@
 .agency-theme .sidebar-wrapper .sidebar-brand > a,
 .agency-theme .sidebar-wrapper .sidebar-menu ul li a,
 .agency-theme .sidebar-footer > a {
-  color: $white;
+  color: $sidebar-link-color;
 }
 
 .agency-theme .sidebar-wrapper .sidebar-brand > a:hover {
@@ -327,7 +327,7 @@
 }
 
 .page-wrapper.agency-theme.toggled #close-sidebar:hover {
-  color: #fff;
+  color: $white;
 }
 
 .agency-theme .sidebar-wrapper .sidebar-menu .header-menu span {
@@ -336,7 +336,7 @@
 
 .agency-theme .sidebar-footer {
   padding-top: 4px;
-  border-top: 1px solid darken($primary, 15%);
+  border-top: 1px solid $sidebar-border-color;
 }
 
 .agency-theme .sidebar-footer > a:first-child {
@@ -367,7 +367,7 @@
 
   &:hover,
   &:active {
-    background-color: $info;
+    background-color: $sidebar-menu-active-hover-color;
   }
 }
 
@@ -391,7 +391,7 @@
   &:hover,
   &:active {
     cursor: pointer;
-    background-color: $info;
+    background-color: $sidebar-menu-active-hover-color;
   }
 
   .fas {
@@ -408,7 +408,7 @@
 
 .sidebar-submenu {
   display: none;
-  background-color: darken($primary, 5%);
+  background-color: $sidebar-submenu-color;
 
   > ul {
     .fas,
