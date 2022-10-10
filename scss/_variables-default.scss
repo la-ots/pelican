@@ -292,19 +292,19 @@ $form-label-font-weight: 600 !default;
 // Variables, placeholders for theme color assignments
 
 // skip to main
-$skip-to-main-background-color: $white;
-$skip-to-main-link-color: $primary;
+$skip-to-main-background-color: $white !default;
+$skip-to-main-link-color: $primary !default;
 
 // text selection
-$text-selection-color: lighten($secondary, 35%);
+$text-selection-color: lighten($secondary, 35%) !default;
 
 // breadcrumbs
-$breadcrumb-background-color: $white;
-$breadcrumb-border-color: $gray-200;
+$breadcrumb-background-color: $white !default;
+$breadcrumb-border-color: $gray-200 !default;
 
 // content container
-$content-container-bg: $white;
-$content-container-shadow: 0 1px 1px 0 fade-out($black, .85);
+$content-container-bg: $white !:default;
+$content-container-shadow: 0 1px 1px 0 fade-out($black, .85) !default;
 
 // sidebar
 $sidebar-background: $primary !default;
@@ -313,161 +313,161 @@ $sidebar-menu-active-hover-background-color: $info !default;
 $sidebar-menu-active-hover-text-color: $white;
 $sidebar-border-color: darken($primary, 5%) !default;
 $sidebar-link-color: $white !default;
-$sidebar-brand-background-color: $black;
+$sidebar-brand-background-color: $black !default;
 
 // topbar
-$topbar-background-color: $black;
-$topbar-text-color: $white;
+$topbar-background-color: $black !default;
+$topbar-text-color: $white !default;
 
 //page title
-$page-title-background-color: $white;
-$page-title-title-text-color: $primary;
-$page-title-title-icon-color: $primary-500;
+$page-title-background-color: $white !default;
+$page-title-title-text-color: $primary !default;
+$page-title-title-icon-color: $primary-500 !default;
 
 // buttons, button container, etc
-$button-container-background-color: $white;
-$button-container-border-color: $border-color;
-$button-outline-background-color: $white;
+$button-container-background-color: $white !default;
+$button-container-border-color: $border-color !default;
+$button-outline-background-color: $white !default;
 
 // cards
-$card-background-color: $white;
-$card-background-color-in-content-container: $gray-50;
+$card-background-color: $white !default;
+$card-background-color-in-content-container: $gray-50 !default;
 
 // forms
-$toggle-token-form-check-label-background-color:white;
-$toggle-token-form-check-label-border-color: $ui;
-$toggle-token-form-check-label-icon-color: $ui;
-$toggle-token-form-check-input-checked-text-color: $white;
-$toggle-token-form-check-input-checked-background-color: $ui-priority;
-$toggle-token-form-check-input-checked-border-color: $ui-priority;
-$toggle-token-form-check-input-checked-icon-color: $white;
-$toggle-token-form-check-input-disabled-background-color: $ui-light;
-$toggle-token-form-check-input-disabled-text-color: $ui;
-$toggle-token-form-check-input-disabled-border-color: fade-out($ui, .5);
-$toggle-token-form-check-input-checked-disabled-border-color: transparent;
-$toggle-token-form-check-input-checked-disabled-background-color: fade-out($ui-priority, .5);
-$validated-no-border-color:  $danger;
-$validated-yes-border-color: $success;
-$validated-no-background-color:  $danger;
-$validated-yes-background-color: $success;
-$validated-no-text-color:  $white;
-$validated-yes-text-color: $white;
-$custom-control-input-checked-custom-text-color: $white;
-$check-radio-tile-label-text-color: $gray-700;
-$check-radio-tile-label-border-color: $ui-light;
-$check-radio-tile-label-background-color: $white;
-$check-radio-tile-checked-label-border-color: $ui;
-$check-radio-tile-checked-label-background-color: $ui-light;
-$check-radio-tile-checked-icon-color: $info-900;
-$check-radio-tile-unchecked-dot-color: $white;
-$check-radio-tile-checked-dot-color: $info;
-$form-check-label-background-color: $white;
-$form-check-label-border-color: $ui;
-$form-check-label-icon-color: $ui;
+$toggle-token-form-check-label-background-color:white !default;
+$toggle-token-form-check-label-border-color: $ui !default;
+$toggle-token-form-check-label-icon-color: $ui !default;
+$toggle-token-form-check-input-checked-text-color: $white !default;
+$toggle-token-form-check-input-checked-background-color: $ui-priority !default;
+$toggle-token-form-check-input-checked-border-color: $ui-priority !default;
+$toggle-token-form-check-input-checked-icon-color: $white !default;
+$toggle-token-form-check-input-disabled-background-color: $ui-light !default;
+$toggle-token-form-check-input-disabled-text-color: $ui !default;
+$toggle-token-form-check-input-disabled-border-color: fade-out($ui, .5) !default;
+$toggle-token-form-check-input-checked-disabled-border-color: transparent !default;
+$toggle-token-form-check-input-checked-disabled-background-color: fade-out($ui-priority, .5) !default;
+$validated-no-border-color:  $danger !default;
+$validated-yes-border-color: $success !default;
+$validated-no-background-color:  $danger !default;
+$validated-yes-background-color: $success !default;
+$validated-no-text-color:  $white !default;
+$validated-yes-text-color: $white !default;
+$custom-control-input-checked-custom-text-color: $white !default;
+$check-radio-tile-label-text-color: $gray-700 !default;
+$check-radio-tile-label-border-color: $ui-light !default;
+$check-radio-tile-label-background-color: $white !default;
+$check-radio-tile-checked-label-border-color: $ui !default;
+$check-radio-tile-checked-label-background-color: $ui-light !default;
+$check-radio-tile-checked-icon-color: $info-900 !default;
+$check-radio-tile-unchecked-dot-color: $white !default;
+$check-radio-tile-checked-dot-color: $info !default;
+$form-check-label-background-color: $white !default;
+$form-check-label-border-color: $ui !default;
+$form-check-label-icon-color: $ui !default;
 
 // features
-$feature-cta-single-background-color: $white;
-$feature-cta-single-text-color: $primary;
-$feature-cta-double-background-color: $primary;
-$feature-cta-double-text-color: $white;
-$feature-icons-text-background-color: $secondary;
-$feature-icons-text-text-color: $white;
-$feature-languages-text-color: $primary;
-$feature-languages-background-color: $accent;
-$feature-languages-item-background-color: $white;
-$feature-many-icons-background-color: $primary;
-$feature-many-icons-text-color: $white;
-$feature-background-color: $white;
-$feature-text-color: $primary;
+$feature-cta-single-background-color: $white !default;
+$feature-cta-single-text-color: $primary !default;
+$feature-cta-double-background-color: $primary !default;
+$feature-cta-double-text-color: $white !default;
+$feature-icons-text-background-color: $secondary !default;
+$feature-icons-text-text-color: $white !default;
+$feature-languages-text-color: $primary !default;
+$feature-languages-background-color: $accent !default;
+$feature-languages-item-background-color: $white !default;
+$feature-many-icons-background-color: $primary !default;
+$feature-many-icons-text-color: $white !default;
+$feature-background-color: $white !default;
+$feature-text-color: $primary !default;
 
 // footer
-$footer-basic-background-color: $black;
-$footer-basic-text-color: $white;
-$footer-utility-background-color: $primary;
-$footer-utility-text-color: $accent;
-$footer-utility-divider-background-color: $primary-100;
+$footer-basic-background-color: $black !default;
+$footer-basic-text-color: $white !default;
+$footer-utility-background-color: $primary !default;
+$footer-utility-text-color: $accent !default;
+$footer-utility-divider-background-color: $primary-100 !default;
 
 // hero
-$hero-dual-pane-background-left-overlay-color:  $primary;
-$hero-dual-pane-background-right-overlay-color: $secondary;
-$hero-dual-pane-text-color: $white;
-$hero-solo-pane-background-overlay-color: $primary;
-$hero-solo-pane-text-color: $white;
-$hero-boxed-in-photo-background-color: $white;
-$hero-boxed-in-photo-text-color: $primary;
-$hero-text-color-toned-photo-overlay-color: $primary;
-$hero-text-color-toned-photo-text-color: $white;
-$hero-textbox-over-photo-background-color: $primary;
-$hero-textbox-over-photo-text-color: $white;
+$hero-dual-pane-background-left-overlay-color:  $primary !default;
+$hero-dual-pane-background-right-overlay-color: $secondary !default;
+$hero-dual-pane-text-color: $white !default;
+$hero-solo-pane-background-overlay-color: $primary !default;
+$hero-solo-pane-text-color: $white !default;
+$hero-boxed-in-photo-background-color: $white !default;
+$hero-boxed-in-photo-text-color: $primary !default;
+$hero-text-color-toned-photo-overlay-color: $primary !default;
+$hero-text-color-toned-photo-text-color: $white !default;
+$hero-textbox-over-photo-background-color: $primary !default;
+$hero-textbox-over-photo-text-color: $white !default;
 
 // loading animation
-$loading-animation-wrapper-background-color: rgba(255, 255, 255, 0.35);
-$loading-animation-primary-color: $primary;
-$loading-animation-secondary-color: $secondary;
+$loading-animation-wrapper-background-color: rgba(255, 255, 255, 0.35) !default;
+$loading-animation-primary-color: $primary !default;
+$loading-animation-secondary-color: $secondary !default;
 
 // modal
-$modal-backdrop-bg: $primary;
-$modal-content-background-color: $card-bg;
-$modal-border-color: $card-border-color;
-$modal-title-text-color: $primary;
+$modal-backdrop-bg: $primary !default;
+$modal-content-background-color: $card-bg !default;
+$modal-border-color: $card-border-color !default;
+$modal-title-text-color: $primary !default;
 
 // navs
-$nav-link-disabled-text-color: $ui-light;
+$nav-link-disabled-text-color: $ui-light !default;
 
 // nav tabs
-$nav-tabs-border-color: $border-color;
-$nav-tabs-nav-link-disabled-color: $ui-light;
-$nav-tabs-nav-link-hover-background-color: $white;
-$nav-tabs-nav-link-active-background-color: $nav-tabs-link-active-bg;
-$nav-tabs-nav-link-active-border-color: $border-color;
-$nav-tabs-nav-link-active-text-color: $primary;
+$nav-tabs-border-color: $border-color !default;
+$nav-tabs-nav-link-disabled-color: $ui-light !default;
+$nav-tabs-nav-link-hover-background-color: $white !default;
+$nav-tabs-nav-link-active-background-color: $nav-tabs-link-active-bg !default;
+$nav-tabs-nav-link-active-border-color: $border-color !default;
+$nav-tabs-nav-link-active-text-color: $primary !default;
 
 // nav bar
-$navbar-background-color: $primary;
-$navbar-text-color: $white;
-$navbar-icon-link-border-color: $secondary;
+$navbar-background-color: $primary !default;
+$navbar-text-color: $white !default;
+$navbar-icon-link-border-color: $secondary !default;
 
 // progress
-$progress-large-background-color: $white;
-$progress-large-border-color: $gray-200;
-$progress-large-description-text-color: $primary;
-$progress-large-description-counter-text-color: fade-out($primary, .25);
-$progress-large-step-background-color: $primary;
-$progress-large-step-text-color: $white;
-$progress-large-step-border-color: $primary;
+$progress-large-background-color: $white !default;
+$progress-large-border-color: $gray-200 !default;
+$progress-large-description-text-color: $primary !default;
+$progress-large-description-counter-text-color: fade-out($primary, .25) !default;
+$progress-large-step-background-color: $primary !default;
+$progress-large-step-text-color: $white !default;
+$progress-large-step-border-color: $primary !default;
 
 // dividers, horizontal rules
-$divider-background-color: $gray-200;
+$divider-background-color: $gray-200 !default;
 
 // blockquote
-$blockquote-background-color: fade-out($white, 0.2);
-$blockquote-border-color: fade-out($ui, 0.8);
+$blockquote-background-color: fade-out($white, 0.2) !default;
+$blockquote-border-color: fade-out($ui, 0.8) !default;
 
 // tables
-$table-text-color: $gray-700;
-$table-background-color: $white;
-$table-border-color: $gray-200;
+$table-text-color: $gray-700 !default;
+$table-background-color: $white !default;
+$table-border-color: $gray-200 !default;
 $table-striped-bg:            $gray-50 !default;
 $table-striped-bg-factor:     0 !default;
 $table-border-width:          1px !default;
 
 // toasts
-$toast-header-background-color-success: $success-100;
-$toast-header-text-color-success:       $success-900;
-$toast-header-background-color-danger:  $danger-100;
-$toast-header-text-color-danger:        $danger-900;
-$toast-header-background-color-info:    $info-100;
-$toast-header-text-color-info:          $info-900;
-$toast-header-background-color-warning: $warning-100;
-$toast-header-text-color-warning:       $warning-900;
+$toast-header-background-color-success: $success-100 !default;
+$toast-header-text-color-success:       $success-900 !default;
+$toast-header-background-color-danger:  $danger-100 !default;
+$toast-header-text-color-danger:        $danger-900 !default;
+$toast-header-background-color-info:    $info-100 !default;
+$toast-header-text-color-info:          $info-900 !default;
+$toast-header-background-color-warning: $warning-100 !default;
+$toast-header-text-color-warning:       $warning-900 !default;
 
 // toc table of contents
-$toc-link-color: $link-color;
+$toc-link-color: $link-color !default;
 
 // share social
-$share-social-background-color: $white;
-$share-social-text-color: inherit;
-$share-social-border-color: $ui-light;
+$share-social-background-color: $white !default;
+$share-social-text-color: inherit !default;
+$share-social-border-color: $ui-light !default;
 
 
 
