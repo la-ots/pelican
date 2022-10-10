@@ -48,33 +48,33 @@
   padding-bottom: 4rem;
 }
 .feature-cta {
-  background-color: $white;
+  background-color: $feature-cta-single-background-color;
   padding-top: 9.5rem;
   padding-bottom: 9.5rem;
   .feature-big-text {
     @extend .h2;
     margin-bottom: 1rem;
-    color: $primary;
+    color: $feature-cta-single-text-color;
     @include media-breakpoint-up(md){
       margin-bottom: 0;
     }
   }
   .feature-small-text {
     margin-bottom: 1rem;
-    color: $primary;
+    color: $feature-cta-single-text-color;
     @include media-breakpoint-up(md) {
       margin-bottom: 0;
     }
   }
 }
 .feature-cta-double {
-  background-color: $primary;
+  background-color: $feature-cta-double-background-color;
   padding-top: 5rem;
   padding-bottom: 5rem;
   .feature-big-text {
     @extend .h2;
     margin-bottom: 1rem;
-    color: $white;
+    color: $feature-cta-double-text-color;
   }
   .feature-small-text {
     color: $white;
@@ -97,7 +97,7 @@
 .feature-icons-text {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: $secondary;
+  background-color: $feature-icons-text-background-color;
   .feature-big-text {
     @extend .h2;
     @extend .font-weight-bold;
@@ -107,18 +107,18 @@
   }
   .feature-small-text {
     margin-bottom: 2rem;
-    color: $white;
+    color: $feature-icons-text-text-color;
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
     }
   }
   .feature-icons {
     @extend .display-4;
-    color: $white;
+    color: $feature-icons-text-text-color;
   }
 }
 .feature-languages {
-  background-color: $accent;
+  background-color: $feature-languages-background-color;
   @include media-breakpoint-up(lg) {
     padding: 4rem;
   }
@@ -126,17 +126,17 @@
     @extend .h2;
     //this is redundant from the h2 inheritance above
     @extend .font-weight-bold;
-    color: $primary;
+    color: $feature-languages-text-color;
   }
   .feature-small-text {
-    color: $primary;
+    color: $feature-languages-text-color;
   }
   .feature-item {
     @extend .rounded;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    background-color: $white;
+    background-color: $feature-languages-item-background-color;
     p {
       @extend .h4;
       @extend .fw-light;
@@ -146,8 +146,8 @@
   }
 }
 .feature-many-icons {
-  background-color: $primary;
-  color: $white;
+  background-color: $feature-many-icons-background-color;
+  color: $feature-many-icons-text-color;
   padding: 1rem;
   @include media-breakpoint-up(lg) {
     padding: 4rem;
@@ -155,7 +155,7 @@
   .feature-big-text {
     @extend .h2;
     margin-bottom: 2rem;
-    color: $white;
+    color: $feature-many-icons-text-color;
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
     }
@@ -165,6 +165,7 @@
   }
 }
 .feature-set {
+  background-color: $feature-background-color;
   padding: 1.5rem;
   hr.minor{
     margin-top: 2rem;
@@ -172,7 +173,7 @@
   }
   .feature-big-text {
     @extend .h2;
-    color: $primary;
+    color: $feature-text-color;
   }
   .feature-lead-text {
     margin-bottom: 0;

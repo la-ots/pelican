@@ -57,21 +57,12 @@
   }
 }
 
-.page-wrapper {
-  
-  
-}
-
 .page-wrapper .theme {
   display: inline-block;
   width: 40px;
   height: 40px;
   margin: 2px;
   border-radius: 4px;
-}
-
-.page-wrapper .theme.chiller-theme {
-  background: $primary;
 }
 
 .sidebar-wrapper {
@@ -124,7 +115,7 @@
   align-items: center;
   justify-content: space-between;
   height: 40px;
-  background-color: $black;
+  background-color: $sidebar-brand-background-color;
   img {
     height: 24px;
   }
@@ -244,29 +235,6 @@
   top: 0;
 }
 
-.badge-sonar {
-  position: absolute;
-  top: 0;
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background: #980303;
-  border-radius: 50%;
-}
-
-.badge-sonar::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  border: 2px solid #980303;
-  border-radius: 50%;
-  opacity: 0;
-  animation: sonar 1.5s infinite;
-}
-
 .page-wrapper .page-content {
   display: flex;
   flex-direction: column;
@@ -367,7 +335,8 @@
 
   &:hover,
   &:active {
-    background-color: $sidebar-menu-active-hover-color;
+    background-color: $sidebar-menu-active-hover-background-color;
+    color: $sidebar-menu-active-hover-text-color;
   }
 }
 
@@ -391,7 +360,7 @@
   &:hover,
   &:active {
     cursor: pointer;
-    background-color: $sidebar-menu-active-hover-color;
+    background-color: $sidebar-menu-active-hover-background-color;
   }
 
   .fas {

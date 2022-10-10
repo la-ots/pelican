@@ -16,7 +16,7 @@
   text-decoration: if($link-decoration == none, null, none);
   // Disabled state lightens text
   &.disabled {
-    color: $nav-link-disabled-color;
+    color: $nav-link-disabled-text-color;
     pointer-events: none;
     cursor: default;
   }
@@ -27,7 +27,7 @@
 //
 
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $border-color;
+  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
 
   .nav-item {
     margin-right: 0.5rem;
@@ -39,21 +39,21 @@
     @include border-top-radius($nav-tabs-border-radius);
 
     &.disabled {
-      color: $ui-light;
+      color: $nav-tabs-nav-link-disabled-color;
       background-color: transparent;
       border-color: transparent;
     }
     &:hover {
-      background-color: $white;
+      background-color: $nav-tabs-nav-link-hover-background-color;
       border-bottom: none;
     }
   }
 
   .nav-link.active,
   .nav-item.show .nav-link {
-    color: $nav-tabs-link-active-color;
-    background-color: $nav-tabs-link-active-bg;
-    border-color: $nav-tabs-link-active-border-color;
+    color: $nav-tabs-nav-link-active-text-color;
+    background-color: $nav-tabs-nav-link-active-background-color;
+    border-color: $nav-tabs-nav-link-active-border-color;
     border-bottom: 2px solid $white;
   }
 
@@ -142,20 +142,20 @@
   }
 }
 .navbar {
-  background-color: $primary;
-  color: $white;
+  background-color: $navbar-background-color;
+  color: $navbar-text-color;
   &.navbar-minimal {}
   &.navbar-basic {
     @extend .navbar-expand-lg;
     .navbar-toggler {
-      color: $white;
+      color: $navbar-text-color;
       margin-left: auto;
     }
     .navbar-nav {
       margin-left: auto;
     }
     .nav-link {
-      color: $white;
+      color: $navbar-text-color;
     }
     .btn {
       @extend .btn-white;
@@ -174,7 +174,7 @@
       padding-bottom: 0;
     }
     .navbar-toggler {
-      color: $white;
+      color: $navbar-text-color;
       margin-left: auto;
     }
     hr.minor {
@@ -186,7 +186,7 @@
       }
     }
     .nav-link {
-      color: $white;
+      color: $navbar-text-color;
     }
     .form-control {
       border-top-left-radius:    $btn-border-radius!important;
@@ -205,7 +205,7 @@
       margin-bottom: 0;
     }
     .navbar-toggler {
-      color: $white;
+      color: $navbar-text-color;
       margin-left: auto;
     }
     .navbar-icon-links {
@@ -217,9 +217,9 @@
       }
     
       .nav-link {
-        background-color: fade-out($ui, 1);
+        background-color: fade-out($navbar-text-color, 1);
         border-radius: 4px 4px 0 0;
-        color: $white;
+        color: $navbar-text-color;
     
         .fas {
           opacity: 0.62;
@@ -228,7 +228,7 @@
     
         &:hover,
         &:active {
-          background-color: fade-out($ui, 0.75);
+          background-color: fade-out($navbar-text-color, 0.75);
     
           .fas {
             opacity: 1;
@@ -245,7 +245,7 @@
       }
     }
     .icon-link-border-bottom {
-      background-color: $secondary;
+      background-color: $navbar-icon-link-border-color;
       height: 2px;
     }
   }

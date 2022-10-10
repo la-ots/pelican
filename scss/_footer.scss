@@ -26,7 +26,7 @@ footer, .footer {
     }
   }
   &.footer-utility {
-    background-color: $primary;
+    background-color: $footer-utility-background-color;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: auto;
@@ -34,11 +34,11 @@ footer, .footer {
       margin-bottom: 0;
     }
     hr.major {
-      background-color: $primary-100;
+      background-color: $footer-utility-divider-background-color;
       opacity: .25;
     }
     .btn-link {
-      color: $accent;
+      color: $footer-utility-text-color;
     }
   }
 }

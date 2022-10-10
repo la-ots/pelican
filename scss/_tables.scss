@@ -7,8 +7,8 @@ caption {
   width: 100%;
   margin-bottom: 1rem;
   font-size: $font-size-base * 0.875;
-  color: $gray-700;
-  background-color: $white; // Reset for nesting within parents with `background-color`.
+  color: $table-text-color;
+  background-color: $table-background-color; // Reset for nesting within parents with `background-color`.
 
   th,
   td {

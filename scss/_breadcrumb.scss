@@ -1,13 +1,13 @@
 .breadcrumb-wrapper {
   display: block;
-  background-color: $white;
-  border-bottom: 1px solid $gray-200;
+  background-color: $breadcrumb-background-color;
+  border-bottom: 1px solid $breadcrumb-border-color;
 }
 .breadcrumb {
   margin-bottom: 0;
   @extend .rounded-0;
   @extend .border-0;
-  background-color: $white;
+  background-color: $breadcrumb-background-color;
 }
 .breadcrumb-item {
   display: none;

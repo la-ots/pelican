@@ -59,7 +59,7 @@ small,
 hr,
 .hr {
   @extend .w-100;
-  background-color: $gray-200;
+  background-color: $divider-background-color;
   border: 0;
   margin-left: 0;
   margin-right: 0;
@@ -83,23 +83,6 @@ p, li {
     text-decoration: underline;
     text-decoration-style: dashed;
     text-decoration-thickness: 1px;
-    &[rel="external"],
-    &[target="_blank"]:not(.btn) {
-      &::after {
-        display: inline-block;
-        margin: 0 1px 0 5px;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        font-family: "Font Awesome 5 Free";
-        font-size: .75rem;
-        font-style: normal;
-        font-weight: 900;
-        font-variant: normal;
-        content: "\F35D";
-        transform: translateY(-.125rem);
-        opacity: .6;
-      }
-    }
     &.btn {
       text-decoration: none;
       &:hover,
@@ -113,8 +96,8 @@ p, li {
 blockquote,
 .blockquote {
   padding: 24px 32px 6px;
-  background-color: fade-out($white, 0.2);
-  border-left: ($border-width * 4) $border-style fade-out($ui, 0.8);
+  background-color: fade-out($blockquote-background-color, 0.2);
+  border-left: ($border-width * 4) $border-style fade-out($blockquote-border-color, 0.8);
 }
 blockquote + blockquote,
 .blockquote + .blockquote {

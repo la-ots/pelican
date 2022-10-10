@@ -1,4 +1,11 @@
-a.list-group-item-action {
+.list-group-item {
+  @extend .d-flex;
+  @extend .justify-content-between;
+  @extend .align-items-lg-start;
+}
+
+.list-group-item-action {
+  @extend .text-info;
   &::after {
     @extend .d-inline-block;
     content: '\f061';
@@ -10,11 +17,3 @@ a.list-group-item-action {
     margin: 0 1px 0 5px;
   }
 }
-
-.list-group-item {
-  @extend .d-flex;
-  @extend .justify-content-between;
-  @extend .align-items-lg-start;
-  @extend .text-info;
-}
-

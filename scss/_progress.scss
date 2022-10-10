@@ -1,8 +1,8 @@
 .progress-large {
-  border-bottom: $border-width $border-style $gray-200;
+  border-bottom: $border-width $border-style $progress-large-border-color;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: $white;
+  background-color: $progress-large-background-color;
   .btn {
     @extend .shadow-none;
     margin-top: .25rem;
@@ -19,7 +19,7 @@
 }
 .progress-description {
   @extend .font-weight-bold;
-  color: $primary;
+  color: $progress-large-description-text-color;
   margin-bottom: 0;
   margin-top: .25rem;
   padding-left: .25rem;
@@ -27,12 +27,12 @@
 .progress-description-counter {
   @extend .small;
   @extend .d-block;
-  color: fade-out($primary, .25);
+  color: $progress-large-description-counter-text-color;
   padding-left: .25rem;
 }
 .progress-description-text {
   @extend .d-block;
-  color: $primary;
+  color: $progress-large-description-text-color;
 }
 .progress-step {
   position: relative;
@@ -45,9 +45,9 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 50%;
-  color: $white;
-  background-color: $primary;
-  border-color: $primary;
+  color: $progress-large-step-text-color;
+  background-color: $progress-large-step-background-color;
+  border-color: $progress-large-step-border-color;
 }
 .progress-step-digit {
   font-size: 24px;

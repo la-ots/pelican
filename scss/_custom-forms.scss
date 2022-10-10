@@ -9,15 +9,15 @@
     .form-check-label {
       position: relative;
       padding: 4px 16px 4px 32px;
-      background-color: $white;
-      border: 2px solid $ui;
+      background-color: $form-check-label-background-color;
+      border: 2px solid $form-check-label-border-color;
       border-radius: 16px;
 
       .fas {
         position: absolute;
         top: 8px;
         left: 10px;
-        color: $ui;
+        color: $form-check-label-icon-color;
         &:first-of-type {
           opacity: 1;
         }
@@ -37,15 +37,15 @@
 
       &:checked {
         + .form-check-label {
-          color: $white;
-          background-color: $ui-priority;
-          border-color: $ui-priority;
+          color: $toggle-token-form-check-input-checked-text-color;
+          background-color: $toggle-token-form-check-input-checked-background-color;
+          border-color: $toggle-token-form-check-input-checked-border-color;
 
           .fas {
             position: absolute;
             top: 8px;
             left: 10px;
-            color: $white;
+            color: $toggle-token-form-check-input-checked-icon-color;
 
             &:first-of-type {
               opacity: 0;
@@ -60,8 +60,8 @@
     }
   }
   .form-check-input[disabled] ~ .form-check-label {
-		border-color: fade-out($ui, .5);
-		color: &ui;
+		border-color: fade-out($toggle-token-form-check-input-disabled-border-color, .5);
+		color: $toggle-token-form-check-input-disabled-text-color;
 		.fas {
 			&:first-of-type {
 				opacity: .5;
@@ -72,17 +72,17 @@
 		}
 	}
 	.form-check-input:checked[disabled] ~ .form-check-label {
-		border-color: transparent!important;
-		background-color: fade-out($ui-priority, .5)!important;
+		border-color: $toggle-token-form-check-input-checked-disabled-border-color!important;
+		background-color: $toggle-token-form-check-input-checked-disabled-background-color!important;
 	}
 }
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {
-  border-color: $danger;
+  border-color: $validated-no-border-color;
 }
 .was-validated .toggle-token .form-check-input:checked:valid ~ .form-check-label {
-  color: $white;
-  background-color: $success;
-  border-color: $success;
+  color: $validated-yes-text-color;
+  background-color: $validated-yes-background-color;
+  border-color: $validated-yes-border-color;
 }
 // big switch
 .custom-switch.custom-switch-large {
@@ -147,7 +147,7 @@
 
     &.active {
       z-index: 11;
-      color: $white;
+      color: $custom-control-input-checked-custom-text-color;
     }
   }
 }
@@ -173,9 +173,9 @@
   .form-check-label {
     position: relative;
     display: block;
-    background-color: $white;
-    color: $gray-700;
-    border: 2px solid $ui-light;
+    background-color: $check-radio-tile-label-background-color;
+    color: $check-radio-tile-label-text-color;
+    border: 2px solid $check-radio-tile-label-border-color;
     border-radius: 8px;
     margin-top: 8px;
     padding: 12px 16px 12px 40px;
@@ -190,15 +190,15 @@
       width: 1.25rem;
       height: 1.25rem;
       border-radius: 2px;
-      box-shadow: 0 0 0 2px $ui;
+      box-shadow: 0 0 0 2px $check-radio-tile-label-border-color;
     }
   }
   .form-check-input:checked+label {
-    background-color: $ui-light;
-    border-color: $ui;
+    background-color: $check-radio-tile-checked-label-background-color;
+    border-color: $check-radio-tile-checked-label-border-color;
 
     &:before {
-      background-color: $info-900;
+      background-color: $check-radio-tile-checked-icon-color;
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
       background-size: contain;
       background-repeat: no-repeat;
@@ -226,7 +226,7 @@
 
   .form-check-input:checked+label {
     &:before {
-      background-color: $white;
+      background-color: $check-radio-tile-unchecked-dot-color;
       background-image: none;
     }
 
@@ -239,7 +239,7 @@
       width: 1rem;
       height: 1rem;
       border-radius: 50%;
-      background-color: $info;
+      background-color: $check-radio-tile-checked-dot-color;
     }
   }
 }
