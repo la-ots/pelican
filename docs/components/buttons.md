@@ -60,23 +60,6 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <button type="button" class="btn btn-outline-ui">UI Outline</button>
 ```
 
-### Icon-only Button
-
-- Add text available to assistive technology.
-- Use sparingly and only when their meaning is clear to the user.
-
-<button type="button" class="btn btn-primary btn-sm">
-  <span class="fas fa-check" aria-hidden="true"></span>
-  <span class="sr-only" aria-hidden="false">Accept</span>
-</button>
-
-```html
-<button type="button" class="btn btn-primary btn-sm">
-  <span class="fas fa-check" aria-hidden="true"></span>
-  <span class="sr-only" aria-hidden="false">Accept</span>
-</button>
-```
-
 ### Dropdown Buttons
 
 - Contains a list of links, using the `<a>` element.

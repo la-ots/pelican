@@ -303,14 +303,14 @@ $breadcrumb-background-color: $white !default;
 $breadcrumb-border-color: $gray-200 !default;
 
 // content container
-$content-container-bg: $white !:default;
+$content-container-bg: $white !default;
 $content-container-shadow: 0 1px 1px 0 fade-out($black, .85) !default;
 
 // sidebar
 $sidebar-background: $primary !default;
 $sidebar-submenu-color: darken($primary, 5%) !default;
 $sidebar-menu-active-hover-background-color: $info !default;
-$sidebar-menu-active-hover-text-color: $white;
+$sidebar-menu-active-hover-text-color: $white !default;
 $sidebar-border-color: darken($primary, 5%) !default;
 $sidebar-link-color: $white !default;
 $sidebar-brand-background-color: $black !default;
