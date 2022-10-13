@@ -22,7 +22,7 @@
           {%- for child in entry.children %}
             {% if child.url == page.url %}
               <li class="breadcrumb-item active" aria-current="page">
-                {{ child.title }}<span class="fas fa-eye ml-1 ms-1" aria-hidden="true"></span>
+                {{ child.title }}<span class="icon fas fa-eye ml-1 ms-1" aria-hidden="true"></span>
               </li>
             {% endif %}
           {% endfor %}

@@ -1,35 +1,39 @@
 .badge {
   @extend .rounded-pill;
+  .icon {
+    // todo: figure out why opacity doesn’t take effect w/out fallback value
+    opacity       : var(--pds-badge-icon-opacity, .75);
+  }
 }
 .badge-primary {
-  background-color:  $primary;
-  color: $white;
+  background-color: var(--pds-primary);
+  color           : var(--bs-white);
 }
 .badge-secondary {
-  background-color:  $secondary;
-  color: $white;
+  background-color: var(--pds-secondary);
+  color           : var(--bs-white);
 }
 .badge-accent {
-  background-color:  $accent;
-  color: $black;
+  background-color: var(--pds-accent);
+  color           : var(--bs-black);
 }
 .badge-ui {
-  background-color:  $ui;
-  color: $white;
+  background-color: var(--pds-ui);
+  color           : var(--bs-white);
 }
 .badge-success {
-  background-color:  $success;
-  color: $white;
+  background-color: var(--pds-success);
+  color           : var(--bs-white);
 }
 .badge-warning {
-  background-color:  $warning;
-  color: $black;
+  background-color: var(--pds-warning);
+  color           : var(--bs-black);
 }
 .badge-danger {
-  background-color:  $danger;
-  color: $white;
+  background-color: var(--pds-danger);
+  color           : var(--bs-white);
 }
 .badge-info {
-  background-color:  $info;
-  color: $white;
+  background-color: var(--pds-info);
+  color           : var(--bs-white);
 }

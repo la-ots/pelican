@@ -1,13 +1,13 @@
 .breadcrumb-wrapper {
   display: block;
-  background-color: $white;
-  border-bottom: 1px solid $gray-200;
+  background-color: var(--bs-white);
+  border-bottom: 1px solid var(--pds-gray-200);
 }
 .breadcrumb {
-  margin-bottom: 0;
   @extend .rounded-0;
   @extend .border-0;
-  background-color: $white;
+  margin-bottom: 0;
+  background-color: var(--bs-white);
 }
 .breadcrumb-item {
   display: none;
@@ -21,8 +21,8 @@
     display: list-item;
   }
   &.active {
-    color: $body-color;
-    .fas {
+    color: var(--pds-text-normal);
+    .icon {
       margin: 3px 0 0 4px;
     }
   }

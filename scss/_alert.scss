@@ -2,61 +2,50 @@
   padding-right : 46px;
   padding-left  : 42px;
   .alert-icon {
-    @extend .position-absolute;
+    position: absolute;
     top: 19px; left:16px;
     width: 18px; height: 18px;
   }
   .close, .btn-close {
-    @extend .position-absolute;
+    position: absolute;
     top: -.125rem; right: 0;
     width: 21px; height: 21px;
   }
 }
-.alert-warning {
-  color: $warning-900;
-  background-color: $warning-100;
-  border: $warning-900 $border-style $border-width;
-  .alert-link {
-    color: $warning-900;
-  }
+.alert-warning, .alert-danger, .alert-success, .alert-info {
   .close {
-    color: $warning-900;
     opacity: 1;
+  }
+}
+.alert-warning {
+  color:            var(--pds-warning-900);
+  background-color: var(--pds-warning-100);
+  border:           var(--pds-warning-900) var(--pds-border-style) var(--pds-border-width);
+  .alert-link {
+    color:          var(--pds-warning-900);
   }
 }
 .alert-danger {
-  color: $danger-900;
-  background-color: $danger-100;
-  border: $danger-900 $border-style $border-width;
+  color:            var(--pds-danger-900);
+  background-color: var(--pds-danger-100);
+  border:           var(--pds-danger-900) var(--pds-border-style) var(--pds-border-width);
   .alert-link {
-    color: $danger-900;
-  }
-  .close {
-    color: $danger-900;
-    opacity: 1;
+    color:          var(--pds-danger-900);
   }
 }
 .alert-success {
-  color: $success-900;
-  background-color: $success-100;
-  border: $success-900 $border-style $border-width;
+  color:            var(--pds-success-900);
+  background-color: var(--pds-success-100);
+  border:           var(--pds-success-900) var(--pds-border-style) var(--pds-border-width);
   .alert-link {
-    color: $success-900;
-  }
-  .close {
-    color: $success-900;
-    opacity: 1;
+    color:          var(--pds-success-900);
   }
 }
 .alert-info {
-  color: $info-900;
-  background-color: $info-100;
-  border: $info-900 $border-style $border-width;
+  color:            var(--pds-info-900);
+  background-color: var(--pds-info-100);
+  border:           var(--pds-info-900) var(--pds-border-style) var(--pds-border-width);
   .alert-link {
-    color: $info-900;
-  }
-  .close {
-    color: $info-900;
-    opacity: 1;
+    color:          var(--pds-info-900);
   }
 }
