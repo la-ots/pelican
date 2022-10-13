@@ -46,10 +46,10 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ### Primary Buttons
 
-<button type="button" class="btn btn-warning">ButtonText</button>
+<button type="button" class="btn btn-primary">ButtonText</button>
 
 ```html
-<button type="button" class="btn btn-warning">ButtonText</button>
+<button type="button" class="btn btn-primary">ButtonText</button>
 ```
 
 ### Outline Buttons
