@@ -1,13 +1,12 @@
 .breadcrumb-wrapper {
-  display: block;
-  background-color: var(--bs-white);
+  background-color: var(--pds-white);
   border-bottom: 1px solid var(--pds-gray-200);
 }
 .breadcrumb {
-  @extend .rounded-0;
-  @extend .border-0;
-  margin-bottom: 0;
-  background-color: var(--bs-white);
+  border-radius: 0;
+  border: none;
+  padding: var(--pds-breadcrumb-padding-y) var(--pds-breadcrumb-padding-y);
+  margin-bottom: var(--pds-breadcrumb-margin-bottom);
 }
 .breadcrumb-item {
   display: none;
@@ -21,7 +20,8 @@
     display: list-item;
   }
   &.active {
-    color: var(--pds-text-normal);
+    color      : var(--pds-font-bold-color);
+    font-weight: var(--pds-font-bold-weight);
     .icon {
       margin: 3px 0 0 4px;
     }
@@ -32,7 +32,6 @@
       text-decoration: underline;
     }
   }
-  
   @media screen and (min-width: 1024px){
     display: list-item;
   }

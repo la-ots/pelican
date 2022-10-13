@@ -45,10 +45,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -105,6 +102,7 @@
   --pds-accent-800:    #973B09;
   --pds-accent-900:    #7C310B;
 
+  --pds-white:         #ffffff;
   --pds-gray-50:       #f7f8f8;
   --pds-gray-100:      #ebeeef;
   --pds-gray-200:      #d8dddf;
@@ -115,6 +113,7 @@
   --pds-gray-700:      #46585d;
   --pds-gray-800:      #3a4b50;
   --pds-gray-900:      #324348;
+  --pds-black:         #000000;
 
   --pds-success-50:    #e8ffe6;
   --pds-success-100:   #cbffc8;
@@ -160,23 +159,34 @@
   --pds-danger-800:    #b00003;
   --pds-danger-900:    #94080a;
 
-  --pds-primary:      var(--pds-primary-800);
-  --pds-secondary:    var(--pds-secondary-700);
-  --pds-accent:       var(--pds-accent-500);
-  --pds-success:      var(--pds-success-800);
-  --pds-info:         var(--pds-info-800);
-  --pds-warning:      var(--pds-warning-500);
-  --pds-danger:       var(--pds-danger-800);
-  --pds-ui:           var(--pds-gray-500);
-  --pds-ui-light:     var(--pds-gray-100);
+  --pds-primary     : var(--pds-primary-800);
+  --pds-secondary   : var(--pds-secondary-700);
+  --pds-accent      : var(--pds-accent-500);
+  --pds-success     : var(--pds-success-800);
+  --pds-info        : var(--pds-info-800);
+  --pds-warning     : var(--pds-warning-500);
+  --pds-danger      : var(--pds-danger-800);
+  --pds-link-color  : var(--pds-info-800);
+  --pds-ui          : var(--pds-gray-500);
+  --pds-ui-light    : var(--pds-gray-100);
+  --pds-ui-priority : var(--pds-link-color);
   --pds-text-intense: var(--pds-gray-900);
-  --pds-text-normal:  var(--pds-gray-700);
-  --pds-text-muted:   var(--pds-gray-600);
-  --pds-link-color:   var(--pds-info);
-  --pds-body-bg:      var(--pds-gray-50);
+  --pds-text-normal : var(--pds-gray-700);
+  --pds-text-muted  : var(--pds-gray-600);
+  --pds-link-color  : var(--pds-info);
+  --pds-body-bg     : var(--pds-gray-50);
+
+  --pds-font-bold-weight: 700;
+  --pds-font-bold-color : var(--pds-black);
 
   --pds-border-width: .125rem;
   --pds-border-style: solid;
+
+  --pds-breadcrumb-bg           : var(--bs-white);
+  --pds-breadcrumb-active-color : var(--pds-text-normal);
+  --pds-breadcrumb-padding-y    : .75rem;
+  --pds-breadcrumb-padding-x    : 1rem;
+  --pds-breadcrumb-margin-bottom: 0;
 
   --pds-badge-icon-opacity: .75;
 
