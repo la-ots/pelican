@@ -31,12 +31,12 @@ main.main {
 }
 
 .official-banner {
-  @extend .border-bottom;
+  border-bottom-color: $black;
+  border-bottom-width: .125rem;
+  background-color: $black;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  background-color: $black;
   color: $white;
-  border-color: $black !important;
 
   .container-fluid {
     padding-top: .25rem;
