@@ -9,7 +9,7 @@ $utilities: map-merge(
   $utilities, (
     "margin": map-merge(
       map-get($utilities, "margin"),
-      ( print: true ),
+      (print: true),
     ),
     "margin-x": map-merge(map-get($utilities, "margin-x"),
       (print: true),
