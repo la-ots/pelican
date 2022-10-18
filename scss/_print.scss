@@ -33,24 +33,6 @@
     background-image: none !important;
   }
 
-  #main {
-    height: 100% !important;
-  }
-
-  .page-content {
-    height: auto !important;
-    padding: 0 !important;
-  }
-
-  .border-print-none {
-    border: 0px solid transparent !important;
-    border-width: 0;
-  }
-
-  .shadow-print-none {
-    box-shadow: none !important;
-  }
-
   /* Page Breaking */
   .always-pba {
     page-break-after: always;

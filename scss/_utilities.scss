@@ -53,6 +53,15 @@ $utilities: map-merge(
     "text-align": map-merge(map-get($utilities, "text-align"),
       (print: true),
     ),
+    "border": map-merge(map-get($utilities, "border"),
+      (print: true),
+    ),
+    "border-width": map-merge(map-get($utilities, "border-width"),
+      (print: true),
+    ),
+    "shadow": map-merge(map-get($utilities, "shadow"),
+      (print: true),
+    ),
   )
 );
 
