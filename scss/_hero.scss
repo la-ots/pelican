@@ -1,17 +1,14 @@
-// Hero Blocks
-
 .bg-image-size-cover {
   background-size: cover;
 }
-
 .bg-image-position-center {
   background-position: 50%;
 }
-
 .hero-dual-pane {
   @extend .position-relative;
   @extend .bg-image-position-center;
   @extend .bg-image-size-cover;
+  background-color: var(--theme-hero-dual-pane-bg-color);
   padding-top: 10rem;
   padding-bottom: 10rem;
   .overlay {
@@ -19,10 +16,10 @@
     @extend .opacity-75;
   }
   .overlay-left {
-    background-color: $primary;
+    background-color: var(--theme-hero-dual-pane-overlay-left-bg-color);
   }
   .overlay-right {
-    background-color: $secondary;
+    background-color: var(--theme-hero-dual-pane-overlay-right-bg-color);
   }
   .container {
     @extend .position-relative;
@@ -37,22 +34,22 @@
     @extend .font-weight-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
-    color: $white;
+    color: var(--theme-hero-dual-pane-header-text-color);
   }
   .hero-lead-text {
     @extend .h4;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
-    color: $white;
+    color: var(--theme-hero-dual-pane-lead-text-color);
   }
   .hero-small-text {
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
-    color: $white;
+    color: var(--theme-hero-dual-pane-small-text-color);
   }
 }
-
-.hero-solo-pane {
+.hero-single-pane, .hero-solo-pane {
+  background-color: var(--theme-hero-single-pane-bg-color);
   .half-left {
     @extend .bg-image-size-cover;
     @extend .bg-image-position-center;
@@ -60,8 +57,8 @@
   .half-right {
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-color: $primary;
-    color: $white;
+    background-color: var(--theme-hero-single-pane-bg-color);
+    color: var(--theme-hero-single-pane-small-text-color);
     .row {
       @extend .justify-content-center;
       @extend .align-items-center;
@@ -69,30 +66,34 @@
   }
   .hero-big-text {
     @extend .h2;
-    color: $white;
+    color: var(--theme-hero-single-pane-header-text-color);
   }
   .hero-small-text {
-    color: $white;
+    color: var(--theme-hero-single-pane-small-text-color);
   }
   .img-fluid {
     @extend .d-lg-none;
   }
 }
-
 .hero-boxed-in-photo {
-  @extend .content-container;
-  @extend .shadow-none;
+  background-color: var(--theme-hero-boxed-photo-bg-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   .hero-big-text {
     @extend .h2;
     margin-top: 2rem;
-    color: $primary;
+    color: var(--theme-hero-boxed-photo-header-text-color);
   }
   .hero-small-text {
+    color: var(--theme-hero-boxed-photo-small-text-color);
   }
   img{
     margin-top: 1.25rem;
   }
   @media screen and (min-width: 992px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     .hero-big-text{
       margin-top: 0;
     }
@@ -101,17 +102,17 @@
     }
   }
 }
-
 .hero-text-color-toned-photo {
+  background-color: var(--theme-hero-color-toned-bg-color);
   @extend .position-relative;
   @extend .bg-image-position-center;
   @extend .bg-image-size-cover;
   padding-top: 10rem;
   padding-bottom: 2.5rem;
   .overlay {
-    @extend .opacity-85;
     @extend .position-absolute;
-    background-color: $secondary;
+    opacity: var(--theme-hero-color-toned-overlay-opacity);
+    background-color: var(--theme-hero-color-toned-overlay-bg-color);
     top:0; right:0; bottom:0; left:0;
     z-index: 0;
   }
@@ -124,15 +125,14 @@
     @extend .font-weight-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
-    color: $white;
+    color: var(--theme-hero-color-toned-header-text-color);
   }
   .hero-small-text {
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
-    color: $white;
+    color: var(--theme-hero-color-toned-small-text-color);
   }
 }
-
 .hero-textbox-over-photo {
   @extend .position-relative;
   @extend .d-flex;
@@ -146,20 +146,20 @@
   padding-bottom: 10rem;
   .overlay {
     @extend .position-absolute;
-    @extend .opacity-50;
-    background-color: $white;
+    opacity: var(--theme-textbox-over-photo-overlay-opacity);
+    background-color: var(--theme-textbox-over-photo-bg-color);
     top:0; right:0; bottom:0; left: 0;
   }
   .hero-textbox {
-    background-color: $primary;
+    background-color: var(--theme-textbox-over-photo-overlay-bg-color);
     padding: 2.5rem;
   }
   .hero-big-text {
     @extend .h2;
-    @extend .font-weight-bold;
-    color: $white;
+    @extend .fw-bold;
+    color: var(--theme-textbox-over-photo-header-text-color);
   }
   .hero-small-text {
-    color: $white;
+    color: var(--theme-textbox-over-photo-small-text-color);
   }
 }

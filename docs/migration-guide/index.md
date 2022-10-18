@@ -70,6 +70,7 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 
 - Dual Pane
 - Text over Color-toned Photo
+- Hero Single Pane
 
 ### Page Templates with new markup
 

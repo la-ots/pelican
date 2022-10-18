@@ -198,6 +198,28 @@
 
   /* hero blocks */
   /* you may need still need to change the classes on buttons */
+  --theme-hero-dual-pane-bg-color              : var(--theme-primary);
+  --theme-hero-dual-pane-overlay-left-bg-color : var(--theme-primary);
+  --theme-hero-dual-pane-overlay-right-bg-color: var(--theme-secondary);
+  --theme-hero-dual-pane-header-text-color     : var(--bs-white);
+  --theme-hero-dual-pane-lead-text-color       : var(--bs-white);
+  --theme-hero-dual-pane-small-text-color      : var(--bs-white);
+  --theme-hero-single-pane-bg-color            : var(--theme-primary);
+  --theme-hero-single-pane-header-text-color   : var(--bs-white);
+  --theme-hero-single-pane-small-text-color    : var(--bs-white);
+  --theme-hero-boxed-photo-bg-color            : var(--bs-white);
+  --theme-hero-boxed-photo-header-text-color   : var(--theme-primary);
+  --theme-hero-boxed-photo-small-text-color    : var(--theme-primary);
+  --theme-hero-color-toned-bg-color            : var(--theme-secondary);
+  --theme-hero-color-toned-overlay-bg-color    : var(--theme-secondary);
+  --theme-hero-color-toned-overlay-opacity     : .85;
+  --theme-hero-color-toned-header-text-color   : var(--bs-white);
+  --theme-hero-color-toned-small-text-color    : var(--bs-white);
+  --theme-textbox-over-photo-bg-color          : var(--bs-white);
+  --theme-textbox-over-photo-overlay-bg-color  : var(--theme-primary);
+  --theme-textbox-over-photo-overlay-opacity   : .5;
+  --theme-textbox-over-photo-header-text-color : var(--bs-white);
+  --theme-textbox-over-photo-small-text-color  : var(--bs-white);
 
   /* HR, dividers */
   --theme-divider-bg-color        : var(--theme-gray-200);
