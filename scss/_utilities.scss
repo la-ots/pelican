@@ -50,6 +50,9 @@ $utilities: map-merge(
     "padding-start": map-merge(map-get($utilities, "padding-start"),
       (print: true),
     ),
+    "text-align": map-merge(map-get($utilities, "text-align"),
+      (print: true),
+    ),
   )
 );
 
