@@ -1,8 +1,3 @@
-// Base class
-//
-// Kickstart any navigation component with a set of style resets. Works with
-// `<nav>`s, `<ul>`s or `<ol>`s.
-
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -21,25 +16,17 @@
     cursor: default;
   }
 }
-
-//
-// Tabs
-//
-
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $border-color;
-
+  border-bottom: $nav-tabs-border-width solid var(--theme-border-color);
   .nav-item {
     margin-right: 0.5rem;
     margin-bottom: -$nav-tabs-border-width;
   }
-
   .nav-link {
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
-
     &.disabled {
-      color: $ui-light;
+      color: var(--theme-ui--light);
       background-color: transparent;
       border-color: transparent;
     }
@@ -48,7 +35,6 @@
       border-bottom: none;
     }
   }
-
   .nav-link.active,
   .nav-item.show .nav-link {
     color: $nav-tabs-link-active-color;
@@ -56,7 +42,6 @@
     border-color: $nav-tabs-link-active-border-color;
     border-bottom: 2px solid $white;
   }
-
   .dropdown-menu {
     // Make dropdown border overlap tab border
     margin-top: -$nav-tabs-border-width;
@@ -64,11 +49,6 @@
     @include border-top-radius(0);
   }
 }
-
-//
-// Pills
-//
-
 .nav-pills {
   &:not(.flex-column) {
     .nav-item {
@@ -83,35 +63,26 @@
     }
   }
   .nav-link {
-    color: $link-color;
+    color: var(--theme-link-color);
     background-color: $white;
-    border: 2px solid $ui;
+    border: 2px solid var(--theme-ui);
     transition: $transition-base;
-
     @include border-radius($nav-pills-border-radius);
-
     &:hover,
     &:active {
-      background-color: lighten($ui, 45%);
+      background-color: var(--theme-gray-200);
     }
-
     &:not(.disabled) {
       background-color: $white;
-      border: $border-width $border-style $ui-priority;
+      border: $border-width $border-style var(--theme-ui-priority);
     }
   }
-
   .nav-link.active,
   .show > .nav-link {
     color: $nav-pills-link-active-color;
     background-color: $nav-pills-link-active-bg;
   }
 }
-
-//
-// Justified variants
-//
-
 .nav-fill {
   > .nav-link,
   .nav-item {
@@ -119,7 +90,6 @@
     text-align: center;
   }
 }
-
 .nav-justified {
   > .nav-link,
   .nav-item {
@@ -128,11 +98,6 @@
     text-align: center;
   }
 }
-
-// Tabbable tabs
-//
-// Hide tabbable panes to start, show them when `.active`
-
 .tab-content {
   > .tab-pane {
     display: none;
@@ -142,23 +107,22 @@
   }
 }
 .navbar {
-  background-color: $primary;
-  color: $white;
+  background-color: var(--theme-navbar-bg-color);
+  color           : var(--theme-navbar-text-color);
   &.navbar-minimal {}
   &.navbar-basic {
     @extend .navbar-expand-lg;
     .navbar-toggler {
-      color: $white;
+      color: var(--theme-navbar-text-color);
       margin-left: auto;
     }
     .navbar-nav {
       margin-left: auto;
     }
     .nav-link {
-      color: $white;
+      color: var(--theme-navbar-text-color);
     }
     .btn {
-      @extend .btn-white;
       margin-top: .5rem;
       @include media-breakpoint-up(lg){
         margin-top: 0;
@@ -174,11 +138,8 @@
       padding-bottom: 0;
     }
     .navbar-toggler {
-      color: $white;
+      color: var(--theme-navbar-text-color);
       margin-left: auto;
-    }
-    hr.minor {
-      @extend .opacity-25;
     }
     .navbar-collapse {
       @include media-breakpoint-up(lg){
@@ -186,7 +147,7 @@
       }
     }
     .nav-link {
-      color: $white;
+      color: var(--theme-navbar-text-color);
     }
     .form-control {
       border-top-left-radius:    $btn-border-radius!important;
@@ -205,7 +166,7 @@
       margin-bottom: 0;
     }
     .navbar-toggler {
-      color: $white;
+      color: var(--theme-navbar-text-color);
       margin-left: auto;
     }
     .navbar-icon-links {
@@ -215,22 +176,18 @@
           text-align: center;
         }
       }
-    
       .nav-link {
-        background-color: fade-out($ui, 1);
+        background-color: rgba(var(--bs-white-rgb), 0);
         border-radius: 4px 4px 0 0;
-        color: $white;
-    
-        .fas {
+        color: var(--theme-navbar-text-color);
+        .icon {
           opacity: 0.62;
           transition: $transition-base;
         }
-    
         &:hover,
         &:active {
-          background-color: fade-out($ui, 0.75);
-    
-          .fas {
+          background-color: rgba(var(--bs-white-rgb), .25);
+          .icon {
             opacity: 1;
           }
         }
@@ -238,14 +195,14 @@
       @include media-breakpoint-up(lg) {
         margin-left: auto;
         .nav-link {
-          span:not(.fas) {
+          span:not(.icon) {
             display: block;
           }
         }
       }
     }
     .icon-link-border-bottom {
-      background-color: $secondary;
+      background-color: var(--theme-navbar-inner-border-color);
       height: 2px;
     }
   }

@@ -44,36 +44,34 @@ eleventyNavigation:
 
 See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-colors) for further color guidance.
 
-### Primary Buttons
+### Provided Buttons
 
-<button type="button" class="btn btn-primary">ButtonText</button>
-
-```html
-<button type="button" class="btn btn-primary">ButtonText</button>
-```
-
-### Outline Buttons
-
-<button type="button" class="btn btn-outline-ui">UI Outline</button>
+<button type="button" class="btn btn-primary">ButtonText</button> <button type="button" class="btn btn-secondary">ButtonText</button> <button type="button" class="btn btn-outline-ui">ButtonText</button> <button type="button" class="btn btn-link">ButtonText</button> <button type="button" class="btn btn-danger">ButtonText</button> <button type="button" class="btn btn-warning">ButtonText</button>
 
 ```html
-<button type="button" class="btn btn-outline-ui">UI Outline</button>
+<button type="button" class="btn btn-primary">ButtonText</button>
+<button type="button" class="btn btn-secondary">ButtonText</button>
+<button type="button" class="btn btn-outline-ui">ButtonText</button>
+<button type="button" class="btn btn-link">ButtonText</button>
+<button type="button" class="btn btn-danger">ButtonText</button>
+<button type="button" class="btn btn-warning">ButtonText</button>
 ```
 
 ### Icon-only Button
 
 - Add text available to assistive technology.
 - Use sparingly and only when their meaning is clear to the user.
+- Consider omitting icon-only buttons as VoiceControl users may not be able to invoke them.
 
 <button type="button" class="btn btn-primary btn-sm">
   <span class="fas fa-check" aria-hidden="true"></span>
-  <span class="sr-only" aria-hidden="false">Accept</span>
+  <span class="sr-only visually-hidden" aria-hidden="false">Accept</span>
 </button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
   <span class="fas fa-check" aria-hidden="true"></span>
-  <span class="sr-only" aria-hidden="false">Accept</span>
+  <span class="sr-only visually-hidden" aria-hidden="false">Accept</span>
 </button>
 ```
 
@@ -116,11 +114,11 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Add the class `disabled` to the class list.
 - Be sure to use `tabindex="-1"` to prevent tabbing to that button.
 
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a>
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
 
 ```html
 <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
-<a class="btn btn-primary disabled" tabindex="-1" role="button">ButtonText</a> 
+<a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a> 
 ```
 
 ### Specialized Buttons

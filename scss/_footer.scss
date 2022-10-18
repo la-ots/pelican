@@ -10,7 +10,7 @@ footer, .footer {
     }
   }
   &.footer-basic   {
-    background-color: $black;
+    background-color: var(--theme-footer-basic-bg-color);
     margin-top: 3rem;
     .links-wrapper {
       @extend .d-flex;
@@ -19,26 +19,25 @@ footer, .footer {
       padding-top: 1rem;
       padding-bottom: 1rem;
       .btn-link {
-        color: $white;
+        color: var(--theme-footer-basic-link-color);
         @extend .border-0;
         @extend .rounded-0;
       }
     }
   }
   &.footer-utility {
-    background-color: $primary;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    background-color: var(--theme-footer-utility-bg-color);
+    padding: 1rem 0;
     margin-top: auto;
     .brand-logo {
       margin-bottom: 0;
     }
-    hr.major {
-      background-color: $primary-100;
+    hr {
+      background-color: var(--theme-footer-utility-divider-color);
       opacity: .25;
     }
     .btn-link {
-      color: $accent;
+      color: var(--theme-footer-utility-link-color);
     }
   }
 }

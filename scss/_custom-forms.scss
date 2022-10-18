@@ -5,19 +5,17 @@
     display: inline-block;
     padding: 0;
     margin: 0 .5rem 0 0 !important;
-
     .form-check-label {
       position: relative;
       padding: 4px 16px 4px 32px;
       background-color: $white;
-      border: 2px solid $ui;
-      border-radius: 16px;
-
-      .fas {
+      border: 2px solid var(--theme-ui);
+      border-radius: 1rem;
+      .icon {
         position: absolute;
         top: 8px;
         left: 10px;
-        color: $ui;
+        color: var(--theme-ui);
         &:first-of-type {
           opacity: 1;
         }
@@ -25,32 +23,26 @@
           opacity: 0;
         }
       }
-
       &:hover,
       &:active {
         cursor: pointer;
       }
     }
-
     .form-check-input {
       @extend .visually-hidden;
-
       &:checked {
         + .form-check-label {
           color: $white;
           background-color: $ui-priority;
           border-color: $ui-priority;
-
-          .fas {
+          .icon {
             position: absolute;
             top: 8px;
             left: 10px;
             color: $white;
-
             &:first-of-type {
               opacity: 0;
             }
-
             &:last-of-type {
               opacity: 1;
             }
@@ -62,7 +54,7 @@
   .form-check-input[disabled] ~ .form-check-label {
 		border-color: fade-out($ui, .5);
 		color: &ui;
-		.fas {
+		.icon {
 			&:first-of-type {
 				opacity: .5;
 			}
@@ -77,12 +69,12 @@
 	}
 }
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {
-  border-color: $danger;
+  border-color: var(--theme-danger);
 }
 .was-validated .toggle-token .form-check-input:checked:valid ~ .form-check-label {
   color: $white;
-  background-color: $success;
-  border-color: $success;
+  background-color: var(--theme-success);
+  border-color: var(--theme-success);
 }
 // big switch
 .custom-switch.custom-switch-large {
@@ -151,36 +143,31 @@
     }
   }
 }
-
 // tiles
 .checkbox-tile,
 .radio-tile {
   padding-left: 0;
   margin: 0 0 0 0;
-
   &.form-check-inline {
     vertical-align: top;
     min-width: 200px;
     max-width: 400px;
   }
-
   .form-check-input {
     position: absolute;
     left: -999em;
     right: auto;
   }
-
   .form-check-label {
     position: relative;
     display: block;
     background-color: $white;
-    color: $gray-700;
-    border: 2px solid $ui-light;
+    color: var(--theme-gray-700);
+    border: 2px solid var(--theme-ui-light);
     border-radius: 8px;
     margin-top: 8px;
     padding: 12px 16px 12px 40px;
     cursor: pointer;
-
     &:before {
       content: '';
       display: block;
@@ -190,27 +177,25 @@
       width: 1.25rem;
       height: 1.25rem;
       border-radius: 2px;
-      box-shadow: 0 0 0 2px $ui;
+      box-shadow: 0 0 0 2px var(--theme-ui);
     }
   }
   .form-check-input:checked+label {
-    background-color: $ui-light;
+    background-color: var(--theme-ui-light);
     border-color: $ui;
-
     &:before {
       background-color: $info-900;
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      box-shadow: 0 0 0 2px $info;
+      box-shadow: 0 0 0 2px var(--theme-info);
     }
   }
-
   .form-check-input:focus+label {
     &:before {
       outline-style: solid;
-      outline-color: $focus-color;
+      outline-color: var(--theme-focus-color);
       outline-width: 4px;
       outline-offset: 4px;
     }
@@ -223,13 +208,11 @@
       border-radius: 50%;
     }
   }
-
   .form-check-input:checked+label {
     &:before {
       background-color: $white;
       background-image: none;
     }
-
     &:after {
       content: '';
       display: block;
@@ -239,7 +222,7 @@
       width: 1rem;
       height: 1rem;
       border-radius: 50%;
-      background-color: $info;
+      background-color: var(--theme-info);
     }
   }
 }

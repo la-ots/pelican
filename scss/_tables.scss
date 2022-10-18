@@ -2,31 +2,30 @@ caption {
   caption-side: bottom;
   border-top: 1px dashed $ui;
 }
-
 .table {
   width: 100%;
   margin-bottom: 1rem;
   font-size: $font-size-base * 0.875;
   color: $gray-700;
   background-color: $white; // Reset for nesting within parents with `background-color`.
-
+  border-color: var(--theme-table-border-color);
   th,
   td {
     padding: $table-cell-padding;
     vertical-align: top;
-    border-top: $table-border-width solid $table-border-color;
+    border-top-width: $table-border-width;
   }
-
   thead th {
     vertical-align: bottom;
-    border-top: (3 * $table-border-width) solid $table-border-color;
-    border-bottom: (2 * $table-border-width) solid $table-border-color;
+    border-top-width: (3 * $table-border-width);
+    border-top-style: solid;
+    border-bottom-width: (2 * $table-border-width);
+    border-bottom-style: solid;
   }
-
   tbody + tbody {
-    border-top: (2 * $table-border-width) solid $table-border-color;
+    border-top-width: (2 * $table-border-width);
+    border-top-style: solid;
   }
-
   thead {
     tr {
       th:first-child {
@@ -37,7 +36,6 @@ caption {
       }
     }
   }
-
   tbody {
     tr:last-child {
       td:first-child {

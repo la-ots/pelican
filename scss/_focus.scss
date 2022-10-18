@@ -1,6 +1,6 @@
 @mixin focus-default {
   box-shadow: none;
-  outline: 0.25rem solid $focus-color;
+  outline: 0.25rem solid var(--theme-focus-color);
   outline-offset: 0.25rem;
 }
 
@@ -13,7 +13,7 @@
     content: '';
     width: 100%;
     height: 100%;
-    border: .25rem solid $focus-color;
+    border: .25rem solid var(--theme-focus-color);
     top: 0;
     left: 0;
     right: 0;
@@ -28,7 +28,7 @@
   &:before {
     position: absolute;
     content: '';
-    border: .25rem solid $focus-color;
+    border: .25rem solid var(--theme-focus-color);
     top: -.5rem;
     left: -.5rem;
     right: -.5rem;
@@ -101,7 +101,7 @@ a {
 button.close {
   &:focus {
     box-shadow: none;
-    outline: .25rem dashed $focus-color;
+    outline: .25rem dashed var(--theme-focus-color);
   }
 }
 

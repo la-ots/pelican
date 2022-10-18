@@ -3,23 +3,21 @@
   @extend .shadow-sm;
   .content-container & {
     @extend .shadow-none;
-    background-color: $gray-50;
+    background-color: var(--theme-card-nested-bg-color);
   }
 }
-
 .card-fieldset-entry,
 .card-in-form {
   // this is a card with discrete data in a fieldset
   margin-bottom: 8px;
-  background-color: $light;
-  border: 1px solid $body-bg;
+  background-color: var(--theme-card-nested-bg-color);
 }
 .card-warning {
-  border-color: lighten($warning, 15%);
+  border-color: var(--theme-danger);
 }
 .card-authenticate {
-  border-color: $light;
+  border-color: var(--theme-gray-100);
 }
 .card-error {
-  border-color: $danger;
+  border-color: var(--theme-danger);
 }

@@ -1,11 +1,11 @@
 .modal-content {
-  background-color: $card-bg;
-  border: $card-border-width solid $card-border-color;
+  background-color: var(--theme-modal-dialog-bg-color);
+  border: $card-border-width solid var(--theme-modal-dialog-border-color);
   .close {
     @extend .position-relative;
     opacity: 1;
   }
 }
 .modal-title {
-  color: $primary;
+  color: var(--theme-modal-dialog-title-color);
 }
