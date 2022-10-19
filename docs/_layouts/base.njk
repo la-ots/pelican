@@ -21,12 +21,10 @@
     {% if env.production %}
       <link href="{{ '/css/pelican.min.css' | addHash }}" rel="stylesheet" media="screen">
       <link href="{{ '/css/prism-theme.css' | addHash }}" rel="stylesheet">
-      <link href="{{ '/css/theme.css' | addHash }}" rel="stylesheet">
       <link href="{{ '/css/site.css' | addHash }}" rel="stylesheet">
     {% else %}
       <link href="/css/pelican.css" rel="stylesheet" media="screen">
       <link href="/css/prism-theme.css" rel="stylesheet">
-      <link href="/css/theme.css" rel="stylesheet">
       <link href="/css/site.css" rel="stylesheet">
     {% endif %}
     <title>{{ title }} | Pelican, Louisiana’s Design System</title>

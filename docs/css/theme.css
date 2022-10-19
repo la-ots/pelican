@@ -236,10 +236,10 @@
   --theme-feature-icons-text-bg-color     : var(--theme-secondary);
   --theme-feature-icons-text-header-color : var(--bs-white);
   --theme-feature-icons-text-text-color   : var(--bs-white);
-  --theme-feature-langauges-bg-color      : var(--theme-accent);
-  --theme-feature-langauges-header-color  : var(--theme-primary);
-  --theme-feature-langauges-text-color    : var(--theme-primary);
-  --theme-feature-langauges-item-bg-color : var(--bs-white);
+  --theme-feature-languages-bg-color      : var(--theme-accent);
+  --theme-feature-languages-header-color  : var(--theme-primary);
+  --theme-feature-languages-text-color    : var(--theme-primary);
+  --theme-feature-languages-item-bg-color : var(--bs-white);
   --theme-feature-many-icons-text-bg-color: var(--theme-primary);
   --theme-feature-many-icons-header-color : var(--bs-white);
   --theme-feature-many-icons-text-color   : var(--bs-white);

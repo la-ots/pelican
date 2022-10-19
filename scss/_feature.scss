@@ -116,7 +116,7 @@
   }
 }
 .feature-languages {
-  background-color: var(--theme-feature-langauges-bg-color);
+  background-color: var(--theme-feature-languages-bg-color);
   @include media-breakpoint-up(lg) {
     padding: 4rem;
   }
@@ -124,17 +124,17 @@
     @extend .h2;
     //this is redundant from the h2 inheritance above
     @extend .fw-bold;
-    color: var(--theme-feature-langauges-header-color);
+    color: var(--theme-feature-languages-header-color);
   }
   .feature-small-text {
-    color: var(--theme-feature-langauges-text-color);
+    color: var(--theme-feature-languages-text-color);
   }
   .feature-item {
     @extend .rounded;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    background-color: var(--theme-feature-langauges-item-bg-color);
+    background-color: var(--theme-feature-languages-item-bg-color);
     p {
       @extend .h4;
       @extend .fw-light;
