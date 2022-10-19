@@ -91,8 +91,8 @@ main.main {
 }
 
 .page-header {
-  background-color: $white;
-  border-bottom: $border-width $border-style $border-color;
+  background-color: var(--theme-page-header-bg-color);
+  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
   border-radius: 0;
 
   @include media-breakpoint-up(lg) {
@@ -103,7 +103,7 @@ main.main {
 
 .page-title {
   @extend .shadow-sm;
-  background-color: var(--theme-page-header-bg-color);
+  background-color: var(--theme-page-title-bg-color);
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;

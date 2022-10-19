@@ -222,10 +222,7 @@ $pagination-disabled-border-color: $gray-600 !default;
 
 // ---
 // Breadcrumbs
-$breadcrumb-bg: $gray-200 !default;
-// $breadcrumb-bg: $body-bg;
-$breadcrumb-active-color: $gray-600 !default;
-$breadcrumb-active-color: $gray-700 !default;
+$breadcrumb-divider-color: var(--theme-breadcrumb-divider-color);
 
 // ---
 // shadows

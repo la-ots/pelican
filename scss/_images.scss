@@ -7,7 +7,7 @@
   svg {
     .mark,
     .type {
-      fill: $white;
+      fill: var(--theme-navbar-text-color);
     }
   }
 }

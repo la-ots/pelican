@@ -1,4 +1,6 @@
 .alert {
+  border-radius: var(--theme-alert-border-radius);
+  border-style : var(--theme-border-style);
   padding-right : 46px;
   padding-left  : 42px;
   .alert-icon {
@@ -10,53 +12,66 @@
     @extend .position-absolute;
     top: -.125rem; right: 0;
     width: 21px; height: 21px;
-  }
-}
-.alert-warning {
-  color: $warning-900;
-  background-color: $warning-100;
-  border: $warning-900 $border-style $border-width;
-  .alert-link {
-    color: $warning-900;
-  }
-  .close {
-    color: $warning-900;
-    opacity: 1;
-  }
-}
-.alert-danger {
-  color: $danger-900;
-  background-color: $danger-100;
-  border: $danger-900 $border-style $border-width;
-  .alert-link {
-    color: $danger-900;
-  }
-  .close {
-    color: $danger-900;
     opacity: 1;
   }
 }
 .alert-success {
-  color: $success-900;
-  background-color: $success-100;
-  border: $success-900 $border-style $border-width;
+  color: var(--theme-alert-success-text-color);
+  background-color   : var(--theme-alert-success-bg-color);
+  border-top-color   : var(--theme-alert-success-border-top-color);
+  border-top-width   : var(--theme-alert-success-border-top-width);
+  border-right-color : var(--theme-alert-success-border-right-color);
+  border-right-width : var(--theme-alert-success-border-right-width);
+  border-bottom-color: var(--theme-alert-success-border-bottom-color);
+  border-bottom-width: var(--theme-alert-success-border-bottom-width);
+  border-left-color  : var(--theme-alert-success-border-left-color);
+  border-left-width  : var(--theme-alert-success-border-left-width);
   .alert-link {
-    color: $success-900;
-  }
-  .close {
-    color: $success-900;
-    opacity: 1;
+    color: var(--theme-alert-success-text-color);
   }
 }
 .alert-info {
-  color: $info-900;
-  background-color: $info-100;
-  border: $info-900 $border-style $border-width;
+  color: var(--theme-alert-info-text-color);
+  background-color   : var(--theme-alert-info-bg-color);
+  border-top-color   : var(--theme-alert-info-border-top-color);
+  border-top-width   : var(--theme-alert-info-border-top-width);
+  border-right-color : var(--theme-alert-info-border-right-color);
+  border-right-width : var(--theme-alert-info-border-right-width);
+  border-bottom-color: var(--theme-alert-info-border-bottom-color);
+  border-bottom-width: var(--theme-alert-info-border-bottom-width);
+  border-left-color  : var(--theme-alert-info-border-left-color);
+  border-left-width  : var(--theme-alert-info-border-left-width);
   .alert-link {
-    color: $info-900;
+    color: var(--theme-alert-info-text-color);
   }
-  .close {
-    color: $info-900;
-    opacity: 1;
+}
+.alert-warning {
+  color: var(--theme-alert-warning-text-color);
+  background-color   : var(--theme-alert-warning-bg-color);
+  border-top-color   : var(--theme-alert-warning-border-top-color);
+  border-top-width   : var(--theme-alert-warning-border-top-width);
+  border-right-color : var(--theme-alert-warning-border-right-color);
+  border-right-width : var(--theme-alert-warning-border-right-width);
+  border-bottom-color: var(--theme-alert-warning-border-bottom-color);
+  border-bottom-width: var(--theme-alert-warning-border-bottom-width);
+  border-left-color  : var(--theme-alert-warning-border-left-color);
+  border-left-width  : var(--theme-alert-warning-border-left-width);
+  .alert-link {
+    color: var(--theme-alert-warning-text-color);
+  }
+}
+.alert-danger {
+  color: var(--theme-alert-danger-text-color);
+  background-color   : var(--theme-alert-danger-bg-color);
+  border-top-color   : var(--theme-alert-danger-border-top-color);
+  border-top-width   : var(--theme-alert-danger-border-top-width);
+  border-right-color : var(--theme-alert-danger-border-right-color);
+  border-right-width : var(--theme-alert-danger-border-right-width);
+  border-bottom-color: var(--theme-alert-danger-border-bottom-color);
+  border-bottom-width: var(--theme-alert-danger-border-bottom-width);
+  border-left-color  : var(--theme-alert-danger-border-left-color);
+  border-left-width  : var(--theme-alert-danger-border-left-width);
+  .alert-link {
+    color: var(--theme-alert-danger-text-color);
   }
 }

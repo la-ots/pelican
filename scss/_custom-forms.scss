@@ -33,13 +33,13 @@
       &:checked {
         + .form-check-label {
           color: $white;
-          background-color: $ui-priority;
-          border-color: $ui-priority;
+          background-color: var(--theme-ui-priority);
+          border-color    : var(--theme-ui-priority);
           .icon {
             position: absolute;
             top: 8px;
             left: 10px;
-            color: $white;
+            color: var(--bs-white);
             &:first-of-type {
               opacity: 0;
             }
@@ -52,7 +52,7 @@
     }
   }
   .form-check-input[disabled] ~ .form-check-label {
-		border-color: fade-out($ui, .5);
+		border-color: var(--theme-form-disabled-bg-color);
 		color: &ui;
 		.icon {
 			&:first-of-type {
@@ -74,7 +74,7 @@
 .was-validated .toggle-token .form-check-input:checked:valid ~ .form-check-label {
   color: $white;
   background-color: var(--theme-success);
-  border-color: var(--theme-success);
+  border-color    : var(--theme-success);
 }
 // big switch
 .custom-switch.custom-switch-large {
@@ -162,7 +162,7 @@
     position: relative;
     display: block;
     background-color: $white;
-    color: var(--theme-gray-700);
+    color:            var(--theme-gray-700);
     border: 2px solid var(--theme-ui-light);
     border-radius: 8px;
     margin-top: 8px;

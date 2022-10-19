@@ -31,7 +31,7 @@
   }
   .hero-big-text {
     @extend .h1;
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary!optional;
     color: var(--theme-hero-dual-pane-header-text-color);
@@ -122,7 +122,7 @@
   }
   .hero-big-text {
     @extend .h2;
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
     color: var(--theme-hero-color-toned-header-text-color);

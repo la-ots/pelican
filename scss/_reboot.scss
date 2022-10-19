@@ -25,16 +25,6 @@ body {
   }
 }
 
-p {
-  b,
-  .fw-bold,
-  .font-weight-bold,
-  strong,
-  .strong {
-    color: var(--theme-bolded-text-color);
-  }
-}
-
 label,
 .label {
   // Allow labels to use `margin` for spacing.
@@ -76,13 +66,13 @@ hr,
 // Added for links, but not button style, in paragraph text or list items
 p, li {
   a {
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-thickness: 1px;
+    text-decoration-line      : var(--theme-text-decoration-line);
+    text-decoration-style     : var(--theme-text-decoration-style);
+    text-decoration-color     : var(--theme-text-decoration-color);
+    // text-decoration-thickness : var(--theme-text-decoration-thickness);
     &.btn {
       text-decoration: none;
-      &:hover,
-      &:active {
+      &:hover, &:active {
         text-decoration: none;
       }
     }

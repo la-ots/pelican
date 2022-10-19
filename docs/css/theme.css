@@ -1,5 +1,7 @@
 :root {
 
+  /* variables go in here */
+
   /* -------------------------------- */
   /* theme variables  */
   
@@ -114,6 +116,63 @@
   --theme-link-color    : var(--theme-info);
   --theme-body-bg       : var(--theme-gray-50);
 
+  /* 3. Set properties which are shared */
+  /* borders */
+  --theme-border-color: var(--theme-ui);
+  --theme-border-width: .125rem;
+  --theme-border-style: solid;
+  --bs-border-color   : var(--theme-ui);
+
+  /* 4. Set the properties for Bootstrap and Pelican items */
+
+  /* alerts */
+  --theme-alert-border-radius               : .25rem;
+  --theme-alert-success-bg-color            : var(--theme-success-100);
+  --theme-alert-success-text-color          : var(--theme-success-900);
+  --theme-alert-success-link-color          : var(--theme-success-900);
+  --theme-alert-success-border-top-color    : var(--theme-success-900);
+  --theme-alert-success-border-right-color  : var(--theme-success-900);
+  --theme-alert-success-border-bottom-color : var(--theme-success-900);
+  --theme-alert-success-border-left-color   : var(--theme-success-900);
+  --theme-alert-success-border-top-width    : var(--theme-border-width);
+  --theme-alert-success-border-right-width  : var(--theme-border-width);
+  --theme-alert-success-border-bottom-width : var(--theme-border-width);
+  --theme-alert-success-border-left-width   : var(--theme-border-width);
+  --theme-alert-info-bg-color               : var(--theme-info-100);
+  --theme-alert-info-text-color             : var(--theme-info-900);
+  --theme-alert-info-link-color             : var(--theme-info-900);
+  --theme-alert-info-border-top-color       : var(--theme-info-900);
+  --theme-alert-info-border-right-color     : var(--theme-info-900);
+  --theme-alert-info-border-bottom-color    : var(--theme-info-900);
+  --theme-alert-info-border-left-color      : var(--theme-info-900);
+  --theme-alert-info-border-top-width       : var(--theme-border-width);
+  --theme-alert-info-border-right-width     : var(--theme-border-width);
+  --theme-alert-info-border-bottom-width    : var(--theme-border-width);
+  --theme-alert-info-border-left-width      : var(--theme-border-width); 
+  --theme-alert-warning-bg-color            : var(--theme-warning-100);
+  --theme-alert-warning-text-color          : var(--theme-warning-900);
+  --theme-alert-warning-link-color          : var(--theme-warning-900);
+  --theme-alert-warning-border-top-color    : var(--theme-warning-900);
+  --theme-alert-warning-border-right-color  : var(--theme-warning-900);
+  --theme-alert-warning-border-bottom-color : var(--theme-warning-900);
+  --theme-alert-warning-border-left-color   : var(--theme-warning-900);
+  --theme-alert-warning-border-top-width    : var(--theme-border-width);
+  --theme-alert-warning-border-right-width  : var(--theme-border-width);
+  --theme-alert-warning-border-bottom-width : var(--theme-border-width);
+  --theme-alert-warning-border-left-width   : var(--theme-border-width);
+  --theme-alert-danger-bg-color             : var(--theme-danger-100);
+  --theme-alert-danger-text-color           : var(--theme-danger-900);
+  --theme-alert-danger-link-color           : var(--theme-danger-900);
+  --theme-alert-danger-border-top-color     : var(--theme-danger-900);
+  --theme-alert-danger-border-right-color   : var(--theme-danger-900);
+  --theme-alert-danger-border-bottom-color  : var(--theme-danger-900);
+  --theme-alert-danger-border-left-color    : var(--theme-danger-900);
+  --theme-alert-danger-border-top-width     : var(--theme-border-width);
+  --theme-alert-danger-border-right-width   : var(--theme-border-width);
+  --theme-alert-danger-border-bottom-width  : var(--theme-border-width);
+  --theme-alert-danger-border-left-width    : var(--theme-border-width);
+   
+
   /* badges, chips */
   --theme-badge-chip-primary-bg-color     : var(--theme-primary);
   --theme-badge-chip-primary-text-color   : var(--bs-white);
@@ -132,20 +191,22 @@
   --theme-badge-chip-danger-bg-color      : var(--theme-danger);
   --theme-badge-chip-danger-text-color    : var(--bs-white);
 
+  /* breadcrumbs */
+  --theme-breadcrumb-divider-color : var(--theme-text-muted);
+  --theme-breadcrumb-bg-color      : var(--bs-white);
+  --theme-breadcrumb-border-color  : var(--theme-gray-200);
+  --theme-breadcrumb-link-color    : var(--theme-link-color);
+  --theme-breadcrumb-active-color  : var(--bs-black);
+
   /* body */
   --bs-body-bg        : var(--theme-gray-50);
 
-  /* borders */
-  --theme-border-color: var(--theme-ui);
-  --theme-border-width: .125rem;
-  --bs-border-color   : var(--theme-ui);
-
   /* buttons */
-  --theme-button-shadow-color          : var(--theme-ui-light);
-  --theme-button-text-dark-color       : var(--bs-black);
-  --theme-button-text-light-color      : var(--bs-white);
-  --theme-button-container-bg-color    : var(--bs-white);
-  --theme-button-container-border-color: var(--theme-gray-300);
+  --theme-button-shadow-color           : var(--theme-ui-light);
+  --theme-button-text-dark-color        : var(--bs-black);
+  --theme-button-text-light-color       : var(--bs-white);
+  --theme-button-container-bg-color     : var(--bs-white);
+  --theme-button-container-border-color : var(--theme-gray-300);
   /* button rules are outside of the root element of this document */
 
   /* cards */
@@ -253,16 +314,22 @@
   --theme-page-title-bg-color       : var(--bs-white);
   --theme-page-title-text-color     : var(--theme-primary);
   --theme-page-title-icon-color     : var(--theme-gray-700);
-  --theme-page-title-border-color   : var(--theme-gray-300);
+  --theme-page-title-border-color   : var(--theme-gray-300); 
 
   /* popovers */
   --theme-popover-bg                : var(--bs-white);
   --theme-popover-header-bg-color   : var(--theme-gray-100);
   --theme-popover-header-text-color : var(--bs-black);
 
-  /* text selection color */
-  --theme-text-selection-text-color : var(--theme-primary-700);
-  --theme-text-selection-bg-color   : var(--theme-primary-200);
+  /* progress */
+  --theme-progress-border-color              : var(--theme-gray-200);
+  --theme-progress-bg-color                  : var(--bs-white);
+  --theme-progress-description-color         : var(--theme-primary);
+  --theme-progress-description-counter-color : var(--theme-primary-600);
+  --theme-progress-description-text-color    : var(--theme-primary);
+  --theme-progress-step-bg-color             : var(--theme-primary);
+  --theme-progress-step-border-color         : var(--theme-primary);
+  --theme-progress-step-digit-color          : var(--bs-white);
 
   /* sidebar & topbar */
   --theme-topbar-bg-color             : var(--bs-black);
@@ -284,12 +351,20 @@
   /* toasts */
   --theme-toast-header-success-bg-color   : var(--theme-success-100);
   --theme-toast-header-success-text-color : var(--theme-success-900);
+  --theme-toast-bg-success-color          : var(--bs-white);
+  --theme-toast-text-success-color        : var(--theme-text-normal);
   --theme-toast-header-info-bg-color      : var(--theme-info-100);
   --theme-toast-header-info-text-color    : var(--theme-info-900);
+  --theme-toast-bg-info-color             : var(--bs-white);
+  --theme-toast-text-info-color           : var(--theme-text-normal);
   --theme-toast-header-warning-bg-color   : var(--theme-warning-100);
   --theme-toast-header-warning-text-color : var(--theme-warning-900);
+  --theme-toast-bg-warning-color          : var(--bs-white);
+  --theme-toast-text-warning-color        : var(--theme-text-normal);
   --theme-toast-header-danger-bg-color    : var(--theme-danger-100);
   --theme-toast-header-danger-text-color  : var(--theme-danger-900);
+  --theme-toast-bg-danger-color           : var(--bs-white);
+  --theme-toast-text-danger-color         : var(--theme-text-normal);
   --theme-toast-shadow-color              : var(--theme-gray-200);
 
   /* toc */
@@ -301,12 +376,23 @@
   /* they really need to be set apart from the UI */
 
   /* typography and related colors */
-  --theme-small-text-color       : var(--theme-gray-700);
-  --theme-blockquote-bg-color    : var(--theme-ui-light);
-  --theme-blockquote-order-color : var(--theme-ui);
-  --theme-bolded-text-color      : var(--bs-black);
-  --theme-table-striped-bg       : var(--theme-gray-50);
-  }
+  --theme-small-text-color          : var(--theme-gray-700);
+  --theme-blockquote-bg-color       : var(--theme-ui-light);
+  --theme-blockquote-order-color    : var(--theme-ui);
+  --theme-bolded-text-color         : var(--bs-black);
+  --theme-table-striped-bg          : var(--theme-gray-50);
+  --theme-text-selection-text-color : var(--theme-primary-700);
+  --theme-text-selection-bg-color   : var(--theme-primary-200);
+  --theme-text-decoration-line      : underline;
+  --theme-text-decoration-style     : dashed;
+  --theme-text-decoration-color     : var(--theme-info-500);
+  --theme-text-decoration-thickness : var(--theme-border-width);
+}
+
+/* rules begin */
+/* -------------------------------- */
+
+/* alerts */
 
 /* buttons */
 .btn-primary {
@@ -393,7 +479,3 @@
   --bs-btn-disabled-bg          : var(--theme-danger-200);
   --bs-btn-disabled-border-color: var(--theme-danger-200);
 }
-
-
-
-
