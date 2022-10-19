@@ -8,8 +8,8 @@
   justify-content: center;
   width: 220px;
   height: 44px;
-  color: $primary;
-  background-color: $white;
+  color:            var(--theme-skip-link-color);
+  background-color: var(--theme-skip-link-color);
   border-bottom-right-radius: 1rem;
   transition: $transition-base;
 
@@ -49,7 +49,8 @@ main.main {
 
 ::selection,
 ::-moz-selection {
-  background-color: lighten($secondary, 35%);
+  color           : var(--theme-text-selection-text-color);
+  background-color: var(--theme-text-selection-bg-color);
   border-radius: 16px;
 }
 
@@ -65,8 +66,8 @@ main.main {
   width: 100%;
   height: 40px;
   padding: 0.25rem 0.5rem;
-  color: #fff;
-  background-color: #000;
+  color:            var(--theme-topbar-text-color);
+  background-color: var(--theme-topbar-bg-color);
   img {
     height: 24px;
   }
@@ -88,12 +89,13 @@ main.main {
 
 .page-title {
   @extend .shadow-sm;
-  background-color: $white;
+  background-color: var(--theme-page-header-bg-color);
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-bottom: $border-width $border-style $border-color;
+  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
+  // todo code page title, muted badges in CSS variables
   .badge-primary {
     background-color: $primary-100;
     color           : $primary-900;
@@ -122,9 +124,9 @@ main.main {
 .page-title-text {
   @extend .h2;
   margin-bottom: 0;
-  color: $primary;
+  color:   var(--theme-page-title-text-color);
   .icon {
-    color: $primary-500;
+    color: var(--theme-page-title-icon-color );
   }
   p {
     margin-bottom: 0;
@@ -132,26 +134,22 @@ main.main {
 }
 
 .content-container {
-  background-color: $white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  background-color:       var(--theme-content-container-bg-color);
+  padding: 1rem 0;
   margin-bottom: 1rem;
-  box-shadow: 0 1px 1px 0 fade-out($black, .85);
+  box-shadow: 0 1px 1px 0 var(--theme-content-container-shadow-color);
   @include media-breakpoint-up(lg){
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem 0;
   }
 }
 
 .form-fieldset,
 .page-area,
 .white-container-box {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: $card-bg;
-  border-bottom: $border-width $border-style $border-color;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  background-color: var(--theme-content-container-bg-color);
+  border-bottom: $border-width $border-style var(--theme-border-color);
   border-radius: $border-radius;
 }
 
@@ -162,7 +160,7 @@ main.main {
 .validation-summary-errors {
   @extend .alert-danger;
   margin: 0.5rem 0;
-  background-color: fade-out($danger, 0.9);
+  background-color: var(--theme-form-validation-error-muted-color);
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f6727c' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
   border-radius: 0.25rem;
 
@@ -257,7 +255,7 @@ main.main {
 }
 
 .border-dashed {
-  border: $border-width dashed $border-color;
+  border: $border-width dashed var(--theme-border-color);
 }
 
 .cookie-banner {
@@ -265,7 +263,7 @@ main.main {
 }
 
 .page-link {
-  border: 2px solid $input-border-color;
+  border: 2px solid var(--theme-form-border-color);
 }
 
 //this item (as well as its associated page) are no longer used/shown in this project
@@ -297,7 +295,7 @@ main.main {
 }
 
 .bg-less-bright {
-  background-color: $less-bright;
+  background-color: var(--theme-content-container-less-bright-bg-color);
 }
 
 iframe {
@@ -330,8 +328,8 @@ iframe {
     @extend .btn-outline-ui-priority;
     @extend .btn-sm;
     &:hover, &:active, &:focus {
-      background-color: $ui-priority;
-      color: $white;
+      background-color: var(--theme-link-color);
+      color           : var(--bs-white);
     }
   }
 }
@@ -344,7 +342,7 @@ iframe {
 }
 .error-display-internal {
   .card {
-    border-color: $danger-100;
+    border-color: var(--theme-danger-100);
   }
 }
 .media {

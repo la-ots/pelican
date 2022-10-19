@@ -153,8 +153,16 @@
   --theme-card-nested-bg-color: var(--theme-gray-50);
   --theme-card-border-color   : var(--theme-gray-200);
 
+  /* content-container */
+  --theme-content-container-bg-color     : var(--bs-white);
+  --theme-content-container-shadow-color : var(--theme-gray-300);
+  --theme-content-container-less-bright-bg-color : #fbf9f9;
+
   /* focus */
-  --theme-focus-color            : #2491ff;
+  --theme-focus-color : #2491ff;
+
+  /* form validation */
+  --theme-form-validation-error-muted-color : var(--theme-danger-200);
 
   /* feature blocks */
   /* you may need still need to change the classes on buttons */
@@ -236,19 +244,36 @@
   --theme-navbar-text-color-rgb     : 255, 255, 255;
   --theme-navbar-inner-border-color : var(--theme-accent);
 
+  /* page header, title */
+  /* page header is a legacy component left in here for backwards compatibility */
+  --theme-page-header-bg-color      : var(--bs-white);
+  --theme-page-title-bg-color       : var(--bs-white);
+  --theme-page-title-text-color     : var(--theme-primary);
+  --theme-page-title-icon-color     : var(--theme-gray-700);
+  --theme-page-title-border-color   : var(--theme-gray-300);
+
   /* popovers */
   --theme-popover-bg                : var(--bs-white);
   --theme-popover-header-bg-color   : var(--theme-gray-100);
   --theme-popover-header-text-color : var(--bs-black);
 
+  /* text selection color */
+  --theme-text-selection-text-color : var(--theme-primary-700);
+  --theme-text-selection-bg-color   : var(--theme-primary-200);
+
   /* sidebar & topbar */
   --theme-topbar-bg-color             : var(--bs-black);
+  --theme-topbar-text-color           : var(--bs-white);
   --theme-sidebar-brand-bg-color      : var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color    : var(--theme-primary);
   --theme-sidebar-header-border-color : var(--theme-primary-900);
   --theme-sidebar-link-color          : var(--bs-white);
   --theme-sidebar-item-bg-color       : var(--theme-info);
   --theme-sidebar-submenu-bg-color    : var(--theme-primary-900);
+
+  /* skip to main */
+  --theme-skip-link-color    : var(--theme-link-color);
+  --theme-skip-link-bg-color : var(--bs-white);
 
   /* tables */
   --theme-table-border-color     : var(--theme-gray-200);
@@ -263,6 +288,10 @@
   --theme-toast-header-danger-bg-color    : var(--theme-danger-100);
   --theme-toast-header-danger-text-color  : var(--theme-danger-900);
   --theme-toast-shadow-color              : var(--theme-gray-200);
+
+  /* toc */
+  --theme-toc-link-color       : var(--theme-link-color);
+  --theme-toc-link-hover-color : var(--theme-link-color);
 
   /* tooltips */
   /* do we want to allow tooltips customization? */
