@@ -239,10 +239,13 @@
   --theme-modal-backdrop-bg-color   : var(--theme-primary);
 
   /* navbars */
-  --theme-navbar-bg-color           : var(--theme-primary);
-  --theme-navbar-text-color         : var(--bs-white);
-  --theme-navbar-text-color-rgb     : 255, 255, 255;
-  --theme-navbar-inner-border-color : var(--theme-accent);
+  --theme-navbar-bg-color                  : var(--theme-primary);
+  --theme-navbar-text-color                : var(--bs-white);
+  --theme-navbar-text-color-rgb            : 255, 255, 255;
+  --theme-navbar-inner-border-color        : var(--theme-primary-700);
+  --theme-navbar-inner-border-hover-color  : var(--theme-accent);
+  --theme-navbar-form-control-border-color : var(--bs-white);
+  --theme-navbar-form-control-text-color   : var(--bs-white);
 
   /* page header, title */
   /* page header is a legacy component left in here for backwards compatibility */
