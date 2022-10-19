@@ -67,6 +67,10 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 - Name
 - Sign In
 
+### Feature Blocks with new markup
+
+- Feature CTA
+
 ### Hero Blocks with new markup
 
 - Dual Pane

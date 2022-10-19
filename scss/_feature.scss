@@ -46,18 +46,19 @@
 }
 .feature-cta {
   background-color: var(--theme-feature-cta-single-bg-color);
-  padding-top: 9.5rem;
-  padding-bottom: 9.5rem;
+  padding: 9.5rem 0;
+  @extend .text-center;
+  @extend .text-md-end;
   .feature-big-text {
     @extend .h2;
-    margin-bottom: 1rem;
+    @extend .text-md-start;
     color: var(--theme-feature-cta-single-header-color);
     @include media-breakpoint-up(md){
       margin-bottom: 0;
     }
   }
   .feature-small-text {
-    margin-bottom: 1rem;
+    @extend .text-md-start;
     color: var(--theme-feature-cta-single-text-color);
     @include media-breakpoint-up(md) {
       margin-bottom: 0;
