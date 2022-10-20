@@ -1,4 +1,10 @@
-a.list-group-item-action {
+.list-group-item {
+  @extend .d-flex;
+  @extend .justify-content-between;
+  @extend .align-items-lg-start;
+}
+.list-group-item-action {
+  color: var(--theme-link-color);
   &::after {
     @extend .d-inline-block;
     content: '\f061';
@@ -9,12 +15,5 @@ a.list-group-item-action {
     font-variant: normal;
     margin: 0 1px 0 5px;
   }
-}
-
-.list-group-item {
-  @extend .d-flex;
-  @extend .justify-content-between;
-  @extend .align-items-lg-start;
-  @extend .text-info;
 }
 

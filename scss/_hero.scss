@@ -4,6 +4,37 @@
 .bg-image-position-center {
   background-position: 50%;
 }
+.overlay {
+  + * {
+    z-index: 2;
+  }
+}
+
+.overlay-left {
+  top     : 0;
+  right   : 0;
+  bottom  : 50%;
+  left    : 0;
+  @media screen and (min-width: 992px) {
+    top   : 0;
+    right : 50%;
+    bottom: 0;
+    left  : 0;
+  }
+}
+
+.overlay-right {
+  top     : 50%;
+  right   : 0;
+  bottom  : 0;
+  left    : 0;
+  @media screen and (min-width: 992px) {
+    top   : 0;
+    right : 0;
+    bottom: 0;
+    left  : 50%;
+  }
+}
 .hero-dual-pane {
   @extend .position-relative;
   @extend .bg-image-position-center;
@@ -32,19 +63,13 @@
   .hero-big-text {
     @extend .h1;
     @extend .fw-bold;
-    @extend .text-shadow !optional;
-    @extend .shadow-primary!optional;
     color: var(--theme-hero-dual-pane-header-text-color);
   }
   .hero-lead-text {
     @extend .h4;
-    @extend .text-shadow !optional;
-    @extend .shadow-primary !optional;
     color: var(--theme-hero-dual-pane-lead-text-color);
   }
   .hero-small-text {
-    @extend .text-shadow !optional;
-    @extend .shadow-primary !optional;
     color: var(--theme-hero-dual-pane-small-text-color);
   }
 }

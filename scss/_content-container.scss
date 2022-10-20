@@ -1,0 +1,49 @@
+.content-container {
+  background-color:       var(--theme-content-container-bg-color);
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 1px 0 var(--theme-content-container-shadow-color);
+  @include media-breakpoint-up(lg){
+    padding: 4rem 0;
+  }
+}
+.form-fieldset,
+.page-area,
+.white-container-box {
+  padding: 1rem 0;
+  margin: 1rem 0;
+  background-color: var(--theme-content-container-bg-color);
+  border-bottom: $border-width $border-style var(--theme-border-color);
+  border-radius: $border-radius;
+}
+//this item (as well as its associated page) are no longer used/shown in this project
+.white-box {
+  border: 1px solid $gray-300;
+}
+
+.grey-box {
+  padding: 1rem;
+  background-color: $gray-100;
+  border: 2px solid $gray-400;
+  border-radius: $border-radius;
+}
+
+//this combination does not appear to be in use
+.white-box,
+.form-fieldset {
+  @extend .shadow-sm;
+  background-color: $white;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+  border-bottom: $border-width $border-style $border-color;
+  border-radius: $border-radius;
+
+  @include media-breakpoint-up(xl) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+.bg-less-bright {
+  background-color: var(--theme-content-container-less-bright-bg-color);
+}

@@ -17,7 +17,7 @@
   }
 }
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid var(--theme-border-color);
+  border-bottom: var(--theme-border-width) var(--theme-border-style) var(--theme-nav-tabs-link-active-border-color);
   .nav-item {
     margin-right: 0.5rem;
     margin-bottom: -$nav-tabs-border-width;
@@ -30,8 +30,12 @@
       background-color: transparent;
       border-color: transparent;
     }
+    &.active {
+      border-color: var(--theme-nav-tabs-link-active--border-color);
+      border-bottom: none;
+    }
     &:hover {
-      background-color: $white;
+      background-color: var(--theme-gray-white);
       border-bottom: none;
     }
   }
@@ -40,7 +44,7 @@
     color: $nav-tabs-link-active-color;
     background-color: $nav-tabs-link-active-bg;
     border-color: $nav-tabs-link-active-border-color;
-    border-bottom: 2px solid $white;
+    border-bottom: 2px solid var(--theme-gray-white);
   }
   .dropdown-menu {
     // Make dropdown border overlap tab border
@@ -64,7 +68,7 @@
   }
   .nav-link {
     color: var(--theme-link-color);
-    background-color: $white;
+    background-color: var(--theme-gray-white);
     border: 2px solid var(--theme-ui);
     transition: $transition-base;
     @include border-radius($nav-pills-border-radius);
@@ -73,7 +77,7 @@
       background-color: var(--theme-gray-200);
     }
     &:not(.disabled) {
-      background-color: $white;
+      background-color: var(--theme-gray-white);
       border: $border-width $border-style var(--theme-ui-priority);
     }
   }
@@ -109,9 +113,6 @@
 .navbar {
   background-color: var(--theme-navbar-bg-color);
   color           : var(--theme-navbar-text-color);
-  .icon {
-    @extend .opacity-50;
-  }
   &.navbar-minimal {}
   &.navbar-basic {
     @extend .navbar-expand-lg;
@@ -205,7 +206,7 @@
           .nav-link {
             background-color: rgba(var(--bs-white-rgb), .25);
             .icon {
-            @extend .opacity-100;
+            opacity: 1;
             } 
           }
           .icon-link-border-bottom {
@@ -221,13 +222,25 @@
         background-color: rgba(var(--bs-white-rgb), 0);
         border-radius: 4px 4px 0 0;
         color: var(--theme-navbar-text-color);
+        opacity: .85;
         .icon {
-          @extend .opacity-62;
+          opacity: .62;
           transition: $transition-base;
+        }
+        &.active {
+          @extend .fw-bold;
+          opacity: 1;
+          .icon {
+            opacity: 1;
+          }
+          & + .icon-link-border-bottom {
+            background-color: var(--theme-navbar-inner-border-hover-color);
+          }
         }
       }
       .icon-link-border-bottom {
-        background-color  : var(--theme-navbar-inner-border-color);
+        background-color  : "";
+        // background-color  : var(--theme-navbar-inner-border-color);
         height            : var(--theme-border-width);
       }
       @include media-breakpoint-up(lg) {

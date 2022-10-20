@@ -12,10 +12,6 @@
   }
 }
 
-.img-fluid {
-  width: 100%;
-}
-
 .img-official {
   width: 23px;
   height: 23px;
@@ -42,13 +38,13 @@
 
 .cover-image-pull-quote {
   @extend .lead;
-  color: $primary;
+  color: var(--theme-primary);
 }
 
 .cover-image-credit {
   @extend .small;
   @extend .opacity-75;
-  color: $ui;
+  color: var(--theme-ui);
   margin-top: .5rem;
 
   @include media-breakpoint-up(lg) {

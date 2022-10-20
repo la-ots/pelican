@@ -1,5 +1,8 @@
 .badge {
   @extend .rounded-pill;
+  .icon {
+    opacity: .5;
+  }
 }
 .badge-primary {
   background-color: var(--theme-badge-chip-primary-bg-color);

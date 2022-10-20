@@ -1,43 +1,94 @@
 @charset "UTF-8";
 
-// OTS & Agency variables
-@import "theme";
-@import "variables-agency";
-@import "variables-default";
+@import "bootstrap/scss/mixins/banner";
+@include bsBanner("");
 
-// customizations to Bootstrap
-@import "bootstrap/scss/bootstrap";
-@import "mixins";
+// scss-docs-start import-stack
+// Configuration
+@import "bootstrap/scss/functions";
+
+// pelican defaults in theme-start
+@import "theme-start";
+
+@import "bootstrap/scss/variables";
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+// scss-docs-end import-stack
+
+// Pelican components
 @import "reboot";
-@import "type";
-@import "tables";
-@import "forms";
-@import "buttons";
-@import "input-group";
-@import "custom-forms";
-@import "nav";
-@import "card";
+@import "mixins";
 @import "alert";
-@import "progress";
-@import "list-group";
+@import "badge-chip";
 @import "breadcrumb";
-@import "badges-chips";
-@import "toasts";
-@import "modal";
-@import "tooltip";
-@import "popover";
-
-// things we add
-@import "sidebar";
-@import "collapse";
-@import "images";
-@import "cover";
+@import "breadcrumb";
+@import "buttons";
+@import "card";
+@import "content-container";
+@import "data-tiles";
 @import "feature";
 @import "footer";
+@import "forms";
+@import "custom-forms";
 @import "hero";
-@import "loader";
-@import "toc";
-@import "data-tiles";
+@import "images";
+@import "list-group";
+@import "modal";
+@import "nav";
+@import "official-banner";
+@import "page-title";
+@import "progress";
+@import "share-social";
+@import "sidebar";
+@import "skip-to-main";
+@import "tables";
+@import "toasts";
 @import "focus";
-@import "bg-texture";
 @import "custom";
+
+// this next partial sets the CSS Variables 
+// which can be overridden in a separate CSS file
+@import "theme-overrides";

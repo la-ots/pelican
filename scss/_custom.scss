@@ -1,174 +1,8 @@
-.skip-to-main {
-  position: absolute;
-  top: 0;
-  left: -220px;
-  z-index: $zindex-skip-to-main;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 220px;
-  height: 44px;
-  color:            var(--theme-skip-link-color);
-  background-color: var(--theme-skip-link-bg-color);
-  border-bottom-right-radius: 1rem;
-  transition: $transition-base;
-
-  &:active,
-  &:focus {
-    left: 0;
-  }
-}
-
-.wrapper-main {
-  position: relative;
-  min-height: 100vh;
-}
-
-main.main {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-}
-
-.official-banner {
-  @extend .border-bottom;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  background-color: $black;
-  border-color    : $black !important;
-  color           : $white;
-  .container-fluid {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-  }
-  .btn {
-    @extend .btn-link;
-    @extend .btn-sm;
-    @extend .border-0;
-    @extend .bg-transparent;
-    @extend .shadow-none;
-    @extend .text-white;
-    @extend .fw-bold;
-  }
-  .expander {
-    transform: translateY(-1px);
-  }
-  .fw-bold {
-    @extend .text-white;
-  }
-  .icon {
-    @extend .opacity-50;
-  }
-}
-
 ::selection,
 ::-moz-selection {
   color           : var(--theme-text-selection-text-color);
   background-color: var(--theme-text-selection-bg-color);
   border-radius: 16px;
-}
-
-.wrapper-topbar {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  left: 0;
-  z-index: 900;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 100%;
-  height: 40px;
-  padding: 0.25rem 0.5rem;
-  color:            var(--theme-topbar-text-color);
-  background-color: var(--theme-topbar-bg-color);
-  img {
-    height: 24px;
-  }
-  @include media-breakpoint-up(lg) {
-    justify-content: flex-start;
-  }
-}
-
-.page-header {
-  background-color: var(--theme-page-header-bg-color);
-  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
-  border-radius: 0;
-
-  @include media-breakpoint-up(lg) {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-
-.page-title {
-  @extend .shadow-sm;
-  background-color: var(--theme-page-title-bg-color);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
-  // todo code page title, muted badges in CSS variables
-  .badge-primary {
-    background-color: $primary-100;
-    color           : $primary-900;
-  }
-  .badge-secondary {
-    background-color: $secondary-100;
-    color           : $secondary-900;
-  }
-  .badge-accent {
-    background-color: $accent-100;
-    color           : $accent-900;
-  }
-  .badge-ui {
-    background-color: $gray-100;
-    color           : $gray-900;
-  }
-  .badge-success {
-    background-color: $success-100;
-    color           : $success-900;
-  }
-  .badge-info {
-    background-color: $info-100;
-    color           : $info-900;
-  }
-}
-.page-title-text {
-  @extend .h2;
-  margin-bottom: 0;
-  color:   var(--theme-page-title-text-color);
-  .icon {
-    color: var(--theme-page-title-icon-color );
-  }
-  p {
-    margin-bottom: 0;
-  }
-}
-
-.content-container {
-  background-color:       var(--theme-content-container-bg-color);
-  padding: 1rem 0;
-  margin-bottom: 1rem;
-  box-shadow: 0 1px 1px 0 var(--theme-content-container-shadow-color);
-  @include media-breakpoint-up(lg){
-    padding: 4rem 0;
-  }
-}
-
-.form-fieldset,
-.page-area,
-.white-container-box {
-  padding: 1rem 0;
-  margin: 1rem 0;
-  background-color: var(--theme-content-container-bg-color);
-  border-bottom: $border-width $border-style var(--theme-border-color);
-  border-radius: $border-radius;
-}
-
-.page-area {
-  padding-bottom: 0;
 }
 
 .validation-summary-errors {
@@ -202,70 +36,8 @@ main.main {
   }
 }
 
-.opacity-25 {
-  opacity: 0.25;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-62 {
-  opacity: 0.62;
-}
-
-.opacity-75 {
-  opacity: 0.75;
-}
-
-.opacity-85 {
-  opacity: 0.85;
-}
-
-.opacity-95 {
-  opacity: 0.95;
-}
-
-.opacity-100 {
-  opacity: 1;
-}
-
 .flip-x {
   transform: scaleX(-1);
-}
-
-.overlay {
-  + * {
-    z-index: 2;
-  }
-}
-
-.overlay-left {
-  top: 0;
-  right: 0;
-  bottom: 50%;
-  left: 0;
-
-  @media screen and (min-width: 992px) {
-    top: 0;
-    right: 50%;
-    bottom: 0;
-    left: 0;
-  }
-}
-
-.overlay-right {
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
-  @media screen and (min-width: 992px) {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 50%;
-  }
 }
 
 .border-dashed {
@@ -278,38 +50,6 @@ main.main {
 
 .page-link {
   border: 2px solid var(--theme-form-border-color);
-}
-
-//this item (as well as its associated page) are no longer used/shown in this project
-.white-box {
-  border: 1px solid $gray-300;
-}
-
-.grey-box {
-  padding: 1rem;
-  background-color: $gray-100;
-  border: 2px solid $gray-400;
-  border-radius: $border-radius;
-}
-
-//this combination does not appear to be in use
-.white-box,
-.form-fieldset {
-  @extend .shadow-sm;
-  background-color: $white;
-  padding: 1.5rem 1rem;
-  margin-bottom: 1rem;
-  border-bottom: $border-width $border-style $border-color;
-  border-radius: $border-radius;
-
-  @include media-breakpoint-up(xl) {
-    padding-right: 4rem;
-    padding-left: 4rem;
-  }
-}
-
-.bg-less-bright {
-  background-color: var(--theme-content-container-less-bright-bg-color);
 }
 
 iframe {
@@ -328,25 +68,7 @@ iframe {
   -webkit-hyphens: auto;
   hyphens: auto;
 }
-.share-social {
-  @extend .card;
-  .share-social-body {
-    @extend .card-body;
-    @extend .text-center;
-  }
-  small {
-    @extend .d-block;
-    margin-bottom: .5rem;
-  }
-  .btn {
-    @extend .btn-outline-ui-priority;
-    @extend .btn-sm;
-    &:hover, &:active, &:focus {
-      background-color: var(--theme-link-color);
-      color           : var(--bs-white);
-    }
-  }
-}
+
 
 .error-display {
   margin-top: 1rem;
@@ -359,10 +81,4 @@ iframe {
     border-color: var(--theme-danger-100);
   }
 }
-.media {
-  display: flex;
-  align-items: flex-start;
-  .media-body {
-    flex: 1;
-  }
-}
+

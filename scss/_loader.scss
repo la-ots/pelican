@@ -42,11 +42,11 @@
 }
 
 .loading-animation-content div:nth-child(1) {
-  border-color: $loader-main-color;
+  border-color: var(--theme-primary);
 }
 
 .loading-animation-content div:nth-child(2) {
-  border-color: $loader-secondary-color;
+  border-color: var(--theme-ui);
   animation-delay: -0.66s;
 }
 

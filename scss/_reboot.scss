@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   scroll-behavior: smooth;
 }
 body {
@@ -25,25 +24,20 @@ body {
   }
 }
 
-label,
-.label {
-  // Allow labels to use `margin` for spacing.
+label, .label {
   display: block;
-  margin-bottom: $label-margin-bottom;
-  font-weight: $form-label-font-weight;
+  margin-bottom: .5rem;
+  font-weight: 700;
 }
 
-small,
-.small {
+small, .small {
   color: var(--theme-small-text-color);
-
   .form-group & {
     padding: 2px 4px 0;
   }
 }
 
-hr,
-.hr {
+hr, .hr {
   @extend .w-100;
   background-color: var(--theme-divider-bg-color);
   border: 0;
@@ -79,8 +73,7 @@ p, li {
   }
 }
 
-blockquote,
-.blockquote {
+blockquote, .blockquote {
   padding: 24px 32px 6px;
   background-color: var(--theme-blockquote-bg-color);
   border-left: ($border-width * 4) $border-style var(--theme-ui);
@@ -91,13 +84,7 @@ blockquote + blockquote,
   margin-top: -16px;
 }
 
-caption {
-  caption-side: top;
-  border-top: 1px solid #f00;
-}
-
-legend,
-.legend {
+legend, .legend {
   display: block;
   width: 100%;
   max-width: 100%;

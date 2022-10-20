@@ -49,6 +49,7 @@
   transform: translateY(-50%);
 }
 .btn-add-this, .btn-add-data {
+  // todo fix the persistent gray bg after press
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
@@ -62,7 +63,8 @@
   border: 2px dashed var(--theme-ui);
   div, .wrapper {
     @extend .rounded;
-    background-color:  var(--theme-ui);
+    background-color: var(--theme-ui);
+    color           : var(--bs-white);
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: .75rem;
@@ -90,7 +92,7 @@ a.btn {
 }
 //this class has similar attributes to btn-link
 .btn-prev-next-section {
-  color: $ui-priority;
+  color: var(--theme-ui-priority);
   background-color: transparent !important;
   @extend .border-0 ;
   @extend .shadow-none;

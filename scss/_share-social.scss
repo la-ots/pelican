@@ -1,0 +1,12 @@
+.share-social {
+  @extend .card;
+  .share-social-body {
+    @extend .card-body;
+    @extend .text-center;
+  }
+  small {
+    @extend .d-block;
+    margin-bottom: .5rem;
+  }
+  
+}
