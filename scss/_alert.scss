@@ -16,7 +16,7 @@
   }
 }
 .alert-success {
-  color: var(--theme-alert-success-text-color);
+  color              : var(--theme-alert-success-text-color);
   background-color   : var(--theme-alert-success-bg-color);
   border-top-color   : var(--theme-alert-success-border-top-color);
   border-top-width   : var(--theme-alert-success-border-top-width);
@@ -27,11 +27,11 @@
   border-left-color  : var(--theme-alert-success-border-left-color);
   border-left-width  : var(--theme-alert-success-border-left-width);
   .alert-link {
-    color: var(--theme-alert-success-text-color);
+    color            : var(--theme-alert-success-text-color);
   }
 }
 .alert-info {
-  color: var(--theme-alert-info-text-color);
+  color              : var(--theme-alert-info-text-color);
   background-color   : var(--theme-alert-info-bg-color);
   border-top-color   : var(--theme-alert-info-border-top-color);
   border-top-width   : var(--theme-alert-info-border-top-width);
@@ -42,11 +42,11 @@
   border-left-color  : var(--theme-alert-info-border-left-color);
   border-left-width  : var(--theme-alert-info-border-left-width);
   .alert-link {
-    color: var(--theme-alert-info-text-color);
+    color            : var(--theme-alert-info-text-color);
   }
 }
 .alert-warning {
-  color: var(--theme-alert-warning-text-color);
+  color              : var(--theme-alert-warning-text-color);
   background-color   : var(--theme-alert-warning-bg-color);
   border-top-color   : var(--theme-alert-warning-border-top-color);
   border-top-width   : var(--theme-alert-warning-border-top-width);
@@ -57,11 +57,11 @@
   border-left-color  : var(--theme-alert-warning-border-left-color);
   border-left-width  : var(--theme-alert-warning-border-left-width);
   .alert-link {
-    color: var(--theme-alert-warning-text-color);
+    color            : var(--theme-alert-warning-text-color);
   }
 }
 .alert-danger {
-  color: var(--theme-alert-danger-text-color);
+  color              : var(--theme-alert-danger-text-color);
   background-color   : var(--theme-alert-danger-bg-color);
   border-top-color   : var(--theme-alert-danger-border-top-color);
   border-top-width   : var(--theme-alert-danger-border-top-width);
@@ -72,6 +72,6 @@
   border-left-color  : var(--theme-alert-danger-border-left-color);
   border-left-width  : var(--theme-alert-danger-border-left-width);
   .alert-link {
-    color: var(--theme-alert-danger-text-color);
+    color            : var(--theme-alert-danger-text-color);
   }
 }
