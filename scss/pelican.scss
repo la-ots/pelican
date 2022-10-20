@@ -87,6 +87,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "tables";
 @import "toasts";
 @import "focus";
+@import "bg-texture";
 @import "custom";
 
 // this next partial sets the CSS Variables 
