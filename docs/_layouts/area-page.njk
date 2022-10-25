@@ -12,6 +12,9 @@ layout: default.njk
           <div class="col-12 col-md-6 col-lg-4 col-xl-3" role="listitem">
             <div class="card shadow-none">
               <div class="card-body">
+                {%- if child.img %}
+                <img alt="" src="{{ child.img }}" class="img-fluid mb-3 gray-hover-color" aria-hidden="true"/>
+                {%- endif %}
                 <a href="{{ child.url }}" class="text-decoration-none d-flex align-items-center stretched-link">
                   {{ child.title }}<span class="fas fa-arrow-right ml-auto ms-auto opacity-25" aria-hidden="true"></span>                
                 </a>
