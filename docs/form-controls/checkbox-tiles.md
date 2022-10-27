@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 5
   excerpt: Offer users a larger tap target and additional information.
-  img: /img/illustrations/illus-checkbox-tile.svg
+  img: /img/illustrations/illus-checkbox-tile.png
 ---
 
 ## Best Practices

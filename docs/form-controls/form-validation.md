@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 13
   excerpt: 
-  img: /img/illustrations/illus-form-section-header.svg
+  img: /img/illustrations/illus-form-section-header.png
 ---
 
 ## Best Practices

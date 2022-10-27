@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 6
   excerpt: The Input element specifies a field for the user to enter information on a page.
-  img: /img/illustrations/illus-inputs.svg
+  img: /img/illustrations/illus-inputs.png
 ---
     
 ## Best Practices

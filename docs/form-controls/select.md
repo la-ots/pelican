@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 9
   excerpt: Select allows the user to select an option from a group of similar options.
-  img: /img/illustrations/illus-select.svg
+  img: /img/illustrations/illus-select.png
 ---
 
 ## Best Practices
