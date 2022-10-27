@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Components
   order: 180
   excerpt: Give items in a list more visual prominence.
-  img: /img/illustrations/illus-loading.svg
+  img: /img/illustrations/illus-list-group.png
 ---
 
 ## Best Practices
