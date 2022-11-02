@@ -119,7 +119,7 @@
   --theme-warning      : var(--theme-warning-500);
   --theme-danger       : var(--theme-danger-800);
   --theme-link-color   : var(--theme-info-800);
-  --theme-ui           : var(--theme-gray-500);
+  --theme-ui           : var(--theme-gray-600);
   --theme-ui-light     : var(--theme-gray-100);
   --theme-ui-priority  : var(--theme-link-color);
   --theme-text-intense : var(--theme-gray-900);
