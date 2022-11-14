@@ -1,14 +1,15 @@
 @media print {
   #ScrollToTop,
-  .edit-github,
-  .breadcrumb-wrapper,
-  .btns-previous-next,
-  .skip-to-main,
-  .page-toc,
   #sidebar,
   #footer,
   #wrapper-topbar,
-  #sidebar-button {
+  #sidebar-button,
+  .breadcrumb-wrapper,
+  .btns-previous-next,
+  .skip-to-main,
+  .edit-github,
+  .page-toc
+  {
     display: none !important;
   }
 
@@ -26,66 +27,18 @@
     transition: unset;
   }
   
-  /* Hide Unnecessary Items and Styling */
   body,
   html {
     background-color: white !important;
     background-image: none !important;
   }
 
-  /* Page Breaking */
-  .always-pba {
-    page-break-after: always;
-    break-after: always;
+  #main {
+    height: 100% !important;
   }
 
-  .avoid-pba {
-    page-break-after: avoid;
-    break-after: avoid;
-  }
-
-  .left-pba {
-    page-break-after: left;
-    break-after: left;
-  }
-
-  .right-pba {
-    page-break-after: right;
-    break-after: right;
-  }
-
-  .avoid-pbb {
-    page-break-before: avoid;
-    break-before: avoid;
-  }
-
-  .always-pbb {
-    page-break-before: always;
-    break-before: always;
-  }
-
-  .avoid-pbb {
-    page-break-before: avoid;
-    break-before: avoid;
-  }
-
-  .left-pbb {
-    page-break-before: left;
-    break-before: left;
-  }
-
-  .right-pbb {
-    page-break-before: right;
-    break-before: right;
-  }
-
-  .avoid-pbb {
-    page-break-before: avoid;
-    break-before: avoid;
-  }
-
-  .avoid-pbi {
-    page-break-inside: avoid;
-    break-before: avoid;
+  .page-content {
+    height: auto !important;
+    padding: 0 !important;
   }
 }
