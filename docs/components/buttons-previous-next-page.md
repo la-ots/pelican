@@ -14,6 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Place at the bottom, but above the footer, of each page in the process.
+- Be sure to customize the value in the `aria-label="..."` for each project.
 - Buttons should be side by side at small sizes, when the button labels are short.
 - Buttons can be centered at small sizes when the buttons labels are too long for side by side arrangement.
 - When button labels are long enough to require centering, ensure that Previous button is atop the Next button.
