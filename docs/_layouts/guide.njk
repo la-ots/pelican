@@ -4,13 +4,6 @@ layout: default.njk
 
 {% include "page-title.njk" %}
 <div class="container-fluid">
-  {%- if eleventyNavigation.img %}
-  <div class="row">
-    <div class="col-md-6">
-      <img alt="" src="{{ eleventyNavigation.img }}" class="img-fluid rounded mb-3" aria-hidden="true"/>
-    </div>
-  </div>
-  {%- endif %}
   <div class="row">
     <div class="col-md-6">
       {% include "page-contents.njk" %}
