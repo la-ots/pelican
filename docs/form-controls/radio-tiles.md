@@ -1,6 +1,6 @@
 ---
 title: Radio Tiles
-summary: Radio tiles present users with a significant choice amog multiple options.
+summary: Radio tiles allow users to select one significant choice from a set of options.
 tags: forms
 layout: guide
 eleventyNavigation: 
