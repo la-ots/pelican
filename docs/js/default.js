@@ -1,4 +1,5 @@
 let pageWrapper = document.getElementById("page-wrapper");
+let sidebar = document.getElementById("sidebar");
 let sidebarButton = document.getElementById("sidebar-button");
 let sidebarDropdownLink = document.querySelectorAll(".sidebar-dropdown-header-expand");
 let scrollToTop = document.getElementById("ScrollToTop");
@@ -17,6 +18,7 @@ let slideUp = (target, duration = 500) => {
   target.style.marginBottom = 0;
   window.setTimeout(() => {
     target.style.display = "none";
+    target.setAttribute("aria-hidden", "true");
     target.style.removeProperty("height");
     target.style.removeProperty("padding-top");
     target.style.removeProperty("padding-bottom");
@@ -33,6 +35,7 @@ let slideDown = (target, duration = 500) => {
   let display = window.getComputedStyle(target).display;
   if (display === "none") display = "block";
   target.style.display = display;
+  target.setAttribute("aria-hidden", "false");
   let height = target.offsetHeight;
   target.style.overflow = "hidden";
   target.style.height = 0;
@@ -55,6 +58,20 @@ let slideDown = (target, duration = 500) => {
     target.style.removeProperty("transition-duration");
     target.style.removeProperty("transition-property");
   }, duration);
+};
+
+sidebar.ontransitionend = () => {
+  //insert menu hidding behavior
+  if (sidebar.offsetLeft == 0) {
+    sidebar.setAttribute("aria-hidden", "false");
+    sidebar.removeAttribute("inert");
+    sidebar.setAttribute("aria-expanded", "true");
+  }
+  else {
+    sidebar.setAttribute("aria-hidden", "true");
+    sidebar.setAttribute("inert", "inert");
+    sidebar.setAttribute("aria-expanded", "false");
+  }
 };
 
 if (sidebarButton) {
