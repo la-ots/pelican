@@ -17,7 +17,6 @@ eleventyNavigation:
 - If space is limited, both will automatically adjust their orientation regardless of initial placement.
 - Popovers have a header. It’s useful when explaining things in more detail than a Tooltip.
 - Tooltips do not have a header. It’s useful when only short amount of text is needed.
-- Consider making tooltips appear on click instead of hover for accessibility (with `data-trigger="click"`). We don’t want to exclude users whose devices don’t work with hover.
 
 ## Usage
 
