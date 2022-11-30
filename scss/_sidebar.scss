@@ -127,7 +127,6 @@
   align-items: center;
   justify-content: space-between;
   height: 40px;
-  padding-left: 20px;
   background-color: $black;
   img {
     height: 24px;
@@ -138,6 +137,7 @@
   @extend .position-relative;
   flex-grow: 1;
   font-weight: 700;
+  padding: 10px 20px;
 }
 
 #close-sidebar {
