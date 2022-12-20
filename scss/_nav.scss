@@ -240,7 +240,6 @@
       }
       .icon-link-border-bottom {
         background-color  : "";
-        // background-color  : var(--theme-navbar-inner-border-color);
         height            : var(--theme-border-width);
       }
       @include media-breakpoint-up(lg) {

@@ -1,8 +1,24 @@
-::selection,
-::-moz-selection {
-  color           : var(--theme-text-selection-text-color);
-  background-color: var(--theme-text-selection-bg-color);
-  border-radius: 16px;
+body {
+  display: flex;
+  flex-direction: column;
+
+  &.auth-page {
+    background-color: var(--theme-primary);
+    background-image: none;
+  }
+
+  &.error-page {
+    background-color: var(--theme-primary);
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2311304d' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  &.internal {
+    padding-bottom: 64px;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 0;
+    }
+  }
 }
 
 .validation-summary-errors {

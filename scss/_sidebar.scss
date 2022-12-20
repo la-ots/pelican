@@ -1,13 +1,9 @@
-.page-wrapper {}
 .page-wrapper .theme {
   display: inline-block;
   width: 40px;
   height: 40px;
   margin: 2px;
   border-radius: 4px;
-}
-.page-wrapper .theme.chiller-theme {
-  background: $primary;
 }
 .sidebar-wrapper {
   position: fixed;
@@ -309,7 +305,6 @@
   position: relative;
   min-height: 100vh;
 }
-
 main.main {
   display: flex;
   flex-direction: column;
