@@ -78,7 +78,7 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 **Warning**
 
-The Warning color Indicates unintended, but not dangerous, effects of actions.
+The Warning color indicates unintended, but not dangerous, effects of actions.
 
 - Often used to display destructive actions from a list if it’s relatively easy to reinsert items in the list.
 - Can be used to signal data actions authorized users can affect which could affect non-authorized users.

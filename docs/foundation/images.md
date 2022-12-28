@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Use meaningful images to enhance the content.
 - Avoid decorative images.
-- Avoid using images of swamps, alligators, or cultural images unless they are real information.
+- Avoid using images of swamps, alligators, beads, or sunsets images unless they are real information.
 
 ## Content Images
 
@@ -65,7 +65,7 @@ Non-content images may be requested by the Stakeholders and Project Owners. In t
 When writing alt text, keep the following in mind:
 
 - Be specific; describe the image for users who cannot see them.
-- Keep it short as possible, but descriptive. Try to keep it around 250 characters.
+- Keep it short as possible, but descriptive. Try to keep it around 150 characters.
 - Don’t include phrases like “Image of...” or “Picture of...” 
 - Use a simple, descriptive sentence and the appropriate punctuation.
 - Alt text describes the image, it’s not a caption.
