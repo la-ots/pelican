@@ -14,11 +14,11 @@ eleventyNavigation:
 ## Best Practices
 
 - Use Dividers to separate content.
-- Use Dividers sparingly and only when separating content.
+- Use Dividers sparingly and only when separating content helps comprehension.
 - Major Dividers create strong separation between content. This could be between Form or content sections.
-- Minor Dividers create weak separation between content. This could be between Form or content section with minor differences.
-- If the divider is outside a white or gray box, but atop the background of the page, it goes edge-to-edge.
-- If the divider is inside a white or gray box, it stays within the padding of the white or gray box.
+- Minor Dividers create weak separation between content. This could be between Form or content sections with minor differences.
+- If the divider is outside a Content Container, it goes edge-to-edge.
+- If the divider is inside a Content Container or card, it stays within the padding of the parent.
 - Top borders on [Back and Forward Buttons](/components/back-and-forward-buttons/) go edge-to-edge.
 - Borders on Components such as [Large Progress Indicator](/components/progress/) typically go edge-to-edge.
 - Add any `my-x` class to change top and bottom margin at the same time.

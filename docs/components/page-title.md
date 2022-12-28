@@ -20,7 +20,7 @@ eleventyNavigation:
 - If a page needs more than one button, use a [Bootstrap Dropdown button](https://getbootstrap.com/docs/5.2/components/dropdowns/#single-button).
 - Remove the [Badges](/components/badges/) section if you don’t need them.
 - Try to keep to just two or three Badges.
-- Badges in the Page Title will appear dimmed unless they are Danger or Warning Badges.
+- Badges in the Page Title will appear muted unless they are Danger or Warning Badges.
 
 ## Usage
 
