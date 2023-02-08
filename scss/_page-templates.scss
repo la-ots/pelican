@@ -1,0 +1,14 @@
+//page templates -> 404 page
+.error-display {
+  margin-top: 1rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 5.5rem;
+  }
+}
+
+.error-display-internal {
+  .card {
+    border-color: var(--theme-danger-100);
+  }
+}
