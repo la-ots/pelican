@@ -28,7 +28,7 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 
 ### Operable
 
-- Are all menus, links, buttons, and other controls [usable only by keyboard](/accessibility/keyboard/), to make them accessible to users who don’t use a mouse?
+- Are all menus, links, buttons, and other controls [usable by keyboard](/accessibility/keyboard/), to make them accessible to users who don’t use a mouse?
 - Does the web page include a visible focus indicator so all users, especially those using a keyboard, can easily know their current position?
 - Do features that scroll or update automatically (e.g., slideshows, carousels) have prominent accessible controls that enable users to pause or advance these features on their own?
 - Do pages that have time limits include mechanisms for adjusting those limits for users who need more time?
@@ -36,7 +36,7 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 - Does the web page or document have a title that describes its topic or purpose?
 - Are mechanisms in place that [allow users to bypass blocks of content](/accessibility/skip-link/) (e.g., a “skip to main content”?
 - Does the website include two or more ways of finding content, such as a navigation menu, search feature, or [human-readable site map](/sitemap/)?
-- Do all [links contain meaninful text](/foundation/links/), independent of context?
+- Do all [links contain meaningful text](/foundation/links/), independent of context?
 - At 200% zoom or higher, all content and controls should still be accessed.
 
 ### Understandable
