@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 11
   excerpt: Textarea allows users to input multiple lines of text into a form.
-  img: /img/illustrations/illus-textarea.svg
+  img: /img/illustrations/illus-textarea.png
 ---
     
 ## Best Practices

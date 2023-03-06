@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 2
   excerpt: Labels give the user additonal control and context for form controls.
-  img: /img/illustrations/illus-labels.svg
+  img: /img/illustrations/illus-labels.png
 ---
     
 ## Best Practices

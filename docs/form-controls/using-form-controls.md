@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 1
   excerpt: Make the form for the user, not for us.
-  img: /img/illustrations/illus-using-form-controls.svg
+  img: /img/illustrations/illus-using-form-controls.png
 ---
 
 ## Best Practices

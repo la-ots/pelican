@@ -4,15 +4,18 @@ layout: default.njk
 
 {% include "page-title.njk" %}
 <div class="container-fluid">
-  <div class="row gx-4 gy-1" role="list">
+  <div class="row g-2 mb-5" role="list">
     {%- set navPages = collections.all | eleventyNavigation %}
     {%- for entry in navPages %}
       {%- if entry.url in page.url %}
         {%- for child in entry.children %}
-          <div class="col-12 col-md-6 col-lg-4 col-xl-3" role="listitem">
-            <div class="card shadow-none">
+          <div class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="card mb-0 shadow-none h-100">
               <div class="card-body">
-                <a href="{{ child.url }}" class="text-decoration-none d-flex align-items-center stretched-link">
+                {%- if child.img %}
+                <img alt="" src="{{ child.img }}" class="img-fluid mb-3 gray-hover-color" aria-hidden="true"/>
+                {%- endif %}
+                <a href="{{ child.url }}" class="text-decoration-none d-flex align-items-center stretched-link mt-auto">
                   {{ child.title }}<span class="fas fa-arrow-right ml-auto ms-auto opacity-25" aria-hidden="true"></span>                
                 </a>
               </div>

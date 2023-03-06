@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 10
   excerpt: Switches allow users to enable or disable something, like a light switch.
-  img: /img/illustrations/illus-switches.svg
+  img: /img/illustrations/illus-switches.png
 ---
 
 ## Best Practices

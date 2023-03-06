@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Form Controls
   order: 3
   excerpt: Form section headers divide a form into smaller sections.
-  img: /img/illustrations/illus-form-section-header.svg
+  img: /img/illustrations/illus-form-section-header.png
 ---
 
 ## Best Practices
