@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Refrain from using placeholder attributes in inputs because they causes usability problems.
+- Refrain from using placeholder attributes in inputs because they cause usability problems.
 - Use the Text Input when you can’t predict a user’s response or when another type of Input would make answering the prompt difficult.
 - If users must choose from a predetermined set of choices, use [Radio Buttons](/form-controls/radios) or [Checkboxes](/form-controls/checkboxes).
 - Use [Textarea](/form-controls/textarea) if the user needs to enter more than a single line of text.
