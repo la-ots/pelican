@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Use meaningful images to enhance the content.
 - Avoid decorative images.
-- Avoid using images of swamps, alligators, beads, or sunsets images unless they are real information.
+- Avoid using images of swamps, alligators, beads, or sunset images unless they are real information.
 
 ## Content Images
 
