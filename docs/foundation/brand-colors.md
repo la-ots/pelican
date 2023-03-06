@@ -53,11 +53,19 @@ Brand Colors are presented in these lists. These colors have been automatically 
 
 **Primary**
 
-The Primary color is the color most recognized and associated with a brand. In Pelican, the Primary brand color, `$primary`, is often used for the items below:
+The Primary color is the color most recognized and associated with a brand. In Pelican, the Primary brand color, `$primary`, is often used for the following items:
 
 - Text color for [Page Title](/components/page-title/)
 - Background color for [left sidebar](/components/app-screen/)
 - Button background color for the main action button in a [Button Container](/components/button-container/)
+
+**Secondary**
+
+The Secondary color is used to support the primary color. In Pelican, ``, is often used for the following items:
+
+- Supporting action buttons
+- Translucent overlay background colors
+- Background color of calls to action
 
 **Accent**
 
@@ -156,7 +164,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
           Hex Code: <code>#4c2e01</code>
         </p>
         <p class="mb-0">
-          SCSS Var: <code>$secondary-90</code>
+          SCSS Var: <code>$secondary-900</code>
         </p>
       </div>
     </div>

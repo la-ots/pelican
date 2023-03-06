@@ -26,6 +26,7 @@ The browser window has an explicit width whether it’s edge-to-edge of your mon
 1. Medium, `-md` , is 768 – 991px.
 1. Large, `-lg` , is 992 – 1199px.
 1. Extra Large, `-xl` , is 1200px or larger.
+1. Extra extra Large, `-xxl`, is 1400 px or larger.
 
 These breakpoints allow for items to be predictably sized. Resize this window and observe how the light blue boxes widths change in small increments before changing across larger increments.
 
