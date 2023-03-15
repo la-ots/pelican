@@ -15,6 +15,7 @@ eleventyNavigation:
 
 - MyLa should be used to allow users to create their User ID & Password. If not, use this form.
 - Put the form into a column to size as necessary.
+- Change the heading level when appropriate.
 
 ## Usage
 
