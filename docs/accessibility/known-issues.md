@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Accessibility
   order: 9
   excerpt: A list of known accessibility issues in Pelican.
-  img: /img/illustrations/illus-accessibility-checklist.svg
+  img: /img/illustrations/illus-accessibility-issues.svg
 ---
 
 ## List of Known Issues
