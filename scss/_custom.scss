@@ -354,3 +354,10 @@ iframe {
     flex: 1;
   }
 }
+
+.form-title {
+  // this is used on form templates
+  @extend .h3;
+  @extend .mb-6;
+  @extend .text-primary;
+}
