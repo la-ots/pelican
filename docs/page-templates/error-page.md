@@ -14,7 +14,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-{% include 'writing-tips.njk' %}
+{% include 'writing-tips.njk' %}- Be sure to adjust heading levels as appropriate.
 
 ## Usage
 

@@ -19,6 +19,7 @@ People often arrive at a documentation page after visiting the landing page or a
 - Use [Plain Language](https://plainlanguage.gov/), not technical jargon.
 - Provide useful information.
 - See [Voice and Tone](/foundation/voice-and-tone/) for more information.
+- Be sure to adjust heading levels as appropriate.
 
 ## Usage
 

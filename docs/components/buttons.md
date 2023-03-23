@@ -20,8 +20,8 @@ eleventyNavigation:
 - If disabled buttons must be shown, be sure to add the `disabled` attribute.
 - Use only one primary button when possible.
 - Multiple gray outline buttons may be used.
-- If an action moves the user to another place in the same page, or another URL, use a link (`<a>`) and not `<button>`.
-- If a button is inside of a table row, give it the `btn-sm` class in addition to other classes.
+- If an action moves the user to another place in the same page, or another URL, use a link `<a>` and not `<button>`.
+- If a button is inside of a table row, add the `btn-sm` class in addition to other classes.
 - For accessibility reasons, when using `<a>` as a `<button>` you must include `role="button"`.
 
 **Content**
@@ -37,6 +37,7 @@ eleventyNavigation:
 
 - For accessibility reasons, when using `<a>` to perform a data action, you must include the `role="button"` attribute on the `<a>`.
 - If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below).
+- Try to avoid icon-only button unless the action word is known to voice control users.
 
 <hr>
 
@@ -65,20 +66,20 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 <button type="button" class="btn btn-primary btn-sm">
   <span class="fas fa-check" aria-hidden="true"></span>
-  <span class="sr-only visually-hidden" aria-hidden="false">Accept</span>
+  <span class="visually-hidden">Accept</span>
 </button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
   <span class="fas fa-check" aria-hidden="true"></span>
-  <span class="sr-only visually-hidden" aria-hidden="false">Accept</span>
+  <span class="visually-hidden">Accept</span>
 </button>
 ```
 
 ### Dropdown Buttons
 
 - Contains a list of links, using the `<a>` element.
-- It’s not the same thing as the [Select Menu used in Forms](/form-controls/select/).
+- It’s not the same thing as the [Select Menu]((/form-controls/select/)) used in Forms.
 - Keep the text in the links brief.
 - Appearance can be changed like other buttons.
 

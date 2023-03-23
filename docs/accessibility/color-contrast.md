@@ -63,7 +63,7 @@ eleventyNavigation:
         <p class="mb-0 text-center text-white">16px Text</p>
       </div>
       <div class="card-body">
-        <p class="mb-0 fw-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>2.15:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>2.14:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -85,7 +85,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 fw-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.16:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-check text-success mr-1 me-1" aria-hidden="true"></span>3.15:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -121,7 +121,7 @@ eleventyNavigation:
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 fw-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>1.02:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="fas fa-times text-danger mr-1 me-1" aria-hidden="true"></span>1.01:1 Contrast ratio</p>
       </div>
     </div>
   </div>
@@ -130,3 +130,4 @@ eleventyNavigation:
 ## Resources
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 * [WCAG - Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
+* [TPGi Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)

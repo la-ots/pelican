@@ -21,7 +21,7 @@ Don’t change the layouts of Pelican’s elements. Louisiana’s residents need
 
 ## Code
 
-Don’t change in ways other than what’s provided for customization. You may have to remedy any [Accessibility](/accessibility/about-accessibility/) or browser rendering problems on your own. If you need something Pelican doesn’t have, consult the [Bootstrap documentation](https://getbootstrap.com) as it’s the underlying framework for Pelican.
+Don’t change in ways other than what’s provided for customization. You may have to remedy any [Accessibility](/accessibility/) or browser rendering problems on your own. If you need something Pelican doesn’t have, consult the [Bootstrap documentation](https://getbootstrap.com) as it’s the underlying framework for Pelican.
 
 If your project requires custom work not found in either Pelican or Bootstrap, consult [Digital.gov’s guidelines on Frontend accessibility](https://accessibility.digital.gov/front-end/getting-started/).
 

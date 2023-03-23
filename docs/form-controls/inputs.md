@@ -8,13 +8,13 @@ eleventyNavigation:
   parent: Form Controls
   order: 6
   excerpt: The Input element specifies a field for the user to enter information on a page.
-  img: /img/illustrations/illus-inputs.svg
+  img: /img/illustrations/illus-inputs.png
 ---
     
 ## Best Practices
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
-- Refrain from using placeholder attributes in inputs because they causes usability problems.
+- Refrain from using placeholder attributes in inputs because they cause usability problems.
 - Use the Text Input when you can’t predict a user’s response or when another type of Input would make answering the prompt difficult.
 - If users must choose from a predetermined set of choices, use [Radio Buttons](/form-controls/radios) or [Checkboxes](/form-controls/checkboxes).
 - Use [Textarea](/form-controls/textarea) if the user needs to enter more than a single line of text.

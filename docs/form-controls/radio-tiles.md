@@ -1,14 +1,14 @@
 ---
 title: Radio Tiles
-summary: Radios allow users to select exactly one option from multiple options.
+summary: Radio tiles allow users to select one significant choice from a set of options.
 tags: forms
 layout: guide
-eleventyNavigation:
+eleventyNavigation: 
   key: Radio Tiles
   parent: Form Controls
   order: 8
   excerpt: Radios allow users to select exactly one option from multiple options.
-  img: /img/illustrations/illus-radio-tile.svg
+  img: /img/illustrations/illus-radio-tile.png
 ---
 
 ## Best Practices

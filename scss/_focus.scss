@@ -55,16 +55,21 @@ a {
 .custom-select,
 .custom-file .custom-file-label,
 .nav-link,
-.btn {
+.btn, 
+.official-banner .btn.expander {
   &:focus {
     @include focus-default;
+  }
+}
+.official-banner .btn.expander {
+  &:focus {
+    outline-color: $white!important;
   }
 }
 
 .brand-link {
   &:focus {
     outline: none;
-
     svg,
     img {
       @include focus-default;
