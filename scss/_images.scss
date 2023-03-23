@@ -1,28 +1,6 @@
-.brand-logo {
-  @extend .d-flex;
-  @extend .align-items-center;
-  width: 120px;
-  height: 48px;
-
-  svg {
-    .mark,
-    .type {
-      fill: var(--theme-navbar-text-color);
-    }
-  }
-}
-
 .img-official {
   width: 23px;
   height: 23px;
-}
-
-.bg-image-size-cover {
-  background-size: cover;
-}
-
-.bg-image-position-center {
-  background-position: 50%;
 }
 
 .image-credit {
@@ -36,25 +14,26 @@
   }
 }
 
-.cover-image-pull-quote {
-  @extend .lead;
-  color: var(--theme-primary);
-}
+.brand-logo {
+  @extend .d-flex;
+  @extend .align-items-center;
+  width: 120px;
+  height: 48px;
 
-.cover-image-credit {
-  @extend .small;
-  @extend .opacity-75;
-  color: var(--theme-ui);
-  margin-top: .5rem;
+  svg {
 
-  @include media-breakpoint-up(lg) {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
+    .mark,
+    .type {
+      fill: var(--theme-navbar-text-color);
+    }
   }
 }
 
-.cover-toc {
-  @extend .rounded;
-  padding: 1rem;
+
+.bg-image-size-cover {
+  background-size: cover;
+}
+
+.bg-image-position-center {
+  background-position: 50%;
 }

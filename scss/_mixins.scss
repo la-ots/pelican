@@ -10,10 +10,3 @@
   border         : .25rem solid var(--theme-focus-color);
   top            : 0; left     : 0;
 }
-
-@mixin focus-default {
-  box-shadow     : none;
-  outline        : 0.25rem solid var(--theme-focus-color);
-  outline-offset : 0.25rem;
-}
-
