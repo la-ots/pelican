@@ -18,6 +18,7 @@ eleventyNavigation:
 - Describe the digital product in terms of benefits.
 - Choose just a few abilities to highlight.
 - Be concise.
+- Be sure to adjust heading levels as appropriate.
 
 ## Usage
 

@@ -7,5 +7,6 @@
   }
 }
 .modal-title {
+  @extend .h5;
   color: $primary;
 }

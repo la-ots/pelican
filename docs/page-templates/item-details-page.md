@@ -18,7 +18,7 @@ eleventyNavigation:
 - Use a photo if you have one.
 - Group the attributes about the item into separate cards.
 - Arrange the attributes so that most often sought information is higher at the top.
-
+- Be sure to adjust heading levels as appropriate.
 
 ## Usage
 
