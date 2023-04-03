@@ -119,12 +119,26 @@ $text-color-dark : $gray-900;
 // add colors to the theme loop
 
 $custom-colors: (
-  "accent"      : $accent,
-  "ui"          : $ui,
-  "ui-light"    : $ui-light,
-  "ui-priority" : $ui-priority,
-  "white"       : $white,
-  "black"       : $black
+  "accent"        : $accent,
+  "accent-100"    : $accent-100,
+  "accent-900"    : $accent-900,
+  "primary-100"   : $primary-100,
+  "primary-900"   : $primary-900,
+  "secondary-100" : $secondary-100,
+  "secondary-900" : $secondary-900,
+  "success-100"   : $success-100,
+  "success-900"   : $success-900,
+  "warning-100"   : $warning-100,
+  "warning-900"   : $warning-900,
+  "danger-100"    : $danger-100,
+  "danger-900"    : $danger-900,
+  "info-100"      : $info-100,
+  "info-900"      : $info-900,
+  "ui"            : $ui,
+  "ui-light"      : $ui-light,
+  "ui-priority"   : $ui-priority,
+  "white"         : $white,
+  "black"         : $black
 );
 
 // spacers

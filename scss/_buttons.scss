@@ -49,7 +49,6 @@
   transform: translateY(-50%);
 }
 .btn-add-this, .btn-add-data {
-  // todo fix the persistent gray bg after press
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;

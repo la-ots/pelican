@@ -3,22 +3,22 @@
 @import "bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-// scss-docs-start import-stack
-// Configuration
-@import "bootstrap/scss/functions";
+@import "bootstrap/scss/functions"; 
 
-// pelican defaults in theme-start
-@import "theme-start";
+// pelican defaults
+@import "default-theme";
 
+// bootstrap
 @import "bootstrap/scss/variables";
 
+// merge theme colors
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+// import bootstrap
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 
-// Layout & components
 @import "bootstrap/scss/root";
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/type";
@@ -51,17 +51,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrap/scss/offcanvas";
 @import "bootstrap/scss/placeholders";
 
-// Helpers
 @import "bootstrap/scss/helpers";
-
-// Utilities
 @import "bootstrap/scss/utilities/api";
-// scss-docs-end import-stack
 
-// Pelican components
-// customizations to Bootstrap
-// @import "bootstrap/scss/bootstrap";
-
+// pelican changes to bootstrap
 @import "mixins";
 @import "reboot";
 @import "mixins";
@@ -97,8 +90,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // this next partial sets the CSS Variables 
 // which can be overridden in a separate CSS file
-@import "theme-overrides";
-// @import "custom";
+@import "default-theme-variables";
 
 @import "utilities";
 @import "print";
