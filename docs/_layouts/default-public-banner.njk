@@ -7,11 +7,34 @@ layout: base.njk
 <div id="page-wrapper" class="page-wrapper agency-theme">
   <div id="wrapper-main" class="wrapper-main d-flex flex-column">
     {% include 'markup/official-banner.njk' %}
-    {% include 'markup/navbar-basic.njk' %}
-      <main id="main" class="main flex-fill" role="main">          
-        {{ content | safe }}
-      </main>
-      {% include 'markup/footer-utility.njk' %}
+    <nav class="navbar navbar-basic">
+      <div class="container-fluid">
+        <a class="brand-logo brand-link" href="#">
+          {% include 'logo.njk' %}
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationItems"
+          aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fas fa-bars mr-1" aria-hidden="true"></span>Menu
+        </button>
+        <div class="collapse navbar-collapse" id="navigationItems">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Internal</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main id="main" class="main flex-fill" role="main">          
+      {{ content | safe }}
+    </main>
+    {% include 'markup/footer-utility.njk' %}
   </div>
 </div>
 
