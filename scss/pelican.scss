@@ -6,6 +6,7 @@
 
 // customizations to Bootstrap
 @import "bootstrap/scss/bootstrap";
+
 @import "mixins";
 @import "reboot";
 @import "type";
@@ -41,3 +42,6 @@
 @import "focus";
 @import "bg-texture";
 @import "custom";
+
+@import "utilities";
+@import "print";
