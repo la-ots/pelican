@@ -19,12 +19,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900" rel="stylesheet">  
     {% if env.production %}
-      <link href="{{ '/css/pelican.min.css' | addHash }}" rel="stylesheet" media="screen">
+      <link href="{{ '/css/pelican.min.css' | addHash }}" rel="stylesheet">
       <link href="{{ '/css/prism-theme.css' | addHash }}" rel="stylesheet">
       <link href="{{ '/css/new-theme.css' | addHash }}" rel="stylesheet">
       <link href="{{ '/css/site.css' | addHash }}" rel="stylesheet">
     {% else %}
-      <link href="/css/pelican.css" rel="stylesheet" media="screen">
+      <link href="/css/pelican.css" rel="stylesheet">
       <link href="/css/prism-theme.css" rel="stylesheet">
       <link href="/css/new-theme.css" rel="stylesheet">
       <link href="/css/site.css" rel="stylesheet">

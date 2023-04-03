@@ -59,6 +59,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // scss-docs-end import-stack
 
 // Pelican components
+// customizations to Bootstrap
+// @import "bootstrap/scss/bootstrap";
+
+@import "mixins";
 @import "reboot";
 @import "mixins";
 @import "alert";
@@ -94,3 +98,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // this next partial sets the CSS Variables 
 // which can be overridden in a separate CSS file
 @import "theme-overrides";
+@import "custom";
+
+@import "utilities";
+@import "print";

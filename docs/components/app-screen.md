@@ -70,8 +70,8 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
   <p class="m-0 font-weight-bold order-lg-2 mr-auto me-auto">
     <a href="#" class="d-md-none text-white text-decoration-none" tabindex="2">
       <span class="d-md-none">Digital Product Name</span>
-      <span class="d-none d-md-inline">Current Page Title</span>
     </a>
+    <span class="d-none d-md-inline">Current Page Title</span>
   </p>
   <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" aria-haspop="true" aria-controls="sidebar" tabindex="3">
     <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
