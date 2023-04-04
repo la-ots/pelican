@@ -20,7 +20,8 @@ eleventyNavigation:
 - Remove the [Badges](/components/badges/) section if you don’t need them.
 - Try to keep to just two or three Badges.
 - Badges in the Page Title will appear muted unless they are Danger or Warning Badges.
-- Use only one H1 per page. (We are using an extra one here only as a documentation sample.)
+- Use only one H1 per page. (We are using an extra one here only as a documentation sample for the component.)
+- Learn more about how to use [Headings](/accessibility/headings/)
 
 ## Usage
 
