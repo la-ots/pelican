@@ -80,8 +80,6 @@ hr,
 // Added for links, but not button style, in paragraph text or list items
 p, li {
   a {
-    text-decoration: underline;
-    text-decoration-style: dashed;
     text-decoration-thickness: 1px;
     &[rel="external"],
     &[target="_blank"]:not(.btn) {
