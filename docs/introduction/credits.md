@@ -27,5 +27,4 @@ All photos used in Pelican documentation are from [Pexels.com](https://pexels.co
 - [Architectural project](https://www.pexels.com/photo/architecture-blocks-blue-sky-bridge-275030/)
 - [Desk with laptop and objects](https://www.pexels.com/photo/macbook-pro-on-brown-wooden-table-2312369/)
 - [Person using latop](https://www.pexels.com/photo/person-in-white-long-sleeve-shirt-using-macbook-pro-5077047/)
-- [Abstract image ](https://www.pexels.com/photo/abstract-painting-2156881/)
 - [Abstract image ](https://www.pexels.com/photo/close-up-photo-of-blue-liquid-2317711/)
