@@ -33,7 +33,7 @@ eleventyNavigation:
 - [Figma.com](https://www.figma.com/)
 - [Pelican Wireframe and Mockup Files at Figma Community](https://www.figma.com/@LAGov)
 - [Pexels.com](https://www.pexels.com)
-- [FontAwesome Icon List](https://fontawesome.com/icons?d=gallery&s=brands,solid&m=free)
+- [FontAwesome Icon List](https://fontawesome.com/v5/search?o=r&m=free&s=solid)
 - [Visual Design Guidance by Digital.gov](https://accessibility.digital.gov/visual-design/getting-started/)
 
 ## Development Resources

@@ -18,7 +18,7 @@ Our site uses [11ty](https://www.11ty.dev/) as our static site generator.
 One of the most widely-used frontend frameworks available and supported in Microsoft VisualStudio, [Bootstrap 5](https://getbootstrap.com/) provides the frontend foundation upon which we have built our system .
 
 ## FontAwesome
-We use [FontAwesome](https://fontawesome.com/) as our icon source for many internal and public-facing projects.
+We use [FontAwesome](https://fontawesome.com/v5/search?o=r&m=free&s=solid) as our icon source for many internal and public-facing projects.
 
 ## Photography Credits
 
