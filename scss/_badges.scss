@@ -1,5 +1,7 @@
 .badge {
   @extend .rounded-pill;
+  @extend .fw-normal;
+  letter-spacing: 12%;
 }
 .badge-primary {
   background-color:  $primary;
