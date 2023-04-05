@@ -72,10 +72,10 @@ hr, .hr {
 // Added for links, but not button style, in paragraph text or list items
 p, li {
   a {
-    text-decoration-line      : var(--theme-text-decoration-line);
-    text-decoration-style     : var(--theme-text-decoration-style);
-    text-decoration-color     : var(--theme-text-decoration-color);
-    // text-decoration-thickness : var(--theme-text-decoration-thickness);
+    //text-decoration-line      : var(--theme-text-decoration-line);
+    //text-decoration-style     : var(--theme-text-decoration-style);
+    //text-decoration-color     : var(--theme-text-decoration-color);
+    //text-decoration-thickness : var(--theme-text-decoration-thickness);
     &.btn {
       text-decoration: none;
       &:hover, &:active {

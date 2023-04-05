@@ -39,6 +39,6 @@ eleventyNavigation:
 
 - Links may take the appearance of Buttons. [Read about Buttons](/components/buttons) to learn about them.
 
-## External / Off-site links
+## Opening Links in a New Window
 
-If a link connects users to [a site that is not a part of the digital product](https://fontawesome.com/icons/external-link-alt?style=solid), include `target="_blank"` to the link, unless it’s a [button](/components/buttons/). Pelican CSS will automatically append the appropriate icon to the end of the link. The link will open in a new tab or window, depending on the user’s browser settings, allowing the user to keep their place in the digital product.
+Avoid avoid opening links in a new window. It’s best to allow the user to make that decision. Forcing links to open in a new window can also disorient people who use screen readers.

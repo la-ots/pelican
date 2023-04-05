@@ -75,4 +75,4 @@ When writing alt text, keep the following in mind:
 
 - [WebAIM: Alternate Text](https://webaim.org/techniques/alttext/)
 - [Alt Text Length, Washington.edu](https://www.washington.edu/doit/how-long-can-alt-attribute-be)
-- <[Images, Yale Usability](https://usability.yale.edu/web-accessibility/articles/images)
+- [Images, Yale Usability](https://usability.yale.edu/web-accessibility/articles/images)
