@@ -11,7 +11,7 @@
   @include font-size($popover-font-size);
   // Allow breaking very long words so they don't overflow the popover's bounds
   word-wrap: break-word;
-  background-color: $popover-bg;
+  background-color: var(--theme-popover-bg);
   background-clip: padding-box;
   border: $popover-border-width solid $popover-border-color;
   @include border-radius($popover-border-radius);
@@ -156,8 +156,8 @@
   padding: $popover-header-padding-y $popover-header-padding-x;
   margin-bottom: 0; // Reset the default from Reboot
   @include font-size($font-size-base);
-  color: $popover-header-color;
-  background-color: $popover-header-bg;
+  color:             var(--theme-popover-header-text-color);
+  background-color:  var(--theme-popover-header-bg-color);
   border-bottom: $popover-border-width solid darken($popover-header-bg, 5%);
   @include border-top-radius($popover-inner-border-radius);
 

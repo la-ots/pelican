@@ -42,9 +42,10 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 - Popovers &amp; Tooltips
 - Progress Indicator, Large
 - Sidebar (part of App Screen)
+- Share Social
 - Tabbed Content
 - Toasts
-- Topbar(part of App Screen)
+- Topbar (part of App Screen)
 
 ### Form Controls with new markup
 
@@ -66,10 +67,15 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 - Name
 - Sign In
 
+### Feature Blocks with new markup
+
+- Feature CTA
+
 ### Hero Blocks with new markup
 
 - Dual Pane
 - Text over Color-toned Photo
+- Hero Single Pane
 
 ### Page Templates with new markup
 

@@ -1,0 +1,62 @@
+.bg-less-bright {
+  background-color: var(--theme-content-container-less-bright-bg-color);
+}
+
+.validation-summary-errors {
+  @extend .alert-danger;
+  margin: 0.5rem 0;
+  background-color: var(--theme-form-validation-error-muted-color);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f6727c' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+  border-radius: 0.25rem;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    padding: 0.25rem 0.5rem 0.25rem 1.25rem;
+
+    &::before {
+      position: absolute;
+      top: 0.25rem;
+      left: 0.25rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: inherit;
+      content: "\f056";
+    }
+  }
+}
+
+.flip-x {
+  transform: scaleX(-1);
+}
+
+.border-dashed {
+  border: $border-width dashed var(--theme-border-color);
+}
+
+.cookie-banner {
+  z-index: $zindex-cookie-banner;
+}
+
+.text-wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.list-style-none {
+  list-style-type: none;
+}

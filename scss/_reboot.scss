@@ -1,23 +1,17 @@
-html,
-body {
+html, body {
   scroll-behavior: smooth;
 }
-html {
-
-}
 body {
-
   display: flex;
   flex-direction: column;
-  background-color: $body-bg;
 
   &.auth-page {
-    background-color: $primary;
+    background-color: var(--theme-primary);
     background-image: none;
   }
 
   &.error-page {
-    background-color: #1b3b58;
+    background-color: var(--theme-primary);
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2311304d' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
   }
 
@@ -30,36 +24,34 @@ body {
   }
 }
 
-p {
-  b,
-  .font-weight-bold,
-  strong,
-  .strong {
-    color: $black;
-  }
+iframe {
+  @extend .position-relative;
+  margin: 1rem 0 2rem;
 }
 
-label,
-.label {
-  // Allow labels to use `margin` for spacing.
+::selection,
+::-moz-selection {
+  color           : var(--theme-text-selection-text-color);
+  background-color: var(--theme-text-selection-bg-color);
+  border-radius: 16px;
+}
+
+label, .label {
   display: block;
-  margin-bottom: $label-margin-bottom;
-  font-weight: $form-label-font-weight;
+  margin-bottom: .5rem;
+  font-weight: 700;
 }
 
-small,
-.small {
-  color: $ui;
-
+small, .small {
+  color: var(--theme-small-text-color);
   .form-group & {
     padding: 2px 4px 0;
   }
 }
 
-hr,
-.hr {
+hr, .hr {
   @extend .w-100;
-  background-color: $gray-200;
+  background-color: var(--theme-divider-bg-color);
   border: 0;
   margin-left: 0;
   margin-right: 0;
@@ -80,39 +72,23 @@ hr,
 // Added for links, but not button style, in paragraph text or list items
 p, li {
   a {
-    text-decoration-thickness: 1px;
-    &[rel="external"],
-    &[target="_blank"]:not(.btn) {
-      &::after {
-        display: inline-block;
-        margin: 0 1px 0 5px;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        font-family: "Font Awesome 5 Free";
-        font-size: .75rem;
-        font-style: normal;
-        font-weight: 900;
-        font-variant: normal;
-        content: "\F35D";
-        transform: translateY(-.125rem);
-        opacity: .6;
-      }
-    }
+    //text-decoration-line      : var(--theme-text-decoration-line);
+    //text-decoration-style     : var(--theme-text-decoration-style);
+    //text-decoration-color     : var(--theme-text-decoration-color);
+    //text-decoration-thickness : var(--theme-text-decoration-thickness);
     &.btn {
       text-decoration: none;
-      &:hover,
-      &:active {
+      &:hover, &:active {
         text-decoration: none;
       }
     }
   }
 }
 
-blockquote,
-.blockquote {
+blockquote, .blockquote {
   padding: 24px 32px 6px;
-  background-color: fade-out($white, 0.2);
-  border-left: ($border-width * 4) $border-style fade-out($ui, 0.8);
+  background-color: var(--theme-blockquote-bg-color);
+  border-left: ($border-width * 4) $border-style var(--theme-ui);
 }
 blockquote + blockquote,
 .blockquote + .blockquote {
@@ -120,13 +96,7 @@ blockquote + blockquote,
   margin-top: -16px;
 }
 
-caption {
-  caption-side: top;
-  border-top: 1px solid #f00;
-}
-
-legend,
-.legend {
+legend, .legend {
   display: block;
   width: 100%;
   max-width: 100%;

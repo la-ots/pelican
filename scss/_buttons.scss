@@ -1,70 +1,23 @@
+.btn {
+  box-shadow: none;
+}
 .btn-link {
   @extend .shadow-none;
   @extend .border-0;
   @extend .text-decoration-none;
   background-color: transparent !important;
 }
-
-.btn-primary,
-.btn-secondary,
-.btn-accent,
-.btn-success,
-.btn-danger,
-.btn-warning,
-.btn-info,
-.btn-ui,
-.btn-ui-priority,
-.btn-outline-primary,
-.btn-outline-secondary,
-.btn-outline-accent,
-.btn-outline-success,
-.btn-outline-info,
-.btn-outline-warning,
-.btn-outline-danger,
-.btn-outline-ui,
-.btn-outline-ui-priority {
-  box-shadow: 0 2px 0 0 fade-out($ui, 0.38);
-
-  &:hover,
-  &:active {
-    &:not(.disabled), 
-    &:not([disabled]) {
-      box-shadow: 0 4px 0 0 fade-out($ui, 0.62);
-    }
-  }
-}
-
-.btn-outline-primary,
-.btn-outline-secondary,
-.btn-outline-accent,
-.btn-outline-success,
-.btn-outline-info,
-.btn-outline-warning,
-.btn-outline-danger,
-.btn-outline-ui,
-.btn-outline-ui-priority {
-  background-color: $white;
-}
-
-.btn-accent,
-.btn-warning {
-  color: $black;
-}
-
 .btn-container {
   padding: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: $white;
-  border: 2px solid $border-color;
-  border-radius: 0.5rem;
+  background-color: var(--theme-button-container-bg-color);
+  border: 2px solid var(--theme-button-container-border-color);
+  border-radius: 0.25rem;
   .btn {
     width: 100%;
     &:not(:last-of-type) {
       margin-bottom: .5rem;
-    }
-    &.btn-outline-ui {
-      box-shadow: none;
     }
     &.btn-link {
       margin-right: 0;
@@ -76,7 +29,6 @@
         margin-bottom: 0;
       }
     }
-    
   }
   .col-12 {
     @media screen and (min-width: 1024px){
@@ -85,23 +37,18 @@
     }
   }
 }
-
 .btn-card-corner {
   @extend .position-absolute;
   top: 1.25rem;
   right: 1.25rem;
 }
-
 .btn-card-edit {
   @extend .position-absolute;
   top: 50%;
   right: 8px;
   transform: translateY(-50%);
 }
-
 .btn-add-this, .btn-add-data {
-  @extend .btn;
-  @extend .btn-ui;
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
@@ -111,59 +58,44 @@
   padding-bottom: .5rem;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  
-
   background-color: transparent;
-  border: 2px dashed $gray-600;
-
+  border: 2px dashed var(--theme-ui);
   div, .wrapper {
     @extend .rounded;
-    background-color: $ui;
+    background-color: var(--theme-ui);
+    color           : var(--bs-white);
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: .75rem;
     padding-right: .75rem;
   }
-
   &:hover {
-    background-color: fade-out($ui, 0.75);
+    background-color: var(--theme-gray-100);
   }
   &:active {
-    background-color: fade-out($ui, 0.5);
+    background-color: var(--theme-gray-200);
   }
 }
-
 a.btn {
   text-decoration: none;
-
   &:hover,
   &:active {
     text-decoration: inherit;
   }
 }
-
 #ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
-  @extend .btn;
-  @extend .btn-accent;
-  @extend .btn-sm;
   right: 2rem;
   bottom: 5rem;
   z-index: $zindex-scroll-to-top;
-
-  @include media-breakpoint-up(md) {
-    bottom: 5rem;
-  }
 }
-
 //this class has similar attributes to btn-link
 .btn-prev-next-section {
-  color: $ui-priority;
+  color: var(--theme-ui-priority);
   background-color: transparent !important;
   @extend .border-0 ;
   @extend .shadow-none;
 }
-
 .btns-previous-next, .btns-previous-forward {
   .container-fluid {
     padding-top: 1.675rem;
@@ -173,22 +105,11 @@ a.btn {
     margin-top   : .75rem;
     margin-bottom: 0;
   }
-  .btn {
-    @extend .btn-lg;
-  }
 }
-
 .sidebar-button {
   position: relative;
   margin-right: .25rem;
   @media screen and (min-width: 992px){
     order: 1;
   }
-}
-
-.btn-outline-ui, .btn-outline-ui-priority {
-  @extend .shadow-none;
-}
-.btn-outline-ui {
-  color: $gray-700;
 }

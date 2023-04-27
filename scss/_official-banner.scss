@@ -1,0 +1,36 @@
+.official-banner {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: $black;
+  border-color    : $black !important;
+  color           : $white;
+  .container-fluid {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+  }
+  .btn {
+    @extend .btn-link;
+    @extend .btn-sm;
+    @extend .border-0;
+    @extend .bg-transparent;
+    @extend .shadow-none;
+    @extend .text-white;
+    @extend .fw-bold;
+  }
+  .expander {
+    transform: translateY(-1px);
+  }
+  .fw-bold {
+    @extend .text-white;
+  }
+  .icon {
+    @extend .opacity-50;
+  }
+}
+.media {
+  display: flex;
+  align-items: flex-start;
+  .media-body {
+    flex: 1;
+  }
+}

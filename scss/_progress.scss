@@ -1,8 +1,8 @@
 .progress-large {
-  border-bottom: $border-width $border-style $gray-200;
+  border-bottom: $border-width $border-style var(--theme-progress-border-color);
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: $white;
+  background-color: var(--theme-progress-bg-color);
   .btn {
     @extend .shadow-none;
     margin-top: .25rem;
@@ -18,8 +18,8 @@
   @extend .d-flex;
 }
 .progress-description {
-  @extend .font-weight-bold;
-  color: $primary;
+  @extend .fw-bold;
+  color: var(--theme-progress-description-color);
   margin-bottom: 0;
   margin-top: .25rem;
   padding-left: .25rem;
@@ -27,12 +27,12 @@
 .progress-description-counter {
   @extend .small;
   @extend .d-block;
-  color: fade-out($primary, .25);
+  color: var(--theme-progress-description-counter-color);
   padding-left: .25rem;
 }
 .progress-description-text {
   @extend .d-block;
-  color: $primary;
+  color: var(--theme-progress-description-text-color);
 }
 .progress-step {
   position: relative;
@@ -45,11 +45,11 @@
   border-style: solid;
   border-width: 2px;
   border-radius: 50%;
-  color: $white;
-  background-color: $primary;
-  border-color: $primary;
+  background-color: var(--theme-progress-step-bg-color);
+  border-color: var(--theme-progress-step-border-color);
 }
 .progress-step-digit {
+  color: var(--theme-progress-step-digit-color);
   font-size: 24px;
   text-align: center;
 }

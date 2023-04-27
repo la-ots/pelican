@@ -21,7 +21,7 @@
                   <span class="sr-only">
                     See guidance for items in {{ entry.title }}
                   </span>
-                  <span class="fas fa-fw fa-angle-right" aria-hidden="true"></span>
+                  <span class="icon fas fa-fw fa-angle-right" aria-hidden="true"></span>
                 </a>
               {% endif %}
             </div>
@@ -31,7 +31,7 @@
                 {% for child in entry.children %}
                   <li {% if child.url == page.url %} class="sidebar-item active" {% else %} class="sidebar-item" {% endif %}>
                     <a {% if child.url == page.url %} class="sidebar-nav-item active" {% else %} class="sidebar-nav-item" {% endif %} href="{{ child.url | url }}">
-                      <span {% if child.url == page.url %} class="fas fa-fw fa-eye mr-1 me-1" {% else %} class="fas fa-fw fa-eye invisible mr-1 me-1" {% endif %} aria-hidden="true"></span><span>{{ child.title }}</span>
+                      <span {% if child.url == page.url %} class="icon fas fa-fw fa-eye mr-1 me-1" {% else %} class="icon fas fa-fw fa-eye invisible mr-1 me-1" {% endif %} aria-hidden="true"></span><span>{{ child.title }}</span>
                     </a>
                   </li>
                 {% endfor %}                

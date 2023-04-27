@@ -4,12 +4,10 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-
   h3,
   .h3 {
     @extend .lead;
   }
-
   hr,
   .hr {
     margin-top: 0;
@@ -42,42 +40,42 @@
     }
   }
 }
-
 .feature-boxed-in-photo {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 .feature-cta {
-  background-color: $white;
-  padding-top: 9.5rem;
-  padding-bottom: 9.5rem;
+  background-color: var(--theme-feature-cta-single-bg-color);
+  padding: 9.5rem 0;
+  @extend .text-center;
+  @extend .text-md-end;
   .feature-big-text {
     @extend .h2;
-    margin-bottom: 1rem;
-    color: $primary;
+    @extend .text-md-start;
+    color: var(--theme-feature-cta-single-header-color);
     @include media-breakpoint-up(md){
       margin-bottom: 0;
     }
   }
   .feature-small-text {
-    margin-bottom: 1rem;
-    color: $primary;
+    @extend .text-md-start;
+    color: var(--theme-feature-cta-single-text-color);
     @include media-breakpoint-up(md) {
       margin-bottom: 0;
     }
   }
 }
 .feature-cta-double {
-  background-color: $primary;
+  background-color: var(--theme-feature-cta-double-bg-color);
   padding-top: 5rem;
   padding-bottom: 5rem;
   .feature-big-text {
     @extend .h2;
     margin-bottom: 1rem;
-    color: $white;
+    color: var(--theme-feature-cta-double-header-color);
   }
   .feature-small-text {
-    color: $white;
+    color: var(--theme-feature-cta-double-text-color);
     margin-bottom: 1rem;
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
@@ -97,46 +95,46 @@
 .feature-icons-text {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: $secondary;
+  background-color: var(--theme-feature-icons-text-bg-color);
   .feature-big-text {
     @extend .h2;
-    @extend .font-weight-bold;
+    @extend .fw-bold;
     @extend .text-center;
     @extend .text-lg-start;
-    color: $white;
+    color: var(--theme-feature-icons-text-header-color);
   }
   .feature-small-text {
     margin-bottom: 2rem;
-    color: $white;
+    color: var(--theme-feature-icons-text-text-color);
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
     }
   }
   .feature-icons {
     @extend .display-4;
-    color: $white;
+    color: var(--theme-feature-icons-text-text-color);
   }
 }
 .feature-languages {
-  background-color: $accent;
+  background-color: var(--theme-feature-languages-bg-color);
   @include media-breakpoint-up(lg) {
     padding: 4rem;
   }
   .feature-big-text {
     @extend .h2;
     //this is redundant from the h2 inheritance above
-    @extend .font-weight-bold;
-    color: $primary;
+    @extend .fw-bold;
+    color: var(--theme-feature-languages-header-color);
   }
   .feature-small-text {
-    color: $primary;
+    color: var(--theme-feature-languages-text-color);
   }
   .feature-item {
     @extend .rounded;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    background-color: $white;
+    background-color: var(--theme-feature-languages-item-bg-color);
     p {
       @extend .h4;
       @extend .fw-light;
@@ -146,8 +144,7 @@
   }
 }
 .feature-many-icons {
-  background-color: $primary;
-  color: $white;
+  background-color: var(--theme-feature-many-icons-text-bg-color);
   padding: 1rem;
   @include media-breakpoint-up(lg) {
     padding: 4rem;
@@ -155,16 +152,18 @@
   .feature-big-text {
     @extend .h2;
     margin-bottom: 2rem;
-    color: $white;
+    color: var(--theme-feature-many-icons-header-color);
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
     }
   }
   .feature-small-text {
+    color: var(--theme-feature-many-icons-text-color);
     margin-bottom: 0;
   }
 }
 .feature-set {
+  background-color: var(--theme-feature-set-bg-color);
   padding: 1.5rem;
   hr.minor{
     margin-top: 2rem;
@@ -172,16 +171,19 @@
   }
   .feature-big-text {
     @extend .h2;
-    color: $primary;
+    color: var(--theme-feature-set-header-color);
   }
   .feature-lead-text {
     margin-bottom: 0;
+    color: var(--theme-feature-set-lead-text-color);
   }
   .feature-small-text {
     margin-bottom: .5rem;
+    color: var(--theme-feature-set-small-text-color);
   }
   .feature-lead-icon {
     @extend .h4;
     margin-bottom: .5rem;
+    color: var(--theme-feature-set-icon-color)
   }
 }

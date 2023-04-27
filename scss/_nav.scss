@@ -1,8 +1,3 @@
-// Base class
-//
-// Kickstart any navigation component with a set of style resets. Works with
-// `<nav>`s, `<ul>`s or `<ol>`s.
-
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -21,42 +16,36 @@
     cursor: default;
   }
 }
-
-//
-// Tabs
-//
-
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $border-color;
-
+  border-bottom: var(--theme-border-width) var(--theme-border-style) var(--theme-nav-tabs-link-active-border-color);
   .nav-item {
     margin-right: 0.5rem;
     margin-bottom: -$nav-tabs-border-width;
   }
-
   .nav-link {
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
-
     &.disabled {
-      color: $ui-light;
+      color: var(--theme-ui--light);
       background-color: transparent;
       border-color: transparent;
     }
+    &.active {
+      border-color: var(--theme-nav-tabs-link-active--border-color);
+      border-bottom: none;
+    }
     &:hover {
-      background-color: $white;
+      background-color: var(--theme-gray-white);
       border-bottom: none;
     }
   }
-
   .nav-link.active,
   .nav-item.show .nav-link {
     color: $nav-tabs-link-active-color;
     background-color: $nav-tabs-link-active-bg;
     border-color: $nav-tabs-link-active-border-color;
-    border-bottom: 2px solid $white;
+    border-bottom: 2px solid var(--theme-gray-white);
   }
-
   .dropdown-menu {
     // Make dropdown border overlap tab border
     margin-top: -$nav-tabs-border-width;
@@ -64,11 +53,6 @@
     @include border-top-radius(0);
   }
 }
-
-//
-// Pills
-//
-
 .nav-pills {
   &:not(.flex-column) {
     .nav-item {
@@ -83,35 +67,26 @@
     }
   }
   .nav-link {
-    color: $link-color;
-    background-color: $white;
-    border: 2px solid $ui;
+    color: var(--theme-link-color);
+    background-color: var(--theme-gray-white);
+    border: 2px solid var(--theme-ui);
     transition: $transition-base;
-
     @include border-radius($nav-pills-border-radius);
-
     &:hover,
     &:active {
-      background-color: lighten($ui, 45%);
+      background-color: var(--theme-gray-200);
     }
-
     &:not(.disabled) {
-      background-color: $white;
-      border: $border-width $border-style $ui-priority;
+      background-color: var(--theme-gray-white);
+      border: $border-width $border-style var(--theme-ui-priority);
     }
   }
-
   .nav-link.active,
   .show > .nav-link {
     color: $nav-pills-link-active-color;
     background-color: $nav-pills-link-active-bg;
   }
 }
-
-//
-// Justified variants
-//
-
 .nav-fill {
   > .nav-link,
   .nav-item {
@@ -119,7 +94,6 @@
     text-align: center;
   }
 }
-
 .nav-justified {
   > .nav-link,
   .nav-item {
@@ -128,11 +102,6 @@
     text-align: center;
   }
 }
-
-// Tabbable tabs
-//
-// Hide tabbable panes to start, show them when `.active`
-
 .tab-content {
   > .tab-pane {
     display: none;
@@ -142,23 +111,22 @@
   }
 }
 .navbar {
-  background-color: $primary;
-  color: $white;
+  background-color: var(--theme-navbar-bg-color);
+  color           : var(--theme-navbar-text-color);
   &.navbar-minimal {}
   &.navbar-basic {
     @extend .navbar-expand-lg;
     .navbar-toggler {
-      color: $white;
+      color: var(--theme-navbar-text-color);
       margin-left: auto;
     }
     .navbar-nav {
       margin-left: auto;
     }
     .nav-link {
-      color: $white;
+      color: var(--theme-navbar-text-color);
     }
     .btn {
-      @extend .btn-white;
       margin-top: .5rem;
       @include media-breakpoint-up(lg){
         margin-top: 0;
@@ -170,29 +138,53 @@
     @extend .d-block;
     @extend .navbar-expand-lg;
     .container, .container-fluid {
-      padding-top: 0;
-      padding-bottom: 0;
+      padding-top: 0; padding-bottom: 0;
     }
     .navbar-toggler {
-      color: $white;
+      color: var(--theme-navbar-text-color);
       margin-left: auto;
-    }
-    hr.minor {
-      @extend .opacity-25;
     }
     .navbar-collapse {
       @include media-breakpoint-up(lg){
         margin-left: -.5rem;
       }
     }
+    .navbar-nav {
+      @extend .justify-content-end;
+      @extend .w-100;
+      @extend .mt-4;
+      @extend .mt-lg-1;
+      padding-top: .5rem;
+      border-top-color : var(--theme-navbar-inner-border-color);
+      border-top-width : var(--theme-border-width);
+      border-top-style : solid;
+    }
     .nav-link {
-      color: $white;
+      color: var(--theme-navbar-text-color);
+    }
+    .search-form {
+      @extend .mt-2;
+      @extend .mt-lg-1;
+      width: 100%;
+      @include media-breakpoint-up(lg){
+        width: unset;
+      }
     }
     .form-control {
+      @extend .shadow-none;
+      background-color: transparent;
+      color       : var(--theme-navbar-form-control-text-color);
+      border-color: var(--theme-navbar-form-control-border-color);
       border-top-left-radius:    $btn-border-radius!important;
       border-bottom-left-radius: $btn-border-radius!important;
+      &::-webkit-search-cancel-button {
+        // todo find a way to style this
+      }
     }
     .btn {
+      .icon {
+        @extend .opacity-100;
+      }
       @include media-breakpoint-up(lg) {
         margin-top: 0;
         margin-left: .5rem;
@@ -205,48 +197,59 @@
       margin-bottom: 0;
     }
     .navbar-toggler {
-      color: $white;
+      color: var(--theme-navbar-text-color);
       margin-left: auto;
     }
     .navbar-icon-links {
       .nav-item {
+        &:hover, &:active {
+          .nav-link {
+            background-color: rgba(var(--bs-white-rgb), .25);
+            .icon {
+            opacity: 1;
+            } 
+          }
+          .icon-link-border-bottom {
+            background-color: var(--theme-navbar-inner-border-hover-color);
+          }
+        }
         @include media-breakpoint-up(lg) {
           margin-left: .75rem;
           text-align: center;
         }
       }
-    
       .nav-link {
-        background-color: fade-out($ui, 1);
+        background-color: rgba(var(--bs-white-rgb), 0);
         border-radius: 4px 4px 0 0;
-        color: $white;
-    
-        .fas {
-          opacity: 0.62;
+        color: var(--theme-navbar-text-color);
+        opacity: .85;
+        .icon {
+          opacity: .62;
           transition: $transition-base;
         }
-    
-        &:hover,
-        &:active {
-          background-color: fade-out($ui, 0.75);
-    
-          .fas {
+        &.active {
+          @extend .fw-bold;
+          opacity: 1;
+          .icon {
             opacity: 1;
           }
+          & + .icon-link-border-bottom {
+            background-color: var(--theme-navbar-inner-border-hover-color);
+          }
         }
+      }
+      .icon-link-border-bottom {
+        background-color  : "";
+        height            : var(--theme-border-width);
       }
       @include media-breakpoint-up(lg) {
         margin-left: auto;
         .nav-link {
-          span:not(.fas) {
+          span:not(.icon) {
             display: block;
           }
         }
       }
-    }
-    .icon-link-border-bottom {
-      background-color: $secondary;
-      height: 2px;
     }
   }
 }

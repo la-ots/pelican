@@ -17,3 +17,10 @@
     padding: 0 5px;
   }
 }
+
+.form-title {
+  // this is used on form templates
+  @extend .h3;
+  @extend .mb-6;
+  @extend .text-primary;
+}

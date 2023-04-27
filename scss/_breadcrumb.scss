@@ -1,13 +1,14 @@
 .breadcrumb-wrapper {
+  padding: .75rem 0;
   display: block;
-  background-color: $white;
-  border-bottom: 1px solid $gray-200;
+  background-color: var(--theme-breadcrumb-bg-color);
+  border-bottom: 1px solid var(--theme-breadcrumb-border-color);
 }
 .breadcrumb {
   margin-bottom: 0;
   @extend .rounded-0;
   @extend .border-0;
-  background-color: $white;
+  background-color: var(--theme-breadcrumb-bg-color);
 }
 .breadcrumb-item {
   display: none;
@@ -21,18 +22,19 @@
     display: list-item;
   }
   &.active {
-    color: $body-color;
+    color: var(--theme-breadcrumb-active-color);
     .fas {
       margin: 3px 0 0 4px;
     }
   }
   a {
+    color: var(--theme-breadcrumb-link-color);
     text-decoration: none;
-    &:hover {
+    &:hover, &:active {
+      color: inherit;
       text-decoration: underline;
     }
   }
-  
   @media screen and (min-width: 1024px){
     display: list-item;
   }

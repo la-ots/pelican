@@ -25,10 +25,11 @@
 
     a {
       text-decoration: none;
+      color: var(--theme-toc-link-color);
 
       &:hover,
       &:active {
-        color: $link-color;
+        color: var(--theme-toc-link-hover-color);
         text-decoration: none;
       }
     }
