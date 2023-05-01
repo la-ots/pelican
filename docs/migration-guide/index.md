@@ -24,61 +24,57 @@ The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 does require 
 
 ### Components with new markup
 
-- Alerts
-- App Screen
-- Badges
-- Button Container
-- Previous and Next Page Buttons
-- Back to Top Button
-- Add Data Button
-- Page Actions Button
-- Chips
-- Footer, Utility Footer
-- Modals
-- Navbars
-- Official Banner
-- Page Title
-- Pagination
-- Popovers &amp; Tooltips
-- Progress Indicator, Large
-- Sidebar (part of App Screen)
-- Share Social
-- Tabbed Content
-- Toasts
-- Topbar (part of App Screen)
+- [Alerts](/components/alerts/)
+- [App Screen](/components/app-screen/)
+- [Badges](/components/badges/)
+- [Button Container](/components/button-container/)
+- [Previous and Next Page Buttons](/components/buttons-previous-next-page/)
+- [Back to Top Button](/components/back-to-top-button/)
+- [Add Data Button](/components/add-data-button/)
+- [Page Actions Button](/components/page-actions-button/)
+- [Chips](/components/chip/)
+- [Footer, Utility Footer](/components/footer/)
+- [Modals](/components/modal/)
+- [Navbars](/components/navbar/)
+- [Official Banner](/components/official-banner/)
+- [Page Title](/components/page-title/)
+- [Pagination](/components/pagination/)
+- [Popovers &amp; Tooltips](/components/popovers-tooltips/)
+- [Progress Indicator, Large](/components/progress/)
+- [Sidebar](/components/app-screen/) (part of App Screen)
+- [Share Social](/components/share-and-social/)
+- [Tabbed Content](/components/tabbed-content/)
+- [Toasts](/components/toasts/)
+- [Topbar](/components/app-screen/) (part of App Screen)
 
 ### Form Controls with new markup
 
-- Form Section Header
-- Inputs
-- Checkboxes
-- Date Pickers
-- Radios
-- Selects
-- Switches
-- File Uploads
+- [Form Section Header](/form-controls/form-section-header/)
+- [Inputs](/form-controls/inputs/)
+- [Checkboxes](/form-controls/checkboxes/)
+- [Date Pickers](/form-controls/inputs/)
+- [Radios](/form-controls/radios/)
+- [Selects](/form-controls/select/)
+- [Switches](/form-controls/switches/)
+- [File Uploads](/form-controls/inputs/)
 
 ### Form Templates with new markup
 
-- Address Form
-- Change Password
-- Contact Information
-- Create User ID & Password
-- Name
-- Sign In
-
-### Feature Blocks with new markup
-
-- Feature CTA
+- [Address Form](/form-templates/address/)
+- [Change Password](/form-templates/change-password/)
+- [Contact Information](/form-templates/contact-information/)
+- [Create User ID &amp; Password](/form-templates/create-user-id-and-password/)
+- [Name](/form-templates/name/)
+- [Sign In](/form-templates/sign-in/)
 
 ### Hero Blocks with new markup
 
-- Dual Pane
-- Text over Color-toned Photo
-- Hero Single Pane
+- [Dual Pane](/hero-blocks/dual-pane/)
+- [Hero Single Pane](/hero-blocks/single-pane/)
+- [Text over Color-toned Photo](/hero-blocks/text-over-color-toned-photo/)
 
 ### Page Templates with new markup
 
-- 404 Page, public and internal
-- Error Page, public and internal
-- Landing Page
+- [404 Page](/page-templates/404-page/), public and internal
+- [Error Page](/page-templates/error-page/), public and internal
+- [Landing Page](/page-templates/landing-page/)
