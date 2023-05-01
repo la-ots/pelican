@@ -76,7 +76,7 @@ function menuA11Y() {
   }
 };
 if (sidebar) {
-  sidebar.ontransitioned = menuA11Y;
+  sidebar.ontransitionend = menuA11Y;
   menuA11Y();
 }
 
