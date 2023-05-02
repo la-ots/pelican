@@ -75,8 +75,10 @@ function menuA11Y() {
     sidebar.setAttribute("aria-expanded", "false");
   }
 };
-sidebar.ontransitionend = menuA11Y;
-menuA11Y();
+if (sidebar) {
+  sidebar.ontransitionend = menuA11Y;
+  menuA11Y();
+}
 
 if (sidebarButton) {
   sidebarButton.onclick = () => {
