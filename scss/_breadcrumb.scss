@@ -8,10 +8,16 @@
   }
 }
 .breadcrumb {
-  margin-bottom: 0;
   @extend .rounded-0;
   @extend .border-0;
+  margin-bottom: 0;
   background-color: var(--theme-breadcrumb-bg-color);
+  @media screen and (min-width: 1024px){
+    padding-left: 1rem;
+  }
+  @media screen and (min-width: 1200px){
+    padding-left: 1.5rem;
+  }
 }
 .breadcrumb-item {
   display: none;
