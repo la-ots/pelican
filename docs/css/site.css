@@ -5,8 +5,8 @@
 .brand-link::after {
   display: none !important;
 }
-#resources + ul li a {
-  text-decoration: none;
+#resources + ul li a:hover {
+  text-decoration-style: double;
 }
 .pd-color-block {
   height: 160px;
