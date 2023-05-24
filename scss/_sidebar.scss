@@ -368,11 +368,15 @@
   &:active {
     background-color: $info;
   }
+  &:hover {
+    span:last-of-type {
+      @extend .text-decoration-underline;
+    }
+  }
 }
 
 .sidebar-dropdown-header {
   display: flex;
-
   a:nth-last-child(n + 2),
   a:nth-last-child(n + 2) ~ .sidebar-nav-item {
     width: calc(100% - 44px);
@@ -386,21 +390,26 @@
   justify-content: center;
   width: 44px;
   overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 1px $border-style transparent;
 
   &:hover,
   &:active {
     cursor: pointer;
     background-color: $info;
   }
+  &:hover {
+    border-bottom-color: $white;
+  }
 
   .fas {
     line-height: 44px;
-    transition: $transition-base;
+    transform: rotate(90deg);
   }
 
   &.active {
     .fas {
-      transform: rotate(90deg);
+      transform: rotate(-90deg);
     }
   }
 }

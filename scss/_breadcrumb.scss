@@ -13,6 +13,10 @@
   display: none;
   &:first-child {
     display: list-item;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom-color: $link-hover-color;
+    }
   }
   &:nth-last-child(2) {
     display: list-item;
@@ -32,7 +36,6 @@
       text-decoration: underline;
     }
   }
-  
   @media screen and (min-width: 1024px){
     display: list-item;
   }
