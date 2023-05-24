@@ -76,6 +76,9 @@ p, li {
     //text-decoration-style     : var(--theme-text-decoration-style);
     //text-decoration-color     : var(--theme-text-decoration-color);
     //text-decoration-thickness : var(--theme-text-decoration-thickness);
+    &:hover {
+      text-decoration-style: double;
+    }
     &.btn {
       text-decoration: none;
       &:hover, &:active {

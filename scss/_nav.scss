@@ -8,12 +8,14 @@
 .nav-link {
   display: block;
   padding: $nav-link-padding-y $nav-link-padding-x;
-  text-decoration: if($link-decoration == none, null, none);
   // Disabled state lightens text
   &.disabled {
     color: $nav-link-disabled-color;
     pointer-events: none;
     cursor: default;
+  }
+  &:hover {
+    @extend .text-decoration-underline;
   }
 }
 .nav-tabs {
