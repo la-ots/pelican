@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 - Divide forms into smaller sections to make it easier for the user to fill out.
-- Separate form sections into different [Content Containers](/components/boxes/#content-container).
+- Separate form sections into different [Content Containers](/components/content_container/).
 - Use the form section to introduce and name each form section.
 - Put the form section header and its related form fields into the same `.content-container`.
 - Be sure to consult [Typography and Headings](/foundation/typography/#headings) to ensure you’re using the appropriate heading level.
