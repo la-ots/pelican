@@ -1,5 +1,8 @@
 .btn {
   box-shadow: none;
+  &:hover {
+    @extend .text-decoration-underline;
+  }
 }
 .btn-link {
   @extend .shadow-none;

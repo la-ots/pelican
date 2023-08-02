@@ -21,3 +21,10 @@
 .card-error {
   border-color: var(--theme-danger);
 }
+.card {
+  .stretched-link {
+    &:hover {
+      @extend .text-decoration-underline;
+    }
+  }
+}
