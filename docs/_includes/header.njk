@@ -6,6 +6,22 @@
     </a>
     <span class="d-none d-md-inline" tabindex="-1">{{ title }}</span>
   </p>
+  <div class="dropdown order-lg-3">
+    <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      {# this text should change to reflect the version #}
+      {# swapping the .d- classes will work #}
+      <span class="d-inline">v1.1.2</span>
+      <span class="d-none">v2.0</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li>
+        <a class="dropdown-item" href="#">v1.1.2</a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="#">v2.0</a>
+      </li>
+    </ul>
+  </div>
   <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" aria-haspopup="true" aria-controls="sidebar" tabindex="3">
     <span class="icon fas fa-fw fa-bars" aria-hidden="true"></span>
     <span class="visually-hidden">Toggle side navigation</span>
