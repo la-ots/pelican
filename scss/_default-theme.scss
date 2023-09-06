@@ -236,7 +236,7 @@ $breadcrumb-divider-color: var(--theme-breadcrumb-divider-color);
 // Cards
 $card-spacer-y: 1rem;
 $card-spacer-x: 1rem;
-$card-border-width: var(--theme-border-width) !default;
+$card-border-width: var(--theme-card-border-width) !default;
 $card-border-radius: $border-radius !default;
 $card-border-color: var(--theme-card-border-color);
 $card-inner-border-radius: calc(#{$card-border-radius} - #{$card-border-width}) !default;
