@@ -396,6 +396,7 @@
   --theme-text-decoration-style    : dashed;
   --theme-text-decoration-color    : var(--theme-info-500);
   --theme-text-decoration-thickness: var(--theme-border-width);
+  --theme-code-text-color          : #{$code-color};
 }
 
 /* rules begin */
