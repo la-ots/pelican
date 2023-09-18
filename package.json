@@ -9,7 +9,7 @@
   "style": "dist/css/pelican.css",
   "bugs": "https://github.com/la-ots/pelican/issues",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
@@ -32,13 +32,13 @@
     "popper.js": "^1.16.1",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
-    "prettier": "^2.4.1",
+    "prettier": "^3.0.3",
     "rimraf": "^3.0.2",
     "sass": "^1.43.4",
-    "stylelint": "^14.6.0",
+    "stylelint": "^14.16.1",
     "stylelint-config-twbs-bootstrap": "^3.0.1",
     "stylelint-prettier": "^2.0.0",
-    "terser": "^5.9.0"
+    "terser": "^5.19.4"
   },
   "peerDependencies": {
     "bootstrap": "^4.6.1",
