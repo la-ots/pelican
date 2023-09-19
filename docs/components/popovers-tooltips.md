@@ -16,7 +16,7 @@ eleventyNavigation:
 - Popovers and Tooltips may appear at the top, right, bottom, or left of the connected object.
 - If space is limited, both will automatically adjust their orientation regardless of initial placement.
 - Popovers have a header. It’s useful when explaining things in more detail than a Tooltip.
-- Tooltips do not have a header. It’s useful when only short amount of text is needed.
+- Tooltips do not have a header. It’s useful when only a short amount of text is needed.
 
 ## Usage
 
