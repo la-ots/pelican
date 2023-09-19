@@ -73,7 +73,7 @@ hr,
 }
 
 a {
-  p & {
+  p & , li & {
     text-decoration: underline;
 
     &[rel="external"],
