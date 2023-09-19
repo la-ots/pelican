@@ -37,7 +37,7 @@
     "sass": "^1.43.4",
     "stylelint": "^15.10.3",
     "stylelint-config-twbs-bootstrap": "^11.0.1",
-    "stylelint-prettier": "^2.0.0",
+    "stylelint-prettier": "^4.0.2",
     "terser": "^5.19.4"
   },
   "peerDependencies": {
