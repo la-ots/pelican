@@ -13,7 +13,7 @@
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.16",
     "bootstrap": "^4.6.2",
     "chokidar-cli": "^3.0.0",
     "clean-css-cli": "^5.6.2",
@@ -38,7 +38,7 @@
     "stylelint": "^15.10.3",
     "stylelint-config-twbs-bootstrap": "^11.0.1",
     "stylelint-prettier": "^4.0.2",
-    "terser": "^5.19.4"
+    "terser": "^5.20.0"
   },
   "peerDependencies": {
     "bootstrap": "^4.6.1",
