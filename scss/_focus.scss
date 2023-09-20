@@ -1,143 +1,63 @@
-// Put focus states into their own SCSS file
-.skip-to-main, li a, .summary, p a, .btn, .btn-link, .badge.chip, .nav-pills .nav-link
-.nav-link, th a, .form-control, .custom-select {
+// Cover all interactable elements with default focus
+select,
+textarea,
+input,
+button,
+area,
+summary,
+a {
   &:focus {
-   @include tab-focus; 
+    @include focus-default;
   }
 }
-.btn, .badge.chip,
-.nav-pills .nav-link {
+
+//Bootstrap overrides
+.form-control,
+.form-select,
+.custom-select,
+.custom-file
+.custom-file-label, 
+.nav-link,
+.btn {
   &:focus {
-    box-shadow: none;
-  }
-}
-.btn-link {
-  &:focus {
-    color: $ui-priority;
-  }
-}
-.sidebar-wrapper .sidebar-brand > a {
-  &:focus {
-    outline: none;
-    &:after {
-      @include tab-focus-fake;
-      width: unset; height: unset;  
-      top: -8px;
-      right: 0px;
-      bottom: -8px; 
-      left: -20px;
-    }
-  }
-}
-.sidebar-nav-item, 
-.sidebar-dropdown-header-expand[role="button"],
-.navbar-icon-links .nav-link, 
-.official-banner summary,
-.page-link {
-  &:focus {
-    outline: none;
-    box-shadow: none;
-    &:after {
-      @include tab-focus-fake;
-    }
-  }
-}
-.sidebar-button[role=button] {
-  &:focus {
-    outline: none;
-    &:after {
-      @include tab-focus-fake;
-      width: 100%; height: unset;
-      top: -3px;
-      right: -10px;
-      bottom: -2px;
-      left: 0px;
-    }
-  }
-}
-.close:not(:disabled):not(.disabled):focus {
-  opacity: 1;
-}
-.alert .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -7px; left: -8px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.modal-content .close {
-  &:focus {
-    outline: none;
-    &:after {
-      outline: none;
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: 10px; left: 5px;
-      border: .25rem dashed $focus-color;
-    }
-  }
-}
-.toast .close {
-  &:focus {
-    outline: none;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 36px; height: 36px;
-      top: -6px; left: -10px;
-      border: .25rem dashed $focus-color;
-    }
+    @include focus-default;
   }
 }
 .brand-link {
   &:focus {
     outline: none;
-    .brand-logo {
-      &:after {
-        @include tab-focus-fake;
-      }
+    svg, img {
+      @include focus-default;
     }
   }
 }
-.custom-file-input:focus {
-  & ~ .custom-file-label {
-    overflow: visible;
-    border-color: $input-border-color;
-    box-shadow: none;
-    &:before {
-      position: absolute;
-      content: '';
-      width: calc(100% + 20px);
-      border-radius: 8px;
-      top: -10px; right: -10px; bottom: -10px; left: -10px;
-      border: .25rem solid $focus-color
+.custom-file-input {
+  &:focus~.custom-file-label {
+    @include focus-default;
+  }
+}
+.form-check-input {
+  &:focus,
+  &.focus {
+    +.form-check-label {
+      @include focus-default;
     }
   }
 }
-.form-control {
-  &[readonly]{
-    &:focus {
-      outline: none;
-    }
+
+//switching specific anchors to only draw a box inside their DOM container
+.sidebar-brand>a,
+.sidebar-nav-item,
+.sidebar-dropdown-header-expand,
+.page-link {
+  &:focus {
+    @include focus-box;
   }
-}
-.custom-control-input:focus:not(:checked) {
-  & ~ .custom-control-label:before {
-    border-color: $input-border-color;
-  }
-}
-.custom-control-input:focus {
-  & ~ .custom-control-label:before {
-    box-shadow: 
-      inset 0 3px 4px rgb(108 117 125 / 25%), 
-      0 0 0 0.2rem $focus-color;
-    
-      
+} 
+
+//change up the outline for closing buttons
+button.close {
+  &:focus {
+    outline: .25rem dashed $focus-color;
   }
 }

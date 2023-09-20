@@ -1,10 +1,12 @@
-<div class="card">
+<section class="card">
   <div class="card-body">
-    <details id="toc">
-      <summary class="summary">On this page:</summary>
-      <nav class="toc">
+    <details class="page-contents" id="toc">
+      <summary class="summary">
+        <h2 class="h6 d-inline" id="on-this-page">On this page:</h2>
+      </summary>
+      <nav aria-labelledby=“on-this-page”>
         {{content | toc | safe }}
       </nav>
     </details>
   </div>
-</div>
+</section>
