@@ -15,10 +15,10 @@ layout: default.njk
                 {%- if child.img %}
                 <img alt="" src="{{ child.img }}" class="img-fluid mb-6 gray-hover-color" aria-hidden="true"/>
                 {%- endif %}
-                <h2 class="h5 mb-6">{{ child.title }}</h2>
+                <h2 class="h5 mb-1">{{ child.title }}</h2>
                 <p class="mb-0">{{ child.excerpt }}</p>
                 <a href="{{ child.url }}" class="btn btn-outline-ui-priority mt-auto align-self-start">
-                Read More<span class="fas fa-arrow-right ml-1" aria-hidden="true"></span>
+               {{ child.title }} <span class="fas fa-arrow-right ml-1" aria-hidden="true"></span>
                 </a>
               </div>
             </div>

@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Typeface
 
-Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is available from Google Fonts</a>, it’s ready-to-use in Figma and easy to deploy to a web product.
+Pelican’s typeface is Public Sans, designed by United States Web Design System. It is also a variable font, so the download sizes are smaller. Because <a href="https://fonts.google.com/specimen/Public+Sans" target="_blank">Public Sans is available from Google Fonts</a>, it’s ready-to-use in Figma and easy to deploy to a web product.
 
 ## Headings
 
