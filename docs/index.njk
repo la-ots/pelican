@@ -56,7 +56,7 @@ title: Home
       <span class="opacity-50 fas fa-bars mr-1" aria-hidden="true"></span>Menu
     </button>
     <div class="collapse navbar-collapse" id="navigationItems">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" role="navigation">
         <li class="nav-item">
           <a class="nav-link" href="/whats-new/">What’s New</a>
         </li>
@@ -80,12 +80,12 @@ title: Home
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-10 col-md-7 col-lg-6 text-center text-lg-left">
-        <img src="/img/favicon.png" alt="icon for Pelican, Louisianas Design System." class="logo">
+        <img src="/img/favicon.png" alt="icon for Pelican, Louisiana’s Design System." class="logo">
         <p class="hero-big-text">Pelican</p>
         <p class="hero-lead-text">Louisiana’s Design System</p>
       </div>
       <div class="col-10 col-md-7 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-lg-left">
-        <a href="/get-started/" class="btn btn-secondary btn-lg">Get Started<span class="opacity-50 fas fa-arrow-right ml-1" aria-hidden="true"></span></a>
+        <a href="/get-started/" class="btn btn-secondary btn-lg">Get Started with Pelican<span class="opacity-50 fas fa-arrow-right ml-1" aria-hidden="true"></span></a>
       </div>
     </div>
   </div>
@@ -108,7 +108,7 @@ title: Home
             </h3>
             <p class="opacity-75">Pelican is built on small parts working together. These parts are explained so all projects can build upon Pelican successfully.</p>
             <a href="/foundation/" class="btn btn-secondary btn-block shadow-none">
-              Learn how it works<span class="opacity-50 fas fa-arrow-right ml-1" aria-hidden="true"></span>
+              Learn how Pelican works<span class="opacity-50 fas fa-arrow-right ml-1" aria-hidden="true"></span>
             </a>
           </div>
         </div>
@@ -134,7 +134,7 @@ title: Home
             </h3>
             <p class="opacity-75">Don’t rebuild every time you need something. Start with common user interface items which solve common problems.</p>
             <a href="/components/" class="btn btn-secondary btn-block shadow-none">
-              Get the code<span class="opacity-50 fas fa-arrow-right ml-1" aria-hidden="true"></span>
+              Get the Pelican code<span class="opacity-50 fas fa-arrow-right ml-1" aria-hidden="true"></span>
             </a>
           </div>
         </div>
@@ -207,7 +207,7 @@ title: Home
           </div>
           <div class="col-10 col-md-6 col-lg-5 text-center text-lg-right">
               <a href="/get-started/" class="btn btn-white btn-lg">
-                Get started<span class="fas fa-arrow-right ml-1" aria-hidden="true"></span>
+                Get started with Pelican<span class="fas fa-arrow-right ml-1" aria-hidden="true"></span>
               </a>
           </div>
       </div>
@@ -215,12 +215,13 @@ title: Home
 </div>
 
 <footer class="footer footer-basic mt-0">
-  <div class="container" role="navigation" aria-label="Footer navigation" id="FooterNavigation">
-    <div class="links-wrapper" role="navigation">
+  <div class="container">
+    <nav class="links-wrapper" aria-labelledby="footerNav">
+      <p class="sr-only" id="footerNav">Footer Links</p>
       <a class="btn btn-link" href="https://pelican.ots.la.gov/">Pelican</a>
       <a class="btn btn-link" href="/accessibility/accessibility-statement/">Accessibility Statement</a>
       <a class="btn btn-link" href="https://www.doa.la.gov/doa/ots/" target="blank">Office of Technology Services</a>
       <a class="btn btn-link" href="/feedback/">Feedback</a>
-    </div>
+    </nav>
   </div>
 </footer>

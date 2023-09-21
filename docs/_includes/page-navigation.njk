@@ -26,14 +26,16 @@
       <div class="col-6 col-md-3">
         {% if previousPage | length %}
         <a href="{{ previousPage.url | url }}" class="btn btn-outline-ui" id="btnPrev">
-          <span class="fas fa-arrow-left fa-xs mr-1" aria-hidden="true"></span><span class="sr-only">Go to </span>Previous<span class="sr-only"> screen</span>
+          <span class="fas fa-arrow-left fa-xs mr-1" aria-hidden="true"></span>
+          Previous page
         </a>
         {% endif %}
       </div>
       <div class="col-6 col-md-3 text-right">
         {% if nextPage | length %}
         <a href="{{ nextPage.url | url }}" class="btn btn-primary" id="btnNext">
-          <span class="sr-only">Go to </span>Next<span class="sr-only"> screen</span><span class="fas fa-arrow-right fa-xs ml-1" aria-hidden="true"></span>
+          Next page
+          <span class="fas fa-arrow-right fa-xs ml-1" aria-hidden="true"></span>
         </a>
         {% endif %}
       </div>

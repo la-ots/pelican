@@ -22,7 +22,7 @@ eleventyNavigation:
 
 ## Usage
 
-<a class="btn btn-primary" href="/page-templates/item-details-page-internal/" target="_blank">See Internal Preview</a>
+<a class="btn btn-primary" href="/page-templates/item-details-page-internal/" target="_blank">Go to Internal Preview</a>
 
 ``` html
 {% include 'markup/item-details-internal.njk' %}
