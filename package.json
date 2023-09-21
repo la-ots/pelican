@@ -1,6 +1,6 @@
 {
   "name": "@la-ots/pelican",
-  "version": "2.0.0-beta.7",
+  "version": "2.0.0-rc.1",
   "description": "Pelican Design System for Louisiana OTS",
   "repository": "git://github.com/la-ots/pelican.git",
   "license": "CC0-1.0",
@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "@popperjs/core": "^2.11.7",
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.3.2"
   },
   "scripts": {
     "build-dist": "npm-run-all clean --parallel --aggregate-output css-dist js-dist",
