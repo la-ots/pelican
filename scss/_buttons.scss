@@ -154,11 +154,6 @@
 
 a.btn {
   text-decoration: none;
-
-  &:hover,
-  &:active {
-    text-decoration: inherit;
-  }
 }
 
 #ScrollToTop, .btn-scroll-top {
@@ -202,4 +197,10 @@ a.btn {
 
 .btn-outline-ui, .btn-outline-ui-priority {
   @extend .shadow-none;
+}
+
+.btn {
+  &:hover {
+    @extend .text-decoration-underline;
+  }
 }

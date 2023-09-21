@@ -16,6 +16,13 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 1.1.3 - 21 September 2023
+
+Currently our styles rely on subtle color changes to indicate hover status, this change adds additional indicators to make them more prominent.
+
+- Adds underlines upon hover to many buttons to indicate hover status.
+- Adds double underline style upon hover to links in text to indicate hover status.
+
 ## 1.1.2 - 01 July 2022
 
 - Removes underlines from links in a list. [69970834](https://github.com/la-ots/pelican/commit/6997083415837f10ad40445968a5edc86ac48e1f)

@@ -73,7 +73,7 @@ hr,
 }
 
 a {
-  p & {
+  p & , li & {
     text-decoration: underline;
 
     &[rel="external"],
@@ -83,6 +83,9 @@ a {
         font-size: 12px;
         color: inherit;
       }
+    }
+    &:hover {
+      text-decoration-style: double;
     }
   }
 
