@@ -47,9 +47,12 @@ caption {
       }
     }
   }
+  > :not(caption) > * > * {
+    border-bottom-width: 0;
+  }
 }
 .table-striped {
-  > tbody > tr:nth-of-type(odd) > * {
-    background-color: var(--theme-table-striped-bg);
+  > tbody > tr:nth-of-type(#{$table-striped-order}) > * {
+    --#{$prefix}table-bg-type: var(--theme-table-striped-bg);
   }
 }
