@@ -2,7 +2,7 @@
 <nav class="breadcrumb-wrapper" aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item">
-      <a href="{{ '/' | url }}">
+      <a href="{{ '/' }}">
         <span class="fas fa-home" aria-hidden="true"></span>
         <span class="sr-only">Home</span>
       </a>
@@ -15,7 +15,7 @@
       {% elif entry.url in page.url %}
         {% if entry.children.length > 0 %}
           <li class="breadcrumb-item">
-            <a href="{{ entry.url | url }}">
+            <a href="{{ entry.url }}">
               {{ entry.title }}
             </a>
           </li>

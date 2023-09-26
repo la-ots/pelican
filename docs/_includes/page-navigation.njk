@@ -25,7 +25,7 @@
     <div class="row justify-content-between">
       <div class="col-6 col-md-3">
         {% if previousPage | length %}
-        <a href="{{ previousPage.url | url }}" class="btn btn-outline-ui" id="btnPrev">
+        <a href="{{ previousPage.url }}" class="btn btn-outline-ui" id="btnPrev">
           <span class="fas fa-arrow-left fa-xs mr-1" aria-hidden="true"></span>
           Previous page
         </a>
@@ -33,7 +33,7 @@
       </div>
       <div class="col-6 col-md-3 text-right">
         {% if nextPage | length %}
-        <a href="{{ nextPage.url | url }}" class="btn btn-primary" id="btnNext">
+        <a href="{{ nextPage.url }}" class="btn btn-primary" id="btnNext">
           Next page
           <span class="fas fa-arrow-right fa-xs ml-1" aria-hidden="true"></span>
         </a>

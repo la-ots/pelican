@@ -9,6 +9,7 @@ const pluginReadingTime = require('eleventy-plugin-reading-time')
 const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy")
 
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
@@ -20,6 +21,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginInclusiveLanguage)
   eleventyConfig.addPlugin(pluginReadingTime)
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   eleventyConfig.addFilter('titleize', (value) => {
     return value.split(' ')
@@ -39,6 +41,18 @@ module.exports = (eleventyConfig) => {
 
     return value.replace(/\-/g, ' ')
   })
+
+  eleventyConfig.addShortcode("basePageUrl", (relativePath, anchorText) => {
+    const baseUrl = process.env.ELEVENTY_BASEURL
+    if (baseUrl === '' || baseUrl === undefined) {
+      const urlFilter = EleventyHtmlBasePlugin.applyBaseToUrl
+      let newUrl = `${urlFilter(relativePath, eleventyConfig.pathPrefix)}`    
+      return `<a href="${newUrl}" class="dropdown-item">${anchorText}</a>`
+    }    
+
+    return `<a href="${baseUrl}" class="dropdown-item">${anchorText}</a>`
+  })
+
 
   eleventyConfig.addNunjucksAsyncFilter("addHash", function (
     absolutePath,
