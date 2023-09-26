@@ -11,8 +11,8 @@ jobs:
     if: ${{ github.actor != 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     environment:
-      name: Docs (vNext)
-      url: https://pelican-vnext.ots.la.gov
+      name: Docs (Sandbox)
+      url: ${{ vars.ENVIRONMENT_URL }}
 
     strategy:
       matrix:
@@ -30,7 +30,7 @@ jobs:
       - name: Create env file
         run: |
           touch .env
-          echo ELEVENTY_BASEURL =${{ env.url }} >> .env
+          echo ELEVENTY_BASEURL=${{ vars.ENVIRONMENT_URL }} >> .env
 
       - name: Install Dependencies and Build
         run: |
