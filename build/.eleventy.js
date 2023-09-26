@@ -15,6 +15,8 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy")
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
 
+  console.log(process.env)
+
   eleventyConfig.addPlugin(pluginToc, {
     wrapper: 'div'
   })
