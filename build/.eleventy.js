@@ -45,15 +45,15 @@ module.exports = (eleventyConfig) => {
     return value.replace(/\-/g, ' ')
   })
 
-  eleventyConfig.addShortcode("basePageUrl", (relativePath, anchorText) => {
+  eleventyConfig.addShortcode("basePageUrl", (relativePath, anchorText, cssClass) => {
     const baseUrl = process.env.ELEVENTY_BASEURL
     if (baseUrl === '' || baseUrl === undefined) {
       const urlFilter = EleventyHtmlBasePlugin.applyBaseToUrl
       let newUrl = `${urlFilter(relativePath, eleventyConfig.pathPrefix)}`    
-      return `<a href="${newUrl}" class="dropdown-item">${anchorText}</a>`
+      return `<a href="${newUrl}" class="${cssClass}">${anchorText}</a>`
     }    
 
-    return `<a href="${baseUrl}" class="dropdown-item">${anchorText}</a>`
+    return `<a href="${baseUrl}" class="${cssClass}">${anchorText}</a>`
   })
 
 
