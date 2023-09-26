@@ -48,4 +48,4 @@ jobs:
         run: aws s3 sync ./dist/docs/ s3://pelican-test.ots.la.gov/v1 --acl public-read
 
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_VNEXT_DISTRIBUTION_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_TEST_DISTRIBUTION_ID }} --paths "/*"
