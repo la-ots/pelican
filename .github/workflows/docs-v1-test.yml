@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: Docs (Sandbox)
-      url: ${{ vars.ENVIRONMENT_URL }}
+      url: https://pelican-test.ots.la.gov
 
     strategy:
       matrix:
@@ -30,7 +30,7 @@ jobs:
       - name: Create env file
         run: |
           touch .env
-          echo ELEVENTY_BASEURL=${{ vars.ENVIRONMENT_URL }} >> .env
+          echo ELEVENTY_BASEURL="https://pelican-test.ots.la.gov" >> .env
 
       - name: Install Dependencies and Build
         run: |
