@@ -238,7 +238,7 @@ The Info color indicates informative or helpful information.
             <div class="bg-info-900 rounded-top pd-color-block"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">Info, Darker</p>
-                <p class="mb-0"><code>#94080a</code></p>
+                <p class="mb-0"><code>#004ba1</code></p>
                 <p class="mb-0"><code>$info-900</code></p>
             </div>
         </div>
