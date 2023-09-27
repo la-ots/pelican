@@ -15,8 +15,9 @@ layout: default.njk
                 {%- if child.img %}
                 <img alt="" src="{{ child.img }}" class="w-100 mb-3 gray-hover-color" aria-hidden="true"/>
                 {%- endif %}
-                <a href="{{ child.url }}" class="text-decoration-none d-flex align-items-center stretched-link mt-auto">
-                  {{ child.title }}<span class="fas fa-arrow-right ml-auto ms-auto opacity-25" aria-hidden="true"></span>                
+                <a href="{{ child.url }}" class="stretched-link area-page-link">
+                  <span class="icon fas fa-arrow-right me-2" aria-hidden="true"></span> 
+                  {{ child.title }}          
                 </a>
               </div>
             </div>

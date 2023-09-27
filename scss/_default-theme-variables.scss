@@ -297,6 +297,9 @@
   /* HR, dividers */
   --theme-divider-bg-color: var(--theme-gray-200);
 
+  /* List Group */
+  --theme-list-group-bg : var(--bs-white);
+
   /* modals */
   --theme-modal-dialog-bg-color    : var(--theme-card-bg-color);
   --theme-modal-dialog-border-color: var(--theme-gray-200);
@@ -357,6 +360,7 @@
   --theme-table-border-width      : 1px
   --theme-table-border-width-thick: 3px;
   --theme-table-cell-padding      : .5rem;
+  --theme-table-striped-bg        : var(--theme-gray-50) / 2;
 
   /* toasts */
   --theme-toast-header-success-bg-color  : var(--theme-success-100);

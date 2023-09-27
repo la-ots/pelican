@@ -23,9 +23,6 @@
   .fw-bold {
     @extend .text-white;
   }
-  .icon {
-    @extend .opacity-50;
-  }
 }
 .media {
   display: flex;
