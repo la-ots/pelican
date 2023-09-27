@@ -1,6 +1,6 @@
 <div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
   <p class="m-0 font-weight-bold order-lg-2 mr-auto">
-    <a href="{{ '/' | url }}" class="d-md-none text-white text-decoration-none" tabindex="2">
+    <a href="{{ '/' }}" class="d-md-none text-white text-decoration-none" tabindex="2">
       <img src="/img/favicon.png" class="d-md-none" alt="Pelican Design System icon" />
       <span class="">Pelican Design System</span>
     </a>
@@ -10,15 +10,16 @@
     <button class="btn btn-link dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
       {# this text should change to reflect the version #}
       {# swapping the .d- classes will work #}
-      <span class="d-inline">v1.1.2</span>
+      <span class="d-inline">v1.1.3</span>
       <span class="d-none">v2.0</span>
     </button>
     <ul class="dropdown-menu">
       <li>
-        <a class="dropdown-item" href="#">v1.1.2</a>
+        <a class="dropdown-item active" href="#">v1.1.3</a>
       </li>
       <li>
-        <a class="dropdown-item" href="#">v2.0</a>
+        {# <a class="dropdown-item" href="{% basePageUrl "/" %}">v2.0</a> #}
+        {% basePageUrl "/", "v2.0", "dropdown-item" %}
       </li>
     </ul>
   </div>
