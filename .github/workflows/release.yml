@@ -28,7 +28,7 @@ jobs:
           npm pack
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: pelican-release
           path: "la-ots-pelican-*.tgz"
@@ -37,6 +37,9 @@ jobs:
     name: Release to NPM
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     environment:
       name: NPM
       url: https://www.npmjs.com/package/@la-ots/pelican
@@ -55,13 +58,13 @@ jobs:
 
       - name: Publish to NPM
         if: '!github.event.release.prerelease'
-        run: npm publish $(ls *.tgz) --access public
+        run: npm publish $(ls *.tgz) --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
       - name: Publish to NPM
         if: 'github.event.release.prerelease'
-        run: npm publish $(ls *.tgz) --access public --tag beta
+        run: npm publish $(ls *.tgz) --provenance --access public --tag beta
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
