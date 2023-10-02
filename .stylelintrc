@@ -1,7 +1,3 @@
 {
-  "extends": [
-    "@la-ots/stylelint-config",
-    "stylelint-config-prettier",
-    "stylelint-config-twbs-bootstrap/scss"
-  ]
+  "extends": ["@la-ots/stylelint-config", "stylelint-config-twbs-bootstrap"]
 }
