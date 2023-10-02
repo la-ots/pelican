@@ -1,17 +1,18 @@
 ﻿---
 title: Tabbed Content
-summary: Tabs group related content, allowing users to see only what they want to see. 
+summary: Tabs group related content, allowing users to see only what they want to see.
 tags: components
 layout: guide
 eleventyNavigation:
   key: Tabbed Content
   parent: Components
   order: 300
-  excerpt: Tabs group related content, allowing users to see only what they want to see. 
+  excerpt: Tabs group related content, allowing users to see only what they want to see.
   img: /img/illustrations/illus-tabbed-content.svg
 ---
- 
+
 ## Best Practices
+
 - Tabbed content allows users to choose which content they want to see.
 - Use tabbed content to small bits of content at a time.
 - Rounded style tabs work better on small devices.
@@ -24,7 +25,7 @@ eleventyNavigation:
 
 {% include 'markup/tabbed-content-traditional.njk' %}
 
-``` html
+```html
 {% include 'markup/tabbed-content-traditional.njk' %}
 ```
 
@@ -32,10 +33,11 @@ eleventyNavigation:
 
 {% include 'markup/tabbed-content-rounded.njk' %}
 
-``` html
+```html
 {% include 'markup/tabbed-content-rounded.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Pill Nav](https://getbootstrap.com/docs/5.2/components/navs-tabs/#pills)
-* [Bootstrap Documentation - Tab Nav](https://getbootstrap.com/docs/5.2/components/navs-tabs/#tabs)
+
+- [Bootstrap Documentation - Pill Nav](https://getbootstrap.com/docs/5.2/components/navs-tabs/#pills)
+- [Bootstrap Documentation - Tab Nav](https://getbootstrap.com/docs/5.2/components/navs-tabs/#tabs)

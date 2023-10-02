@@ -22,12 +22,13 @@ eleventyNavigation:
 
 {% include 'markup/switches-little.njk' %}
 
-``` html
+```html
 {% include 'markup/switches-little.njk' %}
 ```
 
 ## Resources
-* [Design.gov - Checkbox (Best Practices)](https://designsystem.digital.gov/components/form-controls/#checkbox)
-* [Section 508 Guidelines](https://www.section508.gov/)
-* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
-* [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/checks-radios/)
+
+- [Design.gov - Checkbox (Best Practices)](https://designsystem.digital.gov/components/form-controls/#checkbox)
+- [Section 508 Guidelines](https://www.section508.gov/)
+- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/checks-radios/)

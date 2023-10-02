@@ -128,6 +128,7 @@ eleventyNavigation:
 </div>
 
 ## Resources
-* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-* [WCAG - Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
-* [TPGi Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)
+
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [WCAG - Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
+- [TPGi Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)

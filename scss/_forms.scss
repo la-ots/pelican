@@ -12,8 +12,9 @@
   display: flex;
   flex-wrap: wrap;
   margin-right: -5px;
-  margin-left:  -5px;
-  & > .col, & > [class*=col-]{
+  margin-left: -5px;
+  & > .col,
+  & > [class*="col-"] {
     padding: 0 5px;
   }
 }

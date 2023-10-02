@@ -1,6 +1,6 @@
 ---
 title: Set
-summary: A Set is a way to highlight some aspects of a digital product. 
+summary: A Set is a way to highlight some aspects of a digital product.
 tags: feature
 layout: guide
 eleventyNavigation:
@@ -19,6 +19,6 @@ Allows the presentation of two smaller aspects about a larger feature. Change th
 
 {% include 'markup/feature-set.njk' %}
 
-``` html
+```html
 {% include 'markup/feature-set.njk' %}
 ```

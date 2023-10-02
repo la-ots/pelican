@@ -4,12 +4,13 @@ The Pelican Design System package is a customized [Bootstrap](https://getbootstr
 
 ## Installation
 
-### NPM 
+### NPM
+
 Installation of the Pelican Design System requires [npm](https://www.npmjs.com/).
 
 ### Manual
 
-Download the package and extract the contents.  Include the Pelican files and associated dependencies (typically via CDNs), either bundled or non-bundled:
+Download the package and extract the contents. Include the Pelican files and associated dependencies (typically via CDNs), either bundled or non-bundled:
 
 ```html
 <head>
@@ -19,7 +20,7 @@ Download the package and extract the contents.  Include the Pelican files and as
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     ...
 </head>
 <body>
@@ -64,7 +65,7 @@ pelican
         └── pelican.min.js.map
 ```
 
-The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`). 
+The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
 
 Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
 
@@ -117,4 +118,3 @@ This will run linters across the codebase. Scripts to run linters separately are
 > $ npm run js:lint
 
 Note: Linters are not run as part of any `watch` scripts and must be run separately.
-

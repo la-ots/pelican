@@ -27,6 +27,6 @@ eleventyNavigation:
 
 {% include 'markup/page-title.njk' %}
 
-``` html
+```html
 {% include 'markup/page-title.njk' %}
 ```

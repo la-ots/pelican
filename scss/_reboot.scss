@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 body {
@@ -31,25 +32,28 @@ iframe {
 
 ::selection,
 ::-moz-selection {
-  color           : var(--theme-text-selection-text-color);
+  color: var(--theme-text-selection-text-color);
   background-color: var(--theme-text-selection-bg-color);
   border-radius: 16px;
 }
 
-label, .label {
+label,
+.label {
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
-small, .small {
+small,
+.small {
   color: var(--theme-small-text-color);
   .form-group & {
     padding: 2px 4px 0;
   }
 }
 
-hr, .hr {
+hr,
+.hr {
   @extend .w-100;
   background-color: var(--theme-divider-bg-color);
   border: 0;
@@ -70,7 +74,8 @@ hr, .hr {
 }
 
 // Added for links, but not button style, in paragraph text or list items
-p, li {
+p,
+li {
   a {
     //text-decoration-line      : var(--theme-text-decoration-line);
     //text-decoration-style     : var(--theme-text-decoration-style);
@@ -81,14 +86,16 @@ p, li {
     }
     &.btn {
       text-decoration: none;
-      &:hover, &:active {
+      &:hover,
+      &:active {
         text-decoration: none;
       }
     }
   }
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   padding: 24px 32px 6px;
   background-color: var(--theme-blockquote-bg-color);
   border-left: ($border-width * 4) $border-style var(--theme-ui);
@@ -99,7 +106,8 @@ blockquote + blockquote,
   margin-top: -16px;
 }
 
-legend, .legend {
+legend,
+.legend {
   display: block;
   width: 100%;
   max-width: 100%;

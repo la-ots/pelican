@@ -14,12 +14,12 @@ eleventyNavigation:
 ## Best practices
 
 - Here’s the [Font Awesome icons we can use](https://fontawesome.com/v5/search?o=r&m=free&s=solid).
-- Choose the most obvious icon for what’s being communicated. 
-- Be consistent when using icons within projects. 
+- Choose the most obvious icon for what’s being communicated.
+- Be consistent when using icons within projects.
 - Do not use the same icon for two different functions.
 - As much as possible, stick to common meanings when choosing icons.
-- Font Awesome icons take their size from their containing element. 
-- By default, Pelican wraps icons `<span>` tags as these tags are inline to the text. 
+- Font Awesome icons take their size from their containing element.
+- By default, Pelican wraps icons `<span>` tags as these tags are inline to the text.
 - Change the color of an icon by changing the theme class. The [Color Theme Lists](/foundation/agency-theming/) have the text color classes you need to change icon colors.
 - Copy markup from FontAwesome, but change the `<i>` to a `<span>`.
 - Be sure to add `aria-hidden="true"` to the `<span>`. This hides the icon from assistive technologies.
@@ -29,13 +29,13 @@ eleventyNavigation:
 <span class="fas fa-universal-access text-info" aria-hidden="true"></span> <span class="fas fa-calendar-alt text-secondary" aria-hidden="true"></span> <span class="fas fa-check-circle text-success" aria-hidden="true"></span> <span class="fas fa-grin-alt text-accent" aria-hidden="true"></span> <span class="fas fa-heart text-danger" aria-hidden="true"></span>
 
 ```html
-<span class="fas fa-universal-access text-info" aria-hidden="true"></span> 
-<span class="fas fa-calendar-alt text-secondary" aria-hidden="true"></span> 
-<span class="fas fa-check-circle text-success" aria-hidden="true"></span> 
-<span class="fas fa-grin-alt text-accent" aria-hidden="true"></span> 
+<span class="fas fa-universal-access text-info" aria-hidden="true"></span>
+<span class="fas fa-calendar-alt text-secondary" aria-hidden="true"></span>
+<span class="fas fa-check-circle text-success" aria-hidden="true"></span>
+<span class="fas fa-grin-alt text-accent" aria-hidden="true"></span>
 <span class="fas fa-heart text-danger" aria-hidden="true"></span>
 ```
 
 ## Resources
 
-* [FontAwesome Icon List](https://fontawesome.com/v5/search?o=r&m=free&s=solid)
+- [FontAwesome Icon List](https://fontawesome.com/v5/search?o=r&m=free&s=solid)

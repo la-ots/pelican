@@ -22,7 +22,7 @@ eleventyNavigation:
 
 {% include 'markup/pagination.njk' %}
 
-``` html
+```html
 {% include 'markup/pagination.njk' %}
 ```
 

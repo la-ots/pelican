@@ -19,6 +19,6 @@ eleventyNavigation:
 
 {% include 'markup/hero-boxed-in-photo.njk' %}
 
-``` html
+```html
 {% include 'markup/hero-boxed-in-photo.njk' %}
 ```

@@ -1,7 +1,9 @@
 let pageWrapper = document.getElementById("page-wrapper");
 let sidebar = document.getElementById("sidebar");
 let sidebarButton = document.getElementById("sidebar-button");
-let sidebarDropdownLink = document.querySelectorAll(".sidebar-dropdown-header-expand");
+let sidebarDropdownLink = document.querySelectorAll(
+  ".sidebar-dropdown-header-expand",
+);
 let scrollToTop = document.getElementById("ScrollToTop");
 
 let slideUp = (target, duration = 500) => {
@@ -67,14 +69,13 @@ function menuA11Y() {
     sidebar.removeAttribute("inert");
     sidebar.setAttribute("visibility", "visible");
     sidebar.setAttribute("aria-expanded", "true");
-  }
-  else {
+  } else {
     sidebar.setAttribute("aria-hidden", "true");
     sidebar.setAttribute("inert", "inert");
     sidebar.setAttribute("visibility", "hidden");
     sidebar.setAttribute("aria-expanded", "false");
   }
-};
+}
 if (sidebar) {
   sidebar.ontransitionend = menuA11Y;
   menuA11Y();
@@ -134,7 +135,10 @@ if (scrollToTop) {
 
 function scrollFunction() {
   if (scrollToTop) {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
+    ) {
       scrollToTop.style.display = "block";
     } else {
       scrollToTop.style.display = "none";
@@ -153,14 +157,16 @@ function topFunction() {
   }
 }
 
-/*global $*/
-
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
+var popoverTriggerList = [].slice.call(
+  document.querySelectorAll('[data-bs-toggle="popover"]'),
+);
+popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl);
 });
 
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
+var tooltipTriggerList = [].slice.call(
+  document.querySelectorAll('[data-bs-toggle="tooltip"]'),
+);
+tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl);
 });

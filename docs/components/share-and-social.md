@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Social Icons allow users to share the page with others.
   img: /img/illustrations/illus-share-social.svg
 ---
-  
+
 ## Best Practice
 
 - Links should open in a new window or tab.
@@ -20,6 +20,6 @@ eleventyNavigation:
 
 {% include 'markup/share-social.njk' %}
 
-``` html
+```html
 {% include 'markup/share-social.njk' %}
 ```

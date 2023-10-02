@@ -1,6 +1,6 @@
 ---
 title: Alerts
-summary:  Alerts communicate system or data statuses, such as warnings, to users.
+summary: Alerts communicate system or data statuses, such as warnings, to users.
 tags: components, alerts
 layout: guide
 eleventyNavigation:
@@ -18,12 +18,11 @@ eleventyNavigation:
 - Status Colors only add visual cues. The content of the Alert must make the meaning obvious to assistive technology users.
 - Use **Info** (Blue) to communicate informative or helpful information to users.
 - Use **Success** (Green) to provide feedback to the user indicating an action is successful.
-- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.   
+- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.
 - Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Alert type.
 
 {% include 'writing-tips.njk' %}
-
 
 ## Usage
 
@@ -31,7 +30,7 @@ eleventyNavigation:
 
 {% include 'markup/alert-info.njk' %}
 
-``` html
+```html
 {% include 'markup/alert-info.njk' %}
 ```
 
@@ -41,7 +40,7 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 {% include 'markup/alert-success.njk' %}
 
-``` html
+```html
 {% include 'markup/alert-success.njk' %}
 ```
 
@@ -49,7 +48,7 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 {% include 'markup/alert-warning.njk' %}
 
-``` html
+```html
 {% include 'markup/alert-warning.njk' %}
 ```
 
@@ -57,9 +56,10 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 {% include 'markup/alert-danger.njk' %}
 
-``` html
+```html
 {% include 'markup/alert-danger.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Alerts](https://getbootstrap.com/docs/5.2/components/alerts/)
+
+- [Bootstrap Documentation - Alerts](https://getbootstrap.com/docs/5.2/components/alerts/)

@@ -3,7 +3,7 @@ title: Radio Tiles
 summary: Radio tiles allow users to select one significant choice from a set of options.
 tags: forms
 layout: guide
-eleventyNavigation: 
+eleventyNavigation:
   key: Radio Tiles
   parent: Form Controls
   order: 8
@@ -36,6 +36,7 @@ eleventyNavigation:
   </label>
 </div>
 
+<!-- prettier-ignore -->
 ```html
 <div class="form-check radio-tile">
   <input class="form-check-input" id="check-historical-truth-4" type="radio" name="historical-figures" value="sojourner-truth" />
@@ -45,8 +46,9 @@ eleventyNavigation:
   <input class="form-check-input" id="check-historical-booker-4" type="radio" name="historical-figures" value="sojourner-truth" />
   <label class="form-check-label" for="check-historical-booker-4">
     Booker T. Washington
-    <span class="tile-description">This is optional text that can be used to describe the Label in more
-      detail.</span>
+    <span class="tile-description">
+      This is optional text that can be used to describe the Label in more detail.      
+    </span>
   </label>
 </div>
 ```

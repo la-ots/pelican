@@ -19,6 +19,6 @@ eleventyNavigation:
 
 {% include 'markup/hero-textbox-over-photo.njk' %}
 
-``` html
+```html
 {% include 'markup/hero-textbox-over-photo.njk' %}
 ```

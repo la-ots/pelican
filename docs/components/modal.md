@@ -17,7 +17,7 @@ eleventyNavigation:
 - Modals are meant to disrupt the user’s flow for important choices.
 - On a small phone, all content and all user interface elements must be seen within a single screen height.
 - Any buttons that close or cancel the modal should get initial focus.
-- Modals hold focus until the action is completed or dismissed. 
+- Modals hold focus until the action is completed or dismissed.
 - Do not use modals to notify a user of a successful or unsuccessful action; Use a [Toast](/components/toasts) instead.
 - Do not use forms in a modal.
 - Tabbing should only cycle between the buttons inside the Modal.
@@ -28,9 +28,10 @@ eleventyNavigation:
 
 {% include 'markup/modal.njk' %}
 
-``` html
+```html
 {% include 'markup/modal.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Modal](https://getbootstrap.com/docs/5.2/components/modal/)
+
+- [Bootstrap Documentation - Modal](https://getbootstrap.com/docs/5.2/components/modal/)

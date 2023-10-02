@@ -19,6 +19,6 @@ eleventyNavigation:
 
 {% include 'markup/hero-text-color-toned-photo.njk' %}
 
-``` html
+```html
 {% include 'markup/hero-text-color-toned-photo.njk' %}
 ```

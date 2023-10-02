@@ -5,6 +5,7 @@ tags: test-page
 layout: test-page
 index: true
 ---
+
 <div style="position: fixed; right: 10px; top: 20px; z-index: 3000; width: 300px;">
   {%- include 'markup/toast-info.njk'    -%}
   {%- include 'markup/toast-danger.njk'  -%}
@@ -52,7 +53,9 @@ index: true
 </div>
 
 <!-- progress indicator large -->
+
 {%- include 'markup/progress-large.njk' -%}
+
 <div class="content-container">
   <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
     <div class="row">
@@ -368,15 +371,21 @@ index: true
 <hr class="major">
 
 <!-- tabbed content -->
+
 {%- include 'markup/tabbed-content-traditional.njk' -%}
 
 <!-- features -->
+
 {%- include 'markup/feature-cta-double.njk' -%}
 {%- include 'markup/feature-set.njk' -%}
+
 <!-- heroes -->
+
 {%- include 'markup/hero-dual-pane.njk' -%}
 {%- include 'markup/hero-textbox-over-photo.njk' -%}
 {%- include 'markup/hero-text-color-toned-photo.njk' -%}
 {%- include 'markup/hero-single-pane.njk' -%}
+
 <!-- button container -->
+
 {%- include 'markup/button-container.njk' -%}

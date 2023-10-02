@@ -29,7 +29,7 @@
     margin-right: 0;
     margin-bottom: 1rem;
     margin-left: 9.5rem;
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(md) {
       margin-top: 10rem;
       margin-bottom: 10rem;
     }
@@ -53,7 +53,7 @@
     @extend .h2;
     @extend .text-md-start;
     color: var(--theme-feature-cta-single-header-color);
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(md) {
       margin-bottom: 0;
     }
   }
@@ -85,7 +85,7 @@
     display: block;
     margin-bottom: 1rem;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     .btn {
       display: inline;
       margin-bottom: 0;
@@ -165,7 +165,7 @@
 .feature-set {
   background-color: var(--theme-feature-set-bg-color);
   padding: 1.5rem;
-  hr.minor{
+  hr.minor {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -178,12 +178,12 @@
     color: var(--theme-feature-set-lead-text-color);
   }
   .feature-small-text {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: var(--theme-feature-set-small-text-color);
   }
   .feature-lead-icon {
     @extend .h4;
-    margin-bottom: .5rem;
-    color: var(--theme-feature-set-icon-color)
+    margin-bottom: 0.5rem;
+    color: var(--theme-feature-set-icon-color);
   }
 }

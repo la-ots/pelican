@@ -33,5 +33,12 @@ The Louisiana Seal is used to indicate the authenticity and official status of t
 </div>
 
 ```html
-<img class="img-fluid" alt="Louisiana State Seal as a SVG image file." src="/img/Louisiana-State-Seal.svg">
-<img class="img-fluid" alt="Louisiana State Seal as a PNG image file." src="/img/Louisiana-State-Seal.png" >
+<img
+  class="img-fluid"
+  alt="Louisiana State Seal as a SVG image file."
+  src="/img/Louisiana-State-Seal.svg" />
+<img
+  class="img-fluid"
+  alt="Louisiana State Seal as a PNG image file."
+  src="/img/Louisiana-State-Seal.png" />
+```

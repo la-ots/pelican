@@ -1,10 +1,10 @@
 .breadcrumb-wrapper {
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   display: block;
   background-color: var(--theme-breadcrumb-bg-color);
   border-bottom: 1px solid var(--theme-breadcrumb-border-color);
-  @media screen and (min-width: 1024px){
-    padding: .75rem 0;
+  @media screen and (min-width: 1024px) {
+    padding: 0.75rem 0;
   }
 }
 .breadcrumb {
@@ -12,10 +12,10 @@
   @extend .border-0;
   margin-bottom: 0;
   background-color: var(--theme-breadcrumb-bg-color);
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     padding-left: 1rem;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     padding-left: 1.5rem;
   }
 }
@@ -43,12 +43,13 @@
   a {
     color: var(--theme-breadcrumb-link-color);
     text-decoration: none;
-    &:hover, &:active {
+    &:hover,
+    &:active {
       color: inherit;
       text-decoration: underline;
     }
   }
-  @media screen and (min-width: 1024px){
+  @media screen and (min-width: 1024px) {
     display: list-item;
   }
 }

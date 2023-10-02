@@ -24,7 +24,7 @@ eleventyNavigation:
 
 {% include 'markup/popovers.njk' %}
 
-``` html
+```html
 {% include 'markup/popovers.njk' %}
 ```
 
@@ -32,11 +32,11 @@ eleventyNavigation:
 
 {% include 'markup/tooltips.njk' %}
 
-``` html
+```html
 {% include 'markup/tooltips.njk' %}
 ```
 
 ## Resources
 
-* [Bootstrap Documentation - Popovers](https://getbootstrap.com/docs/5.2/components/popovers/)
-* [Bootstrap Documentation - Tooltips](https://getbootstrap.com/docs/5.2/components/tooltips/)
+- [Bootstrap Documentation - Popovers](https://getbootstrap.com/docs/5.2/components/popovers/)
+- [Bootstrap Documentation - Tooltips](https://getbootstrap.com/docs/5.2/components/tooltips/)

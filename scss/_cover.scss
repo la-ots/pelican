@@ -7,7 +7,7 @@
   @extend .small;
   @extend .opacity-75;
   color: var(--theme-ui);
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 
   @include media-breakpoint-up(lg) {
     position: absolute;

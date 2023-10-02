@@ -21,15 +21,17 @@ Headings indicate document content structure and become navigation tools for ass
 
 ## Paragraphs
 
-Pelican uses 16px, the browser default, as the base font size, also known as a _rem_. This is considered the best starting point for web readability. Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 16px in Pelican. That’s why sentences only have space below them when they’re within  lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.
+Pelican uses 16px, the browser default, as the base font size, also known as a _rem_. This is considered the best starting point for web readability. Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 16px in Pelican. That’s why sentences only have space below them when they’re within lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.
 
+<!-- prettier-ignore -->
 ```html
 <p>Pelican uses 16px, the browser default, as the base font size. This is considered the best starting point for web readability.</p>
 <p>Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 16px in Pelican. That’s why sentences only have space below them when they’re not within other lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.</p>
 ```
+
 ## Strong and Em
 
-Strong tags `<strong>` and em tags `<em>` allow visual and semantic expressiveness in text. Using these tags affects the semantics of the text within. They also communicate this expressiveness for assistive technology users. 
+Strong tags `<strong>` and em tags `<em>` allow visual and semantic expressiveness in text. Using these tags affects the semantics of the text within. They also communicate this expressiveness for assistive technology users.
 
 <strong>Visually bolder and audibly bolder</strong>
 <em>italicized and emphasized audibly</em>
@@ -43,9 +45,10 @@ Strong tags `<strong>` and em tags `<em>` allow visual and semantic expressivene
 
 ## Small
 
-Small tags `<small>` allow text to be presented in smaller size in a logical content parent. 
+Small tags `<small>` allow text to be presented in smaller size in a logical content parent.
 <small>A common use of this within Pelican is helper text under a form field.</small>
 
+<!-- prettier-ignore -->
 ```html
 Small tags `<small>` allow text to be presented in smaller size in a logical content parent. 
 <small>A common use of this within Pelican is helper text under a form field.</small>
@@ -55,16 +58,16 @@ Small tags `<small>` allow text to be presented in smaller size in a logical con
 
 Lists are used to present elements in a collection. These may be bullet points or a numeric list. When writing lists, try to do the following when possible:
 
-* Try to keep the same approximate line lengths and phrasing.
-* Try to avoid repeating the same word at the beginning of each list item.
-* Introduce lists with a clear, descriptive sentence.
-* Do not overuse lists in content. Overusing lists will diminish their importance.
+- Try to keep the same approximate line lengths and phrasing.
+- Try to avoid repeating the same word at the beginning of each list item.
+- Introduce lists with a clear, descriptive sentence.
+- Do not overuse lists in content. Overusing lists will diminish their importance.
 
 Use **Ordered** lists when the order of items is important.
 
 {% include 'markup/list-ordered.njk' %}
 
-``` html
+```html
 {% include 'markup/list-ordered.njk' %}
 ```
 
@@ -72,18 +75,19 @@ Use **Unordered** lists when the order of items does not matter.
 
 {% include 'markup/list-unordered.njk' %}
 
-``` html
+```html
 {% include 'markup/list-unordered.njk' %}
 ```
 
 **Use Span for Inline Style**
 
-Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
+Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics.
 
+<!-- prettier-ignore -->
 ```html
 Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics. 
 ```
 
 ## Resources
 
-* [Bootstrap Documentation - Typography](https://getbootstrap.com/docs/5.2/content/typography/)
+- [Bootstrap Documentation - Typography](https://getbootstrap.com/docs/5.2/content/typography/)

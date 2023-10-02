@@ -21,7 +21,7 @@ eleventyNavigation:
 
 Content images are images which have meaningful information in them.
 
-- Content images should contain [Alt Text](/foundation/images/#alt-text). 
+- Content images should contain [Alt Text](/foundation/images/#alt-text).
 - Apply `img-fluid` to images to make them responsive. This makes the image fit its parent container. Height is automatically adjusted by the browser to preserve the aspect ratio.
 - You may optionally add the `rounded` class to put rounded corners on the image.
 
@@ -34,7 +34,10 @@ Content images are images which have meaningful information in them.
 ```html
 <div class="row mb-12">
   <div class="col-12 col-md-6 col-lg-4">
-    <img alt="Laptop, filled coffee cup, notepad, pen, and phone on a desk." class="img-fluid rounded" src="/img/photos/pexels-photo-5077047.jpeg">
+    <img
+      alt="Laptop, filled coffee cup, notepad, pen, and phone on a desk."
+      class="img-fluid rounded"
+      src="/img/photos/pexels-photo-5077047.jpeg" />
   </div>
 </div>
 ```
@@ -43,7 +46,7 @@ Content images are images which have meaningful information in them.
 
 Non-content images may be requested by the Stakeholders and Project Owners. In this case, consider the following guidelines:
 
-- Try to use images which do not distract from the content. 
+- Try to use images which do not distract from the content.
 - Content images should use [Alt Text](/foundation/images/#alt-text) with an empty value.
 
 <div class="row mb-12">
@@ -55,7 +58,10 @@ Non-content images may be requested by the Stakeholders and Project Owners. In t
 ```html
 <div class="row mb-12">
   <div class="col-12 col-md-6 col-lg-4">
-    <img alt="" class="img-fluid rounded" src="/img/photos/pexels-photo-2317711.jpeg">
+    <img
+      alt=""
+      class="img-fluid rounded"
+      src="/img/photos/pexels-photo-2317711.jpeg" />
   </div>
 </div>
 ```
@@ -66,7 +72,7 @@ When writing alt text, keep the following in mind:
 
 - Be specific; describe the image for users who cannot see them.
 - Keep it short as possible, but descriptive. Try to keep it around 150 characters.
-- Don’t include phrases like “Image of...” or “Picture of...” 
+- Don’t include phrases like “Image of...” or “Picture of...”
 - Use a simple, descriptive sentence and the appropriate punctuation.
 - Alt text describes the image, it’s not a caption.
 - Alt text does not need to include any copyright information.

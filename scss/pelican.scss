@@ -3,7 +3,7 @@
 @import "bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
-@import "bootstrap/scss/functions"; 
+@import "bootstrap/scss/functions";
 
 // pelican defaults
 @import "default-theme";
@@ -89,7 +89,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "pagination";
 @import "page-templates";
 
-// this next partial sets the CSS Variables 
+// this next partial sets the CSS Variables
 // which can be overridden in a separate CSS file
 @import "default-theme-variables";
 

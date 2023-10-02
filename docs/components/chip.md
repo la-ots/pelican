@@ -17,15 +17,16 @@ eleventyNavigation:
 - They contain a `<a>` with `role="button"` to delete them from a data group.
 - Chips are special [Badges](/components/badges).
 - Create a parent container with a class of `chips` to hold the chips.
-- First use Badge markup, then add `class=”chip”`. 
+- First use Badge markup, then add `class="chip"`.
 
 ## Usage
 
 {% include 'markup/chip.njk' %}
 
-``` html
+```html
 {% include 'markup/chip.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.2/components/badge/)
+
+- [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.2/components/badge/)

@@ -36,7 +36,8 @@
     color: var(--theme-hero-dual-pane-small-text-color);
   }
 }
-.hero-single-pane, .hero-solo-pane {
+.hero-single-pane,
+.hero-solo-pane {
   background-color: var(--theme-hero-single-pane-bg-color);
   .half-left {
     @extend .bg-image-size-cover;
@@ -76,13 +77,13 @@
   .hero-small-text {
     color: var(--theme-hero-boxed-photo-small-text-color);
   }
-  img{
+  img {
     margin-top: 1.25rem;
   }
   @media screen and (min-width: 992px) {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    .hero-big-text{
+    .hero-big-text {
       margin-top: 0;
     }
     img {
@@ -101,10 +102,14 @@
     @extend .position-absolute;
     opacity: var(--theme-hero-color-toned-overlay-opacity);
     background-color: var(--theme-hero-color-toned-overlay-bg-color);
-    top:0; right:0; bottom:0; left:0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 0;
   }
-  .container, .container-fluid {
+  .container,
+  .container-fluid {
     position: relative;
     z-index: 1;
   }
@@ -136,7 +141,10 @@
     @extend .position-absolute;
     opacity: var(--theme-textbox-over-photo-overlay-opacity);
     background-color: var(--theme-textbox-over-photo-bg-color);
-    top:0; right:0; bottom:0; left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
   .hero-textbox {
     background-color: var(--theme-textbox-over-photo-overlay-bg-color);
@@ -153,7 +161,7 @@
 }
 
 .overlay {
-  +* {
+  + * {
     z-index: 2;
   }
 }

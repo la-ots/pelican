@@ -12,6 +12,6 @@ eleventyNavigation:
 
 ## Overview
 
-Components are the smallest pieces of functionality in Pelican. They can be combined to form larger pieces of functionality. 
+Components are the smallest pieces of functionality in Pelican. They can be combined to form larger pieces of functionality.
 
 {% include 'themeables.njk' %}

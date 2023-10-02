@@ -1,9 +1,9 @@
 .content-container {
-  background-color:       var(--theme-content-container-bg-color);
+  background-color: var(--theme-content-container-bg-color);
   padding: 1rem 0;
   margin-bottom: 1rem;
   box-shadow: 0 1px 1px 0 var(--theme-content-container-shadow-color);
-  @include media-breakpoint-up(lg){
+  @include media-breakpoint-up(lg) {
     padding: 4rem 0;
   }
 }
