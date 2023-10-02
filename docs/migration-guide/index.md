@@ -61,47 +61,82 @@ These lists give a little more information on what’s different between Pelican
   - Class names on child elements
   - Inclusion of attributes to help accessibility
 - [Page Title](/components/page-title/)
-  - Class name son child elements
+  - Class names on child elements
   - Inclusion of badges as an option
   - CSS to create the Page Title
   - Smaller default padding
 - [Pagination](/components/pagination/)
+  - Class names on child elements
+  - Attributes related to accessibility
 - [Popovers &amp; Tooltips](/components/popovers-tooltips/)
+  - Name spacing on attributes for JavaScript targets is different
 - [Progress Indicator, Large](/components/progress/)
+  - CSS to create the Progress Indicator, Large
 - [Sidebar](/components/app-screen/) (part of App Screen)
+  - Class names on child elements
 - [Share Social](/components/share-and-social/)
+  - Class names on child elements
+  - Attributes related to accessibility
 - [Tabbed Content](/components/tabbed-content/)
+  - Promotion of common tab style to top of documentation
+  - Name spacing on attributes for JavaScript targets is different
+  - Attributes related to accessibility
 - [Toasts](/components/toasts/)
+  - Class names on child elements
 - [Topbar](/components/app-screen/) (part of App Screen)
+  - Class names on child elements
 
-### Form Controls with new markup
+### Form Controls with markup or CSS changes
 
 - [Form Section Header](/form-controls/form-section-header/)
+  - Class names on child elements
+  - Inclusion of required fields statement
 - [Inputs](/form-controls/inputs/)
+  - Class names on child elements
 - [Checkboxes](/form-controls/checkboxes/)
-- [Date Pickers](/form-controls/inputs/)
+  - Class names on child elements
 - [Radios](/form-controls/radios/)
+  - Class names on child elements
 - [Selects](/form-controls/select/)
+  - Class names on child elements
 - [Switches](/form-controls/switches/)
-- [File Uploads](/form-controls/inputs/)
+  - Class names on child elements
+  - Attributes related to accessibility
 
-### Form Templates with new markup
+### Form Templates with markup or CSS changes
 
 - [Address Form](/form-templates/address/)
+  - Class names on child elements
 - [Change Password](/form-templates/change-password/)
+  - Class names on child elements
+  - Replacement of javascript collapse with native HTML Details and Summary
 - [Contact Information](/form-templates/contact-information/)
+  - Class names on child elements
 - [Create User ID &amp; Password](/form-templates/create-user-id-and-password/)
+  - Class names on child elements
+  - Replacement of javascript collapse with native HTML Details and Summary
 - [Name](/form-templates/name/)
+  - Class names on child elements
 - [Sign In](/form-templates/sign-in/)
+  - Class names on child elements
 
-### Hero Blocks with new markup
+### Hero Blocks with markup or CSS changes
 
 - [Dual Pane](/hero-blocks/dual-pane/)
+  - Class names on child elements
+  - CSS to create the Hero Block
 - [Hero Single Pane](/hero-blocks/single-pane/)
+  - Class names on child elements
+  - CSS to create the Hero Block
 - [Text over Color-toned Photo](/hero-blocks/text-over-color-toned-photo/)
+  - Class names on child elements
+  - CSS to create the Hero Block
 
 ### Page Templates with new markup
 
 - [404 Page](/page-templates/404-page/), public and internal
+  - class names on child elements
 - [Error Page](/page-templates/error-page/), public and internal
+  - class names on child elements
 - [Landing Page](/page-templates/landing-page/)
+  - class names on child elements
