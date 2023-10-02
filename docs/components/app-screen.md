@@ -67,7 +67,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
 ```html
 <!-- topbar -->
 <div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
-  <p class="m-0 font-weight-bold order-lg-2 mr-auto me-auto">
+  <p class="m-0 fw-bold order-lg-2 mr-auto me-auto">
     <a href="#" class="d-md-none text-white text-decoration-none" tabindex="2">
       <span class="d-md-none">Digital Product Name</span>
     </a>
