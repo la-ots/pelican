@@ -9,11 +9,11 @@ eleventyNavigation:
   order: 3
   excerpt: Pelican uses UI colors to help define important interface cues.
   img: /img/illustrations/illus-ui-colors.svg
---- 
+---
 
 ## User Interface Colors
 
-Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements. 
+Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements.
 
 <div class="row mb-12">
     <div class="col-md-6 col-xl-3">
@@ -104,4 +104,4 @@ The UI Colors are implemented as background colors and as text colors. The class
 
 ## Resources
 
-* [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/utilities/colors/)
+- [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/utilities/colors/)

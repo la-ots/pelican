@@ -9,11 +9,11 @@ eleventyNavigation:
   order: 2
   excerpt: Pelican uses Status colors to inform users about what is going on with the system.
   img: /img/illustrations/illus-status-colors.svg
---- 
+---
 
-## Status Colors 
+## Status Colors
 
-Status colors indicate various system statuses, such as error messages or informational dialogs. 
+Status colors indicate various system statuses, such as error messages or informational dialogs.
 
 Status colors should not be the sole way statuses are communicated to users. However, the selected colors are common colors when communicating system conditions.
 
@@ -310,4 +310,4 @@ The Status Colors are implemented as background colors and as text colors. The c
 
 ## Resources
 
-* [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/utilities/colors/)
+- [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/utilities/colors/)

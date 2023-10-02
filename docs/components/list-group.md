@@ -29,7 +29,7 @@ eleventyNavigation:
   <li class="list-group-item">And a fifth one</li>
 </ul>
 
-``` html
+```html
 <ul class="list-group">
   <li class="list-group-item">An item</li>
   <li class="list-group-item">A second item</li>
@@ -49,7 +49,8 @@ eleventyNavigation:
   <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
 </div>
 
-``` html
+<!-- prettier-ignore -->
+```html
 <div class="list-group" role="list-group">
   <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>

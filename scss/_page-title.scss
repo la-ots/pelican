@@ -1,6 +1,7 @@
 .page-header {
   background-color: var(--theme-page-header-bg-color);
-  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
+  border-bottom: $border-width $border-style
+    var(--theme-page-title-border-color);
   border-radius: 0;
 
   @include media-breakpoint-up(lg) {
@@ -16,39 +17,40 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
+  border-bottom: $border-width $border-style
+    var(--theme-page-title-border-color);
   // todo code page title, muted badges in CSS variables
   .badge-primary {
     background-color: var(--theme-primary-100);
-    color           : var(--theme-primary-900);
+    color: var(--theme-primary-900);
   }
   .badge-secondary {
     background-color: var(--theme-secondary-100);
-    color           : var(--theme-secondary-900);
+    color: var(--theme-secondary-900);
   }
   .badge-accent {
     background-color: var(--theme-accent-100);
-    color           : var(--theme-accent-900);
+    color: var(--theme-accent-900);
   }
   .badge-ui {
     background-color: var(--theme-gray-100);
-    color           : var(--theme-gray-900);
+    color: var(--theme-gray-900);
   }
   .badge-success {
     background-color: var(--theme-success-100);
-    color           : var(--theme-success-900);
+    color: var(--theme-success-900);
   }
   .badge-info {
     background-color: var(--theme-info-100);
-    color           : var(--theme-info-900);
+    color: var(--theme-info-900);
   }
 }
 .page-title-text {
   @extend .h2;
   margin-bottom: 0;
-  color:   var(--theme-page-title-text-color);
+  color: var(--theme-page-title-text-color);
   .icon {
-    color: var(--theme-page-title-icon-color );
+    color: var(--theme-page-title-icon-color);
   }
   p {
     margin-bottom: 0;

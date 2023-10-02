@@ -19,6 +19,6 @@ eleventyNavigation:
 
 {% include 'markup/hero-dual-pane.njk' %}
 
-``` html
+```html
 {% include 'markup/hero-dual-pane.njk' %}
 ```

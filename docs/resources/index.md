@@ -11,24 +11,27 @@ eleventyNavigation:
 ---
 
 ## Accessibility Guides
-* [Accessibility for Teams](https://accessibility.digital.gov/)
-* [ADA-recommended Practices](http://www.ada.gov/pcatoolkit/chap5chklist.htm)
-* [Section508.gov](https://www.section508.gov/)
-* [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
-* [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/)
-* [Usability.gov](https://www.usability.gov/)
-* [18F Accessibility Guide](https://accessibility.18f.gov/)
-* [web.dev](https://web.dev/)
-* [A11y Project](https://www.a11yproject.com/posts/2013-01-22-understanding-visual-impairment/)
-* [WebAIM: Alternate Text](https://webaim.org/techniques/alttext/)
-* [Voluntary Product Accessibility Template (VPAT)](https://www.section508.gov/sell/vpat)
+
+- [Accessibility for Teams](https://accessibility.digital.gov/)
+- [ADA-recommended Practices](http://www.ada.gov/pcatoolkit/chap5chklist.htm)
+- [Section508.gov](https://www.section508.gov/)
+- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+- [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/)
+- [Usability.gov](https://www.usability.gov/)
+- [18F Accessibility Guide](https://accessibility.18f.gov/)
+- [web.dev](https://web.dev/)
+- [A11y Project](https://www.a11yproject.com/posts/2013-01-22-understanding-visual-impairment/)
+- [WebAIM: Alternate Text](https://webaim.org/techniques/alttext/)
+- [Voluntary Product Accessibility Template (VPAT)](https://www.section508.gov/sell/vpat)
 
 ## Color Contrast
-* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-* [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
-* [Dyslexia Friendly Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
+
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+- [Dyslexia Friendly Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
 
 ## Design Resources
+
 - [Public Sans Typeface](https://fonts.google.com/specimen/Public+Sans)
 - [Figma.com](https://www.figma.com/)
 - [Pelican Wireframe and Mockup Files at Figma Community](https://www.figma.com/@LAGov)
@@ -37,16 +40,18 @@ eleventyNavigation:
 - [Visual Design Guidance by Digital.gov](https://accessibility.digital.gov/visual-design/getting-started/)
 
 ## Development Resources
-* [Accessibility for Front-End Developers](https://accessibility.digital.gov/front-end/getting-started/)
-* [Bootstrap 5](https://getbootstrap.com/)
-* [Vue.js](https://vuejs.org/)
-* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
-* [11ty](https://www.11ty.dev/)
+
+- [Accessibility for Front-End Developers](https://accessibility.digital.gov/front-end/getting-started/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Vue.js](https://vuejs.org/)
+- [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/)
+- [11ty](https://www.11ty.dev/)
 
 ## Additional Resources
-* [Nielson Norman Group](https://www.nngroup.com/)
-* [Baymard Institute](https://baymard.com/)
-* [Web AIM](https://webaim.org/)
-* [Accessibility at NCSU](https://accessibility.oit.ncsu.edu/)
-* [Yale University Useability & Web Accessibility](https://usability.yale.edu/)
-* [web.dev](https://web.dev/)
+
+- [Nielson Norman Group](https://www.nngroup.com/)
+- [Baymard Institute](https://baymard.com/)
+- [Web AIM](https://webaim.org/)
+- [Accessibility at NCSU](https://accessibility.oit.ncsu.edu/)
+- [Yale University Useability & Web Accessibility](https://usability.yale.edu/)
+- [web.dev](https://web.dev/)

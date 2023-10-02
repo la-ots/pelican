@@ -6,7 +6,7 @@
 .image-credit {
   @extend .small;
   @extend .text-center;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
   margin-bottom: 0;
 
   a {
@@ -21,14 +21,12 @@
   height: 48px;
 
   svg {
-
     .mark,
     .type {
       fill: var(--theme-navbar-text-color);
     }
   }
 }
-
 
 .bg-image-size-cover {
   background-size: cover;

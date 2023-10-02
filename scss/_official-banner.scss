@@ -1,12 +1,12 @@
 .official-banner {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: $black;
-  border-color    : $black !important;
-  color           : $white;
+  border-color: $black !important;
+  color: $white;
   .container-fluid {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
   .btn {
     @extend .btn-link;

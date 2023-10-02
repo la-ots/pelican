@@ -79,7 +79,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 ### Dropdown Buttons
 
 - Contains a list of links, using the `<a>` element.
-- It’s not the same thing as the [Select Menu]((/form-controls/select/)) used in Forms.
+- It’s not the same thing as the [Select Menu](/form-controls/select/) used in Forms.
 - Keep the text in the links brief.
 - Appearance can be changed like other buttons.
 
@@ -96,7 +96,13 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ```html
 <div class="dropdown">
-  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+  <button
+    class="btn btn-outline-ui dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    data-toggle="dropdown"
+    data-bs-toggle="dropdown"
+    aria-expanded="false">
     Dropdown button
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -108,6 +114,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 ```
 
 ### Disabled Buttons
+
 - Disabled buttons cannot be clicked and should not appear clickable.
 - Do not use Disabled buttons as a placeholder if a feature isn’t ready yet.
 - Disabled states can be used for a temporary state change triggered by the user’s actions. Once the action is resolved, the button should return to an enabled state.
@@ -118,8 +125,10 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
 
 ```html
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
-<a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a> 
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>
+  ButtonText
+</button>
+<a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
 ```
 
 ### Specialized Buttons
@@ -127,10 +136,13 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 Pelican includes a number of pre-made, specialized buttons. Unlike Base buttons, these are constrained to specific usage purposes and only control content near their location.
 
 These include:
+
 - [Back & Forward buttons](/components/back-and-forward-buttons) - Navigate through an application
 - [Back to Top button](/components/back-to-top-button) - Move to top of page
-- [Previous & Next Section buttons](/components/previous-and-next-buttons)  - Navigate through page sections
+- [Previous & Next Section buttons](/components/previous-and-next-buttons) - Navigate through page sections
 - [Add Data buttons](/components/add-data-button) - Add data multiples to an application
 - [Page Action buttons](/components/page-actions-button) - Allow users to print, email, or share
+
 ## Resources
+
 - [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)

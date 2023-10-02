@@ -1,4 +1,5 @@
-footer, .footer {
+footer,
+.footer {
   .brand-logo {
     @extend .position-relative;
     svg {
@@ -9,7 +10,7 @@ footer, .footer {
       }
     }
   }
-  &.footer-basic   {
+  &.footer-basic {
     background-color: var(--theme-footer-basic-bg-color);
     margin-top: 3rem;
     .links-wrapper {
@@ -34,7 +35,7 @@ footer, .footer {
     }
     hr {
       background-color: var(--theme-footer-utility-divider-color);
-      opacity: .25;
+      opacity: 0.25;
     }
     .btn-link {
       color: var(--theme-footer-utility-link-color);

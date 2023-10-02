@@ -20,21 +20,21 @@
   .btn {
     width: 100%;
     &:not(:last-of-type) {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
     }
     &.btn-link {
       margin-right: 0;
     }
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: 1024px) {
       width: unset;
       &:not(:last-of-type) {
-        margin-right : .5rem;
+        margin-right: 0.5rem;
         margin-bottom: 0;
       }
     }
   }
   .col-12 {
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: 1024px) {
       display: flex;
       flex-wrap: wrap;
     }
@@ -51,26 +51,28 @@
   right: 8px;
   transform: translateY(-50%);
 }
-.btn-add-this, .btn-add-data {
+.btn-add-this,
+.btn-add-data {
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
   @extend .shadow-none;
   @extend .w-100;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   background-color: transparent;
   border: 2px dashed var(--theme-ui);
-  div, .wrapper {
+  div,
+  .wrapper {
     @extend .rounded;
     background-color: var(--theme-ui);
-    color           : var(--bs-white);
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-left: .75rem;
-    padding-right: .75rem;
+    color: var(--bs-white);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
   &:hover {
     background-color: var(--theme-gray-100);
@@ -86,7 +88,8 @@ a.btn {
     text-decoration: inherit;
   }
 }
-#ScrollToTop, .btn-scroll-top {
+#ScrollToTop,
+.btn-scroll-top {
   @extend .position-fixed;
   right: 2rem;
   bottom: 5rem;
@@ -96,23 +99,24 @@ a.btn {
 .btn-prev-next-section {
   color: var(--theme-ui-priority);
   background-color: transparent !important;
-  @extend .border-0 ;
+  @extend .border-0;
   @extend .shadow-none;
 }
-.btns-previous-next, .btns-previous-forward {
+.btns-previous-next,
+.btns-previous-forward {
   .container-fluid {
     padding-top: 1.675rem;
     padding-bottom: 1.625rem;
   }
   hr.major {
-    margin-top   : .75rem;
+    margin-top: 0.75rem;
     margin-bottom: 0;
   }
 }
 .sidebar-button {
   position: relative;
-  margin-right: .25rem;
-  @media screen and (min-width: 992px){
+  margin-right: 0.25rem;
+  @media screen and (min-width: 992px) {
     order: 1;
   }
 }

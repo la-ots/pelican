@@ -36,6 +36,7 @@ eleventyNavigation:
   </label>
 </div>
 
+<!-- prettier-ignore -->
 ```html
 <div class="form-check checkbox-tile">
   <input class="form-check-input" id="check-historical-truth-2" type="checkbox" name="historical-figures" value="sojourner-truth" />
@@ -45,8 +46,9 @@ eleventyNavigation:
   <input class="form-check-input" id="check-historical-booker-2" type="checkbox" name="historical-figures" value="sojourner-truth" />
   <label class="form-check-label" for="check-historical-booker-2">
     Booker T. Washington
-    <span class="tile-description">This is optional text that can be used to describe the Label in more
-      detail.</span>
+    <span class="tile-description">
+      This is optional text that can be used to describe the Label in more detail.
+    </span>
   </label>
 </div>
 ```

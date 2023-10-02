@@ -20,11 +20,12 @@ Users who rely on keyboard navigation need a way to skip past navigation element
 
 ## Usage
 
-``` html
+```html
 {% include 'markup/skip-link.njk' %}
 ```
 
 ## Resources
-* [Skip Links: Skip to Main Content by NC State University](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/)
-* [Skip Links: WebAIM Keyboard Accessibility via Tabindex](https://webaim.org/techniques/keyboard/tabindex)
-* [WebAIM Skip Navigation Links](https://webaim.org/techniques/skipnav/)
+
+- [Skip Links: Skip to Main Content by NC State University](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/)
+- [Skip Links: WebAIM Keyboard Accessibility via Tabindex](https://webaim.org/techniques/keyboard/tabindex)
+- [WebAIM Skip Navigation Links](https://webaim.org/techniques/skipnav/)

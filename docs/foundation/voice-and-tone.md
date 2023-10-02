@@ -21,12 +21,12 @@ For Louisiana’s digital products, let’s use a voice and tone that is:
 
 - **Approachable**: Users shouldn’t be afraid of us.
 - **Friendly**: We are to help the users.
-- **Casual, but professional**: We’re easy to listen to, but our expertise is evident. 
+- **Casual, but professional**: We’re easy to listen to, but our expertise is evident.
 
 What is the difference between Voice and Tone?
 
-* **Voice** is what is said. It’s what you’re talking about.
-* **Tone** is how it is said. It’s whether you’re serious, urgent, or casual.
+- **Voice** is what is said. It’s what you’re talking about.
+- **Tone** is how it is said. It’s whether you’re serious, urgent, or casual.
 
 ## Consider the Audience
 
@@ -41,7 +41,7 @@ The needs of your intended audience should always come first. Consider the follo
 
 ## Writing Effective Content
 
-All text written for Louisiana state government digital products should use conversational, informal language. The goal is educate readers without talking down to them or confusing them. 
+All text written for Louisiana state government digital products should use conversational, informal language. The goal is educate readers without talking down to them or confusing them.
 
 Keep these tips in mind:
 
@@ -60,14 +60,14 @@ Avoid these things:
 - Mixed Metaphors
 - Pop culture references
 - Internet abbreviations
-- Figurative language 
+- Figurative language
 - Unfamiliar jargon
 
 ## Writing Style
 
 **Capitalization**
 
-- Capitalize the first letter of every word in titles except for articles, prepositions, and conjunctions. 
+- Capitalize the first letter of every word in titles except for articles, prepositions, and conjunctions.
 - Use capital letters for proper nouns. This includes people, places, agency and department names.
 
 **Contractions**
@@ -76,12 +76,12 @@ Avoid these things:
 
 **Numbers**
 
-- Use numerals. 
+- Use numerals.
 - Write out the number when it starts a sentence.
 
 **Time**
 
-- Use a 12-hour clock. 
+- Use a 12-hour clock.
 - Write the time descriptors for before noon and after noon.
 - Write the time descriptors using lowercase letters (am and pm).
 
@@ -92,7 +92,7 @@ Avoid these things:
 
 **Agency Abbreviations**
 
-- Always write the full name of a department or agency the first time it is mentioned on a page or screen. 
+- Always write the full name of a department or agency the first time it is mentioned on a page or screen.
 - The abbreviated name can be used after the first occurrence.
 
 ## Resources

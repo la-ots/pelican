@@ -25,12 +25,13 @@ eleventyNavigation:
 
 {% include 'markup/radios.njk' %}
 
-``` html
+```html
 {% include 'markup/radios.njk' %}
 ```
 
 ## Resources
-* [Design.gov - Radio Buttons (Best Practices)](https://designsystem.digital.gov/components/form-controls/#radio-buttons)
-* [Section 508 Guidelines](https://www.section508.gov/)
-* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
-* [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/checks-radios/)
+
+- [Design.gov - Radio Buttons (Best Practices)](https://designsystem.digital.gov/components/form-controls/#radio-buttons)
+- [Section 508 Guidelines](https://www.section508.gov/)
+- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/checks-radios/)

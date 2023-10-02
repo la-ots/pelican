@@ -19,11 +19,11 @@ eleventyNavigation:
 - Toasts are only triggered by user actions such as saving, editing, deleting, or creating a file.
 - Use **Info** (Blue) to communicate informative or helpful information to users.
 - Use **Success** (Green) to provide feedback to the user indicating an action is successful.
-- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.  
+- Use **Warning** (Yellow) to indicate an unintended, but not dangerous, effect.
 - Use **Danger** (Red) to indicate an action will cause data loss, error, or other hard-to-reverse effects.
 - Use the icons provided for each Toast type.
 - Toasts may also be used to notify the user about information related to their current action.
-- Toasts are persistent regardless of scrolling. 
+- Toasts are persistent regardless of scrolling.
 - Toasts are dismissable either by clicking the X to close or they automatically close after a defined time duration (suggestion is 7 seconds).
 
 {% include 'writing-tips.njk' %}
@@ -34,7 +34,7 @@ eleventyNavigation:
 
 {% include 'markup/toast-success.njk' %}
 
-``` html
+```html
 {% include 'markup/toast-success.njk' %}
 ```
 
@@ -42,7 +42,7 @@ eleventyNavigation:
 
 {% include 'markup/toast-danger.njk' %}
 
-``` html
+```html
 {% include 'markup/toast-danger.njk' %}
 ```
 
@@ -50,7 +50,7 @@ eleventyNavigation:
 
 {% include 'markup/toast-info.njk' %}
 
-``` html
+```html
 {% include 'markup/toast-info.njk' %}
 ```
 
@@ -58,9 +58,10 @@ eleventyNavigation:
 
 {% include 'markup/toast-warning.njk' %}
 
-``` html
+```html
 {% include 'markup/toast-warning.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Toasts](https://getbootstrap.com/docs/5.2/components/toasts/)
+
+- [Bootstrap Documentation - Toasts](https://getbootstrap.com/docs/5.2/components/toasts/)

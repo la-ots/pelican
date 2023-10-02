@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Textarea allows users to input multiple lines of text into a form.
   img: /img/illustrations/illus-textarea.png
 ---
-    
+
 ## Best Practices
 
 - Use Textarea when the expected text input is longer than one sentence.
@@ -21,11 +21,12 @@ eleventyNavigation:
 
 {% include 'markup/textarea.njk' %}
 
-``` html
+```html
 {% include 'markup/textarea.njk' %}
 ```
 
 ## Resources
-* [Section 508 Guidelines](https://www.section508.gov/)
-* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
-* [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/overview/)
+
+- [Section 508 Guidelines](https://www.section508.gov/)
+- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/overview/)

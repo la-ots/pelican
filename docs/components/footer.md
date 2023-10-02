@@ -22,7 +22,7 @@ eleventyNavigation:
 
 {% include 'markup/footer-basic.njk' %}
 
-``` html
+```html
 {% include 'markup/footer-basic.njk' %}
 ```
 
@@ -30,6 +30,6 @@ eleventyNavigation:
 
 {% include 'markup/footer-utility.njk' %}
 
-``` html
+```html
 {% include 'markup/footer-utility.njk' %}
 ```

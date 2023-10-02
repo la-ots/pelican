@@ -22,10 +22,10 @@ eleventyNavigation:
 
 {% include 'markup/button-add-data.njk' %}
 
-``` html
+```html
 {% include 'markup/button-add-data.njk' %}
 ```
 
 ## Resources
 
-* [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)

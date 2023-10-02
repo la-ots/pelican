@@ -10,6 +10,7 @@ eleventyNavigation:
   excerpt: The Back to Top Button allows users to return to the top of the page.
   img: /img/illustrations/illus-button-top.svg
 ---
+
 ## Best Practices
 
 - Insert it at the bottom of the root element in the page.
@@ -19,9 +20,10 @@ eleventyNavigation:
 
 ## Usage
 
-``` html
+```html
 {% include 'markup/button-back-to-top.njk' %}
 ```
+
 ## Resources
 
-* [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)

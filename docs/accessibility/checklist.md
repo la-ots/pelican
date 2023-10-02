@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-The following checklists for are based on the WCAG 2.0 Level A and AA standards. The checklists are organized as sections for Perceiveable, Operable, Understandable, and Robust, or P.O.U.R.  They will be updated as new information is available. It’s meant to assist product teams, including designers, developers, content creators, and purchasing agents, in creating and procuring accessible IT.
+The following checklists for are based on the WCAG 2.0 Level A and AA standards. The checklists are organized as sections for Perceiveable, Operable, Understandable, and Robust, or P.O.U.R. They will be updated as new information is available. It’s meant to assist product teams, including designers, developers, content creators, and purchasing agents, in creating and procuring accessible IT.
 
 ### Perceivable
 
@@ -51,7 +51,7 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 
 - Are you including human testing? Automated testing is useful, but not a replacement for human testing.
 - Are you using semantic HTML?
-- Is the web page coded using valid HTML (e.g., not using Javascript on a Div instead of a button or link)? 
+- Is the web page coded using valid HTML (e.g., not using Javascript on a Div instead of a button or link)?
 - Do rich, dynamic, web interfaces, such as modal windows, drop-down menus, slideshows, and carousels, include ARIA markup?
 - Are you including proper ARIA on custom controls?
 - At 200% zoom or higher, the digital product should still function.

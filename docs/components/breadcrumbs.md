@@ -27,10 +27,10 @@ eleventyNavigation:
 
 {% include 'markup/breadcrumbs.njk' %}
 
-``` html
+```html
 {% include 'markup/breadcrumbs.njk' %}
 ```
 
 ## Resources
 
-* [Bootstrap Documentation - Breadcrumb](https://getbootstrap.com/docs/5.2/components/breadcrumb/)
+- [Bootstrap Documentation - Breadcrumb](https://getbootstrap.com/docs/5.2/components/breadcrumb/)

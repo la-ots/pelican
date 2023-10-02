@@ -1,6 +1,6 @@
 ---
 title: Credits
-summary: We used many open-source and freely-available resources to help us deliver this quickly and reliably. 
+summary: We used many open-source and freely-available resources to help us deliver this quickly and reliably.
 tags: credits
 layout: guide
 eleventyNavigation:
@@ -12,12 +12,15 @@ eleventyNavigation:
 ---
 
 ## Eleventy
-Our site uses [11ty](https://www.11ty.dev/) as our static site generator.  
+
+Our site uses [11ty](https://www.11ty.dev/) as our static site generator.
 
 ## BootStrap
+
 One of the most widely-used frontend frameworks available and supported in Microsoft VisualStudio, [Bootstrap 5](https://getbootstrap.com/) provides the frontend foundation upon which we have built our system .
 
 ## FontAwesome
+
 We use [FontAwesome](https://fontawesome.com/v5/search?o=r&m=free&s=solid) as our icon source for many internal and public-facing projects.
 
 ## Photography Credits

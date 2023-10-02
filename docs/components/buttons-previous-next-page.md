@@ -25,10 +25,10 @@ eleventyNavigation:
 
 {% include 'markup/buttons-previous-next-page.njk' %}
 
-``` html
+```html
 {% include 'markup/buttons-previous-next-page.njk' %}
 ```
 
 ## Resources
 
-* [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)

@@ -1,61 +1,131 @@
-
 $utilities: map-merge(
-  $utilities, (
-    "margin": map-merge(
-      map-get($utilities, "margin"),
-      (print: true),
-    ),
-    "margin-x": map-merge(map-get($utilities, "margin-x"),
-      (print: true),
-    ),
-    "margin-y": map-merge(map-get($utilities, "margin-y"),
-      (print: true),
-    ),
-    "margin-top": map-merge(map-get($utilities, "margin-top"),
-      (print: true),
-    ),
-    "margin-end": map-merge(map-get($utilities, "margin-end"),
-      (print: true),
-    ),
-    "margin-bottom": map-merge(map-get($utilities, "margin-bottom"),
-      (print: true),
-    ),
-    "margin-start": map-merge(map-get($utilities, "margin-start"),
-      (print: true),
-    ),
-    "padding": map-merge(map-get($utilities, "padding"),
-      (print: true),
-    ),
-    "padding-x": map-merge(map-get($utilities, "padding-x"),
-      (print: true),
-    ),
-    "padding-y": map-merge(map-get($utilities, "padding-y"),
-      (print: true),
-    ),
-    "padding-top": map-merge(map-get($utilities, "padding-top"),
-      (print: true),
-    ),
-    "padding-end": map-merge(map-get($utilities, "padding-end"),
-      (print: true),
-    ),
-    "padding-bottom": map-merge(map-get($utilities, "padding-bottom"),
-      (print: true),
-    ),
-    "padding-start": map-merge(map-get($utilities, "padding-start"),
-      (print: true),
-    ),
-    "text-align": map-merge(map-get($utilities, "text-align"),
-      (print: true),
-    ),
-    "border": map-merge(map-get($utilities, "border"),
-      (print: true),
-    ),
-    "border-width": map-merge(map-get($utilities, "border-width"),
-      (print: true),
-    ),
-    "shadow": map-merge(map-get($utilities, "shadow"),
-      (print: true),
-    ),
+  $utilities,
+  (
+    "margin":
+      map-merge(
+        map-get($utilities, "margin"),
+        (
+          print: true,
+        )
+      ),
+    "margin-x":
+      map-merge(
+        map-get($utilities, "margin-x"),
+        (
+          print: true,
+        )
+      ),
+    "margin-y":
+      map-merge(
+        map-get($utilities, "margin-y"),
+        (
+          print: true,
+        )
+      ),
+    "margin-top":
+      map-merge(
+        map-get($utilities, "margin-top"),
+        (
+          print: true,
+        )
+      ),
+    "margin-end":
+      map-merge(
+        map-get($utilities, "margin-end"),
+        (
+          print: true,
+        )
+      ),
+    "margin-bottom":
+      map-merge(
+        map-get($utilities, "margin-bottom"),
+        (
+          print: true,
+        )
+      ),
+    "margin-start":
+      map-merge(
+        map-get($utilities, "margin-start"),
+        (
+          print: true,
+        )
+      ),
+    "padding":
+      map-merge(
+        map-get($utilities, "padding"),
+        (
+          print: true,
+        )
+      ),
+    "padding-x":
+      map-merge(
+        map-get($utilities, "padding-x"),
+        (
+          print: true,
+        )
+      ),
+    "padding-y":
+      map-merge(
+        map-get($utilities, "padding-y"),
+        (
+          print: true,
+        )
+      ),
+    "padding-top":
+      map-merge(
+        map-get($utilities, "padding-top"),
+        (
+          print: true,
+        )
+      ),
+    "padding-end":
+      map-merge(
+        map-get($utilities, "padding-end"),
+        (
+          print: true,
+        )
+      ),
+    "padding-bottom":
+      map-merge(
+        map-get($utilities, "padding-bottom"),
+        (
+          print: true,
+        )
+      ),
+    "padding-start":
+      map-merge(
+        map-get($utilities, "padding-start"),
+        (
+          print: true,
+        )
+      ),
+    "text-align":
+      map-merge(
+        map-get($utilities, "text-align"),
+        (
+          print: true,
+        )
+      ),
+    "border":
+      map-merge(
+        map-get($utilities, "border"),
+        (
+          print: true,
+        )
+      ),
+    "border-width":
+      map-merge(
+        map-get($utilities, "border-width"),
+        (
+          print: true,
+        )
+      ),
+    "shadow":
+      map-merge(
+        map-get($utilities, "shadow"),
+        (
+          print: true,
+        )
+      ),
   )
 );
-
