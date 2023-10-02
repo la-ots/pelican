@@ -19,6 +19,7 @@ Headings semantically express the content structure of a document. For assistive
 
 Indents in the code below help illustrate how Heading tags create an information outline.
 
+<!-- prettier-ignore -->
 ```html
 <h1></h1>
   <h2></h2>

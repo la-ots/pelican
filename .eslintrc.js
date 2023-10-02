@@ -5,18 +5,10 @@ module.exports = {
     node: true,
     browser: true,
   },
-  plugins: ["prettier"],
-  extends: "eslint:recommended",
+  extends: ["@la-ots/eslint-config", "prettier"],
   parserOptions: {
     parser: "babel-eslint",
     ecmaVersion: 2017,
     sourceType: "module",
-  },
-  rules: {
-    indent: ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    quotes: ["error", "double"],
-    semi: ["error", "always"],
-    "prettier/prettier": "error",
   },
 };

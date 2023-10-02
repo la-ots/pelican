@@ -1,60 +1,61 @@
-const { promisify } = require("util")
-const fs = require("fs")
-const hasha = require("hasha")
-const readFile = promisify(fs.readFile)
-const pluginInclusiveLanguage = require("@11ty/eleventy-plugin-inclusive-language")
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
-const pluginToc = require('eleventy-plugin-nesting-toc')
-const pluginReadingTime = require('eleventy-plugin-reading-time')
-const markdownIt = require("markdown-it")
-const markdownItAnchor = require("markdown-it-anchor")
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
+const { promisify } = require("util");
+const fs = require("fs");
+const hasha = require("hasha");
+const readFile = promisify(fs.readFile);
+const pluginInclusiveLanguage = require("@11ty/eleventy-plugin-inclusive-language");
+const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginToc = require("eleventy-plugin-nesting-toc");
+const pluginReadingTime = require("eleventy-plugin-reading-time");
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
 
   eleventyConfig.addPlugin(pluginToc, {
-    wrapper: 'div'
-  })
-  eleventyConfig.addPlugin(pluginSyntaxHighlight)
-  eleventyConfig.addPlugin(pluginInclusiveLanguage)
-  eleventyConfig.addPlugin(pluginReadingTime)
-  eleventyConfig.addPlugin(eleventyNavigationPlugin)
+    wrapper: "div",
+  });
+  eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(pluginInclusiveLanguage);
+  eleventyConfig.addPlugin(pluginReadingTime);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  eleventyConfig.addFilter('titleize', (value) => {
-    return value.split(' ')
-      .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
-      .join(' ')
-  })
+  eleventyConfig.addFilter("titleize", (value) => {
+    return value
+      .split(" ")
+      .map((w) => w[0].toUpperCase() + w.substr(1).toLowerCase())
+      .join(" ");
+  });
 
-  eleventyConfig.addFilter('capitalize', (value) => {
-    if (!value) return ''
-    value = value.toString()
-    return value.charAt(0).toUpperCase() + value.slice(1)
-  })
+  eleventyConfig.addFilter("capitalize", (value) => {
+    if (!value) return "";
+    value = value.toString();
+    return value.charAt(0).toUpperCase() + value.slice(1);
+  });
 
-  eleventyConfig.addFilter('replaceDash', (value) => {
-    if (!value) return ''
-    value = value.toString()
+  eleventyConfig.addFilter("replaceDash", (value) => {
+    if (!value) return "";
+    value = value.toString();
 
-    return value.replace(/\-/g, ' ')
-  })
+    return value.replace(/\-/g, " ");
+  });
 
-  eleventyConfig.addNunjucksAsyncFilter("addHash", function (
-    absolutePath,
-    callback
-  ) {
-    readFile(`./dist/docs/${absolutePath}`, {
-      encoding: "utf-8",
-    })
-    .then((content) => {
-      return hasha.async(content);
-    })
-    .then((hash) => {
-      callback(null, `${absolutePath}?hash=${hash.substr(0, 10)}`)
-    })
-    .catch((error) => callback(error))
-  })
+  eleventyConfig.addNunjucksAsyncFilter(
+    "addHash",
+    function (absolutePath, callback) {
+      readFile(`./dist/docs/${absolutePath}`, {
+        encoding: "utf-8",
+      })
+        .then((content) => {
+          return hasha.async(content);
+        })
+        .then((hash) => {
+          callback(null, `${absolutePath}?hash=${hash.substr(0, 10)}`);
+        })
+        .catch((error) => callback(error));
+    },
+  );
 
   let markdownLibrary = markdownIt({
     html: true,
@@ -62,45 +63,46 @@ module.exports = (eleventyConfig) => {
     linkify: true,
     typographer: true,
   }).use(markdownItAnchor, {
-    permalink: false
-  })
-  eleventyConfig.setLibrary("md", markdownLibrary)
+    permalink: false,
+  });
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.addCollection("sidebarNav", (collection) => {
-    return collection.getAll()
-      .filter(item => (item.data || {}).excludeFromSidebar !== true)
-  })
+    return collection
+      .getAll()
+      .filter((item) => (item.data || {}).excludeFromSidebar !== true);
+  });
 
   eleventyConfig.addCollection("tagList", (collection) => {
-    let tagSet = new Set()
+    let tagSet = new Set();
     collection.getAll().forEach((item) => {
       if ("tags" in item.data) {
-        let tags = item.data.tags
+        let tags = item.data.tags;
         if (typeof tags === "string") {
-          tags = [tags]
+          tags = [tags];
         }
 
         tags = tags.filter((item) => {
-          switch(item) {
+          switch (item) {
             // this list should match the `filter` list in tags.njk
             case "all":
             case "nav":
             case "post":
             case "posts":
-              return false
+              return false;
           }
 
-          return true
-        })
+          return true;
+        });
 
         for (const tag of tags) {
-          tagSet.add(tag)
+          tagSet.add(tag);
         }
       }
-    })
+    });
 
-    return [...tagSet].sort()
-  })
+    return [...tagSet].sort();
+  });
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
@@ -119,13 +121,13 @@ module.exports = (eleventyConfig) => {
     ghostMode: false,
   });
 
-  eleventyConfig.addPassthroughCopy('docs/css');
-  eleventyConfig.addPassthroughCopy('docs/img');
-  eleventyConfig.addPassthroughCopy('docs/js');
+  eleventyConfig.addPassthroughCopy("docs/css");
+  eleventyConfig.addPassthroughCopy("docs/img");
+  eleventyConfig.addPassthroughCopy("docs/js");
 
   eleventyConfig.setUseGitIgnore(false);
-  eleventyConfig.addWatchTarget('dist/js')
-  eleventyConfig.addWatchTarget('dist/css')
+  eleventyConfig.addWatchTarget("dist/js");
+  eleventyConfig.addWatchTarget("dist/css");
 
   // Add Pelican
   if (isProduction) {
@@ -150,6 +152,6 @@ module.exports = (eleventyConfig) => {
       output: "dist/docs",
       includes: "_includes",
       layouts: "_layouts",
-    }
-  }
-}
+    },
+  };
+};
