@@ -20,10 +20,10 @@ Upgrading to Pelican 2 requires a few steps. Here’s what you’ll have to do:
 
 ## Markup Changes
 
-The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 requires some markup and CSS changes in a few things.  These changes could be different markup or different `class` values on old markup. Here’s lists of items which have new markup or CSS Changes. You’ll need to compare your markup from Pelican 1 to markup for Pelican 2 for the following items.
+The move from Bootstrap 4 in Pelican 1 to Bootstrap 5 in Pelican 2 requires some markup and CSS changes in a few things. These changes could be different markup or different `class` values on old markup. Here’s lists of items which have new markup or CSS Changes. You’ll need to compare your markup from Pelican 1 to markup for Pelican 2 for the following items.
 
 ### Components with markup or CSS changes
- 
+
 These lists give a little more information on what’s different between Pelican 1 (Bootstrap 4.6) and Pelican 2 (Bootstrap 5.3).
 
 - [Alerts](/components/alerts/)
