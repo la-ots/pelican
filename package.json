@@ -26,7 +26,6 @@
     "esbuild": "^0.19.4",
     "eslint": "^8.50.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "find-unused-sass-variables": "^5.0.0",
     "hasha": "^5.2.2",
     "markdown-it-anchor": "^8.6.7",
     "nodemon": "^3.0.1",
@@ -36,7 +35,6 @@
     "prettier": "^3.0.3",
     "rimraf": "^5.0.1",
     "sass": "^1.68.0",
-    "stylelint-config-twbs-bootstrap": "^11.0.1",
     "terser": "^5.21.0"
   },
   "peerDependencies": {
@@ -56,7 +54,6 @@
     "css:lint": "npm-run-all --aggregate-output --continue-on-error --parallel css:lint:*",
     "css:lint:stylelint": "stylelint **/*.{css,scss} || exit 0",
     "css:lint:fix": "stylelint **/*.{css,scss} --fix",
-    "css:lint:vars": "fusv scss/ || exit 0",
     "format:check": "prettier --check .",
     "format": "prettier --write --ignore-unknown .",
     "js-dist": "npm-run-all js:compile js:minify",
