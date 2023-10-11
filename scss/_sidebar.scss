@@ -190,32 +190,32 @@
     padding-left: 0;
   }
 }
-.agency-theme .sidebar-wrapper,
-.agency-theme .sidebar-footer {
+.sidebar-wrapper,
+.sidebar-footer {
   background: var(--theme-sidebar-wrapper-bg-color);
 }
-.agency-theme .sidebar-wrapper .sidebar-header,
-.agency-theme .sidebar-wrapper .sidebar-search {
+.sidebar-wrapper .sidebar-header,
+.sidebar-wrapper .sidebar-search {
   border-top: 1px solid var(--theme-sidebar-header-border-color);
 }
-.agency-theme .sidebar-wrapper .sidebar-search input.search-menu,
-.agency-theme .sidebar-wrapper .sidebar-search .input-group-text {
+.sidebar-wrapper .sidebar-search input.search-menu,
+.sidebar-wrapper .sidebar-search .input-group-text {
   border-color: transparent;
   box-shadow: none;
 }
-.agency-theme .sidebar-wrapper .sidebar-header .user-info .user-role,
-.agency-theme .sidebar-wrapper .sidebar-header .user-info .user-status,
-.agency-theme .sidebar-wrapper .sidebar-search input.search-menu,
-.agency-theme .sidebar-wrapper .sidebar-search .input-group-text,
-.agency-theme .sidebar-wrapper .sidebar-brand > a,
-.agency-theme .sidebar-wrapper .sidebar-menu ul li a,
-.agency-theme .sidebar-footer > a {
+.sidebar-wrapper .sidebar-header .user-info .user-role,
+.sidebar-wrapper .sidebar-header .user-info .user-status,
+.sidebar-wrapper .sidebar-search input.search-menu,
+.sidebar-wrapper .sidebar-search .input-group-text,
+.sidebar-wrapper .sidebar-brand > a,
+.sidebar-wrapper .sidebar-menu ul li a,
+.sidebar-footer > a {
   color: var(--theme-sidebar-link-color);
 }
-.agency-theme .sidebar-wrapper .sidebar-brand > a:hover {
+.sidebar-wrapper .sidebar-brand > a:hover {
   background-color: transparent;
 }
-.agency-theme .sidebar-wrapper .sidebar-header .user-info {
+.sidebar-wrapper .sidebar-header .user-info {
   background-color: transparent;
 }
 .page-wrapper.agency-theme.toggled #close-sidebar {
@@ -224,17 +224,17 @@
 .page-wrapper.agency-theme.toggled #close-sidebar:hover {
   color: #fff;
 }
-.agency-theme .sidebar-wrapper .sidebar-menu .header-menu span {
+.sidebar-wrapper .sidebar-menu .header-menu span {
   color: fade-out($white, 0.25);
 }
-.agency-theme .sidebar-footer {
+.sidebar-footer {
   padding-top: 4px;
   border-top: 1px solid var(--theme-sidebar-header-border-color);
 }
-.agency-theme .sidebar-footer > a:first-child {
+.sidebar-footer > a:first-child {
   border-left: none;
 }
-.agency-theme .sidebar-footer > a:last-child {
+.sidebar-footer > a:last-child {
   border-right: none;
 }
 .sidebar-item {
