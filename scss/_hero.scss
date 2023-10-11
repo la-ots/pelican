@@ -26,14 +26,14 @@
   .hero-big-text {
     @extend .h1;
     @extend .fw-bold;
-    color: var(--theme-hero-dual-pane-header-text-color);
+    color: var(--theme-hero-dual-pane-text-color);
   }
   .hero-lead-text {
     @extend .h4;
-    color: var(--theme-hero-dual-pane-lead-text-color);
+    color: var(--theme-hero-dual-pane-text-color);
   }
   .hero-small-text {
-    color: var(--theme-hero-dual-pane-small-text-color);
+    color: var(--theme-hero-dual-pane-text-color);
   }
 }
 .hero-single-pane,
@@ -72,10 +72,10 @@
   .hero-big-text {
     @extend .h2;
     margin-top: 2rem;
-    color: var(--theme-hero-boxed-photo-header-text-color);
+    color: var(--theme-hero-boxed-photo-text-color);
   }
   .hero-small-text {
-    color: var(--theme-hero-boxed-photo-small-text-color);
+    color: var(--theme-hero-boxed-photo-text-color);
   }
   img {
     margin-top: 1.25rem;
@@ -101,7 +101,7 @@
   .overlay {
     @extend .position-absolute;
     opacity: var(--theme-hero-color-toned-overlay-opacity);
-    background-color: var(--theme-hero-color-toned-overlay-bg-color);
+    background-color: var(--theme-hero-color-toned-bg-color);
     top: 0;
     right: 0;
     bottom: 0;
@@ -118,12 +118,12 @@
     @extend .fw-bold;
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
-    color: var(--theme-hero-color-toned-header-text-color);
+    color: var(--theme-hero-color-toned-text-color);
   }
   .hero-small-text {
     @extend .text-shadow !optional;
     @extend .shadow-primary !optional;
-    color: var(--theme-hero-color-toned-small-text-color);
+    color: var(--theme-hero-color-toned-text-color);
   }
 }
 .hero-textbox-over-photo {
@@ -147,16 +147,16 @@
     left: 0;
   }
   .hero-textbox {
-    background-color: var(--theme-textbox-over-photo-overlay-bg-color);
+    background-color: var(--theme-textbox-over-photo-bg-color);
     padding: 2.5rem;
   }
   .hero-big-text {
     @extend .h2;
     @extend .fw-bold;
-    color: var(--theme-textbox-over-photo-header-text-color);
+    color: var(--theme-textbox-over-photo-text-color);
   }
   .hero-small-text {
-    color: var(--theme-textbox-over-photo-small-text-color);
+    color: var(--theme-textbox-over-photo-text-color);
   }
 }
 
