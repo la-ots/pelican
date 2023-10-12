@@ -460,7 +460,7 @@
 
   /* 5. Apply colors to the buttons */
   /* buttons */
-  
+
   .btn-primary {
 	--bs-btn-color: var(--bs-white);
 	--bs-btn-bg: var(--theme-primary);
