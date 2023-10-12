@@ -31,7 +31,7 @@ index: true
         </div>
         <div>
           <a href="https://google.com" class="btn btn-primary btn-shadow">
-            <span class="fas fa-bolt" aria-hidden="true"></span>
+            <span class="icon fas fa-bolt" aria-hidden="true"></span>
             Do This
           </a>
         </div>
@@ -134,8 +134,8 @@ index: true
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm" data-toggle="tooltip" data-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" style="margin-top: 2rem;">
-          <span class="fas fa-question" aria-hidden="true"></span>
-          <span class="sr-only visually-hidden">Click to show Tooltip</span>
+          <span class="icon fas fa-question" aria-hidden="true"></span>
+          <span class="visually-hidden">Click to show Tooltip</span>
         </button>
       </div>
     </div>
@@ -161,8 +161,8 @@ index: true
       </div>
       <div class="col-12 col-lg-3">
         <button type="button" class="btn btn-ui btn-sm" data-toggle="popover" data-placement="top" data-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="And here's some amazing content. It's very engaging. Right?" title="Popover title" style="margin-top: 2rem;">
-          <span class="fas fa-question" aria-hidden="true"></span>
-          <span class="sr-only visually-hidden">Click to show popover</span>
+          <span class="icon fas fa-question" aria-hidden="true"></span>
+          <span class="visually-hidden">Click to show popover</span>
         </button>
       </div>
     </div>
@@ -356,12 +356,12 @@ index: true
       </div>
       <div class="col-12 col-lg-3">
         <div class="spinner-border text-ui" role="status">
-          <span class="sr-only">Loading...</span>
+          <span class="visually-hidden">Loading...</span>
         </div>
       </div>
       <div class="col-12 col-lg-3">
         <div class="spinner-border text-info" role="status">
-          <span class="sr-only">Loading...</span>
+          <span class="visually-hidden">Loading...</span>
         </div>
       </div>
     </div>

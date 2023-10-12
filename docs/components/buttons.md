@@ -71,7 +71,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
-  <span class="icon fas fa-check" aria-hidden="true"></span>
+  <span class="icon icon fas fa-check" aria-hidden="true"></span>
   <span class="visually-hidden">Accept</span>
 </button>
 ```
