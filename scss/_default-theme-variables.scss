@@ -402,6 +402,7 @@
 	--theme-table-cell-padding: 0.5rem;
   --theme-table-striped-bg: var(--theme-body-bg);
 	--theme-table-border-color: var(--theme-border-color-lighter);
+  --bs-pagination-bg: var(--theme-gray-white);
   
 	/* toasts */
 
@@ -559,6 +560,10 @@
 	--bs-btn-disabled-color: var(--bs-white);
 	--bs-btn-disabled-bg: var(--theme-danger-200);
 	--bs-btn-disabled-border-color: var(--theme-danger-200);
+  }
+
+  .pagination {
+    --bs-pagination-bg: var(--theme-gray-white);
   }
 
 
