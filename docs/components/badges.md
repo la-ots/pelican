@@ -19,6 +19,7 @@ eleventyNavigation:
 - Use them to display a piece of data’s related quality, such as a number of notifications.
 - Remove the `<span>` with the icon if you don’t need it.
 - Prefer fewer badges on a page element so they don’t create visual noise.
+- Most badges in the [Page Title](/components/page-title/), except Warning and Danger, will be dimmed to avoid undue emphasis.
 
 ## Usage
 

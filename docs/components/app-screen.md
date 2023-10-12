@@ -41,7 +41,7 @@ The first child element of the `id=page-wrapper` is the [Sidebar with Navigation
 - Used in the App Screen.
 - Presents only two levels of navigation.
 - Child pages should get the class `active` added to their class list, in both the `li` and `a` which hold the link when they’re being viewed.
-- Current child pages also get the eye icon, <span class="fas fa-eye" aria-hidden="true"></span> when they’re being viewed. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
+- Current child pages also get the eye icon, <span class="icon fas fa-eye" aria-hidden="true"></span> when they’re being viewed. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 - Child items will only appear when they’re toggled by the button to the right of their parent link.
 - The sidebar footer is empty by default but available for 1 or 2 short links
 
@@ -69,7 +69,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
 ```html
 <!-- topbar -->
 <div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
-  <p class="m-0 fw-bold order-lg-2 mr-auto me-auto">
+  <p class="m-0 fw-bold order-lg-2 me-auto">
     <a href="#" class="d-md-none text-white text-decoration-none" tabindex="2">
       <span class="d-md-none">Digital Product Name</span>
     </a>
@@ -81,8 +81,8 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
     aria-haspop="true"
     aria-controls="sidebar"
     tabindex="3">
-    <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
-    <span class="sr-only visually-hidden">Toggle side navigation</span>
+    <span class="icon fas fa-fw fa-bars" aria-hidden="true"></span>
+    <span class="visually-hidden">Toggle side navigation</span>
   </button>
 </div>
 <!-- / topbar -->

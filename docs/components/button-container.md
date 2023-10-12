@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Insert Button Container after the other content, but before any footers.
 - See [Buttons](/components/buttons) for guidance on styling and writing buttons.
-- If there is only 1 cautionary button, such as a `.btn-warning` or `btn-danger`, then add the class `ml-auto` to it.
+- If there is only 1 cautionary button, such as a `.btn-warning` or `btn-danger`, then add the class `ms-auto` to it.
 - If there are 1 or more cautionary buttons, such as a `.btn-warning` or `btn-danger`, then add the class `ms-md-auto` to the first one in the source.
 - Consider buttons’ [action hierarchy](/components/buttons) when assigning button styles.
 
