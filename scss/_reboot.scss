@@ -98,7 +98,7 @@ blockquote,
 .blockquote {
   padding: 24px 32px 6px;
   background-color: var(--theme-blockquote-bg-color);
-  border-left: ($border-width * 4) $border-style var(--theme-ui);
+  border-left: ($border-width * 4) $border-style var(--theme-blockquote-border-color);
 }
 blockquote + blockquote,
 .blockquote + .blockquote {
