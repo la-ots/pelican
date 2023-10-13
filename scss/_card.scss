@@ -1,5 +1,7 @@
 .card {
   margin-bottom: 1rem;
+  background-color: var(--theme-card-bg-color);
+  border-color: var(--theme-card-border-color);
   @extend .shadow-sm;
   .content-container & {
     @extend .shadow-none;

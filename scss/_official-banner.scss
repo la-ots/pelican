@@ -1,9 +1,9 @@
 .official-banner {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: $black;
-  border-color: $black !important;
-  color: $white;
+  color: var(--theme-official-banner-text-color);
+  background-color: var(--theme-official-banner-bg);
+  border-color: var(--theme-official-banner-bg) !important;
   .container-fluid {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
