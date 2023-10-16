@@ -20,17 +20,17 @@ eleventyNavigation:
 ## Usage
 
 <div class="spinner-border text-info" role="status">
-  <span class="sr-only">Loading...</span>
+  <span class="visually-hidden">Loading...</span>
 </div>
 <div class="spinner-border text-ui" role="status">
-  <span class="sr-only">Loading...</span>
+  <span class="visually-hidden">Loading...</span>
 </div>
 
 ```html
 <div class="spinner-border text-info" role="status">
-  <span class="sr-only">Loading...</span>
+  <span class="visually-hidden">Loading...</span>
 </div>
 <div class="spinner-border text-ui" role="status">
-  <span class="sr-only">Loading...</span>
+  <span class="visually-hidden">Loading...</span>
 </div>
 ```

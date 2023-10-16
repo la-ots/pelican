@@ -26,14 +26,14 @@ eleventyNavigation:
 
 ## Usage
 
-<span class="fas fa-universal-access text-info" aria-hidden="true"></span> <span class="fas fa-calendar-alt text-secondary" aria-hidden="true"></span> <span class="fas fa-check-circle text-success" aria-hidden="true"></span> <span class="fas fa-grin-alt text-accent" aria-hidden="true"></span> <span class="fas fa-heart text-danger" aria-hidden="true"></span>
+<span class="icon fas fa-universal-access text-info" aria-hidden="true"></span> <span class="icon fas fa-calendar-alt text-secondary" aria-hidden="true"></span> <span class="icon fas fa-check-circle text-success" aria-hidden="true"></span> <span class="icon fas fa-grin-alt text-accent" aria-hidden="true"></span> <span class="icon fas fa-heart text-danger" aria-hidden="true"></span>
 
 ```html
-<span class="fas fa-universal-access text-info" aria-hidden="true"></span>
-<span class="fas fa-calendar-alt text-secondary" aria-hidden="true"></span>
-<span class="fas fa-check-circle text-success" aria-hidden="true"></span>
-<span class="fas fa-grin-alt text-accent" aria-hidden="true"></span>
-<span class="fas fa-heart text-danger" aria-hidden="true"></span>
+<span class="icon fas fa-universal-access text-info" aria-hidden="true"></span>
+<span class="icon fas fa-calendar-alt text-secondary" aria-hidden="true"></span>
+<span class="icon fas fa-check-circle text-success" aria-hidden="true"></span>
+<span class="icon fas fa-grin-alt text-accent" aria-hidden="true"></span>
+<span class="icon fas fa-heart text-danger" aria-hidden="true"></span>
 ```
 
 ## Resources

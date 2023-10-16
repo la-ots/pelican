@@ -65,13 +65,13 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Consider omitting icon-only buttons as VoiceControl users may not be able to invoke them.
 
 <button type="button" class="btn btn-primary btn-sm">
-  <span class="fas fa-check" aria-hidden="true"></span>
+  <span class="icon fas fa-check" aria-hidden="true"></span>
   <span class="visually-hidden">Accept</span>
 </button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">
-  <span class="fas fa-check" aria-hidden="true"></span>
+  <span class="icon fas fa-check" aria-hidden="true"></span>
   <span class="visually-hidden">Accept</span>
 </button>
 ```
