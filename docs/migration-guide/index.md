@@ -47,6 +47,8 @@ These lists give a little more information on what’s different between Pelican
   - Removal of problematic markup for Voicecontrol Users
 - [Page Actions Button](/components/page-actions-button/)
   - Class names on child elements
+- [Cards](/components/cards/) and [Data Tiles](/components/data-tile/)
+  - Border is thinner
 - [Chips](/components/chip/)
   - Class names on child elements
   - CSS to create the Chips

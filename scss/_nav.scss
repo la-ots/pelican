@@ -210,6 +210,12 @@
       .nav-item {
         &:hover,
         &:active {
+          .nav-link {
+            background-color: rgba(var(--bs-white-rgb), 0.25);
+            .icon {
+              opacity: 1;
+            }
+          }
           .icon-link-border-bottom {
             background-color: var(--theme-navbar-inner-border-hover-color);
           }

@@ -147,6 +147,7 @@
   --theme-border-color: var(--theme-ui);
   --theme-border-color-lighter: var(--theme-ui-light);
   --theme-border-style: solid;
+  --theme-border-width: .125rem;
   --bs-border-color: var(--theme-border-color);
 
   /* 4. Set the properties for Bootstrap and Pelican items */
@@ -172,28 +173,33 @@
 
   --theme-badge-chip-primary-bg-color: var(--theme-primary);
   --theme-badge-chip-primary-text-color: var(--theme-gray-white);
-  --theme-badge-chip-primary-bg-dim-color: var(--theme-primary-900);
-  --theme-badge-chip-primary-text-dim-color: var(--theme-primary-100);
+  --theme-badge-chip-primary-bg-dim-color: var(--theme-primary-100);
+  --theme-badge-chip-primary-text-dim-color: var(--theme-primary-900);
 
   --theme-badge-chip-secondary-bg-color: var(--theme-secondary);
   --theme-badge-chip-secondary-text-color: var(--theme-gray-white);
-  --theme-badge-chip-secondary-bg-dim-color: var(--theme-secondary-900);
-  --theme-badge-chip-secondary-text-dim-color: var(--theme-secondary-100);
+  --theme-badge-chip-secondary-bg-dim-color: var(--theme-secondary-100);
+  --theme-badge-chip-secondary-text-dim-color: var(--theme-secondary-900);
+
+  --theme-badge-chip-accent-bg-color: var(--theme-accent);
+  --theme-badge-chip-accent-text-color: var(--theme-gray-black);
+  --theme-badge-chip-accent-bg-dim-color: var(--theme-accent-100);
+  --theme-badge-chip-accent-text-dim-color: var(--theme-accent-900);
 
   --theme-badge-chip-ui-bg-color: var(--theme-ui);
   --theme-badge-chip-ui-text-color: var(--theme-gray-white);
-  --theme-badge-chip-ui-bg-dim-color: var(--theme-ui-900);
-  --theme-badge-chip-ui-text-dim-color: var(--theme-ui-100);
+  --theme-badge-chip-ui-bg-dim-color: var(--theme-gray-100);
+  --theme-badge-chip-ui-text-dim-color: var(--theme-gray-900);
 
   --theme-badge-chip-info-bg-color: var(--theme-info);
   --theme-badge-chip-info-text-color: var(--theme-gray-white);
-  --theme-badge-chip-info-bg-dim-color: var(--theme-info-900);
-  --theme-badge-chip-info-text-dim-color: var(--theme-info-100);
+  --theme-badge-chip-info-bg-dim-color: var(--theme-info-100);
+  --theme-badge-chip-info-text-dim-color: var(--theme-info-900);
 
   --theme-badge-chip-success-bg-color: var(--theme-success);
   --theme-badge-chip-success-text-color: var(--theme-gray-white);
-  --theme-badge-chip-success-bg-dim-color: var(--theme-success-900);
-  --theme-badge-chip-success-text-dim-color: var(--theme-success-100);
+  --theme-badge-chip-success-bg-dim-color: var(--theme-success-100);
+  --theme-badge-chip-success-text-dim-color: var(--theme-success-900);
 
   --theme-badge-chip-warning-bg-color: var(--theme-warning);
   --theme-badge-chip-warning-text-color: var(--bs-black);
