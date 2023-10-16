@@ -13,32 +13,7 @@ index: true
 </div>
 
 <!-- page title -->
-<div class="page-title">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 d-lg-flex justify-content-lg-between align-items-center">
-        <div class="mb-2 mb-lg-0">
-          <h2 class="page-title-text">
-            <span class="icon fas fa-home" aria-hidden="true"></span>
-            Page Title
-            <span class="badge badge-ui">Badge</span>
-            <span class="badge badge-success">Badge</span>
-            <span class="badge badge-warning">Badge</span>
-            <span class="badge badge-danger">Badge</span>
-            <span class="badge badge-info">Badge</span>
-          </h2>	
-          <p class="mb-0">Use this sentence to briefly describe the purpose of the page.</p>
-        </div>
-        <div>
-          <a href="https://google.com" class="btn btn-primary btn-shadow">
-            <span class="icon fas fa-bolt" aria-hidden="true"></span>
-            Do This
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{%- include 'markup/page-title.njk' -%}
 
 <!-- alerts -->
 <div class="container-fluid">

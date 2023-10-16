@@ -1,3 +1,6 @@
+.list-group {
+  border-color: var(--theme-list-group-border-color);
+}
 .list-group-item {
   @extend .d-flex;
   @extend .justify-content-between;

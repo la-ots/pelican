@@ -43,17 +43,6 @@ eleventyNavigation:
 {% include 'markup/navbar-basic.njk' %}
 ```
 
-### Navigation with Search
-
-- Displays an agency logo with a set of textual links underneath
-- Features a search field positioned to the right of the bar
-
-{% include 'markup/navbar-search.njk' %}
-
-```html
-{% include 'markup/navbar-search.njk' %}
-```
-
 ### Iconic Links Navigation
 
 - Well-suited for pages behind a login of a web application
