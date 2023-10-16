@@ -8,8 +8,7 @@
   .btns-previous-next,
   .skip-to-main,
   .edit-github,
-  .page-toc
-  {
+  .page-toc {
     display: none !important;
   }
 
@@ -26,7 +25,7 @@
     overflow-x: unset;
     transition: unset;
   }
-  
+
   body,
   html {
     background-color: white !important;

@@ -11,7 +11,7 @@ eleventyNavigation:
   img: /img/illustrations/illus-dyslexia-friendly.svg
 ---
 
-## Best Practices 
+## Best Practices
 
 - Use font sizes of 16 – 19 pixels.
 - Avoid using underlines unless it’s for a link in paragraph text.

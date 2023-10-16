@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Labels give the user additonal control and context for form controls.
   img: /img/illustrations/illus-labels.png
 ---
-    
+
 ## Best Practices
 
 - Labels are **required** for form controls.
@@ -29,10 +29,12 @@ eleventyNavigation:
   <small>On mobile browsers this presents an email-optimized UI.</small>
 </div>
 
+<!-- prettier-ignore -->
 ```html
 <div class="form-group">
   <label for="inputTextBox499">
-      <span class="fas fa-asterisk text-danger mr-1 me-1" aria-hidden="true"></span>Input Email Label
+      <span class="fas fa-asterisk text-danger mr-1 me-1" aria-hidden="true"></span>
+      Input Email Label
     </label>
   <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
   <small>On mobile browsers this presents an email-optimized UI.</small>
@@ -42,4 +44,3 @@ eleventyNavigation:
 ## Resources
 
 - [The anatomy of Accessible Forms: The Problem with Placeholders](https://www.deque.com/blog/accessible-forms-the-problem-with-placeholders/)
-

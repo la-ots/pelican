@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Contains and organizes all of the navigation for your web app.
   img: /img/illustrations/illus-sidebar-nav.svg
 ---
-  
+
 ## Best Practice
 
 The first child element of the `id=page-wrapper` is the Sidebar with Navigation. This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
@@ -24,6 +24,6 @@ The first child element of the `id=page-wrapper` is the Sidebar with Navigation.
 
 ## Usage
 
-``` html
+```html
 {% include 'markup/sidebar-nav.njk' %}
 ```

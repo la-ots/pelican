@@ -5,8 +5,10 @@
   background-color: var(--theme-progress-bg-color);
   .btn {
     @extend .shadow-none;
-    margin-top: .25rem;
-    margin-bottom: .25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    background-color: var(--theme-progress-bg-color);
+    border-color: var(--theme-progress-step-bg-color);
   }
   @media screen and (min-width: 768px) {
     .btn {
@@ -21,14 +23,14 @@
   @extend .fw-bold;
   color: var(--theme-progress-description-color);
   margin-bottom: 0;
-  margin-top: .25rem;
-  padding-left: .25rem;
+  margin-top: 0.25rem;
+  padding-left: 0.25rem;
 }
 .progress-description-counter {
   @extend .small;
   @extend .d-block;
   color: var(--theme-progress-description-counter-color);
-  padding-left: .25rem;
+  padding-left: 0.25rem;
 }
 .progress-description-text {
   @extend .d-block;

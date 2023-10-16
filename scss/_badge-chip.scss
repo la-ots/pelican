@@ -3,40 +3,40 @@
   @extend .fw-normal;
   letter-spacing: 12%;
   .icon {
-    opacity: .5;
+    opacity: 0.5;
   }
 }
 .badge-primary {
   background-color: var(--theme-badge-chip-primary-bg-color);
-  color           : var(--theme-badge-chip-primary-text-color);
+  color: var(--theme-badge-chip-primary-text-color);
 }
 .badge-secondary {
   background-color: var(--theme-badge-chip-secondary-bg-color);
-  color           : var(--theme-badge-chip-secondary-text-color);
+  color: var(--theme-badge-chip-secondary-text-color);
 }
 .badge-accent {
   background-color: var(--theme-badge-chip-accent-bg-color);
-  color:            var(--theme-badge-chip-accent-text-color);
+  color: var(--theme-badge-chip-accent-text-color);
 }
 .badge-ui {
   background-color: var(--theme-badge-chip-ui-bg-color);
-  color           : var(--theme-badge-chip-ui-text-color);
+  color: var(--theme-badge-chip-ui-text-color);
 }
 .badge-success {
   background-color: var(--theme-badge-chip-success-bg-color);
-  color           : var(--theme-badge-chip-success-text-color);
+  color: var(--theme-badge-chip-success-text-color);
 }
 .badge-warning {
   background-color: var(--theme-badge-chip-warning-bg-color);
-  color:            var(--theme-badge-chip-warning-text-color);
+  color: var(--theme-badge-chip-warning-text-color);
 }
 .badge-danger {
   background-color: var(--theme-badge-chip-danger-bg-color);
-  color           : var(--theme-badge-chip-danger-text-color);
+  color: var(--theme-badge-chip-danger-text-color);
 }
 .badge-info {
   background-color: var(--theme-badge-chip-info-bg-color);
-  color           : var(--theme-badge-chip-info-text-color);
+  color: var(--theme-badge-chip-info-text-color);
 }
 .chips {
   font-size: $font-size-base * 1.3;
@@ -46,35 +46,40 @@
   margin-bottom: 0.25rem;
   text-decoration: none;
   color: inherit;
-  h1 &, h2 &, h3 &,
-  .h1 &, .h2 &, .h3 & {
+  h1 &,
+  h2 &,
+  h3 &,
+  .h1 &,
+  .h2 &,
+  .h3 & {
     padding-right: $font-size-base * 1.25;
   }
   &.badge-primary {
-    color         : var(--theme-badge-chip-primary-text-color);
+    color: var(--theme-badge-chip-primary-text-color);
   }
   &.badge-secondary {
-    color         : var(--theme-badge-chip-secondary-text-color);
+    color: var(--theme-badge-chip-secondary-text-color);
   }
   &.badge-accent {
-    color         : var(--theme-badge-chip-accent-text-color);
+    color: var(--theme-badge-chip-accent-text-color);
   }
   &.badge-ui {
-    color         : var(--theme-badge-chip-ui-text-color);
+    color: var(--theme-badge-chip-ui-text-color);
   }
   &.badge-info {
-    color         : var(--theme-badge-chip-info-text-color);
+    color: var(--theme-badge-chip-info-text-color);
   }
   &.badge-success {
-    color         : var(--theme-badge-chip-success-text-color);
+    color: var(--theme-badge-chip-success-text-color);
   }
   &.badge-danger {
-    color         : var(--theme-badge-chip-danger-text-color);
+    color: var(--theme-badge-chip-danger-text-color);
   }
   &.badge-warning {
-    color         : var(--theme-badge-chip-warning-text-color);
+    color: var(--theme-badge-chip-warning-text-color);
   }
-  &:hover, &:active {
+  &:hover,
+  &:active {
     text-decoration: inherit;
   }
 }

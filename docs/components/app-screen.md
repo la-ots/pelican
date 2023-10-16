@@ -1,13 +1,13 @@
 ﻿---
 title: App Screen
-summary: The App Screen is the container for your digital product. 
+summary: The App Screen is the container for your digital product.
 tags: basic view, sidenav, topbar
 layout: guide
 eleventyNavigation:
   key: App Screen
   parent: Components
   order: 20
-  excerpt: The App Screen is the container for your digital product. 
+  excerpt: The App Screen is the container for your digital product.
   img: /img/illustrations/illus-app-screen.svg
 ---
 
@@ -25,6 +25,7 @@ For projects requiring a sidebar navigation the App Screen provides the basic us
 
 Everything considered part of the App Screen is placed into the `id=page-wrapper`. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top button goes below it in markup.
 
+<!--prettier-ignore -->
 ```html
 {% include 'markup/skip-link.njk' %}
 <div id="page-wrapper" class="page-wrapper agency-theme">
@@ -52,6 +53,7 @@ The first child element of the `id=page-wrapper` is the [Sidebar with Navigation
 
 After the `nav` is the `class="wrapper-main"` and `class="page-content"`.
 
+<!-- prettier-ignore -->
 ```html
 <div id="wrapper-main" class="wrapper-main">
   <div class="page-content">
@@ -67,13 +69,18 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
 ```html
 <!-- topbar -->
 <div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
-  <p class="m-0 font-weight-bold order-lg-2 mr-auto me-auto">
+  <p class="m-0 fw-bold order-lg-2 mr-auto me-auto">
     <a href="#" class="d-md-none text-white text-decoration-none" tabindex="2">
       <span class="d-md-none">Digital Product Name</span>
     </a>
     <span class="d-none d-md-inline">Current Page Title</span>
   </p>
-  <button id="sidebar-button" class="btn btn-sm btn-black sidebar-button" aria-haspop="true" aria-controls="sidebar" tabindex="3">
+  <button
+    id="sidebar-button"
+    class="btn btn-sm btn-black sidebar-button"
+    aria-haspop="true"
+    aria-controls="sidebar"
+    tabindex="3">
     <span class="fas fa-fw fa-bars" aria-hidden="true"></span>
     <span class="sr-only visually-hidden">Toggle side navigation</span>
   </button>
@@ -85,9 +92,10 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
 
 This `main` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
 
+<!-- prettier-ignore -->
 ```html
 <main id="main" class="main" role="main">
-  ... 
+  ...
 </main>
 ```
 

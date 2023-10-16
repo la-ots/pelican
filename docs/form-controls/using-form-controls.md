@@ -16,7 +16,7 @@ eleventyNavigation:
 Louisiana government agencies will get the best data possible from the user if the forms are planned from the user’s point of view. Users don’t know the legislative or administrative structure. Arrange the forms for their understanding.
 
 {% include 'form-guidelines.njk' %}
-    
+
 ## Theming
 
 Unlike other Design System elements, Pelican discourages agency theming of forms and their controls. If an agency does theme forms and controls, ensure maximum compliance with [Section 508](https://www.section508.gov/) and [WCAG guidelines](https://www.w3.org/TR/WCAG21/).

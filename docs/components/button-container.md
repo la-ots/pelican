@@ -10,6 +10,7 @@ eleventyNavigation:
   excerpt: The Button Container collects a series of related buttons at bottom of page.
   img: /img/illustrations/illus-button-container.svg
 ---
+
 ## Best Practices
 
 - Insert Button Container after the other content, but before any footers.
@@ -22,8 +23,10 @@ eleventyNavigation:
 
 {% include 'markup/button-container.njk' %}
 
-``` html
+```html
 {% include 'markup/button-container.njk' %}
 ```
+
 ## Resources
-* [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+
+- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)

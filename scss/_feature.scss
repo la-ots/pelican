@@ -29,7 +29,7 @@
     margin-right: 0;
     margin-bottom: 1rem;
     margin-left: 9.5rem;
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(md) {
       margin-top: 10rem;
       margin-bottom: 10rem;
     }
@@ -52,8 +52,8 @@
   .feature-big-text {
     @extend .h2;
     @extend .text-md-start;
-    color: var(--theme-feature-cta-single-header-color);
-    @include media-breakpoint-up(md){
+    color: var(--theme-feature-cta-single-text-color);
+    @include media-breakpoint-up(md) {
       margin-bottom: 0;
     }
   }
@@ -72,7 +72,7 @@
   .feature-big-text {
     @extend .h2;
     margin-bottom: 1rem;
-    color: var(--theme-feature-cta-double-header-color);
+    color: var(--theme-feature-cta-double-text-color);
   }
   .feature-small-text {
     color: var(--theme-feature-cta-double-text-color);
@@ -85,7 +85,7 @@
     display: block;
     margin-bottom: 1rem;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     .btn {
       display: inline;
       margin-bottom: 0;
@@ -101,7 +101,7 @@
     @extend .fw-bold;
     @extend .text-center;
     @extend .text-lg-start;
-    color: var(--theme-feature-icons-text-header-color);
+    color: var(--theme-feature-icons-text-text-color);
   }
   .feature-small-text {
     margin-bottom: 2rem;
@@ -124,7 +124,7 @@
     @extend .h2;
     //this is redundant from the h2 inheritance above
     @extend .fw-bold;
-    color: var(--theme-feature-languages-header-color);
+    color: var(--theme-feature-languages-text-color);
   }
   .feature-small-text {
     color: var(--theme-feature-languages-text-color);
@@ -152,7 +152,7 @@
   .feature-big-text {
     @extend .h2;
     margin-bottom: 2rem;
-    color: var(--theme-feature-many-icons-header-color);
+    color: var(--theme-feature-many-icons-text-color);
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
     }
@@ -165,25 +165,25 @@
 .feature-set {
   background-color: var(--theme-feature-set-bg-color);
   padding: 1.5rem;
-  hr.minor{
+  hr.minor {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .feature-big-text {
     @extend .h2;
-    color: var(--theme-feature-set-header-color);
+    color: var(--theme-feature-set-text-color);
   }
   .feature-lead-text {
     margin-bottom: 0;
-    color: var(--theme-feature-set-lead-text-color);
+    color: var(--theme-feature-set-text-color);
   }
   .feature-small-text {
-    margin-bottom: .5rem;
-    color: var(--theme-feature-set-small-text-color);
+    margin-bottom: 0.5rem;
+    color: var(--theme-feature-set-text-color);
   }
   .feature-lead-icon {
     @extend .h4;
-    margin-bottom: .5rem;
-    color: var(--theme-feature-set-icon-color)
+    margin-bottom: 0.5rem;
+    color: var(--theme-feature-set-icon-color);
   }
 }

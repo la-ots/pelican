@@ -11,7 +11,8 @@
 .btns-previous-next {
   margin-top: auto;
 }
-.content-area p:not(.lead), .content-area li,
+.content-area p:not(.lead),
+.content-area li,
 .content-area li:not(:list-group-item) {
   max-width: 80ch;
 }
@@ -20,7 +21,7 @@
 }
 .content-area li:not(:last-child),
 .content-area li:not(:list-group-item) {
-  margin-bottom: .3125rem;
+  margin-bottom: 0.3125rem;
 }
 .area-page-link {
   text-decoration: none;
@@ -32,9 +33,10 @@
 }
 .area-page-link .icon {
   position: absolute;
-  left: 0; top: .1875rem;
+  left: 0;
+  top: 0.1875rem;
   transition: opacity 100ms ease-out;
-  opacity: .5;
+  opacity: 0.5;
 }
 .area-page-link:hover {
   text-decoration: underline;
@@ -45,13 +47,13 @@
 
 /* adding padding-x at larger sizes */
 /* this applies only to this site */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
   .container-fluid {
     padding-right: 24px;
-    padding-left:  24px;
+    padding-left: 24px;
   }
   .wrapper-topbar {
-    padding-left:  14px;
+    padding-left: 14px;
     padding-right: 14px;
   }
 }

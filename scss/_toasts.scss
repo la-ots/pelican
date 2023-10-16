@@ -2,36 +2,36 @@
   .toast-body {
     background-color: transparent;
   }
-  &.toast-success { 
+  &.toast-success {
     background-color: var(--theme-toast-bg-success-color);
-    color           : var(--theme-toast-text-success-color);
+    color: var(--theme-toast-text-success-color);
     .toast-header {
       background-color: var(--theme-toast-header-success-bg-color);
-      color           : var(--theme-toast-header-success-text-color);
+      color: var(--theme-toast-header-success-text-color);
     }
   }
-  &.toast-danger  { 
+  &.toast-danger {
     background-color: var(--theme-toast-bg-danger-color);
-    color           : var(--theme-toast-text-danger-color);
+    color: var(--theme-toast-text-danger-color);
     .toast-header {
       background-color: var(--theme-toast-header-danger-bg-color);
-      color           : var(--theme-toast-header-danger-text-color);
+      color: var(--theme-toast-header-danger-text-color);
     }
   }
-  &.toast-info    { 
+  &.toast-info {
     background-color: var(--theme-toast-bg-info-color);
-    color           : var(--theme-toast-text-info-color);
+    color: var(--theme-toast-text-info-color);
     .toast-header {
       background-color: var(--theme-toast-header-info-bg-color);
-      color           : var(--theme-toast-header-info-text-color);
+      color: var(--theme-toast-header-info-text-color);
     }
   }
-  &.toast-warning { 
+  &.toast-warning {
     background-color: var(--theme-toast-bg-warning-color);
-    color           : var(--theme-toast-text-warning-color);
+    color: var(--theme-toast-text-warning-color);
     .toast-header {
       background-color: var(--theme-toast-header-warning-bg-color);
-      color           : var(--theme-toast-header-warning-text-color);
+      color: var(--theme-toast-header-warning-text-color);
     }
   }
 }
@@ -39,7 +39,7 @@
   position: relative;
   .btn-close {
     position: absolute;
-    top: .5rem;
+    top: 0.5rem;
     right: 1rem;
   }
 }

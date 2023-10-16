@@ -19,14 +19,14 @@ Pelican provides 9 Brand color variables you can change. These are listed in the
 
 To use your own agency colors:
 
- - Download the repo for Pelican.
- - Update the hex values in `_variables-agency.scss`. 
+- Download the repo for Pelican.
+- Update the hex values in `_variables-agency.scss`.
 
 Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
 
 ## Themeable Elements
 
-Pelican provides a way to change the following theme aspects when appropriate. These items can be identified within markup by the use of theme classes such as `btn-primary`, `bg-secondary`, or `text-accent`, for example, you can change: 
+Pelican provides a way to change the following theme aspects when appropriate. These items can be identified within markup by the use of theme classes such as `btn-primary`, `bg-secondary`, or `text-accent`, for example, you can change:
 
 - Background colors, using classes such as `bg-primary`, `bg-accent`, etc.
 - Text colors, using classes such as `text-accent`, `text-primary`, etc.

@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Badges are labels that inform users about some aspect of the data, such as the count of related items.
   img: /img/illustrations/illus-badges.svg
 ---
-  
+
 ## Best Practices
 
 - Badges take their size from the parent element.
@@ -24,9 +24,10 @@ eleventyNavigation:
 
 {% include 'markup/badges.njk' %}
 
-``` html
+```html
 {% include 'markup/badges.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.2/components/badge/)
+
+- [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.2/components/badge/)

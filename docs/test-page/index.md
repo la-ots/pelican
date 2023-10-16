@@ -5,6 +5,7 @@ tags: test-page
 layout: test-page
 index: true
 ---
+
 <div style="position: fixed; right: 10px; top: 20px; z-index: 3000; width: 300px;">
   {%- include 'markup/toast-info.njk'    -%}
   {%- include 'markup/toast-danger.njk'  -%}
@@ -12,32 +13,8 @@ index: true
 </div>
 
 <!-- page title -->
-<div class="page-title">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 d-lg-flex justify-content-lg-between align-items-center">
-        <div class="mb-2 mb-lg-0">
-          <h2 class="page-title-text">
-            <span class="icon fas fa-home" aria-hidden="true"></span>
-            Page Title
-            <span class="badge badge-ui">Badge</span>
-            <span class="badge badge-success">Badge</span>
-            <span class="badge badge-warning">Badge</span>
-            <span class="badge badge-danger">Badge</span>
-            <span class="badge badge-info">Badge</span>
-          </h2>	
-          <p class="mb-0">Use this sentence to briefly describe the purpose of the page.</p>
-        </div>
-        <div>
-          <a href="https://google.com" class="btn btn-primary btn-shadow">
-            <span class="fas fa-bolt" aria-hidden="true"></span>
-            Do This
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+{%- include 'markup/page-title.njk' -%}
 
 <!-- alerts -->
 <div class="container-fluid">
@@ -52,7 +29,9 @@ index: true
 </div>
 
 <!-- progress indicator large -->
+
 {%- include 'markup/progress-large.njk' -%}
+
 <div class="content-container">
   <div class="container-fluid" role="group" aria-labelledby="form-section-01-description">
     <div class="row">
@@ -368,15 +347,21 @@ index: true
 <hr class="major">
 
 <!-- tabbed content -->
+
 {%- include 'markup/tabbed-content-traditional.njk' -%}
 
 <!-- features -->
+
 {%- include 'markup/feature-cta-double.njk' -%}
 {%- include 'markup/feature-set.njk' -%}
+
 <!-- heroes -->
+
 {%- include 'markup/hero-dual-pane.njk' -%}
 {%- include 'markup/hero-textbox-over-photo.njk' -%}
 {%- include 'markup/hero-text-color-toned-photo.njk' -%}
 {%- include 'markup/hero-single-pane.njk' -%}
+
 <!-- button container -->
+
 {%- include 'markup/button-container.njk' -%}

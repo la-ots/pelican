@@ -1,13 +1,13 @@
 ﻿---
 title: Page Actions Button
-summary: Page Actions allow users perform various actions. 
+summary: Page Actions allow users perform various actions.
 tags: components, buttons
 layout: guide
 eleventyNavigation:
   key: Page Actions Button
   parent: Components
   order: 120
-  excerpt: Page Actions allow users perform various actions. 
+  excerpt: Page Actions allow users perform various actions.
   img: /img/illustrations/illus-button-page-actions.svg
 ---
 
@@ -18,10 +18,10 @@ eleventyNavigation:
 
 {% include 'markup/button-page-actions.njk' %}
 
-``` html
+```html
 {% include 'markup/button-page-actions.njk' %}
 ```
 
 ## Resources
 
-* [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)

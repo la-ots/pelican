@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Accessible, Equitable
 
-Consider accessible, equitable design in your work. Pelican is built to evolve as we learn more about our users’ needs. 
+Consider accessible, equitable design in your work. Pelican is built to evolve as we learn more about our users’ needs.
 
 ## Layout
 

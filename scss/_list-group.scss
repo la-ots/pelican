@@ -1,3 +1,6 @@
+.list-group {
+  border-color: var(--theme-list-group-border-color);
+}
 .list-group-item {
   @extend .d-flex;
   @extend .justify-content-between;
@@ -8,13 +11,12 @@
   color: var(--theme-link-color);
   &::after {
     @extend .d-inline-block;
-    content: '\f061';
+    content: "\f061";
     font-family: "Font Awesome 5 Free";
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 900;
     font-variant: normal;
     margin: 0 1px 0 5px;
   }
 }
-

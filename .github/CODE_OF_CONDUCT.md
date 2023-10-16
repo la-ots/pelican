@@ -65,7 +65,6 @@ The [DOA Personnel Policy on Discrimination and Harassment](https://www.doa.la.g
 
 Additionally, [DOA Personnel Policy Prohibiting Sexual Harassment](https://www.doa.la.gov/media/yi5nfeln/personnel-policy-no-106.pdf) includes additional information regarding prohibitions against sexually inappropriate behavior.
 
-
 ## Reporting Violations
 
 The process for reporting violations of [DOA&#39;s Policy Prohibiting Discrimination and Harassment](https://www.doa.la.gov/media/khffqty1/personnel-policy-no-107.pdf) can be found in section IX of the policy.

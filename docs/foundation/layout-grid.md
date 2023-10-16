@@ -32,9 +32,9 @@ These breakpoints allow for items to be predictably sized. Resize this window an
 
 {% include 'markup/layout-grid.njk' %}
 
-``` html
+```html
 {% include 'markup/layout-grid.njk' %}
-``` 
+```
 
 ## Guidance
 
@@ -52,7 +52,7 @@ To get the predictable resizing, follow this markup guide.
 </div>
 ```
 
-This forms the basis of your layout. 
+This forms the basis of your layout.
 
 Content which needs to resize would be placed directly in the `<div>` elements with the columns classes. Cards and Form Groups are easy examples.
 
@@ -66,9 +66,9 @@ Content which needs to resize would be placed directly in the `<div>` elements w
 
 Pelican uses `container-fluid` rather than `container` to better accomodate fluid sizing.
 
-* `.container-fluid` sets width at 100% on all breakpoints, which allows it to use to maximum screen width available to its parent element
-* `.container` sets a maximum width at preset breakpoints, which makes it less flexible as a child element
+- `.container-fluid` sets width at 100% on all breakpoints, which allows it to use to maximum screen width available to its parent element
+- `.container` sets a maximum width at preset breakpoints, which makes it less flexible as a child element
 
 ## Resources
 
-* [Bootstrap Documentation - Grid System](https://getbootstrap.com/docs/5.2/layout/grid/)
+- [Bootstrap Documentation - Grid System](https://getbootstrap.com/docs/5.2/layout/grid/)

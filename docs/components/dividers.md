@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Dividers separate content into clear, meaningful groups.
   img: /img/illustrations/illus-divider.svg
 ---
- 
+
 ## Best Practices
 
 - Use Dividers to separate content.
@@ -31,17 +31,18 @@ eleventyNavigation:
 
 <hr class="major">
 
-``` html
-<hr class="major">
+```html
+<hr class="major" />
 ```
 
 **Minor Divider**
 
 <hr class="minor">
 
-``` html
-<hr class="minor">
+```html
+<hr class="minor" />
 ```
 
 ## Resources
-* [Bootstrap Spacing Utilities](https://getbootstrap.com/docs/5.2/utilities/spacing/)
+
+- [Bootstrap Spacing Utilities](https://getbootstrap.com/docs/5.2/utilities/spacing/)

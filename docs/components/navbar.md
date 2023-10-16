@@ -22,12 +22,12 @@ eleventyNavigation:
 
 ### Brand Minimal Navigation
 
-- Directs users to a single action 
+- Directs users to a single action
 - This may be used on a landing page or a single-page website
 
 {% include 'markup/navbar-minimal.njk' %}
 
-``` html
+```html
 {% include 'markup/navbar-minimal.njk' %}
 ```
 
@@ -39,31 +39,23 @@ eleventyNavigation:
 
 {% include 'markup/navbar-basic.njk' %}
 
-``` html
+```html
 {% include 'markup/navbar-basic.njk' %}
-```
-
-### Navigation with Search
-
-- Displays an agency logo with a set of textual links underneath 
-- Features a search field positioned to the right of the bar
-
-{% include 'markup/navbar-search.njk' %}
-``` html
-{% include 'markup/navbar-search.njk' %}
 ```
 
 ### Iconic Links Navigation
 
-* Well-suited for pages behind a login of a web application
-* Displays an agency logo
-* Features a set of links composed of an Icon over text
+- Well-suited for pages behind a login of a web application
+- Displays an agency logo
+- Features a set of links composed of an Icon over text
 
 {% include 'markup/navbar-iconic.njk' %}
-``` html
+
+```html
 {% include 'markup/navbar-iconic.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Navbar](https://getbootstrap.com/docs/5.2/components/navbar/)
-* [Bootstrap Documentation - Navs](https://getbootstrap.com/docs/5.2/components/navs-tabs/)
+
+- [Bootstrap Documentation - Navbar](https://getbootstrap.com/docs/5.2/components/navbar/)
+- [Bootstrap Documentation - Navs](https://getbootstrap.com/docs/5.2/components/navs-tabs/)

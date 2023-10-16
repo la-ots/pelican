@@ -13,7 +13,7 @@ eleventyNavigation:
 
 Installation of Pelican requires [npm](https://www.npmjs.com/).
 
-Installation instructions for the latest version of the package can be found [on NPM](https://www.npmjs.com/package/@la-ots/pelican). 
+Installation instructions for the latest version of the package can be found [on NPM](https://www.npmjs.com/package/@la-ots/pelican).
 
 ## Builds
 

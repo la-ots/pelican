@@ -1,6 +1,7 @@
 .page-header {
-  background-color: var(--theme-page-header-bg-color);
-  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
+  background-color: var(--theme-page-title-bg-color);
+  border-bottom: $border-width $border-style
+    var(--theme-page-title-border-color);
   border-radius: 0;
 
   @include media-breakpoint-up(lg) {
@@ -16,39 +17,36 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-bottom: $border-width $border-style  var(--theme-page-title-border-color);
+  border-bottom: $border-width $border-style
+    var(--theme-page-title-border-color);
   // todo code page title, muted badges in CSS variables
   .badge-primary {
-    background-color: var(--theme-primary-100);
-    color           : var(--theme-primary-900);
+    background-color: var(--theme-badge-chip-primary-bg-dim-color);
+    color: var(--theme-badge-chip-primary-text-dim-color);
   }
   .badge-secondary {
-    background-color: var(--theme-secondary-100);
-    color           : var(--theme-secondary-900);
-  }
-  .badge-accent {
-    background-color: var(--theme-accent-100);
-    color           : var(--theme-accent-900);
+    background-color: var(--theme-badge-chip-secondary-bg-dim-color);
+    color: var(--theme-badge-chip-secondary-text-dim-color);
   }
   .badge-ui {
-    background-color: var(--theme-gray-100);
-    color           : var(--theme-gray-900);
+    background-color: var(--theme-badge-chip-ui-bg-dim-color);
+    color: var(--theme-badge-chip-ui-text-dim-color);
   }
   .badge-success {
-    background-color: var(--theme-success-100);
-    color           : var(--theme-success-900);
+    background-color: var(--theme-badge-chip-success-bg-dim-color);
+    color: var(--theme-badge-chip-success-text-dim-color);
   }
   .badge-info {
-    background-color: var(--theme-info-100);
-    color           : var(--theme-info-900);
+    background-color: var(--theme-badge-chip-info-bg-dim-color);
+    color: var(--theme-badge-chip-info-text-dim-color);
   }
 }
 .page-title-text {
   @extend .h2;
   margin-bottom: 0;
-  color:   var(--theme-page-title-text-color);
+  color: var(--theme-page-title-text-color);
   .icon {
-    color: var(--theme-page-title-icon-color );
+    color: var(--theme-page-title-icon-color);
   }
   p {
     margin-bottom: 0;

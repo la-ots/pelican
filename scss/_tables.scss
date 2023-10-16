@@ -6,13 +6,13 @@ caption {
   width: 100%;
   margin-bottom: 1rem;
   font-size: $font-size-base * 0.875;
-  color:            var(--theme-gray-700);
+  color: var(--theme-gray-700);
   background-color: var(--theme-gray-white);
   border-color: var(--theme-table-border-color);
   th,
   td {
-    padding         : var(--theme-table-cell-padding);
-    vertical-align  : top;
+    padding: var(--theme-table-cell-padding);
+    vertical-align: top;
     border-top-width: var(--theme-table-border-width);
     background-color: var(--theme-gray-white);
   }

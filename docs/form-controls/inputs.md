@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: The Input element specifies a field for the user to enter information on a page.
   img: /img/illustrations/illus-inputs.png
 ---
-    
+
 ## Best Practices
 
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
@@ -25,36 +25,37 @@ eleventyNavigation:
 We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/html_form_input_types.asp).
 
 ## Usage
+
 **Input Type: Text**
 
 - Accepts text, numbers, and other characters
 
 {% include 'markup/input-text.njk' %}
 
-``` html
+```html
 {% include 'markup/input-text.njk' %}
 ```
 
 **Input Type: Date Picker**
 
-- Accepts dates using the browser’s date picker. 
+- Accepts dates using the browser’s date picker.
 - Displays a User Interface (UI) optimized for the entry of dates.
 
 {% include 'markup/input-date-picker.njk' %}
 
-``` html
+```html
 {% include 'markup/input-date-picker.njk' %}
 ```
 
 **Input Type: Known Date Entry**
 
-- Accepts dates using three text inputs for Month, Day, Year. 
+- Accepts dates using three text inputs for Month, Day, Year.
 - Displays a User Interface (UI) optimized for the entry of dates.
 - Be sure to include labels, especially if the fields are rearranged.
 
 {% include 'markup/input-date-multiple-fields.njk' %}
 
-``` html
+```html
 {% include 'markup/input-date-multiple-fields.njk' %}
 ```
 
@@ -65,7 +66,7 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 
 {% include 'markup/input-tel.njk' %}
 
-``` html
+```html
 {% include 'markup/input-tel.njk' %}
 ```
 
@@ -76,7 +77,7 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 
 {% include 'markup/input-email.njk' %}
 
-``` html
+```html
 {% include 'markup/input-email.njk' %}
 ```
 
@@ -87,7 +88,7 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 
 {% include 'markup/input-search.njk' %}
 
-``` html
+```html
 {% include 'markup/input-search.njk' %}
 ```
 
@@ -98,7 +99,7 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 
 {% include 'markup/input-url.njk' %}
 
-``` html
+```html
 {% include 'markup/input-url.njk' %}
 ```
 
@@ -109,7 +110,7 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 
 {% include 'markup/input-number.njk' %}
 
-``` html
+```html
 {% include 'markup/input-number.njk' %}
 ```
 
@@ -120,7 +121,7 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 
 {% include 'markup/input-file.njk' %}
 
-``` html
+```html
 {% include 'markup/input-file.njk' %}
 ```
 
@@ -133,7 +134,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 
 {% include 'markup/input-text-readonly.njk' %}
 
-``` html
+```html
 {% include 'markup/input-text-readonly.njk' %}
 ```
 
@@ -144,7 +145,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 
 {% include 'markup/input-text-plain.njk' %}
 
-``` html
+```html
 {% include 'markup/input-text-plain.njk' %}
 ```
 
@@ -159,7 +160,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
   <p>Value</p>
 </div>
 
-``` html
+```html
 <div class="form-group">
   <p class="label form-label">Label</p>
   <p>Value</p>
@@ -168,7 +169,7 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 
 ## Resources
 
-* [W3Schools.com - 22 Types of Inputs](https://www.w3schools.com/html/html_form_input_types.asp)
-* [Section 508 Guidelines](https://www.section508.gov/)
-* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
-* [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/overview/)
+- [W3Schools.com - 22 Types of Inputs](https://www.w3schools.com/html/html_form_input_types.asp)
+- [Section 508 Guidelines](https://www.section508.gov/)
+- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/overview/)

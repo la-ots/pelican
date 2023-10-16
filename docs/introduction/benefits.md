@@ -9,7 +9,6 @@ eleventyNavigation:
   order: 1
   excerpt: Pelican will make our development efforts faster, more easily updated.
   img: /img/illustrations/illus-benefits.svg
-  
 ---
 
 ## Overview

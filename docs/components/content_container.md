@@ -10,7 +10,7 @@ eleventyNavigation:
   excerpt: Content Containers collect content into meaningful groups.
   img: /img/illustrations/illus-boxes.svg
 ---
-    
+
 ## Best Practice
 
 - Use Content Containers to group content together. They are the outermost container for content on the page or sections of a page
@@ -21,9 +21,10 @@ eleventyNavigation:
 
 {% include 'markup/content-container.njk' %}
 
-``` html
+```html
 {% include 'markup/content-container.njk' %}
 ```
 
 ## Resources
-* [Bootstrap Documentation - Containers](https://getbootstrap.com/docs/5.2/layout/containers/)
+
+- [Bootstrap Documentation - Containers](https://getbootstrap.com/docs/5.2/layout/containers/)

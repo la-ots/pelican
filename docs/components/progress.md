@@ -24,7 +24,7 @@ eleventyNavigation:
 
 {% include 'markup/progress-large.njk' %}
 
-``` html
+```html
 {% include 'markup/progress-large.njk' %}
 ```
 
@@ -32,6 +32,6 @@ eleventyNavigation:
 
 {% include 'markup/progress-small.njk' %}
 
-``` html
+```html
 {% include 'markup/progress-small.njk' %}
 ```

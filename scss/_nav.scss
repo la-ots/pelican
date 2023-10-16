@@ -19,7 +19,8 @@
   }
 }
 .nav-tabs {
-  border-bottom: var(--theme-border-width) var(--theme-border-style) var(--theme-border-color);
+  border-bottom: var(--theme-border-width) var(--theme-border-style)
+    var(--theme-border-color);
   .nav-item {
     margin-right: 0.5rem;
     margin-bottom: -$nav-tabs-border-width;
@@ -114,8 +115,9 @@
 }
 .navbar {
   background-color: var(--theme-navbar-bg-color);
-  color           : var(--theme-navbar-text-color);
-  &.navbar-minimal {}
+  color: var(--theme-navbar-text-color);
+  &.navbar-minimal {
+  }
   &.navbar-basic {
     @extend .navbar-expand-lg;
     .navbar-toggler {
@@ -129,26 +131,28 @@
       color: var(--theme-navbar-text-color);
     }
     .btn {
-      margin-top: .5rem;
-      @include media-breakpoint-up(lg){
+      margin-top: 0.5rem;
+      @include media-breakpoint-up(lg) {
         margin-top: 0;
-        margin-left: .5rem;
+        margin-left: 0.5rem;
       }
     }
   }
   &.navbar-search {
     @extend .d-block;
     @extend .navbar-expand-lg;
-    .container, .container-fluid {
-      padding-top: 0; padding-bottom: 0;
+    .container,
+    .container-fluid {
+      padding-top: 0;
+      padding-bottom: 0;
     }
     .navbar-toggler {
       color: var(--theme-navbar-text-color);
       margin-left: auto;
     }
     .navbar-collapse {
-      @include media-breakpoint-up(lg){
-        margin-left: -.5rem;
+      @include media-breakpoint-up(lg) {
+        margin-left: -0.5rem;
       }
     }
     .navbar-nav {
@@ -156,10 +160,10 @@
       @extend .w-100;
       @extend .mt-4;
       @extend .mt-lg-1;
-      padding-top: .5rem;
-      border-top-color : var(--theme-navbar-inner-border-color);
-      border-top-width : var(--theme-border-width);
-      border-top-style : solid;
+      padding-top: 0.5rem;
+      border-top-color: var(--theme-navbar-inner-border-color);
+      border-top-width: var(--theme-border-width);
+      border-top-style: solid;
     }
     .nav-link {
       color: var(--theme-navbar-text-color);
@@ -168,17 +172,17 @@
       @extend .mt-2;
       @extend .mt-lg-1;
       width: 100%;
-      @include media-breakpoint-up(lg){
+      @include media-breakpoint-up(lg) {
         width: unset;
       }
     }
     .form-control {
       @extend .shadow-none;
       background-color: transparent;
-      color       : var(--theme-navbar-form-control-text-color);
+      color: var(--theme-navbar-form-control-text-color);
       border-color: var(--theme-navbar-form-control-border-color);
-      border-top-left-radius:    $btn-border-radius!important;
-      border-bottom-left-radius: $btn-border-radius!important;
+      border-top-left-radius: $btn-border-radius !important;
+      border-bottom-left-radius: $btn-border-radius !important;
       &::-webkit-search-cancel-button {
         // todo find a way to style this
       }
@@ -189,7 +193,7 @@
       }
       @include media-breakpoint-up(lg) {
         margin-top: 0;
-        margin-left: .5rem;
+        margin-left: 0.5rem;
       }
     }
   }
@@ -204,19 +208,14 @@
     }
     .navbar-icon-links {
       .nav-item {
-        &:hover, &:active {
-          .nav-link {
-            background-color: rgba(var(--bs-white-rgb), .25);
-            .icon {
-            opacity: 1;
-            } 
-          }
+        &:hover,
+        &:active {
           .icon-link-border-bottom {
             background-color: var(--theme-navbar-inner-border-hover-color);
           }
         }
         @include media-breakpoint-up(lg) {
-          margin-left: .75rem;
+          margin-left: 0.75rem;
           text-align: center;
         }
       }
@@ -224,9 +223,9 @@
         background-color: rgba(var(--bs-white-rgb), 0);
         border-radius: 4px 4px 0 0;
         color: var(--theme-navbar-text-color);
-        opacity: .85;
+        opacity: 0.85;
         .icon {
-          opacity: .62;
+          opacity: 0.62;
           transition: $transition-base;
         }
         &.active {
@@ -241,8 +240,8 @@
         }
       }
       .icon-link-border-bottom {
-        background-color  : "";
-        height            : var(--theme-border-width);
+        background-color: "";
+        height: var(--theme-border-width);
       }
       @include media-breakpoint-up(lg) {
         margin-left: auto;
