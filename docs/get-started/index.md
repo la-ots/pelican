@@ -9,6 +9,10 @@ eleventyNavigation:
   excerpt: Get a quick start using Pelican.
 ---
 
+## Design
+
+Get the [Pelican 2 Design library](https://www.figma.com/community/file/1295790757134814477/pelican-2), available at Figma Community. Use that file to create mockups and designs which connect to the code at [Pelican Design System](https://pelican.ots.la.gov).
+
 ## Installation
 
 Installation of Pelican requires [npm](https://www.npmjs.com/).
