@@ -16,6 +16,11 @@
     @extend .shadow-none;
     @extend .text-white;
     @extend .fw-bold;
+    &[aria-expanded="true"]{
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
   }
   .expander {
     transform: translateY(-1px);

@@ -19,8 +19,7 @@
   }
 }
 .nav-tabs {
-  border-bottom: var(--theme-border-width) var(--theme-border-style)
-    var(--theme-border-color);
+  border-bottom: var(--theme-border-width) var(--theme-border-style) var(--theme-border-color);
   .nav-item {
     margin-right: 0.5rem;
     margin-bottom: -$nav-tabs-border-width;
@@ -210,6 +209,12 @@
       .nav-item {
         &:hover,
         &:active {
+          .nav-link {
+            background-color: rgba(var(--bs-white-rgb), 0.25);
+            .icon {
+              opacity: 1;
+            }
+          }
           .icon-link-border-bottom {
             background-color: var(--theme-navbar-inner-border-hover-color);
           }
