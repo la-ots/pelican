@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Accessibility
   order: 7
   excerpt: Form accessibility is an important part of Pelican.
-  img: /img/illustrations/illus-using-form-controls.svg
+  img: /img/illustrations/illus-using-form-controls.png
 ---
 
 ## Best Practices

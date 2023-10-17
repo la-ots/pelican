@@ -7,6 +7,7 @@
     @extend .shadow-none;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
+    color: var(--theme-progress-description-color);
     background-color: var(--theme-progress-bg-color);
     border-color: var(--theme-progress-step-bg-color);
   }
