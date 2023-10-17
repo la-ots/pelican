@@ -114,8 +114,11 @@ a.btn {
   }
 }
 .sidebar-button {
+  @extend .btn;
+  @extend .btn-sm;
   position: relative;
   margin-right: 0.25rem;
+  color: var(--theme-topbar-text-color);
   @media screen and (min-width: 992px) {
     order: 1;
   }

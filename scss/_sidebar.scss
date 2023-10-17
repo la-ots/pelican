@@ -211,6 +211,9 @@
 .sidebar-wrapper .sidebar-menu ul li a,
 .sidebar-footer > a {
   color: var(--theme-sidebar-link-color);
+  &:hover {
+    color: var(--theme-sidebar-link-hover-color);
+  }
 }
 .sidebar-wrapper .sidebar-brand > a:hover {
   background-color: transparent;
@@ -285,6 +288,7 @@
   &:hover,
   &:active {
     cursor: pointer;
+    color: var(--theme-sidebar-link-hover-color);
     background-color: var(--theme-sidebar-item-bg-color);
   }
   &:hover {
