@@ -427,7 +427,10 @@
   --theme-toc-link-hover-color: var(--theme-link-color);
 
   /* typography and related colors */
-
+  
+  /* you will need to provide a font reference if you override the default */
+  --theme-font-family: "Public Sans", "Public SansVariable", -apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-body-font-family: var(--theme-font-family);
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
