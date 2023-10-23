@@ -167,7 +167,7 @@
 
   --theme-alert-danger-text-color: var(--theme-danger-900);
   --theme-alert-danger-bg-color: var(--theme-danger-100);
-  --theme-alert-danger-border-top-color: var(--theme-danger-900);
+  --theme-alert-danger-border-color: var(--theme-danger-900);
 
   /* badges, chips */
 
@@ -346,7 +346,7 @@
   /* page header, title */
 
   --theme-page-title-bg-color: var(--theme-gray-white);
-  --theme-page-title-text-color: var(--theme-primary);
+  --theme-page-title-text-color: var(--theme-text-headings-color);
   --theme-page-title-icon-color: var(--theme-page-title-text-color);
   --theme-page-title-border-color: var(--theme-border-color-lighter);
 
@@ -364,11 +364,11 @@
 
   --theme-progress-border-color: var(--theme-border-color-lighter);
   --theme-progress-bg-color: var(--theme-gray-white);
-  --theme-progress-description-color: var(--theme-primary);
-  --theme-progress-description-counter-color: var(--theme-primary);
-  --theme-progress-description-text-color: var(--theme-primary);
-  --theme-progress-step-bg-color: var(--theme-primary);
-  --theme-progress-step-border-color: var(--theme-primary);
+  --theme-progress-description-color: var(--theme-text-headings-color);
+  --theme-progress-description-counter-color: var(--theme-text-headings-color);
+  --theme-progress-description-text-color: var(--theme-text-headings-color);
+  --theme-progress-step-bg-color: var(--theme-text-headings-color);
+  --theme-progress-step-border-color: var(--theme-text-headings-color);
   --theme-progress-step-digit-color: var(--theme-gray-white);
 
   /* sidebar & topbar */
@@ -379,6 +379,7 @@
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
   --theme-sidebar-link-color: var(--theme-gray-white);
+  --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
   --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
 
@@ -426,7 +427,10 @@
   --theme-toc-link-hover-color: var(--theme-link-color);
 
   /* typography and related colors */
-
+  
+  /* you will need to provide a font reference if you override the default */
+  --theme-font-family: "Public Sans", "Public SansVariable", -apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-body-font-family: var(--theme-font-family);
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
@@ -437,6 +441,8 @@
   --theme-text-decoration-style: dashed;
   --theme-text-decoration-color: var(--theme-info-500);
   --theme-text-decoration-thickness: var(--theme-border-width);
+  --theme-text-headings-color: var(--theme-primary);
+  --bs-heading-color: var(--theme-text-headings-color);
 }
 
 /* rules begin */
