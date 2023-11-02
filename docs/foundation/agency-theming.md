@@ -13,109 +13,29 @@ eleventyNavigation:
 
 ## Using Your Agency Colors
 
-Agencies can apply their own brand by changing the SCSS variables and recompiling the CSS. Pelican comes with default theme colors for brand, based upon Louisiana colors, to give you a starting point.
+Pelican 2 comes with the flexibility to apply themes. Themes could be based upon the agency’s brand standards or a subset of a brand for some specific need. To help create themes, Pelican 2 has a companion project, the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer) available for download at Github. Running that project and updating CSS variables will generate a CSS file to apply them theme you create.
 
-Pelican provides 9 Brand color variables you can change. These are listed in the file named `_variables-agency.scss` inside the `/_scss/` folder. Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
+1. Get the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer) repo
+1. Use NPM instructions in the README
+1. Use the resulting CSS file in your Pelican-based project
 
-To use your own agency colors:
+The [Pelican 2 Figma library file at Figma Community](https://www.figma.com/community/file/1295790757134814477/pelican-2) has corresponding theming flexibility. Instructions for it can be found in the Figma file.
 
-- Download the repo for Pelican.
-- Update the hex values in `_variables-agency.scss`.
+## Themeable Parts
 
-Bootstrap will generate all theme variations of components when the SCSS is recompiled to CSS.
+All of the components in Pelican 2 have themeable parts. Themeable parts include text color, background colors, button colors, and even the font. Here’s an example using the Alerts.
 
-## Themeable Elements
+- `--theme-alert-success-text-color: var(--theme-success-900);` controls the text color for the Success Alert
+- `--theme-alert-success-bg-color: var(--theme-success-100);` controls the background color
+- `--theme-alert-success-border-color: var(--theme-success-900);` controls the border color
 
-Pelican provides a way to change the following theme aspects when appropriate. These items can be identified within markup by the use of theme classes such as `btn-primary`, `bg-secondary`, or `text-accent`, for example, you can change:
-
-- Background colors, using classes such as `bg-primary`, `bg-accent`, etc.
-- Text colors, using classes such as `text-accent`, `text-primary`, etc.
-- Images and photographs
-- Icons and their colors, using classes such as `text-accent`, `text-danger`, etc.
-- Button colors, `btn-primary`, etc.
-
-## Changing Themeable Elements
-
-To change background or text color, change the class name representing the color you want to change. Consider [Color Contrast](/accessibility/color-contrast/) when you change these classes. For example, changing `bg-primary` to `bg-secondary` will change the background color from the primary to the secondary color. Changing `text-secondary` to `text-primary` will change the text color. Compare the cards below.
-
-<div class="row px-4 mb-6">
-  <div class="col-12 col-md-6">
-    <div class="card bg-primary text-primary-100">
-      <div class="card-body">
-        <p class="mb">Background color is <code class="text-primary-100">bg-primary</code>.</p>
-        <p class="mb-0">Text color is <code class="text-primary-100">text-primary-100</code>.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-6">
-    <div class="card bg-black text-warning">
-      <div class="card-body">
-        <p class="mb">Background color is <code class="text-warning">bg-black</code>.</p>
-        <p class="mb-0">Text color is <code class="text-warning">text-warning</code>.</p>
-      </div>
-    </div>            
-  </div>
-</div>
-
-## Brand Colors and Usability
-
-Brand first is not necessarily accessibility or usability first. Designing with a brand first approach could cause usability problems unless your brand has been designed with accessibility in mind.
-
-Let’s examine this concept with an imaginary color palette for a digital product. Suppose the primary brand color of this imaginary palette is green. The success status color is also a green. The problem is that these two greens look similar to each other. A user would not be able to distinguish between a success cue, such as a Success Toast, from a brand color. The meaning would be unclear.
-
-<div class="row mb-12">
-  <div class="col-md-6">
-    <div class="card border-0">
-      <div class="rounded-top pd-color-block" style="background-color: #198754;"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Example Brand</p>
-        <p class="mb-0">Your Hex Code: <code>#198754</code></p>
-        <p class="mb-0">Your Brand SCSS Var: <code>$primary</code></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="card border-0">
-      <div class="bg-success rounded-top pd-color-block"></div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold">Status Success</p>
-        <p class="mb-0">Pelican Success Hex Code: <code>#0d6211</code></p>
-        <p class="mb-0">Pelican Success SCSS Var: <code>$success</code></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-In the same way, using brand green-styled buttons as the go-to buttons will also confuse the user. The user will see the brand green buttons everywhere. But what happens when you need a success button? The meaning of the success button, to indicate something affirmative, would be lost.
-
-<div class="row px-4 mb-6">
-  <div class="col-12">
-    <button type="button" class="btn btn-secondary" style="background:#198754; border-color:#198754; color:white;">Brand Style Button</button>
-    <button type="button" class="btn btn-success">Good Action Button</button>
-  </div>
-</div>
-
-User confusion is likely, and could lead them to ask:
-
-- Is this a different green color? What does it mean?
-- Did someone make a mistake?
-- Were those other buttons I pressed good buttons?
-
-Some strategies to counter this could include:
-
-- Adjust Status Colors to be distinct
-- Create and use supporting brand colors for important user interface elements.
-- Only use brand-colored buttons in specific, controlled regions, like the top or bottom of a page.
-
-To prevent ambiguity in this situation, you could try one of a few strategies:
-
-- Design [Status Colors](/foundation/status-colors/) should be adjusted to be visually distinct from Brand Colors.
-- Avoid using Brand Colors in meaningful places in the user interface
-- Design a supporting brand palette for Status colors
+You’ll find the full list of themeable parts for Pelican 2 in the Pelican 2 Themer.
 
 {% include 'color-warning.njk' %}
 
 ## Resources
 
+- [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer)
+- [Pelican 2 Figma library](https://www.figma.com/community/file/1295790757134814477/pelican-2)
 - [Section 508](https://www.section508.gov/)
-- [WCAG Standards](https://www.w3.org/TR/WCAG21/)
+- [WCAG Standards](https://www.w3.org/TR/WCAG22/)
