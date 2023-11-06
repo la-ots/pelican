@@ -1,10 +1,10 @@
 ﻿---
-title: Agency Themes
+title: Agency Theming
 summary: Agencies have opportunity to reflect their own brand using Pelican.
 tags: color, agency, brand
 layout: guide
 eleventyNavigation:
-  key: Agency Themes
+  key: Agency Theming
   parent: Foundation
   order: 4
   excerpt: Agencies have opportunity to reflect their own brand using Pelican.
@@ -17,6 +17,7 @@ Pelican 2 comes with the flexibility to apply themes. Themes could be based upon
 
 1. Get the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer) repo
 1. Use NPM instructions in the README
+1. Follow the instructions for assigning colors
 1. Use the resulting CSS file in your Pelican-based project
 
 The [Pelican 2 Figma library file at Figma Community](https://www.figma.com/community/file/1295790757134814477/pelican-2) has corresponding theming flexibility. Instructions for it can be found in the Figma file.
