@@ -57,5 +57,5 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Navbar](https://getbootstrap.com/docs/5.2/components/navbar/)
-- [Bootstrap Documentation - Navs](https://getbootstrap.com/docs/5.2/components/navs-tabs/)
+- [Bootstrap Documentation - Navbar](https://getbootstrap.com/docs/5.3/components/navbar/)
+- [Bootstrap Documentation - Navs](https://getbootstrap.com/docs/5.3/components/navs-tabs/)

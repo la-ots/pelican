@@ -90,4 +90,4 @@ Span tags `<span>` allow local text changes without affecting semantics. We can 
 
 ## Resources
 
-- [Bootstrap Documentation - Typography](https://getbootstrap.com/docs/5.2/content/typography/)
+- [Bootstrap Documentation - Typography](https://getbootstrap.com/docs/5.3/content/typography/)
