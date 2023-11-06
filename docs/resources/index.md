@@ -15,7 +15,7 @@ eleventyNavigation:
 - [Accessibility for Teams](https://accessibility.digital.gov/)
 - [ADA-recommended Practices](http://www.ada.gov/pcatoolkit/chap5chklist.htm)
 - [Section508.gov](https://www.section508.gov/)
-- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/components/)
 - [Usability.gov](https://www.usability.gov/)
 - [18F Accessibility Guide](https://accessibility.18f.gov/)
@@ -29,7 +29,7 @@ eleventyNavigation:
 ## Color Contrast
 
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Dyslexia Friendly Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
 
 ## Design Resources

@@ -33,5 +33,5 @@ eleventyNavigation:
 
 - [Design.gov - Radio Buttons (Best Practices)](https://designsystem.digital.gov/components/form-controls/#radio-buttons)
 - [Section 508 Guidelines](https://www.section508.gov/)
-- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/checks-radios/)
