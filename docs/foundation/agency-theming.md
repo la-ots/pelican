@@ -22,6 +22,8 @@ Pelican 2 comes with the flexibility to apply themes. Themes could be based upon
 
 The [Pelican 2 Figma library file at Figma Community](https://www.figma.com/community/file/1295790757134814477/pelican-2) has corresponding theming flexibility. Instructions for it can be found in the Figma file.
 
+Be sure to consider the guidance in [Color Contrast](/accessibility/color-contrast).
+
 ## Themeable Parts
 
 All of the components in Pelican 2 have themeable parts. Themeable parts include text color, background colors, button colors, and even the font. Here’s an example using the Alerts.

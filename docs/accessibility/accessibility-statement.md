@@ -21,7 +21,7 @@ Accessibility isn’t a line-item that is tacked on at the end of a digital prod
 
 ## Ongoing Committment
 
-Pelican endeavours to conform to level AA of the World Wide Web Consortium (W3C) [Web Content Accessibility Guidelines 2](http://www.w3.org/TR/WCAG20/).[1](https://www.w3.org/TR/WCAG21/). These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
+Pelican endeavours to conform to level AA of the World Wide Web Consortium (W3C) [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/). These guidelines explain how to make web content more accessible for people with disabilities. Conformance with these guidelines will help make the web more user friendly for all people.
 
 This site has been built using code compliant with W3C standards for HTML and CSS. The site displays correctly in current browsers and using standards compliant HTML/CSS code means any future browsers will also display it correctly.
 
@@ -31,5 +31,6 @@ Our ongoing accessibility efforts work toward making Pelican as accessible as po
 
 ## Resources
 
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Census.gov 2012](https://www.census.gov/newsroom/releases/archives/miscellaneous/cb12-134.html)
 - [CDC Report on Louisianians with Disabilities](https://www.cdc.gov/ncbddd/disabilityandhealth/impacts/louisiana.html)

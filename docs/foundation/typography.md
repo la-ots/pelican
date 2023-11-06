@@ -79,7 +79,7 @@ Use **Unordered** lists when the order of items does not matter.
 {% include 'markup/list-unordered.njk' %}
 ```
 
-**Use Span for Inline Style**
+## Use Span for Inline Style
 
 Span tags `<span>` allow local text changes without affecting semantics. We can style <span class="text-danger">words in this sentence to be red</span> without affecting the semantics. This text can be <span class="fw-bold">bolder</span> without affecting the semantics. This text can be <span class="fst-italic">italicized</span> without affecting the semantics.
 
