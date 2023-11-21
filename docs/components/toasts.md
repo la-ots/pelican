@@ -64,4 +64,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Toasts](https://getbootstrap.com/docs/5.2/components/toasts/)
+- [Bootstrap Documentation - Toasts](https://getbootstrap.com/docs/5.3/components/toasts/)

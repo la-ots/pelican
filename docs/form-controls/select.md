@@ -1,4 +1,4 @@
-﻿---
+---
 title: Select
 summary: Select allows the user to select an option from a group of similar options.
 tags: forms
@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-- The Select element creates a floating menu of options. It’s often called a “dropdown” but we should avoid this term as it may be confused with a [Bootstrap Dropdown](https://getbootstrap.com/docs/5.2/components/dropdowns/). Use this as the last resort ui element.
+- The Select element creates a floating menu of options. It’s often called a “dropdown” but we should avoid this term as it may be confused with a [Bootstrap Dropdown](https://getbootstrap.com/docs/5.3/components/dropdowns/). Use this as the last resort ui element.
 - Please read [Label Guidance](/form-controls/labels-guidance) first.
 - Forms work best when users can see all of their choices. When possible, try to refrain from using Selects.
 - If space is not limited, use [Radios](/form-controls/radios) or [Toggle Tokens](/form-controls/toggle-tokens) instead.
@@ -36,4 +36,4 @@ eleventyNavigation:
 - [Digital.gov - Form Controls: Selects (Best Practices)](https://designsystem.digital.gov/components/form-controls/#dropdown)
 - [Section 508 Guidelines](https://www.section508.gov/)
 - [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
-- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/select/)
+- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.3/forms/select/)

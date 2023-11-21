@@ -28,4 +28,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Pagination](https://getbootstrap.com/docs/5.2/components/pagination/)
+- [Bootstrap Pagination](https://getbootstrap.com/docs/5.3/components/pagination/)

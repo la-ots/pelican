@@ -1,4 +1,4 @@
-﻿---
+---
 title: Radios
 summary: Radios allow users to select exactly one option from multiple options.
 tags: forms
@@ -34,4 +34,4 @@ eleventyNavigation:
 - [Design.gov - Radio Buttons (Best Practices)](https://designsystem.digital.gov/components/form-controls/#radio-buttons)
 - [Section 508 Guidelines](https://www.section508.gov/)
 - [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
-- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.2/forms/checks-radios/)
+- [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.3/forms/checks-radios/)

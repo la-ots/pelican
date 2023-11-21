@@ -27,4 +27,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Containers](https://getbootstrap.com/docs/5.2/layout/containers/)
+- [Bootstrap Documentation - Containers](https://getbootstrap.com/docs/5.3/layout/containers/)

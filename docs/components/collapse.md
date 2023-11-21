@@ -27,5 +27,5 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Collapse](https://getbootstrap.com/docs/5.2/components/collapse/)
+- [Bootstrap Documentation - Collapse](https://getbootstrap.com/docs/5.3/components/collapse/)
 - [Details disclosure Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)

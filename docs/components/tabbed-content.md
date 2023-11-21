@@ -39,5 +39,5 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Pill Nav](https://getbootstrap.com/docs/5.2/components/navs-tabs/#pills)
-- [Bootstrap Documentation - Tab Nav](https://getbootstrap.com/docs/5.2/components/navs-tabs/#tabs)
+- [Bootstrap Documentation - Pill Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/#pills)
+- [Bootstrap Documentation - Tab Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/#tabs)

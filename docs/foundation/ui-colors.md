@@ -105,4 +105,4 @@ The UI Colors are implemented as background colors and as text colors. The class
 
 ## Resources
 
-- [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/utilities/colors/)
+- [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.3/utilities/colors/)

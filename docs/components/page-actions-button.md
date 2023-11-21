@@ -24,4 +24,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.2/components/buttons/)
+- [Bootstrap Documentation - Buttons](https://getbootstrap.com/docs/5.3/components/buttons/)

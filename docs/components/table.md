@@ -29,5 +29,5 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Tables](https://getbootstrap.com/docs/5.2/content/tables/)
+- [Bootstrap Documentation - Tables](https://getbootstrap.com/docs/5.3/content/tables/)
 - [Mozilla Developer Network - HTML Table Advanced Features and Accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)
