@@ -45,4 +45,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Spacing Utilities](https://getbootstrap.com/docs/5.2/utilities/spacing/)
+- [Bootstrap Spacing Utilities](https://getbootstrap.com/docs/5.3/utilities/spacing/)

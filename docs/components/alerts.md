@@ -62,4 +62,4 @@ _Note: A successful action can include the successful deletion of an item or fil
 
 ## Resources
 
-- [Bootstrap Documentation - Alerts](https://getbootstrap.com/docs/5.2/components/alerts/)
+- [Bootstrap Documentation - Alerts](https://getbootstrap.com/docs/5.3/components/alerts/)

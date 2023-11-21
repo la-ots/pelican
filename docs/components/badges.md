@@ -31,4 +31,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.2/components/badge/)
+- [Bootstrap Documentation - Badges](https://getbootstrap.com/docs/5.3/components/badge/)

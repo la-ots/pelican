@@ -68,4 +68,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Cards](https://getbootstrap.com/docs/5.2/components/card/)
+- [Bootstrap Documentation - Cards](https://getbootstrap.com/docs/5.3/components/card/)

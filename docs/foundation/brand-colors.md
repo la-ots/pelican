@@ -302,4 +302,4 @@ You’ll change background and text colors by using the following classes. Consu
 
 ## Resources
 
-- [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.2/customize/color/)
+- [Bootstrap Documentation - Color](https://getbootstrap.com/docs/5.3/customize/color/)

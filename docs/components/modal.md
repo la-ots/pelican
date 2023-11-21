@@ -34,4 +34,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [Bootstrap Documentation - Modal](https://getbootstrap.com/docs/5.2/components/modal/)
+- [Bootstrap Documentation - Modal](https://getbootstrap.com/docs/5.3/components/modal/)
