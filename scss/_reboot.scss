@@ -74,8 +74,7 @@ hr,
 }
 
 // Added for links, but not button style, in paragraph text or list items
-p,
-li {
+p, li, table {
   a {
     //text-decoration-line      : var(--theme-text-decoration-line);
     //text-decoration-style     : var(--theme-text-decoration-style);
@@ -85,10 +84,9 @@ li {
       text-decoration-style: double;
     }
     &.btn {
-      text-decoration: none;
       &:hover,
       &:active {
-        text-decoration: none;
+        text-decoration: double;
       }
     }
   }
