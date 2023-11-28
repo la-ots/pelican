@@ -16,10 +16,15 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.1 – 27 November 2023
+## 2.0.2 – 28 November 2023
 
 - Links in tables get underlines, and double underlines on hover, by default for accessibility.
 - Sidebar button gets a hover state border change
+- Removes text selection styles and variables
+
+## 2.0.1 - 23 October 2023
+
+- Added additional theming variables
 
 ## 2.0.0 – 16 October 2023
 
