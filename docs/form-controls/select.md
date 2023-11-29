@@ -1,4 +1,4 @@
-﻿---
+---
 title: Select
 summary: Select allows the user to select an option from a group of similar options.
 tags: forms
@@ -35,5 +35,5 @@ eleventyNavigation:
 
 - [Digital.gov - Form Controls: Selects (Best Practices)](https://designsystem.digital.gov/components/form-controls/#dropdown)
 - [Section 508 Guidelines](https://www.section508.gov/)
-- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.3/forms/select/)

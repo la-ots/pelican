@@ -15,9 +15,7 @@ eleventyNavigation:
 
 Status colors indicate various system statuses, such as error messages or informational dialogs.
 
-Status colors should not be the sole way statuses are communicated to users. However, the selected colors are common colors when communicating system conditions.
-
-Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Content must clearly relate to the chosen Status color.
+Status colors should not be the sole way statuses are communicated to users. However, the selected colors are common colors when communicating system conditions. Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Write your content to clearly communicate along with the chosen Status color.
 
 <div class="row mb-12">
     <div class="col-md-6 col-xl-3">
@@ -66,7 +64,7 @@ Status colors only add visual meaning. This is not communicated to users with as
 
 The guidelines below may not cover all situations and use cases in your digital product. Use them as guides for deciding which color is semantically appropriate. Be careful not to use Status Colors as brand colors or influence colors as this will dilute their meaning.
 
-**Success**
+### Success
 
 The Success color indicates an action is successful or an event is beneficial.
 
@@ -76,7 +74,7 @@ The Success color indicates an action is successful or an event is beneficial.
 
 _Note: A successful action can include the successful deletion of an item or file._
 
-**Warning**
+### Warning
 
 The Warning color indicates unintended, but not dangerous, effects of actions.
 
@@ -86,7 +84,7 @@ The Warning color indicates unintended, but not dangerous, effects of actions.
 - Should be used to inform the user of system-wide errors preventing some, if not all, features.
 - Lighter and darker variations used for background and text colors in [Warning Alerts](/components/alerts/).
 
-**Danger**
+### Danger
 
 The Danger colors indicates that an action will cause critical effects such as loss of data, errors, or other hard-to-reverse effects.
 
@@ -95,7 +93,7 @@ The Danger colors indicates that an action will cause critical effects such as l
 - Should be used to inform the user of system-wide errors which totally prevent system use
 - Lighter and darker variations used for background and text colors in [Danger Alerts](/components/alerts/) and [Danger Toasts](/components/toasts/)
 
-**Info**
+### Info
 
 The Info color indicates informative or helpful information.
 

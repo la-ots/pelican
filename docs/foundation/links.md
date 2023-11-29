@@ -38,7 +38,8 @@ eleventyNavigation:
 ## Links with Button Appreance
 
 - Links may take the appearance of Buttons. [Read about Buttons](/components/buttons) to learn about them.
+- Use more than just a color change to indicate a button’s hover.
 
 ## Opening Links in a New Window
 
-Avoid avoid opening links in a new window. It’s best to allow the user to make that decision. Forcing links to open in a new window can also disorient people who use screen readers.
+Avoid avoid opening links in a new window. It’s best to allow the user to make that decision. Forcing links to open in a new window can also disorient people who use screen readers. If you must force the user to open links in a new window, tell them ahead of time.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inputs
 summary: The Input element specifies a field for the user to enter information on a page.
 tags: forms
@@ -171,5 +171,5 @@ Note: This is not the same as a disabled field. A disabled field prevents _user 
 
 - [W3Schools.com - 22 Types of Inputs](https://www.w3schools.com/html/html_form_input_types.asp)
 - [Section 508 Guidelines](https://www.section508.gov/)
-- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.3/forms/overview/)

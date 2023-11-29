@@ -17,9 +17,9 @@ eleventyNavigation:
 - Choose the most obvious icon for what’s being communicated.
 - Be consistent when using icons within projects.
 - Do not use the same icon for two different functions.
-- As much as possible, stick to common meanings when choosing icons.
+- As much as possible, use common meanings when choosing icons.
 - Font Awesome icons take their size from their containing element.
-- By default, Pelican wraps icons `<span>` tags as these tags are inline to the text.
+- By default, Pelican wraps icons in `<span>` tags as these tags are inline with text.
 - Change the color of an icon by changing the theme class. The [Color Theme Lists](/foundation/agency-theming/) have the text color classes you need to change icon colors.
 - Copy markup from FontAwesome, but change the `<i>` to a `<span>`.
 - Be sure to add `aria-hidden="true"` to the `<span>`. This hides the icon from assistive technologies.
