@@ -30,13 +30,6 @@ iframe {
   margin: 1rem 0 2rem;
 }
 
-::selection,
-::-moz-selection {
-  color: var(--theme-text-selection-text-color);
-  background-color: var(--theme-text-selection-bg-color);
-  border-radius: 16px;
-}
-
 label,
 .label {
   display: block;
