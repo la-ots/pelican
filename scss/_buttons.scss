@@ -119,6 +119,9 @@ a.btn {
   position: relative;
   margin-right: 0.25rem;
   color: var(--theme-topbar-text-color);
+  &:hover {
+    border-color: var(--theme-topbar-text-color);
+  }
   @media screen and (min-width: 992px) {
     order: 1;
   }
