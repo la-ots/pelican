@@ -44,7 +44,7 @@ eleventyNavigation:
 <div class="list-group" role="list-group">
   <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A thirditem</a>
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">A third item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">A fourth item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
 </div>
@@ -54,7 +54,7 @@ eleventyNavigation:
 <div class="list-group" role="list-group">
   <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A thirditem</a>
+  <a role="list-item" href="#" class="list-group-item list-group-item-action">A third item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">A fourth item</a>
   <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
 </div>
