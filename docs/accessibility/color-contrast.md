@@ -14,10 +14,10 @@ eleventyNavigation:
 ## Best Practices
 
 - Use the recommended color contrast ratios.
-- Normal-sized text is 16 pixels and requires a minimum Contrast Ratio of 4.5:1.
+- Normal-sized text is based on browser defaults of 16 pixels and requires a minimum Contrast Ratio of 4.5:1.
 - Large text requires a minimum Contrast Ratio of 3:1. (Large-sized text is either: 24 pixels or larger, or 19 pixels and bold.)
 - User interface items such as [Form Controls](/form-controls/) require a minimum Contrast Ratio of 3:1. This includes the outlines of Form Controls and the outer edges of Buttons, but is not limited to them.
-- When in doubt use [WebAIM’s Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- When in doubt use [WebAIM’s Contrast Checker](https://webaim.org/resources/contrastchecker/) or [TPGi’s Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)
 
 **Text Contrast**
 
@@ -129,6 +129,6 @@ eleventyNavigation:
 
 ## Resources
 
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-- [WCAG - Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
 - [TPGi Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)

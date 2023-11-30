@@ -19,6 +19,6 @@ Louisiana government agencies will get the best data possible from the user if t
 
 ## Theming
 
-Unlike other Design System elements, Pelican discourages agency theming of forms and their controls. If an agency does theme forms and controls, ensure maximum compliance with [Section 508](https://www.section508.gov/) and [WCAG guidelines](https://www.w3.org/TR/WCAG21/).
+Unlike other Design System elements, Pelican discourages agency theming of forms and their controls. If an agency does theme forms and controls, ensure maximum compliance with [Section 508](https://www.section508.gov/) and [WCAG 2.2](https://www.w3.org/TR/WCAG22/).
 
 Please [read about Status colors](/foundation/status-colors/), [UI colors](/foundation/ui-colors/), and [Agency Theming](/foundation/agency-theming/) for more information.

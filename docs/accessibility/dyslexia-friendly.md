@@ -21,3 +21,4 @@ eleventyNavigation:
 ## Resources
 
 - [Dyslexia Friendly Style Guide](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
+- [Dos and Don’t of Designing for Accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)

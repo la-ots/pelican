@@ -13,17 +13,18 @@ eleventyNavigation:
 
 ## Best Practices
 
-The following checklists for are based on the WCAG 2.0 Level A and AA standards. The checklists are organized as sections for Perceiveable, Operable, Understandable, and Robust, or P.O.U.R. They will be updated as new information is available. It’s meant to assist product teams, including designers, developers, content creators, and purchasing agents, in creating and procuring accessible IT.
+The following checklists for are based on the [WCAG 2.2](https://www.w3.org/TR/WCAG22/) Level A and AA standards. The checklists are organized as sections for Perceiveable, Operable, Understandable, and Robust, or P.O.U.R. They will be updated as new information is available. It’s meant to assist product teams, including designers, developers, content creators, and purchasing agents, in creating and procuring accessible IT.
 
 ### Perceivable
 
 - Do images have [Alt text](/foundation/images/)?
-- Does video have captions and does audio have transcripts?
+- Does video have captions, transcripts, and audio description tracks?
+- Does audio have transcripts?
 - Does the page include proper headings, lists, ARIA landmarks, and other semantic HTML elements to communicate document structure?
 - Are the [tab and read orders](/accessibility/keyboard/) logical and intuitive?
 - Do form fields within pages have [appropriately coded and connected labels](/form-controls/inputs/)?
 - Have you avoided using visual tactics to communicate information (e.g., “click the button on the right” or “required fields are in red”)?
-- Does the interface have [sufficient contrast](/accessibility/color-contrast/) between text color and background color?
+- Does the interface have [WCAG-compliant contrast](/accessibility/color-contrast/) between text color and background color?
 - Does the content scale well when text is enlarged up to 200 percent?
 
 ### Operable
@@ -60,6 +61,7 @@ The following checklists for are based on the WCAG 2.0 Level A and AA standards.
 
 This checklist is heavily inspired by University of Washington’s Accessibility Checklist.
 
+- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Digital.gov’s Accessibility for Teams](https://accessibility.digital.gov/)
 - [University of Washington’s Accessibility Checklist](https://www.washington.edu/accessibility/checklist/)
 - [Visual Design Guidance by Digital.gov](https://accessibility.digital.gov/visual-design/getting-started/)

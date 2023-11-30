@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Overview
 
-Headings semantically express the content structure of a document. For assistive technology such as screen readers, Heading elements create a navigable outline of the page’s information.
+Headings semantically express the content structure of a document. For assistive technology such as screen readers, Heading elements create a navigable outline of the page’s information. People who use screen readers often prefer using headings to get an overview of a page’s content.
 
 ## Best Practices
 
@@ -52,4 +52,7 @@ Pelican uses Headings for
 
 ## Resources
 
+- [Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey7/#finding)
+- [A11y Project](https://www.a11yproject.com/posts/how-to-accessible-heading-structure/)
+- [Headings](https://www.med.unc.edu/webguide/accessibility/headings/)
 - [Heading Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)

@@ -52,7 +52,7 @@ Like [Brand Colors](/foundation/status-colors) and [Status colors](/foundation/s
 
 ## Using UI Colors
 
-**UI**
+### UI
 
 The UI color is often used as:
 
@@ -60,14 +60,15 @@ The UI color is often used as:
 - Auxiliary choice buttons among several buttons in a row when Brand or Status themed buttons must also appear
 - The smaller buttons immediately adjacent to user interface elements
 
-**UI Light**
+### UI Light
 
 The UI Light color is often used as:
 
 - The disabled color for [Form Controls](/form-controls/)
 - The background color to UI color uses
+- Some items’ border colors
 
-**UI Priority**
+### UI Priority
 
 The UI Priority color is taken from calls to action and link colors around the web. It’s often used as:
 
