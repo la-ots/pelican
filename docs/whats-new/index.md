@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.0.3 – November 2023
+
+- Icons in List Group links are vertically centered
+
 ## 2.0.2 – 28 November 2023
 
 - Links in tables get underlines, and double underlines on hover, by default for accessibility.
