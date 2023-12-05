@@ -16,17 +16,14 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.4 December 2023
+## 2.0.3 December 2023
 
 - Add an omitted CSS variable for Pagination
 - Add an omitted CSS variable for Languages Feature Block
 - Add an omitted CSS variable for Checkbox and Radios active color
 - Fix bug of incorrect CSS variable used in disabled Toggle Tokens
 - Fix bug of links in Tables not inheriting color
-
-## 2.0.3 – November 2023
-
-- Icons in List Group links are vertically centered
+- Fix bug of icons in List Group links not being vertically centered
 
 ## 2.0.2 – 28 November 2023
 
