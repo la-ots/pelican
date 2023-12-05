@@ -72,10 +72,7 @@
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {
   border-color: var(--theme-danger);
 }
-.was-validated
-  .toggle-token
-  .form-check-input:checked:valid
-  ~ .form-check-label {
+.was-validated .toggle-token .form-check-input:checked:valid ~ .form-check-label {
   color: $white;
   background-color: var(--theme-success);
   border-color: var(--theme-success);
