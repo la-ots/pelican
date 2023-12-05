@@ -66,7 +66,7 @@
   }
   .form-check-input:checked[disabled] ~ .form-check-label {
     border-color: transparent !important;
-    background-color: var(--theme-ui-priority) !important;
+    background-color: var(--theme-ui-priority);
   }
 }
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {

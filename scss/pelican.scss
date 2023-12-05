@@ -70,6 +70,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "feature";
 @import "footer";
 @import "forms";
+@import "form-check";
 @import "custom-forms";
 @import "hero";
 @import "images";
