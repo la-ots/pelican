@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.3 December 2023
+## 2.0.3 - 05 December 2023
 
 - Add an omitted CSS variable for Pagination
 - Add an omitted CSS variable for Languages Feature Block
