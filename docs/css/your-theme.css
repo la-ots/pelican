@@ -237,9 +237,6 @@
 
   --theme-focus-color: #2491ff;
 
-  /* form validation */
-  --theme-form-validation-error-muted-color: var(--theme-danger-200);
-
   /* feature blocks */
   /* you may need still need to change the classes on buttons */
 
@@ -272,6 +269,11 @@
   --theme-form-input-shadow-color: var(--theme-ui-light);
   --theme-input-btn-focus-color: var(--theme-focus-color);
   --theme-form-active-color: var(--theme-ui-priority);
+  --theme-form-check-input-checked-bg-color: var(--theme-ui-priority);
+  --theme-form-check-input-checked-border-color: var(--theme-ui-priority);
+
+  /* form validation */
+    --theme-form-validation-error-muted-color: var(--theme-danger-200);
 
   /* footers */
   /* you may need still need to change the classes on buttons */
