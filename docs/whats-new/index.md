@@ -16,26 +16,31 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.3 - 05 December 2023
+## 2.0.4: December 05 2023
 
-- Add an omitted CSS variable for Pagination
-- Add an omitted CSS variable for Languages Feature Block
-- Add an omitted CSS variable for Checkbox and Radios active color
+- Add omitted CSS variables for Checkbox and Radios active color
+- Add omitted CSS variables for Languages Feature Block
+- Add omitted CSS variables for Pagination
+- Add omitted CSS variables for TOC
 - Fix bug of incorrect CSS variable used in disabled Toggle Tokens
 - Fix bug of links in Tables not inheriting color
-- Fix bug of icons in List Group links not being vertically centered
+- Reformatted dates and headers in What’s New to be easier to scan
 
-## 2.0.2 – 28 November 2023
+## 2.0.3: November 30 2023
+
+- Icons in List Group links are vertically centered
+
+## 2.0.2: November 28 2023
 
 - Links in tables get underlines, and double underlines on hover, by default for accessibility.
 - Sidebar button gets a hover state border change
 - Removes text selection styles and variables
 
-## 2.0.1 - 23 October 2023
+## 2.0.1: October 23 2023
 
 - Added additional theming variables
 
-## 2.0.0 – 16 October 2023
+## 2.0.0: October 16 2023
 
 - **Bootstrap 5.** Bootstrap updated from version 4 to version 5. Pelican 2 is based upon Bootstrap 5.2 but Pelican 1 is based upon Bootstrap 4.6. This major change in Bootstrap version required some things to be refactored in the code to accommodate this. See the [Migration Guide](/migration-guide/) for details about how this affects projects built upon Pelican 1 (Bootstrap 4.6).
 - **CSS Variables.** Easier code theming for dependent projects. Bootstrap 5 introduces the use of CSS variables to enable better theming flexibility. Be sure to tell your developer.

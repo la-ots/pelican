@@ -418,6 +418,7 @@
 
   /* toc */
 
+  --theme-toc-header-color: var(--bs-heading-color);
   --theme-toc-link-color: var(--theme-link-color);
   --theme-toc-link-hover-color: var(--theme-link-color);
 
