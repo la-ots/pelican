@@ -22,6 +22,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 - Add omitted CSS variables for Languages Feature Block
 - Add omitted CSS variables for Pagination
 - Add omitted CSS variables for TOC
+- Fix bug of clashing class name in topbar background
 - Fix bug of incorrect CSS variable used in disabled Toggle Tokens
 - Fix bug of links in Tables not inheriting color
 - Reformatted dates and headers in What’s New to be easier to scan
