@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.4: December 05 2023
+## 2.0.5: December 14 2023
 
 - Add omitted CSS variables for Checkbox and Radios active color
 - Add omitted CSS variables for Languages Feature Block
