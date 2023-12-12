@@ -27,6 +27,10 @@ We’re continually improving Pelican. The following changes are listed by the d
 - Fix bug of links in Tables not inheriting color
 - Reformatted dates and headers in What’s New to be easier to scan
 
+## 2.0.4 – December 13 2023
+
+- Remove border from sidebar code samples to align with actual site markup
+
 ## 2.0.3: November 30 2023
 
 - Icons in List Group links are vertically centered
