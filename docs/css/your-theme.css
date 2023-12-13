@@ -13,6 +13,9 @@
   /* 5. Apply colors to the buttons */
   /* 6. Save file! */
 
+  
+
+
   /* 1. First enter all palette colors for the categories */
   /* palette colors */
 
@@ -122,6 +125,9 @@
   --theme-gray-900: #324348;
   --theme-gray-black: #000000;
 
+
+
+
   /* 2. Assign the semantic colors from a color in the preceeding categories */
   /* semantic colors */
 
@@ -140,6 +146,9 @@
   --theme-body-bg: var(--theme-gray-50);
   --bs-body-color: var(--theme-gray-900);
 
+
+
+
   /* 3. Set properties which are shared */
   /* borders */
 
@@ -148,6 +157,9 @@
   --theme-border-width: 0.125rem;
   --theme-border-style: solid;
   --bs-border-color: var(--theme-ui);
+
+
+
 
   /* 4. Set the properties for Bootstrap and Pelican items */
   /* alerts */
@@ -197,6 +209,7 @@
 
   --theme-badge-chip-warning-bg-color: var(--theme-warning);
   --theme-badge-chip-warning-text-color: var(--bs-black);
+
   --theme-badge-chip-danger-bg-color: var(--theme-danger);
   --theme-badge-chip-danger-text-color: var(--theme-gray-white);
 
@@ -226,6 +239,7 @@
   --theme-card-bg-color: var(--theme-gray-white);
   --theme-card-nested-bg-color: var(--theme-gray-50);
   --theme-card-border-color: var(--theme-border-color-lighter);
+  --theme-card-border-width: .0625rem;
 
   /* content-container */
 
@@ -345,9 +359,15 @@
   /* page header, title */
 
   --theme-page-title-bg-color: var(--theme-gray-white);
-  --theme-page-title-text-color: var(--theme-primary);
+  --theme-page-title-text-color: var(--theme-text-headings-color);
   --theme-page-title-icon-color: var(--theme-page-title-text-color);
   --theme-page-title-border-color: var(--theme-border-color-lighter);
+
+  /* pagination */
+
+  --theme-pagination-color: var(--theme-link-color);
+  --theme-pagination-hover-color: var(--theme-link-color);
+  --theme-pagination-active-color: var(--theme-link-color);
 
   /* popovers and tooltips */
 
@@ -362,13 +382,13 @@
   /* progress */
 
   --theme-progress-border-color: var(--theme-border-color-lighter);
-  --theme-progress-bg-color: var(--theme-gray-white);
-  --theme-progress-description-color: var(--theme-primary);
-  --theme-progress-description-counter-color: var(--theme-primary);
-  --theme-progress-description-text-color: var(--theme-primary);
-  --theme-progress-step-bg-color: var(--theme-primary);
-  --theme-progress-step-border-color: var(--theme-primary);
-  --theme-progress-step-digit-color: var(--theme-gray-white);
+	--theme-progress-bg-color: var(--theme-gray-white);
+	--theme-progress-description-color: var(--theme-text-headings-color);
+	--theme-progress-description-counter-color: var(--theme-text-headings-color);
+	--theme-progress-description-text-color: var(--theme-text-headings-color);
+	--theme-progress-step-bg-color: var(--theme-text-headings-color);
+	--theme-progress-step-border-color: var(--theme-text-headings-color);
+	--theme-progress-step-digit-color: var(--theme-gray-white);
 
   /* sidebar & topbar */
 
@@ -378,6 +398,7 @@
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
   --theme-sidebar-link-color: var(--bs-white);
+  --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
   --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
 
@@ -391,8 +412,9 @@
   --theme-table-border-width: 1px;
   --theme-table-border-width-thick: 3px;
   --theme-table-cell-padding: 0.5rem;
-  --theme-table-stripe-bg: var(--theme-body-bg);
+  --theme-table-striped-bg: var(--theme-body-bg);
   --theme-table-border-color: var(--theme-border-color-lighter);
+  --bs-pagination-bg: var(--theme-gray-white);
 
   /* toasts */
 
@@ -428,15 +450,17 @@
 
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
-  --theme-blockquote-order-color: var(--theme-ui);
+  --theme-blockquote-border-color: var(--theme-ui);
   --theme-bolded-text-color: var(--themegray--black);
-  --theme-table-striped-bg: var(--theme-gray-50);
   --theme-text-selection-text-color: var(--theme-primary-700);
   --theme-text-selection-bg-color: var(--theme-primary-200);
   --theme-text-decoration-line: underline;
   --theme-text-decoration-style: dashed;
   --theme-text-decoration-color: var(--theme-info-500);
   --theme-text-decoration-thickness: var(--theme-border-width);
+  --theme-text-headings-color: var(--theme-primary);
+  --bs-body-font-family: var(--theme-font-family);
+  --bs-heading-color: var(--theme-text-headings-color);
 }
 
 /* rules begin */
