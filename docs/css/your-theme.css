@@ -164,6 +164,8 @@
   /* 4. Set the properties for Bootstrap and Pelican items */
   /* alerts */
 
+  --theme-alert-border-radius: .25rem;
+
   --theme-alert-success-text-color: var(--theme-success-900);
   --theme-alert-success-bg-color: var(--theme-success-100);
   --theme-alert-success-border-color: var(--theme-success-900);
@@ -265,6 +267,7 @@
 
   --theme-feature-languages-bg-color: var(--theme-accent);
   --theme-feature-languages-text-color: var(--theme-primary);
+  --theme-feature-languages-item-text-color: var(--theme-primary);
   --theme-feature-languages-item-bg-color: var(--theme-gray-white);
 
   --theme-feature-many-icons-text-bg-color: var(--theme-primary);
@@ -283,6 +286,7 @@
   --theme-form-input-shadow-color: var(--theme-ui-light);
   --theme-input-btn-focus-color: var(--theme-focus-color);
   --theme-form-active-color: var(--theme-ui-priority);
+  --theme-form-check-input-color: var(--theme-gray-white);
   --theme-form-check-input-checked-bg-color: var(--theme-ui-priority);
   --theme-form-check-input-checked-border-color: var(--theme-ui-priority);
 
@@ -328,6 +332,7 @@
 
   /* List Groups */
 
+  --theme-list-group-link-color: var(--theme-link-color);
   --theme-list-group-bg: var(--theme-card-bg-color);
   --theme-list-group-border-color: var(--theme-card-border-color);
 
@@ -355,6 +360,7 @@
 
   --theme-official-banner-text-color: var(--theme-gray-white);
   --theme-official-banner-bg: var(--theme-gray-black);
+  --theme-official-banner-focus-indicator-color: var(--theme-gray-white);
 
   /* page header, title */
 
@@ -368,6 +374,7 @@
   --theme-pagination-color: var(--theme-link-color);
   --theme-pagination-hover-color: var(--theme-link-color);
   --theme-pagination-active-color: var(--theme-link-color);
+  --theme-pagination-border-color: var(--theme-border-color-lighter);
 
   /* popovers and tooltips */
 
