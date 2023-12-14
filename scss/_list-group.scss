@@ -8,7 +8,7 @@
   background-color: var(--theme-list-group-bg);
 }
 .list-group-item-action {
-  color: var(--theme-link-color);
+  color: var(--theme-list-group-link-color);
   &::after {
     @extend .d-inline-block;
     content: "\f061";

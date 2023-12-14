@@ -63,7 +63,7 @@ a {
 }
 .official-banner .btn.expander {
   &:focus {
-    outline-color: $white !important;
+    outline-color: var(--theme-official-banner-focus-indicator-color) !important;
   }
 }
 
