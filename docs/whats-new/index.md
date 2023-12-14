@@ -16,19 +16,22 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.5: December 14 2023
+## 2.0.4: December 15 2023
 
+- Add omitted CSS variables for Alerts’ border radius
 - Add omitted CSS variables for Checkbox and Radios active color
+- Add omitted CSS variables for some Form controls
 - Add omitted CSS variables for Languages Feature Block
+- Add omitted CSS variables for List Group links
 - Add omitted CSS variables for Pagination
+- Add omitted CSS variables for Official Banner focus indicator color
+- Add omitted CSS variables for Table items
 - Add omitted CSS variables for TOC
-- Fix bug of clashing class name in topbar background
+- Fix bug of mispelled variable names in Nav SCSS rules
 - Fix bug of incorrect CSS variable used in disabled Toggle Tokens
+- Fix bug of clashing class name in Topbar background
 - Fix bug of links in Tables not inheriting color
 - Reformatted dates and headers in What’s New to be easier to scan
-
-## 2.0.4 – December 13 2023
-
 - Remove border from sidebar code samples to align with actual site markup
 
 ## 2.0.3: November 30 2023
