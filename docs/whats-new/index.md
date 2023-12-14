@@ -16,10 +16,6 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.0.4 – 14 December 2023
-
-- Remove border from sidebar code samples to align with actual site markup
-
 ## 2.0.3 – 31 November 2023
 
 - Icons in List Group links are vertically centered
