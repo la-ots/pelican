@@ -153,6 +153,8 @@
   /* 4. Set the properties for Bootstrap and Pelican items */
   /* alerts */
 
+  --theme-alert-border-radius: .25rem;
+
   --theme-alert-success-text-color: var(--theme-success-900);
   --theme-alert-success-bg-color: var(--theme-success-100);
   --theme-alert-success-border-color: var(--theme-success-900);
@@ -203,6 +205,7 @@
 
   --theme-badge-chip-warning-bg-color: var(--theme-warning);
   --theme-badge-chip-warning-text-color: var(--bs-black);
+
   --theme-badge-chip-danger-bg-color: var(--theme-danger);
   --theme-badge-chip-danger-text-color: var(--theme-gray-white);
 
@@ -267,12 +270,13 @@
   /* forms */
   /* forms are not yet fully enabled with CSS Variables */
 
-  --theme-form-border-color: var(--theme-border-color);
+  --theme-form-border-color: var(--theme-text-normal);
   --theme-form-disabled-bg-color: var(--theme-ui-light);
   --theme-form-input-color: var(--theme-gray-700);
   --theme-form-input-shadow-color: var(--theme-ui-light);
   --theme-input-btn-focus-color: var(--theme-focus-color);
   --theme-form-active-color: var(--theme-ui-priority);
+  --theme-form-check-input-color: var(--theme-gray-white);
   --theme-form-check-input-checked-bg-color: var(--theme-ui-priority);
   --theme-form-check-input-checked-border-color: var(--theme-ui-priority);
 
@@ -318,6 +322,7 @@
 
   /* List Groups */
 
+  --theme-list-group-link-color: var(--theme-link-color);
   --theme-list-group-bg: var(--theme-card-bg-color);
   --theme-list-group-border-color: var(--theme-card-border-color);
 
@@ -345,6 +350,7 @@
 
   --theme-official-banner-text-color: var(--theme-gray-white);
   --theme-official-banner-bg: var(--theme-gray-black);
+  --theme-official-banner-focus-indicator-color: var(--theme-gray-white);
 
   /* page header, title */
 
@@ -352,6 +358,13 @@
   --theme-page-title-text-color: var(--theme-text-headings-color);
   --theme-page-title-icon-color: var(--theme-page-title-text-color);
   --theme-page-title-border-color: var(--theme-border-color-lighter);
+
+  	/* pagination */
+
+    --theme-pagination-color: var(--theme-link-color);
+    --theme-pagination-hover-color: var(--theme-link-color);
+    --theme-pagination-active-color: var(--theme-link-color);
+	  --theme-pagination-border-color: var(--theme-border-color-lighter);
 
   /* popovers and tooltips */
 
@@ -376,12 +389,12 @@
 
   /* sidebar & topbar */
 
-  --theme-topbar-bg-color: var(--theme-gray-black);
-  --theme-topbar-text-color: var(--theme-gray-white);
+  --theme-topbar-bg-color: var(--bs-black);
+  --theme-topbar-text-color: var(--bs-white);
   --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
-  --theme-sidebar-link-color: var(--theme-gray-white);
+  --theme-sidebar-link-color: var(--bs-white);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
   --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
@@ -393,8 +406,8 @@
 
   /* tables */
 
-  --theme-table-border-width: 1px;
-  --theme-table-border-width-thick: 3px;
+  --theme-table-border-width: 0.0625rem;
+  --theme-table-border-width-thick: 0.1875rem;
   --theme-table-cell-padding: 0.5rem;
   --theme-table-striped-bg: var(--theme-body-bg);
   --theme-table-border-color: var(--theme-border-color-lighter);
@@ -426,6 +439,7 @@
 
   /* toc */
 
+  --theme-toc-header-color: var(--bs-heading-color);
   --theme-toc-link-color: var(--theme-link-color);
   --theme-toc-link-hover-color: var(--theme-link-color);
 
@@ -433,16 +447,18 @@
   
   /* you will need to provide a font reference if you override the default */
   --theme-font-family: "Public Sans", "Public SansVariable", -apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-body-font-family: var(--theme-font-family);
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
   --theme-bolded-text-color: var(--themegray--black);
+  --theme-text-selection-text-color: var(--theme-primary-700);
+  --theme-text-selection-bg-color: var(--theme-primary-200);
   --theme-text-decoration-line: underline;
   --theme-text-decoration-style: dashed;
   --theme-text-decoration-color: var(--theme-info-500);
   --theme-text-decoration-thickness: var(--theme-border-width);
   --theme-text-headings-color: var(--theme-primary);
+  --bs-body-font-family: var(--theme-font-family);
   --bs-heading-color: var(--theme-text-headings-color);
 }
 
@@ -555,10 +571,6 @@
   --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-danger-200);
   --bs-btn-disabled-border-color: var(--theme-danger-200);
-}
-
-.pagination {
-  --bs-pagination-bg: var(--theme-gray-white);
 }
 
 /* 6. Save file! */

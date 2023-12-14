@@ -125,9 +125,6 @@
   --theme-gray-900: #324348;
   --theme-gray-black: #000000;
 
-
-
-
   /* 2. Assign the semantic colors from a color in the preceeding categories */
   /* semantic colors */
 
@@ -145,9 +142,7 @@
   --theme-text-normal: var(--theme-gray-700);
   --theme-body-bg: var(--theme-gray-50);
   --bs-body-color: var(--theme-gray-900);
-
-
-
+  --bs-body-bg: var(--theme-body-bg);
 
   /* 3. Set properties which are shared */
   /* borders */
@@ -156,10 +151,7 @@
   --theme-border-color-lighter: var(--theme-ui-light);
   --theme-border-width: 0.125rem;
   --theme-border-style: solid;
-  --bs-border-color: var(--theme-ui);
-
-
-
+  --bs-border-color: var(--theme-border-color);
 
   /* 4. Set the properties for Bootstrap and Pelican items */
   /* alerts */
@@ -194,6 +186,11 @@
   --theme-badge-chip-secondary-bg-dim-color: var(--theme-secondary-900);
   --theme-badge-chip-secondary-text-dim-color: var(--theme-secondary-100);
 
+  --theme-badge-chip-accent-bg-color: var(--theme-accent);
+  --theme-badge-chip-accent-text-color: var(--theme-gray-black);
+  --theme-badge-chip-accent-bg-dim-color: var(--theme-accent-100);
+  --theme-badge-chip-accent-text-dim-color: var(--theme-accent-900);
+
   --theme-badge-chip-ui-bg-color: var(--theme-ui);
   --theme-badge-chip-ui-text-color: var(--theme-gray-white);
   --theme-badge-chip-ui-bg-dim-color: var(--theme-ui-900);
@@ -222,10 +219,6 @@
   --theme-breadcrumb-border-color: var(--theme-ui-light);
   --theme-breadcrumb-link-color: var(--theme-link-color);
   --theme-breadcrumb-active-color: var(--theme-gray-black);
-
-  /* body */
-
-  --bs-body-bg: var(--theme-body-bg);
 
   /* buttons */
 
@@ -328,7 +321,7 @@
 
   /* HR, dividers */
 
-  --theme-divider-bg-color: var(--theme-ui-light);
+  --theme-divider-bg-color: var(--theme-border-color-lighter);
 
   /* List Groups */
 
@@ -416,8 +409,8 @@
 
   /* tables */
 
-  --theme-table-border-width: 1px;
-  --theme-table-border-width-thick: 3px;
+  --theme-table-border-width: 0.0625rem;
+  --theme-table-border-width-thick: 0.1875rem;
   --theme-table-cell-padding: 0.5rem;
   --theme-table-striped-bg: var(--theme-body-bg);
   --theme-table-border-color: var(--theme-border-color-lighter);
@@ -455,6 +448,8 @@
 
   /* typography and related colors */
 
+  /* you will need to provide a font reference if you override the default */
+  --theme-font-family: "Public Sans", "Public SansVariable", -apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
