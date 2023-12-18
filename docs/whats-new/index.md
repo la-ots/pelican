@@ -33,6 +33,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 - Fix bug of links in Tables not inheriting color
 - Reformatted dates and headers in What’s New to be easier to scan
 - Remove border from sidebar code samples to align with actual site markup
+- Updated dependencies
 
 ## 2.0.3: November 30 2023
 
