@@ -68,7 +68,7 @@
   .wrapper {
     @extend .rounded;
     background-color: var(--theme-ui);
-    color: var(--bs-white);
+    color: var(--theme-gray-white);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.75rem;

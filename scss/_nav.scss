@@ -29,12 +29,12 @@
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
     &.disabled {
-      color: var(--theme-ui--light);
+      color: var(--theme-ui-light);
       background-color: transparent;
       border-color: transparent;
     }
     &.active {
-      border-color: var(--theme-nav-tabs-link-active--border-color);
+      border-color: var(--theme-nav-tabs-link-active-border-color);
       border-bottom: none;
     }
     &:hover {

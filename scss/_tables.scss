@@ -1,6 +1,6 @@
 caption {
   caption-side: bottom;
-  border-top: 1px dashed var(--theme-border-color);
+  border-top: 1px dashed var(--theme-table-border-color);
 }
 .table {
   width: 100%;
@@ -49,6 +49,9 @@ caption {
   }
   > :not(caption) > * > * {
     border-bottom-width: 0;
+  }
+  a:not([class]) {
+    color: var(--theme-link-color);
   }
 }
 .table-striped {

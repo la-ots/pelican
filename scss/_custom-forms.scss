@@ -32,9 +32,9 @@
       @extend .visually-hidden;
       &:checked {
         + .form-check-label {
-          color: var(--bs-white);
-          background-color: var(--theme-ui-priority);
-          border-color: var(--theme-ui-priority);
+          color: var(--theme-form-check-input-color);
+          background-color: var(--theme-form-check-input-checked-bg-color);
+          border-color: var(--theme-form-check-input-checked-border-color);
           .icon {
             position: absolute;
             top: 8px;
@@ -66,16 +66,13 @@
   }
   .form-check-input:checked[disabled] ~ .form-check-label {
     border-color: transparent !important;
-    background-color: var(--theme-info-500) !important;
+    background-color: var(--theme-ui-priority);
   }
 }
 .was-validated .toggle-token .form-check-input:invalid ~ .form-check-label {
   border-color: var(--theme-danger);
 }
-.was-validated
-  .toggle-token
-  .form-check-input:checked:valid
-  ~ .form-check-label {
+.was-validated .toggle-token .form-check-input:checked:valid ~ .form-check-label {
   color: $white;
   background-color: var(--theme-success);
   border-color: var(--theme-success);
