@@ -1,17 +1,4 @@
 @media print {
-  #ScrollToTop,
-  #sidebar,
-  #footer,
-  #wrapper-topbar,
-  #sidebar-button,
-  .breadcrumb-wrapper,
-  .btns-previous-next,
-  .skip-to-main,
-  .edit-github,
-  .page-toc {
-    display: none !important;
-  }
-
   .page-wrapper,
   .wrapper-main {
     height: unset;
@@ -39,5 +26,29 @@
   .page-content {
     height: auto !important;
     padding: 0 !important;
+  }
+  
+  //absolute areas to hide 
+  .skip-to-main, 
+  .sidebar-wrapper,
+  .wrapper-topbar,
+  #ScrollToTop,
+  .footer,
+  nav,
+  .popover,
+  .page-toc {
+    display: none !important;
+  }
+
+  //optional areas to hide
+  .breadcrumb-wrapper,
+  .btns-previous-next {
+    display: none !important;
+  }
+
+  //custom features that are hidden
+  .edit-github,
+  #sidebar-button {
+    display: none !important;
   }
 }
