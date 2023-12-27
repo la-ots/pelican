@@ -32,7 +32,8 @@
   .skip-to-main, 
   .sidebar-wrapper,
   .wrapper-topbar,
-  #ScrollToTop,
+  .btn-scroll-top,
+  [position=fixed],
   .footer,
   nav,
   .popover,
@@ -40,9 +41,9 @@
     display: none !important;
   }
 
-  //optional areas to hide
-  .breadcrumb-wrapper,
-  .btns-previous-next {
+  //optional containers to hide
+  .btns-previous-next,
+  form {
     display: none !important;
   }
 
