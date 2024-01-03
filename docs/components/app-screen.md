@@ -78,7 +78,7 @@ The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamb
   <button
     id="sidebar-button"
     class="btn btn-sm btn-black sidebar-button"
-    aria-haspop="true"
+    aria-haspopup="true"
     aria-controls="sidebar"
     tabindex="3">
     <span class="icon fas fa-fw fa-bars" aria-hidden="true"></span>
