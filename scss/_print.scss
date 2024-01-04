@@ -28,6 +28,9 @@
     padding: 0 !important;
   }
   
+  $enable-default-print: true;
+  $enable-optional-print: true;
+
   //absolute areas to hide 
   .skip-to-main, 
   .sidebar-wrapper,
@@ -38,18 +41,16 @@
   nav,
   .popover,
   .page-toc {
-    display: none !important;
+    @if $enable-default-print {
+      display: none !important;
+    }
   }
 
   //optional containers to hide
   .btns-previous-next,
   form {
-    display: none !important;
-  }
-
-  //custom features that are hidden
-  .edit-github,
-  #sidebar-button {
-    display: none !important;
+    @if $enable-optional-print {
+      display: none !important;
+    }
   }
 }

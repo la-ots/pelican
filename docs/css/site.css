@@ -57,3 +57,10 @@
     padding-right: 14px;
   }
 }
+
+@media print {
+  .edit-github,
+  #sidebar-button {
+    display: none !important;
+  }
+}
