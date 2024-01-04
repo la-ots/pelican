@@ -16,7 +16,7 @@ Upgrading to Pelican 2 requires a few steps. Here’s what you’ll have to do:
 
 1. Swap Pelican 1 CSS with Pelican 2 CSS.
 1. Update your markup from Pelican 1 markup to Pelican 2 markup.
-1. Update the javascript.
+1. Update the javascript because Bootstrap 5 removed jQuery as a dependency.
 
 Consult [Bootstrap’s Migration Guide](https://getbootstrap.com/docs/5.0/migration/). Breaking changes were introduced in version 5 and [jQuery was removed from version 5](https://getbootstrap.com/docs/5.0/migration/#javascript).
 
