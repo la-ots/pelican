@@ -94,7 +94,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // this next partial sets the CSS Variables
 // which can be overridden in a separate CSS file
 @import "default-theme-variables";
-//@import "option-variables";
 
 @import "utilities";
 //@import "print";
