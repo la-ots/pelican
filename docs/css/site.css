@@ -59,6 +59,13 @@
 }
 
 @media print {
+  .btns-previous-next,
+  form {
+    @if $enable-optional-print {
+      display: none !important;
+    }
+  }
+
   .edit-github,
   #sidebar-button {
     display: none !important;

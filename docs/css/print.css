@@ -28,7 +28,7 @@
     padding: 0 !important;
   }
 
-  .skip-to-main, 
+  .skip-to-main,
   .sidebar-wrapper,
   .wrapper-topbar,
   .btn-scroll-top,
@@ -37,6 +37,11 @@
   nav,
   .popover,
   .page-toc {
+      display: none !important;
+  }
+
+  .btns-previous-next,
+  form {
       display: none !important;
   }
 }

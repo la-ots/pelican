@@ -1,7 +1,9 @@
 ﻿---
 title: Printing Default
-layout: default-internal
+layout: base-internal
 ---
+        
+{% include 'markup/button-back-to-top.njk' %}
 
 {% include 'markup/breadcrumbs.njk' %}
 {% include 'markup/page-title.njk' %}
@@ -9,3 +11,4 @@ layout: default-internal
 {% include 'markup/documentation-internal.njk' %}
 
 {% include 'markup/buttons-previous-next-page.njk' %}
+
