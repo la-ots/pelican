@@ -16,6 +16,11 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.0.5: January 25, 2024
+
+- Fixes color bugs in the Add Data button
+- Fixes padding bugs in the Button Container
+
 ## 2.0.4: December 15 2023
 
 - Add omitted CSS variables for Alerts’ border radius
