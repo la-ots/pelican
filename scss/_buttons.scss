@@ -63,23 +63,21 @@
   margin-bottom: 0.5rem;
   background-color: transparent;
   border: 2px dashed var(--theme-ui);
+  transition: $transition-base;
   div, .wrapper {
     @extend .rounded;
     color: var(--theme-gray-900);
     background-color: var(--theme-gray-white);
     border: 2px solid var(--theme-ui);
     padding: .5rem .75rem;
-    &:hover {
-      color: var(--theme-gray-white);
-      background-color: var(--theme-ui);
-      text-decoration: underline;
-    }
-    &:active {
-      background-color: var(--theme-gray-800);
-    }
   }
   &:hover {
     background-color: var(--theme-gray-100);
+    div, .wrapper {
+        color: var(--theme-gray-white);
+        background-color: var(--theme-gray-800);
+        text-decoration: underline;
+    }
   }
   &:active {
     background-color: var(--theme-gray-200)!important;
