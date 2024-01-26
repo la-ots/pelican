@@ -15,8 +15,6 @@ eleventyNavigation:
 
 - 
 
-## Default Styles
-
 In general, the premise of the print preview layout design is to focus on what's visible in the main content of the page.
 This means that the following components are excluded from ever being printed:
 
@@ -26,10 +24,6 @@ This means that the following components are excluded from ever being printed:
 - Back to Top Button
 - Navbar
 
-<a class="btn btn-primary" href="/foundation/printing-default/" target="_blank">See Default Example</a>
-
-## Optional Considerations
-
 Other features that work in tandem with other elements (thus only provide a means of interaction and not give information) are able to be excluded from the print preview as well.
 These components that follow are able to be optionally hidden:
 
@@ -37,7 +31,7 @@ These components that follow are able to be optionally hidden:
 - Buttons
 - Form Elements
 
-<a class="btn btn-primary" href="/foundation/printing-optional/" target="_blank">See Optional Example</a>
+<a class="btn btn-primary" href="/foundation/printing-optional/" target="_blank">See Provided Example</a>
 
 ### Custom Print Modifications
 
