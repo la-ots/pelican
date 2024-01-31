@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Best Practices
 
 In general, the premise of the print preview layout design is to focus on what's visible in the main content of the page.
-This means that the following components are excluded from ever being printed:
+This means that the following components should be in consideration from ever being printed:
 
 - Skip To Main
 - Sidebar with Navigation
@@ -22,11 +22,17 @@ This means that the following components are excluded from ever being printed:
 - Back to Top Button
 - Navbar
 
-<a class="btn btn-primary" href="/foundation/printing-optional/" target="_blank">See Provided Example</a>
+An example stylesheet to use to remove these components from printing is provided below:
+
+```html
+{% include '../css/print.css' %}
+```
+
+This stylesheet should be incorporated onto each page as required or merged within your site's local styles.
 
 ### Custom Print Modifications
 
-Other features that work in tandem with other elements (thus only provide a means of interaction and not give information) are able to be excluded from the print preview as well.
+Other features that work in tandem with other elements (thus only provide a means of interaction and not give information) are options to be excluded from the print preview as well.
 These components that follow are not hidden by default:
 
 - Pagination
@@ -39,3 +45,6 @@ When customizing your own print styles, keep the following in mind:
 - Be sure that relevant information can still be interpreted regardless of changes to visual color or spacing.
 - Understand that the layout grid will change based on the dimensions of the paper size that the preview is scaling to.
 
+### Resources
+
+- https://getbootstrap.com/docs/5.3/utilities/display/#display-in-print
