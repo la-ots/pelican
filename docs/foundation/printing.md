@@ -22,13 +22,12 @@ This means that the following components should be in consideration from ever be
 - Back to Top Button
 - Navbar
 
-An example stylesheet to use to remove these components from printing is provided below:
+An example stylesheet to use to remove these components from printing is provided below.
+This stylesheet should be incorporated onto each page as required or merged within your site's local styles.
 
 ```html
 {% include '../css/print.css' %}
 ```
-
-This stylesheet should be incorporated onto each page as required or merged within your site's local styles.
 
 ### Custom Print Modifications
 
