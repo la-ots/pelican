@@ -1,7 +1,11 @@
 .btn {
-  box-shadow: none;
-  &:hover {
+  box-shadow: $btn-shadow;
+  &:hover, &:active {
     @extend .text-decoration-underline;
+    box-shadow: 0 .25rem 0 0 fade-out($gray-900, 0.5);
+  }
+  &:active {
+    box-shadow: 0 0 0 0 fade-out($gray-900, 0.75);
   }
 }
 .btn-link {

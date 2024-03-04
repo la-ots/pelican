@@ -390,7 +390,7 @@ $pagination-disabled-border-color: $gray-600 !default;
 $box-shadow-sm: 0 0.25rem 2px fade-out($black, 0.9) !default;
 $box-shadow: 0 0.5rem 1rem fade-out($black, 0.25) !default;
 $box-shadow-lg: 0 1rem 3rem fade-out($black, 0.35) !default;
-$btn-shadow: 0 0.25rem 0.25rem fade-out($black, 0.7) !default;
+$btn-shadow: 0 0.125rem 0 0 fade-out($gray-900, 0.75) !default;
 
 // ---
 // toasts
