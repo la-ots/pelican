@@ -13,14 +13,14 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Cards are designed to be flexible enough to accommodate most content types.
-- If a Card occurs outside of a [Content Container](/components/content_container/), it will automatically get a white background
-- If the card occurs inside of a [Content Container](/components/content_container/) it will automatically get a gray background
-- Cards can contain various types of information, so their appearance will vary
-- A card’s width is determined by its parent element. In most cases, this is a Bootstrap `<div>` with a column class. Read [Layout Grid](/components/layout-grid/) for more information about columns
-- Rows and columns can be placed inside a card body
-- Cards can be themed using theming classes. Read more in [Agency Themes](/foundation/agency-theming/)
-  {% include 'cards-tables.njk' %}
+- When a Card occurs **outside** a [Content Container](/components/content_container/), it has a white background.
+- When a Card occurs **inside** a [Content Container](/components/content_container/) it has a gray background.
+- Titles or headers in Cards may need an appropriate [Heading Level](/accessibility/headings/).
+- Cards are flexible enough to accommodate most content types.
+- A card’s width is determined by its parent element. This might be a `<div>` with a Bootstrap column class. [Read Layout Grid](/components/layout-grid/) for more information.
+- Rows and columns can be placed inside a card body.
+- Cards can be themed using theming classes. Read more in [Agency Themes](/foundation/agency-theming/).
+{% include 'cards-tables.njk' %}
 
 ## Usage
 
