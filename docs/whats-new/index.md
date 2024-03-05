@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.0.7: March 4, 2024
+
+- Adds shadows to basic button classes
+
 ## 2.0.6: February 21, 2024
 
 - Fixes a `btn btn-link` misalignment bug
