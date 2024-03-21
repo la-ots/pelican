@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Toasts
   parent: Components
-  order: 320
+  order: 330
   excerpt: Toasts are a lightweight notification relaying information related to the user's actions.
   img: /img/illustrations/illus-toasts.svg
 ---

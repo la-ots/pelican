@@ -1,10 +1,10 @@
 ﻿---
-title: Table
+title: Table, Striped
 summary: Tables allow users to compare and review large amounts of data.
 tags: components
 layout: guide
 eleventyNavigation:
-  key: Table
+  key: Table, Striped
   parent: Components
   order: 310
   excerpt: Tables allow users to compare and review large amounts of data.
@@ -17,14 +17,15 @@ eleventyNavigation:
 - Use accessible Table markup, like what’s provided.
 - [Pagination](/components/pagination) goes below a table if you need it.
 - Use Tables to display tabular data, not for layout.
-  {% include 'cards-tables.njk' %}
+- Tables size their columns by the longest amount of unbroken text in either the column header or the column.
+{% include 'cards-tables.njk' %}
 
 ## Usage
 
-{% include 'markup/table.njk' %}
+{% include 'markup/table-striped.njk' %}
 
 ```html
-{% include 'markup/table.njk' %}
+{% include 'markup/table-striped.njk' %}
 ```
 
 ## Resources
