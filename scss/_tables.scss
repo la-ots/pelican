@@ -59,3 +59,37 @@ caption {
     --#{$prefix}table-bg-type: var(--theme-table-striped-bg);
   }
 }
+.table-scrollable-wrapper {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	background:
+		linear-gradient(to right, transparent 30%, rgba(255,255,255,0)),
+		linear-gradient(to right, rgba(255,255,255,0), white 70%) 0 100%,
+		radial-gradient(farthest-side at 0% 50%, rgba(0,0,0,0.2), rgba(0,0,0,0)),
+		radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,0.2), rgba(0,0,0,0)) 0 100%;
+	background-repeat: no-repeat;
+	background-color: var(--theme-gray-white);
+	background-size: 4em 100%, 4em 100%, 1.4em 100%, 1.4em 100%;
+	background-position: 0 0, 100%, 0 0, 100%;
+	background-attachment: local, local, scroll, scroll;
+}
+.table-scrollable {
+	background-color: transparent!important;
+	th, td {
+		background-color: transparent;
+	}
+	th:first-child {
+		background-color: var(--theme-gray-white);
+		position: sticky;
+		position: -webkit-sticky;
+		left: 0;
+		z-index: 10;
+		&:after {
+			content: '';
+			position: absolute;
+			right: 0; top: 0;
+			width: .125rem; height: 100%;
+			background-color: var(--theme-table-border-color);
+		}
+	}
+}
