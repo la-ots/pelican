@@ -9,7 +9,7 @@ layout: default.njk
     {%- for entry in navPages %}
       {%- if entry.url in page.url %}
         {%- for child in entry.children %}
-          <div class="col-12 col-md-6 col-lg-4" role="listitem">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-3" role="listitem">
             <div class="card mb-0 shadow-none h-100">
               <div class="card-body">
                 {%- if child.img %}

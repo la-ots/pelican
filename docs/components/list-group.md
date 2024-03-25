@@ -41,21 +41,21 @@ eleventyNavigation:
 
 ### Link List
 
-<div class="list-group" role="list-group">
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A third item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A fourth item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">An item</a>
+  <a href="#" class="list-group-item list-group-item-action">A second item</a>
+  <a href="#" class="list-group-item list-group-item-action">A third item</a>
+  <a href="#" class="list-group-item list-group-item-action">A fourth item</a>
+  <a href="#" class="list-group-item list-group-item-action">And a fifth one</a>
 </div>
 
 <!-- prettier-ignore -->
 ```html
-<div class="list-group" role="list-group">
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">An item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A third item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">A fourth item</a>
-  <a role="list-item" href="#" class="list-group-item list-group-item-action">And a fifth one</a>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">An item</a>
+  <a href="#" class="list-group-item list-group-item-action">A second item</a>
+  <a href="#" class="list-group-item list-group-item-action">A third item</a>
+  <a href="#" class="list-group-item list-group-item-action">A fourth item</a>
+  <a href="#" class="list-group-item list-group-item-action">And a fifth one</a>
 </div>
 ```
