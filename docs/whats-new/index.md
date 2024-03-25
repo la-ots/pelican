@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.1.0
+## 2.1.0: March 28, 2023
 
 - Adds a scrollable table option for data-dense tables
 
