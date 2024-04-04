@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: Components
   order: 300
   excerpt: Use Status to present concise messages about system or data status.
-  img: /img/illustrations/illus-snackbars.png
+  img: /img/illustrations/illus-status.png
 ---
 
 ## Best Practice
