@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.2.0: April 5, 2024
+
+- Adds Status component
+
 ## 2.1.0: March 28, 2023
 
 - Adds a scrollable table option for data-dense tables
@@ -26,7 +30,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 ## 2.0.6: February 21, 2024
 
-- Fixes a `btn btn-link` misalignment bug
+- Fixes a button misalignment bug
 
 ## 2.0.5: January 25, 2024
 

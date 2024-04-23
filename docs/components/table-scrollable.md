@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Table, Scrollable
   parent: Components
-  order: 320
+  order: 330
   excerpt: Scrollable tables allow users to compare and review large amounts of data unrestricted by window size.
   img: /img/illustrations/illus-table-scroll.png
 ---

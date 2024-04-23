@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Table, Striped
   parent: Components
-  order: 310
+  order: 320
   excerpt: Tables allow users to compare and review large amounts of data.
   img: /img/illustrations/illus-table.svg
 ---

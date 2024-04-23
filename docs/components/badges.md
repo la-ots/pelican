@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Badges take their size from the parent element.
 - Prefer smaller badges over larger ones to prevent them from being confused with buttons.
-- Keep the text in them short and succint.
+- Keep the text in them short and succint, one or two short words.
 - Use them to display a piece of data’s related quality, such as a number of notifications.
 - Remove the `<span>` with the icon if you don’t need it.
 - Prefer fewer badges on a page element so they don’t create visual noise.
