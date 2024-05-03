@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practice
 
-- Use Content Containers to group content together. They are the outermost container for content on the page or sections of a page
+- Use Content Containers to group content together.
 - They are the outermost container for content on the page or sections within a page.
 - Use [Bootstrap container classes](/foundation/layout-grid/) as the immediate children.
 
