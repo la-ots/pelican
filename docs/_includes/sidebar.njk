@@ -13,7 +13,7 @@
         {%- for entry in navPages %}
           <li class="sidebar-item">
             <div class="sidebar-dropdown-header">
-              <a class="sidebar-nav-item" href="{{ entry.url | url }}">
+              <a class="sidebar-nav-item {% if entry.url == page.url %} active {% endif %}" href="{{ entry.url | url }}">
                 <span>{{ entry.title }}</span>
               </a>              
               {% if entry.children.length > 0 %}

@@ -20,24 +20,24 @@
   border-bottom: $border-width $border-style var(--theme-page-title-border-color);
   // todo code page title, muted badges in CSS variables
   .badge-primary {
-    background-color: var(--theme-badge-chip-primary-bg-dim-color);
-    color: var(--theme-badge-chip-primary-text-dim-color);
+    background-color: var(--theme-primary);
+    color           : var(--theme-primary-200);
   }
   .badge-secondary {
-    background-color: var(--theme-badge-chip-secondary-bg-dim-color);
-    color: var(--theme-badge-chip-secondary-text-dim-color);
+    background-color: var(--theme-secondary-900;)
+    color           : var(--theme-secondary-100;)
   }
   .badge-ui {
-    background-color: var(--theme-badge-chip-ui-bg-dim-color);
-    color: var(--theme-badge-chip-ui-text-dim-color);
+    background-color: var(--theme-gray-900);
+    color           : var(--theme-gray-200);
   }
   .badge-success {
-    background-color: var(--theme-badge-chip-success-bg-dim-color);
-    color: var(--theme-badge-chip-success-text-dim-color);
+    background-color: var(--theme-success-900);
+    color           : var(--theme-success-200);
   }
   .badge-info {
-    background-color: var(--theme-badge-chip-info-bg-dim-color);
-    color: var(--theme-badge-chip-info-text-dim-color);
+    background-color: var(--theme-info-900);
+    color           : var(--theme-info-200);
   }
 }
 .page-title-text {

@@ -175,33 +175,21 @@
 
   --theme-badge-chip-primary-bg-color: var(--theme-primary);
   --theme-badge-chip-primary-text-color: var(--theme-gray-white);
-  --theme-badge-chip-primary-bg-dim-color: var(--theme-primary-100);
-  --theme-badge-chip-primary-text-dim-color: var(--theme-primary-900);
 
   --theme-badge-chip-secondary-bg-color: var(--theme-secondary);
   --theme-badge-chip-secondary-text-color: var(--theme-gray-white);
-  --theme-badge-chip-secondary-bg-dim-color: var(--theme-secondary-100);
-  --theme-badge-chip-secondary-text-dim-color: var(--theme-secondary-900);
 
   --theme-badge-chip-accent-bg-color: var(--theme-accent);
   --theme-badge-chip-accent-text-color: var(--theme-gray-black);
-  --theme-badge-chip-accent-bg-dim-color: var(--theme-accent-100);
-  --theme-badge-chip-accent-text-dim-color: var(--theme-accent-900);
 
   --theme-badge-chip-ui-bg-color: var(--theme-ui);
   --theme-badge-chip-ui-text-color: var(--theme-gray-white);
-  --theme-badge-chip-ui-bg-dim-color: var(--theme-gray-100);
-  --theme-badge-chip-ui-text-dim-color: var(--theme-gray-900);
 
   --theme-badge-chip-info-bg-color: var(--theme-info);
   --theme-badge-chip-info-text-color: var(--theme-gray-white);
-  --theme-badge-chip-info-bg-dim-color: var(--theme-info-100);
-  --theme-badge-chip-info-text-dim-color: var(--theme-info-900);
 
   --theme-badge-chip-success-bg-color: var(--theme-success);
   --theme-badge-chip-success-text-color: var(--theme-gray-white);
-  --theme-badge-chip-success-bg-dim-color: var(--theme-success-100);
-  --theme-badge-chip-success-text-dim-color: var(--theme-success-900);
 
   --theme-badge-chip-warning-bg-color: var(--theme-warning);
   --theme-badge-chip-warning-text-color: var(--bs-black);
@@ -396,6 +384,7 @@
   --theme-sidebar-wrapper-border-color: var(--theme-sidebar-wrapper-bg-color);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
   --theme-sidebar-link-color: var(--bs-white);
+  --theme-sidebar-link-active-color: var(--theme-gray-white);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
   --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
@@ -497,21 +486,6 @@
   --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-secondary-200);
   --bs-btn-disabled-border-color: var(--theme-secondary-200);
-}
-
-.btn-accent {
-  --bs-btn-color: var(--bs-black);
-  --bs-btn-bg: var(--theme-accent);
-  --bs-btn-border-color: var(--theme-accent);
-  --bs-btn-hover-color: var(--bs-black);
-  --bs-btn-hover-bg: var(--theme-accent-400);
-  --bs-btn-hover-border-color: var(--theme-accent-400);
-  --bs-btn-active-color: var(--bs-white);
-  --bs-btn-active-bg: var(--theme-accent-800);
-  --bs-btn-active-border-color: var(--theme-accent-800);
-  --bs-btn-disabled-color: var(--bs-white);
-  --bs-btn-disabled-bg: var(--theme-accent-200);
-  --bs-btn-disabled-border-color: var(--theme-accent-200);
 }
 
 .btn-outline-ui {

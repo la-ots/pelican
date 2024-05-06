@@ -265,6 +265,10 @@
       @extend .text-decoration-underline;
     }
   }
+  &.active {
+    font-weight: 700!important;
+    color: var(--theme-sidebar-link-active-color)!important;
+  }
 }
 .sidebar-dropdown-header {
   display: flex;
