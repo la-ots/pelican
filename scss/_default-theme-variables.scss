@@ -235,7 +235,7 @@
 
   /* content-container */
 
-  --theme-content-container-bg-color: var(--theme-gray-white);
+  --theme-content-container-bg-color: var(--theme-card-bg-color);
   --theme-content-container-shadow-color: var(--theme-gray-300);
   --theme-content-container-less-bright-bg-color: #fbf9f9;
 
@@ -354,7 +354,7 @@
 
   /* page header, title */
 
-  --theme-page-title-bg-color: var(--theme-gray-white);
+  --theme-page-title-bg-color: var(--theme-card-bg-color);
   --theme-page-title-text-color: var(--theme-text-headings-color);
   --theme-page-title-icon-color: var(--theme-page-title-text-color);
   --theme-page-title-border-color: var(--theme-border-color-lighter);
@@ -450,7 +450,7 @@
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
-  --theme-bolded-text-color: var(--themegray--black);
+  --theme-bolded-text-color: var(--theme-gray-black);
   --theme-text-selection-text-color: var(--theme-primary-700);
   --theme-text-selection-bg-color: var(--theme-primary-200);
   --theme-text-decoration-line: underline;
