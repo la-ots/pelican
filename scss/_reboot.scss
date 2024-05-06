@@ -65,9 +65,12 @@ hr,
     margin: 0.5rem 0;
   }
 }
-
+a {
+  color: var(--theme-link-color);
+}
 // Added for links, but not button style, in paragraph text or list items
 p, li, table {
+  font-weight: 450;
   a {
     //text-decoration-line      : var(--theme-text-decoration-line);
     //text-decoration-style     : var(--theme-text-decoration-style);

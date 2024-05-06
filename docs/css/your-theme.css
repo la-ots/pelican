@@ -143,6 +143,7 @@
   --theme-body-bg: var(--theme-gray-50);
   --bs-body-color: var(--theme-gray-900);
   --bs-body-bg: var(--theme-body-bg);
+  --bs-code-color: var(--theme-danger-700);
 
   /* 3. Set properties which are shared */
   /* borders */
@@ -239,7 +240,7 @@
   /* content-container */
 
   --theme-content-container-bg-color: var(--theme-card-bg-color);
-  --theme-content-container-shadow-color: var(--theme-gray-300);
+  --theme-content-container-border-color: var(--theme-border-color-lighter);
   --theme-content-container-less-bright-bg-color: #fbf9f9;
 
   /* focus */
@@ -396,11 +397,12 @@
   --theme-topbar-text-color: var(--bs-white);
   --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
+  --theme-sidebar-wrapper-border-color: var(--theme-sidebar-wrapper-bg-color);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
   --theme-sidebar-link-color: var(--bs-white);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
-  --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
+  --theme-sidebar-submenu-bg-color: var(--theme-gray-900);
 
   /* skip to main */
 

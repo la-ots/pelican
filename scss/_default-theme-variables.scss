@@ -236,7 +236,7 @@
   /* content-container */
 
   --theme-content-container-bg-color: var(--theme-card-bg-color);
-  --theme-content-container-shadow-color: var(--theme-gray-300);
+  --theme-content-container-border-color: var(--theme-border-color-lighter);
   --theme-content-container-less-bright-bg-color: #fbf9f9;
 
   /* focus */
@@ -393,6 +393,7 @@
   --theme-topbar-text-color: var(--bs-white);
   --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
+  --theme-sidebar-wrapper-border-color: var(--theme-sidebar-wrapper-bg-color);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
   --theme-sidebar-link-color: var(--bs-white);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);

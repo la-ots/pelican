@@ -10,8 +10,9 @@
   top: 0;
   left: -260px;
   z-index: 1000;
-  width: 260px;
+  width: 259px;
   height: 100%;
+  border-right: 1px solid var(--theme-sidebar-wrapper-border-color);
   max-height: 100%;
   transition: left 250ms ease-in-out;
 

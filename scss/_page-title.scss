@@ -17,8 +17,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-bottom: $border-width $border-style
-    var(--theme-page-title-border-color);
+  border-bottom: $border-width $border-style var(--theme-page-title-border-color);
   // todo code page title, muted badges in CSS variables
   .badge-primary {
     background-color: var(--theme-badge-chip-primary-bg-dim-color);

@@ -135,14 +135,16 @@
   --theme-info: var(--theme-info-800);
   --theme-warning: var(--theme-warning-500);
   --theme-danger: var(--theme-danger-800);
-  --theme-link-color: var(--theme-info-800);
-  --theme-ui: var(--theme-gray-600);
+  --theme-link-color: var(--theme-info-100);
+  --theme-ui: var(--theme-gray-500);
   --theme-ui-light: var(--theme-gray-300);
+  --theme-ui-light: var(--theme-gray-700);
   --theme-ui-priority: var(--theme-link-color);
   --theme-text-normal: var(--theme-gray-100);
-  --theme-body-bg: var(--theme-gray-900);
+  --theme-body-bg: #242426;
   --bs-body-color: var(--theme-text-normal);
   --bs-body-bg: var(--theme-body-bg);
+  --bs-code-color: var(--theme-danger-200);
 
   /* 3. Set properties which are shared */
   /* borders */
@@ -218,7 +220,7 @@
   --theme-breadcrumb-bg-color: var(--theme-card-bg-color);
   --theme-breadcrumb-border-color: var(--theme-ui-light);
   --theme-breadcrumb-link-color: var(--theme-link-color);
-  --theme-breadcrumb-active-color: var(--theme-gray-black);
+  --theme-breadcrumb-active-color: var(--theme-gray-white);
 
   /* buttons */
 
@@ -231,15 +233,15 @@
 
   /* cards */
 
-  --theme-card-bg-color: var(--theme-gray-800);
-  --theme-card-nested-bg-color: var(--theme-gray-50);
+  --theme-card-bg-color: var(--theme-gray-900);
+  --theme-card-nested-bg-color: var(--theme-gray-800);
   --theme-card-border-color: var(--theme-border-color-lighter);
   --theme-card-border-width: .0625rem;
 
   /* content-container */
 
   --theme-content-container-bg-color: var(--theme-card-bg-color);
-  --theme-content-container-shadow-color: var(--theme-gray-300);
+  --theme-content-container-border-color: var(--theme-border-color-lighter);
   --theme-content-container-less-bright-bg-color: #fbf9f9;
 
   /* focus */
@@ -372,7 +374,7 @@
   /* popovers and tooltips */
 
   --theme-popover-header-text-color: var(--theme-text-normal);
-  --theme-popover-header-bg-color: var(--theme-table-stripe-bg);
+  --theme-popover-header-bg-color: var(--theme-table-stripe-bg);	
   --theme-popover-bg: var(--theme-card-bg-color);
   --theme-popover-border-color: var(--theme-card-border-color);
 
@@ -395,17 +397,18 @@
   --theme-topbar-bg-color: var(--bs-black);
   --theme-topbar-text-color: var(--bs-white);
   --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
-  --theme-sidebar-wrapper-bg-color: var(--theme-primary);
+  --theme-sidebar-wrapper-bg-color: var(--theme-card-bg-color);
+  --theme-sidebar-wrapper-border-color: var(--theme-body-bg-color);
   --theme-sidebar-header-border-color: var(--theme-primary-900);
-  --theme-sidebar-link-color: var(--bs-white);
+  --theme-sidebar-link-color: var(--theme-link-color);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
-  --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
+  --theme-sidebar-submenu-bg-color: var(--theme-body-bg);
 
   /* skip to main */
 
-  --theme-skip-link-color: var(--theme-link-color);
-  --theme-skip-link-bg-color: var(--theme-card-bg-color);
+  --theme-skip-link-color: var(--theme-primary);
+  --theme-skip-link-bg-color: var(--theme-gray-white);
 
   /* tables */
 
@@ -472,15 +475,18 @@
 /* buttons */
 
 .btn-primary {
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--theme-primary);
+  --bs-btn-color: var(--theme-primary);
+  --bs-btn-bg: var(--theme-primary-100);
   --bs-btn-border-color: var(--theme-primary);
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-primary-700);
-  --bs-btn-hover-border-color: var(--theme-primary-700);
-  --bs-btn-active-color: var(--bs-white);
-  --bs-btn-active-bg: var(--theme-primary-800);
-  --bs-btn-active-border-color: var(--theme-primary-800);
+
+  --bs-btn-hover-color: var(--theme-primary);
+  --bs-btn-hover-bg: var(--theme-gray-white);
+  --bs-btn-hover-border-color: var(--theme-gray-white);
+  
+  --bs-btn-active-color: var(--theme-primary);
+  --bs-btn-active-bg: var(--theme-gray-white);
+  --bs-btn-active-border-color: var(--theme-gray-white);
+ 
   --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-primary-200);
   --bs-btn-disabled-border-color: var(--theme-primary-200);
@@ -517,15 +523,18 @@
 }
 
 .btn-outline-ui {
-  --bs-btn-color: var(--theme-grays-700);
-  --bs-btn-bg: var(--bs-white);
-  --bs-btn-border-color: var(--theme-ui);
+  --bs-btn-color: var(--theme-text-normal);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: var(--theme-ui-light);
+
   --bs-btn-hover-color: var(--bs-white);
   --bs-btn-hover-bg: var(--theme-ui);
   --bs-btn-hover-border-color: var(--theme-ui);
+
   --bs-btn-active-color: var(--bs-white);
   --bs-btn-active-bg: var(--theme-gray-600);
   --bs-btn-active-border-color: var(--theme-gray-600);
+
   --bs-btn-disabled-color: var(--theme-gray-200);
   --bs-btn-disabled-bg: var(--bs-white);
   --bs-btn-disabled-border-color: var(--theme-gray-200);
