@@ -336,9 +336,9 @@
   --theme-navbar-inner-border-hover-color: var(--theme-accent);
   --theme-navbar-form-control-border-color: var(--theme-gray-white);
   --theme-navbar-form-control-text-color: var(--theme-gray-white);
-  --theme-nav-tabs-active-bg-color: var(--theme-gray-white);
-  --theme-nav-tabs-link-active-color: var(--theme-gray-white);
-  --theme-nav-tabs-link-active-border-color: var(--theme-ui-light);
+  --theme-nav-tabs-active-bg-color: var(--theme-card-bg-color);
+  --theme-nav-tabs-link-active-color: var(--theme-card-bg-color);
+  --theme-nav-tabs-link-active-border-color: var(--theme-border-color);
 
   /* official banner */
 
@@ -443,7 +443,7 @@
 
   /* you will need to provide a font reference if you override the default */
   --theme-font-family: "Public Sans", "Public SansVariable", -apple-system, blinkmacsystemfont, "Segoe UI", "Helvetica Neue", "Arial", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --theme-small-text-color: var(--theme-gray-700);
+  --theme-small-text-color: var(--theme-text-normal);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
   --theme-bolded-text-color: var(--theme-gray-black);
