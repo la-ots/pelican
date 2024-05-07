@@ -23,7 +23,7 @@ eleventyNavigation:
 
 <div class="data-tile">
   <div class="data-tile-body">
-    <p class="fw-bold text-black">Label</p>
+    <p class="fw-bold">Label</p>
     <hr class="minor">
     <p>Value</p>
   </div>
@@ -32,7 +32,7 @@ eleventyNavigation:
 ```html
 <div class="data-tile">
   <div class="data-tile-body">
-    <p class="fw-bold text-black">Label</p>
+    <p class="fw-bold">Label</p>
     <hr class="minor" />
     <p>Value</p>
   </div>

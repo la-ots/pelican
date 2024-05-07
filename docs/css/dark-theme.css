@@ -136,7 +136,7 @@
   --theme-warning: var(--theme-warning-500);
   --theme-danger: var(--theme-danger-800);
   --theme-link-color: var(--theme-info-100);
-  --theme-ui: var(--theme-gray-500);
+  --theme-ui: var(--theme-gray-400);
   --theme-ui-light: var(--theme-gray-300);
   --theme-ui-light: var(--theme-gray-700);
   --theme-ui-priority: var(--theme-link-color);
@@ -264,7 +264,7 @@
   /* forms */
   /* forms are not yet fully enabled with CSS Variables */
 
-  --theme-form-border-color: var(--theme-text-normal);
+  --theme-form-border-color: var(--theme-ui);
   --theme-form-disabled-bg-color: var(--theme-ui-light);
   --theme-form-input-color: var(--theme-gray-700);
   --theme-form-input-shadow-color: var(--theme-ui-light);
@@ -324,7 +324,7 @@
 
   --theme-modal-dialog-bg-color: var(--theme-card-bg-color);
   --theme-modal-dialog-border-color: var(--theme-card-border-color);
-  --theme-modal-dialog-title-color: var(--theme-primary);
+  --theme-modal-dialog-title-color: var(--theme-text-headings-color);
   --theme-modal-backdrop-bg-color: var(--theme-primary);
 
   /* navbars */
@@ -372,14 +372,14 @@
 
   /* progress */
 
-  --theme-progress-border-color: var(--theme-border-color-lighter);
-	--theme-progress-bg-color: var(--theme-gray-white);
-	--theme-progress-description-color: var(--theme-text-headings-color);
-	--theme-progress-description-counter-color: var(--theme-text-headings-color);
-	--theme-progress-description-text-color: var(--theme-text-headings-color);
-	--theme-progress-step-bg-color: var(--theme-text-headings-color);
-	--theme-progress-step-border-color: var(--theme-text-headings-color);
-	--theme-progress-step-digit-color: var(--theme-gray-white);
+  --theme-progress-border-color: var(--theme-border-color);
+  --theme-progress-bg-color: var(--theme-card-bg-color);
+  --theme-progress-description-color: var(--theme-text-normal);
+  --theme-progress-description-counter-color: var(--theme-text-headings-color);
+  --theme-progress-description-text-color: var(--theme-progress-description-color);
+  --theme-progress-step-bg-color: var(--theme-text-normal);
+  --theme-progress-step-border-color: var(--theme-progress-description-color);
+  --theme-progress-step-digit-color: var(--theme-gray-700);
 
   /* sidebar & topbar */
 

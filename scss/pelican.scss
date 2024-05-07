@@ -65,6 +65,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "breadcrumb";
 @import "buttons";
 @import "card";
+@import "collapse";
 @import "content-container";
 @import "data-tiles";
 @import "feature";
