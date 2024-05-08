@@ -26,6 +26,7 @@
     margin-bottom: -$nav-tabs-border-width;
   }
   .nav-link {
+    color: var(--theme-link-color);
     border: $nav-tabs-border-width solid transparent;
     @include border-top-radius($nav-tabs-border-radius);
     &.disabled {
@@ -34,11 +35,11 @@
       border-color: transparent;
     }
     &.active {
+      color: var(--theme-text-normal);
       border-color: var(--theme-nav-tabs-link-active-border-color);
-      border-bottom: none;
     }
     &:hover {
-      background-color: var(--theme-gray-white);
+      background-color: var(--theme-card-bg-color);
       border-bottom: none;
     }
   }
@@ -47,7 +48,7 @@
     color: $nav-tabs-link-active-color;
     background-color: $nav-tabs-link-active-bg;
     border-color: $nav-tabs-link-active-border-color;
-    border-bottom: 2px solid var(--theme-gray-white);
+    border-bottom: 2px solid var(--theme-card-bg-color);
   }
   .dropdown-menu {
     // Make dropdown border overlap tab border

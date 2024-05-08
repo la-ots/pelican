@@ -1,8 +1,12 @@
 .form-control {
+  background-color: var(--theme-card-bg-color);
   &.disabled,
   &[disabled],
   &[readonly] {
     box-shadow: none;
+  }
+  &:focus, &:focus-visible {
+    background-color: var(--theme-card-bg-color);
   }
 }
 .form-group {

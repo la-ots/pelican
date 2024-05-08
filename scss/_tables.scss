@@ -6,15 +6,15 @@ caption {
   width: 100%;
   margin-bottom: 1rem;
   font-size: $font-size-base * 0.875;
-  color: var(--theme-gray-700);
-  background-color: var(--theme-gray-white);
+  color: var(--theme-text-normal);
+  background-color: var(--theme-card-bg-color);
   border-color: var(--theme-table-border-color);
   th,
   td {
     padding: var(--theme-table-cell-padding);
     vertical-align: top;
     border-top-width: var(--theme-table-border-width);
-    background-color: var(--theme-gray-white);
+    background-color: var(--theme-card-bg-color);
   }
   thead th {
     vertical-align: bottom;
@@ -64,11 +64,11 @@ caption {
 	-webkit-overflow-scrolling: touch;
 	background:
 		linear-gradient(to right, transparent 30%, rgba(255,255,255,0)),
-		linear-gradient(to right, rgba(255,255,255,0), white 70%) 0 100%,
+		linear-gradient(to right, rgba(255,255,255,0), var(--theme-card-bg-color) 70%) 0 100%,
 		radial-gradient(farthest-side at 0% 50%, rgba(0,0,0,0.2), rgba(0,0,0,0)),
 		radial-gradient(farthest-side at 100% 50%, rgba(0,0,0,0.2), rgba(0,0,0,0)) 0 100%;
 	background-repeat: no-repeat;
-	background-color: var(--theme-gray-white);
+	background-color: var(--theme-card-bg-color);
 	background-size: 4em 100%, 4em 100%, 1.4em 100%, 1.4em 100%;
 	background-position: 0 0, 100%, 0 0, 100%;
 	background-attachment: local, local, scroll, scroll;
@@ -79,7 +79,7 @@ caption {
 		background-color: transparent;
 	}
 	th:first-child {
-		background-color: var(--theme-gray-white);
+		background-color: var(--theme-card-bg-color);
 		position: sticky;
 		position: -webkit-sticky;
 		left: 0;

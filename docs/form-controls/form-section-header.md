@@ -24,7 +24,7 @@ eleventyNavigation:
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="legend text-primary mb-1">Header</h2>
+      <h2 class="legend mb-1">Header</h2>
       <p class="mb-1">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
       <p class="small"><span class="fa fa-asterisk text-danger me-1" aria-hidden="true"></span>An asterisk means we need this information.</p>
     </div>
@@ -36,7 +36,7 @@ eleventyNavigation:
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <h2 class="legend text-primary mb-1">Header</h2>
+      <h2 class="legend mb-1">Header</h2>
       <p class="mb-1">
         Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.
       </p>

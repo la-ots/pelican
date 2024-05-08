@@ -144,6 +144,7 @@
   --bs-body-color: var(--theme-gray-900);
   --bs-body-bg: var(--theme-body-bg);
   --bs-code-color: var(--theme-danger-700);
+  --bs-emphasis-color: ''; /* overidden for active tabs color */
 
   /* 3. Set properties which are shared */
   /* borders */
@@ -334,9 +335,9 @@
   --theme-navbar-inner-border-hover-color: var(--theme-accent);
   --theme-navbar-form-control-border-color: var(--theme-gray-white);
   --theme-navbar-form-control-text-color: var(--theme-gray-white);
-  --theme-nav-tabs-active-bg-color: var(--theme-gray-white);
-  --theme-nav-tabs-link-active-color: var(--theme-gray-white);
-  --theme-nav-tabs-link-active-border-color: var(--theme-ui-light);
+  --theme-nav-tabs-active-bg-color: var(--theme-card-bg-color);
+  --theme-nav-tabs-link-active-color: var(--theme-card-bg-color);
+  --theme-nav-tabs-link-active-border-color: var(--theme-border-color);
 
   /* official banner */
 
@@ -504,7 +505,7 @@
   --bs-btn-active-color: var(--bs-white);
   --bs-btn-active-bg: var(--theme-gray-600);
   --bs-btn-active-border-color: var(--theme-gray-600);
-  
+
   --bs-btn-disabled-color: var(--theme-gray-200);
   --bs-btn-disabled-bg: var(--bs-white);
   --bs-btn-disabled-border-color: var(--theme-gray-200);

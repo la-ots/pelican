@@ -86,7 +86,7 @@
 
   /* warnings  */
 
-  --theme-warning-50: #ffffea;
+  --theme-warning-50:  #ffffea;
   --theme-warning-100: #fffbc5;
   --theme-warning-200: #fff885;
   --theme-warning-300: #ffee46;
@@ -99,7 +99,7 @@
 
   /* dangers  */
 
-  --theme-danger-50: #ffefef;
+  --theme-danger-50:  #ffefef;
   --theme-danger-100: #ffdcdd;
   --theme-danger-200: #ffbfc0;
   --theme-danger-300: #ff9294;
@@ -113,47 +113,64 @@
   /* grays  */
 
   --theme-gray-white: #ffffff;
-  --theme-gray-50: #f7f8f8;
-  --theme-gray-100: #ebeeef;
-  --theme-gray-200: #d8dddf;
-  --theme-gray-300: #b6c1c3;
-  --theme-gray-400: #8f9fa3;
-  --theme-gray-500: #6e8287;
-  --theme-gray-600: #586a6f;
-  --theme-gray-700: #46585d;
-  --theme-gray-800: #3a4b50;
-  --theme-gray-900: #324348;
+  --theme-gray-50:    #f7f8f8;
+  --theme-gray-100:   #ebeeef;
+  --theme-gray-200:   #d8dddf;
+  --theme-gray-300:   #b6c1c3;
+  --theme-gray-400:   #8f9fa3;
+  --theme-gray-500:   #6e8287;
+  --theme-gray-600:   #586a6f;
+  --theme-gray-700:   #46585d;
+  --theme-gray-800:   #3a4b50;
+  --theme-gray-900:   #324348;
+  --theme-gray-black: #000000;
+
+  /* grays, adjusted  */
+
+  --theme-gray-white: #ffffff;
+  --theme-gray-50:    #e5e5e5;
+  --theme-gray-100:   #cbcbcb;
+  --theme-gray-200:   #b2b2b2;
+  --theme-gray-300:   #9a9a9a;
+  --theme-gray-400:   #828282;
+  --theme-gray-500:   #6c6c6c;
+  --theme-gray-600:   #565656;
+  --theme-gray-700:   #404040;
+  --theme-gray-800:   #2c2c2c;
+  --theme-gray-900:   #1a1a1a;
   --theme-gray-black: #000000;
 
   /* 2. Assign the semantic colors from a color in the preceeding categories */
   /* semantic colors */
 
-  --theme-primary: var(--theme-primary-800);
-  --theme-secondary: var(--theme-secondary-700);
-  --theme-accent: var(--theme-accent-500);
-  --theme-success: var(--theme-success-800);
-  --theme-info: var(--theme-info-800);
-  --theme-warning: var(--theme-warning-500);
-  --theme-danger: var(--theme-danger-800);
-  --theme-link-color: var(--theme-info-100);
-  --theme-ui: var(--theme-gray-400);
-  --theme-ui-light: var(--theme-gray-300);
-  --theme-ui-light: var(--theme-gray-700);
+  --theme-primary    : var(--theme-primary-800);
+  --theme-secondary  : var(--theme-secondary-700);
+  --theme-accent     : var(--theme-accent-500);
+  --theme-success    : var(--theme-success-800);
+  --theme-info       : var(--theme-info-800);
+  --theme-warning    : var(--theme-warning-500);
+  --theme-danger     : var(--theme-danger-800);
+  --theme-link-color : var(--theme-info-100);
+
+  --theme-ui         : var(--theme-gray-400);
+  --theme-ui-light   : var(--theme-gray-800);
   --theme-ui-priority: var(--theme-link-color);
-  --theme-text-normal: var(--theme-gray-100);
-  --theme-body-bg: #242426;
-  --bs-body-color: var(--theme-text-normal);
-  --bs-body-bg: var(--theme-body-bg);
-  --bs-code-color: var(--theme-danger-200);
+  --theme-text-normal: var(--theme-gray-white);
+  --theme-body-bg    : var(--theme-gray-900);
+
+  --bs-body-color    : var(--theme-text-normal);
+  --bs-body-bg       : var(--theme-body-bg);
+  --bs-code-color    : var(--theme-danger-200);
+  --bs-emphasis-color: ''; /* overidden for active tabs color */
 
   /* 3. Set properties which are shared */
   /* borders */
 
-  --theme-border-color: var(--theme-ui);
-  --theme-border-color-lighter: var(--theme-ui-light);
-  --theme-border-width: 0.125rem;
-  --theme-border-style: solid;
-  --bs-border-color: var(--theme-border-color);
+  --theme-border-color        : var(--theme-ui);
+  --theme-border-color-lighter: var(--theme-gray-400);
+  --theme-border-width        : 0.125rem;
+  --theme-border-style        : solid;
+  --bs-border-color           : var(--theme-border-color);
 
   /* 4. Set the properties for Bootstrap and Pelican items */
   /* alerts */
@@ -162,11 +179,11 @@
 
   --theme-alert-success-text-color: var(--theme-gray-white);
   --theme-alert-success-bg-color: var(--theme-success-700);
-  --theme-alert-success-border-color: var(--theme-success-500);
+  --theme-alert-success-border-color: var(--theme-success-600);
 
   --theme-alert-info-text-color: var(--theme-gray-white);
   --theme-alert-info-bg-color: var(--theme-info-700);
-  --theme-alert-info-border-color: var(--theme-info-500);
+  --theme-alert-info-border-color: var(--theme-info-600);
 
   --theme-alert-warning-text-color: var(--theme-warning-900);
   --theme-alert-warning-bg-color: var(--theme-warning-500);
@@ -174,7 +191,7 @@
 
   --theme-alert-danger-text-color: var(--theme-gray-white);
   --theme-alert-danger-bg-color: var(--theme-danger-700);
-  --theme-alert-danger-border-color: var(--theme-danger-300);
+  --theme-alert-danger-border-color: var(--theme-danger-600);
 
   /* badges, chips */
 
@@ -215,22 +232,22 @@
   --theme-button-shadow-color: var(--theme-ui-light);
   --theme-button-text-dark-color: var(--bs-black);
   --theme-button-text-light-color: var(--bs-white);
-  --theme-button-container-bg-color: var(--theme-gray-black);
+  --theme-button-container-bg-color: var(--theme-card-bg-color);
   --theme-button-container-border-color: transparent;
   --bs-btn-disabled-opacity: 1;
   /* adjust button rules outside of the root element of this document */
 
   /* cards */
 
-  --theme-card-bg-color: var(--theme-gray-900);
-  --theme-card-nested-bg-color: var(--theme-gray-800);
-  --theme-card-border-color: var(--theme-border-color-lighter);
-  --theme-card-border-width: .0625rem;
+  --theme-card-bg-color       : var(--theme-gray-700);
+  --theme-card-nested-bg-color: var(--theme-gray-600);
+  --theme-card-border-color   : var(--theme-border-color-lighter);
+  --theme-card-border-width   : .0625rem;
 
   /* content-container */
 
-  --theme-content-container-bg-color: var(--theme-card-bg-color);
-  --theme-content-container-border-color: var(--theme-border-color-lighter);
+  --theme-content-container-bg-color            : var(--theme-gray-800);
+  --theme-content-container-border-color        : var(--theme-border-color-lighter);
   --theme-content-container-less-bright-bg-color: #fbf9f9;
 
   /* focus */
@@ -270,9 +287,9 @@
   --theme-form-input-shadow-color: var(--theme-ui-light);
   --theme-input-btn-focus-color: var(--theme-focus-color);
   --theme-form-active-color: var(--theme-ui-priority);
-  --theme-form-check-input-color: var(--theme-gray-white);
-  --theme-form-check-input-checked-bg-color: var(--theme-ui-priority);
-  --theme-form-check-input-checked-border-color: var(--theme-ui-priority);
+  --theme-form-check-input-color: var(--theme-gray-black);
+  --theme-form-check-input-checked-bg-color: var(--theme-link-color);
+  --theme-form-check-input-checked-border-color: var(--theme-link-color);
 
   /* form validation */
     --theme-form-validation-error-muted-color: var(--theme-danger-200);
@@ -316,9 +333,12 @@
 
   /* List Groups */
 
-  --theme-list-group-link-color: var(--theme-link-color);
-  --theme-list-group-bg: var(--theme-card-bg-color);
-  --theme-list-group-border-color: var(--theme-card-border-color);
+  --theme-list-group-link-color      : var(--theme-link-color);
+  --theme-list-group-bg              : var(--theme-card-bg-color);
+  --theme-list-group-border-color    : var(--theme-card-border-color);
+  --bs-list-group-action-hover-color : var(--theme-link-color);
+  --bs-list-group-action-hover-bg    : var(--theme-gray-800);
+  --bs-tertiary-bg                   : var(--bs-list-group-action-hover-bg);  
 
   /* modals */
 
@@ -383,17 +403,17 @@
 
   /* sidebar & topbar */
 
-  --theme-topbar-bg-color: var(--bs-black);
-  --theme-topbar-text-color: var(--bs-white);
-  --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
-  --theme-sidebar-wrapper-bg-color: var(--theme-card-bg-color);
-  --theme-sidebar-wrapper-border-color: var(--theme-body-bg-color);
-  --theme-sidebar-header-border-color: var(--theme-primary-900);
-  --theme-sidebar-link-color: var(--theme-link-color);
-  --theme-sidebar-link-active-color: var(--theme-gray-white);
-  --theme-sidebar-link-hover-color: var(--theme-gray-white);
-  --theme-sidebar-item-bg-color: var(--theme-info);
-  --theme-sidebar-submenu-bg-color: var(--theme-body-bg);
+  --theme-topbar-bg-color              : var(--bs-black);
+  --theme-topbar-text-color            : var(--bs-white);
+  --theme-sidebar-brand-bg-color       : var(--theme-topbar-bg-color);
+  --theme-sidebar-wrapper-bg-color     : var(--theme-content-container-bg-color);
+  --theme-sidebar-wrapper-border-color : var(--theme-body-bg-color);
+  --theme-sidebar-header-border-color  : var(--theme-primary-900);
+  --theme-sidebar-link-color           : var(--theme-link-color);
+  --theme-sidebar-link-active-color    : var(--theme-gray-white);
+  --theme-sidebar-link-hover-color     : var(--theme-gray-white);
+  --theme-sidebar-item-bg-color        : var(--theme-info);
+  --theme-sidebar-submenu-bg-color     : var(--theme-body-bg);
 
   /* skip to main */
 
@@ -405,7 +425,7 @@
   --theme-table-border-width: 0.0625rem;
   --theme-table-border-width-thick: 0.1875rem;
   --theme-table-cell-padding: 0.5rem;
-  --theme-table-striped-bg: var(--theme-body-bg);
+  --theme-table-striped-bg: var(--theme-gray-800);
   --theme-table-border-color: var(--theme-border-color-lighter);
   --bs-pagination-bg: var(--theme-gray-white);
 
@@ -413,25 +433,25 @@
 
   --theme-toast-header-success-bg-color: var(--theme-success-100);
   --theme-toast-header-success-text-color: var(--theme-success-900);
-  --theme-toast-bg-success-color: var(--bs-white);
-  --theme-toast-text-success-color: var(--theme-text-normal);
+  --theme-toast-bg-success-color: var(--theme-success-100);
+  --theme-toast-text-success-color: var(--theme-toast-header-success-text-color);
 
   --theme-toast-header-info-bg-color: var(--theme-info-100);
   --theme-toast-header-info-text-color: var(--theme-info-900);
-  --theme-toast-bg-info-color: var(--bs-white);
-  --theme-toast-text-info-color: var(--theme-text-normal);
+  --theme-toast-bg-info-color: var(--theme-info-100);
+  --theme-toast-text-info-color: var(--theme-toast-header-info-text-color);
 
   --theme-toast-header-warning-bg-color: var(--theme-warning-100);
   --theme-toast-header-warning-text-color: var(--theme-warning-900);
-  --theme-toast-bg-warning-color: var(--bs-white);
-  --theme-toast-text-warning-color: var(--theme-text-normal);
+  --theme-toast-bg-warning-color: var(--theme-warning-100);
+  --theme-toast-text-warning-color: var(--theme-toast-header-warnin-textg-color);
 
   --theme-toast-header-danger-bg-color: var(--theme-danger-100);
   --theme-toast-header-danger-text-color: var(--theme-danger-900);
-  --theme-toast-bg-danger-color: var(--bs-white);
-  --theme-toast-text-danger-color: var(--theme-text-normal);
+  --theme-toast-bg-danger-color: var(--theme-danger-100);
+  --theme-toast-text-danger-color: var(--theme-toast-header-danger-text-color);
 
-  --theme-toast-shadow-color: var(--theme-gray-200);
+  --theme-toast-shadow-color: var(--theme-gray-white);
 
   /* toc */
 
@@ -506,7 +526,7 @@
   --bs-btn-border-color: var(--theme-gray-400);
 
   --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-ui);
+  --bs-btn-hover-bg: var(--theme-ui-light);
   --bs-btn-hover-border-color: var(--theme-ui);
 
   --bs-btn-active-color: var(--bs-white);
@@ -570,6 +590,16 @@
   --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-danger-200);
   --bs-btn-disabled-border-color: var(--theme-danger-200);
+}
+
+*::-webkit-scrollbar {
+
+}
+*::-webkit-scrollbar-track {
+	background-color: var(--theme-gray-black);
+}
+*::-webkit-scrollbar-thumb {
+	background-color: var(--theme-ui);
 }
 
 /* 6. Save file! */
