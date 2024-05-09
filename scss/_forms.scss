@@ -1,5 +1,9 @@
 .form-control {
   background-color: var(--theme-card-bg-color);
+  &[type=date]::-webkit-calendar-picker-indicator {
+		// todo find a better method to control date icon in chrome data picker in dark mode
+		filter: invert(1);
+	}
   &.disabled,
   &[disabled],
   &[readonly] {

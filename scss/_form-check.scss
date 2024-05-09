@@ -2,20 +2,10 @@
 	background-color: var(--theme-card-bg-color);
 	border-color	: var(--theme-form-border-color);
 	position		:relative;
-	&:checked {
-		background-color: var(--theme-form-check-input-checked-bg-color);
-		border-color	: var(--theme-form-check-input-checked-border-color);
-		background-image: none;
-		&:after {
-			content: '\f00c';
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 900;
-			font-size: .625rem;
-			display: block;
-			position: absolute;
-			width: .625rem; height: .625rem;
-			top: -.3625rem; left: .3625rem;
-			transform: translateY(50%) translateX(-50%);
+	&[type=checkbox], &[type=radio], &[type=checkbox][role=switch] {
+		&:checked {
+			background-color: var(--theme-form-check-input-checked-bg-color);
+			border-color	: var(--theme-form-check-input-checked-border-color);
 		}
 	}
 }

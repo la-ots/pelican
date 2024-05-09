@@ -73,7 +73,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "forms";
 @import "form-check";
 @import "form-select";
-@import "custom-forms";
+@import "forms-custom";
 @import "hero";
 @import "images";
 @import "list-group";
