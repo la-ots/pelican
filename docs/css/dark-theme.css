@@ -611,5 +611,13 @@
 .toggle-token.form-check .form-check-input:checked + .form-check-label .icon {
 	color: var(--theme-gray-black);
 }
-
+.text-danger {
+	color: var(--theme-danger-200)!important;
+}
+.text-success {
+	color: var(--theme-success-200)!important;
+}
+.text-ui-priority {
+	color: var(--theme-link-color)!important;
+}
 /* 7. Save file! */

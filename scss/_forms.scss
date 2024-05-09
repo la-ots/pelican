@@ -31,5 +31,5 @@
   // this is used on form templates
   @extend .h3;
   @extend .mb-6;
-  @extend .text-primary;
+  color: var(--theme-headings-color);
 }
