@@ -1,0 +1,41 @@
+<main id="main" class="content-container pr-0 pl-0 mb-0 home-main" aria-label="Explaining Pelican">
+	<div class="container" aria-label="What’s in Pelican?" role="region">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="h2" id="inpelican">What’s in Pelican?</h2>
+				<p class="lead">Pelican is a design system. It has user experience guidance and reusable code patterns for creating easy-to-use, standardized digital products for Louisiana’s people.</p>
+			</div>
+		</div>
+		<div class="row" role="list">
+			{% for card in cards %}
+			<div class="col-12 col-md-4">
+				{% set icon       = card.icon %}
+				{% set heading    = card.heading %}
+				{% set sentence   = card.sentence %}
+				{% set buttonText = card.buttonText %}
+				{% set buttonLink = card.buttonLink %}
+				{% include 'home-card.njk' %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="container mt-12" aria-label="What’s a Design System?" role="region">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="h2" id="whatsds">What’s a design system?</h2>
+				<p class="lead ">Design systems provide solutions to common problems digital teams face. They combine UX principles, interface components, and code. Teams work faster, design better, and focus on new problems instead of old ones.</p>
+			</div>
+		</div>
+		<div class="row" role="list">
+			{% for feature in features %}
+			<div class="col-12 col-md-6">
+				{% set icon       = feature.icon %}
+				{% set heading    = feature.heading %}
+				{% set sentence   = feature.sentence %}
+				{% include 'home-feature.njk' %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</main>
+  
