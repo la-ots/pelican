@@ -229,12 +229,13 @@
 
   /* buttons */
 
-  --theme-button-shadow-color: var(--theme-ui-light);
+  --theme-button-shadow-color: var(--theme-gray-black);
   --theme-button-text-dark-color: var(--bs-black);
   --theme-button-text-light-color: var(--bs-white);
   --theme-button-container-bg-color: var(--theme-card-bg-color);
   --theme-button-container-border-color: transparent;
   --bs-btn-disabled-opacity: 1;
+  --theme-button-close-color: var(--theme-ui);
   /* adjust button rules outside of the root element of this document */
 
   /* cards */
@@ -314,8 +315,8 @@
   --theme-hero-dual-pane-text-color: var(--theme-gray-white);
 
   --theme-hero-single-pane-bg-color: var(--theme-gray-700);
-  --theme-hero-single-pane-header-text-color: var(--theme-gray-100);
-  --theme-hero-single-pane-small-text-color: var(--theme-gray-100);
+  --theme-hero-single-pane-header-text-color: var(--theme-gray-white);
+  --theme-hero-single-pane-small-text-color: var(--theme-gray-white);
 
   --theme-hero-boxed-photo-bg-color: var(--theme-gray-700);
   --theme-hero-boxed-photo-text-color: var(--theme-gray-white);

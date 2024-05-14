@@ -14,6 +14,9 @@
   @extend .text-decoration-none;
   background-color: transparent !important;
 }
+.btn-close {
+  color: var(--theme-button-close-color)!important;
+}
 .btn-container {
   padding: 1rem;
   margin-top: 1rem;

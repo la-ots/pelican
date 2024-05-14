@@ -17,6 +17,8 @@ eleventyNavigation:
 - Put the Loading Animation into the markup which wraps the loaded content.
 - Hide the Loading Animation when the content is finished loading.
 
+<!-- // to do : adjust contrast for dark mode -->
+
 ## Usage
 
 <div class="spinner-border text-info" role="status">

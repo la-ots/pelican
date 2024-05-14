@@ -62,7 +62,7 @@ The Primary color is the color most recognized and associated with a brand. In P
 
 **Secondary**
 
-The Secondary color is used to support the primary color. In Pelican, ``, is often used for the following items:
+The Secondary color is used to support the primary color. In Pelican, `$secondary`, is often used for the following items:
 
 - Supporting action buttons
 - Translucent overlay background colors

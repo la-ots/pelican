@@ -217,6 +217,7 @@
   --theme-button-text-light-color: var(--bs-white);
   --theme-button-container-bg-color: var(--bs-white);
   --theme-button-container-border-color: var(--theme-gray-300);
+  --theme-button-close-color: var(--theme-ui);
   /* adjust button rules outside of the root element of this document */
 
   /* cards */
