@@ -48,6 +48,7 @@
 .home-main {
 	color: var(--theme-text-normal);
 	background-color: var(--theme-body-bg);
+	border-color: var(--theme-ui-light);
 }
 .home-main .lead {
 	color: var(--theme-headings-color);
