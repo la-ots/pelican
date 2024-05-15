@@ -21,7 +21,7 @@
 
   /* primaries  */
 
-  --theme-primary-50: #f4fcff;
+  --theme-primary-50 : #f4fcff;
   --theme-primary-100: #e9f8ff;
   --theme-primary-200: #d4ecfe;
   --theme-primary-300: #b4ddf8;
@@ -34,7 +34,7 @@
 
   /* secondaries  */
 
-  --theme-secondary-50: #eefffc;
+  --theme-secondary-50 : #eefffc;
   --theme-secondary-100: #c5fffa;
   --theme-secondary-200: #8bfff5;
   --theme-secondary-300: #4afef0;
@@ -47,7 +47,7 @@
 
   /* accents  */
 
-  --theme-accent-50: #fffaea;
+  --theme-accent-50 : #fffaea;
   --theme-accent-100: #fff2c5;
   --theme-accent-200: #ffe586;
   --theme-accent-300: #ffd146;
@@ -60,7 +60,7 @@
 
   /* successes  */
 
-  --theme-success-50: #e8ffe6;
+  --theme-success-50 : #e8ffe6;
   --theme-success-100: #cbffc8;
   --theme-success-200: #9dfe98;
   --theme-success-300: #60fa5c;
@@ -73,7 +73,7 @@
 
   /* infos  */
 
-  --theme-info-50: #ebf9ff;
+  --theme-info-50 : #ebf9ff;
   --theme-info-100: #d1f3ff;
   --theme-info-200: #aeeaff;
   --theme-info-300: #76dfff;
@@ -86,7 +86,7 @@
 
   /* warnings  */
 
-  --theme-warning-50: #ffffea;
+  --theme-warning-50 : #ffffea;
   --theme-warning-100: #fffbc5;
   --theme-warning-200: #fff885;
   --theme-warning-300: #ffee46;
@@ -99,7 +99,7 @@
 
   /* dangers  */
 
-  --theme-danger-50: #ffefef;
+  --theme-danger-50 : #ffefef;
   --theme-danger-100: #ffdcdd;
   --theme-danger-200: #ffbfc0;
   --theme-danger-300: #ff9294;
@@ -113,7 +113,7 @@
   /* grays  */
 
   --theme-gray-white: #ffffff;
-  --theme-gray-50: #f7f8f8;
+  --theme-gray-50 : #f7f8f8;
   --theme-gray-100: #ebeeef;
   --theme-gray-200: #d8dddf;
   --theme-gray-300: #b6c1c3;
@@ -241,26 +241,26 @@
   /* feature blocks */
   /* you may need still need to change the classes on buttons */
 
-  --theme-feature-cta-single-bg-color: var(--theme-gray-white);
-  --theme-feature-cta-single-text-color: var(--theme-primary);
+  --theme-feature-cta-single-bg-color: var(--theme-card-bg-color);
+  --theme-feature-cta-single-text-color: var(--theme-text-normal);
 
-  --theme-feature-cta-double-bg-color: var(--theme-primary);
-  --theme-feature-cta-double-text-color: var(--theme-gray-white);
+  --theme-feature-cta-double-bg-color: var(--theme-card-bg-color);
+  --theme-feature-cta-double-text-color: var(--theme-text-normal);
 
-  --theme-feature-icons-text-bg-color: var(--theme-secondary);
-  --theme-feature-icons-text-text-color: var(--theme-gray-white);
+  --theme-feature-icons-text-bg-color: var(--theme-card-bg-color);
+  --theme-feature-icons-text-text-color: var(--theme-text-normal);
 
-  --theme-feature-languages-bg-color: var(--theme-accent);
-  --theme-feature-languages-text-color: var(--theme-primary);
-  --theme-feature-languages-item-text-color: var(--theme-primary);
-  --theme-feature-languages-item-bg-color: var(--theme-gray-white);
+  --theme-feature-languages-bg-color: var(--theme-card-bg-color);
+  --theme-feature-languages-text-color: var(--theme-text-normal);
+  --theme-feature-languages-item-text-color: var(--theme-text-normal);
+  --theme-feature-languages-item-bg-color: var(--theme-ui-light);
 
-  --theme-feature-many-icons-text-bg-color: var(--theme-primary);
-  --theme-feature-many-icons-text-color: var(--theme-gray-white);
+  --theme-feature-many-icons-text-bg-color: var(--theme-card-bg-color);
+  --theme-feature-many-icons-text-color: var(--theme-text-normal);
 
-  --theme-feature-set-bg-color: var(--theme-gray-white);
-  --theme-feature-set-text-color: var(--theme-primary);
-  --theme-feature-set-icon-color: var(--theme-primary);
+  --theme-feature-set-bg-color: var(--theme-card-bg-color);
+  --theme-feature-set-text-color: var(--theme-text-normal);
+  --theme-feature-set-icon-color: var(--theme-text-normal);
 
   /* forms */
   /* forms are not yet fully enabled with CSS Variables */
@@ -291,25 +291,24 @@
   /* hero blocks */
   /* you may need still need to change the classes on buttons */
 
-  --theme-hero-dual-pane-bg-color: var(--theme-primary);
-  --theme-hero-dual-pane-overlay-left-bg-color: var(--theme-primary);
-  --theme-hero-dual-pane-overlay-right-bg-color: var(--theme-secondary);
-  --theme-hero-dual-pane-text-color: var(--theme-gray-white);
+  --theme-hero-single-pane-bg-color: var(--theme-card-bg-color);
+  --theme-hero-single-pane-header-text-color: var(--theme-text-normal);
+  --theme-hero-single-pane-small-text-color: var(--theme-text-normal);
 
-  --theme-hero-single-pane-bg-color: var(--theme-primary);
-  --theme-hero-single-pane-header-text-color: var(--theme-gray-white);
-  --theme-hero-single-pane-small-text-color: var(--theme-gray-white);
+  --theme-hero-dual-pane-overlay-left-bg-color: var(--theme-ui);
+  --theme-hero-dual-pane-overlay-right-bg-color: var(--theme-ui-light);
+  --theme-hero-dual-pane-text-color: var(--theme-text-normal);
 
-  --theme-hero-boxed-photo-bg-color: var(--theme-gray-white);
-  --theme-hero-boxed-photo-text-color: var(--theme-primary);
+  --theme-hero-boxed-photo-bg-color: var(--theme-card-bg-color);
+  --theme-hero-boxed-photo-text-color: var(--theme-text-normal);
 
-  --theme-hero-color-toned-bg-color: var(--theme-secondary);
+  --theme-hero-color-toned-bg-color: var(--theme-gray-black);
   --theme-hero-color-toned-overlay-opacity: 0.85;
-  --theme-hero-color-toned-text-color: var(--theme-gray-white);
+  --theme-hero-color-toned-text-color: var(--theme-text-normal);
 
-  --theme-textbox-over-photo-bg-color: var(--theme-primary);
+  --theme-textbox-over-photo-bg-color: var(--theme-gray-black);
   --theme-textbox-over-photo-overlay-opacity: 0.5;
-  --theme-textbox-over-photo-text-color: var(--theme-gray-white);
+  --theme-textbox-over-photo-text-color: var(--theme-text-normal);
 
   /* HR, dividers */
 

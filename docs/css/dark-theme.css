@@ -152,7 +152,7 @@
   --theme-danger     : var(--theme-danger-800);
   --theme-link-color : var(--theme-info-100);
 
-  --theme-ui         : var(--theme-gray-400);
+  --theme-ui         : var(--theme-gray-300);
   --theme-ui-light   : var(--theme-gray-800);
   --theme-ui-priority: var(--theme-link-color);
   --theme-text-normal: var(--theme-gray-white);
@@ -259,26 +259,26 @@
   /* feature blocks */
   /* you may need still need to change the classes on buttons */
 
-  --theme-feature-cta-single-bg-color: var(--theme-gray-900);
-  --theme-feature-cta-single-text-color: var(--theme-gray-white);
+  --theme-feature-cta-single-bg-color: var(--theme-card-bg-color);
+  --theme-feature-cta-single-text-color: var(--theme-text-normal);
 
-  --theme-feature-cta-double-bg-color: var(--theme-gray-900);
-  --theme-feature-cta-double-text-color: var(--theme-gray-white);
+  --theme-feature-cta-double-bg-color: var(--theme-card-bg-color);
+  --theme-feature-cta-double-text-color: var(--theme-text-normal);
 
-  --theme-feature-icons-text-bg-color: var(--theme-gray-900);
-  --theme-feature-icons-text-text-color: var(--theme-gray-white);
+  --theme-feature-icons-text-bg-color: var(--theme-card-bg-color);
+  --theme-feature-icons-text-text-color: var(--theme-text-normal);
 
-  --theme-feature-languages-bg-color: var(--theme-gray-900);
-  --theme-feature-languages-text-color: var(--theme-gray-white);
-  --theme-feature-languages-item-text-color: var(--theme-gray-white);
-  --theme-feature-languages-item-bg-color: var(--theme-gray-700);
+  --theme-feature-languages-bg-color: var(--theme-card-bg-color);
+  --theme-feature-languages-text-color: var(--theme-text-normal);
+  --theme-feature-languages-item-text-color: var(--theme-text-normal);
+  --theme-feature-languages-item-bg-color: var(--theme-ui-light);
 
-  --theme-feature-many-icons-text-bg-color: var(--theme-gray-900);
-  --theme-feature-many-icons-text-color: var(--theme-gray-white);
+  --theme-feature-many-icons-text-bg-color: var(--theme-card-bg-color);
+  --theme-feature-many-icons-text-color: var(--theme-text-normal);
 
-  --theme-feature-set-bg-color: var(--theme-gray-900);
-  --theme-feature-set-text-color: var(--theme-gray-white);
-  --theme-feature-set-icon-color: var(--theme-gray-white);
+  --theme-feature-set-bg-color: var(--theme-card-bg-color);
+  --theme-feature-set-text-color: var(--theme-text-normal);
+  --theme-feature-set-icon-color: var(--theme-text-normal);
 
   /* forms */
   /* forms are not yet fully enabled with CSS Variables */
@@ -309,25 +309,24 @@
   /* hero blocks */
   /* you may need still need to change the classes on buttons */
 
-  --theme-hero-dual-pane-bg-color: var(--theme-primary);
+  --theme-hero-single-pane-bg-color: var(--theme-card-bg-color);
+  --theme-hero-single-pane-header-text-color: var(--theme-text-normal);
+  --theme-hero-single-pane-small-text-color: var(--theme-text-normal);
+
   --theme-hero-dual-pane-overlay-left-bg-color: var(--theme-gray-900);
-  --theme-hero-dual-pane-overlay-right-bg-color: var(--theme-gray-700);
-  --theme-hero-dual-pane-text-color: var(--theme-gray-white);
+  --theme-hero-dual-pane-overlay-right-bg-color: var(--theme-gray-black);
+  --theme-hero-dual-pane-text-color: var(--theme-text-normal);
 
-  --theme-hero-single-pane-bg-color: var(--theme-gray-700);
-  --theme-hero-single-pane-header-text-color: var(--theme-gray-white);
-  --theme-hero-single-pane-small-text-color: var(--theme-gray-white);
+  --theme-hero-boxed-photo-bg-color: var(--theme-card-bg-color);
+  --theme-hero-boxed-photo-text-color: var(--theme-text-normal);
 
-  --theme-hero-boxed-photo-bg-color: var(--theme-gray-700);
-  --theme-hero-boxed-photo-text-color: var(--theme-gray-white);
-
-  --theme-hero-color-toned-bg-color: var(--theme-secondary-900);
+  --theme-hero-color-toned-bg-color: var(--theme-gray-black);
   --theme-hero-color-toned-overlay-opacity: 0.85;
-  --theme-hero-color-toned-text-color: var(--theme-gray-white);
+  --theme-hero-color-toned-text-color: var(--theme-text-normal);
 
-  --theme-textbox-over-photo-bg-color: var(--theme-gray-900);
+  --theme-textbox-over-photo-bg-color: var(--theme-gray-black);
   --theme-textbox-over-photo-overlay-opacity: 0.5;
-  --theme-textbox-over-photo-text-color: var(--theme-gray-white);
+  --theme-textbox-over-photo-text-color: var(--theme-text-normal);
 
   /* HR, dividers */
 
@@ -351,7 +350,7 @@
 
   /* navbars */
 
-  --theme-navbar-bg-color: var(--theme-primary);
+  --theme-navbar-bg-color: var(--theme-primary-900);
   --theme-navbar-text-color: var(--theme-gray-white);
   --theme-navbar-text-color-rgb: 255, 255, 255;
   --theme-navbar-inner-border-color: var(--theme-accent);
@@ -487,48 +486,42 @@
 /* buttons */
 
 .btn-primary {
-  --bs-btn-color: var(--theme-gray-black);
-  --bs-btn-bg: var(--theme-gray-white);
-  --bs-btn-border-color: var(--theme-gray-white);
-
-  --bs-btn-hover-color: var(--theme-gray-black);
-  --bs-btn-hover-bg: var(--theme-gray-white);
-  --bs-btn-hover-border-color: var(--theme-gray-white);
-  
-  --bs-btn-active-color: var(--theme-primary);
-  --bs-btn-active-bg: var(--theme-gray-white);
-  --bs-btn-active-border-color: var(--theme-gray-white);
- 
-  --bs-btn-btnbled-color: var(--bs-white);
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--theme-primary);
+  --bs-btn-border-color: var(--theme-primary);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--theme-primary-700);
+  --bs-btn-hover-border-color: var(--theme-primary-700);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--theme-primary-800);
+  --bs-btn-active-border-color: var(--theme-primary-800);
+  --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-primary-200);
   --bs-btn-disabled-border-color: var(--theme-primary-200);
 }
 
 .btn-secondary {
-  --bs-btn-color: var(--theme-secondary-900);
-  --bs-btn-bg: var(--theme-secondary-200);
-  --bs-btn-border-color: var(--theme-secondary-200);
-
-  --bs-btn-hover-color: var(--theme-secondary-900);
-  --bs-btn-hover-bg: var(--theme-secondary-50);
-  --bs-btn-hover-border-color: var(--theme-secondary-50);
-
-  --bs-btn-active-color: var(--theme-secondary-900);
-  --bs-btn-active-bg: var(--theme-secondary-50);
-  --bs-btn-active-border-color: var(--theme-secondary-50);
-
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--theme-secondary);
+  --bs-btn-border-color: var(--theme-secondary);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--theme-secondary-600);
+  --bs-btn-hover-border-color: var(--theme-secondary-600);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--theme-secondary-800);
+  --bs-btn-active-border-color: var(--theme-secondary-800);
   --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-secondary-200);
   --bs-btn-disabled-border-color: var(--theme-secondary-200);
 }
 
 .btn-outline-ui {
-  --bs-btn-color: var(--theme-text-normal);
+  --bs-btn-color: var(--theme-grays-white);
   --bs-btn-bg: transparent;
-  --bs-btn-border-color: var(--theme-gray-400);
+  --bs-btn-border-color: var(--theme-ui);
 
   --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-ui-light);
+  --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: var(--theme-ui);
 
   --bs-btn-active-color: var(--bs-white);
@@ -541,54 +534,45 @@
 }
 
 .btn-link {
-  --bs-btn-color: var(--theme-link-color);
+  --bs-btn-color: var(--theme-info);
   --bs-btn-bg: var(--bs-white);
   --bs-btn-border-color: var(--bs-white);
-
-  --bs-btn-hover-color: var(--theme-gray-white);
+  --bs-btn-hover-color: var(--theme-info);
   --bs-btn-hover-bg: var(--theme-info-50);
   --bs-btn-hover-border-color: var(--theme-info-50);
-
   --bs-btn-active-color: var(--theme-info-900);
   --bs-btn-active-bg: var(--theme-info-100);
   --bs-btn-active-border-color: var(--theme-info-100);
-
   --bs-btn-disabled-color: var(--theme-info-200);
   --bs-btn-disabled-bg: var(--bs-white);
   --bs-btn-disabled-border-color: var(--bs-white);
 }
 
 .btn-warning {
-  --bs-btn-color: var(--theme-warning-900);
-  --bs-btn-bg: var(--theme-warning-200);
-  --bs-btn-border-color: var(--theme-warning-200);
-
-  --bs-btn-hover-color: var(--theme-warning-900);
-  --bs-btn-hover-bg: var(--theme-warning-100);
-  --bs-btn-hover-border-color: var(--theme-warning-100);
-
-  --bs-btn-active-color: var(--theme-warning-900);
-  --bs-btn-active-bg: var(--theme-warning-100);
-  --bs-btn-active-border-color: var(--theme-warning-100);
-
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-bg: var(--theme-warning);
+  --bs-btn-border-color: var(--theme-warning);
+  --bs-btn-hover-color: var(--bs-black);
+  --bs-btn-hover-bg: var(--theme-warning-400);
+  --bs-btn-hover-border-color: var(--theme-warning-400);
+  --bs-btn-active-color: var(--bs-black);
+  --bs-btn-active-bg: var(--theme-warning-600);
+  --bs-btn-active-border-color: var(--theme-warning-600);
   --bs-btn-disabled-color: var(--theme-warning-400);
   --bs-btn-disabled-bg: var(--theme-warning-200);
   --bs-btn-disabled-border-color: var(--theme-warning-200);
 }
 
 .btn-danger {
-  --bs-btn-color: var(--theme-danger-900);
-  --bs-btn-bg: var(--theme-danger-200);
-  --bs-btn-border-color: var(--theme-danger-200);
-
-  --bs-btn-hover-color: var(--theme-danger-900);
-  --bs-btn-hover-bg: var(--theme-danger-100);
-  --bs-btn-hover-border-color: var(--theme-danger-100);
-
-  --bs-btn-active-color: var(--theme-danger-900);
-  --bs-btn-active-bg: var(--theme-danger-100);
-  --bs-btn-active-border-color: var(--theme-danger-100);
-
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--theme-danger);
+  --bs-btn-border-color: var(--theme-danger);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--theme-danger-700);
+  --bs-btn-hover-border-color: var(--theme-danger-700);
+  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-bg: var(--theme-danger-900);
+  --bs-btn-active-border-color: var(--theme-danger-900);
   --bs-btn-disabled-color: var(--bs-white);
   --bs-btn-disabled-bg: var(--theme-danger-200);
   --bs-btn-disabled-border-color: var(--theme-danger-200);
@@ -622,24 +606,5 @@
 .text-ui-priority {
 	color: var(--theme-link-color)!important;
 }
-.feature-cta.bg-texture-primary {
-	background-image: none;
-	background-color: transparent;
-}
 
-*::-webkit-scrollbar-track
-{
-  border-radius: 0;
-  background-color: var(--theme-gray-black);
-}
-*::-webkit-scrollbar
-{
-  width: .75rem;
-  background-color: var(--theme-gray-400);
-}
-*::-webkit-scrollbar-thumb
-{
-  border-radius: .5rem;
-  background-color: var(--theme-gray-400);
-}
 /* 7. Save file! */

@@ -45,7 +45,7 @@
 	opacity: 1;
 }
 
-.home-main {
+.home-main.content-container {
 	color: var(--theme-text-normal);
 	background-color: var(--theme-body-bg);
 	border-color: var(--theme-ui-light);
@@ -54,6 +54,7 @@
 	color: var(--theme-headings-color);
 }
 .home-card {
+	background-color: var(--theme-card-bg-color);
 	border: none;
 }
 .home-card h3 {
@@ -97,6 +98,11 @@
 .home-feature .text-wrapper h3 {
 	font-size  : 1.5rem;
 	font-weight: 400;
+}
+@media (prefers-color-scheme: dark) {
+	.feature-cta.bg-texture-primary {
+		background-color: var(--theme-primary-900);
+	}
 }
 @media screen and (min-width: 992px) {
 	.home-feature {

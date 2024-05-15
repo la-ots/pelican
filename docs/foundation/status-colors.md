@@ -24,7 +24,7 @@ Status colors should not be the sole way statuses are communicated to users. How
             <div class="card-body">
                 <p class="mb-0 fw-bold">Success</p>
                 <p class="mb-0"><code>#0d6211</code></p>
-                <p class="mb-0"><code>$success</code></p>
+                <p class="mb-0"><code>--theme-success</code></p>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@ Status colors should not be the sole way statuses are communicated to users. How
             <div class="card-body">
                 <p class="mb-0 fw-bold">Warning</p>
                 <p class="mb-0"><code>#ffc107</code></p>
-                <p class="mb-0"><code>$warning</code></p>
+                <p class="mb-0"><code>--theme-warning</code></p>
             </div>
         </div>
     </div>
@@ -44,7 +44,7 @@ Status colors should not be the sole way statuses are communicated to users. How
             <div class="card-body">
                 <p class="mb-0 fw-bold">Danger</p>
                 <p class="mb-0"><code>#b00003</code></p>
-                <p class="mb-0"><code>$danger</code></p>
+                <p class="mb-0"><code>--theme-danger</code></p>
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ Status colors should not be the sole way statuses are communicated to users. How
             <div class="card-body">
                 <p class="mb-0 fw-bold">Info</p>
                 <p class="mb-0"><code>#004ba1</code></p>
-                <p class="mb-0"><code>$info</code></p>
+                <p class="mb-0"><code>--theme-info</code></p>
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@ Status colors should not be the sole way statuses are communicated to users. How
 
 ## Using Status Colors
 
-The guidelines below may not cover all situations and use cases in your digital product. Use them as guides for deciding which color is semantically appropriate. Be careful not to use Status Colors as brand colors or influence colors as this will dilute their meaning.
+The guidelines below may not cover all situations and use cases in your digital product. Use them as guides for deciding which color is semantically appropriate. Be careful not to use Status Colors as brand colors as this will dilute their meaning.
 
 ### Success
 
@@ -101,210 +101,7 @@ The Info color indicates informative or helpful information.
 - Should be used to inform the user of in-process system-wide changes which will improve their experience
 - Lighter and darker variations used for background and text colors in [Info Alerts](/components/alerts/)
 
-## Status Color Variations
-
-**Success Status Colors**
-
-<div class="row mb-12">
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-success rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success</p>
-                <p class="mb-0"><code>#0d6211</code></p>
-                <p class="mb-0"><code>$success</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-success-100 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success, Lighter</p>
-                <p class="mb-0"><code>#cbffc8</code></p>
-                <p class="mb-0"><code>$success-100</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-success-900 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Success, Darker</p>
-                <p class="mb-0"><code>#115616</code></p>
-                <p class="mb-0"><code>$success-900</code></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-**Warning Status Colors**
-
-<div class="row mb-12">
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-warning rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning</p>
-                <p class="mb-0"><code>#ffc107</code></p>
-                <p class="mb-0"><code>$warning</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-warning-100 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning, Lighter</p>
-                <p class="mb-0"><code>#fffbc5</code></p>
-                <p class="mb-0"><code>$warning-100</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-warning-900 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Warning, Darker</p>
-                <p class="mb-0"><code>#7c420b</code></p>
-                <p class="mb-0"><code>$warning-900</code></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-**Danger Status Colors**
-
-<div class="row mb-12">
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-danger rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger</p>
-                <p class="mb-0"><code>#b00003</code></p>
-                <p class="mb-0"><code>$danger</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-danger-100 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger, Lighter</p>
-                <p class="mb-0"><code>#ffdcdd</code></p>
-                <p class="mb-0"><code>$danger-100</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-danger-900 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Danger, Darker</p>
-                <p class="mb-0"><code>#94080a</code></p>
-                <p class="mb-0"><code>$danger-900</code></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-**Info Status Colors**
-
-<div class="row mb-12">
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-info rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info</p>
-                <p class="mb-0"><code>#004ba1</code></p>
-                <p class="mb-0"><code>$info</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-info-100 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info, Lighter</p>
-                <p class="mb-0"><code>#d1f3ff</code></p>
-                <p class="mb-0"><code>$info-100</code></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-info-900 rounded-top pd-color-block"></div>
-            <div class="card-body">
-                <p class="mb-0 fw-bold">Info, Darker</p>
-                <p class="mb-0"><code>#004ba1</code></p>
-                <p class="mb-0"><code>$info-900</code></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-## Status Color Class List
-
-The Status Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
-
-<table class="table table-striped mb-12">
-    <thead>
-        <tr>
-            <th>Background Colors</th>
-            <th>Text Colors</th>
-        </tr>
-    </thead>
-    <tbody class="h5">
-        <tr>
-            <td><span class="badge badge-success">bg-success</span></td>
-            <td><span class="badge bg-transparent text-success">text-success</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-success-100 ">bg-success-100</span></td>
-            <td><span class="badge bg-transparent text-success-100">text-success-100</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-success-900 ">bg-success-900</span></td>
-            <td><span class="badge bg-transparent text-success-900">text-success-900</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge badge-warning">bg-warning</span></td>
-            <td><span class="badge bg-transparent text-warning">text-warning</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-warning-100 ">bg-warning-100</span></td>
-            <td><span class="badge bg-transparent text-warning-100">text-warning-100</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-warning-900 ">bg-warning-900</span></td>
-            <td><span class="badge bg-transparent text-warning-900">text-warning-900</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge badge-danger">bg-danger</span></td>
-            <td><span class="badge bg-transparent text-danger">text-danger</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-danger-100 ">bg-danger-100</span></td>
-            <td><span class="badge bg-transparent text-danger-100">text-danger-100</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-danger-900 ">bg-danger-900</span></td>
-            <td><span class="badge bg-transparent text-danger-900">text-danger-900</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge badge-info">bg-info</span></td>
-            <td><span class="badge bg-transparent text-info">text-info</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-info-100 ">bg-info-100</span></td>
-            <td><span class="badge bg-transparent text-info-100">text-info-100</span></td>
-        </tr>
-        <tr>
-            <td><span class="badge bg-info-900 ">bg-info-900</span></td>
-            <td><span class="badge bg-transparent text-info-900">text-info-900</span></td>
-        </tr>                                 
-    </tbody>
-</table>
+{% include 'color-variation-message.njk' %}
 
 ## Resources
 

@@ -22,7 +22,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI</p>
                 <p class="mb-0"><code>#6e8287</code></p>
-                <p class="mb-0"><code>$ui</code></p>
+                <p class="mb-0"><code>--theme-ui</code></p>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI Light</p>
                 <p class="mb-0"><code>#ebeeef</code></p>
-                <p class="mb-0"><code>$ui-light</code></p>
+                <p class="mb-0"><code>--theme-ui-light</code></p>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI Priority</p>
                 <p class="mb-0"><code>#0057d7</code></p>
-                <p class="mb-0"><code>$ui-priority</code></p>
+                <p class="mb-0"><code>--theme-ui-priority</code></p>
             </div>
         </div>
     </div>
@@ -76,32 +76,7 @@ The UI Priority color is taken from calls to action and link colors around the w
 - Buttons which need to [appear more prominently than other UI buttons](/foundation/ui-colors/#ui-vs-ui-blue)
 - [Links in text](/accessibility/about-accessibility/)
 
-## UI Color Class List
-
-The UI Colors are implemented as background colors and as text colors. The classes needed to apply these colors are listed here.
-
-<table class="table table-striped mb-12">
-    <thead>
-        <tr>
-            <th>Background Colors</th>
-            <th>Text Colors</th>
-        </tr>
-    </thead>
-    <tbody class="h5">
-        <tr>
-            <td><span class="badge badge-ui">bg-ui</span></td>
-            <td><span class="badge bg-transparent text-ui">text-ui</span></td>
-        </tr> 
-        <tr>
-            <td><span class="badge bg-ui-light">bg-ui-light</span></td>
-            <td><span class="badge bg-transparent text-ui-light">text-ui-light</span></td>
-        </tr> 
-        <tr>
-            <td><span class="badge bg-ui-priority">bg-ui-priority</span></td>
-            <td><span class="badge bg-transparent text-ui-priority">text-ui-priority</span></td>
-        </tr>                                
-    </tbody>
-</table>
+{% include 'color-variation-message.njk' %}
 
 ## Resources
 

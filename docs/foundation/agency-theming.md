@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Using Your Agency Colors
 
-Pelican 2 comes with the flexibility to apply themes. Themes could be based upon the agency’s brand standards or a subset of a brand for some specific need. To help create themes, Pelican 2 has a companion project, the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer) available for download at Github. Running that project and updating CSS variables will generate a CSS file to apply them theme you create.
+Pelican 2 comes with the flexibility to apply themes. Themes could be based upon the agency’s brand standards or a subset of a brand for some specific need. To help create themes, Pelican 2 has a companion project, the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer) available for download at Github. Running that project and updating CSS variables will generate a CSS file to apply the theme you create.
 
 1. Get the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer) repo
 1. Use NPM instructions in the README
