@@ -486,94 +486,109 @@
 /* buttons */
 
 .btn-primary {
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--theme-primary);
-  --bs-btn-border-color: var(--theme-primary);
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-primary-700);
-  --bs-btn-hover-border-color: var(--theme-primary-700);
-  --bs-btn-active-color: var(--bs-white);
-  --bs-btn-active-bg: var(--theme-primary-800);
-  --bs-btn-active-border-color: var(--theme-primary-800);
-  --bs-btn-disabled-color: var(--bs-white);
+  --bs-btn-color: var(--theme-primary-900);
+  --bs-btn-bg: var(--theme-primary-100);
+  --bs-btn-border-color: var(--theme-primary-100);
+
+  --bs-btn-hover-color: var(--theme-primary-900);
+  --bs-btn-hover-bg: var(--theme-primary-50);
+  --bs-btn-hover-border-color: var(--theme-primary-50);
+
+  --bs-btn-active-color: var(--theme-primary-900);
+  --bs-btn-active-bg: var(--theme-primary-50);
+  --bs-btn-active-border-color: var(--theme-primary-50);
+
+  --bs-btn-disabled-color: var(--theme-gray-white);
   --bs-btn-disabled-bg: var(--theme-primary-200);
   --bs-btn-disabled-border-color: var(--theme-primary-200);
 }
 
 .btn-secondary {
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--theme-secondary);
-  --bs-btn-border-color: var(--theme-secondary);
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-secondary-600);
-  --bs-btn-hover-border-color: var(--theme-secondary-600);
-  --bs-btn-active-color: var(--bs-white);
-  --bs-btn-active-bg: var(--theme-secondary-800);
-  --bs-btn-active-border-color: var(--theme-secondary-800);
-  --bs-btn-disabled-color: var(--bs-white);
+  --bs-btn-color: var(--theme-secondary-900);
+  --bs-btn-bg: var(--theme-secondary-100);
+  --bs-btn-border-color: var(--theme-secondary-100);
+  
+  --bs-btn-hover-color: var(--theme-secondary-900);
+  --bs-btn-hover-bg: var(--theme-secondary-50);
+  --bs-btn-hover-border-color: var(--theme-secondary-50);
+
+  --bs-btn-active-color: var(--theme-secondary-900);
+  --bs-btn-active-bg: var(--theme-secondary-100);
+  --bs-btn-active-border-color: var(--theme-secondary-100);
+
+  --bs-btn-disabled-color: var(--theme-gray-white);
   --bs-btn-disabled-bg: var(--theme-secondary-200);
   --bs-btn-disabled-border-color: var(--theme-secondary-200);
 }
 
 .btn-outline-ui {
-  --bs-btn-color: var(--theme-grays-white);
+  --bs-btn-color: var(--theme-gray-white);
   --bs-btn-bg: transparent;
   --bs-btn-border-color: var(--theme-ui);
 
-  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-color: var(--theme-gray-white);
   --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: var(--theme-ui);
 
-  --bs-btn-active-color: var(--bs-white);
+  --bs-btn-active-color: var(--theme-gray-white);
   --bs-btn-active-bg: var(--theme-gray-600);
   --bs-btn-active-border-color: var(--theme-gray-600);
 
-  --bs-btn-disabled-color: var(--theme-gray-200);
-  --bs-btn-disabled-bg: var(--bs-white);
-  --bs-btn-disabled-border-color: var(--theme-gray-200);
+  --bs-btn-disabled-color: var(--theme-gray-700);
+  --bs-btn-disabled-bg: var(--theme-gray-white);
+  --bs-btn-disabled-border-color: var(--theme-gray-600);
 }
 
 .btn-link {
-  --bs-btn-color: var(--theme-info);
-  --bs-btn-bg: var(--bs-white);
-  --bs-btn-border-color: var(--bs-white);
-  --bs-btn-hover-color: var(--theme-info);
-  --bs-btn-hover-bg: var(--theme-info-50);
-  --bs-btn-hover-border-color: var(--theme-info-50);
-  --bs-btn-active-color: var(--theme-info-900);
-  --bs-btn-active-bg: var(--theme-info-100);
-  --bs-btn-active-border-color: var(--theme-info-100);
-  --bs-btn-disabled-color: var(--theme-info-200);
-  --bs-btn-disabled-bg: var(--bs-white);
-  --bs-btn-disabled-border-color: var(--bs-white);
+  --bs-btn-color: var(--theme-link-color);
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+
+  --bs-btn-hover-color: var(--theme-link-color);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: transparent;
+  
+  --bs-btn-active-color: var(--theme-info-50);
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: transparent;
+  
+  --bs-btn-disabled-color: var(--theme-link-color);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: transparent;
 }
 
 .btn-warning {
-  --bs-btn-color: var(--bs-black);
-  --bs-btn-bg: var(--theme-warning);
-  --bs-btn-border-color: var(--theme-warning);
-  --bs-btn-hover-color: var(--bs-black);
+  --bs-btn-color: var(--theme-warning-900);
+  --bs-btn-bg: var(--theme-warning-500);
+  --bs-btn-border-color: var(--theme-warning-400);
+
+  --bs-btn-hover-color: var(--theme-warning-900);
   --bs-btn-hover-bg: var(--theme-warning-400);
-  --bs-btn-hover-border-color: var(--theme-warning-400);
-  --bs-btn-active-color: var(--bs-black);
-  --bs-btn-active-bg: var(--theme-warning-600);
-  --bs-btn-active-border-color: var(--theme-warning-600);
+  --bs-btn-hover-border-color: var(--theme-warning-300);
+
+  --bs-btn-active-color: var(--theme-warning-900);
+  --bs-btn-active-bg: var(--theme-warning-300);
+  --bs-btn-active-border-color: var(--theme-warning-200);
+
   --bs-btn-disabled-color: var(--theme-warning-400);
   --bs-btn-disabled-bg: var(--theme-warning-200);
   --bs-btn-disabled-border-color: var(--theme-warning-200);
 }
 
 .btn-danger {
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--theme-danger);
-  --bs-btn-border-color: var(--theme-danger);
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-danger-700);
-  --bs-btn-hover-border-color: var(--theme-danger-700);
-  --bs-btn-active-color: var(--bs-white);
-  --bs-btn-active-bg: var(--theme-danger-900);
-  --bs-btn-active-border-color: var(--theme-danger-900);
-  --bs-btn-disabled-color: var(--bs-white);
+  --bs-btn-color: var(--theme-gray-white);
+  --bs-btn-bg: var(--theme-danger-700);
+  --bs-btn-border-color: var(--theme-danger-600);
+
+  --bs-btn-hover-color: var(--theme-gray-white);
+  --bs-btn-hover-bg: var(--theme-danger-600);
+  --bs-btn-hover-border-color: var(--theme-danger-500);
+
+  --bs-btn-active-color: var(--theme-gray-white);
+  --bs-btn-active-bg: var(--theme-danger-500);
+  --bs-btn-active-border-color: var(--theme-danger-400);
+
+  --bs-btn-disabled-color: var(--theme-gray-white);
   --bs-btn-disabled-bg: var(--theme-danger-200);
   --bs-btn-disabled-border-color: var(--theme-danger-200);
 }

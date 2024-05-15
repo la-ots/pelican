@@ -32,7 +32,7 @@ All of the components in Pelican 2 have themeable parts. Themeable parts include
 - `--theme-alert-success-bg-color: var(--theme-success-100);` controls the background color
 - `--theme-alert-success-border-color: var(--theme-success-900);` controls the border color
 
-You’ll find the full list of themeable parts for Pelican 2 in the Pelican 2 Themer.
+You’ll find the full list of themeable parts for Pelican 2 in the [Pelican 2 Themer](https://github.com/la-ots/pelican-2-themer).
 
 {% include 'color-warning.njk' %}
 
