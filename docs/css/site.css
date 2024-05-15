@@ -78,7 +78,7 @@
 }
 .home-feature .icon-wrapper {
 	font-size: 2rem;
-	background-color: var(--theme-ui-light);
+	background-color: var(--theme-card-nested-bg-color);
 	width: 6rem; height: 6rem;
 	border-radius: 50%;
 	display: flex;
@@ -100,6 +100,9 @@
 	font-weight: 400;
 }
 @media (prefers-color-scheme: dark) {
+	.home-main.content-container {
+		background-color: var(--theme-gray-700);
+	}
 	.feature-cta.bg-texture-primary {
 		background-color: var(--theme-primary-900);
 	}
