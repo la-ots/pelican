@@ -477,6 +477,11 @@
   --theme-text-headings-color: var(--theme-gray-50);
   --bs-body-font-family: var(--theme-font-family);
   --bs-heading-color: var(--theme-text-headings-color);
+
+  /* work in progress wip sash */
+  --theme-wip-text-color : var(--theme-gray-black);
+  --theme-wip-bg-color   : var(--theme-danger-300);
+
 }
 
 /* rules begin */
