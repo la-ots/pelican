@@ -480,7 +480,7 @@
 
   /* work in progress wip sash */
   --theme-wip-text-color : var(--theme-gray-black);
-  --theme-wip-bg-color   : var(--theme-danger-300);
+  --theme-wip-bg-color   : var(--theme-warning-300);
 
 }
 
