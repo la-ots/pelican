@@ -72,6 +72,12 @@
 .home-card .btn {
 	display: block;
 }
+.home-card .d-light { 
+	display: block;
+}
+.home-card .d-dark { 
+	display: none;
+}
 .home-card .btn .icon {
 	margin-inline-start: .25rem;
 }
@@ -82,7 +88,7 @@
 }
 .home-feature .icon-wrapper {
 	font-size: 2rem;
-	background-color: var(--theme-card-nested-bg-color);
+	background-color: var(--theme-gray-white);
 	width: 6rem; height: 6rem;
 	border-radius: 50%;
 	display: flex;
@@ -104,12 +110,6 @@
 	font-weight: 400;
 }
 @media (prefers-color-scheme: dark) {
-	.hero-home .overlay-left {
-		background-color: var(--theme-primary-900);
-	}
-	.hero-home .overlay-right {
-		background-color: var(--theme-secondary-900);
-	}
 	.hero-home .d-light {
 		display: none;
 	}
