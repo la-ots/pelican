@@ -16,6 +16,13 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3: October 31, 2024
+
+- Adds dark mode
+- Read more info at [Dark Theme](/foundation/dark-theme)
+- Some markup classes had to change to accommodate Dark Theme. We suggest reading more at [Dark Theme](/foundation/dark-theme)
+- CSS Variables which support Dark Theme are listed in each page for themeable items
+
 ## 2.2.0: April 5, 2024
 
 - Adds Status component
