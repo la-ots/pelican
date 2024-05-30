@@ -309,6 +309,7 @@
   /* hero blocks */
   /* you may need still need to change the classes on buttons */
 
+
   --theme-hero-single-pane-bg-color: var(--theme-card-bg-color);
   --theme-hero-single-pane-header-text-color: var(--theme-text-normal);
   --theme-hero-single-pane-small-text-color: var(--theme-text-normal);
@@ -320,13 +321,13 @@
   --theme-hero-boxed-photo-bg-color: var(--theme-card-bg-color);
   --theme-hero-boxed-photo-text-color: var(--theme-text-normal);
 
-  --theme-hero-color-toned-bg-color: var(--theme-gray-black);
+  --theme-hero-color-toned-bg-color: var(--theme-primary);
   --theme-hero-color-toned-overlay-opacity: 0.85;
-  --theme-hero-color-toned-text-color: var(--theme-text-normal);
+  --theme-hero-color-toned-text-color: var(--theme-gray-white);
 
-  --theme-textbox-over-photo-bg-color: var(--theme-gray-black);
+  --theme-textbox-over-photo-bg-color: var(--theme-primary);
   --theme-textbox-over-photo-overlay-opacity: 0.5;
-  --theme-textbox-over-photo-text-color: var(--theme-text-normal);
+  --theme-textbox-over-photo-text-color: var(--theme-gray-white);
 
   /* HR, dividers */
 
@@ -408,8 +409,8 @@
   --theme-topbar-text-color            : var(--bs-white);
   --theme-sidebar-brand-bg-color       : var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color     : var(--theme-content-container-bg-color);
-  --theme-sidebar-wrapper-border-color : var(--theme-body-bg-color);
-  --theme-sidebar-header-border-color  : var(--theme-primary-900);
+  --theme-sidebar-wrapper-border-color : var(--theme-gray-black);
+  --theme-sidebar-header-border-color  : var(--theme-sidebar-wrapper-border-color);
   --theme-sidebar-link-color           : var(--theme-link-color);
   --theme-sidebar-link-active-color    : var(--theme-gray-white);
   --theme-sidebar-link-hover-color     : var(--theme-gray-white);
