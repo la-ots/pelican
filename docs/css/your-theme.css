@@ -388,13 +388,13 @@
   --theme-topbar-text-color: var(--bs-white);
   --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
-  --theme-sidebar-wrapper-border-color: var(--theme-sidebar-wrapper-bg-color);
-  --theme-sidebar-header-border-color: var(--theme-primary-900);
+  --theme-sidebar-wrapper-border-color: var(--theme-gray-black);
+  --theme-sidebar-header-border-color: var(--theme-sidebar-wrapper-border-color);
   --theme-sidebar-link-color: var(--bs-white);
   --theme-sidebar-link-active-color: var(--theme-gray-white);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
-  --theme-sidebar-submenu-bg-color: var(--theme-gray-900);
+  --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
 
   /* skip to main */
 
