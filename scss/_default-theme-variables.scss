@@ -360,12 +360,17 @@
   /* popovers and tooltips */
 
   --theme-popover-header-text-color: var(--theme-text-normal);
-  --theme-popover-header-bg-color: var(--theme-table-stripe-bg);
-  --theme-popover-bg: var(--theme-card-bg-color);
+  --theme-popover-header-bg-color: var(--theme-gray-100);
+  --theme-popover-bg: var(--theme-gray-white);
   --theme-popover-border-color: var(--theme-card-border-color);
+  --bs-popover-header-bg: var(--theme-popover-header-bg-color);
 
   --theme-tooltip-color: var(--theme-gray-white);
   --theme-tooltip-bg: var(--theme-gray-black);
+  --bs-tooltip-color: var(--theme-tooltip-color);
+  --bs-tooltip-bg: var(--theme-tooltip-bg);
+
+  
 
   /* progress */
 
@@ -493,10 +498,10 @@
 
 .btn-outline-ui {
   --bs-btn-color: var(--theme-grays-700);
-  --bs-btn-bg: var(--bs-white);
+  --bs-btn-bg: var(--theme-grays-white);
   --bs-btn-border-color: var(--theme-ui);
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-ui);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--theme-gray-100);
   --bs-btn-hover-border-color: var(--theme-ui);
   --bs-btn-active-color: var(--bs-white);
   --bs-btn-active-bg: var(--theme-gray-600);

@@ -1,9 +1,5 @@
 .form-control {
   background-color: var(--theme-card-bg-color);
-  &[type=date]::-webkit-calendar-picker-indicator {
-		// todo find a better method to control date icon in chrome data picker in dark mode
-		filter: invert(1);
-	}
   &.disabled,
   &[disabled],
   &[readonly] {
@@ -11,6 +7,11 @@
   }
   &:focus, &:focus-visible {
     background-color: var(--theme-card-bg-color);
+  }
+  @media (prefers-color-scheme: dark) {
+    &[type=date]::-webkit-calendar-picker-indicator {
+      filter: invert(1);
+    }
   }
 }
 .form-group {
@@ -28,7 +29,6 @@
 }
 
 .form-title {
-  // this is used on form templates
   @extend .h3;
   @extend .mb-6;
   color: var(--theme-headings-color);

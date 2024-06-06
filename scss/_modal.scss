@@ -1,11 +1,12 @@
-// to do : fix the black color in the close button in dark mode
-
 .modal-content {
   background-color: var(--theme-modal-dialog-bg-color);
   border: $card-border-width solid var(--theme-modal-dialog-border-color);
   .close {
     @extend .position-relative;
     opacity: 1;
+    @media (prefers-color-scheme: dark) {
+      filter: invert(1);
+    }
   }
 }
 .modal-title {

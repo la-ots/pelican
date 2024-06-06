@@ -360,6 +360,7 @@
   --theme-pagination-hover-color: var(--theme-link-color);
   --theme-pagination-active-color: var(--theme-link-color);
   --theme-pagination-border-color: var(--theme-border-color-lighter);
+  --bs-pagination-hover-color: var(--theme-pagination-color);
 
   /* popovers and tooltips */
 
@@ -502,17 +503,14 @@
 
 .btn-outline-ui {
   --bs-btn-color: var(--theme-grays-700);
-  --bs-btn-bg: var(--bs-white);
+  --bs-btn-bg: var(--theme-grays-white);
   --bs-btn-border-color: var(--theme-ui);
-
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-ui);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--theme-gray-100);
   --bs-btn-hover-border-color: var(--theme-ui);
-
   --bs-btn-active-color: var(--bs-white);
   --bs-btn-active-bg: var(--theme-gray-600);
   --bs-btn-active-border-color: var(--theme-gray-600);
-
   --bs-btn-disabled-color: var(--theme-gray-200);
   --bs-btn-disabled-bg: var(--bs-white);
   --bs-btn-disabled-border-color: var(--theme-gray-200);

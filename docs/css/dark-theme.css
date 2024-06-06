@@ -385,12 +385,15 @@
   /* popovers and tooltips */
 
   --theme-popover-header-text-color: var(--theme-text-normal);
-  --theme-popover-header-bg-color: var(--theme-table-stripe-bg);	
+  --theme-popover-header-bg-color: var(--theme-body-bg);	
   --theme-popover-bg: var(--theme-card-bg-color);
   --theme-popover-border-color: var(--theme-card-border-color);
+  --bs-popover-header-bg: var(--theme-popover-header-bg-color);
 
-  --theme-tooltip-color: var(--theme-gray-white);
-  --theme-tooltip-bg: var(--theme-gray-black);
+  --theme-tooltip-color: var(--theme-gray-900);
+  --theme-tooltip-bg: var(--theme-gray-100);
+  --bs-tooltip-color: var(--theme-tooltip-color);
+  --bs-tooltip-bg: var(--theme-tooltip-bg);
 
   /* progress */
 
@@ -435,25 +438,25 @@
 
   --theme-toast-header-success-bg-color: var(--theme-success-100);
   --theme-toast-header-success-text-color: var(--theme-success-900);
-  --theme-toast-bg-success-color: var(--theme-success-100);
+  --theme-toast-bg-success-color: var(--theme-success-200);
   --theme-toast-text-success-color: var(--theme-toast-header-success-text-color);
 
   --theme-toast-header-info-bg-color: var(--theme-info-100);
   --theme-toast-header-info-text-color: var(--theme-info-900);
-  --theme-toast-bg-info-color: var(--theme-info-100);
+  --theme-toast-bg-info-color: var(--theme-info-200);
   --theme-toast-text-info-color: var(--theme-toast-header-info-text-color);
 
   --theme-toast-header-warning-bg-color: var(--theme-warning-100);
   --theme-toast-header-warning-text-color: var(--theme-warning-900);
-  --theme-toast-bg-warning-color: var(--theme-warning-100);
-  --theme-toast-text-warning-color: var(--theme-toast-header-warnin-textg-color);
+  --theme-toast-bg-warning-color: var(--theme-warning-200);
+  --theme-toast-text-warning-color: var(--theme-toast-header-warning-text-color);
 
   --theme-toast-header-danger-bg-color: var(--theme-danger-100);
   --theme-toast-header-danger-text-color: var(--theme-danger-900);
-  --theme-toast-bg-danger-color: var(--theme-danger-100);
+  --theme-toast-bg-danger-color: var(--theme-danger-200);
   --theme-toast-text-danger-color: var(--theme-toast-header-danger-text-color);
 
-  --theme-toast-shadow-color: var(--theme-gray-white);
+  --theme-toast-shadow-color: var(--theme-gray-black);
 
   /* toc */
 
@@ -504,9 +507,9 @@
   --bs-btn-active-bg: var(--theme-primary-50);
   --bs-btn-active-border-color: var(--theme-primary-50);
 
-  --bs-btn-disabled-color: var(--theme-gray-white);
-  --bs-btn-disabled-bg: var(--theme-primary-200);
-  --bs-btn-disabled-border-color: var(--theme-primary-200);
+  --bs-btn-disabled-color: var(--theme-primary-600);
+  --bs-btn-disabled-bg: var(--theme-primary-300);
+  --bs-btn-disabled-border-color: var(--theme-primary-300);
 }
 
 .btn-secondary {
@@ -522,7 +525,7 @@
   --bs-btn-active-bg: var(--theme-secondary-100);
   --bs-btn-active-border-color: var(--theme-secondary-100);
 
-  --bs-btn-disabled-color: var(--theme-gray-white);
+  --bs-btn-disabled-color: var(--theme-secondary-700);
   --bs-btn-disabled-bg: var(--theme-secondary-200);
   --bs-btn-disabled-border-color: var(--theme-secondary-200);
 }
@@ -540,9 +543,9 @@
   --bs-btn-active-bg: var(--theme-gray-600);
   --bs-btn-active-border-color: var(--theme-gray-600);
 
-  --bs-btn-disabled-color: var(--theme-gray-700);
-  --bs-btn-disabled-bg: var(--theme-gray-white);
-  --bs-btn-disabled-border-color: var(--theme-gray-600);
+  --bs-btn-disabled-color: var(--theme-gray-300);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: var(--theme-gray-400);
 }
 
 .btn-link {
@@ -558,7 +561,7 @@
   --bs-btn-active-bg: transparent;
   --bs-btn-active-border-color: transparent;
   
-  --bs-btn-disabled-color: var(--theme-link-color);
+  --bs-btn-disabled-color: var(--theme-info-600);
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: transparent;
 }
@@ -576,7 +579,7 @@
   --bs-btn-active-bg: var(--theme-warning-300);
   --bs-btn-active-border-color: var(--theme-warning-200);
 
-  --bs-btn-disabled-color: var(--theme-warning-400);
+  --bs-btn-disabled-color: var(--theme-warning-700);
   --bs-btn-disabled-bg: var(--theme-warning-200);
   --bs-btn-disabled-border-color: var(--theme-warning-200);
 }
@@ -594,7 +597,7 @@
   --bs-btn-active-bg: var(--theme-danger-500);
   --bs-btn-active-border-color: var(--theme-danger-400);
 
-  --bs-btn-disabled-color: var(--theme-gray-white);
+  --bs-btn-disabled-color: var(--theme-danger-400);
   --bs-btn-disabled-bg: var(--theme-danger-200);
   --bs-btn-disabled-border-color: var(--theme-danger-200);
 }

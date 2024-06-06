@@ -1,5 +1,5 @@
-//  to do : check why bottom border of active tab flashes on change
-//  to do : fix bg color of active tab in dark mode
+//  todo : check why bottom border of active tab flashes on change
+//  todo : fix bg color of active tab in dark mode
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -48,9 +48,7 @@
   .nav-link.active,
   .nav-item.show .nav-link {
     color: $nav-tabs-link-active-color;
-    background-color: $nav-tabs-link-active-bg;
-    border-color: $nav-tabs-link-active-border-color;
-    border-bottom: 2px solid var(--theme-card-bg-color);
+    border-bottom-color: var(--theme-card-bg-color);
   }
   .dropdown-menu {
     // Make dropdown border overlap tab border
@@ -188,6 +186,9 @@
       border-bottom-left-radius: $btn-border-radius !important;
       &::-webkit-search-cancel-button {
         // todo find a way to style this
+        @media (prefers-color-scheme: dark) {
+          filter: invert(1) brightness(0%);
+        }
       }
     }
     .btn {

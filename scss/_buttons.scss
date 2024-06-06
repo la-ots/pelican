@@ -1,11 +1,13 @@
 .btn {
-  box-shadow: $btn-shadow;
   &:hover, &:active {
     @extend .text-decoration-underline;
-    box-shadow: 0 .25rem 0 0 fade-out($black, 0.5);
+    box-shadow: 0 .25rem 0 0 var(--theme-button-shadow-color)80;
   }
   &:active {
     box-shadow: 0 0 0 0 fade-out($black, 0.75);
+  }
+  &:disabled, &.disabled {
+    opacity: 1;
   }
 }
 .btn-link {
@@ -93,8 +95,7 @@ a.btn {
     text-decoration: inherit;
   }
 }
-#ScrollToTop,
-.btn-scroll-top {
+#ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
   right: 2rem;
   bottom: 5rem;
@@ -107,8 +108,7 @@ a.btn {
   @extend .border-0;
   @extend .shadow-none;
 }
-.btns-previous-next,
-.btns-previous-forward {
+.btns-previous-next, .btns-previous-forward {
   .container-fluid {
     padding-top: 1.675rem;
     padding-bottom: 1.625rem;
