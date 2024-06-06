@@ -15,6 +15,8 @@ eleventyNavigation:
 
 Brand colors are the colors featured in an agency’s logo and other aspects of its visual identity. Pelican provides three default brand colors. These colors are based upon Louisiana’s official colors.
 
+By default, brand colors in Pelican don’t change when light or dark themes are toggled.
+
 <div class="row mb-12">
   <div class="col-md-6 col-xl-4">
     <div class="card border-0">

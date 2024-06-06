@@ -292,6 +292,10 @@
   --theme-form-check-input-color: var(--theme-gray-black);
   --theme-form-check-input-checked-bg-color: var(--theme-link-color);
   --theme-form-check-input-checked-border-color: var(--theme-link-color);
+  --bs-form-valid-color: var(--theme-success-600);
+  --bs-form-valid-border-color: var(--bs-form-valid-color);
+  --bs-form-invalid-color: var(--theme-danger-300);
+  --bs-form-invalid-border-color: var(--bs-form-invalid-color);
 
   /* form validation */
     --theme-form-validation-error-muted-color: var(--theme-danger-200);
@@ -627,5 +631,15 @@
 .text-ui-priority {
 	color: var(--theme-link-color)!important;
 }
+
+.was-validated .form-control:invalid, .was-validated .form-control.is-invalid {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23ff9294'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23ff9294' stroke='none'/%3e%3c/svg%3e");
+}
+
+.was-validated .form-control:valid, .was-validated .form-control.is-valid {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%2305ab09'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%2305ab09' stroke='none'/%3e%3c/svg%3e");
+}
+
+/* todo select icon for validation */
 
 /* 7. Save file! */

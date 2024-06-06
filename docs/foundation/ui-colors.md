@@ -15,33 +15,32 @@ eleventyNavigation:
 
 Pelican attempts to provide more clarity in the user interface by introducing three colors called UI, UI Light, and UI Priority. These are used on form controls, priority interface actions, and supporting interface elements.
 
+By default, UI Colors in Pelican change when light or dark themes are toggled.
+
 <div class="row mb-12">
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-ui rounded-top pd-color-block"></div>
+        <div class="card border-1">
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-ui);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI</p>
-                <p class="mb-0"><code>#6e8287</code></p>
                 <p class="mb-0"><code>--theme-ui</code></p>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-ui-light rounded-top pd-color-block"></div>
+        <div class="card border-1">
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-ui-light);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI Light</p>
-                <p class="mb-0"><code>#ebeeef</code></p>
                 <p class="mb-0"><code>--theme-ui-light</code></p>
             </div>
         </div>
     </div>
     <div class="col-md-6 col-xl-3">
-        <div class="card border-0">
-            <div class="bg-ui-priority rounded-top pd-color-block"></div>
+        <div class="card border-1">
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-ui-priority);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI Priority</p>
-                <p class="mb-0"><code>#0057d7</code></p>
                 <p class="mb-0"><code>--theme-ui-priority</code></p>
             </div>
         </div>

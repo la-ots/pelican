@@ -17,10 +17,12 @@ Status colors indicate various system statuses, such as error messages or inform
 
 Status colors should not be the sole way statuses are communicated to users. However, the selected colors are common colors when communicating system conditions. Status colors only add visual meaning. This is not communicated to users with assistive technologies, such as screen readers. Write your content to clearly communicate along with the chosen Status color.
 
+By default, Status Colors in Pelican don’t change when light or dark themes are toggled.
+
 <div class="row mb-12">
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
-            <div class="bg-success rounded-top pd-color-block"></div>
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-success);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">Success</p>
                 <p class="mb-0"><code>#0d6211</code></p>
@@ -30,7 +32,7 @@ Status colors should not be the sole way statuses are communicated to users. How
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
-            <div class="bg-warning rounded-top pd-color-block"></div>
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-warning);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">Warning</p>
                 <p class="mb-0"><code>#ffc107</code></p>
@@ -40,7 +42,7 @@ Status colors should not be the sole way statuses are communicated to users. How
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
-            <div class="bg-danger rounded-top pd-color-block"></div>
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-danger);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">Danger</p>
                 <p class="mb-0"><code>#b00003</code></p>
@@ -50,7 +52,7 @@ Status colors should not be the sole way statuses are communicated to users. How
     </div>
     <div class="col-md-6 col-xl-3">
         <div class="card border-0">
-            <div class="bg-info rounded-top pd-color-block"></div>
+            <div class="rounded-top pd-color-block" style="background-color: var(--theme-info);"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">Info</p>
                 <p class="mb-0"><code>#004ba1</code></p>
