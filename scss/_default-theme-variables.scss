@@ -209,7 +209,7 @@
 
   /* buttons */
 
-  --theme-button-shadow-color: var(--theme-ui-light);
+  --theme-button-shadow-color: #586a6f80;
   --theme-button-text-dark-color: var(--bs-black);
   --theme-button-text-light-color: var(--bs-white);
   --theme-button-container-bg-color: var(--bs-white);
@@ -333,9 +333,6 @@
   --theme-navbar-inner-border-hover-color: var(--theme-accent);
   --theme-navbar-form-control-border-color: var(--theme-gray-white);
   --theme-navbar-form-control-text-color: var(--theme-gray-white);
-  --theme-nav-tabs-active-bg-color: var(--theme-card-bg-color);
-  --theme-nav-tabs-link-active-color: var(--theme-card-bg-color);
-  --theme-nav-tabs-link-active-border-color: var(--theme-border-color);
 
   /* official banner */
 
@@ -369,8 +366,6 @@
   --theme-tooltip-bg: var(--theme-gray-black);
   --bs-tooltip-color: var(--theme-tooltip-color);
   --bs-tooltip-bg: var(--theme-tooltip-bg);
-
-  
 
   /* progress */
 

@@ -1,13 +1,15 @@
 .btn {
+  box-shadow: 0 .125rem 0 0 var(--theme-button-shadow-color);
   &:hover, &:active {
     @extend .text-decoration-underline;
-    box-shadow: 0 .25rem 0 0 var(--theme-button-shadow-color)80;
+    box-shadow: 0 .25rem 0 0 var(--theme-button-shadow-color);
   }
   &:active {
-    box-shadow: 0 0 0 0 fade-out($black, 0.75);
+    box-shadow: none;
   }
   &:disabled, &.disabled {
     opacity: 1;
+    box-shadow: none;
   }
 }
 .btn-link {
