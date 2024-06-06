@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Icons
   parent: Foundation
-  order: 9
+  order: 12
   excerpt: Icons provide at-a-glance representation of actions or concepts.
   img: /img/illustrations/illus-icons.svg
 ---

@@ -19,35 +19,15 @@
   }
 }
 .nav-tabs {
-  border-bottom: var(--theme-border-width) var(--theme-border-style)
-    var(--theme-border-color);
-  .nav-item {
-    margin-right: 0.5rem;
-    margin-bottom: -$nav-tabs-border-width;
-  }
   .nav-link {
-    border: $nav-tabs-border-width solid transparent;
-    @include border-top-radius($nav-tabs-border-radius);
-    &.disabled {
-      color: var(--theme-ui-light);
-      background-color: transparent;
-      border-color: transparent;
-    }
+    color: var(--theme-link-color);
     &.active {
-      border-color: var(--theme-nav-tabs-link-active-border-color);
-      border-bottom: none;
-    }
-    &:hover {
-      background-color: var(--theme-gray-white);
-      border-bottom: none;
+      background-color: transparent;
     }
   }
-  .nav-link.active,
-  .nav-item.show .nav-link {
+  .nav-link.active, .nav-item.show .nav-link {
     color: $nav-tabs-link-active-color;
-    background-color: $nav-tabs-link-active-bg;
-    border-color: $nav-tabs-link-active-border-color;
-    border-bottom: 2px solid var(--theme-gray-white);
+    border-bottom-color: var(--theme-content-container-bg-color);
   }
   .dropdown-menu {
     // Make dropdown border overlap tab border
@@ -183,9 +163,6 @@
       border-color: var(--theme-navbar-form-control-border-color);
       border-top-left-radius: $btn-border-radius !important;
       border-bottom-left-radius: $btn-border-radius !important;
-      &::-webkit-search-cancel-button {
-        // todo find a way to style this
-      }
     }
     .btn {
       .icon {

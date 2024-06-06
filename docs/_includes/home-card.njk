@@ -1,0 +1,17 @@
+<div class="card home-card" role="listitem" aria-labelledby="{{ heading | slugify }}">
+	<div class="card-body">
+		<h3 id="{{ heading | slugify }}">
+			<span class="icon fas {{ icon }}" aria-hidden="true"></span>
+			{{ heading }}
+		</h3>
+		<p class="">{{ sentence }}</p>
+		<a href="{{ buttonLink }}" class="btn btn-accent d-light">
+			{{ buttonText }}
+			<span class="icon fas fa-arrow-right" aria-hidden="true"></span>
+		</a>
+		<a href="{{ buttonLink }}" class="btn btn-white d-dark">
+			{{ buttonText }}
+			<span class="icon fas fa-arrow-right" aria-hidden="true"></span>
+		</a>
+	</div>
+</div>

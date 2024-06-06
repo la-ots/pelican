@@ -134,13 +134,14 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 1rem;
-    color: var(--theme-feature-languages-item-text-color);
+    
     background-color: var(--theme-feature-languages-item-bg-color);
     p {
       @extend .h4;
       @extend .fw-light;
       @extend .text-center;
       margin-bottom: 0;
+      color: var(--theme-feature-languages-item-text-color);
     }
   }
 }
@@ -166,6 +167,10 @@
 .feature-set {
   background-color: var(--theme-feature-set-bg-color);
   padding: 1.5rem;
+  .content-container {
+    background-color: transparent;
+    border: none;
+  }
   hr.minor {
     margin-top: 2rem;
     margin-bottom: 2rem;

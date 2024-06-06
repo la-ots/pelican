@@ -1,39 +1,5 @@
-.collapse-unit {
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-  &:not(:last-of-type) {
-    margin-bottom: 1.5rem;
-  }
-}
-.collapse-border {
-  border: 1px $border-style var(--theme-ui);
-  border-radius: $border-radius;
-
-  &:not(:last-of-type) {
-    margin-bottom: 0.5rem;
-  }
-}
-
-.animate-this {
-  transition: $transition-base;
-}
-.rotated-180 {
-  transform: rotate(180deg);
-}
-
-// Animated icons on toggle
-[data-toggle="collapse"][aria-expanded="false"] {
-  .fas,
-  .fab {
-    transition: all 250ms ease-in-out;
-    transform: rotate(0deg);
-  }
-}
-
-[data-toggle="collapse"][aria-expanded="true"] {
-  .fas,
-  .fab {
-    transform: rotate(180deg);
+details {
+  summary {
+    color: var(--theme-link-color)!important;
   }
 }

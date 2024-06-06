@@ -15,10 +15,8 @@ eleventyNavigation:
 
 The Louisiana Census reveals four languages which should be accommodated in its digital products.
 
-- English
-- French
-- Spanish
-- Vietnamese
+- English, French, Spanish, Vietnamese
+- Change the theme to meet project needs
 
 ## Usage
 

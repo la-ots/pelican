@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Layout Grid
   parent: Foundation
-  order: 5
+  order: 6
   excerpt: Pelican uses Bootstrap’s Grid to arrange content.
   img: /img/illustrations/illus-layout.svg
 ---

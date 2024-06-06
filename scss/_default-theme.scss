@@ -324,7 +324,7 @@ $border-radius-sm: 0.2rem !default;
 
 // ---
 // Breadcrumbs
-$breadcrumb-divider-color: var(--theme-breadcrumb-divider-color);
+$breadcrumb-divider-color: var(--theme-border-color);
 
 // ---
 // Cards
@@ -373,7 +373,7 @@ $navbar-dark-active-color: $white !default;
 
 // ---
 // nav tabs & pills
-$nav-tabs-link-active-bg: var(--theme-gray-white);
+$nav-tabs-link-active-bg: var(--theme-card-bg-color);
 $nav-pills-link-active-color: var(--theme-gray-white);
 $nav-pills-link-active-bg: var(--theme-ui-priority);
 $nav-tabs-border-color: var(--theme-border-color);

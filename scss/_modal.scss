@@ -4,6 +4,9 @@
   .close {
     @extend .position-relative;
     opacity: 1;
+    @media (prefers-color-scheme: dark) {
+      filter: invert(1);
+    }
   }
 }
 .modal-title {

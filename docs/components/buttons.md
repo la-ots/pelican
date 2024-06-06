@@ -125,9 +125,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 <button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
 
 ```html
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>
-  ButtonText
-</button>
+<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button>
 <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
 ```
 

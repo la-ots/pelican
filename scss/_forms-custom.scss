@@ -8,7 +8,7 @@
     .form-check-label {
       position: relative;
       padding: 4px 16px 4px 32px;
-      background-color: var(--bs-white);
+      background-color: var(--theme-card-bg-color);
       border: 2px solid var(--theme-form-border-color);
       border-radius: 1rem;
       .icon {
@@ -34,12 +34,12 @@
         + .form-check-label {
           color: var(--theme-form-check-input-color);
           background-color: var(--theme-form-check-input-checked-bg-color);
-          border-color: var(--theme-form-check-input-checked-border-color);
+          border-color    : var(--theme-form-check-input-checked-border-color);
           .icon {
             position: absolute;
             top: 8px;
             left: 10px;
-            color: var(--bs-white);
+            color: var(--theme-gray-white);
             &:first-of-type {
               opacity: 0;
             }
@@ -145,8 +145,7 @@
   }
 }
 // tiles
-.checkbox-tile,
-.radio-tile {
+.checkbox-tile, .radio-tile {
   padding-left: 0;
   margin: 0 0 0 0;
   &.form-check-inline {
@@ -162,12 +161,12 @@
   .form-check-label {
     position: relative;
     display: block;
-    background-color: $white;
-    color: var(--theme-gray-700);
-    border: 2px solid var(--theme-form-border-color);
-    border-radius: 8px;
-    margin-top: 8px;
+    background-color: var(--theme-card-bg-color);
+    color: var(--theme-text-normal);
+    border: .125rem solid var(--theme-form-border-color);
+    margin-top: .5rem;
     padding: 12px 16px 12px 40px;
+    border-radius: .5rem;
     cursor: pointer;
     &:before {
       content: "";
@@ -177,20 +176,21 @@
       left: 12px;
       width: 1.25rem;
       height: 1.25rem;
-      border-radius: 2px;
-      box-shadow: 0 0 0 2px var(--theme-form-border-color);
+      border-radius: .25rem;
+      border: .125rem solid  var(--theme-form-border-color);
     }
   }
   .form-check-input:checked + label {
-    background-color: var(--theme-ui-light);
-    border-color: var(--theme-form-border-color);
+    color           : var(--theme-form-check-input-color);
+    background-color: var(--theme-form-check-input-checked-bg-color);
+    border-color    : var(--theme-form-check-input-checked-border-color);
     &:before {
-      background-color: var(--theme-info-900);
+      background-color: var(--theme-link-color);
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      box-shadow: 0 0 0 2px var(--theme-info);
+      border: .125rem solid  var(--theme-form-check-input-color);
     }
   }
   .form-check-input:focus + label {
@@ -205,24 +205,33 @@
 .radio-tile {
   .form-check-label {
     &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      margin-top: 2px;
+      left: 12px;
+      width: 1.25rem;
+      height: 1.25rem;
       border-radius: 50%;
+      border: .125rem solid  var(--theme-form-border-color);
     }
   }
   .form-check-input:checked + label {
     &:before {
-      background-color: var(--bs-white);
+      background-color: var(--theme-form-check-input-checked-bg-color);
       background-image: none;
+      border-width: .375rem;
     }
     &:after {
       content: "";
       display: block;
       position: absolute;
-      top: 16px;
-      left: 14px;
-      width: 1rem;
-      height: 1rem;
+      top: 1.25rem;
+      left: 1.125rem;
+      width: .5rem;
+      height: .5rem;
       border-radius: 50%;
-      background-color: var(--theme-ui-priority);
+      background-color: var(--theme-theme-form-input-checked-bg-color);
     }
   }
 }

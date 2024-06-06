@@ -140,6 +140,8 @@
   --theme-body-bg: var(--theme-gray-50);
   --bs-body-color: var(--theme-gray-900);
   --bs-body-bg: var(--theme-body-bg);
+  --bs-code-color: var(--theme-danger-700);
+  --bs-emphasis-color: ''; // overidden for active tabs color
 
   /* 3. Set properties which are shared */
   /* borders */
@@ -175,33 +177,21 @@
 
   --theme-badge-chip-primary-bg-color: var(--theme-primary);
   --theme-badge-chip-primary-text-color: var(--theme-gray-white);
-  --theme-badge-chip-primary-bg-dim-color: var(--theme-primary-100);
-  --theme-badge-chip-primary-text-dim-color: var(--theme-primary-900);
 
   --theme-badge-chip-secondary-bg-color: var(--theme-secondary);
   --theme-badge-chip-secondary-text-color: var(--theme-gray-white);
-  --theme-badge-chip-secondary-bg-dim-color: var(--theme-secondary-100);
-  --theme-badge-chip-secondary-text-dim-color: var(--theme-secondary-900);
 
   --theme-badge-chip-accent-bg-color: var(--theme-accent);
   --theme-badge-chip-accent-text-color: var(--theme-gray-black);
-  --theme-badge-chip-accent-bg-dim-color: var(--theme-accent-100);
-  --theme-badge-chip-accent-text-dim-color: var(--theme-accent-900);
 
   --theme-badge-chip-ui-bg-color: var(--theme-ui);
   --theme-badge-chip-ui-text-color: var(--theme-gray-white);
-  --theme-badge-chip-ui-bg-dim-color: var(--theme-gray-100);
-  --theme-badge-chip-ui-text-dim-color: var(--theme-gray-900);
 
   --theme-badge-chip-info-bg-color: var(--theme-info);
   --theme-badge-chip-info-text-color: var(--theme-gray-white);
-  --theme-badge-chip-info-bg-dim-color: var(--theme-info-100);
-  --theme-badge-chip-info-text-dim-color: var(--theme-info-900);
 
   --theme-badge-chip-success-bg-color: var(--theme-success);
   --theme-badge-chip-success-text-color: var(--theme-gray-white);
-  --theme-badge-chip-success-bg-dim-color: var(--theme-success-100);
-  --theme-badge-chip-success-text-dim-color: var(--theme-success-900);
 
   --theme-badge-chip-warning-bg-color: var(--theme-warning);
   --theme-badge-chip-warning-text-color: var(--bs-black);
@@ -219,11 +209,12 @@
 
   /* buttons */
 
-  --theme-button-shadow-color: var(--theme-ui-light);
+  --theme-button-shadow-color: #586a6f80;
   --theme-button-text-dark-color: var(--bs-black);
   --theme-button-text-light-color: var(--bs-white);
   --theme-button-container-bg-color: var(--bs-white);
   --theme-button-container-border-color: var(--theme-card-border-color);
+  --theme-button-close-color: var(--theme-ui);
   /* adjust button rules outside of the root element of this document */
 
   /* cards */
@@ -232,11 +223,12 @@
   --theme-card-nested-bg-color: var(--theme-gray-50);
   --theme-card-border-color: var(--theme-border-color-lighter);
   --theme-card-border-width: 0.0625rem;
+  --bs-card-color: var(--theme-text-normal)!important;
 
   /* content-container */
 
-  --theme-content-container-bg-color: var(--theme-gray-white);
-  --theme-content-container-shadow-color: var(--theme-gray-300);
+  --theme-content-container-bg-color: var(--theme-card-bg-color);
+  --theme-content-container-border-color: var(--theme-border-color-lighter);
   --theme-content-container-less-bright-bg-color: #fbf9f9;
 
   /* focus */
@@ -246,24 +238,24 @@
   /* feature blocks */
   /* you may need still need to change the classes on buttons */
 
-  --theme-feature-cta-single-bg-color: var(--theme-gray-white);
+  --theme-feature-cta-single-bg-color: var(--theme-card-bg-color);
   --theme-feature-cta-single-text-color: var(--theme-primary);
 
-  --theme-feature-cta-double-bg-color: var(--theme-primary);
-  --theme-feature-cta-double-text-color: var(--theme-gray-white);
+  --theme-feature-cta-double-bg-color: var(--theme-card-bg-color);
+  --theme-feature-cta-double-text-color: var(--theme-text-normal);
 
-  --theme-feature-icons-text-bg-color: var(--theme-secondary);
-  --theme-feature-icons-text-text-color: var(--theme-gray-white);
+  --theme-feature-icons-text-bg-color: var(--theme-card-bg-color);
+  --theme-feature-icons-text-text-color: var(--theme-primary);
 
   --theme-feature-languages-bg-color: var(--theme-accent);
-  --theme-feature-languages-text-color: var(--theme-primary);
+  --theme-feature-languages-text-color: var(--theme-primary-900);
   --theme-feature-languages-item-text-color: var(--theme-primary);
   --theme-feature-languages-item-bg-color: var(--theme-gray-white);
 
-  --theme-feature-many-icons-text-bg-color: var(--theme-primary);
-  --theme-feature-many-icons-text-color: var(--theme-gray-white);
+  --theme-feature-many-icons-text-bg-color: var(--theme-card-bg-color);
+  --theme-feature-many-icons-text-color: var(--theme-primary);
 
-  --theme-feature-set-bg-color: var(--theme-gray-white);
+  --theme-feature-set-bg-color: var(--theme-card-bg-color);
   --theme-feature-set-text-color: var(--theme-primary);
   --theme-feature-set-icon-color: var(--theme-primary);
 
@@ -279,6 +271,10 @@
   --theme-form-check-input-color: var(--theme-gray-white);
   --theme-form-check-input-checked-bg-color: var(--theme-ui-priority);
   --theme-form-check-input-checked-border-color: var(--theme-ui-priority);
+  --bs-form-valid-color: var(--theme-success);
+  --bs-form-valid-border-color: var(--bs-form-valid-color);
+  --bs-form-invalid-color: var(--theme-danger);
+  --bs-form-invalid-border-color: var(--bs-form-invalid-color);
 
   /* form validation */
   --theme-form-validation-error-muted-color: var(--theme-danger-200);
@@ -296,19 +292,18 @@
   /* hero blocks */
   /* you may need still need to change the classes on buttons */
 
-  --theme-hero-dual-pane-bg-color: var(--theme-primary);
+  --theme-hero-single-pane-bg-color: var(--theme-card-bg-color);
+  --theme-hero-single-pane-header-text-color: var(--theme-text-normal);
+  --theme-hero-single-pane-small-text-color: var(--theme-text-normal);
+
   --theme-hero-dual-pane-overlay-left-bg-color: var(--theme-primary);
   --theme-hero-dual-pane-overlay-right-bg-color: var(--theme-secondary);
   --theme-hero-dual-pane-text-color: var(--theme-gray-white);
 
-  --theme-hero-single-pane-bg-color: var(--theme-primary);
-  --theme-hero-single-pane-header-text-color: var(--theme-gray-white);
-  --theme-hero-single-pane-small-text-color: var(--theme-gray-white);
+  --theme-hero-boxed-photo-bg-color: var(--theme-card-bg-color);
+  --theme-hero-boxed-photo-text-color: var(--theme-text-normal);
 
-  --theme-hero-boxed-photo-bg-color: var(--theme-gray-white);
-  --theme-hero-boxed-photo-text-color: var(--theme-primary);
-
-  --theme-hero-color-toned-bg-color: var(--theme-secondary);
+  --theme-hero-color-toned-bg-color: var(--theme-primary);
   --theme-hero-color-toned-overlay-opacity: 0.85;
   --theme-hero-color-toned-text-color: var(--theme-gray-white);
 
@@ -342,9 +337,6 @@
   --theme-navbar-inner-border-hover-color: var(--theme-accent);
   --theme-navbar-form-control-border-color: var(--theme-gray-white);
   --theme-navbar-form-control-text-color: var(--theme-gray-white);
-  --theme-nav-tabs-active-bg-color: var(--theme-gray-white);
-  --theme-nav-tabs-link-active-color: var(--theme-gray-white);
-  --theme-nav-tabs-link-active-border-color: var(--theme-ui-light);
 
   /* official banner */
 
@@ -354,7 +346,7 @@
 
   /* page header, title */
 
-  --theme-page-title-bg-color: var(--theme-gray-white);
+  --theme-page-title-bg-color: var(--theme-card-bg-color);
   --theme-page-title-text-color: var(--theme-text-headings-color);
   --theme-page-title-icon-color: var(--theme-page-title-text-color);
   --theme-page-title-border-color: var(--theme-border-color-lighter);
@@ -369,12 +361,15 @@
   /* popovers and tooltips */
 
   --theme-popover-header-text-color: var(--theme-text-normal);
-  --theme-popover-header-bg-color: var(--theme-table-stripe-bg);
-  --theme-popover-bg: var(--theme-card-bg-color);
+  --theme-popover-header-bg-color: var(--theme-gray-100);
+  --theme-popover-bg: var(--theme-gray-white);
   --theme-popover-border-color: var(--theme-card-border-color);
+  --bs-popover-header-bg: var(--theme-popover-header-bg-color);
 
   --theme-tooltip-color: var(--theme-gray-white);
   --theme-tooltip-bg: var(--theme-gray-black);
+  --bs-tooltip-color: var(--theme-tooltip-color);
+  --bs-tooltip-bg: var(--theme-tooltip-bg);
 
   /* progress */
 
@@ -393,8 +388,10 @@
   --theme-topbar-text-color: var(--bs-white);
   --theme-sidebar-brand-bg-color: var(--theme-topbar-bg-color);
   --theme-sidebar-wrapper-bg-color: var(--theme-primary);
-  --theme-sidebar-header-border-color: var(--theme-primary-900);
+  --theme-sidebar-wrapper-border-color: var(--theme-gray-black);
+  --theme-sidebar-header-border-color: var(--theme-sidebar-wrapper-border-color);
   --theme-sidebar-link-color: var(--bs-white);
+  --theme-sidebar-link-active-color: var(--theme-gray-white);
   --theme-sidebar-link-hover-color: var(--theme-gray-white);
   --theme-sidebar-item-bg-color: var(--theme-info);
   --theme-sidebar-submenu-bg-color: var(--theme-primary-900);
@@ -450,7 +447,7 @@
   --theme-small-text-color: var(--theme-gray-700);
   --theme-blockquote-bg-color: var(--theme-ui-light);
   --theme-blockquote-border-color: var(--theme-ui);
-  --theme-bolded-text-color: var(--themegray--black);
+  --theme-bolded-text-color: var(--theme-gray-black);
   --theme-text-selection-text-color: var(--theme-primary-700);
   --theme-text-selection-bg-color: var(--theme-primary-200);
   --theme-text-decoration-line: underline;
@@ -498,27 +495,12 @@
   --bs-btn-disabled-border-color: var(--theme-secondary-200);
 }
 
-.btn-accent {
-  --bs-btn-color: var(--bs-black);
-  --bs-btn-bg: var(--theme-accent);
-  --bs-btn-border-color: var(--theme-accent);
-  --bs-btn-hover-color: var(--bs-black);
-  --bs-btn-hover-bg: var(--theme-accent-400);
-  --bs-btn-hover-border-color: var(--theme-accent-400);
-  --bs-btn-active-color: var(--bs-white);
-  --bs-btn-active-bg: var(--theme-accent-800);
-  --bs-btn-active-border-color: var(--theme-accent-800);
-  --bs-btn-disabled-color: var(--bs-white);
-  --bs-btn-disabled-bg: var(--theme-accent-200);
-  --bs-btn-disabled-border-color: var(--theme-accent-200);
-}
-
 .btn-outline-ui {
   --bs-btn-color: var(--theme-grays-700);
-  --bs-btn-bg: var(--bs-white);
+  --bs-btn-bg: var(--theme-grays-white);
   --bs-btn-border-color: var(--theme-ui);
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--theme-ui);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--theme-gray-100);
   --bs-btn-hover-border-color: var(--theme-ui);
   --bs-btn-active-color: var(--bs-white);
   --bs-btn-active-bg: var(--theme-gray-600);
@@ -573,4 +555,17 @@
   --bs-btn-disabled-border-color: var(--theme-danger-200);
 }
 
-/* 6. Save file! */
+/* 6. Apply colors to forms */
+/* forms */
+
+.was-validated .form-control:invalid, .was-validated .form-control.is-invalid {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23b00003'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23b00003' stroke='none'/%3e%3c/svg%3e");
+  }
+
+  .was-validated .form-control:valid, .was-validated .form-control.is-valid {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23#0d6211'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23#0d6211' stroke='none'/%3e%3c/svg%3e");
+  }
+
+  // todo select icon for validation
+
+/* 7. Save file! */

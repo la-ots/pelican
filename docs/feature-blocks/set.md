@@ -13,7 +13,11 @@ eleventyNavigation:
 
 ## Best Practices
 
-Allows the presentation of two smaller aspects about a larger feature. Change the icons to match the aspects.
+Allows the presentation of two smaller aspects about a larger feature. 
+
+- Change text, icons to project needs.
+- Change the theme to meet project needs
+- Change the button styles (primary, secondary, etc.) for your own brand or dark theme
 
 ## Usage
 

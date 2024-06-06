@@ -17,6 +17,8 @@ eleventyNavigation:
 - Be sure to use an `<ol>` rather than an `<ul>` for a numbered list.
 - Do make sure to add the `list-group-numbered` class for a numbered list to the `<ol>`.
 
+<!-- // to do : add link underlines for hover and focus -->
+
 ## Usage
 
 ### Static Text List

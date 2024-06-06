@@ -16,6 +16,7 @@ eleventyNavigation:
 Shows the main feature or benefit alongside smaller benefits.
 
 - Use the large icon for the main feature or benefit, and the small icon for additional features or benefits.
+- Change the theme to meet project needs
 
 ## Usage
 

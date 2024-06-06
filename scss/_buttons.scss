@@ -1,11 +1,15 @@
 .btn {
-  box-shadow: $btn-shadow;
+  box-shadow: 0 .125rem 0 0 var(--theme-button-shadow-color);
   &:hover, &:active {
     @extend .text-decoration-underline;
-    box-shadow: 0 .25rem 0 0 fade-out($gray-900, 0.5);
+    box-shadow: 0 .25rem 0 0 var(--theme-button-shadow-color);
   }
   &:active {
-    box-shadow: 0 0 0 0 fade-out($gray-900, 0.75);
+    box-shadow: none;
+  }
+  &:disabled, &.disabled {
+    opacity: 1;
+    box-shadow: none;
   }
 }
 .btn-link {
@@ -13,6 +17,9 @@
   @extend .border-0;
   @extend .text-decoration-none;
   background-color: transparent !important;
+}
+.btn-close {
+  color: var(--theme-button-close-color)!important;
 }
 .btn-container {
   padding: 1rem;
@@ -66,16 +73,16 @@
   transition: $transition-base;
   div, .wrapper {
     @extend .rounded;
-    color: var(--theme-gray-900);
-    background-color: var(--theme-gray-white);
+    color: var(--theme-text-normal);
+    background-color: var(--theme-card-bg-color);
     border: 2px solid var(--theme-ui);
     padding: .5rem .75rem;
   }
   &:hover {
-    background-color: var(--theme-gray-100);
+    background-color: var(--theme-ui);
     div, .wrapper {
-        color: var(--theme-gray-white);
-        background-color: var(--theme-gray-800);
+        color: var(--theme-text-normal);
+        background-color: var(--theme-card-bg-color);
         text-decoration: underline;
     }
   }
@@ -90,8 +97,7 @@ a.btn {
     text-decoration: inherit;
   }
 }
-#ScrollToTop,
-.btn-scroll-top {
+#ScrollToTop, .btn-scroll-top {
   @extend .position-fixed;
   right: 2rem;
   bottom: 5rem;
@@ -104,8 +110,7 @@ a.btn {
   @extend .border-0;
   @extend .shadow-none;
 }
-.btns-previous-next,
-.btns-previous-forward {
+.btns-previous-next, .btns-previous-forward {
   .container-fluid {
     padding-top: 1.675rem;
     padding-bottom: 1.625rem;

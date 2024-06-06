@@ -1,8 +1,17 @@
 .form-control {
+  background-color: var(--theme-card-bg-color);
   &.disabled,
   &[disabled],
   &[readonly] {
     box-shadow: none;
+  }
+  &:focus, &:focus-visible {
+    background-color: var(--theme-card-bg-color);
+  }
+  @media (prefers-color-scheme: dark) {
+    &[type=date]::-webkit-calendar-picker-indicator {
+      filter: invert(1);
+    }
   }
 }
 .form-group {
@@ -20,8 +29,7 @@
 }
 
 .form-title {
-  // this is used on form templates
   @extend .h3;
   @extend .mb-6;
-  @extend .text-primary;
+  color: var(--theme-headings-color);
 }

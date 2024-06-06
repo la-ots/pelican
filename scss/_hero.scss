@@ -2,7 +2,6 @@
   @extend .position-relative;
   @extend .bg-image-position-center;
   @extend .bg-image-size-cover;
-  background-color: var(--theme-hero-dual-pane-bg-color);
   padding-top: 10rem;
   padding-bottom: 10rem;
   .overlay {
@@ -36,8 +35,7 @@
     color: var(--theme-hero-dual-pane-text-color);
   }
 }
-.hero-single-pane,
-.hero-solo-pane {
+.hero-single-pane {
   background-color: var(--theme-hero-single-pane-bg-color);
   .half-left {
     @extend .bg-image-size-cover;
@@ -46,7 +44,7 @@
   .half-right {
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-color: var(--theme-hero-single-pane-bg-color);
+    
     color: var(--theme-hero-single-pane-small-text-color);
     .row {
       @extend .justify-content-center;

@@ -37,9 +37,13 @@
 }
 .toast-header {
   position: relative;
+  border-top-right-radius: var(--bs-toast-border-radius);
+  border-top-left-radius : var(--bs-toast-border-radius);
   .btn-close {
     position: absolute;
     top: 0.5rem;
     right: 1rem;
+    color: inherit!important;
+    opacity: .75;
   }
 }

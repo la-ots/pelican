@@ -149,3 +149,12 @@ code.language-sass .token.property,
 code.language-scss .token.property {
   color: #9cdcfe;
 }
+
+@media (prefers-color-scheme: dark) {
+  pre[class*="language-"] {
+    border-color: #000000;
+  }
+  :not(pre) > code[class*="language-"] {
+    border-color: #000000;
+  }
+}

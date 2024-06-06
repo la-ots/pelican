@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Voice & Tone
   parent: Foundation
-  order: 10
+  order: 11
   excerpt: Guidelines for written content.
   img: /img/illustrations/illus-voice-tone.svg
 ---

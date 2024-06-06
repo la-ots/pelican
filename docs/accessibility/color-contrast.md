@@ -79,32 +79,13 @@ eleventyNavigation:
           <span class="icon fas fa-check me-1" aria-hidden="true"></span>Do
         </p>
       </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black text-white pd-color-block">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center text-white pd-color-block" style="background-color: #292929;">
         <p class="mb-0 text-center">
           <button type="button" class="btn btn-secondary">Button Text</button>
         </p>
       </div>
       <div class="card-body">
-        <p class="mb-0 fw-bold"><span class="icon fas fa-check text-success me-1" aria-hidden="true"></span>3.15:1 Contrast ratio</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-12 col-md-6 col-lg-4">
-    <div class="card border-0">
-      <div class="card-header rounded-top border-0 py-2 bg-success">
-        <p class="mb-0 text-white">
-          <span class="icon fas fa-check me-1" aria-hidden="true"></span>Do
-        </p>
-      </div>
-      <div class="card-body d-flex flex-column justify-content-center align-items-center bg-black pd-color-block" style="background-color: #CED4DA!important;">
-        <div class="form-group mb-0">
-          <label for="colorTest1" class="label">
-            <span class="icon fas fa-asterisk text-danger me-1" aria-hidden="true"></span>Label</label>
-          <input id="colorTest1" type="text" class="form-control">
-        </div>
-      </div>
-      <div class="card-body">
-        <p class="mb-0 fw-bold"><span class="icon fas fa-check text-success me-1" aria-hidden="true"></span>3.79:1 Contrast ratio</p>
+        <p class="mb-0 fw-bold"><span class="icon fas fa-check text-success me-1" aria-hidden="true"></span>3.1:1 Contrast ratio</p>
       </div>
     </div>
   </div>
