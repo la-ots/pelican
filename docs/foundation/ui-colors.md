@@ -21,7 +21,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
             <div class="bg-ui rounded-top pd-color-block"></div>
             <div class="card-body">
                 <p class="mb-0 fw-bold">UI</p>
-                <p class="mb-0"><code>#6e8287</code></p>
+                <p class="mb-0"><code>#586a6f</code></p>
                 <p class="mb-0"><code>$ui</code></p>
             </div>
         </div>
