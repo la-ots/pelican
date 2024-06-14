@@ -23,7 +23,7 @@ The Louisiana Seal is used to indicate the authenticity and official status of t
 <div class="row">
   <div class="col-12 offset-md-1 col-md-3 text-center">
     <p><span class="badge badge-ui">PNG</span></p>
-    <img class="img-fluid" alt="Official Louisiana State Seal." src="/img/New-Governors-Office-Seal.png" >
+    <img class="img-fluid" alt="Official Louisiana State Seal." src="/img/Louisiana-State-Seal.png" >
   </div>
 </div>
 
@@ -31,5 +31,5 @@ The Louisiana Seal is used to indicate the authenticity and official status of t
 <img
   class="img-fluid"
   alt="Official Louisiana State Seal."
-  src="/img/New-Governors-Office-Seal.png" />
+  src="/img/Louisiana-State-Seal.png" />
 ```
