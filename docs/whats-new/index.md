@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.2.1: December 20, 2024
+## 2.2.2: December 20, 2024
 
 - Fixes a typo in the reference to the variable typeface
 
