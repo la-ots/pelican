@@ -20,6 +20,12 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 - Fixes a typo in the reference to the variable typeface
 
+## 2.2.1: June 14, 2024
+
+- Clarifies instructions about Content Containers
+- Updates the image used for State Seal
+- Updates hex value for UI color
+
 ## 2.2.0: April 5, 2024
 
 - Adds Status component
