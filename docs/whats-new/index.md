@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.2.4: January 17, 2025
+
+- Changed how the textured background is loaded for performance reasons. Read more about this at [Background Textures](/foundation/agency-theming/#background-texture).
+
 ## 2.2.3: January 10, 2025
 
 - Fixes a bug in the color selectors for text in a table
@@ -34,7 +38,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 - Adds Status component
 
-## 2.1.0: March 28, 2023
+## 2.1.0: March 28, 2024
 
 - Adds a scrollable table option for data-dense tables
 
