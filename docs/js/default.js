@@ -125,7 +125,7 @@ sidebarDropdownLink.forEach((dropdownItem) => {
 });
 
 function menuA11Y() {
-  //insert menu hidding behavior
+  //insert menu hiding behavior
   if (sidebar.offsetLeft == 0) {
     sidebar.setAttribute("aria-hidden", "false");
     sidebar.removeAttribute("inert");
@@ -149,9 +149,11 @@ if (sidebarButton) {
   };
 }
 
-window.onscroll = () => {
-  scrollFunction();
-};
+// Attach scroll to the .page-content instead of window
+const pageContent = document.querySelector(".page-content");
+if (pageContent) {
+  pageContent.addEventListener("scroll", scrollFunction);
+}
 
 if (scrollToTop) {
   scrollToTop.onclick = (event) => {
@@ -160,12 +162,10 @@ if (scrollToTop) {
   };
 }
 
+// Revised scrollFunction to use pageContent scrollTop
 function scrollFunction() {
   if (scrollToTop) {
-    if (
-      document.body.scrollTop > 100 ||
-      document.documentElement.scrollTop > 100
-    ) {
+    if (pageContent && pageContent.scrollTop > 100) {
       scrollToTop.style.display = "block";
     } else {
       scrollToTop.style.display = "none";
