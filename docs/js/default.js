@@ -122,9 +122,9 @@ sidebarDropdownLink.forEach((dropdownItem) => {
   };
 });
 
-```window.onscroll = () => {
+/*window.onscroll = () => {
   scrollFunction();
-};```
+};*/
 
 // Attach scroll to the .page-content instead of window
 const pageContent = document.querySelector(".page-content");
@@ -139,7 +139,7 @@ if (scrollToTop) {
   };
 }
 
-```function scrollFunction() {
+/*function scrollFunction() {
   if (scrollToTop) {
     if (
       document.body.scrollTop > 100 ||
@@ -150,7 +150,7 @@ if (scrollToTop) {
       scrollToTop.style.display = "none";
     }
   }
-}```
+}*/
 
 // Revised scrollFunction to use pageContent scrollTop
 function scrollFunction() {
