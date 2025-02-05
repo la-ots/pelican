@@ -21,24 +21,43 @@
     var(--theme-page-title-border-color);
   // todo code page title, muted badges in CSS variables
   .badge-primary {
-    background-color: var(--theme-badge-chip-primary-bg-dim-color);
-    color: var(--theme-badge-chip-primary-text-dim-color);
+    background-color: var(--theme-badge-chip-primary-bg-color);
+    color: var(--theme-badge-chip-primary-text-color);
+    &.badge-dim {
+      background-color:var(--theme-primary-100);
+      color:var(--theme-primary-900);
+    }
   }
   .badge-secondary {
-    background-color: var(--theme-badge-chip-secondary-bg-dim-color);
-    color: var(--theme-badge-chip-secondary-text-dim-color);
+    background-color: var(--theme-badge-chip-secondary-bg-color);
+    color: var(--theme-badge-chip-secondary-text-color);
+    &.badge-dim {
+      background-color:var(--theme-secondary-100);
+      color:var(--theme-secondary-900);
+    }
   }
   .badge-ui {
-    background-color: var(--theme-badge-chip-ui-bg-dim-color);
-    color: var(--theme-badge-chip-ui-text-dim-color);
+    background-color: var(--theme-badge-chip-ui-bg-color);
+    color: var(--theme-badge-chip-ui-text-color);
+    &.badge-dim {
+      background-color:var(--theme-gray-100);
+      color:var(--theme-gray-900);
+    }
   }
   .badge-success {
-    background-color: var(--theme-badge-chip-success-bg-dim-color);
-    color: var(--theme-badge-chip-success-text-dim-color);
+    background-color: var(--theme-badge-chip-success-bg-color);
+    color: var(--theme-badge-chip-success-text-color);
+    &.badge-dim {
+      background-color:var(--theme-success-100);
+      color:var(--theme-success-900);
+    }
   }
   .badge-info {
-    background-color: var(--theme-badge-chip-info-bg-dim-color);
-    color: var(--theme-badge-chip-info-text-dim-color);
+    background-color: var(--theme-badge-chip-info-bg-color);
+    color: var(--theme-badge-chip-info-text-color);
+    &.badge-dim {
+      background-color:var(--theme-info-100);
+      color:var(--theme-info-900);
   }
 }
 .page-title-text {
