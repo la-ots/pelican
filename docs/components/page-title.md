@@ -19,7 +19,7 @@ eleventyNavigation:
 - If a page needs more than one button, use a [Bootstrap Dropdown button](https://getbootstrap.com/docs/5.3/components/dropdowns/#single-button).
 - Remove the [Badges](/components/badges/) section if you don’t need them.
 - Try to keep to just two or three Badges.
-- Most badges in the Page Title, except Warning and Danger, will be dimmed to avoid undue emphasis.
+- [Badges](/components/badges/) are no longer dim by default in the Page Title to allow for flexibility.
 - Use only one H1 per page. (We are using an extra one here only as a documentation sample for the component.)
 - Learn more about how to use [Headings](/accessibility/headings/)
 
