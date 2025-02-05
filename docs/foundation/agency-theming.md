@@ -48,6 +48,16 @@ Load these CSS files in the `<head>` section of your project after Pelican CSS a
 <link href="css/bg=texture-primary.css" rel="stylesheet">
 ```
 
+To apply the textured backgrounds, add their class. For example
+
+```html
+<div class="bg-texture">...</div>
+<div class="bg-texture-primary">...</div>
+<div class="bg-texture-secondary">...</div>
+<div class="bg-texture-accent">...</div>
+<div class="bg-texture-ui">...</div>
+```
+
 You can get them at the following locations:
 
 - Default Texture: [bg-texture.css](/css/bg-texture.css)
