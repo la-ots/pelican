@@ -18,7 +18,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 ## 2.3.0: February 7, 2025
 
-- We changed how the textured backgrounds are loaded for performance reasons. THey’re now used as optional CSS files. Read more about this at [Background Textures](/foundation/agency-theming/#background-texture).
+- We changed how the textured backgrounds are loaded for performance reasons. They’re now used as optional CSS files. Read more about this at [Background Textures](/foundation/agency-theming/#background-texture).
 - Added CSS to offer optional, dim versions of [Badges](/components/badges/).
 - Changed the CSS structure for Badges, which affects their default behavior in [Page Titles](/components/page-title/). Refer to their documentation for more information. 
 
