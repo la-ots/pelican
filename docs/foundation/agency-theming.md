@@ -40,9 +40,17 @@ You’ll find the full list of themeable parts for Pelican 2 in the Pelican 2 Th
 
 Themed background texture tiles were included in Pelican by default using SVG inlined in the CSS. You can see an example of it in action in the [Get Started section of the Pelican home page](/). This added considerable weight to the CSS so this has been changed so that these themed textures are optionally loaded. The background colors of these optional CSS files can be themed using CSS variables.
 
-Load these CSS files in the <head> section of your project after Pelican CSS and your theme file. You can get them at the following locations.
+Load these CSS files in the `<head>` section of your project after Pelican CSS and your theme file. For example, the following might be a way to load them:
 
-- Default: [bg-texture.css](/css/bg-texture.css)
+```html
+<link href="css/pelican.min.css" rel="stylesheet">
+<link href="css/your-theme.css" rel="stylesheet">
+<link href="css/bg=texture-primary.css" rel="stylesheet">
+```
+
+You can get them at the following locations:
+
+- Default Texture: [bg-texture.css](/css/bg-texture.css)
 - Primary Theme Color: [bg-texture-primary.css](/css/bg-texture-primary.css)
 - Secondary Theme Color: [bg-texture-secondary.css](/css/bg-texture-secondary.css)
 - Accent Theme Color: [bg-texture-accent.css](/css/bg-texture-accent.css)

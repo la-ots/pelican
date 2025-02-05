@@ -16,11 +16,11 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.2.4: January 17, 2025
+## 2.3: February 7, 2025
 
-- Changed how the textured background is loaded for performance reasons. Read more about this at [Background Textures](/foundation/agency-theming/#background-texture).
+- Changed how the textured background is loaded for performance reasons. Read more about this at [Background Textures](/foundation/agency-theming/#background-texture)
 - Added CSS for dim versions of [Badges](/components/badges/)
-- Rewrote the CSS for Badges in [Page Titles](/components/page-title/) for flexibility
+- Rewrote the CSS for Badges in [Page Titles](/components/page-title/) to be less opiniated
 
 ## 2.2.3: January 10, 2025
 
