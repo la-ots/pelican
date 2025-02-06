@@ -20,8 +20,18 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 - Introducing an [Extras](/extras/) section for things which can be optionally added to Pelican.
 - Added CSS to offer optional, dim versions of [Badges](/components/badges/).
-- [BREAKING CHANGE] Changed the CSS structure for Badges, which affects their default behavior in Page Titles. Refer to [Badges](/components/badges/) and [Page Titles](/components/page-title/) documentation for more information on restoring prior default behavior.
-- [BREAKING CHANGE] We changed how the textured backgrounds are loaded for performance reasons. They’re now used as Extras you can optionally add. Read more about this at [Background Textures](/extras/background-texture).
+- <span class="badge badge-danger">
+    <span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true">
+    </span>
+    Breaking Change
+  </span>
+  Changed the CSS structure for Badges, which affects their default behavior in Page Titles. Refer to <a href="/components/badges/">Badges</a> and <a href="/components/page-title/">Page Titles</a> documentation for more information on restoring prior default behavior.
+- <span class="badge badge-danger">
+    <span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true">
+    </span>
+    Breaking Change
+  </span>
+  We changed how the textured backgrounds are loaded for performance reasons. They’re now used as Extras you can optionally add. Read more about this at <a href="/extras/background-texture">Background Textures</a>.
 
 ## 2.2.3: January 10, 2025
 
