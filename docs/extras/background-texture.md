@@ -27,7 +27,7 @@ Load these CSS files in the `<head>` section of your project after Pelican CSS a
 </head>
 ```
 
-To apply the textured background, add its class ang any background color classes. In our example you can get a preview. We manually add padding and margins to the example to make it easier to review.
+To apply the textured background, add its class and any background color classes. In our example you can get a preview. We manually add padding and margins to the example to make it easier to review.
 
 ```html
 <div class="mb-1 p-8 bg-texture bg-primary">...</div>
