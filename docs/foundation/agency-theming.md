@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 4
   excerpt: Agencies have opportunity to reflect their own brand using Pelican.
   img: /img/illustrations/illus-agency-theme.svg
+eleventyExcludeFromCollections: true
 ---
 
 ## Using Your Agency Colors
