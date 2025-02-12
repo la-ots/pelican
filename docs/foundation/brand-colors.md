@@ -162,7 +162,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
       <div class="card-body">
         <p class="mb-0 fw-bold">Secondary, Darker</p>
         <p class="mb-0">
-          Hex Code: <code>#4c2e01</code>
+          Hex Code: <code>#0a5757</code>
         </p>
         <p class="mb-0">
           SCSS Var: <code>$secondary-900</code>
