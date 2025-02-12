@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.3.0: February 7, 2025
+## 2.3.0: February 12, 2025
 
 - Introducing an [Extras](/extras/) section for things which can be optionally added to Pelican.
 - Added CSS to offer optional, dim versions of [Badges](/components/badges/).
