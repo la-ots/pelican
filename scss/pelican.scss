@@ -87,7 +87,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "tables";
 @import "toasts";
 @import "focus";
-@import "bg-texture";
 @import "pagination";
 @import "toc";
 @import "page-templates";
