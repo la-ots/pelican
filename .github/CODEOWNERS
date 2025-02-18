@@ -1,6 +1,9 @@
 # Global Owners
 *   @la-ots/product-delivery-admins
 
+# Package Changes
+package*.json @la-ots/product-delivery-admins
+
 # Docs Owners
 /docs/  @la-ots/docs-maintainers
 
