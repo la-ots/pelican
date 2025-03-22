@@ -153,8 +153,11 @@ if (sidebarButton) {
 const pageContent = document.querySelector(".page-content");
 if (pageContent) {
   pageContent.addEventListener("scroll", scrollFunction);
+} else {
+  window.addEventListener("scroll", scrollFunction);
 }
 
+// Scroll to top button click handler
 if (scrollToTop) {
   scrollToTop.onclick = (event) => {
     event.preventDefault();
@@ -162,27 +165,20 @@ if (scrollToTop) {
   };
 }
 
-// Revised scrollFunction to use pageContent scrollTop
-function scrollFunction() {
-  if (scrollToTop) {
-    if (pageContent && pageContent.scrollTop > 100) {
-      scrollToTop.style.display = "block";
-    } else {
-      scrollToTop.style.display = "none";
-    }
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
+// Function to scroll the page or .page-content to the top
 function topFunction() {
-  let pageContent = document.getElementsByClassName("page-content");
-  if (pageContent && pageContent.length > 0) {
-    pageContent[0].scrollTop = 0;
+  if (pageContent) {
+    pageContent.scrollTop = 0; 
   } else {
-    document.body.scrollTop = 0;
+    document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
   }
 }
+
+// Call scrollFunction on page load to ensure the button is hidden if already at the top
+window.addEventListener("load", () => {
+  scrollFunction(); 
+});
 
 var popoverTriggerList = [].slice.call(
   document.querySelectorAll('[data-bs-toggle="popover"]'),
