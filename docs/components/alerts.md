@@ -24,7 +24,7 @@ eleventyNavigation:
 
 {% include 'writing-tips.njk' %}
 
-<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="XJWowPd" data-pen-title="Alerts" data-editable="true" data-user="lagovdesignteam" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="XJWowPd" data-pen-title="Alerts" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/XJWowPd">
   Alerts</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
