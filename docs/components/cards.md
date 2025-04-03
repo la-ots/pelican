@@ -24,47 +24,12 @@ eleventyNavigation:
 
 ## Usage
 
-### Basic card
-
-<div class="card">
-  <div class="card-body">
-    This is where Card content goes.
-  </div>
-</div>
-
-```html
-<div class="card">
-  <div class="card-body">This is where Card content goes.</div>
-</div>
-```
-
-### Card without a Shadow
-
-<div class="card shadow-none">
-  <div class="card-body">
-    This is where Card content goes.
-  </div>
-</div>
-
-```html
-<div class="card shadow-none">
-  <div class="card-body">This is where Card content goes.</div>
-</div>
-```
-
-### Card without a Border
-
-<div class="card border-0">
-  <div class="card-body">
-    This is where Card content goes.
-  </div>
-</div>
-
-```html
-<div class="card border-0">
-  <div class="card-body">This is where Card content goes.</div>
-</div>
-```
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="azbXEZa" data-pen-title="Buttons Disabled" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/azbXEZa">
+  Buttons Disabled</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ## Resources
 

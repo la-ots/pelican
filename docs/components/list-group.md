@@ -19,43 +19,9 @@ eleventyNavigation:
 
 ## Usage
 
-### Static Text List
-
-<ul class="list-group">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
-
-```html
-<ul class="list-group">
-  <li class="list-group-item">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
-```
-
-### Link List
-
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action">An item</a>
-  <a href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a href="#" class="list-group-item list-group-item-action">A third item</a>
-  <a href="#" class="list-group-item list-group-item-action">A fourth item</a>
-  <a href="#" class="list-group-item list-group-item-action">And a fifth one</a>
-</div>
-
-<!-- prettier-ignore -->
-```html
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action">An item</a>
-  <a href="#" class="list-group-item list-group-item-action">A second item</a>
-  <a href="#" class="list-group-item list-group-item-action">A third item</a>
-  <a href="#" class="list-group-item list-group-item-action">A fourth item</a>
-  <a href="#" class="list-group-item list-group-item-action">And a fifth one</a>
-</div>
-```
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dPyadyG" data-pen-title="Footer Utility" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/dPyadyG">
+  Footer Utility</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
