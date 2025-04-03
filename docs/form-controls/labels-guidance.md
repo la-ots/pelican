@@ -13,33 +13,20 @@ eleventyNavigation:
 
 ## Best Practices
 
+Users don’t know the legislative or administrative structure so we should arrange the forms for their understanding.
+
+- **Don’t omit form labels**.
 - Labels are **required** for form controls.
+- Put labels above the field so that the label appears higher up on the page than the field.
+- Use a single column form if possible. This is the easiest form reading experience for users.
+- Refrain from using the placeholder attribute.
+- Verify that the appropriate input type is being used, such as using `<input type=”tel”>` for telephone numbers.
+- Make `for` and `id` value match.
+- Change any IDs for your project’s requirements.
 - Don’t replace Labels with placeholders.
 - Refrain from using placeholder attributes in inputs because they cause usability problems.
 - Ensure the `for` and `id` attributes have matching values. Note the code below.
 - Use a red asterisk (<span class="icon fas fa-asterisk text-danger" aria-hidden="true"></span>) to denote required fields.
-
-## Usage
-
-<div class="form-group">
-  <label for="inputTextBox499">
-    <span class="icon fas fa-asterisk text-danger me-1" aria-hidden="true"></span>Input Email Label
-  </label>
-  <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
-  <small>On mobile browsers this presents an email-optimized UI.</small>
-</div>
-
-<!-- prettier-ignore -->
-```html
-<div class="form-group">
-  <label for="inputTextBox499">
-      <span class="icon fas fa-asterisk text-danger me-1" aria-hidden="true"></span>
-      Input Email Label
-    </label>
-  <input type="tel" class="form-control" id="inputTextBox499" placeholder="This is a placeholder, don’t use.">
-  <small>On mobile browsers this presents an email-optimized UI.</small>
-</div>
-```
 
 ## Resources
 
