@@ -1,54 +1,31 @@
 ---
-title: Form Section Header
+title: Section Header
 summary: Form section headers divide a form into smaller sections.
 tags: forms
 layout: guide
 eleventyNavigation:
-  key: Form Section Header
+  key: Section Header
   parent: Form Controls
-  order: 3
+  order: 2
   excerpt: Form section headers divide a form into smaller sections.
   img: /img/illustrations/illus-form-section-header.png
 ---
 
 ## Best Practices
 
-- Divide forms into smaller sections to make it easier for the user to fill out.
-- Separate form sections into different [Content Containers](/components/content_container/).
+- Divide forms, or even a page of data, into smaller sections to make it easier for the user to use.
+- Separate form or page sections into different [Content Containers](/components/content_container/) first.
+- Follow this with the appropriate container, row, and columns.
 - Use the form section to introduce and name each form section.
 - Put the form section header and its related form fields into the same `.content-container`.
 - Be sure to consult [Typography and Headings](/foundation/typography/#headings) to ensure you’re using the appropriate heading level.
 
 ## Usage
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12">
-      <div class="form-section-header">
-        <h2 class="legend text-primary mb-1">Header</h2>
-        <p class="mb-1">Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.</p>
-        <p class="small"><span class="fa fa-asterisk text-danger me-1" aria-hidden="true"></span>An asterisk means we need this information.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- prettier-ignore -->
-```html
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12">
-      <div class="form-section-header">
-        <h2 class="legend text-primary mb-1">Header</h2>
-        <p class="mb-1">
-          Sentence about this form section goes here. It can help describe this part of the form or explain special instructions.
-        </p>
-        <p class="small">
-          <span class="fa fa-asterisk text-danger me-1" aria-hidden="true"></span>
-          An asterisk means we need this information.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MYWLxyw" data-pen-title="Checkbox and Radio Tiles" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/MYWLxyw">
+  Checkbox and Radio Tiles</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>>
 ```
