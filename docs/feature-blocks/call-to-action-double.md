@@ -20,8 +20,9 @@ Use this when you’re ready to direct the reader to take an action, but that ac
 
 ## Usage
 
-{% include 'markup/feature-cta-double.njk' %}
-
-```html
-{% include 'markup/feature-cta-double.njk' %}
-```
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jEORvmq" data-pen-title="Call to Action, Single" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/jEORvmq">
+  Call to Action, Single</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
