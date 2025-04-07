@@ -9,4 +9,5 @@ eleventyNavigation:
   title: Page Templates
   order: 12
   excerpt: Common solutions which fit onto a single page.
+eleventyExcludeFromCollections: true
 ---

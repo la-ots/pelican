@@ -25,7 +25,7 @@ eleventyNavigation:
 
 **Popover**
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PwoVQya" data-pen-title="Pagination" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="{{codepen.embedHeight}}" data-default-tab="html,result" data-slug-hash="PwoVQya" data-pen-title="Pagination" data-editable="true" data-user="lagovdesignteam" style="height: {{codepen.embedHeightPx}} box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/PwoVQya">
   Pagination</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -34,7 +34,7 @@ eleventyNavigation:
 
 **Tooltips**
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vEYbdQW" data-pen-title="Popovers" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="{{codepen.embedHeight}}" data-default-tab="html,result" data-slug-hash="vEYbdQW" data-pen-title="Popovers" data-editable="true" data-user="lagovdesignteam" style="height: {{codepen.embedHeightPx}} box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/vEYbdQW">
   Popovers</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

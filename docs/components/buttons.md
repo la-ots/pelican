@@ -41,7 +41,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ### Provided Buttons
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="emYxJyL" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="{{codepen.embedHeight}}" data-default-tab="html,result" data-slug-hash="emYxJyL" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: {{codepen.embedHeightPx}} box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/emYxJyL">
   Buttons</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -54,7 +54,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Use sparingly and only when their meaning is clear to the user.
 - Consider omitting icon-only buttons as VoiceControl users may not be able to invoke them.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PwoVZVm" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="{{codepen.embedHeight}}" data-default-tab="html,result" data-slug-hash="PwoVZVm" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: {{codepen.embedHeightPx}} box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/PwoVZVm">
   Buttons</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -68,7 +68,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Keep the text in the links brief.
 - Appearance can be changed like other buttons.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wBvNMOr" data-pen-title="Buttons icon only" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="{{codepen.embedHeight}}" data-default-tab="html,result" data-slug-hash="wBvNMOr" data-pen-title="Buttons icon only" data-editable="true" data-user="lagovdesignteam" style="height: {{codepen.embedHeightPx}} box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/wBvNMOr">
   Buttons icon only</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -84,7 +84,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Add the class `disabled` to the class list.
 - Be sure to use `tabindex="-1"` to prevent tabbing to that button.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bNGzEJa" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="{{codepen.embedHeight}}" data-default-tab="html,result" data-slug-hash="bNGzEJa" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: {{codepen.embedHeightPx}} box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/bNGzEJa">
   Buttons</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
