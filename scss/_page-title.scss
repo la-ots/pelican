@@ -17,29 +17,7 @@
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-bottom: $border-width $border-style
-    var(--theme-page-title-border-color);
-  // todo code page title, muted badges in CSS variables
-  .badge-primary {
-    background-color: var(--theme-badge-chip-primary-bg-dim-color);
-    color: var(--theme-badge-chip-primary-text-dim-color);
-  }
-  .badge-secondary {
-    background-color: var(--theme-badge-chip-secondary-bg-dim-color);
-    color: var(--theme-badge-chip-secondary-text-dim-color);
-  }
-  .badge-ui {
-    background-color: var(--theme-badge-chip-ui-bg-dim-color);
-    color: var(--theme-badge-chip-ui-text-dim-color);
-  }
-  .badge-success {
-    background-color: var(--theme-badge-chip-success-bg-dim-color);
-    color: var(--theme-badge-chip-success-text-dim-color);
-  }
-  .badge-info {
-    background-color: var(--theme-badge-chip-info-bg-dim-color);
-    color: var(--theme-badge-chip-info-text-dim-color);
-  }
+  border-bottom: $border-width $border-style var(--theme-page-title-border-color);
 }
 .page-title-text {
   @extend .h2;
