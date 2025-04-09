@@ -23,11 +23,13 @@
       <link href="{{ '/css/prism-theme.css' | addHash }}" rel="stylesheet">
       <link href="{{ '/css/site.css' | addHash }}" rel="stylesheet">
       <link href="{{ '/css/bg-texture.css' | addHash }}" rel="stylesheet">
+      <link href="{{ '/css/autocomplete.css' | addHash }}" rel="stylesheet">
     {% else %}
       <link href="/css/pelican.css" rel="stylesheet">
       <link href="/css/prism-theme.css" rel="stylesheet">
       <link href="/css/site.css" rel="stylesheet">
       <link href="/css/bg-texture.css" rel="stylesheet">
+      <link href="/css/autocomplete.css" rel="stylesheet">
     {% endif %}
     <title>{{ title }} | Pelican, Louisiana’s Design System</title>
     <!-- Primary Meta Tags -->
@@ -59,9 +61,11 @@
     {% if env.production %}
       <script src="{{ '/js/pelican.bundle.min.js' | addHash }}"></script>
       <script src="{{ '/js/default.js' | addHash }}"></script>
+      <script src="{{ '/js/autocomplete.js' | addHash }}"></script>
     {% else %}
       <script src="/js/pelican.bundle.js"></script>
       <script src="/js/default.js"></script>
+      <script src="/js/autocomplete.js"></script>
     {% endif %}
   </body>
 </html>

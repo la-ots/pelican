@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.4.0: April 10, 2024
+
+- Adds an accessible [Autocomplete](/extras/autocomplete)
+
 ## 2.3.1: February 17, 2025
 
 - Fixed a [Form Section Header](/form-controls/form-section-header/) CSS bug

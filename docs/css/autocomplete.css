@@ -1,0 +1,17 @@
+.accessible-autocomplete {
+  position: relative;
+}
+
+.list-group-autocomplete {
+  display: none;
+  /* initial view */
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+.list-group-item[aria-selected="true"],
+.list-group-item:hover {
+  color: var(--theme-gray-white);
+  background-color: var(--theme-ui);
+  cursor: pointer;
+}
