@@ -28,4 +28,8 @@ You’ll need to add the following resources to your project. The autocomplete i
 {% include 'markup/autocomplete.njk' %}
 ```
 
+## Resources
 
+This accessible autocomplete is adapted from Accessibility repo on Github.
+
+- [Halter’s Web Accessibility](https://github.com/haltersweb/Accessibility)
