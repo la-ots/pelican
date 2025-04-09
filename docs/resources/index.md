@@ -7,7 +7,7 @@ index: true
 eleventyNavigation:
   key: Resources
   title: Resources
-  order: 14
+  order: 15
 ---
 
 ## Accessibility Guides

@@ -6,7 +6,7 @@ caption {
   width: 100%;
   margin-bottom: 1rem;
   font-size: $font-size-base * 0.875;
-  color: var(--theme-gray-700);
+  
   background-color: var(--theme-gray-white);
   border-color: var(--theme-table-border-color);
   th,
@@ -49,6 +49,7 @@ caption {
   }
   > :not(caption) > * > * {
     border-bottom-width: 0;
+    color: var(--theme-gray-700);
   }
   a:not([class]) {
     color: var(--theme-link-color);

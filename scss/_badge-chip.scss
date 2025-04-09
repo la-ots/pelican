@@ -9,34 +9,66 @@
 .badge-primary {
   background-color: var(--theme-badge-chip-primary-bg-color);
   color: var(--theme-badge-chip-primary-text-color);
+  &.badge-dim {
+    background-color:var(--theme-primary-100);
+    color:var(--theme-primary-900);
+  }
 }
 .badge-secondary {
   background-color: var(--theme-badge-chip-secondary-bg-color);
   color: var(--theme-badge-chip-secondary-text-color);
+  &.badge-dim {
+    background-color:var(--theme-secondary-100);
+    color:var(--theme-secondary-900);
+  }
 }
 .badge-accent {
   background-color: var(--theme-badge-chip-accent-bg-color);
   color: var(--theme-badge-chip-accent-text-color);
+  &.badge-dim {
+    background-color:var(--theme-accent-100);
+    color:var(--theme-accent-900);
+  }
 }
 .badge-ui {
   background-color: var(--theme-badge-chip-ui-bg-color);
   color: var(--theme-badge-chip-ui-text-color);
+  &.badge-dim {
+    background-color:var(--theme-gray-100);
+    color:var(--theme-gray-900);
+  }
 }
 .badge-success {
   background-color: var(--theme-badge-chip-success-bg-color);
   color: var(--theme-badge-chip-success-text-color);
+  &.badge-dim {
+    background-color:var(--theme-success-100);
+    color:var(--theme-success-900);
+  }
 }
 .badge-warning {
   background-color: var(--theme-badge-chip-warning-bg-color);
   color: var(--theme-badge-chip-warning-text-color);
+  &.badge-dim {
+    background-color: var(--theme-warning-100);
+    color: var(--theme-warning-900);
+  }
 }
 .badge-danger {
   background-color: var(--theme-badge-chip-danger-bg-color);
   color: var(--theme-badge-chip-danger-text-color);
+  &.badge-dim {
+    background-color: var(--theme-danger-100);
+    color: var(--theme-danger-900);
+  }
 }
 .badge-info {
   background-color: var(--theme-badge-chip-info-bg-color);
   color: var(--theme-badge-chip-info-text-color);
+  &.badge-dim {
+    background-color:var(--theme-info-100);
+    color:var(--theme-info-900);
+  }
 }
 .chips {
   font-size: $font-size-base * 1.3;

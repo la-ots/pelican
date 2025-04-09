@@ -16,11 +16,46 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3.1: February 17, 2025
+
+- Fixed a [Form Section Header](/form-controls/form-section-header/) CSS bug
+
+## 2.3.0: February 12, 2025
+
+- Introducing an [Extras](/extras/) section for things which can be optionally added to Pelican.
+- Added CSS to offer optional, dim versions of [Badges](/components/badges/).
+- <span class="badge badge-danger">
+    <span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true">
+    </span>
+    Breaking Change
+  </span>
+  Changed the CSS structure for Badges, which affects their default behavior in Page Titles. Refer to <a href="/components/badges/">Badges</a> and <a href="/components/page-title/">Page Titles</a> documentation for more information on restoring prior default behavior.
+- <span class="badge badge-danger">
+    <span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true">
+    </span>
+    Breaking Change
+  </span>
+  We changed how the textured backgrounds are loaded for performance reasons. They’re now used as Extras you can optionally add. Read more about this at <a href="/extras/background-texture">Background Textures</a>.
+
+## 2.2.3: January 10, 2025
+
+- Fixes a bug in the color selectors for text in a table
+
+## 2.2.2: December 20, 2024
+
+- Fixes a typo in the reference to the variable typeface
+
+## 2.2.1: June 14, 2024
+
+- Clarifies instructions about Content Containers
+- Updates the image used for State Seal
+- Updates hex value for UI color
+
 ## 2.2.0: April 5, 2024
 
 - Adds Status component
 
-## 2.1.0: March 28, 2023
+## 2.1.0: March 28, 2024
 
 - Adds a scrollable table option for data-dense tables
 
