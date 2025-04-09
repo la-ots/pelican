@@ -48,7 +48,7 @@ Pelican attempts to provide more clarity in the user interface by introducing th
     </div>
 </div>
 
-Like [Brand Colors](/foundation/status-colors) and [Status colors](/foundation/status-colors), these can be changed. Change with great care as they have been chosen in accordance with usability and color contrast guidelines.
+Like [Brand Colors](/foundation/brand-colors) and [Status colors](/foundation/status-colors), these can be changed. Change with great care as they have been chosen in accordance with usability and color contrast guidelines.
 
 ## Using UI Colors
 
