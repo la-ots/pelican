@@ -5,7 +5,7 @@ on:
     types: [published]
 
 env:
-  NODE_VERSION: 16
+  NODE_VERSION: 20
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -28,7 +28,7 @@ jobs:
           npm pack
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pelican-release
           path: "la-ots-pelican-*.tgz"
@@ -46,12 +46,12 @@ jobs:
 
     steps:
       - name: Download package
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: pelican-release
 
       - name: Setup Node ${{ env.NODE_VERSION }} for NPM
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://registry.npmjs.org'
@@ -78,12 +78,12 @@ jobs:
 
     steps:
       - name: Download package
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: pelican-release
 
       - name: Setup Node ${{ env.NODE_VERSION }} for GitHub
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           registry-url: 'https://npm.pkg.github.com'
