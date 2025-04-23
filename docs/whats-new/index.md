@@ -16,7 +16,7 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
-## 2.4.0: April 10, 2024
+## 2.4.0: April 25, 2024
 
 - Adds an accessible [Autocomplete](/extras/autocomplete)
 

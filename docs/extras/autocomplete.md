@@ -13,11 +13,11 @@ eleventyNavigation:
 
 ## Best Practices
 
-Autocompletes benefit users with domain knowledge about what they’re choosing. If the available options are unknown to the user then it’s better to use checkboxes, radios, or selects because they can easily refer to the options.
+The Autocomplete benefits users with domain knowledge about what they’re choosing. If the available options are unknown to the user then it’s better to use [checkboxes](/form-controls/checkboxes/), [radios](/form-controls/radios/), or [selects](/form-controls/select/) because the users can easily refer to the options.
 
 ## Usage
 
-You’ll need to add the following resources to your project. The autocomplete isn’t included in Pelican by default. Be aware that you’ll need to define your own data source. The included JS file uses fake data for the demo.
+You’ll need to add the following resources to your project. The autocomplete isn’t included in Pelican by default. It inherits styles from the [List Group](/components/list-group/). Be aware that you’ll need to define your own data source. The included JS file uses fake data for the demo.
 
 - JS: [`autocomplete.js`](/js/autocomplete.js)
 - CSS: [`autocomplete.css`](/css/autocomplete.css)
