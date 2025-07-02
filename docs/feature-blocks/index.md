@@ -8,6 +8,7 @@ eleventyNavigation:
   key: Feature Blocks
   order: 11
   excerpt: Feature Blocks are ways to highlight what users get from an app or site.
+eleventyExcludeFromCollections: true
 ---
 
 ## Overview
