@@ -13,96 +13,20 @@ eleventyNavigation:
 
 ## Best Practice
 
-For projects requiring a sidebar navigation the App Screen provides the basic user interface frame. It contains 5 parts. The bottom of this page will display the markup pattern after the 5 parts have been explained.
+The App Screen provides the basic user interface frame. It contains the following 6 parts, presented in their source order
 
-1. Page Wrapper, `id=page-wrapper`
-1. Sidebar with Navigation, `id=sidebar`
-1. Main Wrapper, `id=wrapper-main`
-1. Topbar, `id=wrapper-topbar`
-1. Main Content, `id=main`
+1. Skip Link
+1. Page wrapper elements
+1. Sidebar Navigation
+1. Topbar
+1. Main
+1. Back to Top Button
 
 ## Usage
 
-Everything considered part of the App Screen is placed into the `id=page-wrapper`. This is out the outermost `div`. The Skip Link goes above it in markup. The Back to Top button goes below it in markup.
-
-<!--prettier-ignore -->
-```html
-{% include 'markup/skip-link.njk' %}
-<div id="page-wrapper" class="page-wrapper agency-theme">
-  ...
-</div>
-{% include 'markup/button-back-to-top.njk' %}
-```
-
-## Sidebar with Navigation
-
-The first child element of the `id=page-wrapper` is the [Sidebar with Navigation](/components/sidebar-nav/). This is the `nav`. For small devices like smartphones, it makes responsive adjustments. Add Top Level and Child Level items as needed.
-
-- Used in the App Screen.
-- Presents only two levels of navigation.
-- Child pages should get the class `active` added to their class list, in both the `li` and `a` which hold the link when they’re being viewed.
-- Current child pages also get the eye icon, <span class="icon fas fa-eye" aria-hidden="true"></span> when they’re being viewed. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
-- Child items will only appear when they’re toggled by the button to the right of their parent link.
-- The sidebar footer is empty by default but available for 1 or 2 short links
-
-```html
-{% include 'markup/sidebar-nav.njk' %}
-```
-
-## Wrapper Main and Page Content
-
-After the `nav` is the `class="wrapper-main"` and `class="page-content"`.
-
-<!-- prettier-ignore -->
-```html
-<div id="wrapper-main" class="wrapper-main">
-  <div class="page-content">
-    ...
-  </div>
-</div>
-```
-
-## Topbar
-
-The Topbar goes inside of the `class="page-content"`. The Topbar contains a hamburger button to show and hide the Sidebar with Navigation and the current page title.
-
-```html
-<!-- topbar -->
-<div id="wrapper-topbar" class="wrapper-topbar bg-black text-white">
-  <p class="m-0 fw-bold order-lg-2 me-auto">
-    <a href="#" class="d-md-none text-white text-decoration-none" tabindex="2">
-      <span class="d-md-none">Digital Product Name</span>
-    </a>
-    <span class="d-none d-md-inline">Current Page Title</span>
-  </p>
-  <button
-    id="sidebar-button"
-    class="btn btn-sm btn-black sidebar-button"
-    aria-haspopup="true"
-    aria-controls="sidebar"
-    tabindex="3">
-    <span class="icon fas fa-fw fa-bars" aria-hidden="true"></span>
-    <span class="visually-hidden">Toggle side navigation</span>
-  </button>
-</div>
-<!-- / topbar -->
-```
-
-## Using Main Content
-
-This `main` element is where the screen’s contents and user interface items are placed. This is also the target for the [Skip Link](/accessibility/skip-link/).
-
-<!-- prettier-ignore -->
-```html
-<main id="main" class="main" role="main">
-  ...
-</main>
-```
-
-## Putting It All Together
-
-The App Screen markup below is how all the 5 parts are assembled.
-
-```html
-{% include 'markup/app-screen.njk' %}
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="VYwgdYa" data-pen-title="App Screen" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/VYwgdYa">
+  App Screen</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
