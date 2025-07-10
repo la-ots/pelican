@@ -1,5 +1,8 @@
 .form-section-header {
   padding: 1.5rem 0;
+  .content-container & {
+    padding-top: 0;
+  }
 }
 
 .form-control {
