@@ -23,18 +23,12 @@ eleventyNavigation:
 - If an action moves the user to another place in the same page, or another URL, use a link `<a>` and not `<button>`.
 - If a button is inside of a table row, add the `btn-sm` class in addition to other classes.
 - For accessibility reasons, when using `<a>` as a `<button>` you must include `role="button"`.
-
-**Content**
-
 - Button labels must clearly state the action that occurs when the button is pressed.
 - When writing buttons, use action verbs and precise language; you can also use a noun after the verb to clarify meaning.
   - **Examples**: "Edit", "Empty Trash", or "Go to File".
 - When including an icon with text, the icon's meaning must match the meaning of the text.
   - **Examples**: A trash can icon with the text "Delete".
 - When using an icon-only button, the icon must clearly indicate the button's purpose.
-
-**Accessibility**
-
 - For accessibility reasons, when using `<a>` to perform a data action, you must include the `role="button"` attribute on the `<a>`.
 - If you are using an icon-only button, you must include the appropriate classes for assistive technologies (see markup below).
 - Try to avoid icon-only button unless the action word is known to voice control users.
@@ -47,16 +41,12 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ### Provided Buttons
 
-<button type="button" class="btn btn-primary">ButtonText</button> <button type="button" class="btn btn-secondary">ButtonText</button> <button type="button" class="btn btn-outline-ui">ButtonText</button> <button type="button" class="btn btn-link">ButtonText</button> <button type="button" class="btn btn-danger">ButtonText</button> <button type="button" class="btn btn-warning">ButtonText</button>
-
-```html
-<button type="button" class="btn btn-primary">ButtonText</button>
-<button type="button" class="btn btn-secondary">ButtonText</button>
-<button type="button" class="btn btn-outline-ui">ButtonText</button>
-<button type="button" class="btn btn-link">ButtonText</button>
-<button type="button" class="btn btn-danger">ButtonText</button>
-<button type="button" class="btn btn-warning">ButtonText</button>
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="emYxJyL" data-pen-title="Buttons" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/emYxJyL">
+  Buttons</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### Icon-only Button
 
@@ -64,17 +54,12 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Use sparingly and only when their meaning is clear to the user.
 - Consider omitting icon-only buttons as VoiceControl users may not be able to invoke them.
 
-<button type="button" class="btn btn-primary btn-sm">
-  <span class="icon fas fa-check" aria-hidden="true"></span>
-  <span class="visually-hidden">Accept</span>
-</button>
-
-```html
-<button type="button" class="btn btn-primary btn-sm">
-  <span class="icon fas fa-check" aria-hidden="true"></span>
-  <span class="visually-hidden">Accept</span>
-</button>
-```
+<p class="codepen" data-height="150" data-default-tab="result" data-slug-hash="PwoVZVm" data-pen-title="Buttons icon only" data-editable="true" data-user="lagovdesignteam" style="height: 150px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/PwoVZVm">
+  Buttons icon only</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### Dropdown Buttons
 
@@ -83,35 +68,12 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Keep the text in the links brief.
 - Appearance can be changed like other buttons.
 
-<div class="dropdown">
-  <button class="btn btn-outline-ui dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
-
-```html
-<div class="dropdown">
-  <button
-    class="btn btn-outline-ui dropdown-toggle"
-    type="button"
-    id="dropdownMenuButton"
-    data-toggle="dropdown"
-    data-bs-toggle="dropdown"
-    aria-expanded="false">
-    Dropdown button
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="wBvNMOr" data-pen-title="Buttons Dropdowns" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/wBvNMOr">
+  Buttons Dropdowns</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ### Disabled Buttons
 
@@ -122,26 +84,12 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Add the class `disabled` to the class list.
 - Be sure to use `tabindex="-1"` to prevent tabbing to that button.
 
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
-
-```html
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>
-  ButtonText
-</button>
-<a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
-```
-
-### Specialized Buttons
-
-Pelican includes a number of pre-made, specialized buttons. Unlike Base buttons, these are constrained to specific usage purposes and only control content near their location.
-
-These include:
-
-- [Back & Forward buttons](/components/back-and-forward-buttons) - Navigate through an application
-- [Back to Top button](/components/back-to-top-button) - Move to top of page
-- [Previous & Next Section buttons](/components/previous-and-next-buttons) - Navigate through page sections
-- [Add Data buttons](/components/add-data-button) - Add data multiples to an application
-- [Page Action buttons](/components/page-actions-button) - Allow users to print, email, or share
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="bNGzEJa" data-pen-title="Buttons Disabled" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/bNGzEJa">
+  Buttons Disabled</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ## Resources
 

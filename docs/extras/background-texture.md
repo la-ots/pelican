@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Background Texture
   parent: Extras
-  order: 10
+  order: 1
   excerpt: Scalable vector graphic backgrounds which can add an ecological flavor to projects which use Pelican.
   img: /img/illustrations/illus-bg-tile.png
 ---

@@ -20,16 +20,18 @@ eleventyNavigation:
 
 **Basic Footer**
 
-{% include 'markup/footer-basic.njk' %}
-
-```html
-{% include 'markup/footer-basic.njk' %}
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="bNGzayY" data-pen-title="Footer Basic" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/bNGzayY">
+  Footer Basic</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 **Utility Footer**
 
-{% include 'markup/footer-utility.njk' %}
-
-```html
-{% include 'markup/footer-utility.njk' %}
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="pvoGpXZ" data-pen-title="Footer Utility" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/pvoGpXZ">
+  Footer Utility</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
