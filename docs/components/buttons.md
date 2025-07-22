@@ -54,7 +54,7 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 - Use sparingly and only when their meaning is clear to the user.
 - Consider omitting icon-only buttons as VoiceControl users may not be able to invoke them.
 
-<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="PwoVZVm" data-pen-title="Buttons icon only" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="150" data-default-tab="result" data-slug-hash="PwoVZVm" data-pen-title="Buttons icon only" data-editable="true" data-user="lagovdesignteam" style="height: 150px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/PwoVZVm">
   Buttons icon only</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
