@@ -12,7 +12,7 @@ footer,
   }
   &.footer-basic {
     background-color: var(--theme-footer-basic-bg-color);
-    margin-top: 3rem;
+    margin-top: auto;
     .links-wrapper {
       @extend .d-flex;
       @extend .flex-wrap;

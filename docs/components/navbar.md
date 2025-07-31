@@ -20,40 +20,43 @@ eleventyNavigation:
 
 ## Usage
 
-### Brand Minimal Navigation
+**Navbar Minimal**
 
 - Directs users to a single action
 - This may be used on a landing page or a single-page website
 
-{% include 'markup/navbar-minimal.njk' %}
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="gbOqvmG" data-pen-title="Navbar Minimal" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/gbOqvmG">
+  Navbar Minimal</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
-```html
-{% include 'markup/navbar-minimal.njk' %}
-```
-
-### Basic Navigation
+**Navbar Basic**
 
 - Presents 3 - 5 links to the user
 - Contains one visually-emphasized link
 - If you emphasize a link, make sure it is either the first or last link in the list
 
-{% include 'markup/navbar-basic.njk' %}
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="KwKJQmb" data-pen-title="Navbar Basic" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/KwKJQmb">
+  Navbar Basic</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
-```html
-{% include 'markup/navbar-basic.njk' %}
-```
-
-### Iconic Links Navigation
+**Navbar Icons Links**
 
 - Well-suited for pages behind a login of a web application
 - Displays an agency logo
 - Features a set of links composed of an Icon over text
 
-{% include 'markup/navbar-iconic.njk' %}
-
-```html
-{% include 'markup/navbar-iconic.njk' %}
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="RNwvQgg" data-pen-title="Navbar Icons Links" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/RNwvQgg">
+  Navbar Icons Links</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ## Resources
 

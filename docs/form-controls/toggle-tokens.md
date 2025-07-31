@@ -19,27 +19,12 @@ eleventyNavigation:
 
 ## Usage
 
-**Toggle Tokens for Exclusive Choices**
-
-- [Radios](/form-controls/radios) can be presented as Toggle Tokens
-- Use Radio button logic
-
-{% include 'markup/toggle-tokens-exclusive.njk' %}
-
-```html
-{% include 'markup/toggle-tokens-exclusive.njk' %}
-```
-
-**Toggle Tokens for Multiple Choices**
-
-- [Checkboxes](/form-controls/checkboxes) can be presented as Toggle Tokens
-- Use Checkbox logic
-
-{% include 'markup/toggle-tokens-inclusive.njk' %}
-
-```html
-{% include 'markup/toggle-tokens-inclusive.njk' %}
-```
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="LEYqaLe" data-pen-title="Toggle Tokens" data-editable="true" data-user="lagovdesignteam" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/lagovdesignteam/pen/LEYqaLe">
+  Toggle Tokens</a> by LA Gov Design Team (<a href="https://codepen.io/lagovdesignteam">@lagovdesignteam</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 ## Resources
 
