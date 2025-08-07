@@ -122,11 +122,6 @@ sidebarDropdownLink.forEach((dropdownItem) => {
   };
 });
 
-// Ensure the "Back to Top" button is hidden by default on page load
-if (scrollToTop) {
-  scrollToTop.style.display = "none"; 
-}
-
 // Function to show/hide the "Back to Top" button based on scroll position
 function scrollFunction() {
   if (scrollToTop) {
