@@ -16,6 +16,11 @@ caption {
     border-top-width: var(--theme-table-border-width);
     background-color: var(--theme-gray-white);
   }
+  th {
+    a, button {
+      font-weight: 700;
+    }
+  }
   thead th {
     vertical-align: bottom;
     border-top-width: var(--theme-table-border-width-thick);

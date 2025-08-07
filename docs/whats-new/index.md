@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3.2: July 9, 2025
+
+- Fixed a bug to ensure that buttons or links appear in bold weight as direct children of table column or row headers
+
 ## 2.3.1: February 17, 2025
 
 - Fixed a [Form Section Header](/form-controls/form-section-header/) CSS bug

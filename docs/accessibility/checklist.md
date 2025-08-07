@@ -62,8 +62,7 @@ The following checklists for are based on the [WCAG 2.2](https://www.w3.org/TR/W
 This checklist is heavily inspired by University of Washington’s Accessibility Checklist.
 
 - [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
-- [Digital.gov’s Accessibility for Teams](https://accessibility.digital.gov/)
+- [Digital.gov’s Accessibility for Teams](https://digital.gov/guides/accessibility-for-teams)
+- [Automated Testing Guidance by Digital.gov](https://digital.gov/guides/accessibility-for-teams/front-end-development#automated-testing)
 - [University of Washington’s Accessibility Checklist](https://www.washington.edu/accessibility/checklist/)
-- [Visual Design Guidance by Digital.gov](https://accessibility.digital.gov/visual-design/getting-started/)
-- [Accessibility for Front-End Developers](https://accessibility.digital.gov/front-end/getting-started/)
 - [Accessibility Leads to SEO Wins](https://alistapart.com/article/accessibilityseo)
