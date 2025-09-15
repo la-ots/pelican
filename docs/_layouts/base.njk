@@ -63,5 +63,12 @@
       <script src="/js/pelican.bundle.js"></script>
       <script src="/js/default.js"></script>
     {% endif %}
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document
+          .querySelectorAll('pre.language-html')
+          .forEach(el => el.setAttribute('tabindex', '0'));
+      });
+    </script>
   </body>
 </html>
