@@ -16,7 +16,11 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(pluginToc, {
     wrapper: "div",
   });
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(pluginSyntaxHighlight, {
+    preAttributes: {
+      tabindex: "0",
+    },
+  });
   eleventyConfig.addPlugin(pluginInclusiveLanguage);
   eleventyConfig.addPlugin(pluginReadingTime);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
