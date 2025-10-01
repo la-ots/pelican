@@ -51,5 +51,5 @@ Be sure to change the example markup for your own project.
 
 - [Accessible Notifications with Live Regions by Sara Soueidan](https://www.sarasoueidan.com/blog/accessible-notifications-with-aria-live-regions-part-1)
 - [MDN on ARIA Live Regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions)
-- [Havard’s Form Feedbakc with Live Regions](https://accessibility.huit.harvard.edu/technique-form-feedback-live-regions)
+- [Havard’s Form Feedback with Live Regions](https://accessibility.huit.harvard.edu/technique-form-feedback-live-regions)
 - [W3C’s Using ARIA Live Regions to Identify Errors](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19)
