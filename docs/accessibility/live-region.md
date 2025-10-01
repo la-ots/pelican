@@ -19,8 +19,8 @@ Sighted users can easily detect state changes to a page, such as a list being up
 - Live Regions should be initially empty.
 - Announcements should be meaningful and to the point.
 - Content updates which don’t receive focus will need Live Regions
-- Use `assertive` politeness level for immediate updates
-- Prefer `polite` politeness for updates which can wait
+- Use `assertive` politeness value level for immediate updates
+- Use `polite` politeness value for updates which can wait
 - Live Regions are not visible to sighted users.
 - Only plain string text should go into a Live Region.
 
@@ -33,11 +33,17 @@ Imagine your application has a table with sortable columns.
 1. Live region’s innerHTML would change to “Table sorted by amount, lowest to highest.” 
 1. Screen reader would immediately announces the change of the `#live-region`’s innerHTML.
 
+Be sure to change the example markup for your own project.
+
 ## Usage
 
 ```html
 <div id="live-region" aria-live="polite" aria-atomic="true" class="visually-hidden">
     <!-- innerHTML would change -->
+    <!-- example -->
+    Table sorted by amount, lowest to highest.
+    <!-- / example -->
+    <!-- change for your use case -->
 </div>
 ```
 
