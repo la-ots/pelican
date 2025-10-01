@@ -23,6 +23,14 @@ Sighted users can easily detect state changes to a page, such as a list being up
 - Prefer `polite` politeness for updates which can wait
 - Live Regions are not visible to sighted users.
 
+## Example
+
+Imagine your application has a table with sortable columns.
+
+1. User presses the column header for “Amount”
+1. Column sorts the values by lowest to highest amount
+1. Live region’s innerHTML would change to “Table sorted by amount, lowest to highest.”
+
 ## Usage
 
 ```html
