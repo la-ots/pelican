@@ -20,6 +20,7 @@ eleventyNavigation:
 - [Pagination](/components/pagination) goes below a table if you need it.
 - Use Tables to display tabular data, not for layout.
 - Tables size their columns by the longest amount of unbroken text in either the column header or the column.
+- Sorting needs to [inform screen reader users](/accessibility/live-region).
 {% include 'cards-tables.njk' %}
 
 ## Usage

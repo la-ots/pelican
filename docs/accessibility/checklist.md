@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Accessibility Checklist
   parent: Accessibility
-  order: 8
+  order: 9
   excerpt: A few things you can check to ensure you have basic accessibility covered.
   img: /img/illustrations/illus-accessibility-checklist.svg
 ---
