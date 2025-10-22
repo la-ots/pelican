@@ -26,7 +26,7 @@ Some users, particularly those with visual or motor impairments, will use the ke
 
 ## What is Focus?
 
-Focus creates an ouline (typically a light-blue outline around interactive items) around which element the user’s keyboard is currently situated. Although Focus may change based on your particular application, follow these general guidelines:
+Focus creates an outline (typically a light-blue outline around interactive items) around the element upon which the user’s keyboard is “focused”. Although Focus may change based on your particular application, follow these general guidelines:
 
 - Unless there is a Skip Link, Focus should start on the first interactive element on the screen when the page loads.
 - Focus should never change on its own. It should **always** be initiated by a user action.
