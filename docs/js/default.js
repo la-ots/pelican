@@ -91,7 +91,7 @@ sidebarDropdownLink.forEach((dropdownItem) => {
   dropdownItem.onclick = (event) => {
     let sidebarSubMenu = document.querySelectorAll(".sidebar-submenu");
     let expand = event.target;
-    if (expand.nodeName !== "A") {
+    if (expand.nodeName !== "button") {
       expand = expand.parentNode;
     }
     let header = expand.parentNode;
@@ -107,10 +107,12 @@ sidebarDropdownLink.forEach((dropdownItem) => {
 
     sidebarDropdownLink.forEach((link) => {
       link.classList.remove("active");
+      link.setAttribute("aria-expanded", "false");
     });
 
     if (!wasActive) {
       expand.classList.add("active");
+      expand.setAttribute("aria-expanded", "true");
     }
 
     let nextSibling = header.nextElementSibling;
