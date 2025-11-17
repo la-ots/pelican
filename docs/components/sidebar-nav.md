@@ -20,6 +20,8 @@ The first child element of the `id=page-wrapper` is the Sidebar with Navigation.
 - Child pages should get the class `active` added to their class list, in both the `li` and `a` which hold the link when they’re being viewed.
 - Current child pages also get the eye icon, <span class="icon fas fa-eye" aria-hidden="true"></span> when they’re being viewed. The same icon is used in [Breadcrumbs](/components/breadcrumbs) to indicate the current page.
 - Child items will only appear when they’re toggled by the button to the right of their parent link.
+- Be sure to match the `aria-controls` of the `<button>` and the id of the child items group
+- Be sure to toggle between aria-expanded when the child items are open
 - The sidebar footer is empty by default but available for 1 or 2 short links.
 
 ## Usage
