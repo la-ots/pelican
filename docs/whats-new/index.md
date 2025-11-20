@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3.3: November 17, 2025
+
+- Enhanced accessibility for the expanding items of the navigation sidebar child groups
+
 ## 2.3.2: July 9, 2025
 
 - Fixed a bug to ensure that buttons or links appear in bold weight as direct children of table column or row headers

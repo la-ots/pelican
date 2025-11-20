@@ -9,7 +9,7 @@
         <li class="sidebar-item">
           <div class="sidebar-dropdown-header">
             <a class="sidebar-nav-item " href="#">
-              <span>Parent Nav Item</span>
+              <span>Nav Item</span>
             </a>
           </div>
         </li>
@@ -17,14 +17,14 @@
         <li class="sidebar-item">
           <div class="sidebar-dropdown-header">
             <a class="sidebar-nav-item" href="#">
-              <span>Parent Nav Item</span>
+              <span>Nav Item with Child Items</span>
             </a>
-            <a class="sidebar-dropdown-header-expand" href="javascript://" role="button">
+            <button class="sidebar-dropdown-header-expand" aria-controls="ParentItem-01" aria-expanded="false">
               <span class="visually-hidden">Toggle Child Items</span>
               <span class="icon fas fa-fw fa-angle-right" aria-hidden="true"></span>
-            </a>
+            </button>
           </div>
-          <div class="sidebar-submenu">
+          <div class="sidebar-submenu" id="ParentItem-01">
             <ul>
               <li class="sidebar-item active">
                 <a class="sidebar-nav-item active" href="#">
@@ -38,6 +38,5 @@
       </ul>
     </div>
   </div>
-  <div class="sidebar-footer">
-  </div>
+  <div class="sidebar-footer"></div>
 </nav>
