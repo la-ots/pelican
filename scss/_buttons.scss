@@ -7,6 +7,11 @@
   &:active {
     box-shadow: 0 0 0 0 fade-out($gray-900, 0.75);
   }
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    opacity: 1;
+  }
 }
 .btn-link {
   @extend .shadow-none;

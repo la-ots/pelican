@@ -115,20 +115,24 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ### Disabled Buttons
 
-- Disabled buttons cannot be clicked and should not appear clickable.
-- Do not use Disabled buttons as a placeholder if a feature isn’t ready yet.
+- Disabled buttons aren’t clickable and should appear unclickable.
+- Don’t use Disabled buttons as a placeholder for a feature which isn’t ready yet.
 - Disabled states can be used for a temporary state change triggered by the user’s actions. Once the action is resolved, the button should return to an enabled state.
 - Use the `disabled` attribute to create a disabled button.
 - Add the class `disabled` to the class list.
-- Be sure to use `tabindex="-1"` to prevent tabbing to that button.
+- If it’s for an `<a>` be sure to use `tabindex="-1"` to prevent tabbing to it.
+- Use helper text after the button to explain why the button is disabled.
+- Match the `aria-describedby` attribute on the button to the helper text’s `id` attribute.
 
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
+<div class="form-group">
+<button type="button" class="btn btn-primary disabled" disabled>ButtonText</button><br><small id="disabledReasonHelperText" class="small">This button is disabled for this reason.</small>
+</div>
 
 ```html
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>
+<button type="button" class="btn btn-primary disabled" aria-describedby="disabledReasonHelperText" disabled>
   ButtonText
 </button>
-<a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
+<small id="disabledReasonHelperText" class="small">This button is disabled for this reason.</small>
 ```
 
 ### Specialized Buttons
