@@ -16,9 +16,13 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3.4: November 20, 2025
+
+- Improved accessibility and documentation of [Disabled Buttons](/components/buttons/#disabled-buttons) in CSS, markup examples, and documentation
+
 ## 2.3.3: November 17, 2025
 
-- Enhanced accessibility for the expanding items of the navigation sidebar child groups
+- <span class="badge badge-danger"><span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true"></span>   Breaking Change</span> Enhanced accessibility for the expanding items of the navigation [Sidebar with Navigation](/components/sidebar-nav/) child groups
 
 ## 2.3.2: July 9, 2025
 
