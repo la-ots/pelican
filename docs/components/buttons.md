@@ -115,20 +115,28 @@ See [Status Colors](/foundation/status-colors) and [UI Colors](/foundation/ui-co
 
 ### Disabled Buttons
 
-- Disabled buttons cannot be clicked and should not appear clickable.
-- Do not use Disabled buttons as a placeholder if a feature isn’t ready yet.
+- If the button or control needs to stay visible to show that an action is available, it appears disabled. 
+- Text that explains how to enable the button must appear close to the button, such as under a nearby form label.
+- Alternatively, you may place helper text below the button or control, but it must follow the accessibility guidance below.
+- Disabled buttons aren’t clickable and should appear unclickable.
+- Don’t use Disabled buttons as a placeholder for a feature which isn’t ready yet.
 - Disabled states can be used for a temporary state change triggered by the user’s actions. Once the action is resolved, the button should return to an enabled state.
 - Use the `disabled` attribute to create a disabled button.
 - Add the class `disabled` to the class list.
-- Be sure to use `tabindex="-1"` to prevent tabbing to that button.
+- If it’s for an `<a>` be sure to use `tabindex="-1"` to prevent tabbing to it.
+- Use helper text to explain why the button is disabled.
+- Put text as close as possible to the button in source and design.
+- Match the `aria-describedby` attribute on the button to the helper text’s `id` attribute.
 
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>ButtonText</button> <a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
+<div class="form-group">
+<button type="button" class="btn btn-primary disabled" disabled>ButtonText</button><br><small id="disabledReasonHelperText" class="small">This button is disabled for this reason.</small>
+</div>
 
 ```html
-<button type="button" class="btn btn-primary disabled" tabindex="-1" disabled>
+<button type="button" class="btn btn-primary disabled" aria-describedby="disabledReasonHelperText" disabled>
   ButtonText
 </button>
-<a class="btn btn-danger disabled" tabindex="-1" role="button">ButtonText</a>
+<small id="disabledReasonHelperText" class="small">This button is disabled for this reason.</small>
 ```
 
 ### Specialized Buttons
