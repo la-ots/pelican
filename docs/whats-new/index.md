@@ -18,13 +18,13 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 ## 2.3.5: December 5, 2025
 
-- Improved documentation for the [Pagination](/components/pagination/) component
+- Improves documentation for the [Pagination](/components/pagination/) component
 - Fixed CSS bugs in the Pagination component
 - <span class="badge badge-danger"><span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true"></span>   Breaking Change</span> Adjusted markup for better accessibility
 
 ## 2.3.4: November 20, 2025
 
-- Improved accessibility and documentation of [Disabled Buttons](/components/buttons/#disabled-buttons) in CSS, markup examples, and documentation
+- Improves accessibility and documentation of [Disabled Buttons](/components/buttons/#disabled-buttons) in CSS, markup examples, and documentation
 
 ## 2.3.3: November 17, 2025
 
