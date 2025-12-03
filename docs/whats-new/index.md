@@ -20,7 +20,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 - Improves documentation for the [Pagination](/components/pagination/) component
 - Fixed CSS bugs in the Pagination component
-- <span class="badge badge-danger"><span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true"></span>   Breaking Change</span> Adjusted markup for better accessibility
+- <span class="badge badge-danger"><span class="icon fas fa-exclamation-triangle me-1" aria-hidden="true"></span>   Breaking Change</span> Adjusts markup for better accessibility
 
 ## 2.3.4: November 20, 2025
 

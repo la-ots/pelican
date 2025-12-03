@@ -11,7 +11,7 @@
     </form>
   </div>
   <div class="col-md-6">
-    <nav aria-label="Page navigation example">
+    <nav aria-label="Results navigation">
       <ul class="pagination justify-content-center mb-lg-0">
         <li class="page-item">
           <a class="page-link" href="#">
@@ -20,7 +20,9 @@
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">1</a>
+          <a class="page-link" href="#">
+            <span class="visually-hidden">page</span> 1
+          </a>
         </li>
         <li class="page-item disabled">
           <span class="page-link">
@@ -28,8 +30,10 @@
             <span aria-hidden="true"> &hellip; </span>
           </span>
         </li>
-        <li class="page-item">
-          <a class="page-link" href="#">4</a>
+        <li class="page-item active">
+          <a class="page-link" href="#" aria-currenr="page">
+            <span class="visually-hidden">page</span> 4
+          </a>
         </li>
         <li class="page-item disabled">
           <span class="page-link">
@@ -38,7 +42,9 @@
           </span>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">5</a>
+          <a class="page-link" href="#">
+            <span class="visually-hidden">page</span> 5
+          </a>
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
@@ -50,6 +56,6 @@
     </nav>
   </div>
   <div class="col-md-3 text-center text-lg-right text-lg-end">
-    <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none"> <strong>X</strong> to <strong>Y</strong> of <strong>Z</strong> items.</p>
+    <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none" aria-live="polite"> <strong>X</strong> to <strong>Y</strong> of <strong>Z</strong> items.</p>
   </div>
 </div>
