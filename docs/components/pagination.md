@@ -19,14 +19,14 @@ eleventyNavigation:
 - Indicate the range of items being viewed.
 - Indicate the current page visually and accessibly.
 - Use seven slots at most for the page links: Previous, first, overflow ellipsis, middle page, overflow ellipsis, last, next page.
-- Hide the previous page link when on the first page and hide next page when on the last page.
 - Remove any extra slots if fewer than 7 pages exist. You should use all slots for the page link numbers.
+- Hide the previous page link when on the first page and hide next page when on the last page.
 - Always show first page, current page, and last page. Other pages can be represented with ellipses around current page.
 - Present previous page only when first page isn’t current.
 - Present next page only when last page isn’t current.
 - Place it below the content which it is paginating.
 - Conditionally hidden items should not be focusable when hidden.
-- Do not use it to display movement, like steps in a process, for which the [Progress Indicator](/components/progress/) is meant.
+- Do not use it to display movement, such as steps in a process. Use the [Progress Indicator](/components/progress/) instead.
 
 ### For accessibility
 
