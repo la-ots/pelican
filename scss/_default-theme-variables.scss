@@ -361,10 +361,14 @@
 
   	/* pagination */
 
-    --theme-pagination-color: var(--theme-link-color);
-    --theme-pagination-hover-color: var(--theme-link-color);
-    --theme-pagination-active-color: var(--theme-link-color);
-	  --theme-pagination-border-color: var(--theme-border-color-lighter);
+    --theme-pagination-color          : var(--theme-link-color);
+    --theme-pagination-hover-color    : var(--theme-link-color);
+    --theme-pagination-active-color   : var(--theme-link-color);
+	  --theme-pagination-border-color   : var(--theme-border-color-lighter);
+    --theme-pagination-bg             : var(--theme-gray-white);
+    --theme-pagination-disabled-bg    : var(--theme-gray-100);
+    --theme-pagination-hover-color    : var(--theme-gray-white);
+    --theme-pagination-hover-bg-color : var(--theme-link-color);
 
   /* popovers and tooltips */
 

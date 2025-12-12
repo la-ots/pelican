@@ -11,37 +11,61 @@
     </form>
   </div>
   <div class="col-md-6">
-    <nav aria-label="Page navigation example">
+    <nav aria-label="Results navigation">
       <ul class="pagination justify-content-center mb-lg-0">
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span class="icon fas fa-angle-double-left" aria-hidden="true"></span>
+          <a class="page-link" href="#">
+            <span class="icon fas fa-angle-left" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous page</span>
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">1</a>
+          <a class="page-link" href="#">
+            <span class="visually-hidden">page</span> 1
+          </a>
+        </li>
+        <li class="page-item disabled">
+          <span class="page-link">
+            <span class="visually-hidden">pages between first and current</span>
+            <span aria-hidden="true"> &hellip; </span>
+          </span>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">2</a>
+          <a class="page-link" href="#">
+            <span class="visually-hidden">page</span> 8
+          </a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="#" aria-current="page">
+            <span class="visually-hidden">page</span> 9
+          </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">3</a>
+          <a class="page-link" href="#">
+            <span class="visually-hidden">page</span> 10
+          </a>
+        </li>
+        <li class="page-item disabled">
+          <span class="page-link">
+            <span class="visually-hidden">pages between last and current</span>
+            <span aria-hidden="true"> &hellip; </span>
+          </span>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">4</a>
+          <a class="page-link" href="#">
+            <span class="visually-hidden">last page</span> 17
+          </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">5</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span class="icon fas fa-angle-double-right" aria-hidden="true"></span>
+          <a class="page-link" href="#">
+            <span class="icon fas fa-angle-right" aria-hidden="true"></span>
+            <span class="visually-hidden">Next page</span>
           </a>
         </li>
       </ul>
     </nav>
   </div>
   <div class="col-md-3 text-center text-lg-right text-lg-end">
-    <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none"> <strong>X</strong> of <strong>Y</strong> items.</p>
+    <p class="mb-2">Showing<br class="d-none d-md-block d-lg-none" aria-live="polite"> <strong>X</strong> to <strong>Y</strong> of <strong>Z</strong> items.</p>
   </div>
 </div>

@@ -13,10 +13,29 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Use Pagination if data, such as on [Tables](/components/table), is long and needs to be split up.
-- Make sure the Pagination clearly shows the current page’s number.
-- Pagination is placed at the bottom of the content which it pages.
-- You may need to adjust columns sizes to best fit to your project.
+- Include the `<select>` for users to choose how many items they want to see on each page.
+- Use the `<nav>` element as the wrapping element for the page links.
+- Show the number of paginated items.
+- Indicate the range of items being viewed.
+- Indicate the current page visually and accessibly.
+- Use seven slots at most (not counting previous and next links) for the page links: First, overflow ellipsis, one fore middle page, middle page, one after middle page, overflow ellipsis, last.
+- Remove any extra slots if fewer than 7 pages exist. You should use all slots for the page link numbers.
+- Hide the previous page link when on the first page and hide next page when on the last page.
+- Always show first page, current page, and last page. Other pages can be represented with ellipses around current page.
+- Present previous page only when first page isn’t current.
+- Present next page only when last page isn’t current.
+- Place it below the content which it is paginating.
+- Conditionally hidden items should not be focusable when hidden.
+- Do not use it to display movement, such as steps in a process. Use the [Progress Indicator](/components/progress/) instead.
+
+### For accessibility
+
+- Screen reader text must be included with page links.
+- Current page must include `aria-page="current"`.
+- Results area should update in the same page and receive focus via: <br> `aria-live="polite"` on the results summary (“Showing X to Y of Z records”), or
+move focus to the heading of the results or the first result row.
+- All interactive elements must be reachable in a logical focus order with the keyboard via Tab and activated using Enter / Space.
+
 
 ## Usage
 

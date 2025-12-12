@@ -1,4 +1,15 @@
 .page-link {
   color: var(--theme-pagination-color);
-  border: 2px solid var(--theme-form-border-color);
+  background-color: var(--theme-pagination-bg);
+  border: 0.125rem solid var(--theme-form-border-color);
+  &:hover, :focus-visible, &:focus {
+    color           : var(--theme-pagination-hover-color)!important;
+    background-color: var(--theme-pagination-hover-bg-color)!important;
+  }
+  .disabled & {
+    background-color: var(--theme-pagination-disabled-bg);
+  }
+}
+.page-item {
+  background-color: var(--theme-pagination-bg);
 }
