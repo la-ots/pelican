@@ -4,6 +4,10 @@ on:
   release:
     types: [published]
 
+permissions:
+  id-token: write
+  contents: read
+
 env:
   NODE_VERSION: 20
 
@@ -58,13 +62,13 @@ jobs:
 
       - name: Publish to NPM
         if: '!github.event.release.prerelease'
-        run: npm publish $(ls *.tgz) --provenance --access public
+        run: npm publish $(ls *.tgz) --access public
         # env:
           # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
       - name: Publish to NPM
         if: 'github.event.release.prerelease'
-        run: npm publish $(ls *.tgz) --provenance --access public --tag beta
+        run: npm publish $(ls *.tgz) --access public --tag beta
         # env:
           # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
