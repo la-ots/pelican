@@ -41,3 +41,4 @@ eleventyNavigation:
 
 - [Bootstrap Documentation - Pill Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/#pills)
 - [Bootstrap Documentation - Tab Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/#tabs)
+- [HTML Table API](https://christianheilmann.com/2025/10/08/abandonware-of-the-web-do-you-know-that-there-is-an-html-tables-api/)
