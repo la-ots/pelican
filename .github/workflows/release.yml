@@ -62,7 +62,8 @@ jobs:
 
       - name: Publish to NPM
         if: '!github.event.release.prerelease'
-        run: npm publish $(ls *.tgz) --access public
+        run: |
+          NODE_AUTH_TOKEN="" npm publish $(ls *.tgz) --access public
         # env:
           # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
