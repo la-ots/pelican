@@ -4,12 +4,8 @@ on:
   release:
     types: [published]
 
-permissions:
-  id-token: write
-  contents: read
-
 env:
-  NODE_VERSION: 20
+  NODE_VERSION: 24
 
 jobs:
   build:
@@ -40,10 +36,10 @@ jobs:
   publish-npm:
     name: Release to NPM
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  
     permissions:
-      contents: read
       id-token: write
+      contents: read
     environment:
       name: NPM
       url: https://www.npmjs.com/package/@la-ots/pelican
@@ -64,14 +60,11 @@ jobs:
         if: '!github.event.release.prerelease'
         run: |
           NODE_AUTH_TOKEN="" npm publish $(ls *.tgz) --access public
-        # env:
-          # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           
       - name: Publish to NPM
         if: 'github.event.release.prerelease'
-        run: npm publish $(ls *.tgz) --access public --tag beta
-        # env:
-          # NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          NODE_AUTH_TOKEN="" npm publish $(ls *.tgz) --access public --tag beta        
 
   publish-gpr:
     name: Release to GitHub Packages
