@@ -7,7 +7,7 @@ let sidebarDropdownLink = document.querySelectorAll(
 let scrollToTop = document.getElementById("ScrollToTop");
 
 let slideUp = (target, duration = 500) => {
-  // // Check if already hidden or animating
+  // Check if already hidden or animating
   if (!target || window.getComputedStyle(target).display === "none") return;
 
   target.style.transitionProperty = "height, margin, padding";
@@ -38,7 +38,7 @@ let slideUp = (target, duration = 500) => {
 };
 
 let slideDown = (target, duration = 500) => {
-  // // Check if already visible or animating
+  // Check if already visible or animating
   if (!target || window.getComputedStyle(target).display !== "none") return;
 
   target.style.removeProperty("display");
