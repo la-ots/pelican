@@ -7,9 +7,9 @@ let sidebarDropdownLink = document.querySelectorAll(
 let scrollToTop = document.getElementById("ScrollToTop");
 
 let slideUp = (target, duration = 500) => {
-  // Check if already hidden or animating
+  // // Check if already hidden or animating
   if (!target || window.getComputedStyle(target).display === "none") return;
-  
+
   target.style.transitionProperty = "height, margin, padding";
   target.style.transitionDuration = duration + "ms";
   target.style.boxSizing = "border-box";
@@ -21,7 +21,7 @@ let slideUp = (target, duration = 500) => {
   target.style.paddingBottom = 0;
   target.style.marginTop = 0;
   target.style.marginBottom = 0;
-  
+
   window.setTimeout(() => {
     target.style.display = "none";
     target.setAttribute("aria-hidden", "true");
@@ -38,15 +38,15 @@ let slideUp = (target, duration = 500) => {
 };
 
 let slideDown = (target, duration = 500) => {
-  // Check if already visible or animating
+  // // Check if already visible or animating
   if (!target || window.getComputedStyle(target).display !== "none") return;
-  
+
   target.style.removeProperty("display");
   let display = window.getComputedStyle(target).display;
   if (display === "none") display = "block";
   target.style.display = display;
   target.setAttribute("aria-hidden", "false");
-  
+
   let height = target.offsetHeight;
   target.style.overflow = "hidden";
   target.style.height = 0;
@@ -63,7 +63,7 @@ let slideDown = (target, duration = 500) => {
   target.style.removeProperty("padding-bottom");
   target.style.removeProperty("margin-top");
   target.style.removeProperty("margin-bottom");
-  
+
   window.setTimeout(() => {
     target.style.removeProperty("height");
     target.style.removeProperty("overflow");
@@ -77,10 +77,10 @@ let slideDown = (target, duration = 500) => {
 sidebarDropdownLink.forEach((dropdownItem) => {
   const toggleDropdown = (event) => {
     event.preventDefault();
-    
+
     let sidebarSubMenu = document.querySelectorAll(".sidebar-submenu");
     let expand = event.target;
-    
+
     if (expand.nodeName !== "BUTTON") {
       expand = expand.parentNode;
     }
@@ -115,10 +115,10 @@ sidebarDropdownLink.forEach((dropdownItem) => {
     }
   };
 
-  dropdownItem.addEventListener('click', toggleDropdown);
-  
-  dropdownItem.addEventListener('keydown', (event) => {
-    if (event.key === 'Enter' || event.key === ' ') {
+  dropdownItem.addEventListener("click", toggleDropdown);
+
+  dropdownItem.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
       toggleDropdown(event);
     }
   });
@@ -148,43 +148,6 @@ if (sidebarButton) {
     pageWrapper.classList.toggle("toggled");
   };
 }
-
-sidebarDropdownLink.forEach((dropdownItem) => {
-  dropdownItem.onclick = (event) => {
-    let sidebarSubMenu = document.querySelectorAll(".sidebar-submenu");
-    let expand = event.target;
-    if (expand.nodeName !== "button") {
-      expand = expand.parentNode;
-    }
-    let header = expand.parentNode;
-
-    sidebarSubMenu.forEach((subMenu) => {
-      let display = window.getComputedStyle(subMenu).display;
-      if (display === "block") {
-        slideUp(subMenu, 200);
-      }
-    });
-
-    let wasActive = expand.classList.contains("active");
-
-    sidebarDropdownLink.forEach((link) => {
-      link.classList.remove("active");
-      link.setAttribute("aria-expanded", "false");
-    });
-
-    if (!wasActive) {
-      expand.classList.add("active");
-      expand.setAttribute("aria-expanded", "true");
-    }
-
-    let nextSibling = header.nextElementSibling;
-
-    while (nextSibling && !nextSibling.classList.contains("sidebar-submenu")) {
-      nextSibling = nextSibling.nextSibling;
-    }
-    slideDown(nextSibling, 200);
-  };
-});
 
 window.onscroll = () => {
   scrollFunction();
