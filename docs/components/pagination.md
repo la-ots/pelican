@@ -18,7 +18,7 @@ eleventyNavigation:
 - Show the number of paginated items.
 - Indicate the range of items being viewed.
 - Indicate the current page visually and accessibly.
-- Use seven slots at most (not counting previous and next links) for the page links: First, overflow ellipsis, one fore middle page, middle page, one after middle page, overflow ellipsis, last.
+- Use seven slots at most (not counting previous and next links) for the page links: First, overflow ellipsis, one before middle page, middle page, one after middle page, overflow ellipsis, last.
 - Remove any extra slots if fewer than 7 pages exist. You should use all slots for the page link numbers.
 - Hide the previous page link when on the first page and hide next page when on the last page.
 - Always show first page, current page, and last page. Other pages can be represented with ellipses around current page.
