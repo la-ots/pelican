@@ -101,6 +101,7 @@ a.btn {
   right: 2rem;
   bottom: 5rem;
   z-index: $zindex-scroll-to-top;
+  display: none;
 }
 //this class has similar attributes to btn-link
 .btn-prev-next-section {

@@ -1,3 +1,6 @@
+// ============================================================================
+// DOM ELEMENT REFERENCES
+// ============================================================================
 let pageWrapper = document.getElementById("page-wrapper");
 let sidebar = document.getElementById("sidebar");
 let sidebarButton = document.getElementById("sidebar-button");
@@ -5,7 +8,11 @@ let sidebarDropdownLink = document.querySelectorAll(
   ".sidebar-dropdown-header-expand",
 );
 let scrollToTop = document.getElementById("ScrollToTop");
+const pageContent = document.querySelector(".page-content");
 
+// ============================================================================
+// ANIMATION UTILITY FUNCTIONS
+// ============================================================================
 let slideUp = (target, duration = 500) => {
   // Check if already hidden or animating
   if (!target || window.getComputedStyle(target).display === "none") return;
@@ -73,7 +80,10 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
-// ADD THE DROPDOWN TOGGLE CODE HERE
+// ============================================================================
+// SIDEBAR FUNCTIONALITY
+// ============================================================================
+// Sidebar dropdown toggle
 sidebarDropdownLink.forEach((dropdownItem) => {
   const toggleDropdown = (event) => {
     event.preventDefault();
@@ -124,8 +134,9 @@ sidebarDropdownLink.forEach((dropdownItem) => {
   });
 });
 
+// Sidebar accessibility
 function menuA11Y() {
-  //insert menu hidding behavior
+  //insert menu hiding behavior
   if (sidebar.offsetLeft == 0) {
     sidebar.setAttribute("aria-hidden", "false");
     sidebar.removeAttribute("inert");
@@ -138,21 +149,59 @@ function menuA11Y() {
     sidebar.setAttribute("aria-expanded", "false");
   }
 }
+
 if (sidebar) {
   sidebar.ontransitionend = menuA11Y;
   menuA11Y();
 }
 
+// Sidebar button toggle
 if (sidebarButton) {
   sidebarButton.onclick = () => {
     pageWrapper.classList.toggle("toggled");
   };
 }
 
-window.onscroll = () => {
-  scrollFunction();
-};
+// ============================================================================
+// SCROLL TO TOP FUNCTIONALITY
+// ============================================================================
+// Function to show/hide scroll to top button based on scroll position
+function scrollFunction() {
+  if (!scrollToTop) return;
+  
+  let scrollTop;
+  if (pageContent) {
+    scrollTop = pageContent.scrollTop;
+  } else {
+    scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+  }
+  
+  // Show button after scrolling down 100px, hide when at top
+  if (scrollTop > 100) {
+    scrollToTop.style.display = "block";
+  } else {
+    scrollToTop.style.display = "none";
+  }
+}
 
+// Function to scroll the page or .page-content to the top
+function topFunction() {
+  if (pageContent) {
+    pageContent.scrollTop = 0; 
+  } else {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+  }
+}
+
+// Attach scroll listener to .page-content or window
+if (pageContent) {
+  pageContent.addEventListener("scroll", scrollFunction);
+} else {
+  window.addEventListener("scroll", scrollFunction);
+}
+
+// Scroll to top button click handler
 if (scrollToTop) {
   scrollToTop.onclick = (event) => {
     event.preventDefault();
@@ -160,30 +209,14 @@ if (scrollToTop) {
   };
 }
 
-function scrollFunction() {
-  if (scrollToTop) {
-    if (
-      document.body.scrollTop > 100 ||
-      document.documentElement.scrollTop > 100
-    ) {
-      scrollToTop.style.display = "block";
-    } else {
-      scrollToTop.style.display = "none";
-    }
-  }
-}
+// Call scrollFunction on page load to ensure the button is hidden if already at the top
+window.addEventListener("load", () => {
+  scrollFunction(); 
+});
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  let pageContent = document.getElementsByClassName("page-content");
-  if (pageContent && pageContent.length > 0) {
-    pageContent[0].scrollTop = 0;
-  } else {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-}
-
+// ============================================================================
+// BOOTSTRAP COMPONENTS INITIALIZATION
+// ============================================================================
 var popoverTriggerList = [].slice.call(
   document.querySelectorAll('[data-bs-toggle="popover"]'),
 );
