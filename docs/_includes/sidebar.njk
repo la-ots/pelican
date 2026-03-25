@@ -19,7 +19,7 @@
               {% if entry.children.length > 0 %}
                 <button class="sidebar-dropdown-header-expand{% if entry.url in page.url %} active {% endif %}" type="button" aria-expanded="false" aria-controls="{{ entry.title | lower | replace(" ", "-") | replace(",", "") | replace(".", "") }}">
                   <span class="visually-hidden">
-                    See guidance for items in {{ entry.title }}
+                    Get guidance for items in {{ entry.title }}
                   </span>
                   <span class="icon fas fa-fw fa-angle-right" aria-hidden="true"></span>
                 </button>

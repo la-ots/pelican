@@ -129,6 +129,6 @@ eleventyNavigation:
 
 ## Resources
 
-- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [TPGi Color Contrast Analyzer](https://www.tpgi.com/color-contrast-checker/)

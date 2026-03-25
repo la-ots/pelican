@@ -16,6 +16,12 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3.6: March 25, 2026
+
+- Updates all WCAG references from WCAG 2.2 to WCAG 2.1 across the Accessibility Statement and Resources pages
+- Replaces all links from [WCAG 2.2](https://www.w3.org/TR/WCAG22/) to [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+- Improves inclusive language in the sidenav by updating toggle text from “See” to “Get”
+
 ## 2.3.5: December 5, 2025
 
 - Improves documentation for the [Pagination](/components/pagination/) component
