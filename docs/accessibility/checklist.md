@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-The following checklists for are based on the [WCAG 2.2](https://www.w3.org/TR/WCAG22/) Level A and AA standards. The checklists are organized as sections for Perceiveable, Operable, Understandable, and Robust, or P.O.U.R. They will be updated as new information is available. It’s meant to assist product teams, including designers, developers, content creators, and purchasing agents, in creating and procuring accessible IT.
+The following checklists for are based on the [WCAG 2.1](https://www.w3.org/TR/WCAG21/) Level A and AA standards. The checklists are organized as sections for Perceiveable, Operable, Understandable, and Robust, or P.O.U.R. They will be updated as new information is available. It’s meant to assist product teams, including designers, developers, content creators, and purchasing agents, in creating and procuring accessible IT.
 
 ### Perceivable
 
@@ -61,7 +61,7 @@ The following checklists for are based on the [WCAG 2.2](https://www.w3.org/TR/W
 
 This checklist is heavily inspired by University of Washington’s Accessibility Checklist.
 
-- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 - [Digital.gov’s Accessibility for Teams](https://digital.gov/guides/accessibility-for-teams)
 - [Automated Testing Guidance by Digital.gov](https://digital.gov/guides/accessibility-for-teams/front-end-development#automated-testing)
 - [University of Washington’s Accessibility Checklist](https://www.washington.edu/accessibility/checklist/)

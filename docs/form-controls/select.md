@@ -35,5 +35,5 @@ eleventyNavigation:
 
 - [Digital.gov - Form Controls: Selects (Best Practices)](https://designsystem.digital.gov/components/form-controls/#dropdown)
 - [Section 508 Guidelines](https://www.section508.gov/)
-- [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 - [Bootstrap Documentation - Forms](https://getbootstrap.com/docs/5.3/forms/select/)
