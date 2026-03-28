@@ -16,6 +16,11 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.3.6: January 22, 2026
+
+- Fixed a JS bug for back-to-top button
+- Fixed a JS bug for sidebar navigation
+
 ## 2.3.5: December 5, 2025
 
 - Improves documentation for the [Pagination](/components/pagination/) component

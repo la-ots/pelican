@@ -15,7 +15,7 @@ eleventyNavigation:
 
 - Insert it at the bottom of the root element in the page.
 - Don’t remove the text in the button. Screen readers need it.
-- It appears after the user has scrolled down, usually four times the height of the screen’s initially-visible portion.
+- It appears after the user has scrolled down.
 - The `href` of the button should be the `id` of the `<main>` element.
 
 ## Usage
