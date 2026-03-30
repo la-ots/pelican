@@ -22,7 +22,7 @@ eleventyNavigation:
 - Do not use forms in a modal.
 - Tabbing should only cycle between the buttons inside the Modal.
 - For accessibility reasons do not close the modal by tapping the modal backdrop.
-- For accessibility reasons pressing ESC should close or cancel the modal.
+- For accessibility reasons pressing <kbd>ESC</kbd> should close or cancel the modal.
 
 ## Usage
 
