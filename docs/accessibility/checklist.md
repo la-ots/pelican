@@ -64,5 +64,6 @@ This checklist is heavily inspired by University of Washington’s Accessibility
 - [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 - [Digital.gov’s Accessibility for Teams](https://digital.gov/guides/accessibility-for-teams)
 - [Automated Testing Guidance by Digital.gov](https://digital.gov/guides/accessibility-for-teams/front-end-development#automated-testing)
-- [University of Washington’s Accessibility Checklist](https://www.washington.edu/accessibility/checklist/)
+- [University of Washington’s Accessibility Checklist](https://www.washington.edu/accesstech/checklist/)
+- [Michigan State University, Basic Accessibility Checklist](https://webaccess.msu.edu/tutorials/basics/checklist)
 - [Accessibility Leads to SEO Wins](https://alistapart.com/article/accessibilityseo)
