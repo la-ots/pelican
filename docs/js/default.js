@@ -197,3 +197,97 @@ var tooltipTriggerList = [].slice.call(
 tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);
 });
+
+document.querySelectorAll('[data-toggle="modal"], [data-bs-toggle="modal"]').forEach((button) => {
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const targetSelector =
+      button.getAttribute("data-bs-target") ||
+      button.getAttribute("data-target");
+
+    if (!targetSelector) return;
+
+    const dialog = document.querySelector(targetSelector);
+    if (!(dialog instanceof HTMLDialogElement)) return;
+
+    dialog._invoker = button;
+    dialog.showModal();
+
+    setTimeout(() => {
+      const focusables = getFocusableElements(dialog);
+      if (focusables.length) focusables[0].focus();
+    }, 0);
+  });
+});
+
+document.querySelectorAll('[data-dismiss="modal"], [data-bs-dismiss="modal"], [data-dialog-close]').forEach((button) => {
+  button.addEventListener("click", () => {
+    const dialog = button.closest("dialog");
+    if (dialog instanceof HTMLDialogElement) {
+      dialog.close();
+    }
+  });
+});
+
+document.querySelectorAll("dialog.modal").forEach((dialog) => {
+  dialog.addEventListener("close", () => {
+    if (dialog._invoker && typeof dialog._invoker.focus === "function") {
+      dialog._invoker.focus();
+    }
+  });
+
+  dialog.addEventListener("click", (event) => {
+    const modalDialog = dialog.querySelector(".modal-dialog");
+    if (!modalDialog) return;
+
+    const rect = modalDialog.getBoundingClientRect();
+    const clickedInside =
+      event.clientX >= rect.left &&
+      event.clientX <= rect.right &&
+      event.clientY >= rect.top &&
+      event.clientY <= rect.bottom;
+
+    if (!clickedInside) {
+      dialog.close();
+    }
+  });
+
+  dialog.addEventListener("keydown", (event) => {
+    const focusables = getFocusableElements(dialog);
+    if (!focusables.length) return;
+
+    const currentIndex = focusables.indexOf(document.activeElement);
+
+    if (["ArrowRight", "ArrowDown"].includes(event.key)) {
+      event.preventDefault();
+      const nextIndex = (currentIndex + 1) % focusables.length;
+      focusables[nextIndex].focus();
+    }
+
+    if (["ArrowLeft", "ArrowUp"].includes(event.key)) {
+      event.preventDefault();
+      const prevIndex =
+        (currentIndex - 1 + focusables.length) % focusables.length;
+      focusables[prevIndex].focus();
+    }
+
+    if (event.key === "Tab") {
+      if (event.shiftKey && currentIndex === 0) {
+        event.preventDefault();
+        focusables[focusables.length - 1].focus();
+      } else if (!event.shiftKey && currentIndex === focusables.length - 1) {
+        event.preventDefault();
+        focusables[0].focus();
+      }
+    }
+  });
+});
+
+function getFocusableElements(container) {
+  return Array.from(
+    container.querySelectorAll(
+      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+    )
+  ).filter((el) => el.offsetParent !== null);
+}

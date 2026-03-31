@@ -1,12 +1,88 @@
-.modal-content {
+/* Make native dialog behave like the old Bootstrap modal wrapper */
+dialog.modal {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0;
+}
+dialog.modal:focus {
+  outline: none !important;
+}
+dialog.modal[open] {
+  display: block;
+}
+/* Center the modal exactly like Bootstrap */
+dialog.modal .modal-dialog {
+  width: auto;
+  max-width: 500px;
+  pointer-events: none;
+}
+
+dialog.modal .modal-dialog-centered {
+  min-height: calc(100% - 3.5rem);
+  display: flex;
+  align-items: center;
+}
+dialog.modal .modal-content {
   background-color: var(--theme-modal-dialog-bg-color);
   border: $card-border-width solid var(--theme-modal-dialog-border-color);
+  border-radius: $border-radius;
   .close {
     @extend .position-relative;
     opacity: 1;
   }
 }
-.modal-title {
+dialog.modal .modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}   
+dialog.modal .modal-title {
   @extend .h5;
-  color: var(--theme-modal-dialog-title-color);
+  color: var(--theme-modal-dialog-title-color);          
+}
+dialog.modal .btn-close,
+dialog.modal .close {
+  flex-shrink: 0;
+}
+dialog.modal .modal-body {
+  position: relative;
+  flex: 1 1 auto;
+}
+dialog.modal .modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+dialog.modal .modal-footer-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  width: 100%;
+  margin: 0;
+}
+
+dialog.modal .modal-footer-form .btn {
+  margin: 0;
+}
+
+/* Remove odd native spacing in some browsers */
+dialog.modal form[method="dialog"] {
+  padding: 0;
+}
+/* Mobile behavior similar to Bootstrap */
+@media (max-width: 575.98px) {
+  dialog.modal .modal-dialog {
+    max-width: none;
+    margin: 0.5rem;
+  }
+  dialog.modal .modal-dialog-centered {
+    min-height: calc(100% - 1rem);
+  }
 }
