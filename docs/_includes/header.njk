@@ -1,29 +1,32 @@
-<div id="wrapper-topbar" class="wrapper-topbar" role="region" aria-label="Top bar">
-  <p class="m-0 font-weight-bold order-lg-2 me-auto">
-    <a href="{{ '/' | url }}" class="d-md-none text-white text-decoration-none" tabindex="2">
-      <img src="/img/favicon.png" class="d-md-none" alt="Pelican Design System icon" />
-      <span class="">Pelican Design System</span>
-    </a>
-    <span class="d-none d-md-inline" tabindex="-1">{{ title }}</span>
-  </p>
-  <div class="dropdown order-lg-3">
-    <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      {# this text should change to reflect the version #}
-      {# swapping the .d- classes will work #}
-      <span class="d-none">v1.1.2</span>
-      <span class="d-inline">v2.0</span>
+<section aria-labelledby="topbar-label">
+  <span id="topbar-label" class="visually-hidden">Topbar</span>
+  <div id="wrapper-topbar" class="wrapper-topbar">
+    <p class="m-0 font-weight-bold order-lg-2 me-auto">
+      <a href="{{ '/' | url }}" class="d-md-none text-white text-decoration-none" tabindex="2">
+        <img src="/img/favicon.png" class="d-md-none" alt="Pelican Design System icon" />
+        <span class="">Pelican Design System</span>
+      </a>
+      <span class="d-none d-md-inline" tabindex="-1">{{ title }}</span>
+    </p>
+    <div class="dropdown order-lg-3">
+      <button class="btn btn-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {# this text should change to reflect the version #}
+        {# swapping the .d- classes will work #}
+        <span class="d-none">v1.1.2</span>
+        <span class="d-inline">v2.0</span>
+      </button>
+      <ul class="dropdown-menu">
+        <li>
+          <a class="dropdown-item" href="/v1">v1.1.3</a>
+        </li>
+        <li>
+          <a class="dropdown-item active" href="#">v2.0</a>
+        </li>
+      </ul>
+    </div>
+    <button id="sidebar-button" class="sidebar-button" aria-haspopup="true" aria-controls="sidebar" tabindex="3">
+      <span class="icon fas fa-fw fa-bars" aria-hidden="true"></span>
+      <span class="visually-hidden">Toggle side navigation</span>
     </button>
-    <ul class="dropdown-menu">
-      <li>
-        <a class="dropdown-item" href="/v1">v1.1.3</a>
-      </li>
-      <li>
-        <a class="dropdown-item active" href="#">v2.0</a>
-      </li>
-    </ul>
   </div>
-  <button id="sidebar-button" class="sidebar-button" aria-haspopup="true" aria-controls="sidebar" tabindex="3">
-    <span class="icon fas fa-fw fa-bars" aria-hidden="true"></span>
-    <span class="visually-hidden">Toggle side navigation</span>
-  </button>
-</div>
+</section>
