@@ -40,7 +40,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy to S3
-        run: aws s3 sync ./dist/docs/ s3://pelican-vnext.ots.la.gov --acl public-read
+        run: aws s3 sync ./dist/docs/ s3://pelican-vnext.ots.la.gov
 
       - name: Invalidate CloudFront Cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_VNEXT_DISTRIBUTION_ID }} --paths "/*"
