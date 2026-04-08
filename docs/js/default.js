@@ -7,14 +7,13 @@ let sidebarDropdownLink = document.querySelectorAll(
 let scrollToTop = document.getElementById("ScrollToTop");
 
 let slideUp = (target, duration = 500) => {
-  // Check if already hidden or animating
   if (!target || window.getComputedStyle(target).display === "none") return;
 
   target.style.transitionProperty = "height, margin, padding";
   target.style.transitionDuration = duration + "ms";
   target.style.boxSizing = "border-box";
   target.style.height = target.offsetHeight + "px";
-  target.offsetHeight; // Force reflow
+  target.offsetHeight;
   target.style.overflow = "hidden";
   target.style.height = 0;
   target.style.paddingTop = 0;
@@ -38,7 +37,6 @@ let slideUp = (target, duration = 500) => {
 };
 
 let slideDown = (target, duration = 500) => {
-  // Check if already visible or animating
   if (!target || window.getComputedStyle(target).display !== "none") return;
 
   target.style.removeProperty("display");
@@ -54,7 +52,7 @@ let slideDown = (target, duration = 500) => {
   target.style.paddingBottom = 0;
   target.style.marginTop = 0;
   target.style.marginBottom = 0;
-  target.offsetHeight; // Force reflow
+  target.offsetHeight;
   target.style.boxSizing = "border-box";
   target.style.transitionProperty = "height, margin, padding";
   target.style.transitionDuration = duration + "ms";
@@ -73,7 +71,6 @@ let slideDown = (target, duration = 500) => {
   }, duration);
 };
 
-// ADD THE DROPDOWN TOGGLE CODE HERE
 sidebarDropdownLink.forEach((dropdownItem) => {
   const toggleDropdown = (event) => {
     event.preventDefault();
@@ -125,7 +122,6 @@ sidebarDropdownLink.forEach((dropdownItem) => {
 });
 
 function menuA11Y() {
-  //insert menu hidding behavior
   if (sidebar.offsetLeft == 0) {
     sidebar.setAttribute("aria-hidden", "false");
     sidebar.removeAttribute("inert");
@@ -138,6 +134,7 @@ function menuA11Y() {
     sidebar.setAttribute("aria-expanded", "false");
   }
 }
+
 if (sidebar) {
   sidebar.ontransitionend = menuA11Y;
   menuA11Y();
@@ -173,7 +170,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   let pageContent = document.getElementsByClassName("page-content");
   if (pageContent && pageContent.length > 0) {
@@ -198,96 +194,72 @@ tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);
 });
 
-document.querySelectorAll('[data-toggle="modal"], [data-bs-toggle="modal"]').forEach((button) => {
-  button.addEventListener("click", (event) => {
-    event.preventDefault();
-
-    const targetSelector =
-      button.getAttribute("data-bs-target") ||
-      button.getAttribute("data-target");
-
-    if (!targetSelector) return;
-
-    const dialog = document.querySelector(targetSelector);
-    if (!(dialog instanceof HTMLDialogElement)) return;
-
-    dialog._invoker = button;
-    dialog.showModal();
-
-    setTimeout(() => {
-      const focusables = getFocusableElements(dialog);
-      if (focusables.length) focusables[0].focus();
-    }, 0);
-  });
-});
-
-document.querySelectorAll('[data-dismiss="modal"], [data-bs-dismiss="modal"], [data-dialog-close]').forEach((button) => {
-  button.addEventListener("click", () => {
-    const dialog = button.closest("dialog");
-    if (dialog instanceof HTMLDialogElement) {
-      dialog.close();
-    }
-  });
-});
-
-document.querySelectorAll("dialog.modal").forEach((dialog) => {
-  dialog.addEventListener("close", () => {
-    if (dialog._invoker && typeof dialog._invoker.focus === "function") {
-      dialog._invoker.focus();
-    }
-  });
-
-  dialog.addEventListener("click", (event) => {
-    const modalDialog = dialog.querySelector(".modal-dialog");
-    if (!modalDialog) return;
-
-    const rect = modalDialog.getBoundingClientRect();
-    const clickedInside =
-      event.clientX >= rect.left &&
-      event.clientX <= rect.right &&
-      event.clientY >= rect.top &&
-      event.clientY <= rect.bottom;
-
-    if (!clickedInside) {
-      dialog.close();
-    }
-  });
-
-  dialog.addEventListener("keydown", (event) => {
-    const focusables = getFocusableElements(dialog);
-    if (!focusables.length) return;
-
-    const currentIndex = focusables.indexOf(document.activeElement);
-
-    if (["ArrowRight", "ArrowDown"].includes(event.key)) {
-      event.preventDefault();
-      const nextIndex = (currentIndex + 1) % focusables.length;
-      focusables[nextIndex].focus();
-    }
-
-    if (["ArrowLeft", "ArrowUp"].includes(event.key)) {
-      event.preventDefault();
-      const prevIndex =
-        (currentIndex - 1 + focusables.length) % focusables.length;
-      focusables[prevIndex].focus();
-    }
-
-    if (event.key === "Tab") {
-      if (event.shiftKey && currentIndex === 0) {
-        event.preventDefault();
-        focusables[focusables.length - 1].focus();
-      } else if (!event.shiftKey && currentIndex === focusables.length - 1) {
-        event.preventDefault();
-        focusables[0].focus();
-      }
-    }
-  });
-});
+/* SIMPLE MODAL */
+const modal = document.getElementById("ModalID");
+const openModalBtn = document.getElementById("openModalBtn");
+const closeModalBtn = document.getElementById("closeModalBtn");
+const choiceBtn = document.getElementById("choiceBtn");
 
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
-      'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
-    )
-  ).filter((el) => el.offsetParent !== null);
+      'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+    ),
+  ).filter((el) => !el.hasAttribute("hidden"));
+}
+
+function openModal() {
+  if (!(modal instanceof HTMLDialogElement)) return;
+  modal.showModal();
+
+  const focusables = getFocusableElements(modal);
+  if (focusables.length) {
+    focusables[0].focus();
+  }
+}
+
+function closeModal() {
+  if (!(modal instanceof HTMLDialogElement)) return;
+  if (!modal.open) return;
+
+  modal.close();
+  if (openModalBtn) {
+    openModalBtn.focus();
+  }
+}
+
+if (openModalBtn && modal instanceof HTMLDialogElement) {
+  openModalBtn.addEventListener("click", openModal);
+
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) {
+      event.preventDefault();
+    }
+  });
+
+  modal.addEventListener("keydown", (event) => {
+    if (event.key !== "Tab") return;
+
+    const focusables = getFocusableElements(modal);
+    if (!focusables.length) return;
+
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+}
+
+if (closeModalBtn) {
+  closeModalBtn.addEventListener("click", closeModal);
+}
+
+if (choiceBtn) {
+  choiceBtn.addEventListener("click", closeModal);
 }
