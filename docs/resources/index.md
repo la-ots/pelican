@@ -39,7 +39,7 @@ eleventyNavigation:
 - [Public Sans Typeface](https://fonts.google.com/specimen/Public+Sans)
 - [Figma.com](https://www.figma.com/)
 - [Pexels.com](https://www.pexels.com)
-- [FontAwesome Icon List](https://fontawesome.com/v5/search?o=r&m=free&s=solid)
+- [FontAwesome Icon List](https://fontawesome.com/v5/search?s=solid&ic=free-collection)
 - [Content Design Guidance by Digital.gov](https://digital.gov/guides/accessibility-for-teams/content-design#content-start)
 - [UX Design Guidance by Digital.gov](https://digital.gov/guides/accessibility-for-teams/ux-design#content-start)
 - [Visual Design Guidance by Digital.gov](https://digital.gov/guides/accessibility-for-teams/visual-design#content-start)

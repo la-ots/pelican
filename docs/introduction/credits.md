@@ -21,7 +21,7 @@ One of the most widely-used frontend frameworks available and supported in Micro
 
 ## FontAwesome
 
-We use [FontAwesome](https://fontawesome.com/v5/search?o=r&m=free&s=solid) as our icon source for many internal and public-facing projects.
+We use [FontAwesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection) as our icon source for many internal and public-facing projects.
 
 ## Photography Credits
 
