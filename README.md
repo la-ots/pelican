@@ -74,7 +74,7 @@ Download the package and extract the contents. Include the Pelican files and ass
 
 [or]
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="/js/pelican.min.js"></script>
 
 </body>
