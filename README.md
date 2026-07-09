@@ -84,36 +84,33 @@ Download the package and extract the contents. Include the Pelican files and ass
 
 ## What's Included?
 
-Within the installed package you'll find the following CSS and JS resources:
-
-```
-pelican
-└── dist/
-    ├── css/
-    |   ├── pelican.css
-    |   ├── pelican.css.map
-    |   ├── pelican.min.css
-    |   └── pelican.min.css.map
-    └── js/
-        ├── pelican.bundle.js
-        ├── pelican.bundle.js.map
-        ├── pelican.bundle.min.js
-        ├── pelican.bundle.js.min.map
-        ├── pelican.esm.js
-        ├── pelican.esm.js.map
-        ├── pelican.esm.min.js
-        ├── pelican.esm.min.js.map
-        ├── pelican.js
-        ├── pelican.js.map
-        ├── pelican.min.js
-        └── pelican.min.js.map
-```
-
 The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
 
 Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
 
 For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/) library, which are **not provided** in the bundled resources.
+
+Within the installed package you'll find the following CSS and JS resources in the `pelican/dist` folder:
+
+### css/
+- pelican.css
+- pelican.css.map
+- pelican.min.css
+- pelican.min.css.map
+
+### js/
+- pelican.bundle.js
+- pelican.bundle.map
+- pelican.bundle.min.js
+- pelican.bundle.min.js.map
+- pelican.esm.js
+- pelican.esm.js.map
+- pelican.esm.min.js
+- pelican.esm.min.js.map
+- pelican.js
+- pelican.js.map
+- pelican.min.js
+- pelican.min.js.map
 
 ## Documentation
 

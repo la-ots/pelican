@@ -1,6 +1,6 @@
 const { promisify } = require("util");
 const fs = require("fs");
-const hasha = require("hasha");
+const crypto = require("crypto");
 const readFile = promisify(fs.readFile);
 const pluginInclusiveLanguage = require("@11ty/eleventy-plugin-inclusive-language");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -52,9 +52,10 @@ module.exports = (eleventyConfig) => {
         encoding: "utf-8",
       })
         .then((content) => {
-          return hasha.async(content);
-        })
-        .then((hash) => {
+          const hash = crypto
+            .createHash("sha512")
+            .update(content)
+            .digest("hex");
           callback(null, `${absolutePath}?hash=${hash.substr(0, 10)}`);
         })
         .catch((error) => callback(error));
