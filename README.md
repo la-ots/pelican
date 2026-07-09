@@ -99,7 +99,7 @@ Within the installed package you'll find the following CSS and JS resources in t
 
 ### js/
 - pelican.bundle.js
-- pelican.bundle.map
+- pelican.bundle.js.map
 - pelican.bundle.min.js
 - pelican.bundle.min.js.map
 - pelican.esm.js
