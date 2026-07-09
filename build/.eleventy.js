@@ -56,7 +56,7 @@ module.exports = (eleventyConfig) => {
             .createHash("sha512")
             .update(content)
             .digest("hex");
-          callback(null, `${absolutePath}?hash=${hash.substr(0, 10)}`);
+          callback(null, `${absolutePath}?hash=${hash.slice(0, 10)}`);
         })
         .catch((error) => callback(error));
     },
