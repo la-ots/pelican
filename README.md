@@ -8,6 +8,50 @@ The Pelican Design System package is a customized [Bootstrap](https://getbootstr
 
 Installation of the Pelican Design System requires [npm](https://www.npmjs.com/).
 
+Install the package for your application:
+
+```bash
+npm install --save @la-ots/pelican bootstrap @popperjs/core
+```
+
+Pelican is built on top of Bootstrap, so Bootstrap and Popper are expected runtime dependencies for app projects. In most modern npm setups these may be installed automatically, but it is still best to install them explicitly so your app has a predictable dependency tree. For application projects, use regular dependencies rather than `devDependencies` because the CSS and JavaScript are used at runtime.
+
+#### Node-based applications
+
+If you are building a Node-based app with a bundler such as Vite, Webpack, or Parcel, import Pelican's compiled assets from the package:
+
+```js
+import '@la-ots/pelican/dist/css/pelican.css';
+import '@la-ots/pelican/dist/js/pelican.js';
+```
+
+#### ASP.NET Core MVC applications
+
+For a .NET 8+ MVC application, start by installing the package from npm in the web project folder:
+
+```bash
+npm install --save @la-ots/pelican bootstrap @popperjs/core
+```
+
+Then copy the compiled assets from the package into your app's static files folder so they are served by ASP.NET Core. A typical workflow is:
+
+```bash
+mkdir -p wwwroot/css wwwroot/js
+cp node_modules/@la-ots/pelican/dist/css/pelican.min.css wwwroot/css/
+cp node_modules/@la-ots/pelican/dist/js/pelican.bundle.min.js wwwroot/js/
+```
+
+Reference the files from your shared layout, such as `Views/Shared/_Layout.cshtml`:
+
+```html
+<link rel="stylesheet" href="~/css/pelican.min.css" />
+<script src="~/js/pelican.bundle.min.js" defer></script>
+```
+
+If your MVC app uses a frontend build pipeline, you can also import the assets from your entry point using the same statements shown above for Node-based apps.
+
+For the recommended font and icon experience, also include [Public Sans](https://fonts.google.com/specimen/Public+Sans) and [Font Awesome](https://fontawesome.com/).
+
 ### Manual
 
 Download the package and extract the contents. Include the Pelican files and associated dependencies (typically via CDNs), either bundled or non-bundled:
