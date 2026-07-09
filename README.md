@@ -118,7 +118,7 @@ Documentation can be found at the [Pelican Documentation](https://pelican.ots.la
 
 ## Contributing
 
-WIP
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting issues, proposing changes, and the local development workflow.
 
 ## Local Development
 
