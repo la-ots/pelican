@@ -37,7 +37,7 @@ For larger changes (new components, breaking changes, or significant visual/beha
 
 ## Local Development Setup
 
-Pelican requires [Node.js](https://nodejs.org/) and npm.
+Pelican requires [Node.js](https://nodejs.org/) (v20.5+ or v22+) and npm.
 
 ```bash
 git clone https://github.com/<your-fork>/pelican.git
