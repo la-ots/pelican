@@ -65,4 +65,4 @@ eleventyNavigation:
 
 ## Resources
 
-- [FontAwesome Icon List](https://fontawesome.com/v5/search?o=r&m=free&s=solid)
+- [FontAwesome Icon List](https://fontawesome.com/v5/search?s=solid&ic=free-collection)

@@ -70,7 +70,7 @@ For simple static pages, install the package with npm and reference the generate
 <script src="/js/pelican.bundle.min.js" defer></script>
 ```
 
-For the recommended font and icon experience, also include [Public Sans](https://fonts.google.com/specimen/Public+Sans) and [Font Awesome](https://fontawesome.com/).
+For the recommended font and icon experience, also include [Public Sans](https://fonts.google.com/specimen/Public+Sans) and [Font Awesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection).
 
 ## Builds
 
@@ -144,7 +144,7 @@ The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compile
 
 Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
 
-For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/v5/search?o=r&m=free&s=solid) library, which are **not provided** in the bundled resources.
+For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection) library, which are **not provided** in the bundled resources.
 
 Minified builds should be used in the production environments of projects for performance benefits. Un-minified versions should be used in pre-production environments for troubleshooting purposes.
 

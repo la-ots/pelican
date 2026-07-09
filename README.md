@@ -50,7 +50,7 @@ Reference the files from your shared layout, such as `Views/Shared/_Layout.cshtm
 
 If your MVC app uses a frontend build pipeline, you can also import the assets from your entry point using the same statements shown above for Node-based apps.
 
-For the recommended font and icon experience, also include [Public Sans](https://fonts.google.com/specimen/Public+Sans) and [Font Awesome](https://fontawesome.com/).
+For the recommended font and icon experience, also include [Public Sans](https://fonts.google.com/specimen/Public+Sans) and [Font Awesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection).
 
 ### Manual
 
@@ -88,7 +88,7 @@ The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compile
 
 Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
 
-For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/) library, which are **not provided** in the bundled resources.
+For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection) library, which are **not provided** in the bundled resources.
 
 Within the installed package you'll find the following CSS and JS resources in the `pelican/dist` folder:
 
