@@ -8,10 +8,57 @@
         <span class="d-none d-md-inline">Pelican <span class="visually-hidden">Home</span></span>
       </a>
     </div>
+
     <div class="sidebar-menu text-white">
       <ul>
+        <li class="sidebar-item">
+          <div class="sidebar-dropdown-header">
+            <a class="sidebar-nav-item" href="#">
+              <span>Example Item</span>
+            </a>
+          </div>
+        </li>
+        <li class="sidebar-item">
+          <div class="sidebar-dropdown-header">
+            <a class="sidebar-nav-item" href="#">
+              <span>Example Item with Children</span>
+            </a>
+            <button
+              class="sidebar-dropdown-header-expand active"
+              type="button"
+              aria-expanded="true"
+              aria-controls="introduction-menu"
+            >
+              <span class="visually-hidden">
+                Example menu item with children
+              </span>
+              <span class="icon fas fa-fw fa-angle-right" aria-hidden="true"></span>
+            </button>
+          </div>
+          <div class="sidebar-submenu" style="display:block" id="introduction-menu">
+            <ul>
+              <li class="sidebar-item">
+                <a class="sidebar-nav-item" href="#">
+                  <span class="icon fas fa-fw fa-eye invisible me-1" aria-hidden="true"></span>
+                  <span>Example Child</span>
+                </a>
+              </li>
+              <li class="sidebar-item active">
+                <a class="sidebar-nav-item active" href="#">
+                  <span class="icon fas fa-fw fa-eye me-1" aria-hidden="true"></span>
+                  <span>Example Child 2</span>
+                </a>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-nav-item" href="#">
+                  <span class="icon fas fa-fw fa-eye invisible me-1" aria-hidden="true"></span>
+                  <span>Example Child 3</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
-  
