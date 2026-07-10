@@ -17,7 +17,60 @@ Get the [Pelican 2 Design library](https://www.figma.com/community/file/12957907
 
 Installation of Pelican requires [npm](https://www.npmjs.com/).
 
+Install the package for your application:
+
+```bash
+npm install --save @la-ots/pelican bootstrap @popperjs/core
+```
+
+Pelican is built on top of Bootstrap, so Bootstrap and Popper are expected runtime dependencies for app projects. In most modern npm setups these may be installed automatically, but it is still best to install them explicitly so your app has a predictable dependency tree. For application projects, use regular dependencies rather than `devDependencies` because the CSS and JavaScript are used at runtime.
+
+### Node-based apps
+
+If you are building a Node-based app with a bundler such as Vite, Webpack, or Parcel, import Pelican's compiled assets from the package:
+
+```js
+import '@la-ots/pelican/dist/css/pelican.css';
+import '@la-ots/pelican/dist/js/pelican.js';
+```
+
+### ASP.NET Core MVC apps
+
+For a .NET 8+ MVC application, start by installing the package from npm in the web project folder:
+
+```bash
+npm install --save @la-ots/pelican bootstrap @popperjs/core
+```
+
+Then copy the compiled assets from the package into your app's static files folder so they are served by ASP.NET Core. A typical workflow is:
+
+```bash
+mkdir -p wwwroot/css wwwroot/js
+cp node_modules/@la-ots/pelican/dist/css/pelican.min.css wwwroot/css/
+cp node_modules/@la-ots/pelican/dist/js/pelican.bundle.min.js wwwroot/js/
+```
+
+Reference the files from your shared layout, such as `Views/Shared/_Layout.cshtml`:
+
+```html
+<link rel="stylesheet" href="~/css/pelican.min.css" />
+<script src="~/js/pelican.bundle.min.js" defer></script>
+```
+
+If your MVC app uses a frontend build pipeline, you can also import the assets from your entry point using the same statements shown above for Node-based apps.
+
+### Static sites and manual setup
+
 Installation instructions for the latest version of the package can be found [on NPM](https://www.npmjs.com/package/@la-ots/pelican).
+
+For simple static pages, install the package with npm, then copy the compiled CSS and JS out of `node_modules/@la-ots/pelican/dist/` into a folder your site actually serves (or otherwise host them), and reference them from your HTML using the path where you placed them. The example below assumes the files were copied to `css/` and `js/` folders alongside your HTML:
+
+```html
+<link rel="stylesheet" href="/css/pelican.min.css" />
+<script src="/js/pelican.bundle.min.js" defer></script>
+```
+
+For the recommended font and icon experience, also include [Public Sans](https://fonts.google.com/specimen/Public+Sans) and [Font Awesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection).
 
 ## Builds
 
@@ -89,15 +142,15 @@ pelican
 
 The Pelican Design System, provides compiled CSS and JS (`pelican.*`) or compiled and minified CSS and JS (`pelican.min.*`). Source maps are available as well (`pelican.*.map`).
 
-Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/), [Popper](https://popper.js.org/) and [jQuery](https://jquery.com/).
+Bundled versions (`pelican.bundle.*`) include [Bootstrap's JS](https://getbootstrap.com/) and [Popper](https://popper.js.org/).
 
-For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/v5/search?o=r&m=free&s=solid) library, which are **not provided** in the bundled resources.
+For proper font and icon display, you should also use the [Public Sans](https://fonts.google.com/specimen/Public+Sans) typeface and [Font Awesome](https://fontawesome.com/v5/search?s=solid&ic=free-collection) library, which are **not provided** in the bundled resources.
 
 Minified builds should be used in the production environments of projects for performance benefits. Un-minified versions should be used in pre-production environments for troubleshooting purposes.
 
 ## Usage
 
-Download the package and extract the contents. Include the Pelican files and associated dependencies (typically via CDNs), either bundled or non-bundled:
+Download the package and extract the contents, or copy the compiled assets out of `node_modules/@la-ots/pelican/dist/` into a folder served by your app. The `/css/...` and `/js/...` paths below are just an example of where those files might be hosted, so adjust them to match wherever you placed the files. Include the Pelican files and associated dependencies (typically via CDNs), either bundled or non-bundled:
 
 ```html
 <head>
@@ -117,8 +170,7 @@ Download the package and extract the contents. Include the Pelican files and ass
 
 [or]
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/popper.min.js" integrity="sha384-wtNlGLUJ2I0nMcuD4N4C2l3SrJdgaRpeu64hbXM9GHBPIEAQZqtmrvsJZAIL10I0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="/js/pelican.min.js"></script>
 
 </body>

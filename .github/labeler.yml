@@ -1,3 +1,4 @@
 # Add docs label to any changes that had a change in the docs folder
 docs:
-  - docs/*
+  - changed-files:
+    - any-glob-to-any-file: "docs/**"
