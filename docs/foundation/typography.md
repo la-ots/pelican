@@ -17,7 +17,7 @@ Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable fo
 
 ## Best Practices
 
-- Use font sizes of 1rem (this is the browser default size) as the base size and enables the user to easily change font size with browser-native controls.
+- Use a base font size of 1rem (the browser default) to enable users to change text size with browser-native controls.
 - Avoid using underlines unless it’s for a link in paragraph text.
 - Avoid all uppercase letters when possible.
 - Ensure hyperlinks are distinct from headings and normal text.
