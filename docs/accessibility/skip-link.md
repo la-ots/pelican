@@ -16,7 +16,7 @@ eleventyNavigation:
 Users who rely on keyboard navigation need a way to skip past navigation elements if they are already familiar with the page.
 
 - Put the Skip Link markup as the first direct child of the `<body>` element.
-- Its `href` should be set to the `id` of the main content of the page. This is often the <main id="main"> element.
+- Its `href` should be set to the `id` of the main content of the page. This is often the `main id="main"` element.
 - It should always be the first element the user can interact with on the page when they press the <kbd>Tab</kbd> key immediately after the page has loaded.
 
 ## Usage
