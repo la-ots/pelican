@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## Best Practices
 
-- Use font sizes of 16 – 19 pixels.
+- Refer to [Typography Best Practices](/foundation/typography/#best-practices) for sizing text.
 - Avoid using underlines unless it’s for a link in paragraph text.
 - Avoid all uppercase letters when possible.
 - Ensure hyperlinks are distinct from headings and normal text.

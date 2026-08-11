@@ -15,18 +15,25 @@ eleventyNavigation:
 
 Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable font, so the download sizes are smaller. Because [Public Sans is available from Google Fonts](https://fonts.google.com/specimen/Public+Sans), it’s ready-to-use in Figma and easy to deploy to a web product.
 
+## Best Practices
+
+- Use a base font size of 1rem (the browser default) to enable users to change text size with browser-native controls.
+- Avoid using underlines unless it’s for a link in paragraph text.
+- Avoid all uppercase letters when possible.
+- Ensure hyperlinks are distinct from headings and normal text.
+
 ## Headings
 
 Headings indicate document content structure and become navigation tools for assistive technology. See [Headings](/accessibility/headings/) in Accessibility for information.
 
 ## Paragraphs
 
-Pelican uses 16px, the browser default, as the base font size, also known as a _rem_. This is considered the best starting point for web readability. Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 16px in Pelican. That’s why sentences only have space below them when they’re within lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.
+Pelican uses 1rem (the root em unit, based on the user’s browser default font size) as the base font size. This is considered the best starting point for web readability. Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 1rem in Pelican. That’s why sentences only have space below them when they’re within lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.
 
 <!-- prettier-ignore -->
 ```html
-<p>Pelican uses 16px, the browser default, as the base font size. This is considered the best starting point for web readability.</p>
-<p>Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 16px in Pelican. That’s why sentences only have space below them when they’re not within other lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.</p>
+<p>Pelican uses 1rem, the user’s browser’s default, as the base font size. This is considered the best starting point for web readability.</p>
+<p>Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 1rem in Pelican. That’s why sentences only have space below them when they’re not within other lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.</p>
 ```
 
 ## Strong and Em

@@ -17,6 +17,7 @@ eleventyNavigation:
 - Assistive technology also uses the text in the link to describe the link to users.
 - The text in the link should communicate the link’s destination.
 - Refrain from generic link text such as “click here”.
+- Links are distinct from buttons. `<a>` is different from `<button>`.
 
 <div class="row mb-6">
   <div class="col-lg-6">
