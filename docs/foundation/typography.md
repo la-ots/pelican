@@ -17,7 +17,7 @@ Pelican’s typeface is Public Sans, designed by USWDS. It is also a variable fo
 
 ## Best Practices
 
-- Use font sizes of 1rem (this is the browser default size) as the base size and enables the user to easily change font size with browser-native controls.
+- Use a base font size of 1rem (the browser default) to enable users to change text size with browser-native controls.
 - Avoid using underlines unless it’s for a link in paragraph text.
 - Avoid all uppercase letters when possible.
 - Ensure hyperlinks are distinct from headings and normal text.
@@ -28,7 +28,7 @@ Headings indicate document content structure and become navigation tools for ass
 
 ## Paragraphs
 
-Pelican uses 1rem, the user’s browser’s default, as the base font size, also known as a _rem_. This is considered the best starting point for web readability. Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 1rem in Pelican. That’s why sentences only have space below them when they’re within lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.
+Pelican uses 1rem (the root em unit, based on the user’s browser default font size) as the base font size. This is considered the best starting point for web readability. Paragraph tags `<p>` hold paragraphs. A paragraph can be one or more sentences. Spacing below a paragraph is equal to 1rem in Pelican. That’s why sentences only have space below them when they’re within lines of text. If you need to remove the margin from a paragraph, add the class `mb-0`.
 
 <!-- prettier-ignore -->
 ```html
