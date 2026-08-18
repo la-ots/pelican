@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-summary: Here are some of the resources to help you create digital products.
+summary: This sitemap presents all of the pages in the site.
 tags: resources
 layout: human-sitemap
 index: true
@@ -8,5 +8,5 @@ eleventyNavigation:
   key: Sitemap
   title: Sitemap
   order: 16
-  excerpt: Here are some of the resources to help you create digital products.
+  excerpt: This sitemap presents all of the pages in the site.
 ---
