@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-summary: This sitemap presents all of the pages in the site.
+summary: Human-readable sitemap of the Pelican documentation.
 tags: resources
 layout: human-sitemap
 index: true
@@ -8,5 +8,5 @@ eleventyNavigation:
   key: Sitemap
   title: Sitemap
   order: 16
-  excerpt: This sitemap presents all of the pages in the site.
+  excerpt: Human-readable sitemap of the Pelican documentation.
 ---
