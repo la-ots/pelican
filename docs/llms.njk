@@ -1,0 +1,24 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+
+# Pelican Design System
+
+{{ site.description }} Pelican is maintained by The Louisiana {{ site.authorName }}
+
+{% for item in collections.all | eleventyNavigation -%}
+## {{ item.title }}
+
+{%- set firstChild = item.children[0] -%}
+{%- set fallbackSummary = firstChild.excerpt or firstChild.summary if firstChild and firstChild.url == item.url else "" -%}
+{%- set itemSummary = item.excerpt or item.summary or fallbackSummary -%}
+
+- [{{ item.title }}]({{ site.url }}{{ item.url }}): {{ itemSummary }}
+{% if item.children.length > 0 %}
+{%- for child in item.children -%}
+{%- if child.url != item.url or child.title != item.title -%}
+- [{{ child.title }}]({{ site.url }}{{ child.url }}): {{ child.excerpt or child.summary }}
+{%- endif -%}
+{% endfor %}{% endif %}
+{% endfor %}

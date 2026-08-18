@@ -8,6 +8,7 @@ eleventyNavigation:
   key: Migration Guide
   title: Migration Guide
   order: 3
+  excerpt: Differences between Pelican 1 and Pelican 2.
 ---
 
 ## Migration Guide

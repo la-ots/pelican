@@ -8,6 +8,7 @@ eleventyNavigation:
   key: What’s New
   title: What’s New
   order: 1
+  excerpt: Pelican Changelog
 ---
 
 ## Make Pelican Better

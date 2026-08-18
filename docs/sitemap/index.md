@@ -8,4 +8,5 @@ eleventyNavigation:
   key: Sitemap
   title: Sitemap
   order: 16
+  excerpt: Here are some of the resources to help you create digital products.
 ---

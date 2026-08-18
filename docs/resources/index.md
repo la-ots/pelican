@@ -8,6 +8,7 @@ eleventyNavigation:
   key: Resources
   title: Resources
   order: 15
+  excerpt: Here are some of the resources to help you create digital products.
 ---
 
 ## Accessibility Guides
