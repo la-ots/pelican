@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-summary: Here are some of the resources to help you create digital products.
+summary: Human-readable sitemap of the Pelican documentation.
 tags: resources
 layout: human-sitemap
 index: true

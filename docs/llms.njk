@@ -1,0 +1,13 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+
+# Pelican Design System
+
+> Pelican Design System is the Louisiana design system. It has user experience guidance and reusable code patterns for creating easy-to-use, standardized digital products for Louisianians. Built and maintained by The Louisiana Office of Technology Services, Architecture, Standards, and Platforms vertical.
+{% set navPages = collections.all | eleventyNavigation %}{% for entry in navPages %}{% if entry.children.length > 0 %}
+## {{ entry.title }}
+
+{% if entry.children.length > 0 %}{% for child in entry.children %}- [{{ child.title }}]({{ site.url }}{{ child.url | url }})
+{% endfor %}{% endif %}{% endif %}{% endfor %}
