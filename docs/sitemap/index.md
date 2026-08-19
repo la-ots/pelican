@@ -8,5 +8,4 @@ eleventyNavigation:
   key: Sitemap
   title: Sitemap
   order: 16
-  excerpt: Human-readable sitemap of the Pelican documentation.
 ---

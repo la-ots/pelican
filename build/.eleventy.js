@@ -13,30 +13,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = (eleventyConfig) => {
   const isProduction = process.env.ELEVENTY_ENV === "production";
 
-  const convertLlmsToUtf16 = () => {
-    const llmsPath = "dist/docs/llms.txt";
-
-    if (!fs.existsSync(llmsPath)) {
-      return;
-    }
-
-    const fileBuffer = fs.readFileSync(llmsPath);
-    const isUtf16Le =
-      fileBuffer.length >= 2 && fileBuffer[0] === 0xff && fileBuffer[1] === 0xfe;
-
-    const decoded = isUtf16Le
-      ? fileBuffer.slice(2).toString("utf16le")
-      : fileBuffer.toString("utf8");
-
-    const content = decoded
-      .replace(/^\uFEFF/, "")
-      .replace(/^\uFFFD+/, "")
-      .replace(/\u0000/g, "");
-    const utf16Bom = Buffer.from([0xff, 0xfe]);
-    const utf16Content = Buffer.from(content, "utf16le");
-    fs.writeFileSync(llmsPath, Buffer.concat([utf16Bom, utf16Content]));
-  };
-
   eleventyConfig.addPlugin(pluginToc, {
     wrapper: "div",
   });
@@ -157,8 +133,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget("dist/js");
   eleventyConfig.addWatchTarget("dist/css");
-
-  eleventyConfig.on("eleventy.after", convertLlmsToUtf16);
 
   // Add Pelican
   if (isProduction) {
