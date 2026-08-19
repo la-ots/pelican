@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
 ## {{ item.title }}
 
 {%- set firstChild = item.children[0] -%}
-{%- set fallbackSummary = firstChild.excerpt or firstChild.summary if firstChild and firstChild.url == item.url else "" -%}
+{%- set fallbackSummary = (firstChild.excerpt or firstChild.summary) if firstChild and firstChild.url == item.url else "" -%}
 {%- set itemSummary = item.excerpt or item.summary or fallbackSummary -%}
 
 - [{{ item.title }}]({{ site.url }}{{ item.url }}): {{ itemSummary }}
