@@ -57,3 +57,57 @@
     padding-right: 14px;
   }
 }
+
+@media print {
+  .page-wrapper,
+  .wrapper-main {
+    height: unset;
+    position: unset;
+  }
+
+  .page-wrapper,
+  .page-content {
+    padding: none;
+    width: unset;
+    overflow-x: unset;
+    transition: unset;
+  }
+
+  body,
+  html {
+    background-color: white !important;
+    background-image: none !important;
+  }
+
+  #main {
+    height: 100% !important;
+  }
+
+  .page-content {
+    height: auto !important;
+    padding: 0 !important;
+  }
+
+  .skip-to-main,
+  .sidebar-wrapper,
+  .wrapper-topbar,
+  .btn-scroll-top,
+  [position=fixed],
+  .footer,
+  nav,
+  .popover,
+  .page-toc {
+      display: none !important;
+  }
+
+  .btns-previous-next,
+  form {
+      display: none !important;
+  }
+
+  .edit-github,
+  #sidebar-button {
+    display: none !important;
+  }
+}
+	
