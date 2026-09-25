@@ -207,7 +207,7 @@ Dark and light variants are available for all three Brand colors. Use them to en
     <div class="card border-0">
       <div class="bg-accent-900 rounded-top pd-color-block"></div>
       <div class="card-body">
-        <p class="mb-0 fw-bold">accent, Darker</p>
+        <p class="mb-0 fw-bold">Accent, Darker</p>
         <p class="mb-0">
           Hex Code: <code>#7c310b</code>
         </p>
