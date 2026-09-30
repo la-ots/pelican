@@ -92,6 +92,19 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 {% include 'markup/input-search.njk' %}
 ```
 
+**Input Type: Autocomplete**
+
+- Accepts text input and suggests matching options.
+- Use when users benefit from guided search over a known list.
+- Requires Pelican JavaScript (`pelican.bundle.min.js` or `@la-ots/pelican/dist/js/pelican.js`).
+- Provide suggestions as a JSON array on `data-pelican-combobox-options`.
+
+{% include 'markup/input-autocomplete.njk' %}
+
+```html
+{% include 'markup/input-autocomplete.njk' %}
+```
+
 **Input Type: URL**
 
 - Accepts web addresses
