@@ -18,7 +18,7 @@ We’re continually improving Pelican. The following changes are listed by the d
 
 ## 2.4.0: September 28, 2026
 
-- Adds an [Autocomplete input example](/form-controls/inputs/) with namespaced default JS/CSS support and updated option styling
+- Adds an [Autocomplete input example](/form-controls/autocomplete/) with namespaced default JS/CSS support and updated option styling
 
 ## 2.3.5: December 5, 2025
 
