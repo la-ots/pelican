@@ -268,15 +268,7 @@ const initializeCombobox = (wrapper, index) => {
   };
 
   const showAllOptions = () => {
-    filtered = input.value.trim()
-      ? options.filter((option) =>
-          option.toLowerCase().includes(input.value.toLowerCase()),
-        )
-      : [...options];
-
-    active = -1;
-    hasAnnounced = false;
-    render();
+    filterOptions(input.value);
   };
 
   input.addEventListener("input", () => {
