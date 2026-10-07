@@ -67,6 +67,9 @@ title: Home
           <a class="nav-link" href="/accessibility/accessibility-statement/">Accessibility</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="/v1">Pelican 1</a>
+        </li>
+        <li class="nav-item">
           <a class="btn btn-white" href="https://www.figma.com/community/file/1295790757134814477/pelican-2">Figma Library</a>
         </li>
       </ul>
@@ -74,10 +77,23 @@ title: Home
   </div>
 </nav>
 
-<section role="region" aria-labelledby="site-announcement-text">
-<div role="alert" class="alert alert-accent bg-accent text-black border-0 rounded-0 mb-0 text-center">
-  <p id="site-announcement-text" class="mb-0"><span class="fw-bold">Introducing Pelican 2!</span><br class="d-block d-md-none"> You can still get <a href="/v1" class="text-black fw-bold">Pelican 1</a> if you need it.</p>
-</div>
+<section class="py-3" style="background-color: var(--theme-navbar-bg-color);">
+  <div class="container">
+    <form role="search" aria-label="Site search">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <label for="site-search" class="visually-hidden">Search Pelican</label>
+          <div class="input-group">
+            <input id="site-search" type="search" class="form-control form-control-lg rounded-0 border border-2 border-dark border-end-0 bg-white" placeholder="Search Pelican">
+            <button class="btn btn-light rounded-0 border border-2 border-dark border-start-0 px-3 d-inline-flex align-items-center gap-2" type="button">
+              <span class="fas fa-search" aria-hidden="true"></span>
+              <span>Search</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
 </section>
 
 <section class="hero-dual-pane" style="background-image: url('/img/photos/pexels-photo-275030.jpeg');" role="banner" aria-label="Pelican Design System">
