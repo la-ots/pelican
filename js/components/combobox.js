@@ -374,6 +374,10 @@ const initializeCombobox = (wrapper) => {
 
 // Safe to call repeatedly; existing initialized wrappers are skipped.
 const initPelicanComboboxes = (root = document) => {
+  if (root.matches?.(".pelican-combobox")) {
+    initializeCombobox(root);
+  }
+
   root.querySelectorAll(".pelican-combobox").forEach((wrapper) => {
     initializeCombobox(wrapper);
   });
