@@ -75,11 +75,29 @@ const initializeCombobox = (wrapper, index) => {
   }
 
   // Connects optional help text to the input for screen readers
+  const describedByTokens = new Set(
+    (input.getAttribute("aria-describedby") || "")
+      .split(/\s+/)
+      .filter(Boolean),
+  );
+  const previousHelpTextId = input.dataset.pelicanComboboxHelpId;
+
+  if (previousHelpTextId) {
+    describedByTokens.delete(previousHelpTextId);
+  }
+
   if (helpText) {
     if (!helpText.id) {
       helpText.id = `${comboboxId}-help`;
     }
-    input.setAttribute("aria-describedby", helpText.id);
+    describedByTokens.add(helpText.id);
+    input.dataset.pelicanComboboxHelpId = helpText.id;
+  } else {
+    delete input.dataset.pelicanComboboxHelpId;
+  }
+
+  if (describedByTokens.size) {
+    input.setAttribute("aria-describedby", Array.from(describedByTokens).join(" "));
   } else {
     input.removeAttribute("aria-describedby");
   }
