@@ -2,6 +2,23 @@
 
 const defaultOptions = [];
 let comboboxIdCounter = 0;
+const openComboboxes = new Map();
+let hasDocumentClickListener = false;
+
+const ensureDocumentClickListener = () => {
+  if (hasDocumentClickListener) {
+    return;
+  }
+
+  document.addEventListener("click", (event) => {
+    openComboboxes.forEach((closeList, wrapper) => {
+      if (!wrapper.contains(event.target)) {
+        closeList();
+      }
+    });
+  });
+  hasDocumentClickListener = true;
+};
 
 const getComboboxId = (wrapper) => {
   if (wrapper.id) {
@@ -110,6 +127,8 @@ const initializeCombobox = (wrapper, index) => {
   let hasAnnounced = false;
   let statusUpdateTimeout = null;
 
+  ensureDocumentClickListener();
+
   const scheduleStatusUpdate = (message) => {
     statusUpdateTimeout = setTimeout(() => {
       status.textContent = message;
@@ -158,6 +177,7 @@ const initializeCombobox = (wrapper, index) => {
     listbox.hidden = false;
     input.setAttribute("aria-expanded", "true");
     isOpen = true;
+    openComboboxes.set(wrapper, closeList);
     updateStatus();
   };
 
@@ -167,6 +187,7 @@ const initializeCombobox = (wrapper, index) => {
     input.removeAttribute("aria-activedescendant");
     active = -1;
     isOpen = false;
+    openComboboxes.delete(wrapper);
     updateStatus();
   };
 
@@ -340,12 +361,6 @@ const initializeCombobox = (wrapper, index) => {
           closeList();
         }
         break;
-    }
-  });
-
-  document.addEventListener("click", (event) => {
-    if (!wrapper.contains(event.target)) {
-      closeList();
     }
   });
 };
