@@ -60,7 +60,7 @@
     cursor: pointer;
   }
 
-  .pelican-combobox__option:hover,
+  .pelican-combobox__option:not(.pelican-combobox__option--empty):hover,
   .pelican-combobox__option[aria-selected="true"],
   .pelican-combobox__option--active {
     color: var(--theme-info-900, #004ba1);
