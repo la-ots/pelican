@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Autocomplete
   parent: Form Controls
-  order: 6
+  order: 7
   excerpt: Autocomplete lets users type to filter and select from a known set of options.
   img: /img/illustrations/illus-inputs.png
 ---
@@ -133,8 +133,7 @@ Place this script after the markup. It sets the attribute with `JSON.stringify`,
 After loading, the wrapper's attribute contains:
 
 ```html
-data-pelican-combobox-options='["Apply for Benefits","Driver Services","Office
-Locations"]'
+data-pelican-combobox-options='["Apply for Benefits","Driver Services","Office Locations"]'
 ```
 
 `setAttribute` handles the attribute value directly, so do not HTML-escape the JSON before passing it to this method. If a page has multiple remote autocomplete fields, populate all of their attributes before loading Pelican once.

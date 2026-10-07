@@ -243,8 +243,8 @@ const initializeCombobox = (wrapper) => {
       const span = document.createElement("span");
       span.className = "pelican-combobox__option-label";
       span.textContent = input.value.trim()
-        ? `No services match "${input.value.trim()}"`
-        : "No services available";
+        ? `No matches for "${input.value.trim()}"`
+        : "No options available";
 
       li.appendChild(span);
       listbox.appendChild(li);
@@ -345,10 +345,7 @@ const initializeCombobox = (wrapper) => {
         break;
 
       case "Enter":
-        if (!isOpen) {
-          event.preventDefault();
-          showAllOptions();
-        } else if (active >= 0 && filtered.length) {
+        if (isOpen && active >= 0 && filtered.length) {
           event.preventDefault();
           selectOption(active);
         }
