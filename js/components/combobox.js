@@ -133,6 +133,7 @@ const initializeCombobox = (wrapper) => {
   let isOpen = false;
   let hasAnnounced = false;
   let statusUpdateTimeout = null;
+  let isDispatchingSelectionInputEvent = false;
 
   ensureDocumentClickListener();
 
@@ -228,6 +229,9 @@ const initializeCombobox = (wrapper) => {
     }
 
     input.value = filtered[indexToSelect];
+    isDispatchingSelectionInputEvent = true;
+    input.dispatchEvent(new Event("input", { bubbles: true }));
+    isDispatchingSelectionInputEvent = false;
     closeList();
   };
 
@@ -238,6 +242,8 @@ const initializeCombobox = (wrapper) => {
     if (!filtered.length) {
       const li = document.createElement("li");
       li.className = "pelican-combobox__option pelican-combobox__option--empty";
+      li.setAttribute("role", "option");
+      li.setAttribute("aria-selected", "false");
       li.setAttribute("aria-disabled", "true");
 
       const span = document.createElement("span");
@@ -300,6 +306,10 @@ const initializeCombobox = (wrapper) => {
   };
 
   input.addEventListener("input", () => {
+    if (isDispatchingSelectionInputEvent) {
+      return;
+    }
+
     filterOptions(input.value);
   });
 
