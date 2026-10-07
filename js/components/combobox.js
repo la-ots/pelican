@@ -3,6 +3,7 @@
 const defaultOptions = [];
 let comboboxIdCounter = 0;
 const openComboboxes = new Map();
+const initializedComboboxes = new WeakSet();
 let hasDocumentClickListener = false;
 
 const ensureDocumentClickListener = () => {
@@ -60,7 +61,7 @@ const parseOptions = (wrapper) => {
 };
 
 // Initializes an individual Pelican combobox
-const initializeCombobox = (wrapper, index) => {
+const initializeCombobox = (wrapper) => {
   // Elements used by the combobox
   const input = wrapper.querySelector(".pelican-combobox__input");
   const listbox = wrapper.querySelector(".pelican-combobox__listbox");
@@ -71,6 +72,12 @@ const initializeCombobox = (wrapper, index) => {
   if (!input || !listbox || !status) {
     return;
   }
+
+  if (initializedComboboxes.has(wrapper)) {
+    return;
+  }
+
+  initializedComboboxes.add(wrapper);
 
   const options = parseOptions(wrapper);
   const comboboxId = getComboboxId(wrapper);
@@ -365,9 +372,10 @@ const initializeCombobox = (wrapper, index) => {
   });
 };
 
+// Safe to call repeatedly; existing initialized wrappers are skipped.
 const initPelicanComboboxes = (root = document) => {
-  root.querySelectorAll(".pelican-combobox").forEach((wrapper, index) => {
-    initializeCombobox(wrapper, index);
+  root.querySelectorAll(".pelican-combobox").forEach((wrapper) => {
+    initializeCombobox(wrapper);
   });
 };
 
