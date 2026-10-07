@@ -5,7 +5,7 @@ import { initPelicanComboboxes } from "./components/combobox.js";
 
 window.bootstrap = bootstrap;
 
-// Automatically initializes Pelican comboboxes(autocomplete) when the DOM is fully loaded
+// Automatically initializes Pelican comboboxes (autocomplete) when the DOM is fully loaded
 const initializePelicanComponents = () => {
   initPelicanComboboxes();
 };
