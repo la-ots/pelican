@@ -108,9 +108,22 @@ const initializeCombobox = (wrapper, index) => {
   let active = -1;
   let isOpen = false;
   let hasAnnounced = false;
+  let statusUpdateTimeout = null;
+
+  const scheduleStatusUpdate = (message) => {
+    statusUpdateTimeout = setTimeout(() => {
+      status.textContent = message;
+      statusUpdateTimeout = null;
+    }, 30);
+  };
 
   // Announces available options and active selections to screen readers
   const updateStatus = () => {
+    if (statusUpdateTimeout !== null) {
+      clearTimeout(statusUpdateTimeout);
+      statusUpdateTimeout = null;
+    }
+
     const query = input.value.trim();
 
     if (!isOpen) {
@@ -121,23 +134,21 @@ const initializeCombobox = (wrapper, index) => {
 
     if (!filtered.length) {
       status.textContent = "";
-      setTimeout(() => {
-        status.textContent = query ? `No matches for ${query}.` : "No matches.";
-      }, 30);
+      scheduleStatusUpdate(query ? `No matches for ${query}.` : "No matches.");
       hasAnnounced = true;
       return;
     }
 
     if (active >= 0) {
       status.textContent = "";
-      setTimeout(() => {
-        status.textContent = `${filtered[active]}, ${active + 1} of ${filtered.length}`;
-      }, 30);
+      scheduleStatusUpdate(
+        `${filtered[active]}, ${active + 1} of ${filtered.length}`,
+      );
     } else if (!hasAnnounced) {
       status.textContent = "";
-      setTimeout(() => {
-        status.textContent = `${filtered.length} suggestion${filtered.length === 1 ? "" : "s"} available. Use up and down arrow keys to navigate.`;
-      }, 30);
+      scheduleStatusUpdate(
+        `${filtered.length} suggestion${filtered.length === 1 ? "" : "s"} available. Use up and down arrow keys to navigate.`,
+      );
 
       hasAnnounced = true;
     }
