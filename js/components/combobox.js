@@ -272,8 +272,8 @@ const initializeCombobox = (wrapper, index) => {
       listbox.appendChild(li);
     });
 
-    openList();
     setActive(active);
+    openList();
   };
 
   const filterOptions = (value) => {
