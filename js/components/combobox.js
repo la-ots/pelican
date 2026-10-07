@@ -1,6 +1,20 @@
 "use strict";
 
 const defaultOptions = [];
+let comboboxIdCounter = 0;
+
+const getComboboxId = (wrapper) => {
+  if (wrapper.id) {
+    return wrapper.id;
+  }
+
+  if (!wrapper.dataset.pelicanComboboxId) {
+    comboboxIdCounter += 1;
+    wrapper.dataset.pelicanComboboxId = `pelican-combobox-${comboboxIdCounter}`;
+  }
+
+  return wrapper.dataset.pelicanComboboxId;
+};
 
 // Gets custom options from the component or falls back to the default options of an empty array
 const parseOptions = (wrapper) => {
@@ -42,7 +56,7 @@ const initializeCombobox = (wrapper, index) => {
   }
 
   const options = parseOptions(wrapper);
-  const comboboxId = `pelican-combobox-${index + 1}`;
+  const comboboxId = getComboboxId(wrapper);
 
   if (!input.id) {
     input.id = `${comboboxId}-input`;
