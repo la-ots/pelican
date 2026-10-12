@@ -223,7 +223,7 @@ const initializeCombobox = (wrapper) => {
   };
 
   // Selects an option from the list and updates the input value
-  const selectOption = (indexToSelect) => {
+  const selectOption = (indexToSelect, { focusInput = false } = {}) => {
     if (indexToSelect < 0 || indexToSelect >= filtered.length) {
       return;
     }
@@ -233,6 +233,10 @@ const initializeCombobox = (wrapper) => {
     input.dispatchEvent(new Event("input", { bubbles: true }));
     isDispatchingSelectionInputEvent = false;
     closeList();
+
+    if (focusInput) {
+      input.focus();
+    }
   };
 
   const render = () => {
@@ -241,7 +245,9 @@ const initializeCombobox = (wrapper) => {
     // Displays a message when no matching options are available
     if (!filtered.length) {
       const li = document.createElement("li");
+      li.id = `${comboboxId}-option-empty`;
       li.className = "pelican-combobox__option pelican-combobox__option--empty";
+      // Keep listbox ownership valid by exposing the no-results row as an option.
       li.setAttribute("role", "option");
       li.setAttribute("aria-selected", "false");
       li.setAttribute("aria-disabled", "true");
@@ -277,9 +283,7 @@ const initializeCombobox = (wrapper) => {
 
       li.addEventListener("mousedown", (event) => event.preventDefault());
       li.addEventListener("click", () => {
-        input.value = item;
-        closeList();
-        input.focus();
+        selectOption(i, { focusInput: true });
       });
 
       listbox.appendChild(li);
@@ -362,9 +366,7 @@ const initializeCombobox = (wrapper) => {
         break;
 
       case "Tab":
-        if (isOpen && active >= 0 && filtered.length) {
-          selectOption(active);
-        } else {
+        if (isOpen) {
           closeList();
         }
         break;
