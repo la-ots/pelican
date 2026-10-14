@@ -457,7 +457,7 @@ function renderSearchPagination(
     perPage === "all" ? 1 : Math.ceil(totalResults / Number(perPage));
 
   const row = document.createElement("div");
-  row.className = "row justify-content-center align-items-md-end";
+  row.className = "row justify-content-center align-items-md-end pb-4";
 
   const selectCol = document.createElement("div");
   selectCol.className = "col-md-3";
@@ -493,14 +493,14 @@ function renderSearchPagination(
     window.location.href = buildSearchResultsUrl(query, 1, selectedPerPage);
   });
 
-  const applyButton = document.createElement("button");
-  applyButton.type = "submit";
-  applyButton.className = "btn btn-outline-ui mt-2";
-  applyButton.textContent = "Apply";
+  select.addEventListener("change", () => {
+    const selectedPerPage =
+      select.value === "all" ? "all" : Number.parseInt(select.value, 10);
+    window.location.href = buildSearchResultsUrl(query, 1, selectedPerPage);
+  });
 
   form.appendChild(label);
   form.appendChild(select);
-  form.appendChild(applyButton);
   selectCol.appendChild(form);
   row.appendChild(selectCol);
 
