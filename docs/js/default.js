@@ -197,3 +197,455 @@ var tooltipTriggerList = [].slice.call(
 tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl);
 });
+
+// Search functionality
+const searchableSections = [
+  { label: "Accessibility", prefix: "/accessibility/" },
+  { label: "Foundation", prefix: "/foundation/" },
+  { label: "Components", prefix: "/components/" },
+  { label: "Form Controls", prefix: "/form-controls/" },
+  { label: "Form Templates", prefix: "/form-templates/" },
+  { label: "Hero Blocks", prefix: "/hero-blocks/" },
+  { label: "Feature Blocks", prefix: "/feature-blocks/" },
+  { label: "Page Templates", prefix: "/page-templates/" },
+  { label: "Extras", prefix: "/extras/" },
+];
+
+const searchResultsPerPageDefault = 10;
+const searchResultsPerPageOptions = [10, 25, 50, "all"];
+
+function getSectionForPath(pathname) {
+  return searchableSections.find((section) => pathname.startsWith(section.prefix));
+}
+
+function normalizeSearchQuery(query) {
+  return (query || "").toLowerCase().trim().replace(/\s+/g, " ");
+}
+
+function getSearchTerms(query) {
+  return normalizeSearchQuery(query)
+    .split(" ")
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function getSearchQueryAndPage() {
+  const params = new URLSearchParams(window.location.search);
+  const pageFromUrl = Number.parseInt(params.get("page"), 10);
+  const perPageParam = (params.get("perPage") || "").toLowerCase();
+  const perPageFromUrl = Number.parseInt(perPageParam, 10);
+
+  const perPage = perPageParam === "all"
+    ? "all"
+    : searchResultsPerPageOptions.includes(perPageFromUrl)
+      ? perPageFromUrl
+      : searchResultsPerPageDefault;
+
+  return {
+    query: (params.get("q") || "").trim(),
+    page: Number.isNaN(pageFromUrl) || pageFromUrl < 1 ? 1 : pageFromUrl,
+    perPage,
+  };
+}
+
+function buildSearchIndex() {
+  const links = document.querySelectorAll(".sidebar-menu .sidebar-nav-item");
+  const uniqueByPath = new Map();
+
+  links.forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href) {
+      return;
+    }
+
+    const pathname = new URL(href, window.location.origin).pathname;
+    const section = getSectionForPath(pathname);
+    if (!section) {
+      return;
+    }
+
+    const title = (link.textContent || "").trim().replace(/\s+/g, " ");
+    if (!title || uniqueByPath.has(pathname)) {
+      return;
+    }
+
+    uniqueByPath.set(pathname, {
+      title,
+      url: pathname,
+      category: section.label,
+      normalizedTitle: title.toLowerCase(),
+      searchText: `${title} ${section.label}`.toLowerCase(),
+    });
+  });
+
+  return Array.from(uniqueByPath.values());
+}
+
+function rankResult(item, normalizedQuery, terms) {
+  let score = 0;
+  if (item.normalizedTitle === normalizedQuery) {
+    score += 10;
+  }
+  if (item.normalizedTitle.startsWith(normalizedQuery)) {
+    score += 6;
+  }
+  if (item.normalizedTitle.includes(normalizedQuery)) {
+    score += 3;
+  }
+  terms.forEach((term) => {
+    if (item.normalizedTitle.includes(term)) {
+      score += 2;
+    } else if (item.searchText.includes(term)) {
+      score += 1;
+    }
+  });
+  return score;
+}
+
+function searchIndex(index, query) {
+  const normalizedQuery = normalizeSearchQuery(query);
+  const terms = getSearchTerms(query);
+
+  if (!normalizedQuery || terms.length === 0) {
+    return [];
+  }
+
+  return index
+    .filter((item) => terms.every((term) => item.searchText.includes(term)))
+    .map((item) => ({ ...item, score: rankResult(item, normalizedQuery, terms) }))
+    .sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+      return a.title.localeCompare(b.title);
+    });
+}
+
+function buildSearchResultsUrl(query, page, perPage) {
+  const params = new URLSearchParams();
+  params.set("q", query);
+  if (page > 1) {
+    params.set("page", String(page));
+  }
+  if (perPage !== searchResultsPerPageDefault) {
+    params.set("perPage", String(perPage));
+  }
+
+  return `/search/?${params.toString()}`;
+}
+
+function getPaginationItems(totalPages, currentPage) {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, index) => index + 1);
+  }
+
+  if (currentPage <= 4) {
+    return [1, 2, 3, 4, 5, "ellipsis", totalPages];
+  }
+
+  if (currentPage >= totalPages - 3) {
+    return [
+      1,
+      "ellipsis",
+      totalPages - 4,
+      totalPages - 3,
+      totalPages - 2,
+      totalPages - 1,
+      totalPages,
+    ];
+  }
+
+  return [
+    1,
+    "ellipsis",
+    currentPage - 1,
+    currentPage,
+    currentPage + 1,
+    "ellipsis",
+    totalPages,
+  ];
+}
+
+function createPaginationLinkListItem({
+  page,
+  currentPage,
+  query,
+  perPage,
+  labelPrefix = "page",
+}) {
+  const item = document.createElement("li");
+  item.className = `page-item${page === currentPage ? " active" : ""}`;
+
+  const link = document.createElement("a");
+  link.className = "page-link";
+  link.href = buildSearchResultsUrl(query, page, perPage);
+
+  const hiddenText = document.createElement("span");
+  hiddenText.className = "visually-hidden";
+  hiddenText.textContent = `${labelPrefix} `;
+
+  link.appendChild(hiddenText);
+  link.appendChild(document.createTextNode(String(page)));
+
+  if (page === currentPage) {
+    link.setAttribute("aria-current", "page");
+  }
+
+  item.appendChild(link);
+  return item;
+}
+
+function createPaginationArrowListItem({
+  direction,
+  disabled,
+  targetPage,
+  query,
+  perPage,
+}) {
+  const item = document.createElement("li");
+  item.className = `page-item${disabled ? " disabled" : ""}`;
+
+  const iconClass =
+    direction === "previous" ? "fas fa-angle-left" : "fas fa-angle-right";
+  const hiddenLabel = direction === "previous" ? "Previous page" : "Next page";
+
+  if (disabled) {
+    const span = document.createElement("span");
+    span.className = "page-link";
+    span.innerHTML = `
+      <span class="icon ${iconClass}" aria-hidden="true"></span>
+      <span class="visually-hidden">${hiddenLabel}</span>
+    `;
+    item.appendChild(span);
+    return item;
+  }
+
+  const link = document.createElement("a");
+  link.className = "page-link";
+  link.href = buildSearchResultsUrl(query, targetPage, perPage);
+  link.innerHTML = `
+    <span class="icon ${iconClass}" aria-hidden="true"></span>
+    <span class="visually-hidden">${hiddenLabel}</span>
+  `;
+  item.appendChild(link);
+  return item;
+}
+
+function createPaginationEllipsisListItem(positionLabel) {
+  const item = document.createElement("li");
+  item.className = "page-item disabled";
+  item.innerHTML = `
+    <span class="page-link">
+      <span class="visually-hidden">pages between ${positionLabel} and current</span>
+      <span aria-hidden="true"> &hellip; </span>
+    </span>
+  `;
+  return item;
+}
+
+function renderSearchPagination(
+  container,
+  totalResults,
+  currentPage,
+  query,
+  perPage,
+  startIndex,
+  endIndex,
+) {
+  container.innerHTML = "";
+  const totalPages =
+    perPage === "all" ? 1 : Math.ceil(totalResults / Number(perPage));
+
+  const row = document.createElement("div");
+  row.className = "row justify-content-center align-items-md-end";
+
+  const selectCol = document.createElement("div");
+  selectCol.className = "col-md-3";
+
+  const form = document.createElement("form");
+  form.setAttribute("action", "/search/");
+  form.addEventListener("submit", (event) => event.preventDefault());
+
+  const label = document.createElement("label");
+  label.className = "visually-hidden";
+  label.setAttribute("for", "pelicanSearchItemsPerPage");
+  label.textContent = "Show how many?";
+
+  const select = document.createElement("select");
+  select.className = "custom-select form-select mb-4 mb-lg-0";
+  select.id = "pelicanSearchItemsPerPage";
+
+  searchResultsPerPageOptions.forEach((optionValue) => {
+    const option = document.createElement("option");
+    option.value = String(optionValue);
+    option.textContent =
+      optionValue === "all"
+        ? "Show all"
+        : `Show ${optionValue} per page`;
+    option.selected = optionValue === perPage;
+    select.appendChild(option);
+  });
+
+  select.addEventListener("change", () => {
+    const selectedPerPage =
+      select.value === "all" ? "all" : Number.parseInt(select.value, 10);
+    window.location.href = buildSearchResultsUrl(query, 1, selectedPerPage);
+  });
+
+  form.appendChild(label);
+  form.appendChild(select);
+  selectCol.appendChild(form);
+  row.appendChild(selectCol);
+
+  const paginationCol = document.createElement("div");
+  paginationCol.className = "col-md-6";
+
+  if (totalPages > 1) {
+    const nav = document.createElement("nav");
+    nav.setAttribute("aria-label", "Results navigation");
+    const pagination = document.createElement("ul");
+    pagination.className = "pagination justify-content-center mb-lg-0";
+
+    pagination.appendChild(
+      createPaginationArrowListItem({
+        direction: "previous",
+        disabled: currentPage === 1,
+        targetPage: currentPage - 1,
+        query,
+        perPage,
+      }),
+    );
+
+    getPaginationItems(totalPages, currentPage).forEach((pageItem, index, items) => {
+      if (pageItem === "ellipsis") {
+        const previousPageNumber = items[index - 1];
+        const nextPageNumber = items[index + 1];
+        const positionLabel =
+          previousPageNumber === 1 || nextPageNumber === totalPages
+            ? previousPageNumber === 1
+              ? "first"
+              : "last"
+            : "current";
+        pagination.appendChild(createPaginationEllipsisListItem(positionLabel));
+        return;
+      }
+
+      pagination.appendChild(
+        createPaginationLinkListItem({
+          page: pageItem,
+          currentPage,
+          query,
+          perPage,
+        }),
+      );
+    });
+
+    pagination.appendChild(
+      createPaginationArrowListItem({
+        direction: "next",
+        disabled: currentPage === totalPages,
+        targetPage: currentPage + 1,
+        query,
+        perPage,
+      }),
+    );
+
+    nav.appendChild(pagination);
+    paginationCol.appendChild(nav);
+  }
+  row.appendChild(paginationCol);
+
+  const totalsCol = document.createElement("div");
+  totalsCol.className = "col-md-3 text-center text-lg-right text-lg-end";
+  totalsCol.innerHTML = `<p class="mb-2">Showing<br class="d-none d-md-block d-lg-none" aria-live="polite"> <strong>${startIndex + 1}</strong> to <strong>${endIndex}</strong> of <strong>${totalResults}</strong> items.</p>`;
+  row.appendChild(totalsCol);
+
+  container.appendChild(row);
+}
+
+function renderSearchResults(results, query, page, perPage) {
+  const summary = document.getElementById("pelicanSearchSummary");
+  const resultsList = document.getElementById("pelicanSearchResultsList");
+  const pagination = document.getElementById("pelicanSearchPagination");
+  const wrapper = document.getElementById("pelicanSearchWrapper");
+
+  if (!summary || !resultsList || !pagination || !wrapper) {
+    return;
+  }
+
+  wrapper.setAttribute("aria-busy", "true");
+  resultsList.innerHTML = "";
+
+  if (!query) {
+    summary.innerHTML = '<p>Enter a search term to find guidance and patterns.</p>';
+    pagination.innerHTML = "";
+    wrapper.setAttribute("aria-busy", "false");
+    return;
+  }
+
+  if (results.length === 0) {
+    summary.textContent = `No results found for "${query}".`;
+    pagination.innerHTML = "";
+    wrapper.setAttribute("aria-busy", "false");
+    return;
+  }
+
+  const totalResults = results.length;
+  const totalPages =
+    perPage === "all" ? 1 : Math.ceil(totalResults / Number(perPage));
+  const currentPage = Math.min(page, totalPages);
+  const startIndex =
+    perPage === "all" ? 0 : (currentPage - 1) * Number(perPage);
+  const endIndex =
+    perPage === "all"
+      ? totalResults
+      : Math.min(startIndex + Number(perPage), totalResults);
+  const pageResults = results.slice(startIndex, endIndex);
+
+  summary.textContent = `Showing ${startIndex + 1}-${endIndex} of ${totalResults} result${totalResults === 1 ? "" : "s"} for "${query}".`;
+
+  pageResults.forEach((result) => {
+    const article = document.createElement("article");
+    article.className = "mb-4 pb-4 border-bottom";
+    article.innerHTML = `
+      <h2 class="h4 mb-1">
+        <a href="${result.url}">${result.title}</a>
+      </h2>
+      <p class="mb-0 text-muted">${result.category}</p>
+    `;
+    resultsList.appendChild(article);
+  });
+
+  renderSearchPagination(
+    pagination,
+    totalResults,
+    currentPage,
+    query,
+    perPage,
+    startIndex,
+    endIndex,
+  );
+  wrapper.setAttribute("aria-busy", "false");
+}
+
+function syncSearchInputsWithQuery(query) {
+  const inputs = document.querySelectorAll('form[data-site-search] input[name="q"]');
+  inputs.forEach((input) => {
+    input.value = query;
+  });
+}
+
+function initializeSearchPage() {
+  if (!document.getElementById("pelicanSearchWrapper")) {
+    return;
+  }
+
+  const { query, page, perPage } = getSearchQueryAndPage();
+  syncSearchInputsWithQuery(query);
+
+  const index = buildSearchIndex();
+  const results = searchIndex(index, query);
+  renderSearchResults(results, query, page, perPage);
+}
+
+initializeSearchPage();

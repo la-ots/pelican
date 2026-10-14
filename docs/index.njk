@@ -79,13 +79,13 @@ title: Home
 
 <section class="py-3" style="background-color: var(--theme-navbar-bg-color);">
   <div class="container">
-    <form role="search" aria-label="Site search">
+    <form action="/search/" method="GET" role="search" aria-label="Site search" data-site-search>
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6">
           <label for="site-search" class="visually-hidden">Search Pelican</label>
           <div class="input-group input-group-lg">
-            <input id="site-search" type="search" class="form-control rounded-start border border-dark border-end-0 bg-white" placeholder="Search Pelican">
-            <button class="btn btn-light rounded-end border border-dark px-3 d-inline-flex align-items-center gap-2" type="button">
+            <input id="site-search" name="q" type="search" class="form-control rounded-start border border-dark border-end-0 bg-white" placeholder="Search Pelican">
+            <button class="btn btn-light rounded-end border border-dark px-3 d-inline-flex align-items-center gap-2" type="submit">
               <span class="icon fas fa-search" aria-hidden="true"></span>
               <span>Search</span>
             </button>

@@ -9,11 +9,11 @@
       </div>
       <div class="sidebar-search">
         <div>
-          <form role="search" aria-label="Site search">
+          <form action="/search/" method="GET" role="search" aria-label="Site search" data-site-search>
             <div class="form-group mb-0 position-relative">
               <label for="sidebar-site-search" class="visually-hidden">Site search</label>
-              <input type="text" class="form-control pe-5" id="sidebar-site-search" placeholder="Search Pelican">
-              <button type="button" class="btn shadow-none btn-sm position-absolute top-50 end-0 translate-middle-y" aria-label="Search">
+              <input type="search" name="q" class="form-control pe-5" id="sidebar-site-search" placeholder="Search Pelican">
+              <button type="submit" class="btn shadow-none btn-sm position-absolute top-50 end-0 translate-middle-y" aria-label="Search">
                 <span class="visually-hidden">Search</span>
                 <span class="icon fas fa-search" aria-hidden="true"></span>
               </button>
