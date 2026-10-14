@@ -125,7 +125,7 @@ sidebarDropdownLink.forEach((dropdownItem) => {
 });
 
 function menuA11Y() {
-  //insert menu hidding behavior
+  //insert menu hiding behavior
   if (sidebar.offsetLeft == 0) {
     sidebar.setAttribute("aria-hidden", "false");
     sidebar.removeAttribute("inert");

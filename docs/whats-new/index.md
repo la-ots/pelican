@@ -16,6 +16,10 @@ You can help improve Pelican. Visit the [Feedback Page](/feedback) to learn how 
 
 We’re continually improving Pelican. The following changes are listed by the date we completed each change.
 
+## 2.4.0: September 28, 2026
+
+- Adds an [Autocomplete input example](/form-controls/autocomplete/) with namespaced default JS/CSS support and updated option styling
+
 ## 2.3.5: December 5, 2025
 
 - Improves documentation for the [Pagination](/components/pagination/) component
