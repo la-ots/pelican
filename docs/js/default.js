@@ -486,14 +486,21 @@ function renderSearchPagination(
     select.appendChild(option);
   });
 
-  select.addEventListener("change", () => {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
     const selectedPerPage =
       select.value === "all" ? "all" : Number.parseInt(select.value, 10);
     window.location.href = buildSearchResultsUrl(query, 1, selectedPerPage);
   });
 
+  const applyButton = document.createElement("button");
+  applyButton.type = "submit";
+  applyButton.className = "btn btn-outline-ui mt-2";
+  applyButton.textContent = "Apply";
+
   form.appendChild(label);
   form.appendChild(select);
+  form.appendChild(applyButton);
   selectCol.appendChild(form);
   row.appendChild(selectCol);
 
