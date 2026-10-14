@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
     {% if description %}
     <p>{{ description }}</p>
     {% endif %}
-    <form action="/search/" role="search" method="GET" data-site-search>
+    <form action="/search/" role="search" method="GET" aria-label="Site search" data-site-search>
       <div class="form-group mb-4">
         <label for="pelicanSearchTerms" class="form-label">
           Search this site
