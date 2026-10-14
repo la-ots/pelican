@@ -25,9 +25,10 @@
         {% set navPages = collections.all | eleventyNavigation %}
         <ul>
         {%- for entry in navPages %}
+          {% set isEntryCurrent = entry.url == page.url %}
           <li class="sidebar-item">
             <div class="sidebar-dropdown-header">
-              <a class="sidebar-nav-item" href="{{ entry.url | url }}">
+              <a class="sidebar-nav-item{% if isEntryCurrent %} active{% endif %}" href="{{ entry.url | url }}"{% if isEntryCurrent %} aria-current="page"{% endif %}>
                 <span>{{ entry.title }}</span>
               </a>              
               {% if entry.children.length > 0 %}
@@ -43,9 +44,10 @@
             <div class="sidebar-submenu" {% if entry.url in page.url %} style="display:block" {% endif %} id="{{ entry.title | lower | replace(" ", "-") | replace(",", "") | replace(".", "") }}">
               <ul>
                 {% for child in entry.children %}
-                  <li {% if child.url == page.url %} class="sidebar-item active" {% else %} class="sidebar-item" {% endif %}>
-                    <a {% if child.url == page.url %} class="sidebar-nav-item active" {% else %} class="sidebar-nav-item" {% endif %} href="{{ child.url | url }}">
-                      <span {% if child.url == page.url %} class="icon fas fa-fw fa-eye me-1" {% else %} class="icon fas fa-fw fa-eye invisible me-1" {% endif %} aria-hidden="true"></span><span>{{ child.title }}</span>
+                  {% set isChildCurrent = child.url == page.url %}
+                  <li {% if isChildCurrent %} class="sidebar-item active" {% else %} class="sidebar-item" {% endif %}>
+                    <a {% if isChildCurrent %} class="sidebar-nav-item active" {% else %} class="sidebar-nav-item" {% endif %} href="{{ child.url | url }}"{% if isChildCurrent %} aria-current="page"{% endif %}>
+                      <span {% if isChildCurrent %} class="icon fas fa-fw fa-eye me-1" {% else %} class="icon fas fa-fw fa-eye invisible me-1" {% endif %} aria-hidden="true"></span><span>{{ child.title }}</span>
                     </a>
                   </li>
                 {% endfor %}                
