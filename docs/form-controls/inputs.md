@@ -92,6 +92,10 @@ We currently show 8 of the [22 types of inputs](https://www.w3schools.com/html/h
 {% include 'markup/input-search.njk' %}
 ```
 
+**Autocomplete**
+
+- Use [Autocomplete](/form-controls/autocomplete/) when users should type to filter from a known list of options.
+
 **Input Type: URL**
 
 - Accepts web addresses

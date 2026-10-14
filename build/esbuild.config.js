@@ -15,7 +15,8 @@ const options = {
   entryPoints: [path.resolve(__dirname, "../js/pelican.js")],
   format: ESM ? "esm" : "iife",
   minify: false,
-  bundle: BUNDLE,
+  bundle: true,
+  external: BUNDLE ? [] : ["bootstrap"],
   sourcemap: true,
   outfile: path.resolve(__dirname, `../dist/js/${fileDest}.js`),
 };

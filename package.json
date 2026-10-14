@@ -1,6 +1,6 @@
 {
   "name": "@la-ots/pelican",
-  "version": "2.3.5",
+  "version": "2.4.0",
   "description": "Pelican Design System for Louisiana OTS",
   "repository": "git://github.com/la-ots/pelican.git",
   "license": "CC0-1.0",
@@ -65,13 +65,13 @@
     "js:minify:standalone": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/pelican.js.map,includeSources,url=pelican.min.js.map\" --output dist/js/pelican.min.js dist/js/pelican.js",
     "js:minify:standalone-esm": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/pelican.esm.js.map,includeSources,url=pelican.esm.min.js.map\" --output dist/js/pelican.esm.min.js dist/js/pelican.esm.js",
     "js:minify:bundle": "terser --compress passes=2 --mangle --comments \"/^!/\" --source-map \"content=dist/js/pelican.bundle.js.map,includeSources,url=pelican.bundle.min.js.map\" --output dist/js/pelican.bundle.min.js dist/js/pelican.bundle.js",
-    "js:lint": "eslint js/pelican.js docs/js/*.js || exit 0",
-    "js:lint:fix": "eslint js/pelican.js docs/js/*.js --fix",
+    "js:lint": "eslint \"js/**/*.js\" docs/js/*.js || exit 0",
+    "js:lint:fix": "eslint \"js/**/*.js\" docs/js/*.js --fix",
     "docs:serve": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --config=build/.eleventy.js --serve",
     "docs:build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --config=build/.eleventy.js",
     "watch": "npm-run-all css-dev js-dev --parallel --continue-on-error watch:css watch:js",
     "watch:css": "chokidar \"scss/*.scss\" -c \"npm run css-dev\"",
-    "watch:js": "chokidar \"js/*js\" -c \"npm run js-dev\"",
+    "watch:js": "chokidar \"js/**/*.js\" -c \"npm run js-dev\"",
     "watch:docs": "npm-run-all css-dev js-dev --parallel --continue-on-error watch:css watch:js docs:serve"
   }
 }
