@@ -371,7 +371,6 @@ function createPaginationLinkListItem({
   currentPage,
   query,
   perPage,
-  labelPrefix = "page",
 }) {
   const item = document.createElement("li");
   item.className = `page-item${page === currentPage ? " active" : ""}`;
@@ -380,12 +379,7 @@ function createPaginationLinkListItem({
   link.className = "page-link";
   link.href = buildSearchResultsUrl(query, page, perPage);
 
-  const hiddenText = document.createElement("span");
-  hiddenText.className = "visually-hidden";
-  hiddenText.textContent = `${labelPrefix} `;
-
-  link.appendChild(hiddenText);
-  link.appendChild(document.createTextNode(String(page)));
+  link.textContent = String(page);
 
   if (page === currentPage) {
     link.setAttribute("aria-current", "page");
@@ -406,7 +400,7 @@ function createPaginationArrowListItem({
   item.className = `page-item${disabled ? " disabled" : ""}`;
 
   const iconClass =
-    direction === "previous" ? "fas fa-angle-left" : "fas fa-angle-right";
+    direction === "previous" ? "fas fa-chevron-left" : "fas fa-chevron-right";
   const hiddenLabel = direction === "previous" ? "Previous page" : "Next page";
 
   if (disabled) {
@@ -457,10 +451,9 @@ function renderSearchPagination(
     perPage === "all" ? 1 : Math.ceil(totalResults / Number(perPage));
 
   const row = document.createElement("div");
-  row.className = "row justify-content-center align-items-md-end pb-4";
+  row.className = "search-results-pagination-layout";
 
   const selectCol = document.createElement("div");
-  selectCol.className = "col-md-3";
 
   const form = document.createElement("form");
   form.setAttribute("action", "/search/");
@@ -472,7 +465,7 @@ function renderSearchPagination(
   label.textContent = "Show how many?";
 
   const select = document.createElement("select");
-  select.className = "custom-select form-select mb-4 mb-lg-0";
+  select.className = "form-select search-results-per-page";
   select.id = "pelicanSearchItemsPerPage";
 
   searchResultsPerPageOptions.forEach((optionValue) => {
@@ -505,13 +498,13 @@ function renderSearchPagination(
   row.appendChild(selectCol);
 
   const paginationCol = document.createElement("div");
-  paginationCol.className = "col-md-6";
+  paginationCol.className = "d-flex justify-content-center";
 
   if (totalPages > 1) {
     const nav = document.createElement("nav");
     nav.setAttribute("aria-label", "Results navigation");
     const pagination = document.createElement("ul");
-    pagination.className = "pagination justify-content-center mb-lg-0";
+    pagination.className = "pagination justify-content-center";
 
     pagination.appendChild(
       createPaginationArrowListItem({
@@ -563,8 +556,11 @@ function renderSearchPagination(
   row.appendChild(paginationCol);
 
   const totalsCol = document.createElement("div");
-  totalsCol.className = "col-md-3 text-center text-lg-right text-lg-end";
-  totalsCol.innerHTML = `<p class="mb-2">Showing<br class="d-none d-md-block d-lg-none" aria-live="polite"> <strong>${startIndex + 1}</strong> to <strong>${endIndex}</strong> of <strong>${totalResults}</strong> items.</p>`;
+  const totals = document.createElement("p");
+  totals.className = "search-results-totals";
+  totals.setAttribute("aria-live", "polite");
+  totals.textContent = `Showing ${startIndex + 1} to ${endIndex} of ${totalResults} items.`;
+  totalsCol.appendChild(totals);
   row.appendChild(totalsCol);
 
   container.appendChild(row);
@@ -585,6 +581,7 @@ function renderSearchResults(results, query, page, perPage) {
 
   if (!query) {
     summary.innerHTML = '<p>Enter a search term to find guidance and patterns.</p>';
+    resultsList.innerHTML = "";
     pagination.innerHTML = "";
     wrapper.setAttribute("aria-busy", "false");
     return;
@@ -592,6 +589,7 @@ function renderSearchResults(results, query, page, perPage) {
 
   if (results.length === 0) {
     summary.textContent = `No results found for "${query}".`;
+    resultsList.innerHTML = "";
     pagination.innerHTML = "";
     wrapper.setAttribute("aria-busy", "false");
     return;
@@ -609,17 +607,43 @@ function renderSearchResults(results, query, page, perPage) {
       : Math.min(startIndex + Number(perPage), totalResults);
   const pageResults = results.slice(startIndex, endIndex);
 
-  summary.textContent = `Showing ${startIndex + 1}-${endIndex} of ${totalResults} result${totalResults === 1 ? "" : "s"} for "${query}".`;
+  summary.textContent = "";
+  const summaryText = document.createTextNode(
+    `Showing ${startIndex + 1}-${endIndex} of ${totalResults} result${totalResults === 1 ? "" : "s"} for "`,
+  );
+  const summaryQuery = document.createElement("strong");
+  summaryQuery.textContent = query;
+  const summarySuffix = document.createTextNode('".');
+  summary.appendChild(summaryText);
+  summary.appendChild(summaryQuery);
+  summary.appendChild(summarySuffix);
 
   pageResults.forEach((result) => {
     const article = document.createElement("article");
-    article.className = "mb-4 pb-4 border-bottom";
-    article.innerHTML = `
-      <h2 class="h4 mb-1">
-        <a href="${result.url}">${result.title}</a>
-      </h2>
-      <p class="mb-0 text-muted">${result.category}</p>
-    `;
+    article.className = "search-result-item";
+    const heading = document.createElement("h3");
+    heading.className = "search-result-title";
+
+    const titleLink = document.createElement("a");
+    titleLink.href = result.url;
+    titleLink.textContent = result.title;
+    heading.appendChild(titleLink);
+
+    const meta = document.createElement("p");
+    meta.className = "search-result-meta";
+
+    const category = document.createElement("span");
+    category.className = "search-result-badge";
+    category.textContent = result.category;
+
+    const excerpt = document.createElement("span");
+    excerpt.className = "search-result-excerpt";
+    excerpt.textContent = "Page excerpt goes here.";
+
+    meta.appendChild(category);
+    meta.appendChild(excerpt);
+    article.appendChild(heading);
+    article.appendChild(meta);
     resultsList.appendChild(article);
   });
 

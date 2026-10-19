@@ -42,18 +42,32 @@ title: Home
   </div>
 </section>
 
-<nav class="navbar navbar-basic" aria-label="Site Links">
+<nav class="navbar navbar-search" aria-label="Site Links">
   <div class="container">
     <h1 class="mb-0">
       <img class="img-fluid" alt="" src="/img/Pelican-Design-System-Logo.svg">
       <span class="visually-hidden">Pelican Design System</span>
     </h1>
+    <div class="search-form search-form-nav">
+      <form action="/search/" method="GET" role="search" aria-label="Site search" data-site-search>
+        <div class="input-group">
+          <label for="site-search" class="visually-hidden">Search Pelican</label>
+          <input id="site-search" name="q" type="search" class="form-control bg-white text-dark border border-dark">
+          <button class="btn btn-light border border-dark px-3 d-inline-flex align-items-center gap-2" type="submit">
+            <span class="icon fas fa-search" aria-hidden="true"></span>
+            <span>Search</span>
+          </button>
+        </div>
+      </form>
+    </div>
     <button class="navbar-toggler"
-      type="button" data-toggle="collapse" data-target="#navigationItems" data-bs-toggle="collapse" data-bs-target="#navigationItems" aria-controls="navigationItems" aria-expanded="false" aria-label="Toggle navigation">
+      type="button" data-toggle="collapse" data-target="#navigationItemsList" data-bs-toggle="collapse" data-bs-target="#navigationItemsList" aria-controls="navigationItemsList" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon fas fa-bars me-1" aria-hidden="true"></span>Menu
     </button>
-    <div class="collapse navbar-collapse" id="navigationItems">
-      <ul class="navbar-nav">
+  </div>
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navigationItemsList">
+      <ul class="navbar-nav" style="border-top: 0;">
         <li class="nav-item">
           <a class="nav-link" href="/whats-new/">What’s New</a>
         </li>
@@ -61,13 +75,22 @@ title: Home
           <a class="nav-link" href="/get-started/">Get Started</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/feedback/">Feedback</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/accessibility/accessibility-statement/">Accessibility</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/v1">Pelican 1</a>
+          <a class="nav-link" href="/foundation/">Foundation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/components/">Components</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/form-controls/">Forms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/resources/">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/feedback/">Feedback</a>
         </li>
         <li class="nav-item">
           <a class="btn btn-white" href="https://www.figma.com/community/file/1295790757134814477/pelican-2">Figma Library</a>
@@ -77,22 +100,12 @@ title: Home
   </div>
 </nav>
 
-<section class="py-3" style="background-color: var(--theme-navbar-bg-color);">
+<section class="py-3 bg-accent text-center" style="color: #000000;">
   <div class="container">
-    <form action="/search/" method="GET" role="search" aria-label="Site search" data-site-search>
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-6">
-          <label for="site-search" class="visually-hidden">Search Pelican</label>
-          <div class="input-group input-group-lg">
-            <input id="site-search" name="q" type="search" class="form-control rounded-start border border-dark border-end-0 bg-white" placeholder="Search Pelican">
-            <button class="btn btn-light rounded-end border border-dark px-3 d-inline-flex align-items-center gap-2" type="submit">
-              <span class="icon fas fa-search" aria-hidden="true"></span>
-              <span>Search</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </form>
+    <p class="mb-0">
+      <strong>Introducing Pelican 2!</strong>
+      You can still get <a class="fw-bold" href="/v1" style="color: #000000;">Pelican 1</a> if you need it.
+    </p>
   </div>
 </section>
 

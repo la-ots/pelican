@@ -6,34 +6,39 @@ eleventyExcludeFromCollections: true
 ---
 
 <section class="section" data-pagefind-body>
-  <div class="container">
-    <h1 class="mt-6 mt-lg-0">{{ title }}</h1>
-    {% if description %}
-    <p>{{ description }}</p>
-    {% endif %}
-    <form action="/search/" role="search" method="GET" aria-label="Site search" data-site-search>
-      <div class="form-group mb-4">
-        <label for="pelicanSearchTerms" class="form-label">
-          Search this site
-        </label>
-        <div class="input-group">
-          <input type="search"
-            class="form-control"
-            id="pelicanSearchTerms"
-            name="q">
-          <button class="btn btn-outline-ui"
-            type="submit"
-            id="pelicanSearchButton">
-            <span class="icon fas fa-search" aria-hidden="true"></span>
-            Search
-          </button>
+  <div class="search-results-page">
+    <h1 class="search-results-title mt-6 mt-lg-0">
+      <span class="icon fas fa-search me-1" aria-hidden="true"></span>{{ title }}
+    </h1>
+    <div id="pelicanSearchWrapper" class="search-results-wrapper" aria-live="polite" aria-busy="false">
+      <h2 class="search-results-heading">Results</h2>
+      <form action="/search/" role="search" method="GET" aria-label="Site search" data-site-search>
+        <div class="form-group mb-3">
+          <label for="pelicanSearchTerms" class="visually-hidden">
+            Search this site
+          </label>
+          <div class="input-group search-results-search">
+            <input
+              type="search"
+              class="form-control"
+              id="pelicanSearchTerms"
+              name="q"
+            >
+            <button
+              class="btn btn-outline-ui"
+              type="submit"
+              id="pelicanSearchButton"
+            >
+              <span class="icon fas fa-search" aria-hidden="true"></span>
+              Search
+            </button>
+          </div>
         </div>
-      </div>
-    </form>
-    <div id="pelicanSearchWrapper" aria-live="polite" aria-busy="false">
-      <div id="pelicanSearchSummary"></div>
-      <div id="pelicanSearchResultsList"></div>
-      <div id="pelicanSearchPagination"></div>
+      </form>
+      <div id="pelicanSearchSummary" class="search-results-summary"></div>
+      <hr class="search-results-divider">
+      <div id="pelicanSearchResultsList" class="search-results-list"></div>
+      <div id="pelicanSearchPagination" class="search-results-pagination"></div>
     </div>
   </div>
 </section>
