@@ -29,6 +29,9 @@
           <li class="sidebar-item">
             <div class="sidebar-dropdown-header">
               <a class="sidebar-nav-item{% if isEntryCurrent %} active{% endif %}" href="{{ entry.url | url }}" data-search-excerpt="{{ (entry.excerpt or '') | escape }}"{% if isEntryCurrent %} aria-current="page"{% endif %}>
+                {% if isEntryCurrent %}
+                  <span class="icon fas fa-fw fa-eye me-1" aria-hidden="true"></span>
+                {% endif %}
                 <span>{{ entry.title }}</span>
               </a>              
               {% if entry.children.length > 0 %}
