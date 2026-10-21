@@ -265,16 +265,20 @@ function buildSearchIndex() {
     }
 
     const title = (link.textContent || "").trim().replace(/\s+/g, " ");
+    const excerpt = (link.dataset.searchExcerpt || "")
+      .trim()
+      .replace(/\s+/g, " ");
     if (!title || uniqueByPath.has(pathname)) {
       return;
     }
 
     uniqueByPath.set(pathname, {
       title,
+      excerpt,
       url: pathname,
       category: section.label,
       normalizedTitle: title.toLowerCase(),
-      searchText: `${title} ${section.label}`.toLowerCase(),
+      searchText: `${title} ${section.label} ${excerpt}`.toLowerCase(),
     });
   });
 
@@ -638,7 +642,7 @@ function renderSearchResults(results, query, page, perPage) {
 
     const excerpt = document.createElement("span");
     excerpt.className = "search-result-excerpt";
-    excerpt.textContent = "Page excerpt goes here.";
+    excerpt.textContent = result.excerpt;
 
     meta.appendChild(category);
     meta.appendChild(excerpt);
