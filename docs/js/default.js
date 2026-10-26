@@ -592,7 +592,14 @@ function renderSearchResults(results, query, page, perPage) {
   }
 
   if (results.length === 0) {
-    summary.textContent = `No results found for "${query}".`;
+    summary.textContent = "";
+    const noResultsText = document.createTextNode('No results found for "');
+    const noResultsQuery = document.createElement("strong");
+    noResultsQuery.textContent = query;
+    const noResultsSuffix = document.createTextNode('".');
+    summary.appendChild(noResultsText);
+    summary.appendChild(noResultsQuery);
+    summary.appendChild(noResultsSuffix);
     resultsList.innerHTML = "";
     pagination.innerHTML = "";
     wrapper.setAttribute("aria-busy", "false");
