@@ -1,7 +1,7 @@
 ﻿---
 title: Footer
 summary: Footers contain links and other useful information at the bottom of a page.
-tags: components, footers
+tags: [components, footers]
 layout: guide
 eleventyNavigation:
   key: Footer
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 170
   excerpt: Footers contain links and other useful information at the bottom of a page.
   img: /img/illustrations/illus-footers.svg
+pelican: true
 ---
 
 ## Best Practices

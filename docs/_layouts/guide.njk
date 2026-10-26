@@ -12,6 +12,9 @@ layout: default.njk
 </div>
 <section class="content-container content-area" aria-label="Page Content">
   <div class="container-fluid">
+    {% if "components" in tags %}
+    {% include "component-origin-statement.njk" %}
+    {% endif %}
     <div class="row">
       <div class="col-12">
         {{ content | safe }}

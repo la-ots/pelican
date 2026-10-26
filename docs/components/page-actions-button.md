@@ -1,7 +1,7 @@
 ﻿---
 title: Page Actions Button
 summary: Page Actions allow users perform various actions.
-tags: components, buttons
+tags: [components, buttons]
 layout: guide
 eleventyNavigation:
   key: Page Actions Button
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 120
   excerpt: Page Actions allow users perform various actions.
   img: /img/illustrations/illus-button-page-actions.svg
+pelican: true
 ---
 
 ## Usage

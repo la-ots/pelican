@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Typography
   parent: Foundation
-  order: 8
+  order: 9
   excerpt: Guidelines for presenting textual information.
   img: /img/illustrations/illus-typography.svg
 ---

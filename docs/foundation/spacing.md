@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Spacing
   parent: Foundation
-  order: 6
+  order: 7
   excerpt: Spacing is the paddings and margins in Pelican.
   img: /img/illustrations/illus-spacing.svg
 ---

@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 230
   excerpt: The Page Title block explains the purpose of a page.
   img: /img/illustrations/illus-page-title.svg
+pelican: true
 ---
 
 ## Best Practices

@@ -1,7 +1,7 @@
 ﻿---
 title: Button Container
 summary: The Button Container collects a series of related buttons at bottom of page.
-tags: button container
+tags: [components, button container]
 layout: guide
 eleventyNavigation:
   key: Button Container
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 70
   excerpt: The Button Container collects a series of related buttons at bottom of page.
   img: /img/illustrations/illus-button-container.svg
+pelican: true
 ---
 
 ## Best Practices

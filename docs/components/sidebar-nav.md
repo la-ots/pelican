@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 280
   excerpt: Contains and organizes all of the navigation for your web app.
   img: /img/illustrations/illus-sidebar-nav.svg
+pelican: true
 ---
 
 ## Best Practice

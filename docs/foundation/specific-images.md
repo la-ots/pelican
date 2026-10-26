@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Specific Images
   parent: Foundation
-  order: 12
+  order: 13
   excerpt: Specific guidelines for using images such as the State seal and logos.
   img: /img/illustrations/illus-images-specific.svg
 ---

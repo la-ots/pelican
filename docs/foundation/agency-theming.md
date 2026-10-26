@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Agency Theming
   parent: Foundation
-  order: 4
+  order: 5
   excerpt: Agencies have opportunity to reflect their own brand using Pelican.
   img: /img/illustrations/illus-agency-theme.svg
 eleventyExcludeFromCollections: true

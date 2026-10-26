@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 220
   excerpt: The Official Banner identifies official Louisiana Government websites.
   img: /img/illustrations/illus-official-banner.svg
+pelican: true
 ---
 
 ## Best Practices

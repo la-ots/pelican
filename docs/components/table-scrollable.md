@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 330
   excerpt: Scrollable tables allow users to compare and review large amounts of data unrestricted by window size.
   img: /img/illustrations/illus-table-scroll.png
+pelican: true
 ---
 
 ## Best Practice

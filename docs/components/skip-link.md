@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 290
   excerpt: Skip Links allow users to skip navigation elements and go straight to content.
   img: /img/illustrations/illus-skip-link.svg
+pelican: true
 ---
 
 {% for item in collections.all %}

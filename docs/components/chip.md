@@ -1,7 +1,7 @@
 ﻿---
 title: Chip
 summary: Chips allow users to see items added to or removed from a set.
-tags: components, chips
+tags: [components, chips]
 layout: guide
 eleventyNavigation:
   key: Chip
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 140
   excerpt: Chips allow users to see items added to or removed from a set.
   img: /img/illustrations/illus-chips.svg
+pelican: true
 ---
 
 ## Best Practices

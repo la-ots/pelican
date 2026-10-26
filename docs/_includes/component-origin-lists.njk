@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-6 col-lg-4">
+    <h3 class="h3">Bootstrap</h3>
+    <ul aria-labelledby="bs">
+      {%- for item in collections.componentsByOrder %}
+      {%- if item.data.pelican == nil %}
+      <li>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <h3 class="h3" id="p2">Pelican</h3>
+    <ul aria-labelledby="p2">
+      {%- for item in collections.componentsByOrder %}
+      {%- if item.data.pelican == true %}
+      <li>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ul>
+  </div>
+</div>

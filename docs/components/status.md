@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 300
   excerpt: Use Status to present concise messages about system or data status.
   img: /img/illustrations/illus-status.png
+pelican: true
 ---
 
 ## Best Practice

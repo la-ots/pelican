@@ -1,7 +1,7 @@
 ﻿---
 title: Breadcrumbs
 summary: Breadcrumbs show users where the current page is in relation to other pages on the site.
-tags: components, breadcrumbs
+tags: [components, breadcrumbs]
 layout: guide
 eleventyNavigation:
   key: Breadcrumbs

@@ -1,7 +1,7 @@
 ﻿---
 title: Add Data Button
 summary: Add Data Button allows users to add data to a set.
-tags: components, buttons
+tags: [components, buttons]
 layout: guide
 eleventyNavigation:
   key: Add Data Button
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 110
   excerpt: Add Data Button allows users to add data to a set.
   img: /img/illustrations/illus-button-add-data.svg
+pelican: true
 ---
 
 ## Best Practices

@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 270
   excerpt: Social Icons allow users to share the page with others.
   img: /img/illustrations/illus-share-social.svg
+pelican: true
 ---
 
 ## Best Practice

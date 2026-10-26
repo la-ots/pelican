@@ -1,7 +1,7 @@
 ﻿---
 title: Back to Top Button
 summary: The Back to Top Button allows users to return to the top of the page.
-tags: back to top button, required
+tags: [components, back to top button, required]
 layout: guide
 eleventyNavigation:
   key: Back to Top Button
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 90
   excerpt: The Back to Top Button allows users to return to the top of the page.
   img: /img/illustrations/illus-button-top.svg
+pelican: true
 ---
 
 ## Best Practices

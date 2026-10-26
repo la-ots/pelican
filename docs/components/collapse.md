@@ -1,7 +1,7 @@
 ﻿---
 title: Collapse
 summary: Collapses allow users to toggle the visibility of content.
-tags: components,collapse
+tags: [components, collapse]
 layout: guide
 eleventyNavigation:
   key: Collapse
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 150
   excerpt: Collapses allow users to toggle the visibility of content.
   img: /img/illustrations/illus-collapses.svg
+pelican: true
 ---
 
 ## Best Practices
