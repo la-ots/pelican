@@ -1,24 +1,38 @@
 <div class="row">
   <div class="col-12">
     <div class="progress">
-      <div class="progress-bar bg-success" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">38%</div>
-      <div class="progress-bar progress-bar-striped bg-warning text-black" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">62%</div>
+      <div class="progress-bar bg-success" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" aria-labelledby="completed">
+        <span id="completed" class="visually-hidden">Completed</span>
+        38%
+      </div>
+      <div class="progress-bar progress-bar-striped bg-warning text-black" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" aria-labelledby="remaining">
+        <span id="remaining" class="visually-hidden">Remaining</span>
+        62%
+      </div>
     </div>
   </div>
   <div class="col-12 mt-2">
     <div class="progress">
-      <div class="progress-bar bg-info" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0"
-        aria-valuemax="100">38%</div>
-      <div class="progress-bar progress-bar-striped bg-warning text-black" role="progressbar" style="width: 62%"
-        aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">62%</div>
+      <div class="progress-bar bg-info" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" aria-labelledby="inprogress">
+        <span id="inprogress" class="visually-hidden">In Progress</span>
+        38%
+      </div>
+      <div class="progress-bar progress-bar-striped bg-warning text-black" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" aria-labelledby="remaining-todo">
+        <span id="remaining-todo" class="visually-hidden">Remaining</span>
+        62%
+      </div>
     </div>
   </div>
   <div class="col-12 mt-2">
     <div class="progress">
-      <div class="progress-bar bg-danger" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0"
-        aria-valuemax="100">38%</div>
-      <div class="progress-bar progress-bar-striped bg-warning text-black" role="progressbar" style="width: 62%"
-        aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">62%</div>
+      <div class="progress-bar bg-danger" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" aria-labelledby="blocked">
+        <span id="blocked" class="visually-hidden">Blocked</span>
+        38%
+      </div>
+      <div class="progress-bar progress-bar-striped bg-warning text-black" role="progressbar" style="width: 62%" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" aria-labelledby="remains">
+        <span id="remains" class="visually-hidden">Remaining</span>
+        62%
+      </div>
     </div>
   </div>
 </div>
