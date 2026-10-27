@@ -9,7 +9,7 @@ layout: base.njk
     <div class="page-content d-flex flex-column">
       {% include "header.njk" %}
       {% include "breadcrumbs.njk" %}
-      <main id="main" class="main">          
+      <main id="main" class="main" tabindex="-1">          
         {{ content | safe }}
       </main>
       {% include "footer.njk" %}
