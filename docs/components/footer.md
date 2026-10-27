@@ -28,7 +28,9 @@ eleventyNavigation:
 
 **Utility Footer**
 
+{% assign hideBackToTop = true %}
 {% include 'markup/footer-utility.njk' %}
+{% assign hideBackToTop = false %}
 
 ```html
 {% include 'markup/footer-utility.njk' %}
