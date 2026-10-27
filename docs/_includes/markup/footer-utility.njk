@@ -44,5 +44,7 @@
     </div>
     <hr class="major">
   </div>
-  {% include "markup/button-back-to-top.njk" %}
+  {% if not hideBackToTop %}
+    {% include "markup/button-back-to-top.njk" %}
+  {% endif %}
 </footer>
