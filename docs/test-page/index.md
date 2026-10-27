@@ -304,7 +304,6 @@ index: true
             <p>Value</p>
           </div>
         </div>
-        {%- include 'markup/progress-small.njk' -%}
       </div>
       <div class="col-12 col-lg-4 mt-4 mt-lg-0">
         {%- include 'markup/share-social.njk' -%}
