@@ -20,6 +20,7 @@ eleventyNavigation:
 
 **Basic Footer**
 
+{% assign hideBackToTop = true %}
 {% include 'markup/footer-basic.njk' %}
 
 ```html
@@ -28,10 +29,10 @@ eleventyNavigation:
 
 **Utility Footer**
 
-{% assign hideBackToTop = true %}
 {% include 'markup/footer-utility.njk' %}
-{% assign hideBackToTop = false %}
 
 ```html
 {% include 'markup/footer-utility.njk' %}
 ```
+
+{% assign hideBackToTop = false %}
