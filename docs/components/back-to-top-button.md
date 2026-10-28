@@ -20,8 +20,6 @@ eleventyNavigation:
 
 ## Usage
 
-**Basic Footer**
-
 ```html
 {% include 'markup/button-back-to-top.njk' %}
 ```
