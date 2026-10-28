@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Links
   parent: Foundation
-  order: 7
+  order: 8
   excerpt: Links allow users to change locations.
   img: /img/illustrations/illus-links.svg
 ---

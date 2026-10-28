@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Brand Colors
   parent: Foundation
-  order: 1
+  order: 2
   excerpt: Pelican uses Brand colors to help define your own brand.
   img: /img/illustrations/illus-brand-colors.svg
 ---

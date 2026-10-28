@@ -1,7 +1,7 @@
 ﻿---
 title: App Screen
 summary: The App Screen is the container for your digital product.
-tags: basic view, sidenav, topbar
+tags: [components, basic view, sidenav, topbar]
 layout: guide
 eleventyNavigation:
   key: App Screen
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 20
   excerpt: The App Screen is the container for your digital product.
   img: /img/illustrations/illus-app-screen.svg
+pelican: true
 ---
 
 ## Best Practice

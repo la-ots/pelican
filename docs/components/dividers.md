@@ -1,7 +1,7 @@
 ﻿---
 title: Dividers
 summary: Dividers separate content into clear, meaningful groups.
-tags: components, dividers
+tags: [components, dividers]
 layout: guide
 eleventyNavigation:
   key: Dividers
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 160
   excerpt: Dividers separate content into clear, meaningful groups.
   img: /img/illustrations/illus-divider.svg
+pelican: true
 ---
 
 ## Best Practices

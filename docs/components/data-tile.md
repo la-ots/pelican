@@ -1,7 +1,7 @@
 ﻿---
 title: Data Tile
 summary: Data Tiles group related information about a category.
-tags: data tile, group, information
+tags: [components, data tile, group, information]
 layout: guide
 eleventyNavigation:
   key: Data Tile
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 155
   excerpt: Data Tiles group related information about a category.
   img: /img/illustrations/illus-data-tiles.svg
+pelican: true
 ---
 
 ## Best Practices

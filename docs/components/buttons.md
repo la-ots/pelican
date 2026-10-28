@@ -1,7 +1,7 @@
 ---
 title: Buttons
 summary: Buttons are interactive elements that trigger actions.
-tags: components, buttons
+tags: [components, buttons]
 layout: guide
 eleventyNavigation:
   key: Buttons

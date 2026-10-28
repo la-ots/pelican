@@ -1,7 +1,7 @@
 ---
 title: Content Container
 summary: Content Containers collect content into meaningful groups.
-tags: components, boxes, content container
+tags: [components, boxes, content container]
 layout: guide
 eleventyNavigation:
   key: Content Container
@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 152
   excerpt: Content Containers collect content into meaningful groups.
   img: /img/illustrations/illus-boxes.svg
+pelican: true
 ---
 
 ## Best Practice

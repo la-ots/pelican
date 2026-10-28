@@ -1,7 +1,7 @@
 ---
 title: Cards
 summary: Cards are containers for related content or information.
-tags: components, card
+tags: [components, card]
 layout: guide
 eleventyNavigation:
   key: Cards

@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 240
   excerpt: Pagination allows users to choose between viewable data sets.
   img: /img/illustrations/illus-pagination.svg
+pelican: true
 ---
 
 ## Best Practices

@@ -78,6 +78,14 @@ module.exports = (eleventyConfig) => {
       .filter((item) => (item.data || {}).excludeFromSidebar !== true);
   });
 
+  eleventyConfig.addCollection("componentsByOrder", (collection) => {
+    const order = (item) => item.data.eleventyNavigation?.order ?? Infinity;
+    return collection
+      .getFilteredByTag("components")
+      .filter((item) => item.filePathStem !== "/components/index")
+      .sort((a, b) => order(a) - order(b));
+  });
+
   eleventyConfig.addCollection("tagList", (collection) => {
     let tagSet = new Set();
     collection.getAll().forEach((item) => {

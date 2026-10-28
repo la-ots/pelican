@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: UI Colors
   parent: Foundation
-  order: 3
+  order: 4
   excerpt: Pelican uses UI colors to help define important interface cues.
   img: /img/illustrations/illus-ui-colors.svg
 ---

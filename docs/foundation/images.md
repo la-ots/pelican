@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Images
   parent: Foundation
-  order: 11
+  order: 12
   excerpt: Guidelines for including images in digital products.
   img: /img/illustrations/illus-images.svg
 ---

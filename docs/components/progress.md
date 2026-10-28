@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 260
   excerpt: Progress Indicators show users their place in a multi-step process.
   img: /img/illustrations/illus-progress-indicators.svg
+pelican: true
 ---
 
 ## Best Practices

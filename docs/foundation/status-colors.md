@@ -6,7 +6,7 @@ layout: guide
 eleventyNavigation:
   key: Status Colors
   parent: Foundation
-  order: 2
+  order: 3
   excerpt: Pelican uses Status colors to inform users about what is going on with the system.
   img: /img/illustrations/illus-status-colors.svg
 ---
