@@ -2,18 +2,17 @@
 layout: base.njk
 ---
 
-{% include 'markup/skip-link.njk' %}
 <div id="page-wrapper" class="page-wrapper">
+  {% include 'markup/skip-link.njk' %}
   {% include "sidebar.njk" %}
   <div id="wrapper-main" class="wrapper-main">
     <div class="page-content">
       {% include "header.njk" %}
       {% include "breadcrumbs.njk" %}
-      <main id="main" class="main" role="main">          
+      <main id="main" class="main" role="main" tabindex="-1">          
         {{ content | safe }}
       </main>
       {% include "footer.njk" %}
     </div>
   </div>
 </div>
-{% include 'markup/button-back-to-top.njk' %}
