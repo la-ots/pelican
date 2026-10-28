@@ -203,6 +203,12 @@
   border-color: transparent;
   box-shadow: none;
 }
+.sidebar-wrapper .sidebar-search #sidebar-site-search {
+  border-color: var(--theme-primary);
+  &::-webkit-search-cancel-button {
+    display: none;
+  }
+}
 .sidebar-wrapper .sidebar-header .user-info .user-role,
 .sidebar-wrapper .sidebar-header .user-info .user-status,
 .sidebar-wrapper .sidebar-search input.search-menu,
