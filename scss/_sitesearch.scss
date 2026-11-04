@@ -105,6 +105,12 @@
       min-width: 8.5rem;
     }
 
+    .search-results-per-page-form {
+      display: inline-flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
     .pagination {
       margin: 0;
     }

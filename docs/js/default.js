@@ -461,6 +461,7 @@ function renderSearchPagination(
 
   const form = document.createElement("form");
   form.setAttribute("action", "/search/");
+  form.className = "search-results-per-page-form";
   form.addEventListener("submit", (event) => event.preventDefault());
 
   const label = document.createElement("label");
@@ -490,14 +491,14 @@ function renderSearchPagination(
     window.location.href = buildSearchResultsUrl(query, 1, selectedPerPage);
   });
 
-  select.addEventListener("change", () => {
-    const selectedPerPage =
-      select.value === "all" ? "all" : Number.parseInt(select.value, 10);
-    window.location.href = buildSearchResultsUrl(query, 1, selectedPerPage);
-  });
+  const submitButton = document.createElement("button");
+  submitButton.type = "submit";
+  submitButton.className = "btn btn-outline-ui btn-sm";
+  submitButton.textContent = "Apply";
 
   form.appendChild(label);
   form.appendChild(select);
+  form.appendChild(submitButton);
   selectCol.appendChild(form);
   row.appendChild(selectCol);
 
