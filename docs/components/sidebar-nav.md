@@ -53,7 +53,7 @@ Use Sidebar Search as an optional child component inside the sidebar. It remains
 ### Implementation steps and advice
 
 1. Add the include directly under the sidebar brand and above `.sidebar-menu` for consistent spacing and reading order.
-2. Keep the `<form data-site-search>` attribute so Pelican search JavaScript can sync and submit query values.
+2. Set the form’s `action` to your application’s search endpoint, which must accept the `q` query parameter. This markup submits a native GET form; the distributed Pelican JavaScript does not provide a search endpoint or query synchronization. The `data-site-search` attribute is used only by this documentation site’s `docs/js/default.js` to synchronize inputs on its search results page.
 3. If more than one sidebar exists on a page, copy the optional search markup and use a unique id/`for` pair (for example `sidebar-site-search-secondary`) to keep label/input associations valid.
 
 4. Keep component styling in the SCSS/CSS pipeline (for example `scss/_sidebar.scss`); avoid page-level inline styles.
