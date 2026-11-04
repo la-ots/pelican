@@ -88,6 +88,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "toasts";
 @import "focus";
 @import "pagination";
+@import "sitesearch";
 @import "toc";
 @import "page-templates";
 
