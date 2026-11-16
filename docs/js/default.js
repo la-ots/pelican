@@ -493,7 +493,7 @@ function renderSearchPagination(
 
   const submitButton = document.createElement("button");
   submitButton.type = "submit";
-  submitButton.className = "btn btn-outline-ui btn-sm";
+  submitButton.className = "btn btn-outline-ui";
   submitButton.textContent = "Apply";
 
   form.appendChild(label);
@@ -563,7 +563,6 @@ function renderSearchPagination(
   const totalsCol = document.createElement("div");
   const totals = document.createElement("p");
   totals.className = "search-results-totals";
-  totals.setAttribute("aria-live", "polite");
   totals.textContent = `Showing ${startIndex + 1} to ${endIndex} of ${totalResults} items.`;
   totalsCol.appendChild(totals);
   row.appendChild(totalsCol);
