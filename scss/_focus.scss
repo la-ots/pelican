@@ -102,6 +102,11 @@ a {
   }
 }
 
+.sidebar-wrapper .sidebar-search button:focus {
+  @include focus-default;
+  border-color: transparent;
+}
+
 //change up the outline for closing buttons
 button.close {
   &:focus {

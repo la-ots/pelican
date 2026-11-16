@@ -1,0 +1,51 @@
+---
+layout: default.njk
+title: Search
+description: Find guidance and patterns across Pelican.
+summary: Find guidance and patterns across Pelican.
+eleventyExcludeFromCollections: true
+---
+
+{% include "page-title.njk" %}
+
+<section class="content-container content-area" aria-label="Page Content" data-pagefind-body>
+  <div class="container-fluid">
+    <div class="search-results-page">
+      <div id="pelicanSearchWrapper" class="search-results-wrapper" aria-busy="false">
+        <h2 class="search-results-heading">Results</h2>
+        <form action="/search/" role="search" method="GET" aria-label="Site search" data-site-search>
+          <div class="form-group mb-3">
+            <label for="pelicanSearchTerms" class="visually-hidden">
+              Search this site
+            </label>
+            <div class="input-group search-results-search">
+              <input
+                type="search"
+                class="form-control"
+                id="pelicanSearchTerms"
+                name="q"
+              >
+              <button
+                class="btn btn-outline-ui"
+                type="submit"
+                id="pelicanSearchButton"
+              >
+                <span class="icon fas fa-search" aria-hidden="true"></span>
+                Search
+              </button>
+            </div>
+          </div>
+        </form>
+        <div
+          id="pelicanSearchSummary"
+          class="search-results-summary"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        ></div>
+        <div id="pelicanSearchResultsList" class="search-results-list"></div>
+        <div id="pelicanSearchPagination" class="search-results-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>

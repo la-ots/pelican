@@ -30,3 +30,31 @@ The first child element of the `id=page-wrapper` is the Sidebar with Navigation.
 ```html
 {% include 'markup/sidebar-nav.njk' %}
 ```
+
+## Optional Sidebar Search
+
+Use Sidebar Search as an optional child component inside the sidebar. It remains enabled in Pelican’s internal sidebar by default, but product teams can choose whether to include it in their own implementation.
+
+### Add it to your sidebar
+
+```html
+<nav id="sidebar" class="sidebar-wrapper" aria-label="Sidebar">
+  <div class="sidebar-content">
+    <div class="sidebar-brand">
+      <a href="#" class="me-auto">Digital Product Name</a>
+    </div>
+    {% include 'markup/sidebar-search.njk' %}
+    <div class="sidebar-menu text-white">
+    <!-- navigation items -->
+    </div>
+  </div>
+</nav>
+```
+
+### Implementation steps and advice
+
+1. Add the include directly under the sidebar brand and above `.sidebar-menu` for consistent spacing and reading order.
+2. Set the form’s `action` to your application’s search endpoint, which must accept the `q` query parameter. This markup submits a native GET form; the distributed Pelican JavaScript does not provide a search endpoint or query synchronization. The `data-site-search` attribute is used only by this documentation site’s `docs/js/default.js` to synchronize inputs on its search results page.
+3. If more than one sidebar exists on a page, copy the optional search markup and use a unique id/`for` pair (for example `sidebar-site-search-secondary`) to keep label/input associations valid.
+
+4. Keep component styling in the SCSS/CSS pipeline (for example `scss/_sidebar.scss`); avoid page-level inline styles.
