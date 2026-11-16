@@ -84,9 +84,13 @@
 
     .search-results-pagination-layout {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
       gap: 1rem;
       align-items: center;
+
+      > * {
+        min-width: 0;
+      }
     }
 
     .search-results-per-page {
@@ -96,11 +100,17 @@
 
     .search-results-per-page-form {
       display: inline-flex;
+      flex-wrap: wrap;
       gap: 0.5rem;
       align-items: center;
     }
 
+    nav {
+      width: 100%;
+    }
+
     .pagination {
+      flex-wrap: wrap;
       margin: 0;
     }
 
