@@ -1,4 +1,7 @@
+// the classes could be replaced by things already in Pelican
+
 .search-results-page {
+  
   width: 100% !important;
   padding-top: 0.5rem;
   padding-bottom: 1.5rem;
@@ -13,14 +16,19 @@
     color: var(--theme-text-headings-color);
   }
 
+  // refer to markup
   .search-results-search {
+    // this could be replaced with a Bootstrap column class
     max-width: 360px;
 
     .form-control {
       border-right: 0;
+      // https://getbootstrap.com/docs/5.3/utilities/borders/
     }
 
+    
     .btn {
+      // do we need this?
       display: inline-flex;
       align-items: center;
       gap: 0.25rem;
@@ -29,10 +37,12 @@
   }
 
   .search-results-summary {
+    // this could be replaced with utility classes from Bootstrap
     margin-bottom: 1rem;
   }
 
   .search-results-divider {
+    // this could be replaced with the Pelican HR / divider
     margin: 0 0 1rem;
     background-color: #b6c1c3;
     height: 1px;
@@ -43,6 +53,7 @@
     padding-bottom: 0.5rem;
 
     .search-result-item {
+      // this could be replaced with the card component from Pelican
       margin-bottom: 0.875rem;
       border-radius: 0.25rem;
       background-color: #f7f8f8;
@@ -50,6 +61,7 @@
     }
 
     .search-result-title {
+      // this could be replaced with a .h5 class
       margin-bottom: 0.5rem;
       font-size: 1.75rem;
       line-height: 1.25;
@@ -64,6 +76,7 @@
     }
 
     .search-result-badge {
+      // this could be replaced with a badge component from Pelican
       border-radius: 999px;
       background-color: #586a6f;
       padding: 0.2rem 0.45rem;
@@ -74,11 +87,14 @@
     }
 
     .search-result-excerpt {
+      // this could be a <p> with a mb-0 class
       color: var(--theme-text-color);
     }
   }
 
   .search-results-pagination {
+
+    
     margin-top: 0.5rem;
     padding-top: 1rem;
 

@@ -5,6 +5,7 @@ description: Find guidance and patterns across Pelican.
 summary: Find guidance and patterns across Pelican.
 eleventyExcludeFromCollections: true
 ---
+<!-- let’s use frontmatter closer to other pages -->
 
 {% include "page-title.njk" %}
 
@@ -25,6 +26,7 @@ eleventyExcludeFromCollections: true
                   Search this site
                 </label>
                 <div class="input-group search-results-search">
+                  <!-- this could be replaced with a Bootstrap column class -->
                   <input
                     type="search"
                     class="form-control"
@@ -59,14 +61,19 @@ eleventyExcludeFromCollections: true
               aria-live="polite"
               aria-atomic="true"
             ></div>
-            <div id="pelicanSearchResultsList" class="search-results-list"></div>
-            <div id="pelicanSearchPagination" class="search-results-pagination"></div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12">
-
+          <!-- we could use the card component from Pelican as the card items in here -->
+          <div id="pelicanSearchResultsList" class="search-results-list"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <!-- this could be replaced with the Pelican pagination component -->
+          <div id="pelicanSearchPagination" class="search-results-pagination"></div>
         </div>
       </div>
     </div>
